@@ -34,6 +34,16 @@ make preview        # serve the site through wrangler locally, exactly as Cloudf
 make deploy         # wrangler deploy (the build hook runs `npm run build` first)
 ```
 
+### Looking at the map without the app
+
+```bash
+npx tsx scripts/dev/map-preview.ts new-england /tmp/map.svg   # writes a standalone SVG
+qlmanage -t -s 1200 -o /tmp /tmp/map.svg                       # renders it to PNG on macOS
+```
+
+Worth doing after any change to `src/lib/geo.ts` — projection bugs look fine in
+the numbers and obvious in the picture.
+
 ## Authoring content
 
 ```

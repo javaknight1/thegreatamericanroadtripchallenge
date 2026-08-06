@@ -23,7 +23,7 @@ export function DayHeader({ day, place }: { day: Day; place: string }) {
     <div className="relative h-52 overflow-hidden bg-chrome sm:h-64">
       <svg
         viewBox="0 0 100 60"
-        preserveAspectRatio="xMidYMax slice"
+        preserveAspectRatio="none"
         aria-hidden
         className="absolute inset-0 h-full w-full"
       >
@@ -34,11 +34,23 @@ export function DayHeader({ day, place }: { day: Day; place: string }) {
           </linearGradient>
         </defs>
         <rect width="100" height="60" fill={`url(#${gradientId})`} />
-        {art.disc && <circle cx={art.disc.cx} cy={art.disc.cy} r={art.disc.r} fill={art.disc.fill} opacity="0.9" />}
         {art.layers.map((layer, index) => (
           <path key={index} d={layer.d} fill={layer.fill} />
         ))}
       </svg>
+
+      {art.disc && (
+        <div
+          aria-hidden
+          className="absolute aspect-square -translate-x-1/2 -translate-y-1/2 rounded-full opacity-90"
+          style={{
+            left: `${art.disc.cx}%`,
+            top: `${(art.disc.cy / 60) * 100}%`,
+            height: `${(art.disc.r / 60) * 200}%`,
+            backgroundColor: art.disc.fill,
+          }}
+        />
+      )}
 
       <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-black/15 to-black/80" />
 

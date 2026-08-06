@@ -26,7 +26,7 @@ export function RegionHero({
 
   return (
     <div className="relative h-36 overflow-hidden rounded-xl sm:h-44">
-      <svg viewBox="0 0 100 36" preserveAspectRatio="xMidYMax slice" aria-hidden className="absolute inset-0 h-full w-full">
+      <svg viewBox="0 0 100 36" preserveAspectRatio="none" aria-hidden className="absolute inset-0 h-full w-full">
         <defs>
           <linearGradient id={gradientId} x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stopColor={scene.sky[0]} />
@@ -34,13 +34,23 @@ export function RegionHero({
           </linearGradient>
         </defs>
         <rect width="100" height="36" fill={`url(#${gradientId})`} />
-        {scene.disc && (
-          <circle cx={scene.disc.cx} cy={scene.disc.cy} r={scene.disc.r} fill={scene.disc.fill} opacity={0.9} />
-        )}
         {scene.layers.map((layer, index) => (
           <path key={index} d={layer.d} fill={layer.fill} opacity={layer.opacity} />
         ))}
       </svg>
+
+      {scene.disc && (
+        <div
+          aria-hidden
+          className="absolute aspect-square -translate-x-1/2 -translate-y-1/2 rounded-full opacity-90"
+          style={{
+            left: `${scene.disc.cx}%`,
+            top: `${(scene.disc.cy / 36) * 100}%`,
+            height: `${(scene.disc.r / 36) * 200}%`,
+            backgroundColor: scene.disc.fill,
+          }}
+        />
+      )}
 
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
 
