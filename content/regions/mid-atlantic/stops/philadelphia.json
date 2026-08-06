@@ -28,8 +28,8 @@
   ],
   "days": [
     {
-      "dayNumber": 23,
-      "label": "Day 23 — Independence & the Rocky Steps",
+      "dayNumber": 106,
+      "label": "Day 106 — Independence & the Rocky Steps",
       "type": "active",
       "summary": "The founding sites in the morning, art and a famous staircase after.",
       "blocks": [
@@ -96,8 +96,8 @@
       ]
     },
     {
-      "dayNumber": 24,
-      "label": "Day 24 — Free Day",
+      "dayNumber": 107,
+      "label": "Day 107 — Free Day",
       "type": "free",
       "summary": "Wander Old City and the Italian Market, or just rest before the capital.",
       "freeMenu": [
@@ -134,8 +134,8 @@
       ]
     },
     {
-      "dayNumber": 25,
-      "label": "Day 25 — Drive to Washington, DC",
+      "dayNumber": 108,
+      "label": "Day 108 — Drive to Washington, DC",
       "type": "commute",
       "summary": "The final leg of the Northeast, into the capital.",
       "commute": {

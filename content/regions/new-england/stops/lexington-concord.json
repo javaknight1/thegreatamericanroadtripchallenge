@@ -1,0 +1,94 @@
+{
+  "id": "lexington-concord",
+  "name": "Lexington & Concord",
+  "state": "MA",
+  "country": "US",
+  "order": 2,
+  "location": {
+    "lat": 42.4501,
+    "lng": -71.2289
+  },
+  "summary": "The 'shot heard round the world' — where the Revolution began — an easy half-hour from Boston, plus Thoreau's pond.",
+  "lodging": [
+    {
+      "name": "Stay in Boston or Concord",
+      "blurb": "Close enough to base in Boston; historic inns in Concord if you'd rather overnight.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Concord%20MA%20inns"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Colonial tavern fare in Concord",
+      "blurb": "Chowder and pot pie at a centuries-old tavern near the green."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 7,
+      "label": "Day 7 — Where the Revolution Began",
+      "type": "active",
+      "summary": "A short drive out of Boston to the battle road and Walden Pond.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "lexington-concord-minute-man",
+            "title": "Minute Man NHP & the Battle Road",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Minute Man National Historical Park",
+              "address": "250 N Great Rd, Lincoln, MA",
+              "lat": 42.455,
+              "lng": -71.265,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Minute%20Man%20National%20Historical%20Park"
+            },
+            "blurb": "Walk the battle road between Lexington and Concord where the Revolution's first shots were fired in April 1775.",
+            "gear": [
+              "walking shoes"
+            ]
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "end": "2:30 PM",
+          "item": {
+            "id": "lexington-concord-old-north-bridge",
+            "title": "Old North Bridge",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 60,
+            "location": {
+              "name": "Old North Bridge",
+              "address": "174 Liberty St, Concord, MA",
+              "lat": 42.4685,
+              "lng": -71.3517,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20North%20Bridge"
+            },
+            "blurb": "The Minute Man statue and the bridge of the 'shot heard round the world.'"
+          }
+        },
+        {
+          "start": "3:00 PM",
+          "item": {
+            "id": "lexington-concord-walden",
+            "title": "Walden Pond",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Walden Pond State Reservation",
+              "address": "915 Walden St, Concord, MA",
+              "lat": 42.439,
+              "lng": -71.3389,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Walden%20Pond%20State%20Reservation"
+            },
+            "blurb": "Thoreau's pond — a walk around the shore and the site of his cabin."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 12,
-      "label": "Day 12 — Mount Washington",
+      "dayNumber": 40,
+      "label": "Day 40 — Mount Washington",
       "type": "active",
       "summary": "Ride the world's first mountain-climbing cog railway to the roof of the Northeast.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 13,
-      "label": "Day 13 — Kancamagus & Franconia Notch",
+      "dayNumber": 41,
+      "label": "Day 41 — Kancamagus & Franconia Notch",
       "type": "active",
       "summary": "The most beautiful drive in New England during foliage.",
       "blocks": [
@@ -103,8 +103,8 @@
       ]
     },
     {
-      "dayNumber": 14,
-      "label": "Day 14 — Drive to Stowe, Vermont",
+      "dayNumber": 42,
+      "label": "Day 42 — Drive to Stowe, Vermont",
       "type": "commute",
       "summary": "West over the Connecticut River into the Green Mountains.",
       "commute": {

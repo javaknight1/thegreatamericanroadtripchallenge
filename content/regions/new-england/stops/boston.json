@@ -8,23 +8,23 @@
     "lat": 42.3601,
     "lng": -71.0589
   },
-  "summary": "The trip's opening act — colonial history, a ballgame, and chowder.",
-  "seasonalTip": "Arrive late September for a Red Sox game before the season ends.",
+  "summary": "Where the whole trip begins — colonial history, a ballgame at the oldest park in the majors, world-class museums, and a proper bowl of chowder.",
+  "seasonalTip": "Arrive late September so a Red Sox home game is still on the schedule before the regular season ends in early October.",
   "lodging": [
     {
       "name": "The Omni Parker House",
-      "blurb": "Oldest continuously operating hotel in the U.S.; birthplace of the Boston cream pie.",
+      "blurb": "Oldest continuously operating hotel in the country and birthplace of Boston cream pie, steps from the Freedom Trail.",
       "mapLink": "https://www.google.com/maps/search/?api=1&query=Omni%20Parker%20House%20Boston"
     }
   ],
   "foodMustTry": [
     {
       "name": "Clam chowder at Union Oyster House",
-      "blurb": "America's oldest restaurant; the New England classic done right."
+      "blurb": "America's oldest restaurant, serving the New England classic since 1826."
     },
     {
       "name": "A cannoli in the North End",
-      "blurb": "Mike's or Modern — pick a side, then eat one from each and decide for yourself."
+      "blurb": "Mike's vs. Modern is Boston's eternal argument — settle it yourself."
     }
   ],
   "days": [
@@ -32,36 +32,36 @@
       "dayNumber": 1,
       "label": "Day 1 — Freedom Trail & Fenway",
       "type": "active",
-      "summary": "History by day, a ballgame by night.",
+      "summary": "Colonial history by day, a ballgame by night.",
       "blocks": [
         {
           "start": "9:00 AM",
-          "end": "12:00 PM",
+          "end": "12:30 PM",
           "item": {
             "id": "boston-freedom-trail",
             "title": "Walk the Freedom Trail",
             "categoryId": "museums-history",
             "tier": "anchor",
-            "durationMins": 180,
+            "durationMins": 210,
             "location": {
-              "name": "Boston Common (start)",
+              "name": "Boston Common (trailhead)",
               "address": "139 Tremont St, Boston, MA",
               "lat": 42.3554,
               "lng": -71.0655,
-              "mapLink": "https://www.google.com/maps/search/?api=1&query=Freedom%20Trail%20Boston%20Common"
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Boston%20Common%20%28trailhead%29"
             },
-            "blurb": "A 2.5-mile red line through 16 colonial-era sites — the essential Boston primer, and the best possible first walk of the entire trip.",
+            "blurb": "A 2.5-mile red line through 16 Revolution-era sites, from the State House to the Old North Church — the essential Boston primer.",
             "gear": [
               "comfortable walking shoes"
             ]
           }
         },
         {
-          "start": "12:30 PM",
-          "end": "1:45 PM",
+          "start": "1:00 PM",
+          "end": "2:15 PM",
           "item": {
-            "id": "boston-union-oyster-house",
-            "title": "Chowder at Union Oyster House",
+            "id": "boston-union-oyster",
+            "title": "Lunch at Union Oyster House",
             "categoryId": "food-drink",
             "tier": "mid",
             "durationMins": 75,
@@ -69,39 +69,16 @@
               "name": "Union Oyster House",
               "address": "41 Union St, Boston, MA",
               "lat": 42.3617,
-              "lng": -71.0567,
-              "mapLink": "https://www.google.com/maps/search/?api=1&query=Union%20Oyster%20House%20Boston"
+              "lng": -71.0566,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Union%20Oyster%20House"
             },
-            "blurb": "Open since 1826 and sitting right on the Freedom Trail. Sit at the raw bar, order the chowder, keep moving."
-          }
-        },
-        {
-          "start": "2:30 PM",
-          "end": "4:30 PM",
-          "item": {
-            "id": "boston-north-end-walk",
-            "title": "Wander the North End",
-            "categoryId": "cities",
-            "tier": "mid",
-            "durationMins": 120,
-            "location": {
-              "name": "Hanover Street, North End",
-              "address": "Hanover St, Boston, MA",
-              "lat": 42.3647,
-              "lng": -71.0542,
-              "mapLink": "https://www.google.com/maps/search/?api=1&query=Hanover%20Street%20North%20End%20Boston"
-            },
-            "blurb": "Boston's Italian quarter: narrow streets, Paul Revere's house, and the cannoli argument you're about to settle.",
-            "gear": [
-              "comfortable walking shoes"
-            ]
+            "blurb": "Chowder and oysters at the oldest restaurant in America, right on the trail."
           }
         },
         {
           "start": "7:10 PM",
-          "end": "10:00 PM",
           "item": {
-            "id": "boston-fenway-redsox",
+            "id": "boston-fenway",
             "title": "Red Sox game at Fenway Park",
             "categoryId": "sports",
             "tier": "anchor",
@@ -113,7 +90,7 @@
               "lng": -71.0972,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Fenway%20Park"
             },
-            "blurb": "The oldest ballpark in the majors — catch the season before it closes in early October.",
+            "blurb": "The oldest ballpark in the majors (1912) — the Green Monster, a Fenway Frank, and a season-ending home game if the timing lands.",
             "gear": [
               "layers for evening chill"
             ]
@@ -123,15 +100,98 @@
     },
     {
       "dayNumber": 2,
-      "label": "Day 2 — Museums & the Charles",
+      "label": "Day 2 — Harbor & the North End",
       "type": "active",
-      "summary": "One great museum, one great river, one crossing into Cambridge.",
+      "summary": "The waterfront, the markets, and dinner in Little Italy.",
       "blocks": [
         {
-          "start": "9:30 AM",
-          "end": "12:00 PM",
+          "start": "10:00 AM",
+          "end": "11:30 AM",
           "item": {
-            "id": "boston-gardner-museum",
+            "id": "boston-harbor-cruise",
+            "title": "Boston Harbor sightseeing cruise",
+            "categoryId": "guided-tours",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Long Wharf",
+              "address": "66 Long Wharf, Boston, MA",
+              "lat": 42.3592,
+              "lng": -71.0497,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Long%20Wharf"
+            },
+            "blurb": "The skyline and harbor islands from the water — a relaxed way to read the city's geography."
+          }
+        },
+        {
+          "start": "12:00 PM",
+          "end": "2:00 PM",
+          "item": {
+            "id": "boston-faneuil-quincy",
+            "title": "Faneuil Hall & Quincy Market",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Faneuil Hall Marketplace",
+              "address": "4 S Market St, Boston, MA",
+              "lat": 42.36,
+              "lng": -71.0568,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Faneuil%20Hall%20Marketplace"
+            },
+            "blurb": "Historic marketplace with food stalls, street performers, and souvenir shopping."
+          }
+        },
+        {
+          "start": "6:00 PM",
+          "item": {
+            "id": "boston-north-end",
+            "title": "Dinner in the North End",
+            "categoryId": "food-drink",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Hanover Street, North End",
+              "address": "Hanover St, Boston, MA",
+              "lat": 42.3647,
+              "lng": -71.0542,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Hanover%20Street%2C%20North%20End"
+            },
+            "blurb": "Boston's Italian quarter — pasta, Paul Revere's house, and the cannoli showdown."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 3,
+      "label": "Day 3 — Museums",
+      "type": "active",
+      "summary": "Two of the best art museums in America, back to back.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "boston-mfa",
+            "title": "Museum of Fine Arts",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 180,
+            "location": {
+              "name": "Museum of Fine Arts",
+              "address": "465 Huntington Ave, Boston, MA",
+              "lat": 42.3394,
+              "lng": -71.0942,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Museum%20of%20Fine%20Arts"
+            },
+            "blurb": "One of the great encyclopedic collections in the U.S. — give it at least a half day."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "end": "5:00 PM",
+          "item": {
+            "id": "boston-gardner",
             "title": "Isabella Stewart Gardner Museum",
             "categoryId": "museums-history",
             "tier": "anchor",
@@ -143,71 +203,17 @@
               "lng": -71.0989,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Isabella%20Stewart%20Gardner%20Museum"
             },
-            "blurb": "A Venetian palazzo built around a courtyard — and the site of the largest unsolved art heist in history. The empty frames still hang where the stolen paintings were."
-          }
-        },
-        {
-          "slot": "Afternoon",
-          "item": {
-            "id": "boston-charles-esplanade",
-            "title": "Walk the Charles River Esplanade to Cambridge",
-            "categoryId": "outdoor-water",
-            "tier": "mid",
-            "durationMins": 120,
-            "location": {
-              "name": "Charles River Esplanade",
-              "address": "Storrow Dr, Boston, MA",
-              "lat": 42.3554,
-              "lng": -71.0872,
-              "mapLink": "https://www.google.com/maps/search/?api=1&query=Charles%20River%20Esplanade"
-            },
-            "blurb": "The city's front lawn: sailboats, skyline, and the bridge across to Harvard Square.",
-            "gear": [
-              "comfortable walking shoes"
-            ]
-          }
-        },
-        {
-          "slot": "Evening",
-          "item": {
-            "id": "boston-harvard-square",
-            "title": "Dinner and bookstores in Harvard Square",
-            "categoryId": "cities",
-            "tier": "mid",
-            "durationMins": 150,
-            "location": {
-              "name": "Harvard Square",
-              "address": "Harvard Square, Cambridge, MA",
-              "lat": 42.3736,
-              "lng": -71.1189,
-              "mapLink": "https://www.google.com/maps/search/?api=1&query=Harvard%20Square%20Cambridge"
-            },
-            "blurb": "Street musicians, the Harvard Book Store's basement, and dinner somewhere loud and cheap."
+            "blurb": "A Venetian palazzo around a courtyard — and site of the largest unsolved art heist in history; the empty frames still hang."
           }
         }
       ]
     },
     {
-      "dayNumber": 3,
-      "label": "Day 3 — Free Day",
+      "dayNumber": 4,
+      "label": "Day 4 — Free Day",
       "type": "free",
-      "summary": "Breathe. Sleep in, wander, catch up on laundry and life. Nothing here is required.",
+      "summary": "Sleep in, wander, catch up on life. A menu of optional ideas if you want them.",
       "freeMenu": [
-        {
-          "id": "boston-sam-adams-tour",
-          "title": "Samuel Adams Brewery tour",
-          "categoryId": "food-drink",
-          "tier": "low",
-          "durationMins": 90,
-          "location": {
-            "name": "Samuel Adams Boston Brewery",
-            "address": "30 Germania St, Boston, MA",
-            "lat": 42.3115,
-            "lng": -71.1043,
-            "mapLink": "https://www.google.com/maps/search/?api=1&query=Samuel%20Adams%20Boston%20Brewery"
-          },
-          "blurb": "If you feel like it — a low-key tasting in Jamaica Plain."
-        },
         {
           "id": "boston-uss-constitution",
           "title": "USS Constitution",
@@ -222,32 +228,147 @@
             "mapLink": "https://www.google.com/maps/search/?api=1&query=USS%20Constitution"
           },
           "blurb": "\"Old Ironsides\" — the oldest commissioned warship afloat, still crewed by the Navy."
+        },
+        {
+          "id": "boston-public-library",
+          "title": "Boston Public Library",
+          "categoryId": "landmarks",
+          "tier": "low",
+          "durationMins": 60,
+          "location": {
+            "name": "Boston Public Library",
+            "address": "700 Boylston St, Boston, MA",
+            "lat": 42.3494,
+            "lng": -71.0782,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Boston%20Public%20Library"
+          },
+          "blurb": "The palatial Copley Square library — courtyard, murals, and Bates Hall."
+        },
+        {
+          "id": "boston-sam-adams",
+          "title": "Samuel Adams Brewery tour",
+          "categoryId": "food-drink",
+          "tier": "low",
+          "durationMins": 90,
+          "location": {
+            "name": "Samuel Adams Boston Brewery",
+            "address": "30 Germania St, Boston, MA",
+            "lat": 42.3115,
+            "lng": -71.1043,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Samuel%20Adams%20Boston%20Brewery"
+          },
+          "blurb": "A low-key tasting in Jamaica Plain."
         }
       ]
     },
     {
-      "dayNumber": 4,
-      "label": "Day 4 — Drive to Portland, Maine",
-      "type": "commute",
-      "summary": "Short coastal hop north. Take the slow road.",
-      "commute": {
-        "from": "Boston, MA",
-        "to": "Portland, ME",
-        "driveTimeMins": 115,
-        "scenicNote": "Coastal Route 1 adds an hour but trades the highway for lighthouses, clam shacks, and the first real taste of Maine.",
-        "stopsAlongWay": [
-          {
-            "title": "Nubble Lighthouse, York",
-            "blurb": "One of the most photographed lighthouses in the country, sitting on its own tiny island.",
-            "mapLink": "https://www.google.com/maps/search/?api=1&query=Nubble%20Lighthouse%20York%20Maine"
-          },
-          {
-            "title": "Bob's Clam Hut, Kittery",
-            "blurb": "Fried clams at the Maine state line since 1956. This is lunch.",
-            "mapLink": "https://www.google.com/maps/search/?api=1&query=Bob%27s%20Clam%20Hut%20Kittery"
+      "dayNumber": 5,
+      "label": "Day 5 — Beacon Hill & the Public Garden",
+      "type": "active",
+      "summary": "Cobblestones, swan boats, and Boston's best shopping street.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "11:30 AM",
+          "item": {
+            "id": "boston-beacon-hill",
+            "title": "Beacon Hill & Acorn Street",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Acorn Street",
+              "address": "Acorn St, Boston, MA",
+              "lat": 42.3583,
+              "lng": -71.0693,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Acorn%20Street"
+            },
+            "blurb": "Gaslit brick lanes and the most-photographed street in the city."
           }
-        ]
-      }
+        },
+        {
+          "start": "12:00 PM",
+          "end": "1:30 PM",
+          "item": {
+            "id": "boston-public-garden",
+            "title": "Boston Public Garden & Swan Boats",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Boston Public Garden",
+              "address": "4 Charles St, Boston, MA",
+              "lat": 42.3541,
+              "lng": -71.0704,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Boston%20Public%20Garden"
+            },
+            "blurb": "America's first public botanical garden, with the pedal-powered swan boats on the lagoon."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "boston-newbury-st",
+            "title": "Shopping on Newbury Street",
+            "categoryId": "shopping",
+            "tier": "low",
+            "durationMins": 120,
+            "location": {
+              "name": "Newbury Street",
+              "address": "Newbury St, Boston, MA",
+              "lat": 42.3505,
+              "lng": -71.081,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Newbury%20Street"
+            },
+            "blurb": "Eight blocks of brownstone boutiques in Back Bay."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 6,
+      "label": "Day 6 — Cambridge",
+      "type": "active",
+      "summary": "Cross the river to Harvard and MIT.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "boston-harvard",
+            "title": "Harvard Yard & Harvard Square",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Harvard Yard",
+              "address": "Harvard Yard, Cambridge, MA",
+              "lat": 42.3744,
+              "lng": -71.1169,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Harvard%20Yard"
+            },
+            "blurb": "The oldest university in the country, its museums, and the bookshops and buskers of the Square."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "boston-mit",
+            "title": "MIT campus & the MIT Museum",
+            "categoryId": "museums-history",
+            "tier": "low",
+            "durationMins": 120,
+            "location": {
+              "name": "MIT Museum",
+              "address": "314 Main St, Cambridge, MA",
+              "lat": 42.3626,
+              "lng": -71.0908,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=MIT%20Museum"
+            },
+            "blurb": "Great Dome, quirky architecture, and a museum of robots and holograms."
+          }
+        }
+      ]
     }
   ]
 }

@@ -8,131 +8,110 @@
     "lat": 43.6591,
     "lng": -70.2568
   },
-  "summary": "Working waterfront, lighthouses, and arguably the best food per square mile in America.",
-  "seasonalTip": "Early October: the harbor is still open for cruises and the crowds have gone home.",
+  "summary": "New England's best small food city — a working waterfront, cobblestone Old Port, lighthouses, and lobster every which way.",
   "lodging": [
     {
       "name": "The Press Hotel",
-      "blurb": "The old Portland Press Herald building — newsroom bones, typewriter details in the lobby.",
+      "blurb": "A boutique hotel in the former Portland Press Herald building — central to the Old Port.",
       "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Press%20Hotel%20Portland%20Maine"
     }
   ],
   "foodMustTry": [
     {
-      "name": "Brown-butter lobster roll at Eventide Oyster Co.",
-      "blurb": "The one that changed what a lobster roll could be. Served on a steamed bao-style bun."
+      "name": "Lobster roll at Eventide Oyster Co.",
+      "blurb": "The brown-butter lobster roll on a steamed bun that reset the standard."
     },
     {
-      "name": "A donut from The Holy Donut",
-      "blurb": "Made with Maine potato. Sounds wrong, tastes right."
+      "name": "A Holy Donut potato doughnut",
+      "blurb": "Maine potato in the dough makes them absurdly good."
     }
   ],
   "days": [
     {
-      "dayNumber": 5,
-      "label": "Day 5 — Lighthouses & the Old Port",
+      "dayNumber": 25,
+      "label": "Day 25 — Old Port & the Head Light",
       "type": "active",
-      "summary": "Sunrise at the most painted lighthouse in America, then eat your way through the Old Port.",
+      "summary": "Wander the waterfront, then chase Maine's most famous lighthouse.",
       "blocks": [
         {
-          "start": "7:00 AM",
-          "end": "9:00 AM",
+          "start": "10:30 AM",
+          "end": "12:30 PM",
           "item": {
-            "id": "portland-head-light",
-            "title": "Sunrise at Portland Head Light",
+            "id": "portland-maine-old-port",
+            "title": "Explore the Old Port",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Old Port, Portland",
+              "address": "Exchange St, Portland, ME",
+              "lat": 43.657,
+              "lng": -70.251,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20Port%2C%20Portland"
+            },
+            "blurb": "Cobblestone streets of indie shops, roasters, and galleries — good for trinkets and souvenirs."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "portland-maine-head-light",
+            "title": "Portland Head Light & Fort Williams Park",
             "categoryId": "landmarks",
             "tier": "anchor",
             "durationMins": 120,
             "location": {
-              "name": "Portland Head Light, Fort Williams Park",
+              "name": "Portland Head Light",
               "address": "12 Captain Strout Cir, Cape Elizabeth, ME",
               "lat": 43.6231,
-              "lng": -70.2078,
+              "lng": -70.2079,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Portland%20Head%20Light"
             },
-            "blurb": "Commissioned by George Washington, lit since 1791, and the single most photographed lighthouse in the country. Go at sunrise and it's yours alone.",
+            "blurb": "Commissioned by George Washington and standing since 1791 — the classic Maine postcard, with cliff walks around the fort.",
             "gear": [
-              "layers for coastal wind",
-              "camera"
-            ]
-          }
-        },
-        {
-          "start": "12:00 PM",
-          "end": "1:30 PM",
-          "item": {
-            "id": "portland-eventide-lobster-roll",
-            "title": "Lobster roll at Eventide Oyster Co.",
-            "categoryId": "food-drink",
-            "tier": "anchor",
-            "durationMins": 90,
-            "location": {
-              "name": "Eventide Oyster Co.",
-              "address": "86 Middle St, Portland, ME",
-              "lat": 43.6591,
-              "lng": -70.2519,
-              "mapLink": "https://www.google.com/maps/search/?api=1&query=Eventide%20Oyster%20Co%20Portland"
-            },
-            "blurb": "Brown butter, warm bun, a dozen oysters on ice off the granite trough. Expect a wait; it's worth it."
-          }
-        },
-        {
-          "slot": "Afternoon",
-          "item": {
-            "id": "portland-old-port-walk",
-            "title": "Wander the Old Port",
-            "categoryId": "cities",
-            "tier": "mid",
-            "durationMins": 150,
-            "location": {
-              "name": "Old Port",
-              "address": "Commercial St, Portland, ME",
-              "lat": 43.6555,
-              "lng": -70.2531,
-              "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20Port%20Portland%20Maine"
-            },
-            "blurb": "Cobblestones, ship chandlers turned bookshops, and a harbor that still works for a living.",
-            "gear": [
-              "comfortable walking shoes"
+              "light jacket (coastal wind)"
             ]
           }
         }
       ]
     },
     {
-      "dayNumber": 6,
-      "label": "Day 6 — Casco Bay",
+      "dayNumber": 26,
+      "label": "Day 26 — Casco Bay",
       "type": "active",
-      "summary": "Out on the water with the mail boat, back on land for art.",
+      "summary": "Out onto the water among the islands.",
       "blocks": [
         {
           "start": "10:00 AM",
-          "end": "1:00 PM",
           "item": {
-            "id": "portland-casco-bay-mailboat",
-            "title": "Casco Bay mail boat run",
+            "id": "portland-maine-casco-bay",
+            "title": "Casco Bay mailboat cruise",
             "categoryId": "outdoor-water",
-            "tier": "anchor",
+            "tier": "mid",
             "durationMins": 180,
             "location": {
               "name": "Casco Bay Lines Ferry Terminal",
               "address": "56 Commercial St, Portland, ME",
-              "lat": 43.6565,
-              "lng": -70.2497,
+              "lat": 43.656,
+              "lng": -70.248,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Casco%20Bay%20Lines%20Ferry%20Terminal"
             },
-            "blurb": "Ride along as the ferry delivers mail to the island communities — the cheapest, most local boat tour in New England.",
-            "gear": [
-              "rain shell",
-              "layers for coastal wind",
-              "binoculars"
-            ]
+            "blurb": "Ride the working mailboat run through the Calendar Islands — seals, lighthouses, and lobster boats."
           }
-        },
+        }
+      ]
+    },
+    {
+      "dayNumber": 27,
+      "label": "Day 27 — Art & Food",
+      "type": "active",
+      "summary": "A great small museum and a proper eating day.",
+      "blocks": [
         {
-          "slot": "Afternoon",
+          "start": "10:00 AM",
+          "end": "12:00 PM",
           "item": {
-            "id": "portland-museum-of-art",
+            "id": "portland-maine-museum-of-art",
             "title": "Portland Museum of Art",
             "categoryId": "museums-history",
             "tier": "mid",
@@ -140,55 +119,43 @@
             "location": {
               "name": "Portland Museum of Art",
               "address": "7 Congress Sq, Portland, ME",
-              "lat": 43.6541,
-              "lng": -70.2601,
-              "mapLink": "https://www.google.com/maps/search/?api=1&query=Portland%20Museum%20of%20Art%20Maine"
+              "lat": 43.6547,
+              "lng": -70.262,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Portland%20Museum%20of%20Art"
             },
-            "blurb": "Winslow Homer's Maine, plus the Wyeths — the coast you just stood on, painted."
+            "blurb": "Winslow Homer, Wyeth, and a strong American and Maine collection."
           }
         },
         {
-          "slot": "Evening",
+          "start": "1:00 PM",
           "item": {
-            "id": "portland-holy-donut",
-            "title": "Potato donuts at The Holy Donut",
+            "id": "portland-maine-food-crawl",
+            "title": "Old Port food crawl",
             "categoryId": "food-drink",
-            "tier": "low",
-            "durationMins": 30,
+            "tier": "anchor",
+            "durationMins": 150,
             "location": {
-              "name": "The Holy Donut",
-              "address": "177 Commercial St, Portland, ME",
-              "lat": 43.6553,
-              "lng": -70.2569,
-              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Holy%20Donut%20Portland"
+              "name": "Eventide Oyster Co.",
+              "address": "86 Middle St, Portland, ME",
+              "lat": 43.6595,
+              "lng": -70.251,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Eventide%20Oyster%20Co."
             },
-            "blurb": "Dense, glazed, faintly savory. Get the dark chocolate sea salt and one maple bacon for the road."
+            "blurb": "Eventide oysters, Duckfat's duck-fat fries, and a Holy Donut — Portland's greatest hits."
           }
         }
       ]
     },
     {
-      "dayNumber": 7,
-      "label": "Day 7 — Drive up the coast to Acadia",
+      "dayNumber": 28,
+      "label": "Day 28 — Inland to the capital",
       "type": "commute",
-      "summary": "Three hours north, but only if you refuse to stop. You will stop.",
+      "summary": "Leave the coast for Maine's capital on the Kennebec.",
       "commute": {
         "from": "Portland, ME",
-        "to": "Bar Harbor, ME",
-        "driveTimeMins": 180,
-        "scenicNote": "US-1 through Camden and Belfast is the postcard route; I-95 is an hour faster and worth nothing.",
-        "stopsAlongWay": [
-          {
-            "title": "Camden Hills State Park",
-            "blurb": "Drive to the top of Mount Battie for the harbor view that put Camden on every calendar.",
-            "mapLink": "https://www.google.com/maps/search/?api=1&query=Camden%20Hills%20State%20Park"
-          },
-          {
-            "title": "Red's Eats, Wiscasset",
-            "blurb": "A roadside shack with a famous line and a full lobster's worth of meat in every roll.",
-            "mapLink": "https://www.google.com/maps/search/?api=1&query=Red%27s%20Eats%20Wiscasset"
-          }
-        ]
+        "to": "Augusta, ME",
+        "driveTimeMins": 65,
+        "scenicNote": "North on I-95 into the interior — the coast gives way to river towns."
       }
     }
   ]

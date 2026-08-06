@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 8,
-      "label": "Day 8 — Cadillac Sunrise & Park Loop",
+      "dayNumber": 35,
+      "label": "Day 35 — Cadillac Sunrise & Park Loop",
       "type": "active",
       "summary": "Beat the sun to the summit, then drive the park's greatest hits.",
       "blocks": [
@@ -74,8 +74,8 @@
       ]
     },
     {
-      "dayNumber": 9,
-      "label": "Day 9 — Carriage Roads & Jordan Pond",
+      "dayNumber": 36,
+      "label": "Day 36 — Carriage Roads & Jordan Pond",
       "type": "active",
       "summary": "Car-free roads, stone bridges, and popovers at the end.",
       "blocks": [
@@ -104,8 +104,8 @@
       ]
     },
     {
-      "dayNumber": 10,
-      "label": "Day 10 — Free Day",
+      "dayNumber": 37,
+      "label": "Day 37 — Free Day",
       "type": "free",
       "summary": "Rest, kayak, or just read on the rocks. Optional ideas below.",
       "freeMenu": [
@@ -142,8 +142,8 @@
       ]
     },
     {
-      "dayNumber": 11,
-      "label": "Day 11 — Drive to the White Mountains",
+      "dayNumber": 38,
+      "label": "Day 38 — Drive to the White Mountains",
       "type": "commute",
       "summary": "Trade the coast for New Hampshire's high country.",
       "commute": {

@@ -117,7 +117,10 @@ export default async function RegionPage({
           ) : (
             <>
               <StatTile value={plan?.plannedStops ?? 0} label="Stops planned" />
-              <StatTile value={`~${plan?.plannedDays ?? 0}`} label="Days planned" />
+              <StatTile
+                value={`~${plan?.plannedDays ?? 0}`}
+                label="Days planned"
+              />
               <StatTile
                 value={new Set(plan?.stops.map((stop) => stop.state)).size}
                 label="States"
@@ -138,36 +141,52 @@ export default async function RegionPage({
           </section>
         )}
 
-        {plan && region.stops.length === 0 && (
-          <section className="mt-8">
-            <div className="flex flex-wrap items-baseline gap-x-3">
-              <h2 className="font-display text-xl tracking-wide uppercase">
-                Planned stops
-              </h2>
-              <p className="font-mono text-[10.5px] text-muted">
-                {plan.plannedStops} stops · ~{plan.plannedDays} days
-              </p>
-            </div>
-            <ol className="mt-4 divide-y divide-hairline border-y border-hairline">
-              {plan.stops.map((stop) => (
-                <li key={stop.id} className="flex items-center gap-3 py-2.5">
-                  <span className="w-6 shrink-0 font-mono text-[10px] text-muted">
-                    {stop.order}
-                  </span>
-                  <span className="font-cond text-[15px] font-bold tracking-wide uppercase">
-                    {stop.name}
-                  </span>
-                  <span className="font-mono text-[10px] text-muted">
-                    {stop.state}
-                  </span>
-                  <span className="ml-auto font-mono text-[10px] whitespace-nowrap text-muted">
-                    ~{stop.plannedDays}d
-                  </span>
-                </li>
-              ))}
-            </ol>
-          </section>
-        )}
+        {plan &&
+          (() => {
+            const remaining = plan.stops.filter(
+              (stop) => !plan.authored.has(stop.id),
+            );
+            if (remaining.length === 0) return null;
+            const written = region.stops.length > 0;
+            return (
+              <section className="mt-8">
+                <div className="flex flex-wrap items-baseline gap-x-3">
+                  <h2 className="font-display text-xl tracking-wide uppercase">
+                    {written ? "Still to come" : "Planned stops"}
+                  </h2>
+                  <p className="font-mono text-[10.5px] text-muted">
+                    {remaining.length} of {plan.plannedStops} stops · ~
+                    {remaining.reduce(
+                      (total, stop) => total + stop.plannedDays,
+                      0,
+                    )}{" "}
+                    days
+                  </p>
+                </div>
+                <ol className="mt-4 divide-y divide-hairline border-y border-hairline">
+                  {remaining.map((stop) => (
+                    <li
+                      key={stop.id}
+                      className="flex items-center gap-3 py-2.5"
+                    >
+                      <span className="w-6 shrink-0 font-mono text-[10px] text-muted">
+                        {stop.order}
+                      </span>
+                      <span className="font-cond text-[15px] font-bold tracking-wide uppercase">
+                        {stop.name}
+                      </span>
+                      <span className="font-mono text-[10px] text-muted">
+                        {stop.state}
+                      </span>
+                      <span className="ml-auto font-mono text-[10px] whitespace-nowrap text-muted">
+                        ~{stop.plannedDays}d
+                      </span>
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            );
+          })()}
 
         {region.stops.length > 0 && (
           <section className="mt-8">

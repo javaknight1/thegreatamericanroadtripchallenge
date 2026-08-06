@@ -1,0 +1,223 @@
+{
+  "id": "cape-cod",
+  "name": "Cape Cod",
+  "state": "MA",
+  "country": "US",
+  "order": 5,
+  "location": {
+    "lat": 41.6688,
+    "lng": -70.2962
+  },
+  "summary": "Seventy miles of dune, beach, and shingled village — Kennedy history, whale-rich waters, and Provincetown at the tip.",
+  "lodging": [
+    {
+      "name": "A shingled inn in Chatham or Provincetown",
+      "blurb": "Chatham for classic Cape charm; P-town for the lively end of the peninsula.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Chatham%20Cape%20Cod%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Fried clams & a lobster roll",
+      "blurb": "A roadside clam shack is the Cape Cod ritual."
+    },
+    {
+      "name": "A P-town lobster dinner",
+      "blurb": "Fresh off the boat on the Provincetown waterfront."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 13,
+      "label": "Day 13 — Hyannis & Kennedy country",
+      "type": "active",
+      "summary": "The mid-Cape and the Kennedy legacy.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "11:30 AM",
+          "item": {
+            "id": "cape-cod-jfk-museum",
+            "title": "John F. Kennedy Hyannis Museum",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "JFK Hyannis Museum",
+              "address": "397 Main St, Hyannis, MA",
+              "lat": 41.6526,
+              "lng": -70.2827,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=JFK%20Hyannis%20Museum"
+            },
+            "blurb": "The Kennedy family's summers on the Cape, steps from the compound in Hyannis Port."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "cape-cod-sandwich",
+            "title": "Historic Sandwich & the boardwalk",
+            "categoryId": "cities",
+            "tier": "low",
+            "durationMins": 120,
+            "location": {
+              "name": "Sandwich, MA",
+              "address": "Sandwich, MA",
+              "lat": 41.759,
+              "lng": -70.4939,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Sandwich%2C%20MA"
+            },
+            "blurb": "The Cape's oldest town — glass museum, gristmill, and a long marsh boardwalk."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 14,
+      "label": "Day 14 — The National Seashore",
+      "type": "active",
+      "summary": "Forty miles of protected Atlantic shore.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "cape-cod-national-seashore",
+            "title": "Cape Cod National Seashore",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Cape Cod National Seashore",
+              "address": "Marconi Beach Rd, Wellfleet, MA",
+              "lat": 41.912,
+              "lng": -69.97,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Cape%20Cod%20National%20Seashore"
+            },
+            "blurb": "Wild dune beaches, salt marsh, and cycling trails along the Atlantic — an unspoiled 40-mile stretch.",
+            "gear": [
+              "beach gear",
+              "bike optional"
+            ]
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "cape-cod-nauset-light",
+            "title": "Nauset Light & Coast Guard Beach",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Nauset Light Beach",
+              "address": "Ocean View Dr, Eastham, MA",
+              "lat": 41.859,
+              "lng": -69.952,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Nauset%20Light%20Beach"
+            },
+            "blurb": "The iconic red-and-white lighthouse above a dramatic bluff."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 15,
+      "label": "Day 15 — Provincetown",
+      "type": "active",
+      "summary": "The lively, artsy tip of the Cape and its whale-rich bay.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "cape-cod-whale-watch",
+            "title": "Provincetown whale watch",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "MacMillan Pier",
+              "address": "MacMillan Pier, Provincetown, MA",
+              "lat": 42.05,
+              "lng": -70.183,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=MacMillan%20Pier"
+            },
+            "blurb": "Stellwagen Bank is one of the best whale-watching grounds on the East Coast — humpbacks and finbacks feed close in."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "cape-cod-ptown",
+            "title": "Commercial Street & the Pilgrim Monument",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Pilgrim Monument",
+              "address": "1 High Pole Hill Rd, Provincetown, MA",
+              "lat": 42.053,
+              "lng": -70.186,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Pilgrim%20Monument"
+            },
+            "blurb": "Climb the tallest all-granite tower in the U.S., then browse P-town's galleries and shops."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 16,
+      "label": "Day 16 — Free / Beach Day",
+      "type": "free",
+      "summary": "A true Cape day off — sand, a book, and a bike ride if you feel like it.",
+      "freeMenu": [
+        {
+          "id": "cape-cod-rail-trail",
+          "title": "Cape Cod Rail Trail",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 120,
+          "location": {
+            "name": "Cape Cod Rail Trail",
+            "address": "Cape Cod Rail Trail, Dennis, MA",
+            "lat": 41.73,
+            "lng": -70.19,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Cape%20Cod%20Rail%20Trail"
+          },
+          "blurb": "A flat 25-mile bike path through cranberry bogs and pine woods.",
+          "gear": [
+            "bike"
+          ]
+        },
+        {
+          "id": "cape-cod-chatham",
+          "title": "Chatham village & lighthouse",
+          "categoryId": "shopping",
+          "tier": "low",
+          "durationMins": 120,
+          "location": {
+            "name": "Chatham Lighthouse",
+            "address": "37 Main St, Chatham, MA",
+            "lat": 41.6714,
+            "lng": -69.95,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Chatham%20Lighthouse"
+          },
+          "blurb": "Main Street shops and the seal-dotted beach below the light."
+        }
+      ]
+    },
+    {
+      "dayNumber": 17,
+      "label": "Day 17 — Ferry to the Islands",
+      "type": "commute",
+      "summary": "Leave the car and take the fast ferry out to Nantucket.",
+      "commute": {
+        "from": "Hyannis, MA",
+        "to": "Nantucket, MA",
+        "driveTimeMins": 60,
+        "scenicNote": "High-speed ferry from Hyannis; leave the car on the mainland and get around by bike and shuttle on-island."
+      }
+    }
+  ]
+}

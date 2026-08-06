@@ -1,0 +1,94 @@
+{
+  "id": "plymouth",
+  "name": "Plymouth",
+  "state": "MA",
+  "country": "US",
+  "order": 4,
+  "location": {
+    "lat": 41.9584,
+    "lng": -70.6673
+  },
+  "summary": "America's hometown — the Rock, the Mayflower, and a living-history village.",
+  "lodging": [
+    {
+      "name": "A harbor inn in Plymouth",
+      "blurb": "Stay near the waterfront and Pilgrim Memorial State Park.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Plymouth%20MA%20waterfront%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A lobster roll on the harbor",
+      "blurb": "Cold-with-mayo or warm-with-butter, waterside."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 11,
+      "label": "Day 11 — Pilgrim Plymouth",
+      "type": "active",
+      "summary": "Rock, ship, and a re-created 1620s village.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "12:00 PM",
+          "item": {
+            "id": "plymouth-rock-mayflower",
+            "title": "Plymouth Rock & Mayflower II",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Plymouth Rock",
+              "address": "79 Water St, Plymouth, MA",
+              "lat": 41.9583,
+              "lng": -70.662,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Plymouth%20Rock"
+            },
+            "blurb": "The famous (surprisingly small) rock, and a full-scale reproduction of the Mayflower moored alongside."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "plymouth-patuxet",
+            "title": "Plimoth Patuxet Museums",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Plimoth Patuxet Museums",
+              "address": "137 Warren Ave, Plymouth, MA",
+              "lat": 41.933,
+              "lng": -70.6403,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Plimoth%20Patuxet%20Museums"
+            },
+            "blurb": "A living-history village where costumed interpreters recreate the 1627 colony and a Wampanoag homesite.",
+            "gear": [
+              "walking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 12,
+      "label": "Day 12 — Drive to Cape Cod",
+      "type": "commute",
+      "summary": "Over the canal onto the Cape.",
+      "commute": {
+        "from": "Plymouth, MA",
+        "to": "Cape Cod, MA",
+        "driveTimeMins": 60,
+        "scenicNote": "Cross the Sagamore Bridge onto the Cape.",
+        "stopsAlongWay": [
+          {
+            "title": "Sagamore Bridge & the Cape Cod Canal",
+            "blurb": "Stretch your legs on the canal bike path.",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Cape%20Cod%20Canal%20Sagamore"
+          }
+        ]
+      }
+    }
+  ]
+}

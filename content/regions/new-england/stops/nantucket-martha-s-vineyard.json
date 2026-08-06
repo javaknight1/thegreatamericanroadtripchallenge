@@ -1,0 +1,135 @@
+{
+  "id": "nantucket-martha-s-vineyard",
+  "name": "Nantucket & Martha's Vineyard",
+  "state": "MA",
+  "country": "US",
+  "order": 6,
+  "location": {
+    "lat": 41.2835,
+    "lng": -70.0995
+  },
+  "summary": "Two very different islands — Nantucket's whaling-era cobblestones and the Vineyard's gingerbread cottages and clay cliffs.",
+  "lodging": [
+    {
+      "name": "A guesthouse in Nantucket Town / Edgartown",
+      "blurb": "Both walkable harbor towns; book well ahead in season.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Nantucket%20Town%20guesthouse"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Bay scallops & oysters",
+      "blurb": "Nantucket bay scallops are prized nationwide; slurp local oysters raw."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 18,
+      "label": "Day 18 — Nantucket",
+      "type": "active",
+      "summary": "The grey-shingled island 30 miles out to sea.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "nantucket-town",
+            "title": "Nantucket Town & the Whaling Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Nantucket Whaling Museum",
+              "address": "13 Broad St, Nantucket, MA",
+              "lat": 41.2853,
+              "lng": -70.0995,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Nantucket%20Whaling%20Museum"
+            },
+            "blurb": "Cobblestone streets, a candlelit whaling museum, and the sperm-whale skeleton — the wealth of the 1800s frozen in place.",
+            "gear": [
+              "comfortable shoes for cobblestones"
+            ]
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "nantucket-sconset",
+            "title": "Bike to 'Sconset & Brant Point",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Brant Point Light",
+              "address": "Easton St, Nantucket, MA",
+              "lat": 41.2905,
+              "lng": -70.0905,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Brant%20Point%20Light"
+            },
+            "blurb": "The rose-covered cottages of Siasconset and the little lighthouse at the harbor mouth.",
+            "gear": [
+              "bike"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 19,
+      "label": "Day 19 — Martha's Vineyard",
+      "type": "active",
+      "summary": "Ferry over to the larger island for cottages and cliffs.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "12:00 PM",
+          "item": {
+            "id": "mv-oak-bluffs",
+            "title": "Oak Bluffs gingerbread cottages",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Oak Bluffs Campground",
+              "address": "Trinity Park, Oak Bluffs, MA",
+              "lat": 41.456,
+              "lng": -70.562,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Oak%20Bluffs%20Campground"
+            },
+            "blurb": "Hundreds of candy-colored Victorian 'gingerbread' cottages around the Tabernacle, plus the oldest carousel in the country."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "mv-aquinnah",
+            "title": "Aquinnah Cliffs & Edgartown",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Aquinnah Cliffs",
+              "address": "Aquinnah, MA",
+              "lat": 41.348,
+              "lng": -70.762,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Aquinnah%20Cliffs"
+            },
+            "blurb": "The rainbow clay cliffs at the island's western tip, then whaling-captain mansions in Edgartown."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 20,
+      "label": "Day 20 — Back to the mainland, north to New Hampshire",
+      "type": "commute",
+      "summary": "Ferry back, then drive north around Boston to the New Hampshire seacoast.",
+      "commute": {
+        "from": "Martha's Vineyard, MA",
+        "to": "Portsmouth, NH",
+        "driveTimeMins": 180,
+        "scenicNote": "A travel day: ferry to Woods Hole, then up the coast past Boston into New Hampshire."
+      }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "kennebunkport",
+  "name": "Kennebunkport",
+  "state": "ME",
+  "country": "US",
+  "order": 8,
+  "location": {
+    "lat": 43.3616,
+    "lng": -70.4767
+  },
+  "summary": "A postcard Maine coastal village — Dock Square shops, a rocky point, and the Bush family compound.",
+  "lodging": [
+    {
+      "name": "A classic Kennebunkport inn",
+      "blurb": "Sea-captain inns walkable to Dock Square.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Kennebunkport%20Maine%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A buttered Maine lobster roll",
+      "blurb": "Warm, on a toasted split-top bun — the Maine way."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 23,
+      "label": "Day 23 — Dock Square & the Point",
+      "type": "active",
+      "summary": "Village shops, the ocean drive, and a wide sand beach.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "11:30 AM",
+          "item": {
+            "id": "kennebunkport-dock-square",
+            "title": "Dock Square shops",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Dock Square, Kennebunkport",
+              "address": "Dock Square, Kennebunkport, ME",
+              "lat": 43.361,
+              "lng": -70.477,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Dock%20Square%2C%20Kennebunkport"
+            },
+            "blurb": "The heart of the village — galleries, chandlers, and ice cream."
+          }
+        },
+        {
+          "start": "12:30 PM",
+          "end": "2:00 PM",
+          "item": {
+            "id": "kennebunkport-walkers-point",
+            "title": "Ocean Avenue & Walker's Point",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Walker's Point",
+              "address": "Ocean Ave, Kennebunkport, ME",
+              "lat": 43.3455,
+              "lng": -70.456,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Walker%27s%20Point"
+            },
+            "blurb": "The scenic shore drive past the Bush family compound on its rocky point."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "kennebunkport-goose-rocks",
+            "title": "Goose Rocks Beach",
+            "categoryId": "outdoor-water",
+            "tier": "low",
+            "durationMins": 90,
+            "location": {
+              "name": "Goose Rocks Beach",
+              "address": "Kings Hwy, Kennebunkport, ME",
+              "lat": 43.386,
+              "lng": -70.383,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Goose%20Rocks%20Beach"
+            },
+            "blurb": "A long, calm, soft-sand beach north of town."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 24,
+      "label": "Day 24 — Into Portland",
+      "type": "commute",
+      "summary": "A quick run up to Maine's food capital.",
+      "commute": {
+        "from": "Kennebunkport, ME",
+        "to": "Portland, ME",
+        "driveTimeMins": 45,
+        "scenicNote": "Coastal drive up to Portland; stop in Freeport if you want the original L.L.Bean.",
+        "stopsAlongWay": [
+          {
+            "title": "L.L.Bean Flagship, Freeport",
+            "blurb": "The original store that never closes — giant boot photo op.",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=L.L.Bean%20Flagship%20Store%20Freeport"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "salem-cape-ann",
+  "name": "Salem & Cape Ann",
+  "state": "MA",
+  "country": "US",
+  "order": 3,
+  "location": {
+    "lat": 42.5195,
+    "lng": -70.8967
+  },
+  "summary": "Witch-trial history and maritime fortunes in Salem, then the rocky artists' harbors of Cape Ann.",
+  "seasonalTip": "October in Salem is peak 'Haunted Happenings' — atmospheric but very crowded; go early in the day.",
+  "lodging": [
+    {
+      "name": "The Hawthorne Hotel, Salem",
+      "blurb": "A 1925 landmark on the common, named for Nathaniel Hawthorne.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Hawthorne%20Hotel%20Salem"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Fresh fried clams on Cape Ann",
+      "blurb": "Whole-belly clams at a Gloucester or Essex clam shack — the real thing."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 8,
+      "label": "Day 8 — Salem",
+      "type": "active",
+      "summary": "A short drive north from Boston into witch-trial history.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "11:30 AM",
+          "item": {
+            "id": "salem-witch-memorial",
+            "title": "Salem Witch Trials Memorial & Old Burying Point",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "Salem Witch Trials Memorial",
+              "address": "24 Liberty St, Salem, MA",
+              "lat": 42.5216,
+              "lng": -70.8925,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Salem%20Witch%20Trials%20Memorial"
+            },
+            "blurb": "A quiet, sobering memorial beside the colonial burying ground — the human story behind the 1692 trials."
+          }
+        },
+        {
+          "start": "12:30 PM",
+          "end": "3:00 PM",
+          "item": {
+            "id": "salem-peabody-essex",
+            "title": "Peabody Essex Museum",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Peabody Essex Museum",
+              "address": "161 Essex St, Salem, MA",
+              "lat": 42.5222,
+              "lng": -70.8925,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Peabody%20Essex%20Museum"
+            },
+            "blurb": "A superb art and maritime museum, including a relocated Qing-dynasty house."
+          }
+        },
+        {
+          "start": "3:30 PM",
+          "item": {
+            "id": "salem-house-seven-gables",
+            "title": "The House of the Seven Gables",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 75,
+            "location": {
+              "name": "The House of the Seven Gables",
+              "address": "115 Derby St, Salem, MA",
+              "lat": 42.5178,
+              "lng": -70.8794,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20House%20of%20the%20Seven%20Gables"
+            },
+            "blurb": "The 1668 mansion that inspired Hawthorne's novel, on the harbor."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 9,
+      "label": "Day 9 — Cape Ann",
+      "type": "active",
+      "summary": "The rocky cape north of Salem — fishing harbors and artists' light.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "12:00 PM",
+          "item": {
+            "id": "salem-rockport-motif",
+            "title": "Rockport & Motif No. 1",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Motif Number 1, Rockport",
+              "address": "Bradley Wharf, Rockport, MA",
+              "lat": 42.6595,
+              "lng": -70.6117,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Motif%20Number%201%2C%20Rockport"
+            },
+            "blurb": "The red fishing shack said to be the most-painted building in America, plus Bearskin Neck's galleries and shops."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "salem-gloucester",
+            "title": "Gloucester & the Fisherman's Memorial",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Gloucester Fisherman's Memorial",
+              "address": "Stacy Blvd, Gloucester, MA",
+              "lat": 42.607,
+              "lng": -70.6693,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Gloucester%20Fisherman%27s%20Memorial"
+            },
+            "blurb": "America's oldest fishing port and the 'Man at the Wheel' statue honoring those lost at sea."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 10,
+      "label": "Day 10 — Drive south to Plymouth",
+      "type": "commute",
+      "summary": "Around Boston to the South Shore.",
+      "commute": {
+        "from": "Cape Ann, MA",
+        "to": "Plymouth, MA",
+        "driveTimeMins": 95,
+        "scenicNote": "Skirts Boston — time it outside rush hour."
+      }
+    }
+  ]
+}

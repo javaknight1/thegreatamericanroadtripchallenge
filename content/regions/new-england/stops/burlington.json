@@ -13,8 +13,8 @@
   "foodMustTry": [],
   "days": [
     {
-      "dayNumber": 16,
-      "label": "Day 16 — Burlington & Lake Champlain",
+      "dayNumber": 51,
+      "label": "Day 51 — Burlington & Lake Champlain",
       "type": "active",
       "summary": "Lakefront college town — pedestrian marketplace and a sunset over the Adirondacks.",
       "blocks": [
@@ -59,8 +59,8 @@
       ]
     },
     {
-      "dayNumber": 17,
-      "label": "Day 17 — Drive south to New York City",
+      "dayNumber": 52,
+      "label": "Day 52 — Drive south to New York City",
       "type": "commute",
       "summary": "The long, beautiful descent out of New England into the biggest city on the trip.",
       "commute": {

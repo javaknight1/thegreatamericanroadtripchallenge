@@ -1,0 +1,91 @@
+{
+  "id": "portsmouth",
+  "name": "Portsmouth",
+  "state": "NH",
+  "country": "US",
+  "order": 7,
+  "location": {
+    "lat": 43.0718,
+    "lng": -70.7626
+  },
+  "summary": "New Hampshire's tiny, handsome seaport — colonial houses, a walkable brick downtown, and a lively food scene.",
+  "lodging": [
+    {
+      "name": "A downtown Portsmouth inn",
+      "blurb": "Base in the walkable Market Square district.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Portsmouth%20NH%20downtown%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Seacoast oysters & a lobster roll",
+      "blurb": "Great Bay oysters and a buttered roll in the Old Port district."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 21,
+      "label": "Day 21 — The Seacoast",
+      "type": "active",
+      "summary": "New Hampshire's brief, beautiful coastline.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "portsmouth-strawbery-banke",
+            "title": "Strawbery Banke Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Strawbery Banke Museum",
+              "address": "14 Hancock St, Portsmouth, NH",
+              "lat": 43.0745,
+              "lng": -70.753,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Strawbery%20Banke%20Museum"
+            },
+            "blurb": "A 10-acre outdoor history museum of homes spanning 300 years of a single neighborhood."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "portsmouth-market-square",
+            "title": "Market Square & the waterfront",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Market Square, Portsmouth",
+              "address": "Market Square, Portsmouth, NH",
+              "lat": 43.0762,
+              "lng": -70.755,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Market%20Square%2C%20Portsmouth"
+            },
+            "blurb": "Independent bookshops, cafés, and boutiques around the 1800s brick square, plus Prescott Park on the river."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 22,
+      "label": "Day 22 — Up the coast to Kennebunkport",
+      "type": "commute",
+      "summary": "A short, scenic hop into southern Maine.",
+      "commute": {
+        "from": "Portsmouth, NH",
+        "to": "Kennebunkport, ME",
+        "driveTimeMins": 50,
+        "scenicNote": "Coastal Route 1 past Ogunquit and the Nubble Light.",
+        "stopsAlongWay": [
+          {
+            "title": "Nubble Lighthouse, York ME",
+            "blurb": "One of the most photographed lighthouses in the country.",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Nubble%20Lighthouse%20York%20Maine"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -33,8 +33,8 @@
   ],
   "days": [
     {
-      "dayNumber": 18,
-      "label": "Day 18 — Liberty, Ellis Island & Lower Manhattan",
+      "dayNumber": 71,
+      "label": "Day 71 — Liberty, Ellis Island & Lower Manhattan",
       "type": "active",
       "summary": "Start at the harbor icons and the 9/11 Memorial.",
       "blocks": [
@@ -79,8 +79,8 @@
       ]
     },
     {
-      "dayNumber": 19,
-      "label": "Day 19 — Midtown Icons",
+      "dayNumber": 72,
+      "label": "Day 72 — Midtown Icons",
       "type": "active",
       "summary": "The skyline from above, the park, and the museum mile.",
       "blocks": [
@@ -144,8 +144,8 @@
       ]
     },
     {
-      "dayNumber": 20,
-      "label": "Day 20 — Broadway & the Village",
+      "dayNumber": 73,
+      "label": "Day 73 — Broadway & the Village",
       "type": "active",
       "summary": "Downtown by day, a show by night, late laughs after.",
       "blocks": [
@@ -209,8 +209,8 @@
       ]
     },
     {
-      "dayNumber": 21,
-      "label": "Day 21 — Free Day (deep menu)",
+      "dayNumber": 74,
+      "label": "Day 74 — Free Day (deep menu)",
       "type": "free",
       "summary": "In a stay this long you'll want several of these. A sampler of the optional bench.",
       "freeMenu": [
@@ -277,8 +277,8 @@
       ]
     },
     {
-      "dayNumber": 22,
-      "label": "Day 22 — Drive to Philadelphia",
+      "dayNumber": 75,
+      "label": "Day 75 — Drive to Philadelphia",
       "type": "commute",
       "summary": "South out of the city into Pennsylvania.",
       "commute": {
