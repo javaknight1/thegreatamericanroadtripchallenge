@@ -1,0 +1,113 @@
+{
+  "id": "monterey-carmel",
+  "name": "Monterey & Carmel",
+  "state": "CA",
+  "country": "US",
+  "order": 8,
+  "location": {
+    "lat": 36.6002,
+    "lng": -121.8947
+  },
+  "summary": "A gorgeous stretch of coast — a world-class aquarium, Steinbeck's Cannery Row, the fairytale village of Carmel, and the wild cliffs of Big Sur just south.",
+  "lodging": [
+    {
+      "name": "A Monterey or Carmel inn",
+      "blurb": "Near the water and the 17-Mile Drive.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Monterey%20California%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Clam chowder & fresh Dungeness crab",
+      "blurb": "On Fisherman's Wharf."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 443,
+      "label": "Day 443 — Monterey Bay",
+      "type": "active",
+      "summary": "The aquarium and Cannery Row.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "monterey-aquarium",
+            "title": "Monterey Bay Aquarium",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Monterey Bay Aquarium",
+              "address": "886 Cannery Row, Monterey, CA",
+              "lat": 36.6182,
+              "lng": -121.9019,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Monterey%20Bay%20Aquarium"
+            },
+            "blurb": "One of the greatest aquariums on earth — the kelp forest, sea otters, and open-ocean tank — on Steinbeck's Cannery Row."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 444,
+      "label": "Day 444 — 17-Mile Drive & Big Sur",
+      "type": "active",
+      "summary": "Cypress, Carmel, and the cliffs.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "end": "12:00 PM",
+          "item": {
+            "id": "monterey-17-mile-drive",
+            "title": "17-Mile Drive & Carmel-by-the-Sea",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "17-Mile Drive",
+              "address": "17-Mile Dr, Pebble Beach, CA",
+              "lat": 36.57,
+              "lng": -121.966,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=17-Mile%20Drive"
+            },
+            "blurb": "Pebble Beach, the Lone Cypress, and the storybook cottages and galleries of Carmel."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "monterey-big-sur",
+            "title": "Big Sur: Bixby Bridge & McWay Falls",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Bixby Creek Bridge",
+              "address": "Bixby Creek Bridge, Big Sur, CA",
+              "lat": 36.3714,
+              "lng": -121.902,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Bixby%20Creek%20Bridge"
+            },
+            "blurb": "Drive Highway 1 south past the iconic Bixby Bridge to the waterfall-onto-the-beach at McWay Falls.",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 445,
+      "label": "Day 445 — Inland to Pinnacles",
+      "type": "commute",
+      "summary": "To the condor country.",
+      "commute": {
+        "from": "Monterey, CA",
+        "to": "Pinnacles National Park, CA",
+        "driveTimeMins": 90,
+        "scenicNote": "Southeast into the coast range and Pinnacles."
+      }
+    }
+  ]
+}

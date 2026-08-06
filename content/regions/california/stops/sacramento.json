@@ -1,0 +1,83 @@
+{
+  "id": "sacramento",
+  "name": "Sacramento",
+  "state": "CA",
+  "country": "US",
+  "order": 11,
+  "location": {
+    "lat": 38.5816,
+    "lng": -121.4944
+  },
+  "summary": "California's capital and Gold Rush river town — a domed statehouse, a restored 1850s waterfront, and a great railroad museum.",
+  "lodging": [
+    {
+      "name": "A downtown or Old Sacramento hotel",
+      "blurb": "Near the Capitol and the river.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Sacramento%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Farm-to-fork everything",
+      "blurb": "Sacramento is America's 'Farm-to-Fork Capital.'"
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 453,
+      "label": "Day 453 — Capitol & Gold Rush",
+      "type": "active",
+      "summary": "The statehouse and old town.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "sacramento-capitol",
+            "title": "California State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "California State Capitol",
+              "address": "1315 10th St, Sacramento, CA",
+              "lat": 38.5767,
+              "lng": -121.4934,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=California%20State%20Capitol"
+            },
+            "blurb": "The gleaming white 1874 capitol and its park of memorials."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "sacramento-old-town",
+            "title": "Old Sacramento & the Railroad Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "California State Railroad Museum",
+              "address": "125 I St, Sacramento, CA",
+              "lat": 38.584,
+              "lng": -121.504,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=California%20State%20Railroad%20Museum"
+            },
+            "blurb": "Wooden-sidewalk Gold Rush streets and one of the finest railroad museums in the country."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 454,
+      "label": "Day 454 — West to wine country",
+      "type": "commute",
+      "summary": "To Napa and Sonoma.",
+      "commute": {
+        "from": "Sacramento, CA",
+        "to": "Napa, CA",
+        "driveTimeMins": 90,
+        "scenicNote": "Southwest into the wine valleys."
+      }
+    }
+  ]
+}

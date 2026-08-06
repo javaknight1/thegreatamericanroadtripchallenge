@@ -1,0 +1,132 @@
+{
+  "id": "lake-tahoe-reno-carson-city",
+  "name": "Lake Tahoe, Reno & Carson City",
+  "state": "NV",
+  "country": "US",
+  "order": 13,
+  "location": {
+    "lat": 39.0968,
+    "lng": -120.0324
+  },
+  "summary": "The dazzling blue alpine lake straddling the California–Nevada line, plus Reno's neon, Nevada's little capital, and the Comstock ghost town of Virginia City.",
+  "lodging": [
+    {
+      "name": "A South Lake Tahoe lodge",
+      "blurb": "By the lake and the casinos at Stateline.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=South%20Lake%20Tahoe%20lodge"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Lakeside dining",
+      "blurb": "After a day on (or above) the water."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 458,
+      "label": "Day 458 — The Lake",
+      "type": "active",
+      "summary": "Emerald Bay and the shore.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "lake-tahoe-emerald-bay",
+            "title": "Lake Tahoe & Emerald Bay",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Emerald Bay State Park",
+              "address": "Emerald Bay Rd, South Lake Tahoe, CA",
+              "lat": 38.954,
+              "lng": -120.109,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Emerald%20Bay%20State%20Park"
+            },
+            "blurb": "The impossibly blue lake — Emerald Bay's overlook and Vikingsholm, beaches, and the Rubicon Trail.",
+            "gear": [
+              "swimsuit or layers, by season"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 459,
+      "label": "Day 459 — Reno, Carson City & the Comstock",
+      "type": "active",
+      "summary": "Neon, a capital, and silver-mine history.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "lake-tahoe-carson-virginia-city",
+            "title": "Carson City & Virginia City",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Nevada State Capitol",
+              "address": "101 N Carson St, Carson City, NV",
+              "lat": 39.1638,
+              "lng": -119.7674,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Nevada%20State%20Capitol"
+            },
+            "blurb": "Nevada's small capital, then the Comstock Lode boomtown of Virginia City — and Reno, the 'Biggest Little City,' nearby."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 460,
+      "label": "Day 460 — Free Day",
+      "type": "free",
+      "summary": "The water, the slopes, or the casinos. Options below.",
+      "freeMenu": [
+        {
+          "id": "lake-tahoe-watersports",
+          "title": "Kayak or ski Tahoe",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 240,
+          "location": {
+            "name": "Lake Tahoe",
+            "address": "Lake Tahoe, CA",
+            "lat": 39.0968,
+            "lng": -120.0324,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Lake%20Tahoe"
+          },
+          "blurb": "Paddle the crystal water in summer, or ski Heavenly/Palisades in winter."
+        },
+        {
+          "id": "lake-tahoe-casinos",
+          "title": "Stateline casinos & a show",
+          "categoryId": "concerts-venues",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Stateline",
+            "address": "Stateline, NV",
+            "lat": 38.96,
+            "lng": -119.94,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Stateline"
+          },
+          "blurb": "Gaming and entertainment right on the Nevada line."
+        }
+      ]
+    },
+    {
+      "dayNumber": 461,
+      "label": "Day 461 — Northwest to Lassen",
+      "type": "commute",
+      "summary": "To a live volcano.",
+      "commute": {
+        "from": "Lake Tahoe, CA",
+        "to": "Lassen Volcanic National Park, CA",
+        "driveTimeMins": 210,
+        "scenicNote": "Northwest to the southern Cascades."
+      }
+    }
+  ]
+}

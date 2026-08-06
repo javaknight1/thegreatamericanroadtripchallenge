@@ -1,0 +1,98 @@
+{
+  "id": "redwood-np",
+  "name": "Redwood National Park",
+  "state": "CA",
+  "country": "US",
+  "order": 16,
+  "location": {
+    "lat": 41.2132,
+    "lng": -124.0046
+  },
+  "summary": "The tallest living things on earth — cathedral groves of coast redwoods, a fern-walled canyon, and elk on the wild far-north coast. The last stop in California.",
+  "lodging": [
+    {
+      "name": "A Crescent City or Klamath motel",
+      "blurb": "At the park's edge on the coast.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Crescent%20City%20California%20motel%20Redwood"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Fresh Pacific salmon",
+      "blurb": "From the Klamath River country."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 466,
+      "label": "Day 466 — The Tall Trees",
+      "type": "active",
+      "summary": "Among the giants.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "redwood-groves",
+            "title": "Redwood groves & the Avenue of the Giants",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Redwood National and State Parks",
+              "address": "1111 Second St, Crescent City, CA",
+              "lat": 41.2132,
+              "lng": -124.0046,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Redwood%20National%20and%20State%20Parks"
+            },
+            "blurb": "Walk beneath 300-ft coast redwoods in Lady Bird Johnson Grove and along the nearby Avenue of the Giants.",
+            "gear": [
+              "layers",
+              "walking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 467,
+      "label": "Day 467 — Fern Canyon & the Coast",
+      "type": "active",
+      "summary": "A prehistoric canyon and the elk.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "redwood-fern-canyon",
+            "title": "Fern Canyon & Roosevelt elk",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Fern Canyon",
+              "address": "Davison Rd, Orick, CA",
+              "lat": 41.366,
+              "lng": -124.064,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Fern%20Canyon"
+            },
+            "blurb": "The fern-walled canyon (a 'Jurassic Park' location) and the herds of Roosevelt elk on Gold Bluffs Beach.",
+            "gear": [
+              "waterproof shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 468,
+      "label": "Day 468 — North into Oregon",
+      "type": "commute",
+      "summary": "To Crater Lake — California is done.",
+      "commute": {
+        "from": "Redwood National Park, CA",
+        "to": "Crater Lake National Park, OR",
+        "driveTimeMins": 240,
+        "scenicNote": "Northeast into Oregon and the Pacific Northwest."
+      }
+    }
+  ]
+}

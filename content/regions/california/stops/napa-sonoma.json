@@ -1,0 +1,94 @@
+{
+  "id": "napa-sonoma",
+  "name": "Napa & Sonoma",
+  "state": "CA",
+  "country": "US",
+  "order": 12,
+  "location": {
+    "lat": 38.2975,
+    "lng": -122.2869
+  },
+  "summary": "America's most famous wine country — valley after valley of vineyards, tasting rooms, a wine train, and Calistoga's mud baths and geyser.",
+  "lodging": [
+    {
+      "name": "A Napa or Sonoma inn",
+      "blurb": "Among the vineyards.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Napa%20Valley%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A long wine-country lunch",
+      "blurb": "World-class food to match the wine (Oxbow Market for something casual)."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 455,
+      "label": "Day 455 — Napa Valley",
+      "type": "active",
+      "summary": "Vineyards and a wine train.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "napa-wineries",
+            "title": "Napa Valley wineries & the Wine Train",
+            "categoryId": "food-drink",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Napa Valley",
+              "address": "Napa Valley, CA",
+              "lat": 38.4,
+              "lng": -122.36,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Napa%20Valley"
+            },
+            "blurb": "Tasting-room hop up the valley (Castello di Amorosa's castle is a fun stop) or ride the Napa Valley Wine Train.",
+            "gear": [
+              "a designated driver or a tour"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 456,
+      "label": "Day 456 — Sonoma & Calistoga",
+      "type": "active",
+      "summary": "The plaza and the spa town.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "napa-sonoma-plaza",
+            "title": "Sonoma Plaza & Calistoga",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Sonoma Plaza",
+              "address": "Sonoma Plaza, Sonoma, CA",
+              "lat": 38.2919,
+              "lng": -122.458,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Sonoma%20Plaza"
+            },
+            "blurb": "The historic mission-and-plaza town of Sonoma, then Calistoga's mud baths and the Old Faithful Geyser of California."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 457,
+      "label": "Day 457 — East to Lake Tahoe",
+      "type": "commute",
+      "summary": "Up into the Sierra to the great lake.",
+      "commute": {
+        "from": "Napa, CA",
+        "to": "Lake Tahoe, CA",
+        "driveTimeMins": 180,
+        "scenicNote": "East across the Central Valley and up to Tahoe."
+      }
+    }
+  ]
+}

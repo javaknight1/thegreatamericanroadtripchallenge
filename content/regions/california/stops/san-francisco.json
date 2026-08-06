@@ -1,0 +1,177 @@
+{
+  "id": "san-francisco",
+  "name": "San Francisco",
+  "state": "CA",
+  "country": "US",
+  "order": 10,
+  "location": {
+    "lat": 37.7749,
+    "lng": -122.4194
+  },
+  "summary": "The city of fog and hills — the Golden Gate, Alcatraz, cable cars, and some of the country's best food and neighborhoods. A full stay.",
+  "lodging": [
+    {
+      "name": "A Union Square or Nob Hill hotel",
+      "blurb": "Central and on the cable-car lines.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Union%20Square%20San%20Francisco%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Mission burrito & sourdough",
+      "blurb": "Plus dim sum in Chinatown and Dungeness crab."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 448,
+      "label": "Day 448 — The Golden Gate",
+      "type": "active",
+      "summary": "The bridge and the western shore.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "sf-golden-gate",
+            "title": "The Golden Gate Bridge & the Presidio",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Golden Gate Bridge",
+              "address": "Golden Gate Bridge, San Francisco, CA",
+              "lat": 37.8199,
+              "lng": -122.4783,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Golden%20Gate%20Bridge"
+            },
+            "blurb": "Walk or bike the great orange bridge, then the Presidio, Baker Beach, and the Lands End trail.",
+            "gear": [
+              "layers (it's foggy)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 449,
+      "label": "Day 449 — Alcatraz & the Wharf",
+      "type": "active",
+      "summary": "The Rock and the waterfront.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "sf-alcatraz",
+            "title": "Alcatraz Island",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Alcatraz Island",
+              "address": "Alcatraz Island, San Francisco, CA",
+              "lat": 37.827,
+              "lng": -122.423,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Alcatraz%20Island"
+            },
+            "blurb": "Ferry to 'the Rock' for the superb cellhouse audio tour of the notorious prison (book well ahead)."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "sf-fishermans-wharf",
+            "title": "Fisherman's Wharf & Pier 39",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Pier 39",
+              "address": "Beach St & The Embarcadero, San Francisco, CA",
+              "lat": 37.8087,
+              "lng": -122.4098,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Pier%2039"
+            },
+            "blurb": "The barking sea lions of Pier 39 and the crab stands of the wharf."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 450,
+      "label": "Day 450 — Cable Cars & Hills",
+      "type": "active",
+      "summary": "The classic city.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "sf-cable-cars",
+            "title": "Cable cars, Chinatown & Lombard Street",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Powell-Hyde Cable Car",
+              "address": "Powell St & Market St, San Francisco, CA",
+              "lat": 37.785,
+              "lng": -122.408,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Powell-Hyde%20Cable%20Car"
+            },
+            "blurb": "Ride a cable car over the hills, wander the oldest Chinatown in America and North Beach, and see crooked Lombard Street and Coit Tower."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 451,
+      "label": "Day 451 — Free Day",
+      "type": "free",
+      "summary": "The park, the Mission, or the Painted Ladies. Options below.",
+      "freeMenu": [
+        {
+          "id": "sf-golden-gate-park",
+          "title": "Golden Gate Park & the museums",
+          "categoryId": "museums-history",
+          "tier": "low",
+          "durationMins": 240,
+          "location": {
+            "name": "Golden Gate Park",
+            "address": "Golden Gate Park, San Francisco, CA",
+            "lat": 37.7694,
+            "lng": -122.4862,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Golden%20Gate%20Park"
+          },
+          "blurb": "The de Young, the California Academy of Sciences, and the Japanese Tea Garden."
+        },
+        {
+          "id": "sf-mission",
+          "title": "The Mission District",
+          "categoryId": "food-drink",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Mission District",
+            "address": "Valencia St, San Francisco, CA",
+            "lat": 37.7599,
+            "lng": -122.4148,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Mission%20District"
+          },
+          "blurb": "Murals, taquerias, and the Painted Ladies at Alamo Square nearby."
+        }
+      ]
+    },
+    {
+      "dayNumber": 452,
+      "label": "Day 452 — Up to the capital",
+      "type": "commute",
+      "summary": "Northeast to Sacramento.",
+      "commute": {
+        "from": "San Francisco, CA",
+        "to": "Sacramento, CA",
+        "driveTimeMins": 90,
+        "scenicNote": "Northeast to California's capital."
+      }
+    }
+  ]
+}

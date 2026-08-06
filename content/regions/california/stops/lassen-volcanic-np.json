@@ -1,0 +1,70 @@
+{
+  "id": "lassen-volcanic-np",
+  "name": "Lassen Volcanic National Park",
+  "state": "CA",
+  "country": "US",
+  "order": 14,
+  "location": {
+    "lat": 40.4977,
+    "lng": -121.4207
+  },
+  "summary": "An uncrowded wonderland of the southern Cascades — bubbling mud pots, steaming fumaroles, and a volcano that erupted a century ago.",
+  "lodging": [
+    {
+      "name": "A Mineral or Chester lodge",
+      "blurb": "At the park's gateways.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Lassen%20Volcanic%20National%20Park%20lodging"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Simple mountain fare",
+      "blurb": "Warm food after the high trails."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 462,
+      "label": "Day 462 — Fire & Steam",
+      "type": "active",
+      "summary": "Hydrothermal wonders and a volcano.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "lassen-bumpass-hell",
+            "title": "Bumpass Hell & the Volcano Road",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Bumpass Hell",
+              "address": "Lassen Volcanic National Park, CA",
+              "lat": 40.456,
+              "lng": -121.43,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Bumpass%20Hell"
+            },
+            "blurb": "Boardwalk through the boiling springs and mud pots of Bumpass Hell, and drive beneath Lassen Peak (which erupted 1915–17).",
+            "gear": [
+              "hiking shoes",
+              "water",
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 463,
+      "label": "Day 463 — West to the coast",
+      "type": "commute",
+      "summary": "To the Mendocino coast.",
+      "commute": {
+        "from": "Lassen Volcanic National Park, CA",
+        "to": "Mendocino, CA",
+        "driveTimeMins": 240,
+        "scenicNote": "West down out of the mountains to the ocean."
+      }
+    }
+  ]
+}

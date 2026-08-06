@@ -1,0 +1,70 @@
+{
+  "id": "pinnacles-np",
+  "name": "Pinnacles National Park",
+  "state": "CA",
+  "country": "US",
+  "order": 9,
+  "location": {
+    "lat": 36.4906,
+    "lng": -121.1825
+  },
+  "summary": "California's newest national park — volcanic spires, talus caves, and the soaring California condor.",
+  "lodging": [
+    {
+      "name": "Pinnacles Campground or a Soledad/Hollister motel",
+      "blurb": "Camp in the park or stay in a nearby town.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Pinnacles%20National%20Park%20camping"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Pack a trail lunch",
+      "blurb": "Few services — bring food and water."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 446,
+      "label": "Day 446 — Caves & Condors",
+      "type": "active",
+      "summary": "Talus caves and the High Peaks.",
+      "blocks": [
+        {
+          "start": "8:30 AM",
+          "item": {
+            "id": "pinnacles-high-peaks",
+            "title": "High Peaks & the talus caves",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Pinnacles National Park",
+              "address": "5000 CA-146, Paicines, CA",
+              "lat": 36.4906,
+              "lng": -121.1825,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Pinnacles%20National%20Park"
+            },
+            "blurb": "Hike through the boulder-jumbled Bear Gulch caves up into the High Peaks — scan the sky for reintroduced California condors.",
+            "gear": [
+              "headlamp",
+              "water",
+              "hiking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 447,
+      "label": "Day 447 — North to San Francisco",
+      "type": "commute",
+      "summary": "Up to the city by the bay.",
+      "commute": {
+        "from": "Pinnacles National Park, CA",
+        "to": "San Francisco, CA",
+        "driveTimeMins": 150,
+        "scenicNote": "North to San Francisco."
+      }
+    }
+  ]
+}

@@ -7,9 +7,8 @@ is the list to work from once the loop is fully written.
 Rob's standing instruction: add suggestions here as they come up, without asking
 first. Items are only removed when they're resolved or explicitly dropped.
 
-Last updated at **142 stops · 442 days · 553 items · 30 states** — seven legs
-complete plus California in progress (7 of its 16 stops), days 1–442
-contiguous.
+Last updated at **151 stops · 468 days · 576 items · 30 states** — eight legs of
+fourteen complete, days 1–468 contiguous, out to the Oregon line.
 
 ---
 
@@ -28,6 +27,7 @@ data doesn't back that up.
 | Deep South | 3 / 67 (4%) | **30 days**, through day 285 |
 | Texas & South Plains | 4 / 39 (10%) | 11 days, through day 354 |
 | Desert Southwest | 6 / 63 (10%) | 22 days, through day 376 |
+| California | 4 / 51 (8%) | 12 days, through day 440 |
 
 The Deep South run is the one I'd fix first: **days 256–285** is thirty straight
 days without one, and it covers the heaviest material in the trip — Whitney
@@ -58,8 +58,16 @@ the choice is deliberate.
 
 - **New York City — 15 of 18 days.** The biggest shortfall in the trip.
 - **Boston — 6 of 7 days.**
+- **Los Angeles — 5 of 8 days.** Now the second-biggest shortfall.
+- **San Francisco — 5 of 7 days.**
+- **San Diego — 4 of 5 days.**
 - **Dallas & Fort Worth — 4 of 5 days.**
 - **Austin — 5 of 6 days.**
+
+California accounts for three of the seven. The state came in at 51 days against
+a planned 58 — the single largest gap in any leg so far. Worth deciding whether
+that's deliberate compression or worth filling; LA in particular loses three
+days, and Universal, Disneyland and the Getty are already competing for room.
 
 ## 3. Places I think are missing
 
@@ -113,9 +121,11 @@ everything in this file, this is the one I'd actually change.
 
 ## 5. Categories with no content yet
 
-- **`skiing`** — still empty at 417 days, and **Park City just went by tagged as
-  `cities`**. That was the natural home for it — a 2002 Olympic town with
-  world-class resorts. The Rockies legs may cover it, but this was the miss.
+- **`skiing`** — **still empty at 468 days, and now two natural homes have gone
+  by.** Park City (2002 Olympics) was tagged `cities`; Lake Tahoe's "Kayak or ski
+  Tahoe" free-day option is tagged `outdoor-water`. Between them that's Utah's
+  and California's best skiing. The Rockies legs are the last chance; if the
+  category is meant to be used, one of these two wants re-tagging.
 - **`festivals`** — used in the Deep South (Mardi Gras, Mobile Carnival) but
   absent from Mid-Atlantic, Texas and the Southwest. Balloon Fiesta is mentioned
   in an Albuquerque blurb rather than being its own item.
@@ -137,6 +147,10 @@ This matters more than a tag: 48 capitals is one of the trip's implicit
 completeness claims, and a "show me every capitol" filter would silently miss
 these. **Suggestion:** when a leg passes through a capital, give the statehouse
 its own `capitols` item even if it shares the day.
+
+**California did this right** — Sacramento's capitol is its own `capitols` anchor,
+and Carson City's is too. So the pattern is established; it's the three Southwest
+capitals that are the outliers.
 
 ## 6. UI gaps
 
@@ -187,10 +201,9 @@ its own `capitols` item even if it shares the day.
 
 ## 9. Where the trip stands
 
-Written: legs 1–7 complete, plus California through Yosemite — days 1–442.
-Remaining: the rest of California, Pacific Northwest, Northern Rockies, Colorado
-Rockies, Great Plains, Upper Midwest & Great Lakes, Appalachia Return — 108 of
-250 stops.
+Written: legs 1–8 complete — days 1–468, out to the Oregon line.
+Remaining: Pacific Northwest, Northern Rockies, Colorado Rockies, Great Plains,
+Upper Midwest & Great Lakes, Appalachia Return — 99 of 250 stops.
 
-Capitals: **30 of 48 capital cities written**, 48/48 present in the plan.
+Capitals: **31 of 48 capital cities written**, 48/48 present in the plan.
 (Though see §5 — three of those capitals have no `capitols` item.)

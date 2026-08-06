@@ -1,0 +1,83 @@
+{
+  "id": "mendocino-the-north-coast",
+  "name": "Mendocino & the North Coast",
+  "state": "CA",
+  "country": "US",
+  "order": 15,
+  "location": {
+    "lat": 39.3076,
+    "lng": -123.7995
+  },
+  "summary": "A New England-style village on wild headland bluffs, sea-glass beaches, and a vintage steam train through the redwoods.",
+  "lodging": [
+    {
+      "name": "A Mendocino headland inn",
+      "blurb": "On the bluffs above the sea.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Mendocino%20California%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "North Coast oysters & ale",
+      "blurb": "From the cold, clean waters up here."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 464,
+      "label": "Day 464 — Bluffs & Glass Beach",
+      "type": "active",
+      "summary": "The village and the sea-glass shore.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "mendocino-village",
+            "title": "Mendocino village & the headlands",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Mendocino Headlands State Park",
+              "address": "Mendocino, CA",
+              "lat": 39.3076,
+              "lng": -123.7995,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mendocino%20Headlands%20State%20Park"
+            },
+            "blurb": "The clifftop Victorian village and its wave-battered headlands trail."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "mendocino-glass-beach",
+            "title": "Glass Beach & the Skunk Train",
+            "categoryId": "quirky",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Glass Beach",
+              "address": "Glass Beach, Fort Bragg, CA",
+              "lat": 39.45,
+              "lng": -123.813,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Glass%20Beach"
+            },
+            "blurb": "A beach of sea-tumbled glass in Fort Bragg, plus the vintage 'Skunk Train' through the redwoods."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 465,
+      "label": "Day 465 — North to the redwoods",
+      "type": "commute",
+      "summary": "Up to the tallest trees on earth.",
+      "commute": {
+        "from": "Mendocino, CA",
+        "to": "Redwood National Park, CA",
+        "driveTimeMins": 210,
+        "scenicNote": "North up the coast into the redwood country."
+      }
+    }
+  ]
+}
