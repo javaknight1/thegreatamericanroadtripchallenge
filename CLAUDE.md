@@ -125,9 +125,15 @@ Added during scaffolding — the facts a future session needs before editing cod
 ```
 content/
   trip.json                             trip header + the 18 categories
+  plan.json                             the canonical manifest: 14 legs, 250 stop ids, planned day counts
   regions/<regionId>/region.json        region metadata
   regions/<regionId>/stops/<stopId>.json  one file per stop (city/area)
 ```
+
+`plan.json` is deliberately separate from the itinerary. It lets an unwritten leg
+render its real route without inventing day content, and it is the id contract:
+when a stop is authored, its filename must be the id the manifest already
+assigned. Day numbers are never taken from it — they are authored inside each day.
 Splitting per-stop keeps files hand-editable as the dataset grows to ~4.5 years of days. Adding a region = adding a folder; adding a stop = adding a file. Nothing needs registering — `src/lib/content.ts` discovers files from disk at build time and assembles the `trip → region → stop → day` tree, sorting regions/stops by `order` and days by `dayNumber`.
 
 Because loading is `node:fs` inside server components, the JSON never ships to the browser — only the rendered HTML for that page does. Keep it that way as the dataset grows.
@@ -138,8 +144,15 @@ Because loading is `node:fs` inside server components, the JSON never ships to t
 ### Derived data
 `src/lib/derive.ts` computes what is never authored: the master packing list (aggregated `item.gear[]`, trip-wide and per-region), day/item counts, category usage, and state coverage. Nothing derived is stored in JSON.
 
+### Rendering decisions that are load-bearing
+- **Every day is a static page** (`/region/<id>/day/<n>/`), not client-side state. Linkable, prerendered, and the page carries only its own day. There are no client components in the app — the site works with JavaScript off, which is also why the map's pins are links.
+- **The map is build-time SVG.** `src/lib/geo.ts` projects each region's own stops with d3-geo, crops to them, and decimates outlines to whole pixels. Two traps are documented in that file and both are easy to reintroduce: Albers folds far-away geometry into view (filter states geographically *before* projecting), and a polygon ring with the wrong winding makes `fitExtent` fit the whole globe (fit to MultiPoint corners instead). Render it and look at it after touching that file.
+- **Artwork is generated, never a file.** `region-art.ts` draws a banner per leg, `day-art.ts` a landscape per day seeded by `dayNumber`. At 700 days nobody is commissioning art, and nothing should be fetched at runtime.
+- **Fonts are vendored** in `public/fonts` (latin subset). Neither the build nor the browser touches Google Fonts.
+
 ### Conventions worth keeping
 - `item.id` is authored, stable, and unique trip-wide — `npm run validate` enforces uniqueness. Don't generate ids from array position.
 - `dayNumber` is unique trip-wide and is the URL key for a day.
 - Category colors come from `content/trip.json`, never from CSS — one edit restyles the whole site.
+- Region palettes live in `src/lib/region-theme.ts` and override the global `--color-*` tokens on a wrapper element, so no component needs a per-region conditional.
 - `country` defaults to `"US"` but is always read from the data; no US-specific logic is hardcoded.

@@ -26,7 +26,7 @@ export function RegionHero({
 
   return (
     <div className="relative h-36 overflow-hidden rounded-xl sm:h-44">
-      <svg viewBox="0 0 100 36" preserveAspectRatio="xMidYMid slice" aria-hidden className="absolute inset-0 h-full w-full">
+      <svg viewBox="0 0 100 36" preserveAspectRatio="xMidYMax slice" aria-hidden className="absolute inset-0 h-full w-full">
         <defs>
           <linearGradient id={gradientId} x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stopColor={scene.sky[0]} />

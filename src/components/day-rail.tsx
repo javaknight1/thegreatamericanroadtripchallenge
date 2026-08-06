@@ -36,13 +36,13 @@ export function DayRail({
             href={`/region/${regionId}/day/${day.dayNumber}/`}
             aria-current={on ? "page" : undefined}
             title={day.label}
-            className={`min-w-[62px] shrink-0 rounded-lg px-2.5 py-2 text-center transition-opacity ${
+            className={`w-[76px] shrink-0 rounded-lg px-1.5 py-2 text-center transition-opacity ${
               on ? "opacity-100 ring-2 ring-ink" : "opacity-65 hover:opacity-100"
             }`}
             style={{ backgroundColor: colors[day.stopId] ?? "var(--color-accent)" }}
           >
             <span className="block font-display text-base leading-none text-white">{day.dayNumber}</span>
-            <span className="mt-1 block font-mono text-[9px] tracking-wide text-white/90 uppercase">
+            <span className="mt-1 block truncate font-mono text-[9px] tracking-wide text-white/90 uppercase">
               {day.shortLabel}
             </span>
           </Link>

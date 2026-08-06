@@ -15,6 +15,8 @@ The full product brief is in [`CLAUDE.md`](CLAUDE.md); the data contract is in [
 | Framework | Next.js 15 (App Router) + React 19 + TypeScript |
 | Styling | Tailwind v4 |
 | Content | Curated JSON in `content/`, validated with Zod |
+| Maps | Projected at build time with d3-geo + us-atlas into plain SVG — no tiles, no map library |
+| Type | Anton / Barlow Condensed / Inter / JetBrains Mono, vendored in `public/fonts` |
 | Build | `next build` with `output: "export"` → static HTML in `out/` |
 | Hosting | Cloudflare Workers static assets (`wrangler.jsonc`) |
 
@@ -37,9 +39,14 @@ make deploy         # wrangler deploy (the build hook runs `npm run build` first
 ```
 content/
   trip.json                                 trip header + the 18 categories
+  plan.json                                 the id contract for all 14 legs / 250 stops
   regions/<regionId>/region.json            region metadata (season, order, summary)
   regions/<regionId>/stops/<stopId>.json    one stop (city/area) with its days[]
 ```
+
+`plan.json` is the canonical manifest: every region and stop id, in order, with a
+planned day count. A leg with no stop files yet still renders its route from the
+plan, and stop ids must match it when the days are written.
 
 - **Add a region:** create `content/regions/<regionId>/region.json`. Its `id` must match the folder name and its `order` must be unique.
 - **Add a stop:** drop a JSON file in that region's `stops/`. Its `id` must match the filename; `order` positions it within the region.
@@ -55,6 +62,27 @@ content/
 It also warns (without failing) about over-stuffed days, gaps in day numbering, and items missing a map link.
 
 Two things are computed, never authored: the **master packing list** (aggregated from every `item.gear[]`) and all the trip/region counts.
+
+## How the site is put together
+
+| Route | What it is |
+|---|---|
+| `/` | Mission, trip totals, all 14 legs, the category legend |
+| `/region/<id>/` | Leg banner, cropped route map, day rail, stops and their days |
+| `/region/<id>/day/<n>/` | One day: generated header, map with that stop lit up, hour-by-hour timeline |
+| `/region/<id>/<stopId>/` | A stop's briefing — lodging, food, and an index into its days |
+| `/packing-list/` | The derived gear list |
+
+Every day is its own prerendered page rather than client-side state, so days are
+linkable and a 700-day itinerary never becomes a 700-day payload. There are no
+client components: the site works with JavaScript off.
+
+Two things are generated rather than drawn by hand, both at build time and both
+as inline SVG: the **region map** (d3-geo projects the leg's own stops, crops to
+them, and decimates the state outlines to whole pixels) and the **artwork** — a
+banner per region and a landscape per day, keyed to what the day actually
+contains. Each region also overrides the palette tokens on its wrapper
+(`src/lib/region-theme.ts`), so changing legs reads as a new chapter.
 
 ## Deploying
 

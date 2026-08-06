@@ -241,6 +241,7 @@ The document above describes one logical tree. On disk it is **split into files*
 ```
 content/
   trip.json                                trip header + categories (no regions inline)
+  plan.json                                the manifest: every region and stop id, with planned day counts
   regions/<regionId>/region.json           region metadata (no stops inline)
   regions/<regionId>/stops/<stopId>.json   one stop, with its full days[]
 ```
@@ -254,3 +255,30 @@ Rules the loader enforces (`npm run validate`):
 - every `dayNumber` is unique across the whole trip
 - `active` days have `blocks[]`, `commute` days have `commute`, `free` days have neither
 - region `order` and stop `order` (within a region) are unique
+
+---
+
+## `plan.json` (the id contract)
+
+Separate from the itinerary above, and not part of the `trip → day` tree. It lists
+every leg and every stop the loop will visit, in order, with a planning-only day
+count:
+
+```json
+{
+  "regions": [
+    {
+      "id": "florida",
+      "stops": [
+        { "id": "orlando", "order": 5, "name": "Orlando", "state": "FL", "plannedDays": 10 }
+      ]
+    }
+  ]
+}
+```
+
+- A stop's `id` here is the filename it must use when its days are authored.
+- `plannedDays` is an estimate for the overview screens only. Real day numbers are
+  authored inside each `day` object and stay contiguous trip-wide.
+- Legs with no authored stops render their planned route from this file, so the
+  whole loop is browsable long before it is written.

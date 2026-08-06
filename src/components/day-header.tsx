@@ -23,7 +23,7 @@ export function DayHeader({ day, place }: { day: Day; place: string }) {
     <div className="relative h-52 overflow-hidden bg-chrome sm:h-64">
       <svg
         viewBox="0 0 100 60"
-        preserveAspectRatio="xMidYMid slice"
+        preserveAspectRatio="xMidYMax slice"
         aria-hidden
         className="absolute inset-0 h-full w-full"
       >
