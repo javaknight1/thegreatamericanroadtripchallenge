@@ -1,0 +1,70 @@
+{
+  "id": "guadalupe-mountains-np",
+  "name": "Guadalupe Mountains National Park",
+  "state": "TX",
+  "country": "US",
+  "order": 13,
+  "location": {
+    "lat": 31.8917,
+    "lng": -104.86
+  },
+  "summary": "The roof of Texas — an ancient fossil reef rising from the desert, the state's highest peak, and a canyon that blazes with fall color. The last stop before New Mexico.",
+  "lodging": [
+    {
+      "name": "Camp in the park or stay in Carlsbad, NM",
+      "blurb": "Remote — the nearest beds are over the New Mexico line.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Carlsbad%20New%20Mexico%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Pack your own",
+      "blurb": "No services in the park — bring food and water."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 353,
+      "label": "Day 353 — The Roof of Texas",
+      "type": "active",
+      "summary": "A fossil reef and the highest peak.",
+      "blocks": [
+        {
+          "start": "8:30 AM",
+          "item": {
+            "id": "guadalupe-mountains-np-mckittrick",
+            "title": "McKittrick Canyon & Guadalupe Peak",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 330,
+            "location": {
+              "name": "Guadalupe Mountains National Park",
+              "address": "400 Pine Canyon Dr, Salt Flat, TX",
+              "lat": 31.8917,
+              "lng": -104.86,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Guadalupe%20Mountains%20National%20Park"
+            },
+            "blurb": "Hike McKittrick Canyon (stunning fall color) beneath El Capitan, or summit Guadalupe Peak — the highest point in Texas at 8,751 ft.",
+            "gear": [
+              "hiking boots",
+              "lots of water",
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 354,
+      "label": "Day 354 — Into New Mexico",
+      "type": "commute",
+      "summary": "North to the caverns — Texas is done.",
+      "commute": {
+        "from": "Guadalupe Mountains National Park, TX",
+        "to": "Carlsbad, NM",
+        "driveTimeMins": 45,
+        "scenicNote": "North across the line into New Mexico and the Desert Southwest."
+      }
+    }
+  ]
+}

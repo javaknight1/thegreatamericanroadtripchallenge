@@ -1,0 +1,95 @@
+{
+  "id": "fredericksburg-hill-country",
+  "name": "Fredericksburg & the Hill Country",
+  "state": "TX",
+  "country": "US",
+  "order": 10,
+  "location": {
+    "lat": 30.2752,
+    "lng": -98.872
+  },
+  "summary": "German Texas in the rolling Hill Country — wineries and peach stands, a giant pink granite dome, and a surprising world-class WWII museum.",
+  "lodging": [
+    {
+      "name": "A Fredericksburg B&B",
+      "blurb": "A 'Sunday house' or country inn among the vineyards.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Fredericksburg%20Texas%20bed%20and%20breakfast"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Hill Country wine & a peach cobbler",
+      "blurb": "Wine Road 290 tastings and roadside peaches in season."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 345,
+      "label": "Day 345 — German Texas & Enchanted Rock",
+      "type": "active",
+      "summary": "Main Street, the Pacific War, and a granite dome.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "fredericksburg-pacific-war",
+            "title": "National Museum of the Pacific War",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "National Museum of the Pacific War",
+              "address": "340 E Main St, Fredericksburg, TX",
+              "lat": 30.274,
+              "lng": -98.868,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=National%20Museum%20of%20the%20Pacific%20War"
+            },
+            "blurb": "An unexpectedly superb museum in Admiral Nimitz's hometown, telling the whole Pacific theater."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "fredericksburg-enchanted-rock",
+            "title": "Enchanted Rock",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Enchanted Rock State Natural Area",
+              "address": "16710 Ranch Rd 965, Fredericksburg, TX",
+              "lat": 30.506,
+              "lng": -98.819,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Enchanted%20Rock%20State%20Natural%20Area"
+            },
+            "blurb": "Climb the huge pink granite dome that hums and creaks at night.",
+            "gear": [
+              "hiking shoes",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 346,
+      "label": "Day 346 — West to Big Bend",
+      "type": "commute",
+      "summary": "The long, empty drive to far West Texas.",
+      "commute": {
+        "from": "Fredericksburg, TX",
+        "to": "Big Bend National Park, TX",
+        "driveTimeMins": 330,
+        "scenicNote": "West across the Trans-Pecos into the vast Chihuahuan Desert.",
+        "stopsAlongWay": [
+          {
+            "title": "Marfa (en route)",
+            "blurb": "The high-desert art town — you'll return to it.",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Marfa%20Texas"
+          }
+        ]
+      }
+    }
+  ]
+}

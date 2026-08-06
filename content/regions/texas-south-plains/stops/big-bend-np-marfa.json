@@ -1,0 +1,144 @@
+{
+  "id": "big-bend-np-marfa",
+  "name": "Big Bend National Park & Marfa",
+  "state": "TX",
+  "country": "US",
+  "order": 11,
+  "location": {
+    "lat": 29.2498,
+    "lng": -103.2502
+  },
+  "summary": "One of America's wildest, least-visited parks — mountains, canyons, and the Rio Grande under some of the darkest skies in the country — plus the improbable high-desert art town of Marfa.",
+  "lodging": [
+    {
+      "name": "Chisos Mountains Lodge or a Terlingua stay",
+      "blurb": "The only in-park lodge, or a quirky ghost-town rental nearby.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Chisos%20Mountains%20Lodge%20Big%20Bend"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Terlingua chili",
+      "blurb": "The ghost town that hosts the famous chili cook-off."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 347,
+      "label": "Day 347 — The Chisos & the Window",
+      "type": "active",
+      "summary": "Into the mountains at the park's heart.",
+      "blocks": [
+        {
+          "start": "8:30 AM",
+          "item": {
+            "id": "big-bend-chisos",
+            "title": "Chisos Basin & the Window Trail",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Chisos Basin",
+              "address": "Chisos Basin Rd, Big Bend National Park, TX",
+              "lat": 29.27,
+              "lng": -103.3,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Chisos%20Basin"
+            },
+            "blurb": "Hike into the Chisos Mountains to the Window's dramatic pour-off, ringed by desert peaks.",
+            "gear": [
+              "hiking shoes",
+              "lots of water",
+              "sun protection"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 348,
+      "label": "Day 348 — The Rio Grande",
+      "type": "active",
+      "summary": "Canyons on the river border.",
+      "blocks": [
+        {
+          "start": "8:30 AM",
+          "item": {
+            "id": "big-bend-santa-elena",
+            "title": "Santa Elena Canyon & the Ross Maxwell Drive",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 330,
+            "location": {
+              "name": "Santa Elena Canyon",
+              "address": "Santa Elena Canyon Trail, Big Bend National Park, TX",
+              "lat": 29.167,
+              "lng": -103.614,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Santa%20Elena%20Canyon"
+            },
+            "blurb": "The scenic drive to the 1,500-ft canyon walls where the Rio Grande splits the U.S. and Mexico, then the Hot Springs on the river.",
+            "gear": [
+              "water shoes",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 349,
+      "label": "Day 349 — Marfa & the Stars",
+      "type": "active",
+      "summary": "Minimalist art and dark skies.",
+      "blocks": [
+        {
+          "start": "11:00 AM",
+          "item": {
+            "id": "big-bend-marfa-art",
+            "title": "Marfa: Chinati & Prada Marfa",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Chinati Foundation",
+              "address": "1 Cavalry Row, Marfa, TX",
+              "lat": 30.305,
+              "lng": -104.023,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Chinati%20Foundation"
+            },
+            "blurb": "Donald Judd's monumental installations at the Chinati Foundation, and the Prada Marfa art piece out on the highway."
+          }
+        },
+        {
+          "start": "9:00 PM",
+          "item": {
+            "id": "big-bend-observatory",
+            "title": "McDonald Observatory star party",
+            "categoryId": "guided-tours",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "McDonald Observatory",
+              "address": "3640 Dark Sky Dr, Fort Davis, TX",
+              "lat": 30.672,
+              "lng": -104.023,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=McDonald%20Observatory"
+            },
+            "blurb": "A star party under some of the darkest skies in the Lower 48 (or watch for the mysterious Marfa Lights)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 350,
+      "label": "Day 350 — Northwest to El Paso",
+      "type": "commute",
+      "summary": "Across the desert to the border city.",
+      "commute": {
+        "from": "Marfa, TX",
+        "to": "El Paso, TX",
+        "driveTimeMins": 180,
+        "scenicNote": "Northwest through the Trans-Pecos to El Paso."
+      }
+    }
+  ]
+}

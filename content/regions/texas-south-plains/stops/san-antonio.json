@@ -1,0 +1,169 @@
+{
+  "id": "san-antonio",
+  "name": "San Antonio",
+  "state": "TX",
+  "country": "US",
+  "order": 9,
+  "location": {
+    "lat": 29.4241,
+    "lng": -98.4936
+  },
+  "summary": "The Alamo City — the shrine of Texas independence, the beloved River Walk, and a chain of Spanish colonial missions that are a UNESCO World Heritage Site.",
+  "lodging": [
+    {
+      "name": "A River Walk hotel",
+      "blurb": "On the Paseo del Río downtown.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=San%20Antonio%20River%20Walk%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Puffy tacos & breakfast tacos",
+      "blurb": "San Antonio Tex-Mex — plus a Big Red soda."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 341,
+      "label": "Day 341 — The Alamo & River Walk",
+      "type": "active",
+      "summary": "Independence and the paseo.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "san-antonio-alamo",
+            "title": "The Alamo",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "The Alamo",
+              "address": "300 Alamo Plaza, San Antonio, TX",
+              "lat": 29.426,
+              "lng": -98.4861,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Alamo"
+            },
+            "blurb": "'Remember the Alamo' — the 1836 mission-fortress at the heart of Texas identity."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "san-antonio-river-walk",
+            "title": "The River Walk",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "San Antonio River Walk",
+              "address": "River Walk, San Antonio, TX",
+              "lat": 29.425,
+              "lng": -98.488,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=San%20Antonio%20River%20Walk"
+            },
+            "blurb": "Stroll or take a barge along the cypress-lined paseo of restaurants and bridges below street level."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 342,
+      "label": "Day 342 — The Missions",
+      "type": "active",
+      "summary": "A UNESCO chain of Spanish colonial missions.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "san-antonio-missions",
+            "title": "San Antonio Missions NHP",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Mission San José",
+              "address": "6701 San Jose Dr, San Antonio, TX",
+              "lat": 29.362,
+              "lng": -98.481,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mission%20San%20Jos%C3%A9"
+            },
+            "blurb": "Bike or drive the Mission Trail — San José, Concepción, San Juan, and Espada, a World Heritage Site.",
+            "gear": [
+              "comfortable shoes"
+            ]
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "san-antonio-pearl",
+            "title": "The Pearl District",
+            "categoryId": "food-drink",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "The Pearl",
+              "address": "303 Pearl Pkwy, San Antonio, TX",
+              "lat": 29.443,
+              "lng": -98.48,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Pearl"
+            },
+            "blurb": "A brewery-turned-food-hall district with a great weekend market."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 343,
+      "label": "Day 343 — Free Day",
+      "type": "free",
+      "summary": "A cavern, a coaster park, or the market. Options below.",
+      "freeMenu": [
+        {
+          "id": "san-antonio-natural-bridge",
+          "title": "Natural Bridge Caverns",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 150,
+          "location": {
+            "name": "Natural Bridge Caverns",
+            "address": "26495 Natural Bridge Caverns Rd, San Antonio, TX",
+            "lat": 29.692,
+            "lng": -98.343,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Natural%20Bridge%20Caverns"
+          },
+          "blurb": "The largest commercial caverns in Texas, just north of town."
+        },
+        {
+          "id": "san-antonio-market-square",
+          "title": "Market Square (El Mercado)",
+          "categoryId": "shopping",
+          "tier": "low",
+          "durationMins": 120,
+          "location": {
+            "name": "Market Square",
+            "address": "514 W Commerce St, San Antonio, TX",
+            "lat": 29.425,
+            "lng": -98.506,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Market%20Square"
+          },
+          "blurb": "The largest Mexican market in the U.S., with mariachi and Mi Tierra."
+        }
+      ]
+    },
+    {
+      "dayNumber": 344,
+      "label": "Day 344 — Into the Hill Country",
+      "type": "commute",
+      "summary": "Northwest to German Texas.",
+      "commute": {
+        "from": "San Antonio, TX",
+        "to": "Fredericksburg, TX",
+        "driveTimeMins": 90,
+        "scenicNote": "Northwest into the Hill Country."
+      }
+    }
+  ]
+}

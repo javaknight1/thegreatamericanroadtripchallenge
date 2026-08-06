@@ -737,18 +737,18 @@
       "id": "texas-south-plains",
       "stops": [
         {
-          "id": "oklahoma-city",
-          "order": 1,
-          "name": "Oklahoma City",
-          "state": "OK",
-          "plannedDays": 3
-        },
-        {
           "id": "tulsa",
           "order": 2,
           "name": "Tulsa",
           "state": "OK",
           "plannedDays": 2
+        },
+        {
+          "id": "oklahoma-city",
+          "order": 1,
+          "name": "Oklahoma City",
+          "state": "OK",
+          "plannedDays": 3
         },
         {
           "id": "dallas-fort-worth",
@@ -772,20 +772,6 @@
           "plannedDays": 6
         },
         {
-          "id": "fredericksburg-hill-country",
-          "order": 6,
-          "name": "Fredericksburg & Hill Country",
-          "state": "TX",
-          "plannedDays": 2
-        },
-        {
-          "id": "san-antonio",
-          "order": 7,
-          "name": "San Antonio",
-          "state": "TX",
-          "plannedDays": 4
-        },
-        {
           "id": "houston",
           "order": 8,
           "name": "Houston",
@@ -803,6 +789,20 @@
           "id": "corpus-christi-padre-island",
           "order": 10,
           "name": "Corpus Christi & Padre Island",
+          "state": "TX",
+          "plannedDays": 2
+        },
+        {
+          "id": "san-antonio",
+          "order": 7,
+          "name": "San Antonio",
+          "state": "TX",
+          "plannedDays": 4
+        },
+        {
+          "id": "fredericksburg-hill-country",
+          "order": 6,
+          "name": "Fredericksburg & Hill Country",
           "state": "TX",
           "plannedDays": 2
         },

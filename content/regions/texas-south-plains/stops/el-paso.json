@@ -1,0 +1,83 @@
+{
+  "id": "el-paso",
+  "name": "El Paso",
+  "state": "TX",
+  "country": "US",
+  "order": 12,
+  "location": {
+    "lat": 31.7619,
+    "lng": -106.485
+  },
+  "summary": "The far western tip of Texas, twinned with Juárez across the Rio Grande — a binational border culture, mountain views, and the oldest mission in the state.",
+  "lodging": [
+    {
+      "name": "A downtown El Paso hotel",
+      "blurb": "Near the Franklin Mountains and the border.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20El%20Paso%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Border-style Tex-Mex",
+      "blurb": "Chiles rellenos, gorditas, and true border cooking."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 351,
+      "label": "Day 351 — The Border City",
+      "type": "active",
+      "summary": "Mountains, missions, and the view into Mexico.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "el-paso-scenic-drive",
+            "title": "Scenic Drive & the Franklin Mountains",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Scenic Drive Overlook",
+              "address": "Scenic Dr, El Paso, TX",
+              "lat": 31.781,
+              "lng": -106.479,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Scenic%20Drive%20Overlook"
+            },
+            "blurb": "The overlook across El Paso and Juárez, and the largest urban park in the country in the Franklins."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "el-paso-mission-trail",
+            "title": "The El Paso Mission Trail",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Ysleta Mission",
+              "address": "131 S Zaragoza Rd, El Paso, TX",
+              "lat": 31.698,
+              "lng": -106.31,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Ysleta%20Mission"
+            },
+            "blurb": "Ysleta, the oldest mission in Texas (1682), and the Socorro and San Elizario missions."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 352,
+      "label": "Day 352 — East to Guadalupe",
+      "type": "commute",
+      "summary": "To the roof of Texas.",
+      "commute": {
+        "from": "El Paso, TX",
+        "to": "Guadalupe Mountains National Park, TX",
+        "driveTimeMins": 120,
+        "scenicNote": "East to the Guadalupe Mountains."
+      }
+    }
+  ]
+}
