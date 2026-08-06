@@ -1364,25 +1364,18 @@
           "plannedDays": 3
         },
         {
-          "id": "aspen-vail-breckenridge",
-          "order": 6,
-          "name": "Aspen, Vail & Breckenridge",
-          "state": "CO",
-          "plannedDays": 4
-        },
-        {
-          "id": "glenwood-springs",
-          "order": 7,
-          "name": "Glenwood Springs",
-          "state": "CO",
-          "plannedDays": 2
-        },
-        {
           "id": "great-sand-dunes-np",
           "order": 8,
           "name": "Great Sand Dunes NP",
           "state": "CO",
           "plannedDays": 2
+        },
+        {
+          "id": "mesa-verde-np-durango",
+          "order": 11,
+          "name": "Mesa Verde NP & Durango",
+          "state": "CO",
+          "plannedDays": 3
         },
         {
           "id": "telluride",
@@ -1399,11 +1392,18 @@
           "plannedDays": 2
         },
         {
-          "id": "mesa-verde-np-durango",
-          "order": 11,
-          "name": "Mesa Verde NP & Durango",
+          "id": "glenwood-springs",
+          "order": 7,
+          "name": "Glenwood Springs",
           "state": "CO",
-          "plannedDays": 3
+          "plannedDays": 2
+        },
+        {
+          "id": "aspen-vail-breckenridge",
+          "order": 6,
+          "name": "Aspen, Vail & Breckenridge",
+          "state": "CO",
+          "plannedDays": 4
         }
       ]
     },

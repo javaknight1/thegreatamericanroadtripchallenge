@@ -1,0 +1,69 @@
+{
+  "id": "telluride",
+  "name": "Telluride",
+  "state": "CO",
+  "country": "US",
+  "order": 8,
+  "location": {
+    "lat": 37.9375,
+    "lng": -107.8123
+  },
+  "summary": "A jewel-box former mining town at the head of a stunning box canyon — a free gondola, a towering waterfall, and famous festivals.",
+  "lodging": [
+    {
+      "name": "A Telluride or Mountain Village lodge",
+      "blurb": "In the box canyon or up the gondola.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Telluride%20Colorado%20lodge"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Après fare in the box canyon",
+      "blurb": "Great mountain-town dining."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 575,
+      "label": "Day 575 — Box Canyon",
+      "type": "active",
+      "summary": "The gondola and the falls.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "telluride-gondola-falls",
+            "title": "Free gondola & Bridal Veil Falls",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Telluride Gondola",
+              "address": "Telluride, CO",
+              "lat": 37.9375,
+              "lng": -107.8123,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Telluride%20Gondola"
+            },
+            "blurb": "Ride the free gondola over the ridge, walk the historic main street, and hike toward Colorado's tallest free-falling waterfall.",
+            "gear": [
+              "layers",
+              "hiking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 576,
+      "label": "Day 576 — North to the Black Canyon",
+      "type": "commute",
+      "summary": "To the deepest, darkest gorge.",
+      "commute": {
+        "from": "Telluride, CO",
+        "to": "Black Canyon of the Gunnison National Park, CO",
+        "driveTimeMins": 120,
+        "scenicNote": "North to the Black Canyon."
+      }
+    }
+  ]
+}

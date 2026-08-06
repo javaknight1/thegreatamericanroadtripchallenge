@@ -1,0 +1,98 @@
+{
+  "id": "mesa-verde-np-durango",
+  "name": "Mesa Verde & Durango",
+  "state": "CO",
+  "country": "US",
+  "order": 7,
+  "location": {
+    "lat": 37.2309,
+    "lng": -108.4618
+  },
+  "summary": "Ancient cliff dwellings tucked into the canyon walls, and a Victorian railroad town with a steam train that climbs into the San Juans.",
+  "lodging": [
+    {
+      "name": "A Durango hotel",
+      "blurb": "Historic downtown near the depot.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Durango%20Colorado%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Southwestern fare & local brews",
+      "blurb": "Durango's lively main street."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 572,
+      "label": "Day 572 — Cliff Palace",
+      "type": "active",
+      "summary": "The Ancestral Puebloan world.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "mesa-verde-cliff-palace",
+            "title": "Mesa Verde cliff dwellings",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Mesa Verde National Park",
+              "address": "Mesa Verde National Park, CO",
+              "lat": 37.2309,
+              "lng": -108.4618,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mesa%20Verde%20National%20Park"
+            },
+            "blurb": "Tour Cliff Palace and Balcony House — 700-year-old stone villages built into the canyon alcoves (ranger tickets required).",
+            "gear": [
+              "sturdy shoes",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 573,
+      "label": "Day 573 — The Silverton Train",
+      "type": "active",
+      "summary": "A steam ride into the mountains.",
+      "blocks": [
+        {
+          "start": "8:00 AM",
+          "item": {
+            "id": "durango-silverton-train",
+            "title": "Durango & Silverton Narrow Gauge Railroad",
+            "categoryId": "guided-tours",
+            "tier": "anchor",
+            "durationMins": 420,
+            "location": {
+              "name": "Durango & Silverton Narrow Gauge Railroad",
+              "address": "479 Main Ave, Durango, CO",
+              "lat": 37.275,
+              "lng": -107.88,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Durango%20%26%20Silverton%20Narrow%20Gauge%20Railroad"
+            },
+            "blurb": "A coal-fired steam train up the Animas River gorge to the old mining town of Silverton and back.",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 574,
+      "label": "Day 574 — North to Telluride",
+      "type": "commute",
+      "summary": "Over the Million Dollar Highway.",
+      "commute": {
+        "from": "Durango, CO",
+        "to": "Telluride, CO",
+        "driveTimeMins": 150,
+        "scenicNote": "North on the spectacular San Juan Skyway."
+      }
+    }
+  ]
+}

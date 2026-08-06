@@ -7,9 +7,8 @@ is the list to work from once the loop is fully written.
 Rob's standing instruction: add suggestions here as they come up, without asking
 first. Items are only removed when they're resolved or explicitly dropped.
 
-Last updated at **187 stops · 569 days · 669 items · 36 states** — ten legs
-complete plus Colorado & the Rockies in progress (5 of its 11 stops), days 1–569
-contiguous.
+Last updated at **193 stops · 584 days · 679 items · 36 states** — eleven legs of
+fourteen complete, days 1–584 contiguous, heading out to the Great Plains.
 
 ---
 
@@ -31,6 +30,7 @@ data doesn't back that up.
 | California | 4 / 51 (8%) | 12 days, through day 440 |
 | Pacific Northwest | 2 / 48 (4%) | **23 days**, through day 503 |
 | Northern Rockies | 2 / 38 (5%) | 14 days, through day 530 |
+| Colorado Rockies | 2 / 30 (7%) | 19 days, through day 584 |
 
 The Deep South run is the one I'd fix first: **days 256–285** is thirty straight
 days without one, and it covers the heaviest material in the trip — Whitney
@@ -111,6 +111,7 @@ Twenty-four days involve 3+ hours behind the wheel. The outliers:
 | day | hours | leg |
 |---|---|---|
 | 518 | **7.0h** Coeur d'Alene → Boise | Northern Rockies |
+| 584 | **6.5h** Breckenridge → Rapid City | Colorado → Great Plains |
 | 346 | **5.5h** Fredericksburg → Big Bend | Texas |
 | 417 | **5.5h** Tucson → San Diego | Southwest → California |
 | 408 | **5.0h** Las Vegas → Phoenix | Southwest |
@@ -240,22 +241,31 @@ a selling point, not a footnote.
   fine today, but as the West fills in it's worth re-checking that all fourteen
   are distinguishable side by side.
 
-### Colorado's season note and the skiing gap point the same direction
+### `skiing` will finish the trip with one item
 
-`colorado-rockies/region.json` is timed for **early fall** — "aspens gold above
-9,000 feet," with an explicit note that the window is short — and its summary
-promises "ski towns out of season." That is a deliberate editorial choice and
-it reads well. It also means Aspen and Vail, the last two realistic homes for a
-`skiing` item, arrive in a leg whose whole framing is *not* winter.
+**Settled, unless something changes.** Aspen, Vail and Breckenridge are now
+written (days 581–583) and none carries a `skiing` item — Maroon Bells is
+`landmarks`, Vail Village and Breckenridge are `cities`. That completes the
+sweep: Park City, Lake Tahoe, Sun Valley, Jackson Hole, Telluride, and now the
+I-70 trio have all gone by tagged as something else.
 
-So the skiing gap may not be fixable by re-tagging within this route at all. If
-`skiing` is meant to carry real weight, the options are: give one of the ski
-towns a winter-facing item anyway (the category is about the place, not the
-date), re-tag Park City or Jackson Hole retroactively, or accept that a
-summer-and-fall loop through the mountains legitimately doesn't ski and let the
-category stay at one item. **I'd take the first** — a lift-served summit or a
-resort-village item reads honestly in any season, and 18 categories with one
-near-empty is a visible hole on the home page.
+The route is the reason, and it's a defensible one. The leg is timed for late
+summer and fall — the season note is explicit about aspens, and the summary says
+"ski towns out of season." Nowhere does this itinerary arrive at a mountain in
+winter, so nothing in it honestly skis.
+
+That leaves **one `skiing` item across 584 days** (Timberline Lodge, day 475,
+which qualifies only because Mount Hood offers summer skiing). Options, in the
+order I'd pick them:
+
+1. **Add a winter-facing item anyway** at Vail or Breckenridge — the category
+   describes the place, and a reader planning their own trip wants to know the
+   mountain is there. Costs nothing structurally.
+2. **Re-tag one existing item** — Sun Valley's Bald Mountain is the cleanest fit,
+   since the blurb already says "world-class skiing in winter."
+3. **Accept it.** A fall loop through the Rockies genuinely doesn't ski, and the
+   home page showing `skiing: 1` is honest. But it will read as an oversight to
+   anyone scanning the category list, not as an editorial choice.
 
 ## 8. Ideas, not problems
 
@@ -270,14 +280,13 @@ near-empty is a visible hole on the home page.
 
 ## 9. Where the trip stands
 
-Written: legs 1–10 complete, plus Colorado through Colorado Springs — days
-1–569. Remaining: the rest of Colorado, Great Plains, Upper Midwest & Great
-Lakes, Appalachia Return — 63 of 250 stops.
+Written: legs 1–11 complete — days 1–584, out on the plains.
+Remaining: Great Plains, Upper Midwest & Great Lakes, Appalachia Return — 57 of
+250 stops.
 
-Capitals: **36 of 48 capital cities written** — Denver lands on day 563. Still
-to come: Springfield, Indianapolis, Des Moines, Topeka, Lansing, Saint Paul,
-Jefferson City, Lincoln, Bismarck, Columbus, Pierre, Madison — all twelve in the
-three remaining legs.
+Capitals: **36 of 48 capital cities written**. Still to come: Springfield,
+Indianapolis, Des Moines, Topeka, Lansing, Saint Paul, Jefferson City, Lincoln,
+Bismarck, Columbus, Pierre, Madison — all twelve in the three remaining legs.
 
 **The capitals check can produce false positives.** `scripts/dev/audit.ts`
 matches a capital by testing whether any stop name *contains* the city name, so

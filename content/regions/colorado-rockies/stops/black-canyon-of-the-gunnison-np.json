@@ -1,0 +1,68 @@
+{
+  "id": "black-canyon-of-the-gunnison-np",
+  "name": "Black Canyon of the Gunnison",
+  "state": "CO",
+  "country": "US",
+  "order": 9,
+  "location": {
+    "lat": 38.5754,
+    "lng": -107.7416
+  },
+  "summary": "One of the steepest, narrowest, and darkest canyons in North America — sheer walls plunging half a mile to a thin ribbon of river.",
+  "lodging": [
+    {
+      "name": "A Montrose hotel",
+      "blurb": "The gateway town to the South Rim.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Montrose%20Colorado%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Western Slope meal",
+      "blurb": "Ranch country fare in Montrose."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 577,
+      "label": "Day 577 — The Rim",
+      "type": "active",
+      "summary": "Peer into the abyss.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "black-canyon-south-rim",
+            "title": "Black Canyon South Rim",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Black Canyon of the Gunnison National Park",
+              "address": "South Rim Rd, Montrose, CO",
+              "lat": 38.5754,
+              "lng": -107.7416,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Black%20Canyon%20of%20the%20Gunnison%20National%20Park"
+            },
+            "blurb": "Drive the South Rim to overlooks of the dizzying, sheer walls — including the Painted Wall, Colorado's tallest cliff.",
+            "gear": [
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 578,
+      "label": "Day 578 — North to Glenwood",
+      "type": "commute",
+      "summary": "To the hot springs.",
+      "commute": {
+        "from": "Black Canyon of the Gunnison National Park, CO",
+        "to": "Glenwood Springs, CO",
+        "driveTimeMins": 150,
+        "scenicNote": "North to Glenwood Springs."
+      }
+    }
+  ]
+}

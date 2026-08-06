@@ -1,0 +1,70 @@
+{
+  "id": "great-sand-dunes-np",
+  "name": "Great Sand Dunes National Park",
+  "state": "CO",
+  "country": "US",
+  "order": 6,
+  "location": {
+    "lat": 37.7929,
+    "lng": -105.5943
+  },
+  "summary": "The tallest sand dunes in North America, piled improbably against snow-capped peaks — climb them, sled them, and splash in the seasonal creek at their base.",
+  "lodging": [
+    {
+      "name": "An Alamosa hotel",
+      "blurb": "The nearest town to the dunes.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Alamosa%20Colorado%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "San Luis Valley Mexican food",
+      "blurb": "Green chile in the high valley."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 570,
+      "label": "Day 570 — The Dunes",
+      "type": "active",
+      "summary": "Climb the sand.",
+      "blocks": [
+        {
+          "start": "8:00 AM",
+          "item": {
+            "id": "great-sand-dunes-climb",
+            "title": "Great Sand Dunes",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Great Sand Dunes National Park",
+              "address": "11999 CO-150, Mosca, CO",
+              "lat": 37.7929,
+              "lng": -105.5943,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Great%20Sand%20Dunes%20National%20Park"
+            },
+            "blurb": "Hike (and sandboard down) 750-ft dunes beneath the Sangre de Cristos, with Medano Creek at the base in late spring.",
+            "gear": [
+              "sandboard/sled",
+              "water",
+              "sun protection"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 571,
+      "label": "Day 571 — West to Mesa Verde",
+      "type": "commute",
+      "summary": "To the cliff dwellings.",
+      "commute": {
+        "from": "Great Sand Dunes National Park, CO",
+        "to": "Mesa Verde National Park, CO",
+        "driveTimeMins": 210,
+        "scenicNote": "West over Wolf Creek Pass to Mesa Verde."
+      }
+    }
+  ]
+}

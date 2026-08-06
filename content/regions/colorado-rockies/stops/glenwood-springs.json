@@ -1,0 +1,86 @@
+{
+  "id": "glenwood-springs",
+  "name": "Glenwood Springs",
+  "state": "CO",
+  "country": "US",
+  "order": 10,
+  "location": {
+    "lat": 39.5505,
+    "lng": -107.3248
+  },
+  "summary": "A resort town built around the world's largest hot-springs pool, with a cave adventure park on the mountain above and a turquoise lake nearby.",
+  "lodging": [
+    {
+      "name": "The Hotel Colorado or a hot-springs lodge",
+      "blurb": "Steps from the pools.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Glenwood%20Springs%20hot%20springs%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A soak-and-dine evening",
+      "blurb": "Dinner after a long hot-springs soak."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 579,
+      "label": "Day 579 — Hot Springs & Caves",
+      "type": "active",
+      "summary": "Soak and explore.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "glenwood-hot-springs",
+            "title": "Glenwood Hot Springs Pool",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Glenwood Hot Springs Resort",
+              "address": "401 N River St, Glenwood Springs, CO",
+              "lat": 39.551,
+              "lng": -107.321,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Glenwood%20Hot%20Springs%20Resort"
+            },
+            "blurb": "Soak in the world's largest mineral hot-springs pool on the bank of the Colorado.",
+            "gear": [
+              "swimsuit"
+            ]
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "glenwood-caverns",
+            "title": "Glenwood Caverns Adventure Park",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 180,
+            "location": {
+              "name": "Glenwood Caverns Adventure Park",
+              "address": "51000 Two Rivers Plaza Rd, Glenwood Springs, CO",
+              "lat": 39.556,
+              "lng": -107.317,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Glenwood%20Caverns%20Adventure%20Park"
+            },
+            "blurb": "Cave tours and clifftop rides on the mountain above town (Doc Holliday's grave is nearby)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 580,
+      "label": "Day 580 — East to the ski towns",
+      "type": "commute",
+      "summary": "Up the I-70 corridor.",
+      "commute": {
+        "from": "Glenwood Springs, CO",
+        "to": "Aspen, CO",
+        "driveTimeMins": 75,
+        "scenicNote": "East into the high country of the great ski towns."
+      }
+    }
+  ]
+}
