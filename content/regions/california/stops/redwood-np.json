@@ -86,12 +86,12 @@
       "dayNumber": 468,
       "label": "Day 468 — North into Oregon",
       "type": "commute",
-      "summary": "To Crater Lake — California is done.",
+      "summary": "To Ashland — California is done.",
       "commute": {
         "from": "Redwood National Park, CA",
-        "to": "Crater Lake National Park, OR",
+        "to": "Ashland, OR",
         "driveTimeMins": 240,
-        "scenicNote": "Northeast into Oregon and the Pacific Northwest."
+        "scenicNote": "Northeast into Oregon and the Pacific Northwest, starting in Ashland."
       }
     }
   ]

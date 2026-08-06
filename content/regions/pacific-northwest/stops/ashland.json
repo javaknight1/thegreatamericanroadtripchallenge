@@ -1,0 +1,83 @@
+{
+  "id": "ashland",
+  "name": "Ashland",
+  "state": "OR",
+  "country": "US",
+  "order": 1,
+  "location": {
+    "lat": 42.1946,
+    "lng": -122.7095
+  },
+  "summary": "A cultured little town just over the California line, famous for its long-running Shakespeare Festival and a lovely creekside park.",
+  "lodging": [
+    {
+      "name": "An Ashland B&B near the theaters",
+      "blurb": "Walkable to the festival and downtown.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Ashland%20Oregon%20bed%20and%20breakfast"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Rogue Valley wine & farm-to-table",
+      "blurb": "Southern Oregon's underrated wine country."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 469,
+      "label": "Day 469 — Shakespeare & Lithia Park",
+      "type": "active",
+      "summary": "Theater and a creekside stroll.",
+      "blocks": [
+        {
+          "start": "11:00 AM",
+          "item": {
+            "id": "ashland-lithia-park",
+            "title": "Lithia Park & downtown",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Lithia Park",
+              "address": "59 Winburn Way, Ashland, OR",
+              "lat": 42.19,
+              "lng": -122.715,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Lithia%20Park"
+            },
+            "blurb": "A beautiful 93-acre park along Ashland Creek, plus the boutiques of the plaza."
+          }
+        },
+        {
+          "start": "8:00 PM",
+          "item": {
+            "id": "ashland-shakespeare",
+            "title": "Oregon Shakespeare Festival",
+            "categoryId": "concerts-venues",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Oregon Shakespeare Festival",
+              "address": "15 S Pioneer St, Ashland, OR",
+              "lat": 42.193,
+              "lng": -122.713,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Oregon%20Shakespeare%20Festival"
+            },
+            "blurb": "One of the oldest and largest repertory theater festivals in the country (Feb–Oct)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 470,
+      "label": "Day 470 — Up to Crater Lake",
+      "type": "commute",
+      "summary": "To the deepest lake in America.",
+      "commute": {
+        "from": "Ashland, OR",
+        "to": "Crater Lake National Park, OR",
+        "driveTimeMins": 120,
+        "scenicNote": "Northeast up into the Cascades."
+      }
+    }
+  ]
+}

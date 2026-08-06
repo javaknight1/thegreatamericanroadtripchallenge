@@ -7,8 +7,9 @@ is the list to work from once the loop is fully written.
 Rob's standing instruction: add suggestions here as they come up, without asking
 first. Items are only removed when they're resolved or explicitly dropped.
 
-Last updated at **151 stops · 468 days · 576 items · 30 states** — eight legs of
-fourteen complete, days 1–468 contiguous, out to the Oregon line.
+Last updated at **159 stops · 488 days · 597 items · 31 states** — eight legs
+complete plus the Pacific Northwest in progress (8 of its 18 stops), days 1–488
+contiguous.
 
 ---
 
@@ -121,11 +122,12 @@ everything in this file, this is the one I'd actually change.
 
 ## 5. Categories with no content yet
 
-- **`skiing`** — **still empty at 468 days, and now two natural homes have gone
-  by.** Park City (2002 Olympics) was tagged `cities`; Lake Tahoe's "Kayak or ski
-  Tahoe" free-day option is tagged `outdoor-water`. Between them that's Utah's
-  and California's best skiing. The Rockies legs are the last chance; if the
-  category is meant to be used, one of these two wants re-tagging.
+- **`skiing` — RESOLVED at day 475.** Timberline Lodge on Mount Hood is the
+  first item to carry it, so all 18 categories are now in use. Worth noting the
+  two that got away, in case they're worth re-tagging for balance: Park City
+  (2002 Olympics) is `cities`, and Lake Tahoe's "Kayak or ski Tahoe" free-day
+  option is `outdoor-water`. One category item across 488 days is still thin for
+  a trip claiming full coverage — the Rockies legs are where it should fill in.
 - **`festivals`** — used in the Deep South (Mardi Gras, Mobile Carnival) but
   absent from Mid-Atlantic, Texas and the Southwest. Balloon Fiesta is mentioned
   in an Albuquerque blurb rather than being its own item.
@@ -201,9 +203,10 @@ capitals that are the outliers.
 
 ## 9. Where the trip stands
 
-Written: legs 1–8 complete — days 1–468, out to the Oregon line.
-Remaining: Pacific Northwest, Northern Rockies, Colorado Rockies, Great Plains,
-Upper Midwest & Great Lakes, Appalachia Return — 99 of 250 stops.
+Written: legs 1–8 complete, plus the Pacific Northwest through Astoria — days
+1–488. Remaining: the rest of the Pacific Northwest, Northern Rockies, Colorado
+Rockies, Great Plains, Upper Midwest & Great Lakes, Appalachia Return — 91 of
+250 stops.
 
-Capitals: **31 of 48 capital cities written**, 48/48 present in the plan.
+Capitals: **32 of 48 capital cities written**, 48/48 present in the plan.
 (Though see §5 — three of those capitals have no `capitols` item.)

@@ -1,0 +1,87 @@
+{
+  "id": "salem",
+  "name": "Salem",
+  "state": "OR",
+  "country": "US",
+  "order": 6,
+  "location": {
+    "lat": 44.9429,
+    "lng": -123.0351
+  },
+  "summary": "Oregon's capital in the heart of Willamette Valley wine country, with a glorious ten-waterfall park just east.",
+  "lodging": [
+    {
+      "name": "A Salem or wine-country inn",
+      "blurb": "Near the Capitol and the vineyards.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Salem%20Oregon%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Willamette Valley Pinot Noir",
+      "blurb": "Some of the best Pinot in the country."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 482,
+      "label": "Day 482 — Capital & Waterfalls",
+      "type": "active",
+      "summary": "The statehouse and Silver Falls.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "salem-or-capitol",
+            "title": "Oregon State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "Oregon State Capitol",
+              "address": "900 Court St NE, Salem, OR",
+              "lat": 44.9382,
+              "lng": -123.0301,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Oregon%20State%20Capitol"
+            },
+            "blurb": "The Art Deco marble capitol topped by the gold Oregon Pioneer."
+          }
+        },
+        {
+          "start": "12:00 PM",
+          "item": {
+            "id": "salem-or-silver-falls",
+            "title": "Silver Falls State Park",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Silver Falls State Park",
+              "address": "20024 Silver Falls Hwy SE, Sublimity, OR",
+              "lat": 44.86,
+              "lng": -122.655,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Silver%20Falls%20State%20Park"
+            },
+            "blurb": "The 'Trail of Ten Falls' — a loop that walks you behind thundering waterfalls.",
+            "gear": [
+              "hiking shoes",
+              "rain shell"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 483,
+      "label": "Day 483 — West to the coast",
+      "type": "commute",
+      "summary": "Out to the Pacific.",
+      "commute": {
+        "from": "Salem, OR",
+        "to": "Oregon Coast (Newport), OR",
+        "driveTimeMins": 90,
+        "scenicNote": "West to the Oregon Coast."
+      }
+    }
+  ]
+}

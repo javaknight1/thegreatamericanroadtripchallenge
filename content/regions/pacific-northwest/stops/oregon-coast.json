@@ -1,0 +1,117 @@
+{
+  "id": "oregon-coast",
+  "name": "The Oregon Coast",
+  "state": "OR",
+  "country": "US",
+  "order": 7,
+  "location": {
+    "lat": 44.6368,
+    "lng": -124.0535
+  },
+  "summary": "One of the great drives in America — Highway 101 past sea stacks, lighthouses, tide pools, an aquarium, and 40 miles of towering sand dunes.",
+  "lodging": [
+    {
+      "name": "An oceanfront inn in Newport or Cannon Beach",
+      "blurb": "On the 101 with ocean views.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Newport%20Oregon%20oceanfront%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Dungeness crab & Tillamook cheese",
+      "blurb": "Fresh crab and a stop at the Tillamook creamery."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 484,
+      "label": "Day 484 — The Central Coast",
+      "type": "active",
+      "summary": "An aquarium, dunes, and lighthouses.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "oregon-coast-newport",
+            "title": "Oregon Coast Aquarium & Yaquina Head",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Oregon Coast Aquarium",
+              "address": "2820 SE Ferry Slip Rd, Newport, OR",
+              "lat": 44.617,
+              "lng": -124.047,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Oregon%20Coast%20Aquarium"
+            },
+            "blurb": "A superb aquarium, plus the Yaquina Head Lighthouse and its tide pools."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "oregon-coast-dunes",
+            "title": "Oregon Dunes",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Oregon Dunes National Recreation Area",
+              "address": "855 US-101, Reedsport, OR",
+              "lat": 43.702,
+              "lng": -124.093,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Oregon%20Dunes%20National%20Recreation%20Area"
+            },
+            "blurb": "40 miles of the largest coastal sand dunes in North America — ride, hike, or sandboard.",
+            "gear": [
+              "sun protection"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 485,
+      "label": "Day 485 — Cannon Beach",
+      "type": "active",
+      "summary": "Sea stacks and a famous rock.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "oregon-coast-cannon-beach",
+            "title": "Cannon Beach & Haystack Rock",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Haystack Rock",
+              "address": "Cannon Beach, OR",
+              "lat": 45.8847,
+              "lng": -123.968,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Haystack%20Rock"
+            },
+            "blurb": "The 235-ft monolith with its tide pools and puffins, plus the viewpoints of Ecola State Park.",
+            "gear": [
+              "beach gear",
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 486,
+      "label": "Day 486 — North to Astoria",
+      "type": "commute",
+      "summary": "Up the coast to the river mouth.",
+      "commute": {
+        "from": "Cannon Beach, OR",
+        "to": "Astoria, OR",
+        "driveTimeMins": 45,
+        "scenicNote": "North to Astoria at the mouth of the Columbia."
+      }
+    }
+  ]
+}

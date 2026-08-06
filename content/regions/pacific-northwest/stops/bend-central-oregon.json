@@ -1,0 +1,87 @@
+{
+  "id": "bend-central-oregon",
+  "name": "Bend & Central Oregon",
+  "state": "OR",
+  "country": "US",
+  "order": 3,
+  "location": {
+    "lat": 44.0582,
+    "lng": -121.3153
+  },
+  "summary": "High-desert playground of the Cascades — a legendary craft-beer scene, a river through downtown, and volcanic landscapes and climbing rock all around.",
+  "lodging": [
+    {
+      "name": "A Bend riverfront hotel",
+      "blurb": "Near the Deschutes and the Old Mill.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Bend%20Oregon%20riverfront%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "The Bend Ale Trail",
+      "blurb": "One of the highest brewery-per-capita towns in America."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 473,
+      "label": "Day 473 — Beer, River & Rock",
+      "type": "active",
+      "summary": "Central Oregon's outdoors and ales.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "bend-smith-rock",
+            "title": "Smith Rock State Park",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Smith Rock State Park",
+              "address": "9241 NE Crooked River Dr, Terrebonne, OR",
+              "lat": 44.3683,
+              "lng": -121.142,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Smith%20Rock%20State%20Park"
+            },
+            "blurb": "Dramatic spires above the Crooked River — the birthplace of American sport climbing (and a great hike).",
+            "gear": [
+              "hiking shoes",
+              "water"
+            ]
+          }
+        },
+        {
+          "start": "3:00 PM",
+          "item": {
+            "id": "bend-breweries",
+            "title": "Deschutes & the Bend Ale Trail",
+            "categoryId": "food-drink",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Deschutes Brewery",
+              "address": "901 SW Simpson Ave, Bend, OR",
+              "lat": 44.052,
+              "lng": -121.321,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Deschutes%20Brewery"
+            },
+            "blurb": "Tour and taste at Deschutes and the many breweries along the river."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 474,
+      "label": "Day 474 — North to Mount Hood",
+      "type": "commute",
+      "summary": "To the waterfalls and the mountain.",
+      "commute": {
+        "from": "Bend, OR",
+        "to": "Mount Hood, OR",
+        "driveTimeMins": 150,
+        "scenicNote": "North along the Cascades to Mount Hood."
+      }
+    }
+  ]
+}

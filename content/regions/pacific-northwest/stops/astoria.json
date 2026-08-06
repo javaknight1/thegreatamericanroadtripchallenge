@@ -1,0 +1,83 @@
+{
+  "id": "astoria",
+  "name": "Astoria",
+  "state": "OR",
+  "country": "US",
+  "order": 8,
+  "location": {
+    "lat": 46.1879,
+    "lng": -123.8313
+  },
+  "summary": "The oldest American settlement west of the Rockies, at the mouth of the Columbia — a hilltop column, Lewis and Clark's winter fort, and 'Goonies' nostalgia.",
+  "lodging": [
+    {
+      "name": "A riverfront Astoria hotel",
+      "blurb": "Watch the ships on the Columbia.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Astoria%20Oregon%20riverfront%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Fresh Columbia River salmon",
+      "blurb": "And a pint in a riverfront brewery."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 487,
+      "label": "Day 487 — Column, Maritime & the Goonies",
+      "type": "active",
+      "summary": "The river town and its history.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "astoria-column",
+            "title": "The Astoria Column & Maritime Museum",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Astoria Column",
+              "address": "1 Coxcomb Dr, Astoria, OR",
+              "lat": 46.181,
+              "lng": -123.816,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Astoria%20Column"
+            },
+            "blurb": "Climb the painted column for the river view, then the excellent Columbia River Maritime Museum and the 'Goonies' house."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "astoria-fort-clatsop",
+            "title": "Fort Clatsop (Lewis & Clark NHP)",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Fort Clatsop",
+              "address": "92343 Fort Clatsop Rd, Astoria, OR",
+              "lat": 46.135,
+              "lng": -123.879,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Fort%20Clatsop"
+            },
+            "blurb": "The reconstructed fort where Lewis and Clark wintered in 1805–06."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 488,
+      "label": "Day 488 — Across to Washington",
+      "type": "commute",
+      "summary": "Over the Columbia to the volcano.",
+      "commute": {
+        "from": "Astoria, OR",
+        "to": "Mount St. Helens, WA",
+        "driveTimeMins": 150,
+        "scenicNote": "North across the great river bridge into Washington."
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "mount-hood-columbia-gorge",
+  "name": "Mount Hood & the Columbia Gorge",
+  "state": "OR",
+  "country": "US",
+  "order": 4,
+  "location": {
+    "lat": 45.576,
+    "lng": -121.6947
+  },
+  "summary": "Oregon's glacier-capped high point and the waterfall-laced river gorge below it — including the tallest falls in the state.",
+  "lodging": [
+    {
+      "name": "Timberline Lodge or a Hood River inn",
+      "blurb": "The historic mountain lodge, or the windsurfing town of Hood River.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Timberline%20Lodge%20Mount%20Hood"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Hood River fruit & cider",
+      "blurb": "The 'Fruit Loop' orchards and cideries."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 475,
+      "label": "Day 475 — Waterfalls & the Mountain",
+      "type": "active",
+      "summary": "The Gorge and Timberline.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "mount-hood-multnomah",
+            "title": "Columbia Gorge waterfalls",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Multnomah Falls",
+              "address": "Multnomah Falls, Bridal Veil, OR",
+              "lat": 45.5762,
+              "lng": -122.1158,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Multnomah%20Falls"
+            },
+            "blurb": "The 620-ft Multnomah Falls and the string of cascades along the historic Gorge highway, with the Vista House overlook."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "mount-hood-timberline",
+            "title": "Timberline Lodge on Mount Hood",
+            "categoryId": "skiing",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Timberline Lodge",
+              "address": "27500 E Timberline Rd, Government Camp, OR",
+              "lat": 45.3311,
+              "lng": -121.711,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Timberline%20Lodge"
+            },
+            "blurb": "The 1937 WPA lodge (the 'Shining' exterior) below the glaciers — summer skiing and alpine views.",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 476,
+      "label": "Day 476 — West to Portland",
+      "type": "commute",
+      "summary": "Down the Gorge to the city.",
+      "commute": {
+        "from": "Mount Hood, OR",
+        "to": "Portland, OR",
+        "driveTimeMins": 75,
+        "scenicNote": "West along the Columbia into Portland."
+      }
+    }
+  ]
+}

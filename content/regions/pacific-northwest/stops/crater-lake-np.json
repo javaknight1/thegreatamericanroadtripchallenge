@@ -1,0 +1,68 @@
+{
+  "id": "crater-lake-np",
+  "name": "Crater Lake National Park",
+  "state": "OR",
+  "country": "US",
+  "order": 2,
+  "location": {
+    "lat": 42.9446,
+    "lng": -122.109
+  },
+  "summary": "An impossibly blue lake filling the caldera of a collapsed volcano — the deepest lake in the United States.",
+  "lodging": [
+    {
+      "name": "Crater Lake Lodge (in-park)",
+      "blurb": "Historic lodge on the rim — book far ahead.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Crater%20Lake%20Lodge"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Dinner on the rim",
+      "blurb": "At the lodge, over the caldera."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 471,
+      "label": "Day 471 — The Caldera",
+      "type": "active",
+      "summary": "Around the rim.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "crater-lake-rim-drive",
+            "title": "Rim Drive & Wizard Island",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Crater Lake National Park",
+              "address": "Crater Lake National Park, OR",
+              "lat": 42.9446,
+              "lng": -122.109,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Crater%20Lake%20National%20Park"
+            },
+            "blurb": "Circle the 33-mile Rim Drive above the 1,943-ft-deep sapphire lake, with Wizard Island rising from the water (drive is seasonal — snowbound into summer).",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 472,
+      "label": "Day 472 — North to Bend",
+      "type": "commute",
+      "summary": "To the high-desert beer town.",
+      "commute": {
+        "from": "Crater Lake National Park, OR",
+        "to": "Bend, OR",
+        "driveTimeMins": 120,
+        "scenicNote": "North to Bend and central Oregon."
+      }
+    }
+  ]
+}

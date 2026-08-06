@@ -1,0 +1,192 @@
+{
+  "id": "portland-oregon",
+  "name": "Portland",
+  "state": "OR",
+  "country": "US",
+  "order": 5,
+  "location": {
+    "lat": 45.5152,
+    "lng": -122.6784
+  },
+  "summary": "Keep-it-weird Portland — the world's biggest bookstore, food carts on every corner, rose and Japanese gardens, and a bottomless craft-beer and coffee scene.",
+  "lodging": [
+    {
+      "name": "A downtown or Pearl District hotel",
+      "blurb": "Walkable and on the streetcar.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Pearl%20District%20Portland%20Oregon%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Food-cart lunch & a Voodoo doughnut",
+      "blurb": "Plus world-class coffee and beer."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 477,
+      "label": "Day 477 — Books, Carts & Doughnuts",
+      "type": "active",
+      "summary": "Quintessential Portland.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "pdx-powells",
+            "title": "Powell's City of Books & the Pearl",
+            "categoryId": "shopping",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Powell's City of Books",
+              "address": "1005 W Burnside St, Portland, OR",
+              "lat": 45.523,
+              "lng": -122.681,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Powell%27s%20City%20of%20Books"
+            },
+            "blurb": "The largest independent bookstore in the world, plus the galleries and cafés of the Pearl District."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "pdx-food-carts",
+            "title": "Food carts & Voodoo Doughnut",
+            "categoryId": "food-drink",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Voodoo Doughnut",
+              "address": "22 SW 3rd Ave, Portland, OR",
+              "lat": 45.5227,
+              "lng": -122.673,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Voodoo%20Doughnut"
+            },
+            "blurb": "Graze the food-cart pods and grab an oddball doughnut."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 478,
+      "label": "Day 478 — Gardens & Views",
+      "type": "active",
+      "summary": "Roses, a Japanese garden, and a mansion.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:30 PM",
+          "item": {
+            "id": "pdx-washington-park",
+            "title": "Washington Park: Rose & Japanese Gardens",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "International Rose Test Garden",
+              "address": "400 SW Kingston Ave, Portland, OR",
+              "lat": 45.519,
+              "lng": -122.705,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=International%20Rose%20Test%20Garden"
+            },
+            "blurb": "The International Rose Test Garden ('City of Roses') and the serene Portland Japanese Garden."
+          }
+        },
+        {
+          "start": "3:00 PM",
+          "item": {
+            "id": "pdx-pittock",
+            "title": "Pittock Mansion",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Pittock Mansion",
+              "address": "3229 NW Pittock Dr, Portland, OR",
+              "lat": 45.525,
+              "lng": -122.716,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Pittock%20Mansion"
+            },
+            "blurb": "A French-Renaissance mansion with the classic city-and-Mount-Hood view."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 479,
+      "label": "Day 479 — Neighborhoods & Beer",
+      "type": "active",
+      "summary": "Eat and drink your way around.",
+      "blocks": [
+        {
+          "start": "11:00 AM",
+          "item": {
+            "id": "pdx-neighborhoods",
+            "title": "Hawthorne, Alberta & the breweries",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Hawthorne District",
+              "address": "SE Hawthorne Blvd, Portland, OR",
+              "lat": 45.512,
+              "lng": -122.621,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Hawthorne%20District"
+            },
+            "blurb": "Wander the quirky east-side districts, the Saturday Market, and a brewery or two."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 480,
+      "label": "Day 480 — Free Day",
+      "type": "free",
+      "summary": "A garden, a waterfall, or more food. Options below.",
+      "freeMenu": [
+        {
+          "id": "pdx-forest-park",
+          "title": "Forest Park",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Forest Park",
+            "address": "NW 29th Ave & Upshur St, Portland, OR",
+            "lat": 45.537,
+            "lng": -122.717,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Forest%20Park"
+          },
+          "blurb": "One of the largest urban forests in the country, laced with trails."
+        },
+        {
+          "id": "pdx-coffee",
+          "title": "A Portland coffee crawl",
+          "categoryId": "food-drink",
+          "tier": "low",
+          "durationMins": 120,
+          "location": {
+            "name": "Downtown Portland",
+            "address": "Portland, OR",
+            "lat": 45.5152,
+            "lng": -122.6784,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Downtown%20Portland"
+          },
+          "blurb": "The city that helped define third-wave coffee."
+        }
+      ]
+    },
+    {
+      "dayNumber": 481,
+      "label": "Day 481 — South to Salem",
+      "type": "commute",
+      "summary": "A short hop to the capital.",
+      "commute": {
+        "from": "Portland, OR",
+        "to": "Salem, OR",
+        "driveTimeMins": 60,
+        "scenicNote": "South down the Willamette Valley."
+      }
+    }
+  ]
+}
