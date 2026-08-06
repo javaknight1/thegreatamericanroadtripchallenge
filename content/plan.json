@@ -482,74 +482,74 @@
           "plannedDays": 1
         },
         {
-          "id": "tallahassee",
-          "order": 3,
-          "name": "Tallahassee",
-          "state": "FL",
-          "plannedDays": 2
-        },
-        {
-          "id": "pensacola-destin",
-          "order": 4,
-          "name": "Pensacola & Destin",
-          "state": "FL",
-          "plannedDays": 3
-        },
-        {
           "id": "orlando",
-          "order": 5,
+          "order": 3,
           "name": "Orlando",
           "state": "FL",
           "plannedDays": 10
         },
         {
-          "id": "tampa-st-petersburg",
-          "order": 6,
-          "name": "Tampa & St. Petersburg",
-          "state": "FL",
-          "plannedDays": 4
-        },
-        {
-          "id": "sarasota-naples",
-          "order": 7,
-          "name": "Sarasota & Naples",
-          "state": "FL",
-          "plannedDays": 2
-        },
-        {
-          "id": "fort-lauderdale",
-          "order": 8,
-          "name": "Fort Lauderdale",
-          "state": "FL",
-          "plannedDays": 2
-        },
-        {
           "id": "palm-beach",
-          "order": 9,
+          "order": 4,
           "name": "Palm Beach",
           "state": "FL",
           "plannedDays": 1
         },
         {
+          "id": "fort-lauderdale",
+          "order": 5,
+          "name": "Fort Lauderdale",
+          "state": "FL",
+          "plannedDays": 2
+        },
+        {
           "id": "miami-the-beaches",
-          "order": 10,
+          "order": 6,
           "name": "Miami & the Beaches",
           "state": "FL",
           "plannedDays": 6
         },
         {
           "id": "everglades-np",
-          "order": 11,
+          "order": 7,
           "name": "Everglades NP",
           "state": "FL",
           "plannedDays": 3
         },
         {
           "id": "florida-keys-key-west",
-          "order": 12,
+          "order": 8,
           "name": "Florida Keys & Key West",
           "state": "FL",
           "plannedDays": 5
+        },
+        {
+          "id": "sarasota-naples",
+          "order": 9,
+          "name": "Sarasota & Naples",
+          "state": "FL",
+          "plannedDays": 2
+        },
+        {
+          "id": "tampa-st-petersburg",
+          "order": 10,
+          "name": "Tampa & St. Petersburg",
+          "state": "FL",
+          "plannedDays": 4
+        },
+        {
+          "id": "tallahassee",
+          "order": 11,
+          "name": "Tallahassee",
+          "state": "FL",
+          "plannedDays": 2
+        },
+        {
+          "id": "pensacola-destin",
+          "order": 12,
+          "name": "Pensacola & Destin",
+          "state": "FL",
+          "plannedDays": 3
         }
       ]
     },

@@ -1,0 +1,130 @@
+{
+  "id": "pensacola-destin",
+  "name": "Pensacola & Destin",
+  "state": "FL",
+  "country": "US",
+  "order": 12,
+  "location": {
+    "lat": 30.4213,
+    "lng": -87.2169
+  },
+  "summary": "The Gulf's 'Emerald Coast' — sugar-white sand and green water, the Blue Angels' home, and Florida's last stop before Alabama.",
+  "lodging": [
+    {
+      "name": "A Pensacola Beach or Destin resort",
+      "blurb": "On the Emerald Coast sand.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Pensacola%20Beach%20resort"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Royal red shrimp & fresh Gulf fish",
+      "blurb": "Sweet deep-water shrimp off the Destin fleet."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 246,
+      "label": "Day 246 — Naval Aviation & historic Pensacola",
+      "type": "active",
+      "summary": "The Blue Angels and the old city.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "pensacola-naval-aviation",
+            "title": "National Naval Aviation Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "National Naval Aviation Museum",
+              "address": "1750 Radford Blvd, Pensacola, FL",
+              "lat": 30.35,
+              "lng": -87.305,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=National%20Naval%20Aviation%20Museum"
+            },
+            "blurb": "One of the largest aviation museums in the world and home of the Blue Angels — free (bring ID for base access)."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "pensacola-historic-village",
+            "title": "Historic Pensacola Village",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Historic Pensacola Village",
+              "address": "205 E Zaragoza St, Pensacola, FL",
+              "lat": 30.409,
+              "lng": -87.211,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Historic%20Pensacola%20Village"
+            },
+            "blurb": "Spanish-colonial streets in one of the oldest settlements in America."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 247,
+      "label": "Day 247 — The Emerald Coast",
+      "type": "active",
+      "summary": "Sugar sand and green water.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "destin-gulf-islands",
+            "title": "Gulf Islands National Seashore & Fort Pickens",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Gulf Islands National Seashore",
+              "address": "1400 Fort Pickens Rd, Pensacola Beach, FL",
+              "lat": 30.323,
+              "lng": -87.29,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Gulf%20Islands%20National%20Seashore"
+            },
+            "blurb": "Protected white-quartz beaches and a 19th-century coastal fort on Santa Rosa Island.",
+            "gear": [
+              "beach gear"
+            ]
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "destin-beach",
+            "title": "Destin Harbor & the beaches",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Destin Harbor",
+              "address": "Destin, FL",
+              "lat": 30.393,
+              "lng": -86.496,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Destin%20Harbor"
+            },
+            "blurb": "The emerald water and sugar-white sand of the 'World's Luckiest Fishing Village.'"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 248,
+      "label": "Day 248 — Into Alabama",
+      "type": "commute",
+      "summary": "Leave Florida for the Deep South — the Sunshine State is done.",
+      "commute": {
+        "from": "Pensacola, FL",
+        "to": "Mobile, AL",
+        "driveTimeMins": 65,
+        "scenicNote": "West across the state line to Mobile and the start of the Deep South."
+      }
+    }
+  ]
+}

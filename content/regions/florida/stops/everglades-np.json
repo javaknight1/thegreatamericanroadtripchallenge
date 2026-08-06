@@ -1,0 +1,124 @@
+{
+  "id": "everglades-np",
+  "name": "Everglades National Park",
+  "state": "FL",
+  "country": "US",
+  "order": 7,
+  "location": {
+    "lat": 25.2866,
+    "lng": -80.8987
+  },
+  "summary": "The 'river of grass' — a vast subtropical wetland and the only place on earth where alligators and crocodiles coexist, best seen by airboat and boardwalk.",
+  "lodging": [
+    {
+      "name": "Stay in Homestead or Everglades City",
+      "blurb": "Homestead for the main entrances; Everglades City for the Gulf side.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Homestead%20Florida%20hotel%20Everglades"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Stone crab & gator bites",
+      "blurb": "Everglades City stone crab in season, and a fried-gator sampler."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 230,
+      "label": "Day 230 — Shark Valley & an airboat",
+      "type": "active",
+      "summary": "Alligators from the tower and the swamp by airboat.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "everglades-shark-valley",
+            "title": "Shark Valley tram & tower",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Shark Valley Visitor Center",
+              "address": "36000 SW 8th St, Miami, FL",
+              "lat": 25.757,
+              "lng": -80.766,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Shark%20Valley%20Visitor%20Center"
+            },
+            "blurb": "Bike or ride the tram on the 15-mile loop past gators to the observation tower over the sawgrass.",
+            "gear": [
+              "sun protection",
+              "bug spray"
+            ]
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "everglades-airboat",
+            "title": "Everglades airboat tour",
+            "categoryId": "guided-tours",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "Everglades airboat tours (Tamiami Trail)",
+              "address": "US-41, Ochopee, FL",
+              "lat": 25.863,
+              "lng": -81.093,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Everglades%20airboat%20tours%20%28Tamiami%20Trail%29"
+            },
+            "blurb": "A classic fan-boat blast through the grass with a naturalist."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 231,
+      "label": "Day 231 — Anhinga Trail & Flamingo",
+      "type": "active",
+      "summary": "The park's wildlife-rich heart, down to Florida Bay.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "everglades-anhinga-trail",
+            "title": "Anhinga Trail & the road to Flamingo",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Royal Palm Visitor Center",
+              "address": "Ernest Coe Entrance, Homestead, FL",
+              "lat": 25.383,
+              "lng": -80.611,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Royal%20Palm%20Visitor%20Center"
+            },
+            "blurb": "An easy boardwalk crowded with gators, anhingas, and herons, then the drive to Flamingo on Florida Bay.",
+            "gear": [
+              "walking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 232,
+      "label": "Day 232 — Down the Overseas Highway",
+      "type": "commute",
+      "summary": "Onto the Keys.",
+      "commute": {
+        "from": "Homestead, FL",
+        "to": "Key West, FL",
+        "driveTimeMins": 210,
+        "scenicNote": "South onto US-1, hopping island to island over the sea.",
+        "stopsAlongWay": [
+          {
+            "title": "Key Largo / John Pennekamp",
+            "blurb": "First stop in the Keys — the undersea park.",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=John%20Pennekamp%20Coral%20Reef%20State%20Park"
+          }
+        ]
+      }
+    }
+  ]
+}

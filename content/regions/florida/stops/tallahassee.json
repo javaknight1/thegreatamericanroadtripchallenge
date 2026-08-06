@@ -1,0 +1,83 @@
+{
+  "id": "tallahassee",
+  "name": "Tallahassee",
+  "state": "FL",
+  "country": "US",
+  "order": 11,
+  "location": {
+    "lat": 30.4383,
+    "lng": -84.2807
+  },
+  "summary": "Florida's capital in the rolling, oak-canopied hills of the panhandle — an old-and-new capitol, a big university, and a reconstructed Spanish mission.",
+  "lodging": [
+    {
+      "name": "A downtown Tallahassee hotel",
+      "blurb": "Near the Capitol and FSU.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Tallahassee%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Apalachicola oysters",
+      "blurb": "Some of the Gulf's best, from just down the coast."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 244,
+      "label": "Day 244 — The Capital & the Canopy Roads",
+      "type": "active",
+      "summary": "Two capitols and a Spanish mission.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "tallahassee-capitol",
+            "title": "Florida State Capitol & the Old Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Florida State Capitol",
+              "address": "400 S Monroe St, Tallahassee, FL",
+              "lat": 30.438,
+              "lng": -84.281,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Florida%20State%20Capitol"
+            },
+            "blurb": "The tall modern capitol and, in front of it, the restored 1845 Old Capitol with its candy-striped awnings."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "tallahassee-mission-san-luis",
+            "title": "Mission San Luis & the canopy roads",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Mission San Luis",
+              "address": "2100 W Tennessee St, Tallahassee, FL",
+              "lat": 30.446,
+              "lng": -84.314,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mission%20San%20Luis"
+            },
+            "blurb": "A reconstructed 1600s Spanish-Apalachee mission, then a drive beneath the moss-draped canopy roads."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 245,
+      "label": "Day 245 — West along the panhandle",
+      "type": "commute",
+      "summary": "Toward the Gulf's whitest beaches.",
+      "commute": {
+        "from": "Tallahassee, FL",
+        "to": "Pensacola, FL",
+        "driveTimeMins": 200,
+        "scenicNote": "West across the panhandle to Pensacola."
+      }
+    }
+  ]
+}

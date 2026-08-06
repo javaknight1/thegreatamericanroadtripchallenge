@@ -1,0 +1,159 @@
+{
+  "id": "tampa-st-petersburg",
+  "name": "Tampa & St. Petersburg",
+  "state": "FL",
+  "country": "US",
+  "order": 10,
+  "location": {
+    "lat": 27.9506,
+    "lng": -82.4572
+  },
+  "summary": "A big-city Gulf bay — a coaster-and-safari park, a historic Cuban cigar quarter, the world's best Dalí collection, and beaches ranked among the country's finest.",
+  "lodging": [
+    {
+      "name": "A downtown Tampa or St. Pete Beach hotel",
+      "blurb": "Tampa for Ybor and the Riverwalk; St. Pete Beach for the sand.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Tampa%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Cuban sandwich in Ybor City",
+      "blurb": "Tampa claims the original — pressed, with salami."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 240,
+      "label": "Day 240 — Busch Gardens",
+      "type": "active",
+      "summary": "Coasters and a safari (a short drive up from Sarasota).",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "tampa-busch-gardens",
+            "title": "Busch Gardens Tampa Bay",
+            "categoryId": "theme-parks",
+            "tier": "anchor",
+            "durationMins": 480,
+            "location": {
+              "name": "Busch Gardens Tampa Bay",
+              "address": "10165 N McKinley Dr, Tampa, FL",
+              "lat": 28.037,
+              "lng": -82.421,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Busch%20Gardens%20Tampa%20Bay"
+            },
+            "blurb": "World-class roller coasters wrapped around a genuine African-animal safari park.",
+            "gear": [
+              "sun protection"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 241,
+      "label": "Day 241 — Ybor City & the Riverwalk",
+      "type": "active",
+      "summary": "Historic Cuban Tampa and the water.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "tampa-ybor-city",
+            "title": "Ybor City",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Ybor City",
+              "address": "7th Ave, Tampa, FL",
+              "lat": 27.96,
+              "lng": -82.437,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Ybor%20City"
+            },
+            "blurb": "The 'Cigar Capital of the World' — hand-rolled cigars, wrought-iron balconies, and the free-roaming Cuban club-house cats."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "tampa-riverwalk-aquarium",
+            "title": "Tampa Riverwalk & the Florida Aquarium",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "The Florida Aquarium",
+              "address": "701 Channelside Dr, Tampa, FL",
+              "lat": 27.943,
+              "lng": -82.445,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Florida%20Aquarium"
+            },
+            "blurb": "A waterfront promenade and a strong aquarium on the channel."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 242,
+      "label": "Day 242 — St. Petersburg & the beaches",
+      "type": "active",
+      "summary": "Surrealism and sugar sand.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "tampa-dali-museum",
+            "title": "The Dalí Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "The Dalí Museum",
+              "address": "1 Dali Blvd, St. Petersburg, FL",
+              "lat": 27.765,
+              "lng": -82.63,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Dal%C3%AD%20Museum"
+            },
+            "blurb": "The largest collection of Salvador Dalí's work outside Europe, in a landmark glass building."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "tampa-st-pete-beach",
+            "title": "St. Pete Beach & Clearwater",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 180,
+            "location": {
+              "name": "St. Pete Beach",
+              "address": "St. Pete Beach, FL",
+              "lat": 27.725,
+              "lng": -82.741,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=St.%20Pete%20Beach"
+            },
+            "blurb": "White-sand Gulf beaches consistently ranked among the nation's best.",
+            "gear": [
+              "beach gear"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 243,
+      "label": "Day 243 — North to the capital",
+      "type": "commute",
+      "summary": "Up the peninsula to Tallahassee.",
+      "commute": {
+        "from": "Tampa, FL",
+        "to": "Tallahassee, FL",
+        "driveTimeMins": 240,
+        "scenicNote": "North toward the panhandle and the capital."
+      }
+    }
+  ]
+}

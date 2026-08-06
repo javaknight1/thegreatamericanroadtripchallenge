@@ -1,0 +1,104 @@
+{
+  "id": "sarasota-naples",
+  "name": "Sarasota & Naples",
+  "state": "FL",
+  "country": "US",
+  "order": 9,
+  "location": {
+    "lat": 26.6406,
+    "lng": -81.8723
+  },
+  "summary": "The genteel Gulf coast — Naples's upscale beaches and Sarasota's circus fortune turned into an art-and-mansion estate.",
+  "lodging": [
+    {
+      "name": "A Gulf-front resort in Naples or Sarasota",
+      "blurb": "On or near the white-sand beaches.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Naples%20Florida%20Gulf%20beach%20resort"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Fresh Gulf grouper",
+      "blurb": "Blackened or fried, waterside."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 238,
+      "label": "Day 238 — Naples",
+      "type": "active",
+      "summary": "Upscale beaches on the Gulf.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "naples-pier-beach",
+            "title": "Naples Pier & the beaches",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Naples Pier",
+              "address": "25 12th Ave S, Naples, FL",
+              "lat": 26.131,
+              "lng": -81.809,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Naples%20Pier"
+            },
+            "blurb": "The historic pier, powder-sand beaches, and Fifth Avenue South's shops and cafés.",
+            "gear": [
+              "beach gear"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 239,
+      "label": "Day 239 — Sarasota & the Ringling",
+      "type": "active",
+      "summary": "Circus money turned to art (a two-hour drive up the coast).",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:30 PM",
+          "item": {
+            "id": "sarasota-ringling",
+            "title": "The Ringling Museum & Ca' d'Zan",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "The Ringling",
+              "address": "5401 Bay Shore Rd, Sarasota, FL",
+              "lat": 27.381,
+              "lng": -82.561,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Ringling"
+            },
+            "blurb": "John Ringling's art museum, the Circus Museum, and his waterfront Venetian mansion Ca' d'Zan."
+          }
+        },
+        {
+          "start": "3:00 PM",
+          "item": {
+            "id": "sarasota-siesta-key",
+            "title": "Siesta Key Beach",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Siesta Key Beach",
+              "address": "948 Beach Rd, Sarasota, FL",
+              "lat": 27.266,
+              "lng": -82.549,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Siesta%20Key%20Beach"
+            },
+            "blurb": "Powder-white quartz sand regularly ranked the best beach in America.",
+            "gear": [
+              "beach gear"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "id": "florida-keys-key-west",
+  "name": "The Florida Keys & Key West",
+  "state": "FL",
+  "country": "US",
+  "order": 8,
+  "location": {
+    "lat": 24.5551,
+    "lng": -81.78
+  },
+  "summary": "A 120-mile chain of coral islands strung on a highway over the sea — the only living coral reef in the continental U.S., and Hemingway's laid-back, six-toed-cat Key West at the end.",
+  "lodging": [
+    {
+      "name": "A Key West guesthouse in Old Town",
+      "blurb": "Walkable to Duval Street and the sunset.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Key%20West%20Old%20Town%20guesthouse"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Key lime pie & conch fritters",
+      "blurb": "The real thing, tart and yellow — plus fresh-caught yellowtail."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 233,
+      "label": "Day 233 — Key Largo & the reef",
+      "type": "active",
+      "summary": "Snorkel the only living reef in the U.S.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "keys-pennekamp",
+            "title": "John Pennekamp Coral Reef State Park",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "John Pennekamp Coral Reef State Park",
+              "address": "102601 Overseas Hwy, Key Largo, FL",
+              "lat": 25.123,
+              "lng": -80.407,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=John%20Pennekamp%20Coral%20Reef%20State%20Park"
+            },
+            "blurb": "Snorkel or take a glass-bottom boat to the reef and the underwater 'Christ of the Abyss' statue.",
+            "gear": [
+              "swimsuit",
+              "reef-safe sunscreen"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 234,
+      "label": "Day 234 — The Middle Keys",
+      "type": "active",
+      "summary": "Bridges, sea life, and a state-park beach.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "keys-seven-mile-bridge",
+            "title": "Seven Mile Bridge & Bahia Honda",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Seven Mile Bridge",
+              "address": "Seven Mile Bridge, Marathon, FL",
+              "lat": 24.7,
+              "lng": -81.16,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Seven%20Mile%20Bridge"
+            },
+            "blurb": "Drive the famous span, then the beach at Bahia Honda State Park under the old railroad bridge.",
+            "gear": [
+              "beach gear"
+            ]
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "keys-turtle-hospital",
+            "title": "The Turtle Hospital / Dolphin Research Center",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "The Turtle Hospital",
+              "address": "2396 Overseas Hwy, Marathon, FL",
+              "lat": 24.718,
+              "lng": -81.09,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Turtle%20Hospital"
+            },
+            "blurb": "Rescued sea turtles in Marathon (or feed a tarpon at Robbie's in Islamorada)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 235,
+      "label": "Day 235 — Key West",
+      "type": "active",
+      "summary": "The end of the road.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "keys-hemingway-home",
+            "title": "Hemingway Home & the Southernmost Point",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Ernest Hemingway Home",
+              "address": "907 Whitehead St, Key West, FL",
+              "lat": 24.551,
+              "lng": -81.8,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Ernest%20Hemingway%20Home"
+            },
+            "blurb": "Papa's house and its 60-odd six-toed cats, then the buoy 90 miles from Cuba."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "keys-duval-street",
+            "title": "Duval Street & the Truman Little White House",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Duval Street",
+              "address": "Duval St, Key West, FL",
+              "lat": 24.559,
+              "lng": -81.8,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Duval%20Street"
+            },
+            "blurb": "The lively main drag, Mallory Square, and Truman's winter White House."
+          }
+        },
+        {
+          "start": "6:00 PM",
+          "item": {
+            "id": "keys-mallory-sunset",
+            "title": "Mallory Square Sunset Celebration",
+            "categoryId": "festivals",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Mallory Square",
+              "address": "400 Wall St, Key West, FL",
+              "lat": 24.561,
+              "lng": -81.808,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mallory%20Square"
+            },
+            "blurb": "The nightly carnival of buskers, food carts, and applause for the sunset."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 236,
+      "label": "Day 236 — Free Day",
+      "type": "free",
+      "summary": "Snorkel a fort, fish, or do nothing at all. Options below.",
+      "freeMenu": [
+        {
+          "id": "keys-dry-tortugas",
+          "title": "Dry Tortugas ferry & Fort Jefferson",
+          "categoryId": "national-parks",
+          "tier": "low",
+          "durationMins": 480,
+          "location": {
+            "name": "Dry Tortugas National Park",
+            "address": "Key West, FL",
+            "lat": 24.6285,
+            "lng": -82.8732,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Dry%20Tortugas%20National%20Park"
+          },
+          "blurb": "A day-trip by ferry or seaplane to a remote island fort and world-class snorkeling, 70 miles out."
+        },
+        {
+          "id": "keys-smathers-beach",
+          "title": "Smathers Beach",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 120,
+          "location": {
+            "name": "Smathers Beach",
+            "address": "S Roosevelt Blvd, Key West, FL",
+            "lat": 24.55,
+            "lng": -81.77,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Smathers%20Beach"
+          },
+          "blurb": "Key West's longest beach for a lazy day."
+        }
+      ]
+    },
+    {
+      "dayNumber": 237,
+      "label": "Day 237 — Back up and across to Naples",
+      "type": "commute",
+      "summary": "The long drive off the Keys to the Gulf coast.",
+      "commute": {
+        "from": "Key West, FL",
+        "to": "Naples, FL",
+        "driveTimeMins": 270,
+        "scenicNote": "North off the islands and across the bottom of the state to the Gulf."
+      }
+    }
+  ]
+}
