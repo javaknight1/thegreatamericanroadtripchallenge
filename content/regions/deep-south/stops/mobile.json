@@ -1,0 +1,83 @@
+{
+  "id": "mobile",
+  "name": "Mobile",
+  "state": "AL",
+  "country": "US",
+  "order": 1,
+  "location": {
+    "lat": 30.6954,
+    "lng": -88.0399
+  },
+  "summary": "The Gulf port where American Mardi Gras actually began — a decade before New Orleans — plus a battleship and oak-lined historic districts.",
+  "lodging": [
+    {
+      "name": "A downtown Mobile historic hotel",
+      "blurb": "Near the Carnival museum and the historic districts.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Mobile%20Alabama%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "West Indies salad & Gulf oysters",
+      "blurb": "Mobile's own marinated crab salad, plus fresh oysters."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 249,
+      "label": "Day 249 — The First Mardi Gras",
+      "type": "active",
+      "summary": "Carnival's American birthplace and a battleship.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "mobile-carnival-museum",
+            "title": "Mobile Carnival Museum & historic district",
+            "categoryId": "festivals",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Mobile Carnival Museum",
+              "address": "355 Government St, Mobile, AL",
+              "lat": 30.69,
+              "lng": -88.043,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mobile%20Carnival%20Museum"
+            },
+            "blurb": "Mardi Gras started here in 1703 — the costumes and history, then the oak-lined Oakleigh and De Tonti districts."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "mobile-uss-alabama",
+            "title": "USS Alabama Battleship Memorial Park",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "USS Alabama Battleship Memorial Park",
+              "address": "2703 Battleship Pkwy, Mobile, AL",
+              "lat": 30.682,
+              "lng": -88.014,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=USS%20Alabama%20Battleship%20Memorial%20Park"
+            },
+            "blurb": "Tour the WWII battleship, a submarine, and aircraft on Mobile Bay."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 250,
+      "label": "Day 250 — West to New Orleans",
+      "type": "commute",
+      "summary": "Along the Gulf into Louisiana.",
+      "commute": {
+        "from": "Mobile, AL",
+        "to": "New Orleans, LA",
+        "driveTimeMins": 150,
+        "scenicNote": "West along the coast to the Crescent City."
+      }
+    }
+  ]
+}

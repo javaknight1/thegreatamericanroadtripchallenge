@@ -1,0 +1,265 @@
+{
+  "id": "new-orleans",
+  "name": "New Orleans",
+  "state": "LA",
+  "country": "US",
+  "order": 2,
+  "location": {
+    "lat": 29.9511,
+    "lng": -90.0715
+  },
+  "summary": "The Crescent City — the French Quarter, the birthplace of jazz, the best food in the South, and the world-class WWII Museum. A full, indulgent week (and Mardi Gras itself if the timing lands).",
+  "lodging": [
+    {
+      "name": "A French Quarter or Garden District hotel",
+      "blurb": "The Quarter for the action; the Garden District for streetcar quiet.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=French%20Quarter%20hotel%20New%20Orleans"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Beignets, gumbo & a po'boy",
+      "blurb": "Café du Monde beignets, filé gumbo, char-grilled oysters, and a shrimp po'boy."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 251,
+      "label": "Day 251 — The French Quarter",
+      "type": "active",
+      "summary": "The old heart of the city.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "new-orleans-french-quarter",
+            "title": "Jackson Square & the French Quarter",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Jackson Square",
+              "address": "Jackson Square, New Orleans, LA",
+              "lat": 29.9575,
+              "lng": -90.063,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Jackson%20Square"
+            },
+            "blurb": "St. Louis Cathedral, the French Market, Royal Street's galleries, and Bourbon Street — with beignets at Café du Monde."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "new-orleans-cafe-du-monde",
+            "title": "Café du Monde & the riverfront",
+            "categoryId": "food-drink",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Café du Monde",
+              "address": "800 Decatur St, New Orleans, LA",
+              "lat": 29.9575,
+              "lng": -90.0615,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20du%20Monde"
+            },
+            "blurb": "Powdered-sugar beignets and chicory café au lait by the Mississippi."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 252,
+      "label": "Day 252 — The Garden District",
+      "type": "active",
+      "summary": "Streetcars and antebellum mansions.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "new-orleans-garden-district",
+            "title": "Garden District & the St. Charles streetcar",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "St. Charles Streetcar",
+              "address": "St Charles Ave, New Orleans, LA",
+              "lat": 29.928,
+              "lng": -90.084,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=St.%20Charles%20Streetcar"
+            },
+            "blurb": "Ride the oldest continuously operating streetcar past oak-shaded mansions and Lafayette Cemetery No. 1."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 253,
+      "label": "Day 253 — The WWII Museum",
+      "type": "active",
+      "summary": "One of the best museums in the world.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "new-orleans-wwii-museum",
+            "title": "The National WWII Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "The National WWII Museum",
+              "address": "945 Magazine St, New Orleans, LA",
+              "lat": 29.943,
+              "lng": -90.07,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20National%20WWII%20Museum"
+            },
+            "blurb": "Consistently rated among the finest museums anywhere — immersive galleries, oral histories, and the Boeing pavilion. Give it most of a day.",
+            "gear": [
+              "comfortable shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 254,
+      "label": "Day 254 — The Birthplace of Jazz",
+      "type": "active",
+      "summary": "Where the music was born.",
+      "blocks": [
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "new-orleans-congo-square",
+            "title": "Congo Square & Louis Armstrong Park",
+            "categoryId": "concerts-venues",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Louis Armstrong Park",
+              "address": "701 N Rampart St, New Orleans, LA",
+              "lat": 29.966,
+              "lng": -90.068,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Louis%20Armstrong%20Park"
+            },
+            "blurb": "The square where enslaved Africans kept their music alive — the taproot of jazz."
+          }
+        },
+        {
+          "start": "7:30 PM",
+          "item": {
+            "id": "new-orleans-frenchmen-street",
+            "title": "Frenchmen Street & Preservation Hall",
+            "categoryId": "concerts-venues",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Frenchmen Street",
+              "address": "Frenchmen St, New Orleans, LA",
+              "lat": 29.964,
+              "lng": -90.057,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Frenchmen%20Street"
+            },
+            "blurb": "Live jazz club to club on Frenchmen, plus the legendary acoustic sets at Preservation Hall."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 255,
+      "label": "Day 255 — Free Day",
+      "type": "free",
+      "summary": "A swamp, a museum, or a cooking class. Options below.",
+      "freeMenu": [
+        {
+          "id": "new-orleans-swamp-tour",
+          "title": "A bayou swamp tour",
+          "categoryId": "guided-tours",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Jean Lafitte Swamp Tours",
+            "address": "Marrero, LA",
+            "lat": 29.79,
+            "lng": -90.11,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Jean%20Lafitte%20Swamp%20Tours"
+          },
+          "blurb": "Airboat or pontoon among the cypress, gators, and Spanish moss."
+        },
+        {
+          "id": "new-orleans-city-park",
+          "title": "City Park & NOMA",
+          "categoryId": "museums-history",
+          "tier": "low",
+          "durationMins": 150,
+          "location": {
+            "name": "New Orleans Museum of Art",
+            "address": "1 Collins Diboll Cir, New Orleans, LA",
+            "lat": 29.986,
+            "lng": -90.093,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=New%20Orleans%20Museum%20of%20Art"
+          },
+          "blurb": "The sculpture garden, the art museum, and more Café du Monde under the oaks."
+        }
+      ]
+    },
+    {
+      "dayNumber": 256,
+      "label": "Day 256 — Carnival & the River",
+      "type": "active",
+      "summary": "Float dens and a paddlewheeler.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "new-orleans-mardi-gras-world",
+            "title": "Mardi Gras World",
+            "categoryId": "festivals",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Mardi Gras World",
+              "address": "1380 Port of New Orleans Pl, New Orleans, LA",
+              "lat": 29.937,
+              "lng": -90.064,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mardi%20Gras%20World"
+            },
+            "blurb": "Walk among the giant floats being built for Carnival year-round."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "new-orleans-steamboat",
+            "title": "Steamboat Natchez on the Mississippi",
+            "categoryId": "guided-tours",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Steamboat Natchez",
+              "address": "600 Decatur St, New Orleans, LA",
+              "lat": 29.954,
+              "lng": -90.063,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Steamboat%20Natchez"
+            },
+            "blurb": "A paddlewheeler cruise with a calliope and jazz band."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 257,
+      "label": "Day 257 — Up to Baton Rouge",
+      "type": "commute",
+      "summary": "Up the river to the capital.",
+      "commute": {
+        "from": "New Orleans, LA",
+        "to": "Baton Rouge, LA",
+        "driveTimeMins": 90,
+        "scenicNote": "Northwest up the Mississippi to Baton Rouge."
+      }
+    }
+  ]
+}

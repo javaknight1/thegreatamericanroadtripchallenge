@@ -1,0 +1,128 @@
+{
+  "id": "baton-rouge-river-road",
+  "name": "Baton Rouge & River Road",
+  "state": "LA",
+  "country": "US",
+  "order": 3,
+  "location": {
+    "lat": 30.4515,
+    "lng": -91.1871
+  },
+  "summary": "Louisiana's capital — Huey Long's skyscraper statehouse — and the River Road plantations, including the one museum that tells the story of slavery.",
+  "lodging": [
+    {
+      "name": "A downtown Baton Rouge hotel",
+      "blurb": "Near the Capitol and the river.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Baton%20Rouge%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Crawfish étouffée",
+      "blurb": "Cajun comfort food in the capital."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 258,
+      "label": "Day 258 — Two Capitols",
+      "type": "active",
+      "summary": "Huey Long's tower and the Gothic old house.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "baton-rouge-state-capitol",
+            "title": "Louisiana State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Louisiana State Capitol",
+              "address": "900 N 3rd St, Baton Rouge, LA",
+              "lat": 30.457,
+              "lng": -91.187,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Louisiana%20State%20Capitol"
+            },
+            "blurb": "The tallest state capitol in the country — Huey Long's 34-story Art Deco tower, where he was assassinated in 1935."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "baton-rouge-old-capitol",
+            "title": "Old State Capitol",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Old Louisiana State Capitol",
+              "address": "100 North Blvd, Baton Rouge, LA",
+              "lat": 30.446,
+              "lng": -91.19,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20Louisiana%20State%20Capitol"
+            },
+            "blurb": "A Gothic-Revival 'castle on the river,' now a museum of Louisiana political history."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 259,
+      "label": "Day 259 — River Road",
+      "type": "active",
+      "summary": "The plantations, and an honest reckoning.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "baton-rouge-whitney-plantation",
+            "title": "Whitney Plantation",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Whitney Plantation",
+              "address": "5099 LA-18, Edgard, LA",
+              "lat": 30.047,
+              "lng": -90.656,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Whitney%20Plantation"
+            },
+            "blurb": "The only plantation museum in the country told entirely from the perspective of the enslaved — sobering and essential."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "baton-rouge-oak-alley",
+            "title": "Oak Alley Plantation",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Oak Alley Plantation",
+              "address": "3645 LA-18, Vacherie, LA",
+              "lat": 30.008,
+              "lng": -90.757,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Oak%20Alley%20Plantation"
+            },
+            "blurb": "The famous quarter-mile allée of 300-year-old live oaks."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 260,
+      "label": "Day 260 — West to Cajun Country",
+      "type": "commute",
+      "summary": "Into the heart of Acadiana.",
+      "commute": {
+        "from": "Baton Rouge, LA",
+        "to": "Lafayette, LA",
+        "driveTimeMins": 60,
+        "scenicNote": "West to Lafayette and the bayou country."
+      }
+    }
+  ]
+}
