@@ -1,0 +1,86 @@
+{
+  "id": "tybee-island",
+  "name": "Tybee Island",
+  "state": "GA",
+  "country": "US",
+  "order": 17,
+  "location": {
+    "lat": 32.0001,
+    "lng": -80.8456
+  },
+  "summary": "Savannah's laid-back beach, with Georgia's oldest lighthouse and a Civil War fort at the river mouth.",
+  "lodging": [
+    {
+      "name": "A Tybee beach cottage",
+      "blurb": "Steps from the sand.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Tybee%20Island%20beach%20cottage"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Fresh shrimp off the dock",
+      "blurb": "Tybee shrimp, peel-and-eat."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 192,
+      "label": "Day 192 — Beach & Lighthouse",
+      "type": "active",
+      "summary": "Sand and the light at the river mouth.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "tybee-island-beach",
+            "title": "Tybee Island Beach & Pier",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Tybee Island Beach",
+              "address": "Tybrisa St, Tybee Island, GA",
+              "lat": 32.0001,
+              "lng": -80.8456,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Tybee%20Island%20Beach"
+            },
+            "blurb": "A wide, easygoing beach with a fishing pier.",
+            "gear": [
+              "beach gear"
+            ]
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "tybee-island-lighthouse",
+            "title": "Tybee Island Light Station",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Tybee Island Light Station",
+              "address": "30 Meddin Dr, Tybee Island, GA",
+              "lat": 32.023,
+              "lng": -80.846,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Tybee%20Island%20Light%20Station"
+            },
+            "blurb": "Climb Georgia's oldest and tallest lighthouse, plus Fort Pulaski nearby."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 193,
+      "label": "Day 193 — South to the Golden Isles",
+      "type": "commute",
+      "summary": "Down the Georgia coast.",
+      "commute": {
+        "from": "Tybee Island, GA",
+        "to": "Jekyll Island, GA",
+        "driveTimeMins": 95,
+        "scenicNote": "South along the coast to the Golden Isles."
+      }
+    }
+  ]
+}

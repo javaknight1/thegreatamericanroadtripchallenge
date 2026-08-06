@@ -1,0 +1,83 @@
+{
+  "id": "beaufort-hilton-head",
+  "name": "Beaufort & Hilton Head",
+  "state": "SC",
+  "country": "US",
+  "order": 15,
+  "location": {
+    "lat": 32.4316,
+    "lng": -80.6698
+  },
+  "summary": "Antebellum Beaufort and the Gullah Sea Islands, plus the beaches and marshes of Hilton Head.",
+  "lodging": [
+    {
+      "name": "A Beaufort historic inn or Hilton Head resort",
+      "blurb": "Beaufort for antebellum charm; Hilton Head for the beach.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Beaufort%20South%20Carolina%20historic%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Lowcountry boil",
+      "blurb": "Shrimp, sausage, corn, and potatoes — Frogmore stew, born on these islands."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 186,
+      "label": "Day 186 — Beaufort & the Gullah coast",
+      "type": "active",
+      "summary": "Antebellum streets and Sea Island culture.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "beaufort-hilton-head-historic",
+            "title": "Beaufort historic district",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Downtown Beaufort",
+              "address": "Bay St, Beaufort, SC",
+              "lat": 32.4316,
+              "lng": -80.6698,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Downtown%20Beaufort"
+            },
+            "blurb": "Moss-draped antebellum mansions on the waterfront — a favorite of filmmakers and novelist Pat Conroy."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "beaufort-hilton-head-penn-center",
+            "title": "Penn Center, St. Helena Island",
+            "categoryId": "somber-sites",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Penn Center",
+              "address": "16 Penn Center Cir W, St Helena Island, SC",
+              "lat": 32.376,
+              "lng": -80.556,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Penn%20Center"
+            },
+            "blurb": "One of the first schools for freed enslaved people and a heart of Gullah Geechee heritage."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 187,
+      "label": "Day 187 — Down to Savannah",
+      "type": "commute",
+      "summary": "A short hop across the Georgia line.",
+      "commute": {
+        "from": "Beaufort, SC",
+        "to": "Savannah, GA",
+        "driveTimeMins": 50,
+        "scenicNote": "Southwest into Georgia and the coastal Empire City."
+      }
+    }
+  ]
+}

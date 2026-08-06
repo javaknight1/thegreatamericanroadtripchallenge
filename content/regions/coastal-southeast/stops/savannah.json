@@ -1,0 +1,168 @@
+{
+  "id": "savannah",
+  "name": "Savannah",
+  "state": "GA",
+  "country": "US",
+  "order": 16,
+  "location": {
+    "lat": 32.0809,
+    "lng": -81.0912
+  },
+  "summary": "America's most beautiful planned city — 22 moss-draped squares, a riverfront of cotton warehouses, and a famously haunted, gothic atmosphere.",
+  "lodging": [
+    {
+      "name": "A historic-district inn near the squares",
+      "blurb": "Walkable among the oaks and fountains.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Savannah%20historic%20district%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Southern fare & a praline",
+      "blurb": "Fried chicken, biscuits, and a River Street praline."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 188,
+      "label": "Day 188 — The Squares",
+      "type": "active",
+      "summary": "Savannah's oak-shaded heart.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "savannah-squares",
+            "title": "The historic squares & Forsyth Park",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Forsyth Park",
+              "address": "Forsyth Park, Savannah, GA",
+              "lat": 32.051,
+              "lng": -81.095,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Forsyth%20Park"
+            },
+            "blurb": "Stroll the 22 planned squares under live oaks and Spanish moss to the great fountain at Forsyth Park.",
+            "gear": [
+              "walking shoes"
+            ]
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "savannah-river-street",
+            "title": "River Street",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "River Street, Savannah",
+              "address": "River St, Savannah, GA",
+              "lat": 32.081,
+              "lng": -81.09,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=River%20Street%2C%20Savannah"
+            },
+            "blurb": "Cobblestoned cotton warehouses turned shops and candy kitchens along the river."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 189,
+      "label": "Day 189 — Gothic Savannah",
+      "type": "active",
+      "summary": "Cemeteries, mansions, and ghost stories.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "savannah-bonaventure",
+            "title": "Bonaventure Cemetery",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Bonaventure Cemetery",
+              "address": "330 Bonaventure Rd, Savannah, GA",
+              "lat": 32.045,
+              "lng": -81.049,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Bonaventure%20Cemetery"
+            },
+            "blurb": "A hauntingly beautiful cemetery of statuary under moss-hung oaks, made famous by 'Midnight in the Garden of Good and Evil.'"
+          }
+        },
+        {
+          "start": "7:30 PM",
+          "item": {
+            "id": "savannah-ghost-tour",
+            "title": "A Savannah ghost tour",
+            "categoryId": "guided-tours",
+            "tier": "low",
+            "durationMins": 90,
+            "location": {
+              "name": "Savannah Ghost Tours",
+              "address": "Reynolds Square, Savannah, GA",
+              "lat": 32.08,
+              "lng": -81.09,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Savannah%20Ghost%20Tours"
+            },
+            "blurb": "America's 'most haunted city' told after dark."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 190,
+      "label": "Day 190 — Free Day",
+      "type": "free",
+      "summary": "Art, a trolley, or just a porch and sweet tea. Options below.",
+      "freeMenu": [
+        {
+          "id": "savannah-scad",
+          "title": "SCAD & the art galleries",
+          "categoryId": "museums-history",
+          "tier": "low",
+          "durationMins": 120,
+          "location": {
+            "name": "SCAD Museum of Art",
+            "address": "601 Turner Blvd, Savannah, GA",
+            "lat": 32.077,
+            "lng": -81.098,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=SCAD%20Museum%20of%20Art"
+          },
+          "blurb": "The art-and-design school that revived the city, and its museum."
+        },
+        {
+          "id": "savannah-food-tour",
+          "title": "A Savannah food tour",
+          "categoryId": "food-drink",
+          "tier": "low",
+          "durationMins": 150,
+          "location": {
+            "name": "Downtown Savannah",
+            "address": "Broughton St, Savannah, GA",
+            "lat": 32.081,
+            "lng": -81.093,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Downtown%20Savannah"
+          },
+          "blurb": "Graze the Southern classics with a guide."
+        }
+      ]
+    },
+    {
+      "dayNumber": 191,
+      "label": "Day 191 — Out to Tybee",
+      "type": "commute",
+      "summary": "A short drive to the beach.",
+      "commute": {
+        "from": "Savannah, GA",
+        "to": "Tybee Island, GA",
+        "driveTimeMins": 30,
+        "scenicNote": "East down the river to the Atlantic."
+      }
+    }
+  ]
+}

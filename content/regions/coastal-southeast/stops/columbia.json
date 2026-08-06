@@ -1,0 +1,83 @@
+{
+  "id": "columbia",
+  "name": "Columbia",
+  "state": "SC",
+  "country": "US",
+  "order": 12,
+  "location": {
+    "lat": 34.0007,
+    "lng": -81.0348
+  },
+  "summary": "South Carolina's capital — a statehouse that still bears Sherman's cannon scars, and one of the best zoos in the country.",
+  "lodging": [
+    {
+      "name": "A Vista or downtown Columbia hotel",
+      "blurb": "Near the State House and the riverfront Vista district.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Columbia%20South%20Carolina%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Carolina Gold rice & barbecue",
+      "blurb": "The Midlands' mustard-based BBQ is a South Carolina specialty."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 177,
+      "label": "Day 177 — The Capital & the Zoo",
+      "type": "active",
+      "summary": "A scarred statehouse and a top zoo.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "columbia-state-house",
+            "title": "South Carolina State House",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "South Carolina State House",
+              "address": "1100 Gervais St, Columbia, SC",
+              "lat": 34.0004,
+              "lng": -81.033,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=South%20Carolina%20State%20House"
+            },
+            "blurb": "Bronze stars mark where Sherman's cannonballs struck the capitol in 1865."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "columbia-riverbanks-zoo",
+            "title": "Riverbanks Zoo & Garden",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 180,
+            "location": {
+              "name": "Riverbanks Zoo and Garden",
+              "address": "500 Wildlife Pkwy, Columbia, SC",
+              "lat": 33.999,
+              "lng": -81.073,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Riverbanks%20Zoo%20and%20Garden"
+            },
+            "blurb": "Consistently ranked among the best zoos in America, with a botanical garden across the river."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 178,
+      "label": "Day 178 — East to the Grand Strand",
+      "type": "commute",
+      "summary": "Out to the coast at Myrtle Beach.",
+      "commute": {
+        "from": "Columbia, SC",
+        "to": "Myrtle Beach, SC",
+        "driveTimeMins": 150,
+        "scenicNote": "East across the coastal plain to the Grand Strand."
+      }
+    }
+  ]
+}

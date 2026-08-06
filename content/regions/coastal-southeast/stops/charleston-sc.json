@@ -1,0 +1,217 @@
+{
+  "id": "charleston-sc",
+  "name": "Charleston",
+  "state": "SC",
+  "country": "US",
+  "order": 14,
+  "location": {
+    "lat": 32.7765,
+    "lng": -79.9311
+  },
+  "summary": "The Holy City — pastel single houses and church steeples, the fort where the Civil War began, plantation landscapes that reckon with slavery, and some of the best food in America.",
+  "lodging": [
+    {
+      "name": "A historic-district inn south of Broad",
+      "blurb": "Walkable to the Battery, Rainbow Row, and King Street.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Charleston%20South%20Carolina%20historic%20district%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "She-crab soup & shrimp and grits",
+      "blurb": "The Lowcountry classics — plus a boiled-peanut snack."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 181,
+      "label": "Day 181 — The Historic District",
+      "type": "active",
+      "summary": "Rainbow Row, the Battery, and King Street.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "charleston-sc-historic-walk",
+            "title": "Rainbow Row & the Battery",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "The Battery, Charleston",
+              "address": "E Battery St, Charleston, SC",
+              "lat": 32.77,
+              "lng": -79.928,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Battery%2C%20Charleston"
+            },
+            "blurb": "Pastel Georgian houses along Rainbow Row and the mansions and sea wall of White Point Garden.",
+            "gear": [
+              "comfortable walking shoes"
+            ]
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "charleston-sc-king-street",
+            "title": "King Street & the City Market",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Charleston City Market",
+              "address": "188 Meeting St, Charleston, SC",
+              "lat": 32.781,
+              "lng": -79.93,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Charleston%20City%20Market"
+            },
+            "blurb": "Antique and boutique shopping on King Street and the sweetgrass baskets of the historic market."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 182,
+      "label": "Day 182 — Fort Sumter",
+      "type": "active",
+      "summary": "Where the Civil War began.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "charleston-sc-fort-sumter",
+            "title": "Fort Sumter National Monument",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Fort Sumter",
+              "address": "Fort Sumter, Charleston Harbor, SC",
+              "lat": 32.7523,
+              "lng": -79.8747,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Fort%20Sumter"
+            },
+            "blurb": "Ferry out to the harbor fort where the first shots of the Civil War were fired in April 1861."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "charleston-sc-museum",
+            "title": "The Charleston Museum",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "The Charleston Museum",
+              "address": "360 Meeting St, Charleston, SC",
+              "lat": 32.788,
+              "lng": -79.937,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Charleston%20Museum"
+            },
+            "blurb": "America's first museum (1773), telling the Lowcountry's layered story."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 183,
+      "label": "Day 183 — Plantations & the Angel Oak",
+      "type": "active",
+      "summary": "The landscape's beauty and its brutal history.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "charleston-sc-plantation",
+            "title": "Middleton Place & McLeod Plantation",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Middleton Place",
+              "address": "4300 Ashley River Rd, Charleston, SC",
+              "lat": 32.899,
+              "lng": -80.087,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Middleton%20Place"
+            },
+            "blurb": "America's oldest landscaped gardens — and, at McLeod, an unflinching telling of the enslaved people who built them.",
+            "gear": [
+              "walking shoes"
+            ]
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "charleston-sc-angel-oak",
+            "title": "The Angel Oak",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 60,
+            "location": {
+              "name": "Angel Oak Tree",
+              "address": "3688 Angel Oak Rd, Johns Island, SC",
+              "lat": 32.718,
+              "lng": -80.081,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Angel%20Oak%20Tree"
+            },
+            "blurb": "A live oak estimated at 300–400 years old, its limbs sprawling across half an acre."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 184,
+      "label": "Day 184 — Free Day",
+      "type": "free",
+      "summary": "A carriage tour, a food crawl, or a beach. Options below.",
+      "freeMenu": [
+        {
+          "id": "charleston-sc-carriage-tour",
+          "title": "A historic carriage tour",
+          "categoryId": "guided-tours",
+          "tier": "low",
+          "durationMins": 60,
+          "location": {
+            "name": "Charleston Carriage Tours",
+            "address": "Charleston, SC",
+            "lat": 32.78,
+            "lng": -79.931,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Charleston%20Carriage%20Tours"
+          },
+          "blurb": "A horse-drawn loop through the antebellum streets with a guide."
+        },
+        {
+          "id": "charleston-sc-sullivans-island",
+          "title": "Sullivan's Island & Folly Beach",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 150,
+          "location": {
+            "name": "Folly Beach",
+            "address": "Folly Beach, SC",
+            "lat": 32.655,
+            "lng": -79.94,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Folly%20Beach"
+          },
+          "blurb": "A laid-back barrier-island beach day just outside the city."
+        }
+      ]
+    },
+    {
+      "dayNumber": 185,
+      "label": "Day 185 — Into the Lowcountry",
+      "type": "commute",
+      "summary": "South to Beaufort and the Sea Islands.",
+      "commute": {
+        "from": "Charleston, SC",
+        "to": "Beaufort, SC",
+        "driveTimeMins": 90,
+        "scenicNote": "South through the salt marsh to Beaufort."
+      }
+    }
+  ]
+}

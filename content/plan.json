@@ -400,23 +400,23 @@
           "plannedDays": 2
         },
         {
-          "id": "charleston-sc",
+          "id": "myrtle-beach",
           "order": 13,
+          "name": "Myrtle Beach",
+          "state": "SC",
+          "plannedDays": 2
+        },
+        {
+          "id": "charleston-sc",
+          "order": 14,
           "name": "Charleston",
           "state": "SC",
           "plannedDays": 5
         },
         {
           "id": "beaufort-hilton-head",
-          "order": 14,
-          "name": "Beaufort & Hilton Head",
-          "state": "SC",
-          "plannedDays": 2
-        },
-        {
-          "id": "myrtle-beach",
           "order": 15,
-          "name": "Myrtle Beach",
+          "name": "Beaufort & Hilton Head",
           "state": "SC",
           "plannedDays": 2
         },
@@ -435,23 +435,23 @@
           "plannedDays": 1
         },
         {
-          "id": "athens",
+          "id": "jekyll-st-simons-islands",
           "order": 18,
+          "name": "Jekyll & St. Simons Islands",
+          "state": "GA",
+          "plannedDays": 2
+        },
+        {
+          "id": "athens",
+          "order": 19,
           "name": "Athens",
           "state": "GA",
           "plannedDays": 2
         },
         {
           "id": "helen",
-          "order": 19,
-          "name": "Helen",
-          "state": "GA",
-          "plannedDays": 2
-        },
-        {
-          "id": "jekyll-st-simons-islands",
           "order": 20,
-          "name": "Jekyll & St. Simons Islands",
+          "name": "Helen",
           "state": "GA",
           "plannedDays": 2
         },

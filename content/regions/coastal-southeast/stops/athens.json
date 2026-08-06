@@ -1,0 +1,83 @@
+{
+  "id": "athens",
+  "name": "Athens",
+  "state": "GA",
+  "country": "US",
+  "order": 19,
+  "location": {
+    "lat": 33.9519,
+    "lng": -83.3576
+  },
+  "summary": "A quintessential Southern college town and a legendary music scene — R.E.M. and the B-52s came out of these clubs.",
+  "lodging": [
+    {
+      "name": "A downtown Athens hotel",
+      "blurb": "Walkable to the campus and the music venues.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Athens%20Georgia%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Southern brunch & a local beer",
+      "blurb": "The college-town food scene is excellent and cheap."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 196,
+      "label": "Day 196 — Campus & the Clubs",
+      "type": "active",
+      "summary": "UGA and the music that made the town.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "athens-uga",
+            "title": "University of Georgia & the Arch",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "University of Georgia",
+              "address": "University of Georgia, Athens, GA",
+              "lat": 33.956,
+              "lng": -83.375,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=University%20of%20Georgia"
+            },
+            "blurb": "The oldest state-chartered university (1785), the North Campus quad, and the Tree That Owns Itself downtown."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "athens-music-scene",
+            "title": "The 40 Watt & the music history",
+            "categoryId": "concerts-venues",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "40 Watt Club",
+              "address": "285 W Washington St, Athens, GA",
+              "lat": 33.96,
+              "lng": -83.379,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=40%20Watt%20Club"
+            },
+            "blurb": "The club that launched R.E.M. and the B-52s; downtown is still one of the South's best live-music towns (catch a show if one's on)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 197,
+      "label": "Day 197 — North to Helen",
+      "type": "commute",
+      "summary": "Up into the Blue Ridge foothills.",
+      "commute": {
+        "from": "Athens, GA",
+        "to": "Helen, GA",
+        "driveTimeMins": 75,
+        "scenicNote": "North into the north-Georgia mountains."
+      }
+    }
+  ]
+}

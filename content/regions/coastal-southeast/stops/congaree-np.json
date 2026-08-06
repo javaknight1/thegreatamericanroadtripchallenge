@@ -1,0 +1,91 @@
+{
+  "id": "congaree-np",
+  "name": "Congaree National Park",
+  "state": "SC",
+  "country": "US",
+  "order": 11,
+  "location": {
+    "lat": 33.7948,
+    "lng": -80.7821
+  },
+  "summary": "The largest intact old-growth bottomland hardwood forest left in America — some of the tallest trees in the East, over a boardwalk and a blackwater creek.",
+  "lodging": [
+    {
+      "name": "Stay in Columbia or camp in the park",
+      "blurb": "Columbia is 30 minutes away; the park has primitive camping.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Columbia%20South%20Carolina%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Save it for Columbia",
+      "blurb": "The park is undeveloped — pack a picnic."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 175,
+      "label": "Day 175 — The Old-Growth Swamp",
+      "type": "active",
+      "summary": "Champion trees and blackwater.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:00 PM",
+          "item": {
+            "id": "congaree-np-boardwalk",
+            "title": "Congaree Boardwalk Loop",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Congaree National Park",
+              "address": "100 National Park Rd, Hopkins, SC",
+              "lat": 33.829,
+              "lng": -80.824,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Congaree%20National%20Park"
+            },
+            "blurb": "A 2.6-mile elevated boardwalk through a cathedral of champion loblolly pines and bald cypress knees.",
+            "gear": [
+              "bug spray",
+              "walking shoes"
+            ]
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "congaree-np-kayak",
+            "title": "Kayak Cedar Creek",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Cedar Creek Canoe Access",
+              "address": "Cedar Creek, Congaree NP, SC",
+              "lat": 33.81,
+              "lng": -80.79,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Cedar%20Creek%20Canoe%20Access"
+            },
+            "blurb": "Paddle the marked blackwater trail beneath the old-growth canopy (synchronous fireflies in late spring).",
+            "gear": [
+              "kayak (rentals nearby)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 176,
+      "label": "Day 176 — Into the capital",
+      "type": "commute",
+      "summary": "A short hop to Columbia.",
+      "commute": {
+        "from": "Congaree National Park, SC",
+        "to": "Columbia, SC",
+        "driveTimeMins": 30,
+        "scenicNote": "Northwest to South Carolina's capital."
+      }
+    }
+  ]
+}

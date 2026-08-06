@@ -1,0 +1,83 @@
+{
+  "id": "greenville",
+  "name": "Greenville",
+  "state": "SC",
+  "country": "US",
+  "order": 10,
+  "location": {
+    "lat": 34.8526,
+    "lng": -82.394
+  },
+  "summary": "An old textile town reborn as one of the South's most charming small downtowns — a waterfall in the middle of Main Street.",
+  "lodging": [
+    {
+      "name": "A downtown Greenville hotel",
+      "blurb": "Walkable to Main Street and Falls Park.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Greenville%20South%20Carolina%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Shrimp & grits on Main Street",
+      "blurb": "Greenville's walkable dining scene is a genuine surprise."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 173,
+      "label": "Day 173 — Falls Park & Main Street",
+      "type": "active",
+      "summary": "A waterfall and a suspension bridge downtown.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "greenville-falls-park",
+            "title": "Falls Park & the Liberty Bridge",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Falls Park on the Reedy",
+              "address": "601 S Main St, Greenville, SC",
+              "lat": 34.844,
+              "lng": -82.401,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Falls%20Park%20on%20the%20Reedy"
+            },
+            "blurb": "A waterfall on the Reedy River spanned by a graceful curved suspension bridge, right in the heart of downtown."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "greenville-main-street",
+            "title": "Main Street & the shops",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Downtown Greenville",
+              "address": "Main St, Greenville, SC",
+              "lat": 34.851,
+              "lng": -82.399,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Downtown%20Greenville"
+            },
+            "blurb": "A tree-lined, walkable Main Street of galleries, cafés, and boutiques."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 174,
+      "label": "Day 174 — East to Congaree",
+      "type": "commute",
+      "summary": "Down to the old-growth swamp.",
+      "commute": {
+        "from": "Greenville, SC",
+        "to": "Congaree National Park, SC",
+        "driveTimeMins": 130,
+        "scenicNote": "Southeast toward the capital and the floodplain forest."
+      }
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "id": "atlanta",
+  "name": "Atlanta",
+  "state": "GA",
+  "country": "US",
+  "order": 21,
+  "location": {
+    "lat": 33.749,
+    "lng": -84.388
+  },
+  "summary": "The capital of the New South — the world's busiest airport city, home of Coca-Cola and CNN, a world-class aquarium, and the cradle of the civil-rights movement. The region's climax before the trip turns to Florida.",
+  "lodging": [
+    {
+      "name": "A Midtown or Downtown Atlanta hotel",
+      "blurb": "Midtown for the museums and the BeltLine; Downtown for the aquarium and parks.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Midtown%20Atlanta%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Fried chicken & a Varsity chili dog",
+      "blurb": "Southern soul food, and a chili dog at the world's largest drive-in."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 200,
+      "label": "Day 200 — Downtown icons",
+      "type": "active",
+      "summary": "The capitol, Coke, and an aquarium.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "atlanta-state-capitol",
+            "title": "Georgia State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 75,
+            "location": {
+              "name": "Georgia State Capitol",
+              "address": "206 Washington St SW, Atlanta, GA",
+              "lat": 33.749,
+              "lng": -84.388,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Georgia%20State%20Capitol"
+            },
+            "blurb": "The gold-domed capitol (the gold is real, from Dahlonega) in the heart of downtown."
+          }
+        },
+        {
+          "start": "11:30 AM",
+          "item": {
+            "id": "atlanta-aquarium",
+            "title": "Georgia Aquarium & World of Coca-Cola",
+            "categoryId": "theme-parks",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Georgia Aquarium",
+              "address": "225 Baker St NW, Atlanta, GA",
+              "lat": 33.7634,
+              "lng": -84.3951,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Georgia%20Aquarium"
+            },
+            "blurb": "One of the largest aquariums on earth (whale sharks!), next to the World of Coca-Cola and Centennial Olympic Park."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 201,
+      "label": "Day 201 — Civil rights",
+      "type": "active",
+      "summary": "The movement's birthplace.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "atlanta-mlk",
+            "title": "Martin Luther King Jr. National Historical Park",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Martin Luther King Jr. National Historical Park",
+              "address": "450 Auburn Ave NE, Atlanta, GA",
+              "lat": 33.7554,
+              "lng": -84.372,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Martin%20Luther%20King%20Jr.%20National%20Historical%20Park"
+            },
+            "blurb": "Dr. King's birth home, Ebenezer Baptist Church, and the King Center where he and Coretta are entombed.",
+            "gear": [
+              "comfortable shoes"
+            ]
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "atlanta-civil-rights-center",
+            "title": "National Center for Civil and Human Rights",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "National Center for Civil and Human Rights",
+              "address": "100 Ivan Allen Jr Blvd NW, Atlanta, GA",
+              "lat": 33.763,
+              "lng": -84.393,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=National%20Center%20for%20Civil%20and%20Human%20Rights"
+            },
+            "blurb": "Immersive galleries linking the American movement to global human rights."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 202,
+      "label": "Day 202 — Art & the BeltLine",
+      "type": "active",
+      "summary": "High culture and Atlanta's great urban trail.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "atlanta-high-museum",
+            "title": "The High Museum of Art",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "High Museum of Art",
+              "address": "1280 Peachtree St NE, Atlanta, GA",
+              "lat": 33.79,
+              "lng": -84.385,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=High%20Museum%20of%20Art"
+            },
+            "blurb": "The Southeast's leading art museum, in a landmark Richard Meier building."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "atlanta-beltline",
+            "title": "The Atlanta BeltLine & Ponce City Market",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Ponce City Market",
+              "address": "675 Ponce De Leon Ave NE, Atlanta, GA",
+              "lat": 33.772,
+              "lng": -84.366,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Ponce%20City%20Market"
+            },
+            "blurb": "A rails-to-trails loop of murals and breweries, anchored by the food hall at Ponce City Market."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 203,
+      "label": "Day 203 — Free Day",
+      "type": "free",
+      "summary": "A theme park, a monolith, or a ballgame. Options below.",
+      "freeMenu": [
+        {
+          "id": "atlanta-stone-mountain",
+          "title": "Stone Mountain Park",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Stone Mountain Park",
+            "address": "1000 Robert E Lee Blvd, Stone Mountain, GA",
+            "lat": 33.805,
+            "lng": -84.145,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Stone%20Mountain%20Park"
+          },
+          "blurb": "The largest exposed granite monolith in the world — a cable car, trails, and a laser show."
+        },
+        {
+          "id": "atlanta-six-flags",
+          "title": "Six Flags Over Georgia",
+          "categoryId": "theme-parks",
+          "tier": "low",
+          "durationMins": 300,
+          "location": {
+            "name": "Six Flags Over Georgia",
+            "address": "275 Riverside Pkwy, Austell, GA",
+            "lat": 33.77,
+            "lng": -84.551,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Six%20Flags%20Over%20Georgia"
+          },
+          "blurb": "A big regional coaster park west of the city."
+        },
+        {
+          "id": "atlanta-braves",
+          "title": "A Braves game at Truist Park",
+          "categoryId": "sports",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Truist Park",
+            "address": "755 Battery Ave SE, Atlanta, GA",
+            "lat": 33.8907,
+            "lng": -84.4677,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Truist%20Park"
+          },
+          "blurb": "Baseball in season at The Battery entertainment district."
+        }
+      ]
+    },
+    {
+      "dayNumber": 204,
+      "label": "Day 204 — South to Florida",
+      "type": "commute",
+      "summary": "Leave Georgia for the Sunshine State — the Coastal Southeast is done.",
+      "commute": {
+        "from": "Atlanta, GA",
+        "to": "St. Augustine, FL",
+        "driveTimeMins": 300,
+        "scenicNote": "A long southward run into Florida and warmer winter days."
+      }
+    }
+  ]
+}

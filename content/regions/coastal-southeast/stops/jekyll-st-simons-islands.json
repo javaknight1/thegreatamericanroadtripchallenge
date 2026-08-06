@@ -1,0 +1,84 @@
+{
+  "id": "jekyll-st-simons-islands",
+  "name": "Jekyll & St. Simons Islands",
+  "state": "GA",
+  "country": "US",
+  "order": 18,
+  "location": {
+    "lat": 31.081,
+    "lng": -81.429
+  },
+  "summary": "Georgia's Golden Isles — a Gilded-Age millionaires' club, a beach of bleached driftwood, sea-turtle rescue, and oak-lined St. Simons.",
+  "lodging": [
+    {
+      "name": "The Jekyll Island Club Resort",
+      "blurb": "The restored 1888 clubhouse of America's richest families.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Jekyll%20Island%20Club%20Resort"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Georgia shrimp & grits",
+      "blurb": "Wild Georgia shrimp, straight off the boats."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 194,
+      "label": "Day 194 — Jekyll & St. Simons",
+      "type": "active",
+      "summary": "Driftwood, turtles, and a historic island club.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "jekyll-st-simons-islands-jekyll",
+            "title": "Jekyll Island Club & Driftwood Beach",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Jekyll Island Club",
+              "address": "371 Riverview Dr, Jekyll Island, GA",
+              "lat": 31.062,
+              "lng": -81.415,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Jekyll%20Island%20Club"
+            },
+            "blurb": "The Gilded-Age retreat of the Rockefellers and Morgans, and the surreal bleached-driftwood beach — plus the Georgia Sea Turtle Center."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "jekyll-st-simons-islands-st-simons",
+            "title": "St. Simons Lighthouse & Fort Frederica",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "St. Simons Island Lighthouse",
+              "address": "610 Beachview Dr, St Simons Island, GA",
+              "lat": 31.134,
+              "lng": -81.393,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=St.%20Simons%20Island%20Lighthouse"
+            },
+            "blurb": "The 1872 lighthouse and the tabby ruins of Fort Frederica, under moss-draped oaks."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 195,
+      "label": "Day 195 — Inland to Athens",
+      "type": "commute",
+      "summary": "Northwest off the coast to the college town.",
+      "commute": {
+        "from": "Jekyll Island, GA",
+        "to": "Athens, GA",
+        "driveTimeMins": 240,
+        "scenicNote": "A long haul northwest into the Georgia Piedmont."
+      }
+    }
+  ]
+}

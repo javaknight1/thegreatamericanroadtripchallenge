@@ -1,0 +1,83 @@
+{
+  "id": "myrtle-beach",
+  "name": "Myrtle Beach",
+  "state": "SC",
+  "country": "US",
+  "order": 13,
+  "location": {
+    "lat": 33.6891,
+    "lng": -78.8867
+  },
+  "summary": "The Grand Strand — 60 miles of beach, a boardwalk and SkyWheel, more mini-golf than anywhere on earth, and a sculpture garden nearby.",
+  "lodging": [
+    {
+      "name": "An oceanfront Myrtle Beach resort",
+      "blurb": "On the Grand Strand near the boardwalk.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Myrtle%20Beach%20oceanfront%20resort"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Calabash-style seafood platter",
+      "blurb": "Lightly breaded, fried, and piled high — the local coastal style."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 179,
+      "label": "Day 179 — The Grand Strand",
+      "type": "active",
+      "summary": "Boardwalk, beach, and a garden of sculpture.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "myrtle-beach-boardwalk",
+            "title": "Boardwalk & SkyWheel",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Myrtle Beach Boardwalk",
+              "address": "1110 N Ocean Blvd, Myrtle Beach, SC",
+              "lat": 33.696,
+              "lng": -78.883,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Myrtle%20Beach%20Boardwalk"
+            },
+            "blurb": "The oceanfront boardwalk and the 187-ft SkyWheel over the beach."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "myrtle-beach-brookgreen",
+            "title": "Brookgreen Gardens",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Brookgreen Gardens",
+              "address": "1931 Brookgreen Dr, Murrells Inlet, SC",
+              "lat": 33.517,
+              "lng": -79.094,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Brookgreen%20Gardens"
+            },
+            "blurb": "The country's largest outdoor sculpture collection, set in old rice-plantation gardens south of town."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 180,
+      "label": "Day 180 — Down to Charleston",
+      "type": "commute",
+      "summary": "South along the coast to the Holy City.",
+      "commute": {
+        "from": "Myrtle Beach, SC",
+        "to": "Charleston, SC",
+        "driveTimeMins": 95,
+        "scenicNote": "South down the coast to Charleston."
+      }
+    }
+  ]
+}

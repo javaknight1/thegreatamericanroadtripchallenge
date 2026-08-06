@@ -1,0 +1,86 @@
+{
+  "id": "helen",
+  "name": "Helen",
+  "state": "GA",
+  "country": "US",
+  "order": 20,
+  "location": {
+    "lat": 34.701,
+    "lng": -83.7274
+  },
+  "summary": "A whole town remade as a Bavarian alpine village in the north-Georgia mountains — waterfalls, tubing, and Oktoberfest.",
+  "lodging": [
+    {
+      "name": "A Bavarian-style Helen lodge",
+      "blurb": "Alpine cottages along the Chattahoochee.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Helen%20Georgia%20Bavarian%20lodge"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Schnitzel & a stein",
+      "blurb": "Bavarian food and beer, Georgia-style."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 198,
+      "label": "Day 198 — Alpine Georgia",
+      "type": "active",
+      "summary": "A Bavarian village and a mountain waterfall.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "helen-village",
+            "title": "Alpine Helen village",
+            "categoryId": "festivals",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Helen, GA",
+              "address": "Main St, Helen, GA",
+              "lat": 34.701,
+              "lng": -83.7274,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Helen%2C%20GA"
+            },
+            "blurb": "Cobblestone streets and gingerbread trim (and Oktoberfest in fall) in the mountains — gloriously kitschy."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "helen-anna-ruby-falls",
+            "title": "Anna Ruby Falls & tubing the Chattahoochee",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 180,
+            "location": {
+              "name": "Anna Ruby Falls",
+              "address": "3455 Anna Ruby Falls Rd, Helen, GA",
+              "lat": 34.756,
+              "lng": -83.713,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Anna%20Ruby%20Falls"
+            },
+            "blurb": "A double waterfall in Unicoi State Park, then a lazy float down the Chattahoochee.",
+            "gear": [
+              "water shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 199,
+      "label": "Day 199 — Down to Atlanta",
+      "type": "commute",
+      "summary": "Out of the mountains to the region's climax.",
+      "commute": {
+        "from": "Helen, GA",
+        "to": "Atlanta, GA",
+        "driveTimeMins": 95,
+        "scenicNote": "Southwest into the capital and the biggest city in the South."
+      }
+    }
+  ]
+}
