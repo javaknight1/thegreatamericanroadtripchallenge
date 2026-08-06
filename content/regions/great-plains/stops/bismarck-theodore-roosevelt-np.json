@@ -1,0 +1,124 @@
+{
+  "id": "bismarck-theodore-roosevelt-np",
+  "name": "Bismarck & Theodore Roosevelt",
+  "state": "ND",
+  "country": "US",
+  "order": 6,
+  "location": {
+    "lat": 46.8083,
+    "lng": -100.7837
+  },
+  "summary": "North Dakota's capital and its wild western badlands — a prairie skyscraper of a statehouse, and the painted canyons, bison, and wild horses that shaped a young Theodore Roosevelt.",
+  "lodging": [
+    {
+      "name": "A Bismarck hotel, then Medora",
+      "blurb": "Capital first, then the park gateway town.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Bismarck%20North%20Dakota%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Knoephla soup",
+      "blurb": "North Dakota's German-Russian dumpling soup."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 598,
+      "label": "Day 598 — The Capital",
+      "type": "active",
+      "summary": "A skyscraper on the prairie.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "bismarck-capitol",
+            "title": "North Dakota State Capitol & Fort Lincoln",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "North Dakota State Capitol",
+              "address": "600 E Boulevard Ave, Bismarck, ND",
+              "lat": 46.8207,
+              "lng": -100.782,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=North%20Dakota%20State%20Capitol"
+            },
+            "blurb": "The 19-story Art Deco 'Skyscraper on the Prairie,' plus Fort Abraham Lincoln, Custer's last home."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 599,
+      "label": "Day 599 — West to Medora",
+      "type": "active",
+      "summary": "Into the painted badlands.",
+      "blocks": [
+        {
+          "start": "11:00 AM",
+          "item": {
+            "id": "tr-np-painted-canyon",
+            "title": "Painted Canyon & Medora",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Painted Canyon Visitor Center",
+              "address": "I-94, Medora, ND",
+              "lat": 46.893,
+              "lng": -103.378,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Painted%20Canyon%20Visitor%20Center"
+            },
+            "blurb": "Drive west to the Painted Canyon overlook and the frontier town of Medora at the park's gateway (a ~2.5-hr drive).",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 600,
+      "label": "Day 600 — Theodore Roosevelt NP",
+      "type": "active",
+      "summary": "Wild horses and bison.",
+      "blocks": [
+        {
+          "start": "8:00 AM",
+          "item": {
+            "id": "tr-np-scenic-loop",
+            "title": "Theodore Roosevelt National Park",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Theodore Roosevelt National Park",
+              "address": "Medora, ND",
+              "lat": 46.979,
+              "lng": -103.539,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Theodore%20Roosevelt%20National%20Park"
+            },
+            "blurb": "The Scenic Loop Drive through the badlands, past bison, prairie-dog towns, and free-roaming wild horses.",
+            "gear": [
+              "water",
+              "binoculars"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 601,
+      "label": "Day 601 — East to Fargo",
+      "type": "commute",
+      "summary": "Across North Dakota.",
+      "commute": {
+        "from": "Medora, ND",
+        "to": "Fargo, ND",
+        "driveTimeMins": 240,
+        "scenicNote": "East across the state to Fargo."
+      }
+    }
+  ]
+}

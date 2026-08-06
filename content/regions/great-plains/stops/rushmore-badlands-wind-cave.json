@@ -1,0 +1,162 @@
+{
+  "id": "rushmore-badlands-wind-cave",
+  "name": "Rushmore, Badlands & Wind Cave",
+  "state": "SD",
+  "country": "US",
+  "order": 2,
+  "location": {
+    "lat": 43.8791,
+    "lng": -103.4591
+  },
+  "summary": "The Black Hills at their grandest — the presidents on Rushmore, the in-progress Crazy Horse, the eroded spires of the Badlands, a cave of rare formations, and bison by the thousand.",
+  "lodging": [
+    {
+      "name": "A Rapid City or Keystone hotel",
+      "blurb": "Central to the Black Hills.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Rapid%20City%20South%20Dakota%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Bison burger & a kuchen",
+      "blurb": "Plus the German-Russian pastry of the Dakotas."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 587,
+      "label": "Day 587 — Rushmore & Crazy Horse",
+      "type": "active",
+      "summary": "The carved mountains.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "rushmore-memorial",
+            "title": "Mount Rushmore & Crazy Horse Memorial",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Mount Rushmore National Memorial",
+              "address": "13000 SD-244, Keystone, SD",
+              "lat": 43.8791,
+              "lng": -103.4591,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mount%20Rushmore%20National%20Memorial"
+            },
+            "blurb": "The four presidents carved in granite, and the colossal, still-unfinished Crazy Horse Memorial a few miles away."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 588,
+      "label": "Day 588 — The Badlands",
+      "type": "active",
+      "summary": "A moonscape of spires.",
+      "blocks": [
+        {
+          "start": "8:00 AM",
+          "item": {
+            "id": "badlands-loop",
+            "title": "Badlands National Park",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Badlands National Park",
+              "address": "25216 Ben Reifel Rd, Interior, SD",
+              "lat": 43.8554,
+              "lng": -101.9777,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Badlands%20National%20Park"
+            },
+            "blurb": "Drive the Loop Road through the eroded, banded pinnacles, watching for bighorns and bison.",
+            "gear": [
+              "sun protection",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 589,
+      "label": "Day 589 — Wind Cave & Custer",
+      "type": "active",
+      "summary": "A rare cave and a wildlife loop.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "wind-cave-custer",
+            "title": "Wind Cave NP & Custer State Park",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Wind Cave National Park",
+              "address": "26611 US-385, Hot Springs, SD",
+              "lat": 43.5567,
+              "lng": -103.4787,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Wind%20Cave%20National%20Park"
+            },
+            "blurb": "Tour the boxwork formations of Wind Cave, then Custer State Park's Wildlife Loop and the Needles Highway.",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 590,
+      "label": "Day 590 — Free Day",
+      "type": "free",
+      "summary": "Another cave, a lake, or rest. Options below.",
+      "freeMenu": [
+        {
+          "id": "rushmore-jewel-cave",
+          "title": "Jewel Cave National Monument",
+          "categoryId": "national-parks",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Jewel Cave National Monument",
+            "address": "11149 US-16, Custer, SD",
+            "lat": 43.73,
+            "lng": -103.829,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Jewel%20Cave%20National%20Monument"
+          },
+          "blurb": "One of the longest caves in the world."
+        },
+        {
+          "id": "rushmore-sylvan-lake",
+          "title": "Sylvan Lake",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 150,
+          "location": {
+            "name": "Sylvan Lake",
+            "address": "Custer, SD",
+            "lat": 43.845,
+            "lng": -103.559,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Sylvan%20Lake"
+          },
+          "blurb": "A gorgeous granite-rimmed lake for a paddle or a hike."
+        }
+      ]
+    },
+    {
+      "dayNumber": 591,
+      "label": "Day 591 — To Deadwood",
+      "type": "commute",
+      "summary": "To the Wild West.",
+      "commute": {
+        "from": "Rapid City, SD",
+        "to": "Deadwood, SD",
+        "driveTimeMins": 60,
+        "scenicNote": "Northwest into the hills to Deadwood."
+      }
+    }
+  ]
+}

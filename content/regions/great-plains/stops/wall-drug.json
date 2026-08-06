@@ -1,0 +1,65 @@
+{
+  "id": "wall-drug",
+  "name": "Wall Drug",
+  "state": "SD",
+  "country": "US",
+  "order": 4,
+  "location": {
+    "lat": 43.9925,
+    "lng": -102.241
+  },
+  "summary": "The most famous roadside attraction in America — a whole block of a store that grew from a Depression-era offer of free ice water into a signposted legend.",
+  "lodging": [
+    {
+      "name": "A Wall motel",
+      "blurb": "At the edge of the Badlands.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Wall%20South%20Dakota%20motel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A hot beef sandwich & a donut",
+      "blurb": "At the Wall Drug cafe — and the free ice water."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 594,
+      "label": "Day 594 — The Emporium",
+      "type": "active",
+      "summary": "Free ice water, still.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "wall-drug-store",
+            "title": "Wall Drug",
+            "categoryId": "quirky",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Wall Drug Store",
+              "address": "510 Main St, Wall, SD",
+              "lat": 43.9925,
+              "lng": -102.241,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Wall%20Drug%20Store"
+            },
+            "blurb": "The sprawling, gloriously kitschy emporium famous from billboards for hundreds of miles — jackalopes, a giant dinosaur, and all."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 595,
+      "label": "Day 595 — East to the capital",
+      "type": "commute",
+      "summary": "To little Pierre.",
+      "commute": {
+        "from": "Wall, SD",
+        "to": "Pierre, SD",
+        "driveTimeMins": 120,
+        "scenicNote": "East across the prairie to Pierre."
+      }
+    }
+  ]
+}

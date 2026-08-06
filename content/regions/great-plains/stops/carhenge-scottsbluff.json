@@ -1,0 +1,83 @@
+{
+  "id": "carhenge-scottsbluff",
+  "name": "Carhenge & Scottsbluff",
+  "state": "NE",
+  "country": "US",
+  "order": 1,
+  "location": {
+    "lat": 41.8666,
+    "lng": -103.6672
+  },
+  "summary": "The Nebraska panhandle's Oregon Trail landmarks and one gloriously weird roadside monument — Stonehenge, built out of vintage cars.",
+  "lodging": [
+    {
+      "name": "A Scottsbluff motel",
+      "blurb": "Base for the bluff and Carhenge.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Scottsbluff%20Nebraska%20motel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A plains-town steak",
+      "blurb": "Nebraska is beef country."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 585,
+      "label": "Day 585 — Trail & Cars",
+      "type": "active",
+      "summary": "A pioneer bluff and car-henge.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "scottsbluff-monument",
+            "title": "Scotts Bluff National Monument",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Scotts Bluff National Monument",
+              "address": "190276 Old Oregon Trail, Gering, NE",
+              "lat": 41.83,
+              "lng": -103.708,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Scotts%20Bluff%20National%20Monument"
+            },
+            "blurb": "The towering bluff that guided wagons west on the Oregon Trail, with Chimney Rock nearby."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "scottsbluff-carhenge",
+            "title": "Carhenge",
+            "categoryId": "quirky",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "Carhenge",
+              "address": "2151 County Rd 59, Alliance, NE",
+              "lat": 42.142,
+              "lng": -102.858,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Carhenge"
+            },
+            "blurb": "A full-size replica of Stonehenge built from 39 vintage cars painted gray — pure roadside Americana."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 586,
+      "label": "Day 586 — North to the Black Hills",
+      "type": "commute",
+      "summary": "To Rushmore country.",
+      "commute": {
+        "from": "Scottsbluff, NE",
+        "to": "Rapid City, SD",
+        "driveTimeMins": 180,
+        "scenicNote": "North into South Dakota and the Black Hills."
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "deadwood",
+  "name": "Deadwood",
+  "state": "SD",
+  "country": "US",
+  "order": 3,
+  "location": {
+    "lat": 44.3767,
+    "lng": -103.7296
+  },
+  "summary": "A gold-rush town frozen in the Wild West — where Wild Bill Hickok was shot holding the dead man's hand, now a National Historic Landmark of saloons and gaming halls.",
+  "lodging": [
+    {
+      "name": "A historic Main Street hotel",
+      "blurb": "In the heart of the old town.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Deadwood%20South%20Dakota%20historic%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A saloon steak & a sarsaparilla",
+      "blurb": "Old West fare on Main Street."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 592,
+      "label": "Day 592 — The Wild West",
+      "type": "active",
+      "summary": "Gunfights and Boot Hill.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "deadwood-main-street",
+            "title": "Historic Deadwood & Mount Moriah",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Deadwood, SD",
+              "address": "Main St, Deadwood, SD",
+              "lat": 44.3767,
+              "lng": -103.7296,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Deadwood%2C%20SD"
+            },
+            "blurb": "The reenactments and saloons of Main Street, and the graves of Wild Bill and Calamity Jane up at Mount Moriah 'Boot Hill.'"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 593,
+      "label": "Day 593 — East to Wall Drug",
+      "type": "commute",
+      "summary": "To the roadside legend.",
+      "commute": {
+        "from": "Deadwood, SD",
+        "to": "Wall, SD",
+        "driveTimeMins": 120,
+        "scenicNote": "East along the edge of the Badlands to Wall."
+      }
+    }
+  ]
+}

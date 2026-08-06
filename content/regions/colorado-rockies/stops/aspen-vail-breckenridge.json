@@ -115,12 +115,12 @@
       "dayNumber": 584,
       "label": "Day 584 — Out to the plains",
       "type": "commute",
-      "summary": "The long climb down to the Black Hills.",
+      "summary": "The long descent to the plains at Scottsbluff.",
       "commute": {
         "from": "Breckenridge, CO",
-        "to": "Rapid City & the Black Hills, SD",
-        "driveTimeMins": 390,
-        "scenicNote": "East off the mountains and northeast across the plains to South Dakota — Colorado is done."
+        "to": "Scottsbluff, NE",
+        "driveTimeMins": 300,
+        "scenicNote": "East off the mountains and northeast across the high plains into the Nebraska panhandle — Colorado is done."
       }
     }
   ]

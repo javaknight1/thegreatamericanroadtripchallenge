@@ -1,0 +1,65 @@
+{
+  "id": "pierre",
+  "name": "Pierre",
+  "state": "SD",
+  "country": "US",
+  "order": 5,
+  "location": {
+    "lat": 44.3683,
+    "lng": -100.351
+  },
+  "summary": "One of the smallest and quietest state capitals in the country, on the Missouri River in the middle of the prairie.",
+  "lodging": [
+    {
+      "name": "A Pierre riverside hotel",
+      "blurb": "On the Missouri.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Pierre%20South%20Dakota%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Walleye",
+      "blurb": "Fresh from the Missouri River reservoirs."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 596,
+      "label": "Day 596 — Capital on the River",
+      "type": "active",
+      "summary": "The statehouse and the Missouri.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "pierre-capitol",
+            "title": "South Dakota State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "South Dakota State Capitol",
+              "address": "500 E Capitol Ave, Pierre, SD",
+              "lat": 44.3683,
+              "lng": -100.351,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=South%20Dakota%20State%20Capitol"
+            },
+            "blurb": "The elegant 1910 capitol and its reflecting lake, plus the Cultural Heritage Center nearby."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 597,
+      "label": "Day 597 — North to North Dakota",
+      "type": "commute",
+      "summary": "To Bismarck.",
+      "commute": {
+        "from": "Pierre, SD",
+        "to": "Bismarck, ND",
+        "driveTimeMins": 180,
+        "scenicNote": "North up the Missouri to Bismarck."
+      }
+    }
+  ]
+}

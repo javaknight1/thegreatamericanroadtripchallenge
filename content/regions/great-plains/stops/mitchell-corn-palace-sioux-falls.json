@@ -1,0 +1,84 @@
+{
+  "id": "mitchell-corn-palace-sioux-falls",
+  "name": "Mitchell & Sioux Falls",
+  "state": "SD",
+  "country": "US",
+  "order": 8,
+  "location": {
+    "lat": 43.546,
+    "lng": -96.7313
+  },
+  "summary": "A palace decorated entirely in corn, and a city built around its namesake waterfalls.",
+  "lodging": [
+    {
+      "name": "A Sioux Falls hotel",
+      "blurb": "Near Falls Park and downtown.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Sioux%20Falls%20South%20Dakota%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A chislic plate",
+      "blurb": "South Dakota's cubed-meat specialty."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 604,
+      "label": "Day 604 — Corn & Falls",
+      "type": "active",
+      "summary": "A corn palace and a waterfall.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "12:00 PM",
+          "item": {
+            "id": "mitchell-corn-palace",
+            "title": "The Corn Palace",
+            "categoryId": "quirky",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Mitchell Corn Palace",
+              "address": "604 N Main St, Mitchell, SD",
+              "lat": 43.713,
+              "lng": -98.029,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mitchell%20Corn%20Palace"
+            },
+            "blurb": "A Moorish-domed building covered in murals made entirely of corn and grain, redone every year."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "sioux-falls-falls-park",
+            "title": "Falls Park",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Falls Park",
+              "address": "131 E Falls Park Dr, Sioux Falls, SD",
+              "lat": 43.554,
+              "lng": -96.728,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Falls%20Park"
+            },
+            "blurb": "The pink-quartzite waterfalls of the Big Sioux River that give the city its name."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 605,
+      "label": "Day 605 — South to Omaha",
+      "type": "commute",
+      "summary": "Into Nebraska.",
+      "commute": {
+        "from": "Sioux Falls, SD",
+        "to": "Omaha, NE",
+        "driveTimeMins": 150,
+        "scenicNote": "South down I-29 to Omaha."
+      }
+    }
+  ]
+}

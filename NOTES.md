@@ -7,8 +7,9 @@ is the list to work from once the loop is fully written.
 Rob's standing instruction: add suggestions here as they come up, without asking
 first. Items are only removed when they're resolved or explicitly dropped.
 
-Last updated at **193 stops · 584 days · 679 items · 36 states** — eleven legs of
-fourteen complete, days 1–584 contiguous, heading out to the Great Plains.
+Last updated at **201 stops · 605 days · 695 items · 39 states** — eleven legs
+complete plus the Great Plains in progress (8 of its 15 stops), days 1–605
+contiguous.
 
 ---
 
@@ -111,8 +112,8 @@ Twenty-four days involve 3+ hours behind the wheel. The outliers:
 | day | hours | leg |
 |---|---|---|
 | 518 | **7.0h** Coeur d'Alene → Boise | Northern Rockies |
-| 584 | **6.5h** Breckenridge → Rapid City | Colorado → Great Plains |
 | 346 | **5.5h** Fredericksburg → Big Bend | Texas |
+| 584 | **5.0h** Breckenridge → Scottsbluff | Colorado → Great Plains |
 | 417 | **5.5h** Tucson → San Diego | Southwest → California |
 | 408 | **5.0h** Las Vegas → Phoenix | Southwest |
 | 204 | **5.0h** Atlanta → St. Augustine | Coastal SE → FL |
@@ -167,8 +168,10 @@ everything in this file, this is the one I'd actually change.
 - **`festivals`** — used in the Deep South (Mardi Gras, Mobile Carnival) but
   absent from Mid-Atlantic, Texas and the Southwest. Balloon Fiesta is mentioned
   in an Albuquerque blurb rather than being its own item.
-- **`quirky`** — much better after the Southwest (Roswell, Meow Wolf, Jerome,
-  Four Corners, Fremont Street, Tombstone). No longer a concern.
+- **`quirky`** — comfortably the trip's best-served surprise. After the Southwest
+  (Roswell, Meow Wolf, Jerome, Four Corners, Fremont Street, Tombstone) the
+  Plains pile on Carhenge, Wall Drug, the Corn Palace and the Fargo woodchipper.
+  The "roadside oddities" promise in the mission statement is now genuinely met.
 - **`commuting` / `free-rest`** — these can never be authored; the renderer
   assigns them to drive and rest blocks. The audit reporting them as "unused" is
   a false positive. **Suggestion:** teach `scripts/dev/audit.ts` to exclude them.
@@ -280,13 +283,13 @@ order I'd pick them:
 
 ## 9. Where the trip stands
 
-Written: legs 1–11 complete — days 1–584, out on the plains.
-Remaining: Great Plains, Upper Midwest & Great Lakes, Appalachia Return — 57 of
-250 stops.
+Written: legs 1–11 complete, plus the Great Plains through Sioux Falls — days
+1–605. Remaining: the rest of the Great Plains, Upper Midwest & Great Lakes,
+Appalachia Return — 49 of 250 stops.
 
-Capitals: **36 of 48 capital cities written**. Still to come: Springfield,
-Indianapolis, Des Moines, Topeka, Lansing, Saint Paul, Jefferson City, Lincoln,
-Bismarck, Columbus, Pierre, Madison — all twelve in the three remaining legs.
+Capitals: **38 of 48 capital cities written** — Pierre (day 596) and Bismarck
+(day 598) join. Still to come: Springfield, Indianapolis, Des Moines, Topeka,
+Lansing, Saint Paul, Jefferson City, Lincoln, Columbus, Madison.
 
 **The capitals check can produce false positives.** `scripts/dev/audit.ts`
 matches a capital by testing whether any stop name *contains* the city name, so

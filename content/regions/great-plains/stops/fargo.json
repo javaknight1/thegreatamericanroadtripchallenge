@@ -1,0 +1,65 @@
+{
+  "id": "fargo",
+  "name": "Fargo",
+  "state": "ND",
+  "country": "US",
+  "order": 7,
+  "location": {
+    "lat": 46.8772,
+    "lng": -96.7898
+  },
+  "summary": "North Dakota's biggest city on the Red River — a revitalized downtown, Scandinavian roots, and, yes, the woodchipper.",
+  "lodging": [
+    {
+      "name": "A downtown Fargo hotel",
+      "blurb": "Near Broadway's shops and restaurants.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Fargo%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Hotdish & lefse",
+      "blurb": "Upper-Midwest comfort food."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 602,
+      "label": "Day 602 — Downtown & the Woodchipper",
+      "type": "active",
+      "summary": "A friendly prairie city.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "fargo-downtown",
+            "title": "Downtown Fargo & the woodchipper",
+            "categoryId": "quirky",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Fargo-Moorhead Visitor Center",
+              "address": "2001 44th St S, Fargo, ND",
+              "lat": 46.857,
+              "lng": -96.857,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Fargo-Moorhead%20Visitor%20Center"
+            },
+            "blurb": "Broadway's cafes and shops, plus the actual 'Fargo' movie woodchipper at the visitor center."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 603,
+      "label": "Day 603 — South to the Corn Palace",
+      "type": "commute",
+      "summary": "Back into South Dakota.",
+      "commute": {
+        "from": "Fargo, ND",
+        "to": "Mitchell, SD",
+        "driveTimeMins": 210,
+        "scenicNote": "South to Mitchell and Sioux Falls."
+      }
+    }
+  ]
+}
