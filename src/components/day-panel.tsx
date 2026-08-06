@@ -1,6 +1,6 @@
 import { DayHeader } from "@/components/day-header";
 import { dayExtras, dayTimeline, type TimelineEntry } from "@/lib/day-timeline";
-import { formatDuration, mapUrl, tierLabels } from "@/lib/format";
+import { formatDuration, mapUrl, tierLabels, tint } from "@/lib/format";
 import type { Category, Day, Item } from "@/types/trip";
 
 /**
@@ -26,7 +26,7 @@ export function DayPanel({
   withHeader?: boolean;
 }) {
   const entries = dayTimeline(day, categories);
-  const { options, roadStops } = dayExtras(day);
+  const { freeTime, roadStops } = dayExtras(day, entries);
 
   return (
     <article className="overflow-hidden rounded-xl border border-hairline bg-surface">
@@ -42,12 +42,17 @@ export function DayPanel({
         ))}
       </ol>
 
-      {options.length > 0 && (
+      {freeTime.map((group) => (
         <Extras
-          title="If you want it — things to do with the free time"
-          note="All optional. Pick none, pick all."
+          key={group.key}
+          title={`If you want it — ${group.title.toLowerCase()}`}
+          note={
+            group.when
+              ? `${group.when} · all optional, pick none or all`
+              : "All optional. Pick none, pick all."
+          }
         >
-          {options.map((item) => (
+          {group.items.map((item) => (
             <OptionCard
               key={item.id}
               item={item}
@@ -55,7 +60,7 @@ export function DayPanel({
             />
           ))}
         </Extras>
-      )}
+      ))}
 
       {roadStops.length > 0 && (
         <Extras
@@ -88,21 +93,35 @@ export function DayPanel({
 
 function TimelineRow({ entry }: { entry: TimelineEntry }) {
   const isAnchor = entry.tier === "anchor";
+  // Time on the road and time off both read differently from time spent doing
+  // something: each wears a wash of its own category colour, so you can see the
+  // shape of a day — drive, do, rest — before reading a word of it.
+  const wash = entry.kind === "drive" ? 0.14 : entry.kind === "rest" ? 0.1 : 0;
   const duration =
     entry.durationLabel ??
     (entry.durationMins ? formatDuration(entry.durationMins) : undefined);
 
   return (
     <li
-      className={`relative list-none border-b border-hairline py-3 pl-10 last:border-b-0 ${
+      className={`relative list-none border-b border-hairline py-3 pr-3 pl-10 last:border-b-0 ${
         isAnchor
           ? "rounded-lg bg-gradient-to-r from-accent/8 to-transparent"
           : ""
-      }`}
+      } ${wash ? "rounded-lg border-l-4" : ""}`}
+      style={
+        wash
+          ? {
+              backgroundColor: tint(entry.color, wash),
+              borderLeftColor: entry.color,
+            }
+          : undefined
+      }
     >
       <span
         aria-hidden
-        className="absolute top-4 left-1.5 h-3.5 w-3.5 rounded-full border-[3px] border-surface"
+        className={`absolute top-4 h-3.5 w-3.5 rounded-full border-[3px] ${
+          wash ? "left-1 border-transparent" : "left-1.5 border-surface"
+        }`}
         style={{ backgroundColor: entry.color }}
       />
       <span

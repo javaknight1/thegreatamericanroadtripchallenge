@@ -69,6 +69,8 @@ export const restSchema = z.object({
   label: z.string().optional(),
   durationMins: z.number().int().positive().optional(),
   note: z.string().optional(),
+  /** Ideas for this particular stretch of free time — all optional. */
+  options: z.array(itemSchema).optional(),
 });
 
 /**

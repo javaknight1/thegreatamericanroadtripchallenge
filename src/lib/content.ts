@@ -180,9 +180,15 @@ export function loadTripFresh(): Trip {
   return getTrip();
 }
 
-/** Every activity on a day — drive and rest blocks carry no item. */
+/**
+ * Every activity on a day: scheduled items, the ideas hung off a rest event,
+ * and the day's own free menu. Drive blocks carry no item.
+ */
 export function itemsOf(day: Day): Item[] {
-  const fromBlocks = (day.blocks ?? []).flatMap((block) => (block.item ? [block.item] : []));
+  const fromBlocks = (day.blocks ?? []).flatMap((block) => [
+    ...(block.item ? [block.item] : []),
+    ...(block.rest?.options ?? []),
+  ]);
   return [...fromBlocks, ...(day.freeMenu ?? [])];
 }
 

@@ -25,6 +25,18 @@ export type TimelineEntry = {
   blurb: string;
   gear?: string[];
   location?: Item["location"];
+  /** Ideas attached to this event — only rest carries them. */
+  options?: Item[];
+  /** What to call that stretch of time in the menu heading below. */
+  optionsLabel?: string;
+};
+
+/** A menu of optional ideas, tied to the stretch of free time it belongs to. */
+export type FreeTimeGroup = {
+  key: string;
+  title: string;
+  when?: string;
+  items: Item[];
 };
 
 const DRIVE_FALLBACK_COLOR = "#64748B";
@@ -39,14 +51,19 @@ type Source = {
   build: (timing: TimelineEntry["timing"]) => TimelineEntry;
 };
 
-export function dayTimeline(day: Day, categories: Record<string, Category>): TimelineEntry[] {
+export function dayTimeline(
+  day: Day,
+  categories: Record<string, Category>,
+): TimelineEntry[] {
   const blocks = day.blocks ?? [];
   const sources: Source[] = [];
 
   // A day-level commute predates block-level drives; treat it as the day's
   // opening event so both authoring styles render identically.
   if (day.commute && !blocks.some((block) => block.drive)) {
-    sources.push(driveSource(day.commute, `drive-${day.dayNumber}`, {}, categories));
+    sources.push(
+      driveSource(day.commute, `drive-${day.dayNumber}`, {}, categories),
+    );
   }
 
   blocks.forEach((block, index) => {
@@ -76,7 +93,14 @@ export function dayTimeline(day: Day, categories: Record<string, Category>): Tim
     }
 
     if (block.drive) {
-      sources.push(driveSource(block.drive, `drive-${day.dayNumber}-${index}`, timing, categories));
+      sources.push(
+        driveSource(
+          block.drive,
+          `drive-${day.dayNumber}-${index}`,
+          timing,
+          categories,
+        ),
+      );
       return;
     }
 
@@ -86,20 +110,28 @@ export function dayTimeline(day: Day, categories: Record<string, Category>): Tim
           `rest-${day.dayNumber}-${index}`,
           timing,
           categories,
-          block.rest.label,
-          block.rest.durationMins,
-          block.rest.note,
+          block.rest,
         ),
       );
     }
   });
 
-  // A free day with nothing else authored still gets its rest on the clock.
+  // A free day with nothing else authored still gets its rest on the clock,
+  // and the day's own menu belongs to that rest.
   if (day.type === "free" && !sources.length) {
-    sources.push(restSource(`rest-${day.dayNumber}`, {}, categories));
+    sources.push(
+      restSource(`rest-${day.dayNumber}`, {}, categories, {
+        options: day.freeMenu,
+      }),
+    );
   }
 
-  const spans = scheduleSpans(sources.map((source) => ({ ...source.timing, durationMins: source.durationMins })));
+  const spans = scheduleSpans(
+    sources.map((source) => ({
+      ...source.timing,
+      durationMins: source.durationMins,
+    })),
+  );
   return sources.map((source, index) => source.build(spans[index]));
 }
 
@@ -132,33 +164,72 @@ function restSource(
   key: string,
   timing: Source["timing"],
   categories: Record<string, Category>,
-  label?: string,
-  durationMins?: number,
-  note?: string,
+  rest: {
+    label?: string;
+    durationMins?: number;
+    note?: string;
+    options?: Item[];
+  },
 ): Source {
   const category = categories["free-rest"];
   return {
     timing,
-    durationMins,
+    durationMins: rest.durationMins,
     build: (resolved) => ({
       key,
       kind: "rest",
       timing: resolved,
       color: category?.color ?? REST_FALLBACK_COLOR,
       categoryLabel: category?.label,
-      title: label ?? "Rest — the time is yours",
-      durationMins,
-      durationLabel: durationMins ? undefined : "unscheduled",
-      blurb: note ?? REST_DEFAULT_NOTE,
+      title: rest.label ?? "Rest — the time is yours",
+      durationMins: rest.durationMins,
+      durationLabel: rest.durationMins ? undefined : "unscheduled",
+      blurb: rest.note ?? REST_DEFAULT_NOTE,
+      options: rest.options?.length ? rest.options : undefined,
+      // An unnamed rest is just "the free time"; a named one keeps its name.
+      optionsLabel: rest.label ?? "the free time",
     }),
   };
 }
 
-/** The optional half of a day: free-time ideas and stops worth pulling over for. */
-export function dayExtras(day: Day): { options: Item[]; roadStops: CommuteStop[] } {
-  const fromBlocks = (day.blocks ?? []).flatMap((block) => block.drive?.stopsAlongWay ?? []);
+/**
+ * The optional half of a day, grouped by the free time it belongs to — so a
+ * day with two rest events gets two menus, each labelled with its own hours,
+ * rather than one undifferentiated pile of suggestions.
+ */
+export function dayExtras(
+  day: Day,
+  entries: TimelineEntry[],
+): { freeTime: FreeTimeGroup[]; roadStops: CommuteStop[] } {
+  const freeTime: FreeTimeGroup[] = entries
+    .filter((entry) => entry.kind === "rest" && entry.options?.length)
+    .map((entry) => ({
+      key: entry.key,
+      title: entry.optionsLabel ?? entry.title,
+      when: entry.timing.label ?? `${entry.timing.start} – ${entry.timing.end}`,
+      items: entry.options!,
+    }));
+
+  // A day-level menu that no rest event claimed still gets a group of its own.
+  const claimed = new Set(
+    freeTime.flatMap((group) => group.items.map((item) => item.id)),
+  );
+  const unclaimed = (day.freeMenu ?? []).filter(
+    (item) => !claimed.has(item.id),
+  );
+  if (unclaimed.length) {
+    freeTime.push({
+      key: `menu-${day.dayNumber}`,
+      title: "the free time",
+      items: unclaimed,
+    });
+  }
+
+  const fromBlocks = (day.blocks ?? []).flatMap(
+    (block) => block.drive?.stopsAlongWay ?? [],
+  );
   return {
-    options: day.freeMenu ?? [],
+    freeTime,
     roadStops: [...(day.commute?.stopsAlongWay ?? []), ...fromBlocks],
   };
 }

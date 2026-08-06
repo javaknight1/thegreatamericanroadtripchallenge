@@ -42,7 +42,24 @@ const mixed = {
         blurb: "Tea and popovers on the lawn.",
       },
     },
-    { rest: { durationMins: 240, label: "Afternoon off", note: "Nap, swim, read on the rocks." } },
+    {
+      rest: {
+        durationMins: 240,
+        label: "Afternoon off",
+        note: "Nap, swim, read on the rocks.",
+        options: [
+          {
+            id: "demo-shore-path",
+            title: "Walk the Shore Path",
+            categoryId: "outdoor-water",
+            tier: "low",
+            durationMins: 60,
+            location: { name: "Bar Harbor Shore Path" },
+            blurb: "An easy oceanfront stroll if you'd rather not nap.",
+          },
+        ],
+      },
+    },
     {
       start: "7:00 PM",
       item: {
@@ -67,8 +84,12 @@ for (const entry of dayTimeline(parsed.data, categories)) {
   const when = entry.timing.label ?? `${entry.timing.start} – ${entry.timing.end}`;
   console.log(`  ${when.padEnd(22)} [${entry.kind}] ${entry.title}`);
 }
-const extras = dayExtras(parsed.data);
-console.log("  extras:", extras.roadStops.map((s) => s.title).join(", ") || "none");
+const entries = dayTimeline(parsed.data, categories);
+const extras = dayExtras(parsed.data, entries);
+console.log("  road stops:", extras.roadStops.map((s) => s.title).join(", ") || "none");
+for (const group of extras.freeTime) {
+  console.log(`  free-time menu — ${group.title} (${group.when}): ${group.items.map((i) => i.title).join(", ")}`);
+}
 
 // The legacy shapes still normalise into the same list.
 const trip = getTrip();

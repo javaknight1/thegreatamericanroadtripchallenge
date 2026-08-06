@@ -55,3 +55,11 @@ export function contrastText(hex: string): "#0B1220" | "#FFFFFF" {
   const luminance = 0.2126 * channel(r) + 0.7152 * channel(g) + 0.0722 * channel(b);
   return luminance > 0.45 ? "#0B1220" : "#FFFFFF";
 }
+
+/** A translucent wash of a hex colour, for banding a row without shouting. */
+export function tint(hex: string, alpha: number): string | undefined {
+  const value = hex.replace("#", "");
+  if (!/^[0-9a-f]{6}$/i.test(value)) return undefined;
+  const [r, g, b] = [0, 2, 4].map((offset) => parseInt(value.slice(offset, offset + 2), 16));
+  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+}
