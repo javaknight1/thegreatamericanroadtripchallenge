@@ -1,0 +1,83 @@
+{
+  "id": "palm-beach",
+  "name": "Palm Beach",
+  "state": "FL",
+  "country": "US",
+  "order": 4,
+  "location": {
+    "lat": 26.7056,
+    "lng": -80.0364
+  },
+  "summary": "Old-money Florida — Worth Avenue's couture, Henry Flagler's marble mansion, and the resort that built the coast.",
+  "lodging": [
+    {
+      "name": "The Breakers or a West Palm Beach hotel",
+      "blurb": "Splurge at the historic Breakers resort, or stay across the bridge in West Palm.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Breakers%20Palm%20Beach"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A stone-crab-season splurge",
+      "blurb": "Florida stone crab claws when they're in season (Oct–May)."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 220,
+      "label": "Day 220 — Gilded Palm Beach",
+      "type": "active",
+      "summary": "Mansions and Worth Avenue.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "palm-beach-flagler-museum",
+            "title": "Flagler Museum (Whitehall)",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Flagler Museum",
+              "address": "1 Whitehall Way, Palm Beach, FL",
+              "lat": 26.697,
+              "lng": -80.043,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Flagler%20Museum"
+            },
+            "blurb": "Henry Flagler's 1902 marble Gilded-Age palace, the man who built Florida's east coast."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "palm-beach-worth-avenue",
+            "title": "Worth Avenue",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Worth Avenue",
+              "address": "Worth Ave, Palm Beach, FL",
+              "lat": 26.7,
+              "lng": -80.038,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Worth%20Avenue"
+            },
+            "blurb": "The palm-lined luxury shopping street and its hidden Mediterranean 'vias.'"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 221,
+      "label": "Day 221 — Down to Fort Lauderdale",
+      "type": "commute",
+      "summary": "A short drive south along the coast.",
+      "commute": {
+        "from": "Palm Beach, FL",
+        "to": "Fort Lauderdale, FL",
+        "driveTimeMins": 70,
+        "scenicNote": "South down the Gold Coast."
+      }
+    }
+  ]
+}

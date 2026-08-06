@@ -1,0 +1,127 @@
+{
+  "id": "st-augustine-jacksonville",
+  "name": "St. Augustine & Jacksonville",
+  "state": "FL",
+  "country": "US",
+  "order": 1,
+  "location": {
+    "lat": 29.8947,
+    "lng": -81.3145
+  },
+  "summary": "The oldest city in America — a Spanish stone fort and cobblestone lanes — plus Jacksonville's beaches and riverfront.",
+  "lodging": [
+    {
+      "name": "A St. Augustine historic-district inn",
+      "blurb": "Walkable to the fort and St. George Street.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=St.%20Augustine%20historic%20district%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Datil-pepper shrimp & a Minorcan chowder",
+      "blurb": "St. Augustine's own spicy heritage dishes."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 205,
+      "label": "Day 205 — The Oldest City",
+      "type": "active",
+      "summary": "Spain's oldest foothold in America.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "st-augustine-castillo",
+            "title": "Castillo de San Marcos",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Castillo de San Marcos",
+              "address": "1 S Castillo Dr, St. Augustine, FL",
+              "lat": 29.8975,
+              "lng": -81.3115,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Castillo%20de%20San%20Marcos"
+            },
+            "blurb": "The oldest masonry fort in the U.S. (1672), built of coquina stone on Matanzas Bay."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "st-augustine-historic-district",
+            "title": "St. George Street & Flagler College",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "St. George Street",
+              "address": "St. George St, St. Augustine, FL",
+              "lat": 29.893,
+              "lng": -81.313,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=St.%20George%20Street"
+            },
+            "blurb": "Founded 1565 — the pedestrian old town, the Spanish quarter, and Flagler's former Gilded-Age hotel."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 206,
+      "label": "Day 206 — Lighthouse & Jacksonville",
+      "type": "active",
+      "summary": "The light, the beach, and the river city.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "st-augustine-lighthouse",
+            "title": "St. Augustine Lighthouse & Fountain of Youth",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "St. Augustine Lighthouse",
+              "address": "100 Red Cox Rd, St. Augustine, FL",
+              "lat": 29.885,
+              "lng": -81.288,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=St.%20Augustine%20Lighthouse"
+            },
+            "blurb": "Climb the striped 1874 tower, then the (charmingly hokey) Fountain of Youth archaeological park."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "jacksonville-cummer",
+            "title": "Jacksonville: Cummer Museum & the beaches",
+            "categoryId": "museums-history",
+            "tier": "low",
+            "durationMins": 150,
+            "location": {
+              "name": "Cummer Museum of Art",
+              "address": "829 Riverside Ave, Jacksonville, FL",
+              "lat": 30.321,
+              "lng": -81.689,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Cummer%20Museum%20of%20Art"
+            },
+            "blurb": "A riverside art museum and formal gardens, plus Jacksonville's wide Atlantic beaches."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 207,
+      "label": "Day 207 — North to Amelia Island",
+      "type": "commute",
+      "summary": "A quick hop to the barrier island.",
+      "commute": {
+        "from": "St. Augustine, FL",
+        "to": "Amelia Island, FL",
+        "driveTimeMins": 90,
+        "scenicNote": "North past Jacksonville to the Georgia line."
+      }
+    }
+  ]
+}

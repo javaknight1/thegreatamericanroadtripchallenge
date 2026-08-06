@@ -1,0 +1,86 @@
+{
+  "id": "amelia-island",
+  "name": "Amelia Island",
+  "state": "FL",
+  "country": "US",
+  "order": 2,
+  "location": {
+    "lat": 30.6697,
+    "lng": -81.4626
+  },
+  "summary": "A quiet barrier island at the Georgia line — Victorian Fernandina Beach, a Civil War fort, and shrimp-boat history.",
+  "lodging": [
+    {
+      "name": "A Fernandina Beach inn or Ritz-Carlton",
+      "blurb": "Historic downtown inns or a beach resort.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Fernandina%20Beach%20Amelia%20Island%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Wild Atlantic shrimp",
+      "blurb": "Fernandina calls itself the birthplace of the modern shrimping industry."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 208,
+      "label": "Day 208 — Fernandina & Fort Clinch",
+      "type": "active",
+      "summary": "Victorian streets and a masonry fort.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "amelia-island-fernandina",
+            "title": "Fernandina Beach historic district",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Centre Street, Fernandina Beach",
+              "address": "Centre St, Fernandina Beach, FL",
+              "lat": 30.67,
+              "lng": -81.464,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Centre%20Street%2C%20Fernandina%20Beach"
+            },
+            "blurb": "A 50-block Victorian district of shops, the Palace Saloon (Florida's oldest bar), and shrimping heritage."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "amelia-island-fort-clinch",
+            "title": "Fort Clinch State Park",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Fort Clinch State Park",
+              "address": "2601 Atlantic Ave, Fernandina Beach, FL",
+              "lat": 30.704,
+              "lng": -81.447,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Fort%20Clinch%20State%20Park"
+            },
+            "blurb": "A well-preserved 19th-century brick fort with living-history reenactors and beach.",
+            "gear": [
+              "beach gear"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 209,
+      "label": "Day 209 — South to Orlando",
+      "type": "commute",
+      "summary": "Down the peninsula to the theme-park capital.",
+      "commute": {
+        "from": "Amelia Island, FL",
+        "to": "Orlando, FL",
+        "driveTimeMins": 150,
+        "scenicNote": "South and inland to Orlando."
+      }
+    }
+  ]
+}

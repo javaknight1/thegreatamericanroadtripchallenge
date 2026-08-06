@@ -1,0 +1,238 @@
+{
+  "id": "miami-the-beaches",
+  "name": "Miami & the Beaches",
+  "state": "FL",
+  "country": "US",
+  "order": 6,
+  "location": {
+    "lat": 25.7617,
+    "lng": -80.1918
+  },
+  "summary": "The Magic City — Art Deco South Beach, the Cuban soul of Little Havana, Wynwood's murals, and the Mediterranean fantasy of Vizcaya. A vibrant week.",
+  "lodging": [
+    {
+      "name": "A South Beach Art Deco hotel",
+      "blurb": "On or near Ocean Drive and Collins Avenue.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=South%20Beach%20Art%20Deco%20hotel%20Miami"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Cubano & a cafecito",
+      "blurb": "A pressed Cuban sandwich and a shot of Cuban coffee in Little Havana — plus stone crab at Joe's."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 224,
+      "label": "Day 224 — South Beach & Art Deco",
+      "type": "active",
+      "summary": "Pastel deco and the ocean drive.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "miami-the-beaches-art-deco",
+            "title": "Art Deco Historic District & Ocean Drive",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Miami Beach Art Deco District",
+              "address": "Ocean Dr, Miami Beach, FL",
+              "lat": 25.781,
+              "lng": -80.13,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Miami%20Beach%20Art%20Deco%20District"
+            },
+            "blurb": "The world's largest concentration of 1930s Art Deco, in candy colors along Ocean Drive."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "miami-the-beaches-south-beach",
+            "title": "South Beach",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 180,
+            "location": {
+              "name": "South Beach",
+              "address": "South Beach, Miami Beach, FL",
+              "lat": 25.782,
+              "lng": -80.131,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=South%20Beach"
+            },
+            "blurb": "The famous sand, the lifeguard stands, and Lincoln Road's open-air mall.",
+            "gear": [
+              "beach gear"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 225,
+      "label": "Day 225 — Little Havana & Wynwood",
+      "type": "active",
+      "summary": "Cuban Miami and the mural district.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "miami-the-beaches-little-havana",
+            "title": "Little Havana & Calle Ocho",
+            "categoryId": "food-drink",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Calle Ocho, Little Havana",
+              "address": "SW 8th St, Miami, FL",
+              "lat": 25.765,
+              "lng": -80.219,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Calle%20Ocho%2C%20Little%20Havana"
+            },
+            "blurb": "Domino Park, hand-rolled cigars, cafecito windows, and a Cuban lunch."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "miami-the-beaches-wynwood",
+            "title": "Wynwood Walls",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Wynwood Walls",
+              "address": "2516 NW 2nd Ave, Miami, FL",
+              "lat": 25.801,
+              "lng": -80.199,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Wynwood%20Walls"
+            },
+            "blurb": "An open-air museum of giant street murals, plus galleries and breweries."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 226,
+      "label": "Day 226 — Vizcaya & Coral Gables",
+      "type": "active",
+      "summary": "A bayfront villa and Mediterranean Miami.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "miami-the-beaches-vizcaya",
+            "title": "Vizcaya Museum & Gardens",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Vizcaya Museum and Gardens",
+              "address": "3251 S Miami Ave, Miami, FL",
+              "lat": 25.744,
+              "lng": -80.21,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Vizcaya%20Museum%20and%20Gardens"
+            },
+            "blurb": "A 1916 Italian-Renaissance villa and formal gardens on Biscayne Bay."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "miami-the-beaches-coral-gables",
+            "title": "Coral Gables & the Biltmore",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Biltmore Hotel Coral Gables",
+              "address": "1200 Anastasia Ave, Coral Gables, FL",
+              "lat": 25.742,
+              "lng": -80.276,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Biltmore%20Hotel%20Coral%20Gables"
+            },
+            "blurb": "The planned 'City Beautiful,' the landmark Biltmore Hotel, and the Venetian Pool."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 227,
+      "label": "Day 227 — Free Day",
+      "type": "free",
+      "summary": "Beach, boat, or shop. Options below.",
+      "freeMenu": [
+        {
+          "id": "miami-the-beaches-key-biscayne",
+          "title": "Key Biscayne & the lighthouse",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Bill Baggs Cape Florida State Park",
+            "address": "1200 Crandon Blvd, Key Biscayne, FL",
+            "lat": 25.666,
+            "lng": -80.156,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Bill%20Baggs%20Cape%20Florida%20State%20Park"
+          },
+          "blurb": "A quieter island beach and a historic lighthouse just off downtown."
+        },
+        {
+          "id": "miami-the-beaches-design-district",
+          "title": "Miami Design District",
+          "categoryId": "shopping",
+          "tier": "low",
+          "durationMins": 120,
+          "location": {
+            "name": "Miami Design District",
+            "address": "NE 40th St, Miami, FL",
+            "lat": 25.813,
+            "lng": -80.193,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Miami%20Design%20District"
+          },
+          "blurb": "Luxury flagships and public art north of downtown."
+        }
+      ]
+    },
+    {
+      "dayNumber": 228,
+      "label": "Day 228 — Biscayne Bay",
+      "type": "active",
+      "summary": "Out on the water.",
+      "blocks": [
+        {
+          "start": "11:00 AM",
+          "item": {
+            "id": "miami-the-beaches-boat-tour",
+            "title": "Biscayne Bay boat tour",
+            "categoryId": "guided-tours",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Bayside Marketplace",
+              "address": "401 Biscayne Blvd, Miami, FL",
+              "lat": 25.778,
+              "lng": -80.186,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Bayside%20Marketplace"
+            },
+            "blurb": "A cruise past the downtown skyline and the 'Star Island' celebrity mansions from Bayside Marketplace."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 229,
+      "label": "Day 229 — Into the Everglades",
+      "type": "commute",
+      "summary": "West to the river of grass.",
+      "commute": {
+        "from": "Miami, FL",
+        "to": "Everglades National Park, FL",
+        "driveTimeMins": 60,
+        "scenicNote": "West out of the city into the wetlands."
+      }
+    }
+  ]
+}

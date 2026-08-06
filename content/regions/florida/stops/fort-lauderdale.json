@@ -1,0 +1,86 @@
+{
+  "id": "fort-lauderdale",
+  "name": "Fort Lauderdale",
+  "state": "FL",
+  "country": "US",
+  "order": 5,
+  "location": {
+    "lat": 26.1224,
+    "lng": -80.1373
+  },
+  "summary": "The 'Venice of America' — 300 miles of canals, a broad beach, and the boutiques and cafés of Las Olas.",
+  "lodging": [
+    {
+      "name": "A beachfront or Las Olas hotel",
+      "blurb": "On the beach strip or near the Las Olas restaurants.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Fort%20Lauderdale%20beachfront%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Waterfront seafood",
+      "blurb": "Grouper and conch fritters dockside."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 222,
+      "label": "Day 222 — Canals & the Beach",
+      "type": "active",
+      "summary": "The waterways and Las Olas.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "fort-lauderdale-water-taxi",
+            "title": "Water taxi through the canals",
+            "categoryId": "guided-tours",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Fort Lauderdale Water Taxi",
+              "address": "Fort Lauderdale, FL",
+              "lat": 26.122,
+              "lng": -80.12,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Fort%20Lauderdale%20Water%20Taxi"
+            },
+            "blurb": "Cruise the 'Venice of America' waterways past the mega-yachts and waterfront mansions."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "fort-lauderdale-las-olas",
+            "title": "Las Olas Boulevard & the beach",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Las Olas Boulevard",
+              "address": "E Las Olas Blvd, Fort Lauderdale, FL",
+              "lat": 26.119,
+              "lng": -80.129,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Las%20Olas%20Boulevard"
+            },
+            "blurb": "Boutiques and sidewalk cafés, then the wide beach and its wave-wall promenade.",
+            "gear": [
+              "beach gear"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 223,
+      "label": "Day 223 — Into Miami",
+      "type": "commute",
+      "summary": "A short hop to the Magic City.",
+      "commute": {
+        "from": "Fort Lauderdale, FL",
+        "to": "Miami, FL",
+        "driveTimeMins": 50,
+        "scenicNote": "South to Miami."
+      }
+    }
+  ]
+}

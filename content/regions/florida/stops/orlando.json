@@ -1,0 +1,301 @@
+{
+  "id": "orlando",
+  "name": "Orlando",
+  "state": "FL",
+  "country": "US",
+  "order": 3,
+  "location": {
+    "lat": 28.5384,
+    "lng": -81.3789
+  },
+  "summary": "The theme-park capital of the world — the full Walt Disney World, Universal's two parks, and the Kennedy Space Center an hour east. Plan on a big, joyful week-plus.",
+  "lodging": [
+    {
+      "name": "A Disney or Universal resort hotel",
+      "blurb": "On-property perks and early park entry; or a value hotel on International Drive.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Walt%20Disney%20World%20resort%20hotel%20Orlando"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Dole Whip & a giant turkey leg",
+      "blurb": "The theme-park classics — and dinner at Disney Springs."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 210,
+      "label": "Day 210 — Magic Kingdom",
+      "type": "active",
+      "summary": "The park that started it all.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "orlando-magic-kingdom",
+            "title": "Walt Disney World: Magic Kingdom",
+            "categoryId": "theme-parks",
+            "tier": "anchor",
+            "durationMins": 600,
+            "location": {
+              "name": "Magic Kingdom",
+              "address": "1180 Seven Seas Dr, Lake Buena Vista, FL",
+              "lat": 28.4177,
+              "lng": -81.5812,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Magic%20Kingdom"
+            },
+            "blurb": "Cinderella Castle, Space Mountain, Pirates, and the nighttime fireworks — the classic Disney day.",
+            "gear": [
+              "comfortable shoes",
+              "sun protection"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 211,
+      "label": "Day 211 — EPCOT",
+      "type": "active",
+      "summary": "The future and the World Showcase.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "orlando-epcot",
+            "title": "Walt Disney World: EPCOT",
+            "categoryId": "theme-parks",
+            "tier": "anchor",
+            "durationMins": 600,
+            "location": {
+              "name": "EPCOT",
+              "address": "200 Epcot Center Dr, Lake Buena Vista, FL",
+              "lat": 28.3747,
+              "lng": -81.5494,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=EPCOT"
+            },
+            "blurb": "Spaceship Earth, Guardians of the Galaxy, and eating and drinking around the World Showcase."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 212,
+      "label": "Day 212 — Hollywood Studios",
+      "type": "active",
+      "summary": "Star Wars and the Twilight Zone.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "orlando-hollywood-studios",
+            "title": "Walt Disney World: Hollywood Studios",
+            "categoryId": "theme-parks",
+            "tier": "anchor",
+            "durationMins": 600,
+            "location": {
+              "name": "Disney's Hollywood Studios",
+              "address": "351 S Studio Dr, Lake Buena Vista, FL",
+              "lat": 28.3575,
+              "lng": -81.559,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Disney%27s%20Hollywood%20Studios"
+            },
+            "blurb": "Star Wars: Galaxy's Edge, the Tower of Terror, and Toy Story Land."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 213,
+      "label": "Day 213 — Animal Kingdom",
+      "type": "active",
+      "summary": "Pandora and safari country.",
+      "blocks": [
+        {
+          "start": "8:30 AM",
+          "item": {
+            "id": "orlando-animal-kingdom",
+            "title": "Walt Disney World: Animal Kingdom",
+            "categoryId": "theme-parks",
+            "tier": "anchor",
+            "durationMins": 540,
+            "location": {
+              "name": "Disney's Animal Kingdom",
+              "address": "2901 Osceola Pkwy, Lake Buena Vista, FL",
+              "lat": 28.3553,
+              "lng": -81.5901,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Disney%27s%20Animal%20Kingdom"
+            },
+            "blurb": "Flight of Passage in Pandora, the Kilimanjaro Safari, and the Tree of Life."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 214,
+      "label": "Day 214 — Free Day",
+      "type": "free",
+      "summary": "Sleep in, hit a water park, or wander Disney Springs. Options below.",
+      "freeMenu": [
+        {
+          "id": "orlando-disney-springs",
+          "title": "Disney Springs",
+          "categoryId": "shopping",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Disney Springs",
+            "address": "1486 Buena Vista Dr, Lake Buena Vista, FL",
+            "lat": 28.37,
+            "lng": -81.518,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Disney%20Springs"
+          },
+          "blurb": "Waterfront shopping, dining, and entertainment — no ticket needed."
+        },
+        {
+          "id": "orlando-water-park",
+          "title": "A Disney water park",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 300,
+          "location": {
+            "name": "Disney's Typhoon Lagoon",
+            "address": "1145 E Buena Vista Dr, Lake Buena Vista, FL",
+            "lat": 28.365,
+            "lng": -81.528,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Disney%27s%20Typhoon%20Lagoon"
+          },
+          "blurb": "Typhoon Lagoon or Blizzard Beach for a cool-off day."
+        }
+      ]
+    },
+    {
+      "dayNumber": 215,
+      "label": "Day 215 — Universal Studios Florida",
+      "type": "active",
+      "summary": "Movie-studio thrills.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "orlando-universal-studios",
+            "title": "Universal Studios Florida",
+            "categoryId": "theme-parks",
+            "tier": "anchor",
+            "durationMins": 540,
+            "location": {
+              "name": "Universal Studios Florida",
+              "address": "6000 Universal Blvd, Orlando, FL",
+              "lat": 28.475,
+              "lng": -81.468,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Universal%20Studios%20Florida"
+            },
+            "blurb": "Diagon Alley, the Hollywood Rip Ride Rockit, and the studio-backlot rides."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 216,
+      "label": "Day 216 — Islands of Adventure",
+      "type": "active",
+      "summary": "Hogwarts and the Hulk.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "orlando-islands-of-adventure",
+            "title": "Universal's Islands of Adventure",
+            "categoryId": "theme-parks",
+            "tier": "anchor",
+            "durationMins": 540,
+            "location": {
+              "name": "Universal's Islands of Adventure",
+              "address": "6000 Universal Blvd, Orlando, FL",
+              "lat": 28.472,
+              "lng": -81.47,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Universal%27s%20Islands%20of%20Adventure"
+            },
+            "blurb": "Hogsmeade and the Forbidden Journey, the Velocicoaster, and the Hulk — plus the Hogwarts Express between parks."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 217,
+      "label": "Day 217 — Free Day",
+      "type": "free",
+      "summary": "Rest those feet, or add SeaWorld or ICON Park. Options below.",
+      "freeMenu": [
+        {
+          "id": "orlando-seaworld",
+          "title": "SeaWorld Orlando",
+          "categoryId": "theme-parks",
+          "tier": "low",
+          "durationMins": 360,
+          "location": {
+            "name": "SeaWorld Orlando",
+            "address": "7007 Sea Harbor Dr, Orlando, FL",
+            "lat": 28.411,
+            "lng": -81.461,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=SeaWorld%20Orlando"
+          },
+          "blurb": "Coasters and marine-animal shows."
+        },
+        {
+          "id": "orlando-icon-park",
+          "title": "ICON Park & International Drive",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 120,
+          "location": {
+            "name": "ICON Park",
+            "address": "8375 International Dr, Orlando, FL",
+            "lat": 28.443,
+            "lng": -81.469,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=ICON%20Park"
+          },
+          "blurb": "The 400-ft observation wheel and the tourist strip."
+        }
+      ]
+    },
+    {
+      "dayNumber": 218,
+      "label": "Day 218 — Kennedy Space Center",
+      "type": "active",
+      "summary": "Where America launches to space.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "orlando-kennedy-space-center",
+            "title": "Kennedy Space Center Visitor Complex",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 360,
+            "location": {
+              "name": "Kennedy Space Center Visitor Complex",
+              "address": "Space Commerce Way, Merritt Island, FL",
+              "lat": 28.523,
+              "lng": -80.682,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Kennedy%20Space%20Center%20Visitor%20Complex"
+            },
+            "blurb": "The Space Shuttle Atlantis, the Apollo/Saturn V, and the launch pads — an hour east on the Space Coast (a launch, if one's scheduled, is unforgettable)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 219,
+      "label": "Day 219 — South to Palm Beach",
+      "type": "commute",
+      "summary": "Down to the Gold Coast.",
+      "commute": {
+        "from": "Orlando, FL",
+        "to": "Palm Beach, FL",
+        "driveTimeMins": 150,
+        "scenicNote": "Southeast to the Atlantic and the start of the Gold Coast."
+      }
+    }
+  ]
+}
