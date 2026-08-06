@@ -85,6 +85,10 @@ trip  (header + mission + categories)
 - `slot` — a looser label (`"Morning"` / `"Afternoon"` / `"Evening"`) when exact times don't matter
 - `item`
 
+`end` is optional in practice: the site computes it from `start + item.durationMins`
+when it isn't authored, and places a `slot`-only block after the one before it, so
+every event displays a start and an end time either way.
+
 **item** (the actual activity — also used inside `freeMenu`)
 - `id` — stable, unique (survives reorders; ready for future completion-tracking)
 - `title`
@@ -230,6 +234,7 @@ One region stub showing all three day types. (Content here is illustrative — t
 - **Master packing list** is computed, not authored — aggregate every `item.gear[]` across the trip (and per region).
 - **Canada detours** are just stops with `country: "CA"`.
 - **Soft seasonal events** (parades, single-peak festivals) live in `seasonalTip` or a blurb — never as hard dates, since the trip is undated.
+- **Free and drive days render as timeline blocks too** — the site synthesises a `free-rest` "rest" block for a free day and a `commuting` block for the drive, so those two categories are used by the renderer even though no authored item can carry them. A free day's `freeMenu` and a drive day's `stopsAlongWay` appear *below* the timeline, as explicitly optional.
 - **No progress/completion fields** in v1 — `item.id` is already stable, so tracking can be layered on later without a schema break.
 
 ---
