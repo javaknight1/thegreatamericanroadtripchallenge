@@ -1,0 +1,95 @@
+{
+  "id": "ocean-city-assateague",
+  "name": "Ocean City & Assateague",
+  "state": "MD",
+  "country": "US",
+  "order": 17,
+  "location": {
+    "lat": 38.3365,
+    "lng": -75.0849
+  },
+  "summary": "Maryland's honky-tonk beach boardwalk, then the wild barrier island where feral horses roam the dunes.",
+  "lodging": [
+    {
+      "name": "An Ocean City oceanfront hotel",
+      "blurb": "On or near the boardwalk.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Ocean%20City%20Maryland%20oceanfront%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Boardwalk Thrasher's fries & Fisher's popcorn",
+      "blurb": "Vinegar fries and caramel corn — the OC boardwalk classics."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 131,
+      "label": "Day 131 — The Boardwalk",
+      "type": "active",
+      "summary": "Three miles of classic beach boardwalk.",
+      "blocks": [
+        {
+          "start": "11:00 AM",
+          "item": {
+            "id": "ocean-city-assateague-boardwalk",
+            "title": "Ocean City Boardwalk",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Ocean City Boardwalk",
+              "address": "Boardwalk, Ocean City, MD",
+              "lat": 38.33,
+              "lng": -75.081,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Ocean%20City%20Boardwalk"
+            },
+            "blurb": "Rides at Trimper's and the pier, arcades, saltwater taffy, and a wide Atlantic beach."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 132,
+      "label": "Day 132 — Assateague's wild horses",
+      "type": "active",
+      "summary": "A barrier island left to the sea and the horses.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "ocean-city-assateague-national-seashore",
+            "title": "Assateague Island National Seashore",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Assateague Island National Seashore",
+              "address": "7206 National Seashore Ln, Berlin, MD",
+              "lat": 38.25,
+              "lng": -75.15,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Assateague%20Island%20National%20Seashore"
+            },
+            "blurb": "A wild, undeveloped barrier island where feral horses wander the dunes and beach — kayak the bay or just watch them.",
+            "gear": [
+              "beach gear",
+              "bug spray"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 133,
+      "label": "Day 133 — Northwest to Frederick",
+      "type": "commute",
+      "summary": "A long haul across the state to Civil War country.",
+      "commute": {
+        "from": "Ocean City, MD",
+        "to": "Frederick, MD",
+        "driveTimeMins": 180,
+        "scenicNote": "West across the Bay and up to the Piedmont near Antietam."
+      }
+    }
+  ]
+}

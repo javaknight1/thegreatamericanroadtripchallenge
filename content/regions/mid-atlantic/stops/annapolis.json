@@ -1,0 +1,128 @@
+{
+  "id": "annapolis",
+  "name": "Annapolis",
+  "state": "MD",
+  "country": "US",
+  "order": 16,
+  "location": {
+    "lat": 38.9784,
+    "lng": -76.4922
+  },
+  "summary": "Maryland's capital and America's sailing capital — the Naval Academy, the oldest statehouse still in legislative use, and a colonial harbor town.",
+  "lodging": [
+    {
+      "name": "A historic-district inn near City Dock",
+      "blurb": "Walkable to the harbor, the State House, and the Academy.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Annapolis%20historic%20district%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A crab cake on the dock",
+      "blurb": "Jumbo-lump, broiled, minimal filler — order it at the waterfront."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 128,
+      "label": "Day 128 — The Naval Academy & the State House",
+      "type": "active",
+      "summary": "The nation's naval officers and its oldest working capitol.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "annapolis-naval-academy",
+            "title": "U.S. Naval Academy tour",
+            "categoryId": "guided-tours",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "United States Naval Academy",
+              "address": "121 Blake Rd, Annapolis, MD",
+              "lat": 38.984,
+              "lng": -76.484,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=United%20States%20Naval%20Academy"
+            },
+            "blurb": "A guided walk through 'the Yard' — the crypt of John Paul Jones, the chapel, and noon formation (photo ID required)."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "annapolis-state-house",
+            "title": "Maryland State House",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "Maryland State House",
+              "address": "100 State Cir, Annapolis, MD",
+              "lat": 38.9789,
+              "lng": -76.491,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Maryland%20State%20House"
+            },
+            "blurb": "The oldest U.S. state capitol in continuous legislative use — and the nation's capitol in 1783–84, where Washington resigned his commission."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 129,
+      "label": "Day 129 — On the Chesapeake",
+      "type": "active",
+      "summary": "Sail the bay and wander the colonial harbor.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "annapolis-sailing",
+            "title": "Sail the Chesapeake",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Annapolis City Dock",
+              "address": "Annapolis City Dock, Annapolis, MD",
+              "lat": 38.977,
+              "lng": -76.487,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Annapolis%20City%20Dock"
+            },
+            "blurb": "A schooner or skipjack sail out of the sailing capital of America."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "annapolis-historic-district",
+            "title": "Historic district & William Paca House",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "William Paca House",
+              "address": "186 Prince George St, Annapolis, MD",
+              "lat": 38.98,
+              "lng": -76.488,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=William%20Paca%20House"
+            },
+            "blurb": "Georgian streets, a signer's mansion and garden, and the shops around Main Street."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 130,
+      "label": "Day 130 — Out to the ocean",
+      "type": "commute",
+      "summary": "East to the Maryland shore.",
+      "commute": {
+        "from": "Annapolis, MD",
+        "to": "Ocean City, MD",
+        "driveTimeMins": 150,
+        "scenicNote": "Back across the Bay Bridge and out to the Atlantic coast."
+      }
+    }
+  ]
+}

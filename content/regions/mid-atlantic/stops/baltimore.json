@@ -1,0 +1,173 @@
+{
+  "id": "baltimore",
+  "name": "Baltimore",
+  "state": "MD",
+  "country": "US",
+  "order": 15,
+  "location": {
+    "lat": 39.2904,
+    "lng": -76.6122
+  },
+  "summary": "Charm City on the Chesapeake — the harbor and the star fort where the national anthem was written, a top aquarium, cobblestoned Fell's Point, and steamed blue crabs.",
+  "lodging": [
+    {
+      "name": "An Inner Harbor or Fell's Point hotel",
+      "blurb": "Inner Harbor for the sights; Fell's Point for the cobblestones and pubs.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Baltimore%20Inner%20Harbor%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Steamed blue crabs & Old Bay",
+      "blurb": "A newspaper-covered table, a mallet, and a dozen crabs — the Maryland ritual."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 124,
+      "label": "Day 124 — The Inner Harbor",
+      "type": "active",
+      "summary": "Baltimore's revived waterfront and its aquarium.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "baltimore-aquarium",
+            "title": "National Aquarium",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "National Aquarium",
+              "address": "501 E Pratt St, Baltimore, MD",
+              "lat": 39.2851,
+              "lng": -76.6083,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=National%20Aquarium"
+            },
+            "blurb": "One of the best aquariums in the country — a rainforest, a shark ring, and dolphins on the Inner Harbor."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "baltimore-historic-ships",
+            "title": "Historic Ships & Federal Hill",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Historic Ships in Baltimore",
+              "address": "301 E Pratt St, Baltimore, MD",
+              "lat": 39.286,
+              "lng": -76.607,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Historic%20Ships%20in%20Baltimore"
+            },
+            "blurb": "Board the USS Constellation, then climb Federal Hill for the harbor skyline view."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 125,
+      "label": "Day 125 — Fort McHenry & Fell's Point",
+      "type": "active",
+      "summary": "Where the anthem was born, and the old seaport.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "11:30 AM",
+          "item": {
+            "id": "baltimore-fort-mchenry",
+            "title": "Fort McHenry",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Fort McHenry",
+              "address": "2400 E Fort Ave, Baltimore, MD",
+              "lat": 39.2639,
+              "lng": -76.58,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Fort%20McHenry"
+            },
+            "blurb": "The star fort whose defense in 1814 inspired Francis Scott Key to write 'The Star-Spangled Banner.'"
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "baltimore-fells-point",
+            "title": "Fell's Point & the Poe grave",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Fell's Point",
+              "address": "Thames St, Baltimore, MD",
+              "lat": 39.282,
+              "lng": -76.593,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Fell%27s%20Point"
+            },
+            "blurb": "Cobblestone streets and historic pubs, plus Edgar Allan Poe's grave nearby at Westminster."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 126,
+      "label": "Day 126 — Art, oddity & crabs",
+      "type": "active",
+      "summary": "A visionary museum, a ballgame, and a crab feast.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "baltimore-visionary-art",
+            "title": "American Visionary Art Museum",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "American Visionary Art Museum",
+              "address": "800 Key Hwy, Baltimore, MD",
+              "lat": 39.279,
+              "lng": -76.607,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=American%20Visionary%20Art%20Museum"
+            },
+            "blurb": "A joyful museum of self-taught 'outsider' art — a giant whirligig out front sets the tone."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "baltimore-crab-feast",
+            "title": "A Baltimore crab feast",
+            "categoryId": "food-drink",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Lexington Market",
+              "address": "400 W Lexington St, Baltimore, MD",
+              "lat": 39.291,
+              "lng": -76.621,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Lexington%20Market"
+            },
+            "blurb": "Steamed blue crabs with Old Bay — the definitive Maryland meal (Orioles game at Camden Yards optional in season)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 127,
+      "label": "Day 127 — Down to Annapolis",
+      "type": "commute",
+      "summary": "A short hop to the sailing capital.",
+      "commute": {
+        "from": "Baltimore, MD",
+        "to": "Annapolis, MD",
+        "driveTimeMins": 40,
+        "scenicNote": "South to the Chesapeake and the Naval Academy."
+      }
+    }
+  ]
+}

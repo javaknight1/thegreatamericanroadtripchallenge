@@ -1,0 +1,56 @@
+{
+  "id": "mount-vernon",
+  "name": "Mount Vernon",
+  "state": "VA",
+  "country": "US",
+  "order": 19,
+  "location": {
+    "lat": 38.7075,
+    "lng": -77.0861
+  },
+  "summary": "George Washington's estate above the Potomac — the mansion, the tomb, and the working farm, just south of the capital.",
+  "lodging": [
+    {
+      "name": "Stay in Alexandria or DC",
+      "blurb": "Base in Old Town Alexandria or head into DC for the night.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20Town%20Alexandria%20Virginia%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Colonial fare at the Mount Vernon Inn",
+      "blurb": "Peanut-and-chestnut soup and hoecakes on the estate."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 136,
+      "label": "Day 136 — Washington's Home",
+      "type": "active",
+      "summary": "The first president's estate on the river.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "mount-vernon-estate",
+            "title": "Mount Vernon Estate",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "George Washington's Mount Vernon",
+              "address": "3200 Mount Vernon Memorial Hwy, Mount Vernon, VA",
+              "lat": 38.7075,
+              "lng": -77.0861,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=George%20Washington%27s%20Mount%20Vernon"
+            },
+            "blurb": "Tour the mansion and Washington's tomb, walk the grounds above the Potomac, and see the working distillery and gristmill.",
+            "gear": [
+              "comfortable shoes"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

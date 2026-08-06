@@ -1,0 +1,130 @@
+{
+  "id": "dover-rehoboth-beach",
+  "name": "Dover & Rehoboth Beach",
+  "state": "DE",
+  "country": "US",
+  "order": 14,
+  "location": {
+    "lat": 39.1582,
+    "lng": -75.5244
+  },
+  "summary": "Delaware's colonial capital on The Green, then the state's genteel beach town — boardwalk, outlets, and Cape Henlopen.",
+  "lodging": [
+    {
+      "name": "A Rehoboth Beach hotel",
+      "blurb": "Walkable to the boardwalk and Cape Henlopen.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Rehoboth%20Beach%20Delaware%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Thrasher's boardwalk fries & Dogfish Head beer",
+      "blurb": "Rehoboth is Dogfish Head's home town."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 121,
+      "label": "Day 121 — The First State's capital",
+      "type": "active",
+      "summary": "Where Delaware became the first to ratify the Constitution.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "dover-rehoboth-beach-state-house",
+            "title": "The Old State House & Legislative Hall",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Delaware Legislative Hall",
+              "address": "411 Legislative Ave, Dover, DE",
+              "lat": 39.157,
+              "lng": -75.519,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Delaware%20Legislative%20Hall"
+            },
+            "blurb": "The 1791 Old State House on The Green and the working capitol — Delaware was the first state to ratify, in 1787."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "dover-rehoboth-beach-amc-museum",
+            "title": "Air Mobility Command Museum",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Air Mobility Command Museum",
+              "address": "1301 Heritage Rd, Dover, DE",
+              "lat": 39.123,
+              "lng": -75.468,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Air%20Mobility%20Command%20Museum"
+            },
+            "blurb": "Historic military transport and cargo aircraft at Dover Air Force Base — free."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 122,
+      "label": "Day 122 — Rehoboth Beach",
+      "type": "active",
+      "summary": "The 'Nation's Summer Capital' at the shore.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "dover-rehoboth-beach-cape-henlopen",
+            "title": "Cape Henlopen State Park",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Cape Henlopen State Park",
+              "address": "15099 Cape Henlopen Dr, Lewes, DE",
+              "lat": 38.777,
+              "lng": -75.091,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Cape%20Henlopen%20State%20Park"
+            },
+            "blurb": "Dunes, WWII watchtowers, and beaches where the bay meets the ocean.",
+            "gear": [
+              "beach gear"
+            ]
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "dover-rehoboth-beach-boardwalk",
+            "title": "Rehoboth boardwalk & tax-free outlets",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Rehoboth Beach Boardwalk",
+              "address": "Rehoboth Ave, Rehoboth Beach, DE",
+              "lat": 38.721,
+              "lng": -75.076,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Rehoboth%20Beach%20Boardwalk"
+            },
+            "blurb": "A mile of boardwalk, Funland, and (tax-free) outlet shopping just outside town."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 123,
+      "label": "Day 123 — Across the bay to Baltimore",
+      "type": "commute",
+      "summary": "Around the Chesapeake to Charm City.",
+      "commute": {
+        "from": "Rehoboth Beach, DE",
+        "to": "Baltimore, MD",
+        "driveTimeMins": 130,
+        "scenicNote": "West across the Bay Bridge toward Baltimore."
+      }
+    }
+  ]
+}

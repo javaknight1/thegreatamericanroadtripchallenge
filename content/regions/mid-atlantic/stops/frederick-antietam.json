@@ -1,0 +1,87 @@
+{
+  "id": "frederick-antietam",
+  "name": "Frederick & Antietam",
+  "state": "MD",
+  "country": "US",
+  "order": 18,
+  "location": {
+    "lat": 39.4143,
+    "lng": -77.4105
+  },
+  "summary": "A handsome historic town beside the bloodiest single day in American history.",
+  "lodging": [
+    {
+      "name": "A downtown Frederick inn",
+      "blurb": "Walkable historic district full of restaurants.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Frederick%20Maryland%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Farm-to-table in downtown Frederick",
+      "blurb": "The revived Market Street food scene."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 134,
+      "label": "Day 134 — Antietam & Frederick",
+      "type": "active",
+      "summary": "A somber battlefield and a lovely old town.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "frederick-antietam-battlefield",
+            "title": "Antietam National Battlefield",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Antietam National Battlefield",
+              "address": "5831 Dunker Church Rd, Sharpsburg, MD",
+              "lat": 39.474,
+              "lng": -77.744,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Antietam%20National%20Battlefield"
+            },
+            "blurb": "September 17, 1862 — the bloodiest single day in American history. Walk Bloody Lane and the Burnside Bridge.",
+            "gear": [
+              "walking shoes"
+            ]
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "frederick-antietam-downtown",
+            "title": "Historic downtown Frederick",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Downtown Frederick",
+              "address": "Market St, Frederick, MD",
+              "lat": 39.4143,
+              "lng": -77.4105,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Downtown%20Frederick"
+            },
+            "blurb": "Church spires, the Community Bridge mural, and the National Museum of Civil War Medicine."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 135,
+      "label": "Day 135 — South to Mount Vernon",
+      "type": "commute",
+      "summary": "Down around Washington to the Potomac estate.",
+      "commute": {
+        "from": "Frederick, MD",
+        "to": "Mount Vernon, VA",
+        "driveTimeMins": 90,
+        "scenicNote": "South past the capital's edge to George Washington's home."
+      }
+    }
+  ]
+}

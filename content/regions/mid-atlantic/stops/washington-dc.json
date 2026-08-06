@@ -1,6 +1,6 @@
 {
   "id": "washington-dc",
-  "name": "Washington",
+  "name": "Washington, DC",
   "state": "DC",
   "country": "US",
   "order": 20,
@@ -8,7 +8,7 @@
     "lat": 38.9072,
     "lng": -77.0369
   },
-  "summary": "The nation's capital and the Northeast's closing chapter — the monuments, the free Smithsonians, the Capitol, and Arlington across the river.",
+  "summary": "The nation's capital — the monuments, the free Smithsonians, the Capitol, and Arlington — and the close of the East Coast leg. Plan on a full week-plus.",
   "lodging": [
     {
       "name": "A hotel near the National Mall or Dupont Circle",
@@ -24,17 +24,17 @@
   ],
   "days": [
     {
-      "dayNumber": 140,
-      "label": "Day 140 — The National Mall & Monuments",
+      "dayNumber": 137,
+      "label": "Day 137 — The National Mall & Monuments",
       "type": "active",
-      "summary": "Walk the length of the Mall, memorial to memorial.",
+      "summary": "Walk the length of the Mall, memorial to memorial. (Mount Vernon is a short drive back into the city.)",
       "blocks": [
         {
           "start": "9:00 AM",
           "end": "1:00 PM",
           "item": {
-            "id": "dc-mall-monuments",
-            "title": "Monuments walk: Lincoln, WWII, Washington, MLK",
+            "id": "washington-dc-monuments",
+            "title": "Monuments walk: Lincoln, WWII, Vietnam, Korean, MLK",
             "categoryId": "landmarks",
             "tier": "anchor",
             "durationMins": 240,
@@ -50,12 +50,20 @@
               "comfortable walking shoes"
             ]
           }
-        },
+        }
+      ]
+    },
+    {
+      "dayNumber": 138,
+      "label": "Day 138 — Smithsonian I",
+      "type": "active",
+      "summary": "Two of the great free museums on the Mall.",
+      "blocks": [
         {
-          "start": "2:30 PM",
-          "end": "5:30 PM",
+          "start": "10:00 AM",
+          "end": "1:00 PM",
           "item": {
-            "id": "dc-air-space-museum",
+            "id": "washington-dc-air-space",
             "title": "National Air & Space Museum",
             "categoryId": "museums-history",
             "tier": "anchor",
@@ -67,26 +75,89 @@
               "lng": -77.0199,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=National%20Air%20and%20Space%20Museum"
             },
-            "blurb": "The Wright Flyer, the Apollo 11 command module, and more — free, like every Smithsonian."
+            "blurb": "The Wright Flyer, the Apollo 11 command module, and Lindbergh's Spirit of St. Louis — free."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "washington-dc-natural-history",
+            "title": "National Museum of Natural History",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "National Museum of Natural History",
+              "address": "10th St & Constitution Ave NW, Washington, DC",
+              "lat": 38.8913,
+              "lng": -77.0261,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=National%20Museum%20of%20Natural%20History"
+            },
+            "blurb": "The Hope Diamond, the dinosaur hall, and the giant elephant in the rotunda."
           }
         }
       ]
     },
     {
-      "dayNumber": 141,
-      "label": "Day 141 — Capitol, Archives & the Founding Documents",
+      "dayNumber": 139,
+      "label": "Day 139 — Smithsonian II",
       "type": "active",
-      "summary": "The seat of government and the papers that founded it.",
+      "summary": "American history and the museum everyone wants to see.",
       "blocks": [
         {
           "start": "9:30 AM",
-          "end": "11:30 AM",
+          "end": "1:00 PM",
           "item": {
-            "id": "dc-capitol-tour",
-            "title": "U.S. Capitol guided tour",
+            "id": "washington-dc-nmaahc",
+            "title": "National Museum of African American History & Culture",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "NMAAHC",
+              "address": "1400 Constitution Ave NW, Washington, DC",
+              "lat": 38.8911,
+              "lng": -77.0325,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=NMAAHC"
+            },
+            "blurb": "The Smithsonian's most sought-after museum — start in the history galleries below ground and work up. Free timed passes recommended."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "washington-dc-american-history",
+            "title": "National Museum of American History",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "National Museum of American History",
+              "address": "1300 Constitution Ave NW, Washington, DC",
+              "lat": 38.8911,
+              "lng": -77.03,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=National%20Museum%20of%20American%20History"
+            },
+            "blurb": "The original Star-Spangled Banner, the First Ladies' gowns, and Americana."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 140,
+      "label": "Day 140 — Capitol Hill",
+      "type": "active",
+      "summary": "The seat of government and the founding documents.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "washington-dc-capitol",
+            "title": "U.S. Capitol & Library of Congress",
             "categoryId": "guided-tours",
             "tier": "anchor",
-            "durationMins": 120,
+            "durationMins": 180,
             "location": {
               "name": "U.S. Capitol Visitor Center",
               "address": "First St NE, Washington, DC",
@@ -94,18 +165,17 @@
               "lng": -77.0091,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=U.S.%20Capitol%20Visitor%20Center"
             },
-            "blurb": "Book the free tour ahead through the Visitor Center for the Rotunda and Statuary Hall."
+            "blurb": "Tour the Rotunda and Statuary Hall (book ahead), then the breathtaking Library of Congress and the Supreme Court across the street."
           }
         },
         {
-          "start": "1:00 PM",
-          "end": "2:00 PM",
+          "start": "2:00 PM",
           "item": {
-            "id": "dc-national-archives",
+            "id": "washington-dc-archives",
             "title": "The National Archives",
             "categoryId": "museums-history",
             "tier": "mid",
-            "durationMins": 60,
+            "durationMins": 75,
             "location": {
               "name": "National Archives Museum",
               "address": "701 Constitution Ave NW, Washington, DC",
@@ -119,20 +189,117 @@
       ]
     },
     {
-      "dayNumber": 142,
-      "label": "Day 142 — Arlington & NMAAHC",
+      "dayNumber": 141,
+      "label": "Day 141 — The White House & Ford's Theatre",
       "type": "active",
-      "summary": "A somber morning across the river, an essential museum after.",
+      "summary": "The people's house and a night in 1865.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "11:30 AM",
+          "item": {
+            "id": "washington-dc-white-house",
+            "title": "The White House & Lafayette Square",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "The White House",
+              "address": "1600 Pennsylvania Ave NW, Washington, DC",
+              "lat": 38.8977,
+              "lng": -77.0365,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20White%20House"
+            },
+            "blurb": "View the executive mansion from the fence (tours require advance request through your representative), plus the Ellipse and Lafayette Square."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "washington-dc-fords-theatre",
+            "title": "Ford's Theatre",
+            "categoryId": "somber-sites",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Ford's Theatre",
+              "address": "511 10th St NW, Washington, DC",
+              "lat": 38.8969,
+              "lng": -77.0257,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Ford%27s%20Theatre"
+            },
+            "blurb": "Where Lincoln was assassinated, with the museum and the Petersen House where he died across the street."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 142,
+      "label": "Day 142 — Free Day",
+      "type": "free",
+      "summary": "So many museums, so pick a favorite — or just rest. Options below.",
+      "freeMenu": [
+        {
+          "id": "washington-dc-national-gallery",
+          "title": "National Gallery of Art",
+          "categoryId": "museums-history",
+          "tier": "mid",
+          "durationMins": 180,
+          "location": {
+            "name": "National Gallery of Art",
+            "address": "Constitution Ave NW, Washington, DC",
+            "lat": 38.8913,
+            "lng": -77.02,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=National%20Gallery%20of%20Art"
+          },
+          "blurb": "The only Leonardo in the Americas, plus a vast free collection and a sculpture garden."
+        },
+        {
+          "id": "washington-dc-spy-museum",
+          "title": "International Spy Museum",
+          "categoryId": "museums-history",
+          "tier": "low",
+          "durationMins": 120,
+          "location": {
+            "name": "International Spy Museum",
+            "address": "700 L'Enfant Plaza SW, Washington, DC",
+            "lat": 38.8845,
+            "lng": -77.0255,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=International%20Spy%20Museum"
+          },
+          "blurb": "Real tradecraft, gadgets, and Cold War history."
+        },
+        {
+          "id": "washington-dc-national-zoo",
+          "title": "Smithsonian National Zoo",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 150,
+          "location": {
+            "name": "Smithsonian National Zoo",
+            "address": "3001 Connecticut Ave NW, Washington, DC",
+            "lat": 38.9296,
+            "lng": -77.0497,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Smithsonian%20National%20Zoo"
+          },
+          "blurb": "Free, and home to giant pandas."
+        }
+      ]
+    },
+    {
+      "dayNumber": 143,
+      "label": "Day 143 — Arlington",
+      "type": "active",
+      "summary": "A somber morning across the river.",
       "blocks": [
         {
           "start": "9:00 AM",
-          "end": "11:30 AM",
           "item": {
-            "id": "dc-arlington",
+            "id": "washington-dc-arlington",
             "title": "Arlington National Cemetery",
             "categoryId": "somber-sites",
             "tier": "anchor",
-            "durationMins": 150,
+            "durationMins": 180,
             "location": {
               "name": "Arlington National Cemetery",
               "address": "Arlington, VA",
@@ -140,67 +307,69 @@
               "lng": -77.0687,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Arlington%20National%20Cemetery"
             },
-            "blurb": "The changing of the guard at the Tomb of the Unknown Soldier, JFK's eternal flame, and rows of white headstones."
-          }
-        },
-        {
-          "start": "1:00 PM",
-          "end": "4:30 PM",
-          "item": {
-            "id": "dc-nmaahc",
-            "title": "National Museum of African American History & Culture",
-            "categoryId": "somber-sites",
-            "tier": "anchor",
-            "durationMins": 210,
-            "location": {
-              "name": "National Museum of African American History and Culture",
-              "address": "1400 Constitution Ave NW, Washington, DC",
-              "lat": 38.8911,
-              "lng": -77.0325,
-              "mapLink": "https://www.google.com/maps/search/?api=1&query=National%20Museum%20of%20African%20American%20History%20and%20Culture"
-            },
-            "blurb": "The Smithsonian's most sought-after museum — start in the history galleries below ground and work up. Free timed passes recommended."
+            "blurb": "The changing of the guard at the Tomb of the Unknown Soldier, JFK's eternal flame, and the Marine Corps (Iwo Jima) Memorial nearby.",
+            "gear": [
+              "walking shoes"
+            ]
           }
         }
       ]
     },
     {
-      "dayNumber": 143,
-      "label": "Day 143 — Free Day / Northeast wrap",
-      "type": "free",
-      "summary": "Rest and reset before the loop turns south into the Carolinas. Optional ideas below.",
-      "freeMenu": [
+      "dayNumber": 144,
+      "label": "Day 144 — Georgetown & the Tidal Basin",
+      "type": "active",
+      "summary": "A gentler last day in the capital.",
+      "blocks": [
         {
-          "id": "dc-tidal-basin",
-          "title": "Tidal Basin & Jefferson Memorial",
-          "categoryId": "landmarks",
-          "tier": "low",
-          "durationMins": 90,
-          "location": {
-            "name": "Jefferson Memorial",
-            "address": "16 E Basin Dr SW, Washington, DC",
-            "lat": 38.8814,
-            "lng": -77.0365,
-            "mapLink": "https://www.google.com/maps/search/?api=1&query=Jefferson%20Memorial"
-          },
-          "blurb": "A quiet loop around the water (spectacular if the loop ever lands you here in cherry-blossom season)."
+          "start": "10:00 AM",
+          "item": {
+            "id": "washington-dc-tidal-basin",
+            "title": "Tidal Basin: Jefferson & FDR Memorials",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Jefferson Memorial",
+              "address": "16 E Basin Dr SW, Washington, DC",
+              "lat": 38.8814,
+              "lng": -77.0365,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Jefferson%20Memorial"
+            },
+            "blurb": "A loop around the water past the Jefferson, FDR, and MLK memorials (cherry blossoms if the timing ever lands here in spring)."
+          }
         },
         {
-          "id": "dc-georgetown",
-          "title": "Wander Georgetown",
-          "categoryId": "shopping",
-          "tier": "low",
-          "durationMins": 120,
-          "location": {
-            "name": "Georgetown",
-            "address": "M St NW, Washington, DC",
-            "lat": 38.9048,
-            "lng": -77.0625,
-            "mapLink": "https://www.google.com/maps/search/?api=1&query=Georgetown"
-          },
-          "blurb": "Historic cobblestone shopping district along the C&O Canal and waterfront."
+          "start": "1:30 PM",
+          "item": {
+            "id": "washington-dc-georgetown",
+            "title": "Georgetown & Ben's Chili Bowl",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Georgetown",
+              "address": "M St NW, Washington, DC",
+              "lat": 38.9048,
+              "lng": -77.0625,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Georgetown"
+            },
+            "blurb": "Cobblestone shopping along the C&O Canal, then a half-smoke at Ben's Chili Bowl on U Street."
+          }
         }
       ]
+    },
+    {
+      "dayNumber": 145,
+      "label": "Day 145 — South into Virginia",
+      "type": "commute",
+      "summary": "Leave the capital and turn south — the East Coast leg is done.",
+      "commute": {
+        "from": "Washington, DC",
+        "to": "Shenandoah National Park, VA",
+        "driveTimeMins": 90,
+        "scenicNote": "West and south into the Blue Ridge as the trip turns toward the Carolinas."
+      }
     }
   ]
 }

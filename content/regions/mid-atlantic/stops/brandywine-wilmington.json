@@ -1,0 +1,128 @@
+{
+  "id": "brandywine-wilmington",
+  "name": "Brandywine Valley & Wilmington",
+  "state": "DE",
+  "country": "US",
+  "order": 13,
+  "location": {
+    "lat": 39.796,
+    "lng": -75.6
+  },
+  "summary": "The du Pont dynasty's green corner of Delaware — grand estates, one of the world's great gardens, and Wyeth country along the Brandywine.",
+  "lodging": [
+    {
+      "name": "A Brandywine Valley inn",
+      "blurb": "Country inns among the estates north of Wilmington.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Brandywine%20Valley%20inn%20Delaware"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Tax-free everything",
+      "blurb": "Delaware has no sales tax — a running theme in the First State."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 118,
+      "label": "Day 118 — The du Pont estates",
+      "type": "active",
+      "summary": "Gunpowder fortunes turned into mansions and gardens.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "brandywine-wilmington-winterthur",
+            "title": "Winterthur Museum & Gardens",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Winterthur Museum, Garden & Library",
+              "address": "5105 Kennett Pike, Winterthur, DE",
+              "lat": 39.806,
+              "lng": -75.596,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Winterthur%20Museum%2C%20Garden%20%26%20Library"
+            },
+            "blurb": "Henry Francis du Pont's 175-room house, filled with the country's premier Americana collection, in 1,000 acres of gardens."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "brandywine-wilmington-hagley",
+            "title": "Hagley Museum",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Hagley Museum and Library",
+              "address": "200 Hagley Creek Rd, Wilmington, DE",
+              "lat": 39.766,
+              "lng": -75.594,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Hagley%20Museum%20and%20Library"
+            },
+            "blurb": "The original du Pont black-powder mills on the Brandywine — where the whole dynasty (and DuPont) began."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 119,
+      "label": "Day 119 — Longwood & the riverfront",
+      "type": "active",
+      "summary": "One of the world's great gardens and Wilmington's revived waterfront.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "brandywine-wilmington-longwood",
+            "title": "Longwood Gardens",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Longwood Gardens",
+              "address": "1001 Longwood Rd, Kennett Square, PA",
+              "lat": 39.871,
+              "lng": -75.674,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Longwood%20Gardens"
+            },
+            "blurb": "Pierre du Pont's spectacular 1,100-acre gardens and conservatory, just over the Pennsylvania line — fountains, forests, and glasshouses."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "brandywine-wilmington-riverfront",
+            "title": "Wilmington Riverfront & Delaware Art Museum",
+            "categoryId": "museums-history",
+            "tier": "low",
+            "durationMins": 120,
+            "location": {
+              "name": "Delaware Art Museum",
+              "address": "2301 Kentmere Pkwy, Wilmington, DE",
+              "lat": 39.762,
+              "lng": -75.568,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Delaware%20Art%20Museum"
+            },
+            "blurb": "The riverwalk and a strong collection of Pre-Raphaelite and American illustration art (Howard Pyle)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 120,
+      "label": "Day 120 — South to Dover",
+      "type": "commute",
+      "summary": "Down the state to the capital.",
+      "commute": {
+        "from": "Wilmington, DE",
+        "to": "Dover, DE",
+        "driveTimeMins": 55,
+        "scenicNote": "South down Delaware into the flat farm country around the capital."
+      }
+    }
+  ]
+}
