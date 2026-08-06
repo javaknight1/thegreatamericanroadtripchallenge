@@ -7,8 +7,9 @@ is the list to work from once the loop is fully written.
 Rob's standing instruction: add suggestions here as they come up, without asking
 first. Items are only removed when they're resolved or explicitly dropped.
 
-Last updated at **208 stops · 621 days · 706 items · 40 states** — twelve legs of
-fourteen complete, days 1–621 contiguous, entering the Midwest.
+Last updated at **214 stops · 635 days · 718 items · 41 states** — twelve legs
+complete plus the Upper Midwest in progress (6 of its 31 stops), days 1–635
+contiguous.
 
 ---
 
@@ -276,6 +277,19 @@ order I'd pick them:
    home page showing `skiing: 1` is honest. But it will read as an oversight to
    anyone scanning the category list, not as an editorial choice.
 
+### The Upper Midwest is a 31-stop leg, and the free-day pattern hasn't started
+
+At 31 stops it is **the largest leg in the manifest** — more than twice the
+average — and it carries seven of the eight remaining capitals. The six stops
+written so far (Missouri, days 622–635) contain **zero free days**, which is
+early enough not to mean much on its own, but it continues an unbroken pattern:
+no leg has yet opened with rest built in.
+
+Worth watching as it fills. A leg this size at the current rate (~5%) would land
+around three or four free days across roughly 70–80 days of content. Given it
+follows the Great Plains' 31-day dry run, the seam between the two legs is where
+a reader would feel it most.
+
 ## 8. Ideas, not problems
 
 - **Day 365 is a milestone the site doesn't mark.** One year on the road lands
@@ -289,12 +303,14 @@ order I'd pick them:
 
 ## 9. Where the trip stands
 
-Written: legs 1–12 complete — days 1–621, at the Missouri line.
-Remaining: Upper Midwest & Great Lakes, Appalachia Return — 42 of 250 stops.
+Written: legs 1–12 complete, plus the Upper Midwest through Hannibal — days
+1–635. Remaining: the rest of the Upper Midwest & Great Lakes (25 stops — by far
+the biggest leg in the trip), and the Appalachia Return — 36 of 250 stops.
 
-Capitals: **40 of 48 capital cities written** — Lincoln (day 609) and Topeka (day
-620) join. Eight left: Springfield, Indianapolis, Des Moines, Lansing, Saint
-Paul, Jefferson City, Columbus, Madison — all in the two remaining legs.
+Capitals: **41 of 48 capital cities written** — Jefferson City lands on day 629.
+Seven left: Springfield, Indianapolis, Des Moines, Lansing, Saint Paul, Columbus,
+Madison — all in the Upper Midwest leg, which the manifest says still has 25
+stops to go.
 
 **The capitals check can produce false positives.** `scripts/dev/audit.ts`
 matches a capital by testing whether any stop name *contains* the city name, so

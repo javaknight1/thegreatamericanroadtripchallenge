@@ -1,0 +1,128 @@
+{
+  "id": "kansas-city",
+  "name": "Kansas City",
+  "state": "MO",
+  "country": "US",
+  "order": 1,
+  "location": {
+    "lat": 39.0997,
+    "lng": -94.5786
+  },
+  "summary": "A city of barbecue, jazz, and fountains — legendary smoked meats, the birthplace of a jazz style, and two of the country's best museums.",
+  "lodging": [
+    {
+      "name": "A Country Club Plaza or downtown hotel",
+      "blurb": "Near the Plaza's shops or the Power & Light District.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Country%20Club%20Plaza%20Kansas%20City%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Burnt ends & ribs",
+      "blurb": "KC barbecue — Arthur Bryant's, Gates, Joe's, take your pick."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 622,
+      "label": "Day 622 — BBQ & Jazz",
+      "type": "active",
+      "summary": "Smoke, the Plaza, and 18th & Vine.",
+      "blocks": [
+        {
+          "start": "11:30 AM",
+          "item": {
+            "id": "kansas-city-bbq-plaza",
+            "title": "KC barbecue & Country Club Plaza",
+            "categoryId": "food-drink",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Country Club Plaza",
+              "address": "4750 Broadway Blvd, Kansas City, MO",
+              "lat": 39.043,
+              "lng": -94.591,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Country%20Club%20Plaza"
+            },
+            "blurb": "A barbecue lunch, then the Spanish-style shops and fountains of the Country Club Plaza."
+          }
+        },
+        {
+          "start": "3:00 PM",
+          "item": {
+            "id": "kansas-city-jazz",
+            "title": "18th & Vine Jazz District",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "American Jazz Museum",
+              "address": "1616 E 18th St, Kansas City, MO",
+              "lat": 39.091,
+              "lng": -94.557,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=American%20Jazz%20Museum"
+            },
+            "blurb": "The American Jazz Museum and the Negro Leagues Baseball Museum in the historic heart of KC jazz."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 623,
+      "label": "Day 623 — Museums",
+      "type": "active",
+      "summary": "Art and the Great War.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "kansas-city-nelson-atkins",
+            "title": "The Nelson-Atkins Museum of Art",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Nelson-Atkins Museum of Art",
+              "address": "4525 Oak St, Kansas City, MO",
+              "lat": 39.045,
+              "lng": -94.581,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Nelson-Atkins%20Museum%20of%20Art"
+            },
+            "blurb": "A superb (free) art museum with the giant shuttlecocks on the lawn."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "kansas-city-wwi",
+            "title": "National WWI Museum & Memorial",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "National WWI Museum and Memorial",
+              "address": "2 Memorial Dr, Kansas City, MO",
+              "lat": 39.0813,
+              "lng": -94.5851,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=National%20WWI%20Museum%20and%20Memorial"
+            },
+            "blurb": "The nation's official World War I museum, beneath the Liberty Memorial tower."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 624,
+      "label": "Day 624 — East to Independence",
+      "type": "commute",
+      "summary": "To Truman's town.",
+      "commute": {
+        "from": "Kansas City, MO",
+        "to": "Independence, MO",
+        "driveTimeMins": 30,
+        "scenicNote": "A short hop east to Independence."
+      }
+    }
+  ]
+}

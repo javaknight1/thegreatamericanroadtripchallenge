@@ -1,0 +1,83 @@
+{
+  "id": "branson",
+  "name": "Branson",
+  "state": "MO",
+  "country": "US",
+  "order": 3,
+  "location": {
+    "lat": 36.6437,
+    "lng": -93.2185
+  },
+  "summary": "The live-entertainment capital of the Ozarks — dozens of theaters, an old-time theme park, and a lake in the hills.",
+  "lodging": [
+    {
+      "name": "A Branson Strip hotel",
+      "blurb": "Near the theaters and Table Rock Lake.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Branson%20Missouri%20Strip%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "An Ozark country dinner",
+      "blurb": "Fried chicken and family-style sides."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 627,
+      "label": "Day 627 — Shows & Silver Dollar City",
+      "type": "active",
+      "summary": "Music, rides, and the lake.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "branson-silver-dollar-city",
+            "title": "Silver Dollar City",
+            "categoryId": "theme-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Silver Dollar City",
+              "address": "399 Silver Dollar City Pkwy, Branson, MO",
+              "lat": 36.668,
+              "lng": -93.339,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Silver%20Dollar%20City"
+            },
+            "blurb": "The 1880s-themed amusement park of coasters and crafts in the Ozark hills."
+          }
+        },
+        {
+          "start": "7:30 PM",
+          "item": {
+            "id": "branson-show",
+            "title": "A Branson show",
+            "categoryId": "concerts-venues",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Branson Strip",
+              "address": "W 76 Country Blvd, Branson, MO",
+              "lat": 36.6437,
+              "lng": -93.2185,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Branson%20Strip"
+            },
+            "blurb": "Pick from dozens of music and variety theaters along the Strip."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 628,
+      "label": "Day 628 — Northeast to the capital",
+      "type": "commute",
+      "summary": "To Jefferson City.",
+      "commute": {
+        "from": "Branson, MO",
+        "to": "Jefferson City, MO",
+        "driveTimeMins": 180,
+        "scenicNote": "Northeast to the state capital."
+      }
+    }
+  ]
+}

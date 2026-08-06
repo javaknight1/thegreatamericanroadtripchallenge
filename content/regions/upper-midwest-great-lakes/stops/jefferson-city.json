@@ -1,0 +1,65 @@
+{
+  "id": "jefferson-city",
+  "name": "Jefferson City",
+  "state": "MO",
+  "country": "US",
+  "order": 4,
+  "location": {
+    "lat": 38.5767,
+    "lng": -92.1735
+  },
+  "summary": "Missouri's capital on a bluff above the Missouri River, with a statehouse full of Thomas Hart Benton's murals.",
+  "lodging": [
+    {
+      "name": "A Jefferson City hotel",
+      "blurb": "Near the Capitol.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Jefferson%20City%20Missouri%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Missouri barbecue & a local brew",
+      "blurb": "River-town fare."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 629,
+      "label": "Day 629 — The Capitol",
+      "type": "active",
+      "summary": "Murals above the river.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "jefferson-city-capitol",
+            "title": "Missouri State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Missouri State Capitol",
+              "address": "201 W Capitol Ave, Jefferson City, MO",
+              "lat": 38.579,
+              "lng": -92.173,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Missouri%20State%20Capitol"
+            },
+            "blurb": "The domed capitol above the Missouri, home to Thomas Hart Benton's sweeping social-history mural."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 630,
+      "label": "Day 630 — East to St. Louis",
+      "type": "commute",
+      "summary": "To the Gateway Arch.",
+      "commute": {
+        "from": "Jefferson City, MO",
+        "to": "St. Louis, MO",
+        "driveTimeMins": 120,
+        "scenicNote": "East along the river to St. Louis."
+      }
+    }
+  ]
+}

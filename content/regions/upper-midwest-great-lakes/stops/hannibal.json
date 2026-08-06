@@ -1,0 +1,65 @@
+{
+  "id": "hannibal",
+  "name": "Hannibal",
+  "state": "MO",
+  "country": "US",
+  "order": 6,
+  "location": {
+    "lat": 39.7084,
+    "lng": -91.3585
+  },
+  "summary": "Mark Twain's boyhood town on the Mississippi — the whitewashed fence, the cave, and the river that shaped Tom Sawyer and Huck Finn.",
+  "lodging": [
+    {
+      "name": "A historic Hannibal inn",
+      "blurb": "In the riverfront old town.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Hannibal%20Missouri%20historic%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A riverboat dinner",
+      "blurb": "On (or beside) the Mississippi."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 634,
+      "label": "Day 634 — Tom & Huck",
+      "type": "active",
+      "summary": "The whitewashed fence and the cave.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "hannibal-twain",
+            "title": "Mark Twain Boyhood Home & the cave",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Mark Twain Boyhood Home & Museum",
+              "address": "120 N Main St, Hannibal, MO",
+              "lat": 39.71,
+              "lng": -91.358,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mark%20Twain%20Boyhood%20Home%20%26%20Museum"
+            },
+            "blurb": "Twain's boyhood home and the famous fence, plus the Mark Twain Cave from the Tom Sawyer tales."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 635,
+      "label": "Day 635 — North to Iowa",
+      "type": "commute",
+      "summary": "Into the Hawkeye State.",
+      "commute": {
+        "from": "Hannibal, MO",
+        "to": "Des Moines, IA",
+        "driveTimeMins": 210,
+        "scenicNote": "Northwest to Des Moines."
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "independence",
+  "name": "Independence",
+  "state": "MO",
+  "country": "US",
+  "order": 2,
+  "location": {
+    "lat": 39.0911,
+    "lng": -94.4155
+  },
+  "summary": "Harry Truman's hometown and the jumping-off point for the great westward trails.",
+  "lodging": [
+    {
+      "name": "An Independence or KC-area hotel",
+      "blurb": "Close to the Truman sites.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Independence%20Missouri%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Midwestern diner plate",
+      "blurb": "Classic small-town fare on the square."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 625,
+      "label": "Day 625 — Truman & the Trails",
+      "type": "active",
+      "summary": "A president and the pioneers.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "independence-truman",
+            "title": "Harry S. Truman Library & Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Harry S. Truman Library and Museum",
+              "address": "500 W US-24, Independence, MO",
+              "lat": 39.1,
+              "lng": -94.416,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Harry%20S.%20Truman%20Library%20and%20Museum"
+            },
+            "blurb": "The presidential library and home of 'the buck stops here,' plus the National Frontier Trails Museum where the Oregon, California, and Santa Fe Trails began."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 626,
+      "label": "Day 626 — South to Branson",
+      "type": "commute",
+      "summary": "Down into the Ozarks.",
+      "commute": {
+        "from": "Independence, MO",
+        "to": "Branson, MO",
+        "driveTimeMins": 180,
+        "scenicNote": "South to the Ozark show town."
+      }
+    }
+  ]
+}

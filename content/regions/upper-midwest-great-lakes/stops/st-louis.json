@@ -1,0 +1,117 @@
+{
+  "id": "st-louis",
+  "name": "St. Louis",
+  "state": "MO",
+  "country": "US",
+  "order": 5,
+  "location": {
+    "lat": 38.627,
+    "lng": -90.1994
+  },
+  "summary": "The Gateway to the West — the great silver Arch on the Mississippi, a free world's-fair park of museums, and one gloriously mad recycled-materials playground.",
+  "lodging": [
+    {
+      "name": "A downtown or Central West End hotel",
+      "blurb": "Near the Arch or Forest Park.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20St.%20Louis%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Toasted ravioli & gooey butter cake",
+      "blurb": "St. Louis originals — plus a stop on The Hill."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 631,
+      "label": "Day 631 — The Arch",
+      "type": "active",
+      "summary": "To the top of the Gateway.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "st-louis-arch",
+            "title": "Gateway Arch National Park",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Gateway Arch National Park",
+              "address": "St. Louis, MO",
+              "lat": 38.6247,
+              "lng": -90.1848,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Gateway%20Arch%20National%20Park"
+            },
+            "blurb": "Ride the tram to the top of the 630-ft Arch, and see the Old Courthouse of the Dred Scott case below.",
+            "gear": [
+              "closed-toe shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 632,
+      "label": "Day 632 — Forest Park & City Museum",
+      "type": "active",
+      "summary": "World's-fair museums and a mad playground.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "st-louis-forest-park",
+            "title": "Forest Park",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Forest Park",
+              "address": "5595 Grand Dr, St. Louis, MO",
+              "lat": 38.6357,
+              "lng": -90.2846,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Forest%20Park"
+            },
+            "blurb": "The 1904 World's Fair grounds — the (free) Art Museum, Zoo, and Science Center."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "st-louis-city-museum",
+            "title": "The City Museum",
+            "categoryId": "quirky",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "City Museum",
+              "address": "750 N 16th St, St. Louis, MO",
+              "lat": 38.633,
+              "lng": -90.201,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=City%20Museum"
+            },
+            "blurb": "A wild, climbable wonderland built from salvaged industrial parts — slides, caves, a rooftop Ferris wheel.",
+            "gear": [
+              "closed-toe shoes",
+              "clothes you can crawl in"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 633,
+      "label": "Day 633 — North to Hannibal",
+      "type": "commute",
+      "summary": "To Mark Twain's town.",
+      "commute": {
+        "from": "St. Louis, MO",
+        "to": "Hannibal, MO",
+        "driveTimeMins": 120,
+        "scenicNote": "North up the Mississippi to Hannibal."
+      }
+    }
+  ]
+}
