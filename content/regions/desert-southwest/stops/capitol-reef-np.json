@@ -1,0 +1,69 @@
+{
+  "id": "capitol-reef-np",
+  "name": "Capitol Reef National Park",
+  "state": "UT",
+  "country": "US",
+  "order": 14,
+  "location": {
+    "lat": 38.2872,
+    "lng": -111.2615
+  },
+  "summary": "The quietest of Utah's Mighty 5 — a 100-mile wrinkle in the earth, with a pioneer orchard where you can still pick the fruit.",
+  "lodging": [
+    {
+      "name": "A Torrey lodge",
+      "blurb": "Just outside the park's west entrance.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Torrey%20Utah%20lodge%20Capitol%20Reef"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Gifford House fruit pie",
+      "blurb": "Mini pies at the historic Fruita homestead."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 391,
+      "label": "Day 391 — The Waterpocket Fold",
+      "type": "active",
+      "summary": "Orchards, petroglyphs, and a natural bridge.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "capitol-reef-scenic",
+            "title": "Scenic Drive, Fruita orchards & Hickman Bridge",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Capitol Reef National Park",
+              "address": "Torrey, UT",
+              "lat": 38.2872,
+              "lng": -111.2615,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Capitol%20Reef%20National%20Park"
+            },
+            "blurb": "Drive the canyon, pick fruit in the historic Fruita orchards (in season), see the Fremont petroglyphs, and hike to Hickman Bridge.",
+            "gear": [
+              "water",
+              "hiking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 392,
+      "label": "Day 392 — East to Moab",
+      "type": "commute",
+      "summary": "To arch country.",
+      "commute": {
+        "from": "Capitol Reef National Park, UT",
+        "to": "Moab, UT",
+        "driveTimeMins": 140,
+        "scenicNote": "East across the San Rafael Swell to Moab."
+      }
+    }
+  ]
+}

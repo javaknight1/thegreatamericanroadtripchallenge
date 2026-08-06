@@ -1,0 +1,86 @@
+{
+  "id": "flagstaff",
+  "name": "Flagstaff",
+  "state": "AZ",
+  "country": "US",
+  "order": 10,
+  "location": {
+    "lat": 35.1983,
+    "lng": -111.6513
+  },
+  "summary": "A pine-forested mountain town on Route 66 — the observatory where Pluto was found, dark skies, and volcanic and ancient-dwelling monuments nearby.",
+  "lodging": [
+    {
+      "name": "A historic downtown Flagstaff hotel",
+      "blurb": "On Route 66 near the bars and cafés.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Flagstaff%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A craft beer at altitude",
+      "blurb": "Flagstaff's a mountain brewery town at 7,000 ft."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 379,
+      "label": "Day 379 — Route 66 & the Stars",
+      "type": "active",
+      "summary": "Downtown and the observatory.",
+      "blocks": [
+        {
+          "start": "11:00 AM",
+          "item": {
+            "id": "flagstaff-downtown",
+            "title": "Historic downtown & Route 66",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Downtown Flagstaff",
+              "address": "Historic Downtown, Flagstaff, AZ",
+              "lat": 35.1983,
+              "lng": -111.6513,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Downtown%20Flagstaff"
+            },
+            "blurb": "Brick storefronts, the railroad, and the Mother Road through the middle of town."
+          }
+        },
+        {
+          "start": "6:00 PM",
+          "item": {
+            "id": "flagstaff-lowell",
+            "title": "Lowell Observatory",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Lowell Observatory",
+              "address": "1400 W Mars Hill Rd, Flagstaff, AZ",
+              "lat": 35.2027,
+              "lng": -111.6647,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Lowell%20Observatory"
+            },
+            "blurb": "Where Pluto was discovered in 1930 — evening telescope viewing in a certified dark-sky city.",
+            "gear": [
+              "warm layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 380,
+      "label": "Day 380 — South to Sedona",
+      "type": "commute",
+      "summary": "Down into red rock country.",
+      "commute": {
+        "from": "Flagstaff, AZ",
+        "to": "Sedona, AZ",
+        "driveTimeMins": 45,
+        "scenicNote": "South through Oak Creek Canyon to Sedona."
+      }
+    }
+  ]
+}

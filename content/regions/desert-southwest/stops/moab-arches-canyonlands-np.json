@@ -1,0 +1,168 @@
+{
+  "id": "moab-arches-canyonlands-np",
+  "name": "Moab: Arches & Canyonlands",
+  "state": "UT",
+  "country": "US",
+  "order": 15,
+  "location": {
+    "lat": 38.5733,
+    "lng": -109.5498
+  },
+  "summary": "Red-rock adventure capital — two spectacular parks of arches and canyons, the Colorado River, and world-class biking and 4x4 trails.",
+  "lodging": [
+    {
+      "name": "A Moab hotel or river lodge",
+      "blurb": "Central to both parks and the river.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Moab%20Utah%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Post-adventure brewpub fare",
+      "blurb": "Moab's breweries after a dusty day."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 393,
+      "label": "Day 393 — Arches",
+      "type": "active",
+      "summary": "A landscape of stone arches.",
+      "blocks": [
+        {
+          "start": "8:00 AM",
+          "item": {
+            "id": "moab-arches",
+            "title": "Arches National Park",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 360,
+            "location": {
+              "name": "Arches National Park",
+              "address": "Moab, UT",
+              "lat": 38.7331,
+              "lng": -109.5925,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Arches%20National%20Park"
+            },
+            "blurb": "Hike to Delicate Arch (the state icon), the Windows, and Landscape Arch among 2,000 sandstone arches — go early for light and parking.",
+            "gear": [
+              "water",
+              "hiking shoes",
+              "sun protection"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 394,
+      "label": "Day 394 — Canyonlands",
+      "type": "active",
+      "summary": "Canyons to the horizon.",
+      "blocks": [
+        {
+          "start": "6:00 AM",
+          "item": {
+            "id": "moab-canyonlands",
+            "title": "Canyonlands: Island in the Sky & Mesa Arch",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 360,
+            "location": {
+              "name": "Canyonlands National Park",
+              "address": "Moab, UT",
+              "lat": 38.3269,
+              "lng": -109.8783,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Canyonlands%20National%20Park"
+            },
+            "blurb": "Catch sunrise through Mesa Arch, then the vast overlooks at Grand View Point and Green River Overlook.",
+            "gear": [
+              "water",
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 395,
+      "label": "Day 395 — River & Rimrock",
+      "type": "active",
+      "summary": "The Colorado and a famous overlook.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "moab-dead-horse",
+            "title": "Dead Horse Point & a Colorado River trip",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Dead Horse Point State Park",
+              "address": "Moab, UT",
+              "lat": 38.489,
+              "lng": -109.74,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Dead%20Horse%20Point%20State%20Park"
+            },
+            "blurb": "The gooseneck overlook 2,000 ft above the river, then a raft or 4x4 trip (Hell's Revenge) on the Colorado.",
+            "gear": [
+              "water",
+              "sun protection"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 396,
+      "label": "Day 396 — Free Day",
+      "type": "free",
+      "summary": "Mountain bike, revisit an arch, or rest. Options below.",
+      "freeMenu": [
+        {
+          "id": "moab-slickrock",
+          "title": "The Slickrock Bike Trail",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Slickrock Bike Trail",
+            "address": "Sand Flats Rd, Moab, UT",
+            "lat": 38.583,
+            "lng": -109.5,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Slickrock%20Bike%20Trail"
+          },
+          "blurb": "The legendary petrified-dune mountain-bike trail (or an easier one nearby)."
+        },
+        {
+          "id": "moab-delicate-arch-sunset",
+          "title": "Delicate Arch at sunset",
+          "categoryId": "national-parks",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Delicate Arch",
+            "address": "Arches National Park, UT",
+            "lat": 38.7436,
+            "lng": -109.4993,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Delicate%20Arch"
+          },
+          "blurb": "Return for the glowing golden-hour view."
+        }
+      ]
+    },
+    {
+      "dayNumber": 397,
+      "label": "Day 397 — Northwest to Salt Lake",
+      "type": "commute",
+      "summary": "Up to the capital.",
+      "commute": {
+        "from": "Moab, UT",
+        "to": "Salt Lake City, UT",
+        "driveTimeMins": 210,
+        "scenicNote": "Northwest along the mountains to Salt Lake City."
+      }
+    }
+  ]
+}

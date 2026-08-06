@@ -1,0 +1,100 @@
+{
+  "id": "carlsbad-caverns-white-sands",
+  "name": "Carlsbad Caverns & White Sands",
+  "state": "NM",
+  "country": "US",
+  "order": 1,
+  "location": {
+    "lat": 32.1479,
+    "lng": -104.5567
+  },
+  "summary": "Two surreal New Mexico landscapes — a vast underground cavern of the bats, and the world's largest field of pure-white gypsum dunes.",
+  "lodging": [
+    {
+      "name": "A Carlsbad, then Alamogordo motel",
+      "blurb": "Split the stay to cut the drive between the two parks.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Carlsbad%20New%20Mexico%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "New Mexico green chile",
+      "blurb": "On everything — 'red or green?' is the state question."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 355,
+      "label": "Day 355 — Carlsbad Caverns",
+      "type": "active",
+      "summary": "Descend into the underworld.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "carlsbad-caverns",
+            "title": "Carlsbad Caverns National Park",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Carlsbad Caverns National Park",
+              "address": "727 Carlsbad Caverns Hwy, Carlsbad, NM",
+              "lat": 32.1479,
+              "lng": -104.5567,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Carlsbad%20Caverns%20National%20Park"
+            },
+            "blurb": "Walk in through the natural entrance to the immense Big Room, 750 ft down — and, in summer, watch the evening bat flight.",
+            "gear": [
+              "a light layer",
+              "walking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 356,
+      "label": "Day 356 — White Sands",
+      "type": "active",
+      "summary": "Sled the gypsum dunes.",
+      "blocks": [
+        {
+          "start": "11:00 AM",
+          "item": {
+            "id": "carlsbad-white-sands",
+            "title": "White Sands National Park",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "White Sands National Park",
+              "address": "19955 US-70, Alamogordo, NM",
+              "lat": 32.7872,
+              "lng": -106.3257,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=White%20Sands%20National%20Park"
+            },
+            "blurb": "275 square miles of blinding-white gypsum dunes — hike them, and sled the slopes on a waxed disc.",
+            "gear": [
+              "sled",
+              "sun protection",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 357,
+      "label": "Day 357 — North to Roswell",
+      "type": "commute",
+      "summary": "Up to alien country.",
+      "commute": {
+        "from": "Alamogordo, NM",
+        "to": "Roswell, NM",
+        "driveTimeMins": 120,
+        "scenicNote": "Northeast to Roswell."
+      }
+    }
+  ]
+}

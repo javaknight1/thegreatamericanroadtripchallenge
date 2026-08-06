@@ -1,0 +1,83 @@
+{
+  "id": "bisbee-tombstone",
+  "name": "Bisbee & Tombstone",
+  "state": "AZ",
+  "country": "US",
+  "order": 20,
+  "location": {
+    "lat": 31.4482,
+    "lng": -109.9284
+  },
+  "summary": "The Old West, real and reenacted — Tombstone's O.K. Corral, and the copper-boom-turned-artist-colony of Bisbee tumbling down its canyon.",
+  "lodging": [
+    {
+      "name": "A historic Bisbee hotel",
+      "blurb": "The Copper Queen or a quirky canyon inn.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Bisbee%20Arizona%20historic%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Southwestern fare in an old saloon",
+      "blurb": "Bisbee's arty cafés and Tombstone's steakhouses."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 413,
+      "label": "Day 413 — Gunfights & Copper",
+      "type": "active",
+      "summary": "The Old West and a mine.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "bisbee-tombstone-ok-corral",
+            "title": "Tombstone & the O.K. Corral",
+            "categoryId": "quirky",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "O.K. Corral",
+              "address": "326 E Allen St, Tombstone, AZ",
+              "lat": 31.713,
+              "lng": -110.067,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=O.K.%20Corral"
+            },
+            "blurb": "'The Town Too Tough to Die' — the gunfight reenactment, Boothill Graveyard, and the Bird Cage Theatre."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "bisbee-queen-mine",
+            "title": "Bisbee & the Queen Mine Tour",
+            "categoryId": "guided-tours",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Queen Mine Tour",
+              "address": "478 N Dart Rd, Bisbee, AZ",
+              "lat": 31.44,
+              "lng": -109.918,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Queen%20Mine%20Tour"
+            },
+            "blurb": "Ride into a real copper mine, then the steep, artsy streets of Bisbee."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 414,
+      "label": "Day 414 — Northwest to Tucson",
+      "type": "commute",
+      "summary": "To the saguaros.",
+      "commute": {
+        "from": "Bisbee, AZ",
+        "to": "Tucson, AZ",
+        "driveTimeMins": 90,
+        "scenicNote": "Northwest to Tucson and the giant cacti."
+      }
+    }
+  ]
+}

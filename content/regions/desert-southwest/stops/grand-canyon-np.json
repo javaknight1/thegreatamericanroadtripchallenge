@@ -1,0 +1,138 @@
+{
+  "id": "grand-canyon-np",
+  "name": "Grand Canyon National Park",
+  "state": "AZ",
+  "country": "US",
+  "order": 9,
+  "location": {
+    "lat": 36.0544,
+    "lng": -112.1401
+  },
+  "summary": "The one that needs no introduction — a mile deep, up to 18 miles across, and utterly humbling. Give it real time on the rim and in the canyon.",
+  "lodging": [
+    {
+      "name": "El Tovar or a South Rim lodge",
+      "blurb": "Sleeping on the rim is worth booking far ahead.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Grand%20Canyon%20South%20Rim%20lodge"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Dinner at El Tovar",
+      "blurb": "The historic 1905 lodge dining room on the rim."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 375,
+      "label": "Day 375 — The South Rim",
+      "type": "active",
+      "summary": "First look over the edge.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "grand-canyon-rim-trail",
+            "title": "South Rim: Mather Point & the Rim Trail",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Grand Canyon South Rim",
+              "address": "Grand Canyon Village, AZ",
+              "lat": 36.0544,
+              "lng": -112.1401,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Grand%20Canyon%20South%20Rim"
+            },
+            "blurb": "Walk the rim from Mather Point past the historic village, then ride out to the Desert View Watchtower at sunset.",
+            "gear": [
+              "layers",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 376,
+      "label": "Day 376 — Into the Canyon",
+      "type": "active",
+      "summary": "Descend below the rim.",
+      "blocks": [
+        {
+          "start": "7:30 AM",
+          "item": {
+            "id": "grand-canyon-bright-angel",
+            "title": "Bright Angel Trail (partway)",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Bright Angel Trailhead",
+              "address": "Grand Canyon Village, AZ",
+              "lat": 36.0575,
+              "lng": -112.1436,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Bright%20Angel%20Trailhead"
+            },
+            "blurb": "Hike down to a turnaround point (1.5-Mile or 3-Mile Resthouse) — remember, going back up takes twice as long.",
+            "gear": [
+              "hiking boots",
+              "lots of water",
+              "salty snacks"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 377,
+      "label": "Day 377 — Free Day",
+      "type": "free",
+      "summary": "A flightseeing tour, more rim, or rest. Options below.",
+      "freeMenu": [
+        {
+          "id": "grand-canyon-helicopter",
+          "title": "A helicopter tour",
+          "categoryId": "guided-tours",
+          "tier": "low",
+          "durationMins": 90,
+          "location": {
+            "name": "Grand Canyon Airport",
+            "address": "Tusayan, AZ",
+            "lat": 35.952,
+            "lng": -112.147,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Grand%20Canyon%20Airport"
+          },
+          "blurb": "An unforgettable aerial view over the canyon."
+        },
+        {
+          "id": "grand-canyon-hermit-road",
+          "title": "Hermit Road at sunset",
+          "categoryId": "national-parks",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Hermit Road",
+            "address": "Grand Canyon Village, AZ",
+            "lat": 36.062,
+            "lng": -112.162,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Hermit%20Road"
+          },
+          "blurb": "Shuttle the west rim road to Hopi Point for the classic sunset."
+        }
+      ]
+    },
+    {
+      "dayNumber": 378,
+      "label": "Day 378 — South to Flagstaff",
+      "type": "commute",
+      "summary": "Down off the plateau.",
+      "commute": {
+        "from": "Grand Canyon National Park, AZ",
+        "to": "Flagstaff, AZ",
+        "driveTimeMins": 90,
+        "scenicNote": "South through the pines to Flagstaff."
+      }
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "phoenix-scottsdale",
+  "name": "Phoenix & Scottsdale",
+  "state": "AZ",
+  "country": "US",
+  "order": 19,
+  "location": {
+    "lat": 33.4484,
+    "lng": -112.074
+  },
+  "summary": "The Valley of the Sun — Arizona's capital, a desert botanical garden, Frank Lloyd Wright's winter home, and Scottsdale's resorts and Old West-chic downtown.",
+  "lodging": [
+    {
+      "name": "A Scottsdale resort",
+      "blurb": "Desert resorts with pools and spas.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Scottsdale%20Arizona%20resort"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Sonoran hot dog",
+      "blurb": "Bacon-wrapped, with beans and salsa — a Phoenix–Tucson specialty."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 409,
+      "label": "Day 409 — Desert Gardens & Camelback",
+      "type": "active",
+      "summary": "Cactus, city, and a climb.",
+      "blocks": [
+        {
+          "start": "8:00 AM",
+          "end": "11:00 AM",
+          "item": {
+            "id": "phoenix-camelback",
+            "title": "Camelback Mountain",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Camelback Mountain",
+              "address": "Echo Canyon Pkwy, Phoenix, AZ",
+              "lat": 33.515,
+              "lng": -111.966,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Camelback%20Mountain"
+            },
+            "blurb": "A steep, iconic summit hike over the city (go early to beat the heat).",
+            "gear": [
+              "lots of water",
+              "early start"
+            ]
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "phoenix-botanical",
+            "title": "Desert Botanical Garden & Old Town Scottsdale",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 180,
+            "location": {
+              "name": "Desert Botanical Garden",
+              "address": "1201 N Galvin Pkwy, Phoenix, AZ",
+              "lat": 33.462,
+              "lng": -111.945,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Desert%20Botanical%20Garden"
+            },
+            "blurb": "50,000 desert plants, then the galleries and patios of Old Town Scottsdale."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 410,
+      "label": "Day 410 — Wright & the Heard",
+      "type": "active",
+      "summary": "Architecture and Native American art.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:00 PM",
+          "item": {
+            "id": "phoenix-taliesin",
+            "title": "Taliesin West",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Taliesin West",
+              "address": "12621 N Frank Lloyd Wright Blvd, Scottsdale, AZ",
+              "lat": 33.606,
+              "lng": -111.845,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Taliesin%20West"
+            },
+            "blurb": "Frank Lloyd Wright's winter home and architecture school, built into the desert."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "phoenix-heard",
+            "title": "The Heard Museum",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Heard Museum",
+              "address": "2301 N Central Ave, Phoenix, AZ",
+              "lat": 33.472,
+              "lng": -112.073,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Heard%20Museum"
+            },
+            "blurb": "One of the finest museums of Native American art and history anywhere."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 411,
+      "label": "Day 411 — Free Day",
+      "type": "free",
+      "summary": "Spring training, instruments, or a spa. Options below.",
+      "freeMenu": [
+        {
+          "id": "phoenix-spring-training",
+          "title": "Cactus League spring training",
+          "categoryId": "sports",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Salt River Fields",
+            "address": "7555 N Pima Rd, Scottsdale, AZ",
+            "lat": 33.538,
+            "lng": -111.882,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Salt%20River%20Fields"
+          },
+          "blurb": "Baseball spring training across the Valley in February–March."
+        },
+        {
+          "id": "phoenix-instrument-museum",
+          "title": "Musical Instrument Museum",
+          "categoryId": "museums-history",
+          "tier": "low",
+          "durationMins": 150,
+          "location": {
+            "name": "Musical Instrument Museum",
+            "address": "4725 E Mayo Blvd, Phoenix, AZ",
+            "lat": 33.664,
+            "lng": -111.945,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Musical%20Instrument%20Museum"
+          },
+          "blurb": "A global collection of instruments you can hear as you go."
+        }
+      ]
+    },
+    {
+      "dayNumber": 412,
+      "label": "Day 412 — Southeast to the Old West",
+      "type": "commute",
+      "summary": "Down to mining and gunfight country.",
+      "commute": {
+        "from": "Phoenix, AZ",
+        "to": "Bisbee, AZ",
+        "driveTimeMins": 180,
+        "scenicNote": "Southeast toward the Mexican border and the Old West."
+      }
+    }
+  ]
+}

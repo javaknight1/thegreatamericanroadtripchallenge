@@ -1,0 +1,117 @@
+{
+  "id": "sedona",
+  "name": "Sedona",
+  "state": "AZ",
+  "country": "US",
+  "order": 11,
+  "location": {
+    "lat": 34.8697,
+    "lng": -111.761
+  },
+  "summary": "Red-rock cathedrals, a chapel built into the cliffs, jeep trails, and famous energy 'vortexes' in a stunning desert setting.",
+  "lodging": [
+    {
+      "name": "A Sedona resort with red-rock views",
+      "blurb": "Wake up to the buttes.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Sedona%20resort%20red%20rock%20view"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Southwestern fine dining",
+      "blurb": "Sedona's food scene matches its views."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 381,
+      "label": "Day 381 — Red Rocks",
+      "type": "active",
+      "summary": "Cathedral Rock and a cliffside chapel.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "sedona-cathedral-rock",
+            "title": "Cathedral Rock & the Chapel of the Holy Cross",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Cathedral Rock",
+              "address": "Cathedral Rock Trail, Sedona, AZ",
+              "lat": 34.82,
+              "lng": -111.793,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Cathedral%20Rock"
+            },
+            "blurb": "Hike toward Cathedral Rock, then visit the chapel built dramatically into the red cliffs.",
+            "gear": [
+              "hiking shoes",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 382,
+      "label": "Day 382 — Jeeps & Canyons",
+      "type": "active",
+      "summary": "Off-road and up the creek.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "sedona-jeep-tour",
+            "title": "A Pink Jeep off-road tour",
+            "categoryId": "guided-tours",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Pink Jeep Tours Sedona",
+              "address": "204 N State Route 89A, Sedona, AZ",
+              "lat": 34.866,
+              "lng": -111.762,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Pink%20Jeep%20Tours%20Sedona"
+            },
+            "blurb": "Bounce over the slickrock (Broken Arrow) for red-rock views you can't drive to."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "sedona-slide-rock",
+            "title": "Slide Rock & Oak Creek Canyon",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Slide Rock State Park",
+              "address": "6871 N Hwy 89A, Sedona, AZ",
+              "lat": 34.943,
+              "lng": -111.753,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Slide%20Rock%20State%20Park"
+            },
+            "blurb": "A natural rock waterslide in the creek, in a gorgeous canyon.",
+            "gear": [
+              "swimsuit",
+              "water shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 383,
+      "label": "Day 383 — Up to Jerome",
+      "type": "commute",
+      "summary": "To the hillside ghost town.",
+      "commute": {
+        "from": "Sedona, AZ",
+        "to": "Jerome, AZ",
+        "driveTimeMins": 50,
+        "scenicNote": "West up Cleopatra Hill to Jerome."
+      }
+    }
+  ]
+}

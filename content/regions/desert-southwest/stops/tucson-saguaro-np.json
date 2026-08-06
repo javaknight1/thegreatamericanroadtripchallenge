@@ -1,0 +1,132 @@
+{
+  "id": "tucson-saguaro-np",
+  "name": "Tucson & Saguaro National Park",
+  "state": "AZ",
+  "country": "US",
+  "order": 21,
+  "location": {
+    "lat": 32.2226,
+    "lng": -110.9747
+  },
+  "summary": "The Sonoran Desert city — forests of giant saguaro, a spectacular desert museum, and a gleaming white Spanish mission. The last stop before California.",
+  "lodging": [
+    {
+      "name": "A Tucson desert resort or downtown hotel",
+      "blurb": "Near the saguaros and the historic barrio.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Tucson%20Arizona%20resort"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Sonoran hot dog & a chimichanga",
+      "blurb": "Tucson is a UNESCO City of Gastronomy — and claims the chimichanga."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 415,
+      "label": "Day 415 — Saguaro & the Desert Museum",
+      "type": "active",
+      "summary": "Giant cacti and desert life.",
+      "blocks": [
+        {
+          "start": "8:00 AM",
+          "end": "11:00 AM",
+          "item": {
+            "id": "tucson-saguaro",
+            "title": "Saguaro National Park",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Saguaro National Park",
+              "address": "Tucson, AZ",
+              "lat": 32.2967,
+              "lng": -111.1666,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Saguaro%20National%20Park"
+            },
+            "blurb": "Drive and walk among forests of the giant saguaro that symbolize the West — the park flanks the city in two districts.",
+            "gear": [
+              "water",
+              "sun protection"
+            ]
+          }
+        },
+        {
+          "start": "12:30 PM",
+          "item": {
+            "id": "tucson-desert-museum",
+            "title": "Arizona-Sonora Desert Museum",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Arizona-Sonora Desert Museum",
+              "address": "2021 N Kinney Rd, Tucson, AZ",
+              "lat": 32.244,
+              "lng": -111.168,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Arizona-Sonora%20Desert%20Museum"
+            },
+            "blurb": "Part zoo, part botanical garden, part museum — the best introduction to the Sonoran Desert's life."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 416,
+      "label": "Day 416 — The White Dove",
+      "type": "active",
+      "summary": "A Spanish mission and the old city.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "tucson-san-xavier",
+            "title": "Mission San Xavier del Bac",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Mission San Xavier del Bac",
+              "address": "1950 W San Xavier Rd, Tucson, AZ",
+              "lat": 32.107,
+              "lng": -111.008,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mission%20San%20Xavier%20del%20Bac"
+            },
+            "blurb": "The dazzling white 'White Dove of the Desert,' a 1797 Spanish colonial mission still in use."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "tucson-downtown",
+            "title": "Downtown Tucson & Sabino Canyon",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Sabino Canyon",
+              "address": "5900 N Sabino Canyon Rd, Tucson, AZ",
+              "lat": 32.31,
+              "lng": -110.821,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Sabino%20Canyon"
+            },
+            "blurb": "The historic barrio and food scene, plus a tram into cactus-studded Sabino Canyon."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 417,
+      "label": "Day 417 — West to California",
+      "type": "commute",
+      "summary": "Across to San Diego — the Southwest is done.",
+      "commute": {
+        "from": "Tucson, AZ",
+        "to": "San Diego, CA",
+        "driveTimeMins": 330,
+        "scenicNote": "West on I-8 across the desert to the Pacific and California."
+      }
+    }
+  ]
+}

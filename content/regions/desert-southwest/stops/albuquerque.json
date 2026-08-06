@@ -1,0 +1,130 @@
+{
+  "id": "albuquerque",
+  "name": "Albuquerque",
+  "state": "NM",
+  "country": "US",
+  "order": 4,
+  "location": {
+    "lat": 35.0844,
+    "lng": -106.6504
+  },
+  "summary": "New Mexico's biggest city on Route 66 — a historic Old Town, a mile-high tramway, ancient petroglyphs, and hot-air balloons.",
+  "lodging": [
+    {
+      "name": "An Old Town or downtown hotel",
+      "blurb": "Near the plaza and Route 66.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20Town%20Albuquerque%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Carne adovada & sopaipillas",
+      "blurb": "Red-chile pork and honey-drizzled fry bread."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 364,
+      "label": "Day 364 — Old Town & the Tram",
+      "type": "active",
+      "summary": "The plaza and a mile-high ride.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "abq-old-town",
+            "title": "Old Town Albuquerque",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Old Town Albuquerque",
+              "address": "Old Town Plaza, Albuquerque, NM",
+              "lat": 35.097,
+              "lng": -106.67,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20Town%20Albuquerque"
+            },
+            "blurb": "Adobe plaza, San Felipe de Neri church, and Route 66 nostalgia."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "abq-sandia-tram",
+            "title": "Sandia Peak Tramway",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Sandia Peak Tramway",
+              "address": "30 Tramway Rd NE, Albuquerque, NM",
+              "lat": 35.19,
+              "lng": -106.43,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Sandia%20Peak%20Tramway"
+            },
+            "blurb": "One of the world's longest aerial trams, up to a 10,378-ft crest with valley-wide views.",
+            "gear": [
+              "a warm layer"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 365,
+      "label": "Day 365 — Pueblos & Petroglyphs",
+      "type": "active",
+      "summary": "Ancient rock art and native culture.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "abq-petroglyphs",
+            "title": "Petroglyph National Monument",
+            "categoryId": "national-parks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Petroglyph National Monument",
+              "address": "Western Trail NW, Albuquerque, NM",
+              "lat": 35.144,
+              "lng": -106.746,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Petroglyph%20National%20Monument"
+            },
+            "blurb": "Thousands of images carved into volcanic rock centuries ago."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "abq-pueblo-cultural",
+            "title": "Indian Pueblo Cultural Center",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Indian Pueblo Cultural Center",
+              "address": "2401 12th St NW, Albuquerque, NM",
+              "lat": 35.103,
+              "lng": -106.669,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Indian%20Pueblo%20Cultural%20Center"
+            },
+            "blurb": "The story of New Mexico's 19 pueblos, told by the pueblos themselves (Balloon Fiesta if you're here in October)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 366,
+      "label": "Day 366 — West on Route 66",
+      "type": "commute",
+      "summary": "Into Arizona's high desert.",
+      "commute": {
+        "from": "Albuquerque, NM",
+        "to": "Petrified Forest National Park, AZ",
+        "driveTimeMins": 180,
+        "scenicNote": "West on I-40 (old Route 66) into Arizona."
+      }
+    }
+  ]
+}

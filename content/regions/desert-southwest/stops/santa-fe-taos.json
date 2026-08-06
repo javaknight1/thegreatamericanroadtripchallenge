@@ -1,0 +1,154 @@
+{
+  "id": "santa-fe-taos",
+  "name": "Santa Fe & Taos",
+  "state": "NM",
+  "country": "US",
+  "order": 3,
+  "location": {
+    "lat": 35.687,
+    "lng": -105.9378
+  },
+  "summary": "The oldest capital in America — adobe, green chile, and a world-class art scene — plus a thousand-year-old living pueblo and a gorge bridge up in Taos.",
+  "lodging": [
+    {
+      "name": "A Santa Fe adobe hotel near the Plaza",
+      "blurb": "Walkable to the galleries and restaurants.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Santa%20Fe%20Plaza%20adobe%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Green (or red) chile & posole",
+      "blurb": "New Mexican cuisine at its source — order it 'Christmas' for both."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 360,
+      "label": "Day 360 — The Plaza & the Art",
+      "type": "active",
+      "summary": "Adobe, churches, and galleries.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "santa-fe-plaza",
+            "title": "The Plaza & Palace of the Governors",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Santa Fe Plaza",
+              "address": "Santa Fe Plaza, Santa Fe, NM",
+              "lat": 35.687,
+              "lng": -105.9378,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Santa%20Fe%20Plaza"
+            },
+            "blurb": "The 400-year-old plaza, the Palace of the Governors (the oldest public building in the U.S.), and the Loretto Chapel's mysterious staircase."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "santa-fe-okeeffe",
+            "title": "Georgia O'Keeffe Museum & Canyon Road",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Georgia O'Keeffe Museum",
+              "address": "217 Johnson St, Santa Fe, NM",
+              "lat": 35.689,
+              "lng": -105.943,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Georgia%20O%27Keeffe%20Museum"
+            },
+            "blurb": "The world's largest O'Keeffe collection, then the galleries of Canyon Road."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 361,
+      "label": "Day 361 — Meow Wolf & More",
+      "type": "active",
+      "summary": "An immersive art trip.",
+      "blocks": [
+        {
+          "start": "11:00 AM",
+          "item": {
+            "id": "santa-fe-meow-wolf",
+            "title": "Meow Wolf: House of Eternal Return",
+            "categoryId": "quirky",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Meow Wolf Santa Fe",
+              "address": "1352 Rufina Cir, Santa Fe, NM",
+              "lat": 35.66,
+              "lng": -105.973,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Meow%20Wolf%20Santa%20Fe"
+            },
+            "blurb": "A mind-bending immersive art experience you climb through — a surreal, secret-passage universe."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 362,
+      "label": "Day 362 — Taos",
+      "type": "active",
+      "summary": "A living pueblo and a gorge.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "santa-fe-taos-pueblo",
+            "title": "Taos Pueblo",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Taos Pueblo",
+              "address": "120 Veterans Hwy, Taos, NM",
+              "lat": 36.439,
+              "lng": -105.545,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Taos%20Pueblo"
+            },
+            "blurb": "A multi-story adobe village continuously inhabited for over 1,000 years — a UNESCO World Heritage Site."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "santa-fe-taos-gorge",
+            "title": "Rio Grande Gorge Bridge",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Rio Grande Gorge Bridge",
+              "address": "US-64, Taos, NM",
+              "lat": 36.459,
+              "lng": -105.729,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Rio%20Grande%20Gorge%20Bridge"
+            },
+            "blurb": "A dizzying steel bridge 650 ft above the Rio Grande."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 363,
+      "label": "Day 363 — Down to Albuquerque",
+      "type": "commute",
+      "summary": "South to the Duke City.",
+      "commute": {
+        "from": "Santa Fe, NM",
+        "to": "Albuquerque, NM",
+        "driveTimeMins": 60,
+        "scenicNote": "South down to Albuquerque."
+      }
+    }
+  ]
+}

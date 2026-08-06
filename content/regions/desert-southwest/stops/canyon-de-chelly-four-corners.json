@@ -1,0 +1,87 @@
+{
+  "id": "canyon-de-chelly-four-corners",
+  "name": "Canyon de Chelly & Four Corners",
+  "state": "AZ",
+  "country": "US",
+  "order": 6,
+  "location": {
+    "lat": 36.1349,
+    "lng": -109.4695
+  },
+  "summary": "A sacred, still-inhabited Navajo canyon of soaring red walls and ancient cliff dwellings — plus the only spot where four states meet.",
+  "lodging": [
+    {
+      "name": "A Chinle lodge",
+      "blurb": "At the mouth of the canyon on the Navajo Nation.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Chinle%20Arizona%20lodge%20Canyon%20de%20Chelly"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Navajo taco",
+      "blurb": "On fry bread — a Navajo Nation staple."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 369,
+      "label": "Day 369 — Canyon de Chelly & Four Corners",
+      "type": "active",
+      "summary": "A living canyon and a quadripoint.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "canyon-de-chelly-rim",
+            "title": "Canyon de Chelly (rim drives & Spider Rock)",
+            "categoryId": "guided-tours",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Canyon de Chelly National Monument",
+              "address": "Indian Rte 7, Chinle, AZ",
+              "lat": 36.1349,
+              "lng": -109.4695,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Canyon%20de%20Chelly%20National%20Monument"
+            },
+            "blurb": "The rim overlooks to Spider Rock and the White House Ruins — go down into the canyon only with a Navajo guide.",
+            "gear": [
+              "water"
+            ]
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "canyon-four-corners",
+            "title": "Four Corners Monument",
+            "categoryId": "quirky",
+            "tier": "low",
+            "durationMins": 60,
+            "location": {
+              "name": "Four Corners Monument",
+              "address": "US-160, Teec Nos Pos, AZ",
+              "lat": 36.999,
+              "lng": -109.0452,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Four%20Corners%20Monument"
+            },
+            "blurb": "Stand in Arizona, New Mexico, Colorado, and Utah at once — the only quadripoint in the country."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 370,
+      "label": "Day 370 — To Monument Valley",
+      "type": "commute",
+      "summary": "Into the iconic buttes.",
+      "commute": {
+        "from": "Canyon de Chelly, AZ",
+        "to": "Monument Valley, AZ",
+        "driveTimeMins": 120,
+        "scenicNote": "North to the most photographed landscape in the West."
+      }
+    }
+  ]
+}

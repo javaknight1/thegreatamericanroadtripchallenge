@@ -861,6 +861,13 @@
           "plannedDays": 3
         },
         {
+          "id": "petrified-forest-meteor-crater",
+          "order": 8,
+          "name": "Petrified Forest & Meteor Crater",
+          "state": "AZ",
+          "plannedDays": 2
+        },
+        {
           "id": "canyon-de-chelly-four-corners",
           "order": 5,
           "name": "Canyon de Chelly & Four Corners",
@@ -882,11 +889,11 @@
           "plannedDays": 2
         },
         {
-          "id": "petrified-forest-meteor-crater",
-          "order": 8,
-          "name": "Petrified Forest & Meteor Crater",
+          "id": "grand-canyon-np",
+          "order": 10,
+          "name": "Grand Canyon NP",
           "state": "AZ",
-          "plannedDays": 2
+          "plannedDays": 4
         },
         {
           "id": "flagstaff",
@@ -894,13 +901,6 @@
           "name": "Flagstaff",
           "state": "AZ",
           "plannedDays": 2
-        },
-        {
-          "id": "grand-canyon-np",
-          "order": 10,
-          "name": "Grand Canyon NP",
-          "state": "AZ",
-          "plannedDays": 4
         },
         {
           "id": "sedona",
@@ -915,41 +915,6 @@
           "name": "Jerome",
           "state": "AZ",
           "plannedDays": 1
-        },
-        {
-          "id": "phoenix-scottsdale",
-          "order": 13,
-          "name": "Phoenix & Scottsdale",
-          "state": "AZ",
-          "plannedDays": 4
-        },
-        {
-          "id": "tucson-saguaro-np",
-          "order": 14,
-          "name": "Tucson & Saguaro NP",
-          "state": "AZ",
-          "plannedDays": 3
-        },
-        {
-          "id": "bisbee-tombstone",
-          "order": 15,
-          "name": "Bisbee & Tombstone",
-          "state": "AZ",
-          "plannedDays": 2
-        },
-        {
-          "id": "las-vegas",
-          "order": 16,
-          "name": "Las Vegas",
-          "state": "NV",
-          "plannedDays": 5
-        },
-        {
-          "id": "great-basin-np",
-          "order": 17,
-          "name": "Great Basin NP",
-          "state": "NV",
-          "plannedDays": 2
         },
         {
           "id": "zion-bryce-canyon-np",
@@ -978,6 +943,41 @@
           "name": "Salt Lake City & Park City",
           "state": "UT",
           "plannedDays": 4
+        },
+        {
+          "id": "great-basin-np",
+          "order": 17,
+          "name": "Great Basin NP",
+          "state": "NV",
+          "plannedDays": 2
+        },
+        {
+          "id": "las-vegas",
+          "order": 16,
+          "name": "Las Vegas",
+          "state": "NV",
+          "plannedDays": 5
+        },
+        {
+          "id": "phoenix-scottsdale",
+          "order": 13,
+          "name": "Phoenix & Scottsdale",
+          "state": "AZ",
+          "plannedDays": 4
+        },
+        {
+          "id": "bisbee-tombstone",
+          "order": 15,
+          "name": "Bisbee & Tombstone",
+          "state": "AZ",
+          "plannedDays": 2
+        },
+        {
+          "id": "tucson-saguaro-np",
+          "order": 14,
+          "name": "Tucson & Saguaro NP",
+          "state": "AZ",
+          "plannedDays": 3
         }
       ]
     },

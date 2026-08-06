@@ -1,0 +1,69 @@
+{
+  "id": "great-basin-np",
+  "name": "Great Basin National Park",
+  "state": "NV",
+  "country": "US",
+  "order": 17,
+  "location": {
+    "lat": 38.9833,
+    "lng": -114.3
+  },
+  "summary": "One of America's least-visited parks — a 13,000-ft peak, ancient bristlecone pines, a marble cave, and some of the darkest skies on the continent.",
+  "lodging": [
+    {
+      "name": "A Baker, NV inn (or campground)",
+      "blurb": "Tiny gateway town at the park's edge.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Baker%20Nevada%20Great%20Basin%20lodging"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A hearty basin-town meal",
+      "blurb": "Simple fare in remote Baker."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 402,
+      "label": "Day 402 — Caves, Pines & Stars",
+      "type": "active",
+      "summary": "The remote alpine desert.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "great-basin-lehman",
+            "title": "Lehman Caves & Wheeler Peak",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Great Basin National Park",
+              "address": "Baker, NV",
+              "lat": 38.9833,
+              "lng": -114.3,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Great%20Basin%20National%20Park"
+            },
+            "blurb": "Tour the ornate Lehman Caves, drive up toward 13,065-ft Wheeler Peak, and walk to the ancient bristlecone pines — the oldest trees on earth.",
+            "gear": [
+              "warm layers",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 403,
+      "label": "Day 403 — South to Las Vegas",
+      "type": "commute",
+      "summary": "Down the lonely highway to the neon.",
+      "commute": {
+        "from": "Great Basin National Park, NV",
+        "to": "Las Vegas, NV",
+        "driveTimeMins": 240,
+        "scenicNote": "South through the empty basins to Las Vegas."
+      }
+    }
+  ]
+}

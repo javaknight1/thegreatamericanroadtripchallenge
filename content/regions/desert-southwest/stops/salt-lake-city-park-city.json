@@ -1,0 +1,132 @@
+{
+  "id": "salt-lake-city-park-city",
+  "name": "Salt Lake City & Park City",
+  "state": "UT",
+  "country": "US",
+  "order": 16,
+  "location": {
+    "lat": 40.7608,
+    "lng": -111.891
+  },
+  "summary": "Utah's capital between the mountains and the great salt lake — Temple Square and the statehouse, and the Olympic ski town of Park City up the canyon.",
+  "lodging": [
+    {
+      "name": "A downtown SLC hotel",
+      "blurb": "Near Temple Square and transit to Park City.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Salt%20Lake%20City%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Fry sauce & a pastrami burger",
+      "blurb": "Utah's ketchup-mayo staple, and the local Crown Burger classic."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 398,
+      "label": "Day 398 — Temple Square & the Capitol",
+      "type": "active",
+      "summary": "The heart of the city.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "salt-lake-temple-square",
+            "title": "Temple Square & the Utah State Capitol",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Temple Square",
+              "address": "50 N Temple, Salt Lake City, UT",
+              "lat": 40.7707,
+              "lng": -111.8927,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Temple%20Square"
+            },
+            "blurb": "The Salt Lake Temple grounds and the Tabernacle, then the columned Utah State Capitol on the hill above."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 399,
+      "label": "Day 399 — Park City",
+      "type": "active",
+      "summary": "An Olympic mountain town.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "salt-lake-park-city",
+            "title": "Park City Main Street & Olympic Park",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Park City Main Street",
+              "address": "Main St, Park City, UT",
+              "lat": 40.6461,
+              "lng": -111.498,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Park%20City%20Main%20Street"
+            },
+            "blurb": "The historic silver-mining Main Street and the 2002 Winter Olympic park (bobsled rides in season; Sundance in January) — world-class skiing in winter.",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 400,
+      "label": "Day 400 — Free Day",
+      "type": "free",
+      "summary": "The lake, a museum, or the mountains. Options below.",
+      "freeMenu": [
+        {
+          "id": "salt-lake-antelope-island",
+          "title": "Antelope Island & the Great Salt Lake",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 210,
+          "location": {
+            "name": "Antelope Island State Park",
+            "address": "Syracuse, UT",
+            "lat": 41.035,
+            "lng": -112.216,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Antelope%20Island%20State%20Park"
+          },
+          "blurb": "Bison herds and the strange, buoyant salt lake."
+        },
+        {
+          "id": "salt-lake-natural-history",
+          "title": "Natural History Museum of Utah",
+          "categoryId": "museums-history",
+          "tier": "low",
+          "durationMins": 150,
+          "location": {
+            "name": "Natural History Museum of Utah",
+            "address": "301 Wakara Way, Salt Lake City, UT",
+            "lat": 40.764,
+            "lng": -111.824,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Natural%20History%20Museum%20of%20Utah"
+          },
+          "blurb": "A striking museum with a world-class dinosaur collection."
+        }
+      ]
+    },
+    {
+      "dayNumber": 401,
+      "label": "Day 401 — Out to Great Basin",
+      "type": "commute",
+      "summary": "Across the desert to remote Nevada.",
+      "commute": {
+        "from": "Salt Lake City, UT",
+        "to": "Great Basin National Park, NV",
+        "driveTimeMins": 210,
+        "scenicNote": "Southwest across the salt flats and basins to the Nevada line."
+      }
+    }
+  ]
+}

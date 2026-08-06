@@ -1,0 +1,176 @@
+{
+  "id": "las-vegas",
+  "name": "Las Vegas",
+  "state": "NV",
+  "country": "US",
+  "order": 18,
+  "location": {
+    "lat": 36.1699,
+    "lng": -115.1398
+  },
+  "summary": "The neon oasis — the Strip's spectacle, old-school Fremont Street, and the engineering marvel of Hoover Dam nearby. The last big blast before California.",
+  "lodging": [
+    {
+      "name": "A Strip resort",
+      "blurb": "Pick a themed mega-resort on the Strip.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Las%20Vegas%20Strip%20resort"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A celebrity-chef tasting & a buffet",
+      "blurb": "Vegas does both the high end and the legendary buffet."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 404,
+      "label": "Day 404 — The Strip",
+      "type": "active",
+      "summary": "Fountains, volcanoes, and neon.",
+      "blocks": [
+        {
+          "start": "4:00 PM",
+          "item": {
+            "id": "las-vegas-strip",
+            "title": "The Las Vegas Strip",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "The Strip, Las Vegas",
+              "address": "Las Vegas Blvd, Las Vegas, NV",
+              "lat": 36.1147,
+              "lng": -115.1728,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Strip%2C%20Las%20Vegas"
+            },
+            "blurb": "Stroll the mega-resorts — the Bellagio fountains, the canals, the replicas — and the endless casinos."
+          }
+        },
+        {
+          "start": "9:00 PM",
+          "item": {
+            "id": "las-vegas-show",
+            "title": "A Vegas show",
+            "categoryId": "concerts-venues",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Las Vegas Strip venues",
+              "address": "Las Vegas Blvd, Las Vegas, NV",
+              "lat": 36.11,
+              "lng": -115.174,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Las%20Vegas%20Strip%20venues"
+            },
+            "blurb": "Cirque du Soleil, a residency, or a magic act — pick your spectacle."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 405,
+      "label": "Day 405 — Hoover Dam",
+      "type": "active",
+      "summary": "An engineering marvel.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "las-vegas-hoover-dam",
+            "title": "Hoover Dam & Lake Mead",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Hoover Dam",
+              "address": "Hoover Dam Access Rd, Boulder City, NV",
+              "lat": 36.0161,
+              "lng": -114.7377,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Hoover%20Dam"
+            },
+            "blurb": "Tour the massive 1930s dam on the Colorado and the bridge above it, at the edge of Lake Mead.",
+            "gear": [
+              "sun protection"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 406,
+      "label": "Day 406 — Old Vegas",
+      "type": "active",
+      "summary": "The neon of the original downtown.",
+      "blocks": [
+        {
+          "start": "6:00 PM",
+          "item": {
+            "id": "las-vegas-fremont",
+            "title": "Fremont Street & the Neon Museum",
+            "categoryId": "quirky",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Fremont Street Experience",
+              "address": "Fremont St, Las Vegas, NV",
+              "lat": 36.1706,
+              "lng": -115.143,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Fremont%20Street%20Experience"
+            },
+            "blurb": "The canopy light show of old downtown, plus the Neon Museum's 'boneyard' of vintage signs."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 407,
+      "label": "Day 407 — Free Day",
+      "type": "free",
+      "summary": "Red rock, a day trip, or the pool. Options below.",
+      "freeMenu": [
+        {
+          "id": "las-vegas-red-rock",
+          "title": "Red Rock Canyon",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Red Rock Canyon National Conservation Area",
+            "address": "Las Vegas, NV",
+            "lat": 36.135,
+            "lng": -115.427,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Red%20Rock%20Canyon%20National%20Conservation%20Area"
+          },
+          "blurb": "A scenic loop drive and hikes in the red cliffs 30 minutes from the Strip."
+        },
+        {
+          "id": "las-vegas-valley-of-fire",
+          "title": "Valley of Fire State Park",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 240,
+          "location": {
+            "name": "Valley of Fire State Park",
+            "address": "Overton, NV",
+            "lat": 36.479,
+            "lng": -114.515,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Valley%20of%20Fire%20State%20Park"
+          },
+          "blurb": "Flaming-red sandstone formations an hour northeast."
+        }
+      ]
+    },
+    {
+      "dayNumber": 408,
+      "label": "Day 408 — Southeast to Phoenix",
+      "type": "commute",
+      "summary": "Across the desert to the Valley of the Sun.",
+      "commute": {
+        "from": "Las Vegas, NV",
+        "to": "Phoenix, AZ",
+        "driveTimeMins": 300,
+        "scenicNote": "Southeast back into Arizona."
+      }
+    }
+  ]
+}

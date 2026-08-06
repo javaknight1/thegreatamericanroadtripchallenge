@@ -1,0 +1,84 @@
+{
+  "id": "petrified-forest-meteor-crater",
+  "name": "Petrified Forest & Meteor Crater",
+  "state": "AZ",
+  "country": "US",
+  "order": 5,
+  "location": {
+    "lat": 34.91,
+    "lng": -109.8068
+  },
+  "summary": "Route 66 country — a desert of rainbow-hued petrified logs and painted badlands, and a mile-wide crater punched by a meteor.",
+  "lodging": [
+    {
+      "name": "A Holbrook or Winslow Route 66 motel",
+      "blurb": "Classic Mother Road motels (sleep in a Wigwam).",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Holbrook%20Arizona%20Route%2066%20motel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Route 66 diner plate",
+      "blurb": "Roadside Americana along the Mother Road."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 367,
+      "label": "Day 367 — Painted Desert & a Crater",
+      "type": "active",
+      "summary": "Stone logs and a cosmic scar.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "petrified-forest-np",
+            "title": "Petrified Forest National Park",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Petrified Forest National Park",
+              "address": "1 Park Rd, Petrified Forest, AZ",
+              "lat": 34.91,
+              "lng": -109.8068,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Petrified%20Forest%20National%20Park"
+            },
+            "blurb": "The Painted Desert's banded badlands and 200-million-year-old logs turned to rainbow stone, along old Route 66."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "petrified-meteor-crater",
+            "title": "Meteor Crater & Winslow",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Meteor Crater",
+              "address": "Interstate 40, Exit 233, Winslow, AZ",
+              "lat": 35.0278,
+              "lng": -111.0222,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Meteor%20Crater"
+            },
+            "blurb": "A nearly mile-wide impact crater, then a stop 'standin' on a corner in Winslow, Arizona.'"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 368,
+      "label": "Day 368 — North to Navajo country",
+      "type": "commute",
+      "summary": "Up to the canyon of the Navajo.",
+      "commute": {
+        "from": "Winslow, AZ",
+        "to": "Canyon de Chelly, AZ",
+        "driveTimeMins": 150,
+        "scenicNote": "North onto the Navajo Nation."
+      }
+    }
+  ]
+}

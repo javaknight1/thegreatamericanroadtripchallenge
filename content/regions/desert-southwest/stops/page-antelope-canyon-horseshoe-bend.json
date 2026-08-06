@@ -1,0 +1,88 @@
+{
+  "id": "page-antelope-canyon-horseshoe-bend",
+  "name": "Page: Antelope Canyon & Horseshoe Bend",
+  "state": "AZ",
+  "country": "US",
+  "order": 8,
+  "location": {
+    "lat": 36.9147,
+    "lng": -111.4558
+  },
+  "summary": "The most photographed slot canyon on earth and the great sweeping bend of the Colorado, on the shore of Lake Powell.",
+  "lodging": [
+    {
+      "name": "A Page hotel",
+      "blurb": "Near Lake Powell and the canyons.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Page%20Arizona%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Southwest fare with a lake view",
+      "blurb": "After a day in the canyons."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 373,
+      "label": "Day 373 — Slot Canyon & the Bend",
+      "type": "active",
+      "summary": "Light beams and a river bend.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "end": "11:30 AM",
+          "item": {
+            "id": "page-antelope-canyon",
+            "title": "Antelope Canyon",
+            "categoryId": "guided-tours",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Antelope Canyon",
+              "address": "Antelope Canyon, Page, AZ",
+              "lat": 36.8619,
+              "lng": -111.3743,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Antelope%20Canyon"
+            },
+            "blurb": "A Navajo-guided walk through the glowing, wave-like walls of the slot canyon (book well ahead)."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "page-horseshoe-bend",
+            "title": "Horseshoe Bend",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "Horseshoe Bend",
+              "address": "Horseshoe Bend, Page, AZ",
+              "lat": 36.8791,
+              "lng": -111.5104,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Horseshoe%20Bend"
+            },
+            "blurb": "A short walk to the overlook of the Colorado's dramatic 270° bend, 1,000 ft below.",
+            "gear": [
+              "sun protection",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 374,
+      "label": "Day 374 — To the Grand Canyon",
+      "type": "commute",
+      "summary": "Southwest to the big one.",
+      "commute": {
+        "from": "Page, AZ",
+        "to": "Grand Canyon National Park, AZ",
+        "driveTimeMins": 140,
+        "scenicNote": "Southwest to the South Rim."
+      }
+    }
+  ]
+}

@@ -7,9 +7,9 @@ is the list to work from once the loop is fully written.
 Rob's standing instruction: add suggestions here as they come up, without asking
 first. Items are only removed when they're resolved or explicitly dropped.
 
-Last updated at **114 stops · 354 days · 463 items · 25 states** — six legs of
+Last updated at **135 stops · 417 days · 527 items · 29 states** — seven legs of
 fourteen written (New England, Mid-Atlantic, Coastal Southeast, Florida, Deep
-South, Texas & the South Plains), days 1–354 contiguous.
+South, Texas & the South Plains, the Desert Southwest), days 1–417 contiguous.
 
 ---
 
@@ -27,6 +27,7 @@ data doesn't back that up.
 | Florida | 4 / 44 (9%) | 12 days, through day 248 |
 | Deep South | 3 / 67 (4%) | **30 days**, through day 285 |
 | Texas & South Plains | 4 / 39 (10%) | 11 days, through day 354 |
+| Desert Southwest | 6 / 63 (10%) | 22 days, through day 376 |
 
 The Deep South run is the one I'd fix first: **days 256–285** is thirty straight
 days without one, and it covers the heaviest material in the trip — Whitney
@@ -40,8 +41,15 @@ long runs without changing any day numbers.
 
 Also flagged by the audit — 4+ day stops with no breather anywhere in them:
 Portland, Montpelier & Stowe, The Hudson Valley, Baltimore, Williamsburg &
-Virginia Beach, Tampa & St. Petersburg, Memphis, Big Bend & Marfa. Big Bend is
-arguably correct (the days *are* the point); the cities less so.
+Virginia Beach, Tampa & St. Petersburg, Memphis, Big Bend & Marfa, Santa Fe &
+Taos. Big Bend is arguably correct (the days *are* the point); the cities less
+so.
+
+The Southwest's 22-day run (days 355–376) is worth a look for a different
+reason: it ends at the Grand Canyon, and the days leading in are physically
+demanding — White Sands, Canyon de Chelly, Monument Valley, Antelope Canyon,
+then the rim, then Bright Angel. A rest day *before* day 376's descent would
+serve the hike better than the free day that currently lands after it.
 
 ## 2. Stops running under their planned length
 
@@ -72,27 +80,50 @@ Twenty-four days involve 3+ hours behind the wheel. The outliers:
 | day | hours | leg |
 |---|---|---|
 | 346 | **5.5h** Fredericksburg → Big Bend | Texas |
+| 417 | **5.5h** Tucson → San Diego | Southwest → California |
+| 408 | **5.0h** Las Vegas → Phoenix | Southwest |
 | 204 | **5.0h** Atlanta → St. Augustine | Coastal SE → FL |
+| 385 | **4.5h** Jerome → Zion | Southwest |
 | 237 | **4.5h** Key West → Naples | Florida |
-| 195 / 172 / 243 | 4.0h each | Coastal SE, Florida |
 
 Day 346 is authored with Marfa as a stop along the way and Marfa returns as a
 real stop on day 349, so nothing is lost — but 5.5 hours is the longest single
 hop in the trip. Worth deciding whether the Trans-Pecos crossing deserves an
 overnight (Fort Stockton or Alpine) rather than one long push.
 
+The Southwest adds three more. **Day 408, Las Vegas → Phoenix at 5 hours, is the
+one I'd question** — the route goes Utah → Great Basin → Vegas → *back southeast*
+to Phoenix → Bisbee → Tucson → San Diego. Phoenix and Tucson sit below Vegas on
+the way to nothing; the leg backtracks to reach them. An alternative running
+Phoenix/Tucson *before* going north to Utah would cut a long desert leg, but it
+would renumber a lot of days, so it's a question for later, not a defect now.
+
 ## 5. Categories with no content yet
 
-- **`skiing`** — expected. Nothing until the Rockies/Northern Rockies legs. If
-  those legs land and it's still empty, that's a real gap for a trip claiming
-  full coverage.
+- **`skiing`** — still empty at 417 days, and **Park City just went by tagged as
+  `cities`**. That was the natural home for it — a 2002 Olympic town with
+  world-class resorts. The Rockies legs may cover it, but this was the miss.
 - **`festivals`** — used in the Deep South (Mardi Gras, Mobile Carnival) but
-  absent from Mid-Atlantic and Texas.
-- **`quirky`** — only Corvette Museum and the Peabody ducks so far. This is the
-  "roadside oddities" promise in the mission statement and it's underweight.
+  absent from Mid-Atlantic, Texas and the Southwest. Balloon Fiesta is mentioned
+  in an Albuquerque blurb rather than being its own item.
+- **`quirky`** — much better after the Southwest (Roswell, Meow Wolf, Jerome,
+  Four Corners, Fremont Street, Tombstone). No longer a concern.
 - **`commuting` / `free-rest`** — these can never be authored; the renderer
   assigns them to drive and rest blocks. The audit reporting them as "unused" is
   a false positive. **Suggestion:** teach `scripts/dev/audit.ts` to exclude them.
+
+### `capitols` is being under-used
+
+The Desert Southwest visits **three state capitals — Santa Fe, Salt Lake City,
+and Phoenix — and has zero `capitols` items.** Santa Fe's plaza is tagged
+`cities`, Utah's capitol is folded into a `landmarks` item with Temple Square,
+and Arizona's capitol doesn't appear at all. Compare Texas, which gave the Texas
+Capitol its own anchor.
+
+This matters more than a tag: 48 capitals is one of the trip's implicit
+completeness claims, and a "show me every capitol" filter would silently miss
+these. **Suggestion:** when a leg passes through a capital, give the statehouse
+its own `capitols` item even if it shares the day.
 
 ## 6. UI gaps
 
@@ -130,11 +161,22 @@ overnight (Fort Stockton or Alpine) rather than one long push.
   fine today, but as the West fills in it's worth re-checking that all fourteen
   are distinguishable side by side.
 
-## 8. Where the trip stands
+## 8. Ideas, not problems
 
-Written: legs 1–6, days 1–354, through the New Mexico line.
-Remaining: Desert Southwest, California, Pacific Northwest, Northern Rockies,
-Colorado Rockies, Great Plains, Upper Midwest & Great Lakes, Appalachia Return
-— 136 of 250 stops.
+- **Day 365 is a milestone the site doesn't mark.** One year on the road lands
+  in Albuquerque, on a petroglyphs-and-pueblos day. Day 400 (a Salt Lake free
+  day) and day 500 are coming too. A quiet marker on those day pages — "one year
+  in" — would cost almost nothing and is exactly the kind of thing that makes a
+  screenshot. It's also a nice trip-length reality check for a reader.
+- **The national map could show progress as a percentage of the loop**, not just
+  a count of legs. "417 of ~1,600 days" states the scale of the thing better
+  than "7 of 14 legs," which reads as half-done when it isn't.
 
-Capitals: **26 of 48 capital cities written**, 48/48 present in the plan.
+## 9. Where the trip stands
+
+Written: legs 1–7, days 1–417, out to the California line.
+Remaining: California, Pacific Northwest, Northern Rockies, Colorado Rockies,
+Great Plains, Upper Midwest & Great Lakes, Appalachia Return — 115 of 250 stops.
+
+Capitals: **29 of 48 capital cities written**, 48/48 present in the plan.
+(Though see §5 — three of those capitals have no `capitols` item.)

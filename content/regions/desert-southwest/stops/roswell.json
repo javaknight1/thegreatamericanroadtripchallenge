@@ -1,0 +1,65 @@
+{
+  "id": "roswell",
+  "name": "Roswell",
+  "state": "NM",
+  "country": "US",
+  "order": 2,
+  "location": {
+    "lat": 33.3943,
+    "lng": -104.523
+  },
+  "summary": "The little city where something crashed in 1947 — now gloriously, kitschily devoted to aliens.",
+  "lodging": [
+    {
+      "name": "A Roswell motel",
+      "blurb": "Alien-themed, naturally.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Roswell%20New%20Mexico%20motel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A green-chile cheeseburger",
+      "blurb": "A New Mexico staple, alien-branded here."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 358,
+      "label": "Day 358 — Little Green Men",
+      "type": "active",
+      "summary": "Lean into the kitsch.",
+      "blocks": [
+        {
+          "start": "10:30 AM",
+          "item": {
+            "id": "roswell-ufo-museum",
+            "title": "International UFO Museum",
+            "categoryId": "quirky",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "International UFO Museum and Research Center",
+              "address": "114 N Main St, Roswell, NM",
+              "lat": 33.394,
+              "lng": -104.523,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=International%20UFO%20Museum%20and%20Research%20Center"
+            },
+            "blurb": "The famous 1947 'incident,' the conspiracy, and the whole delightfully weird alien downtown (streetlights included)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 359,
+      "label": "Day 359 — North to Santa Fe",
+      "type": "commute",
+      "summary": "Up to the high desert capital.",
+      "commute": {
+        "from": "Roswell, NM",
+        "to": "Santa Fe, NM",
+        "driveTimeMins": 180,
+        "scenicNote": "North into the mountains and the oldest capital in the U.S."
+      }
+    }
+  ]
+}

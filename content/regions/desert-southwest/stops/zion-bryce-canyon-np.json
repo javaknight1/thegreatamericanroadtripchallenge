@@ -1,0 +1,166 @@
+{
+  "id": "zion-bryce-canyon-np",
+  "name": "Zion & Bryce Canyon National Parks",
+  "state": "UT",
+  "country": "US",
+  "order": 13,
+  "location": {
+    "lat": 37.2982,
+    "lng": -113.0263
+  },
+  "summary": "The start of Utah's 'Mighty 5' — Zion's towering red canyon walls and river narrows, and Bryce's otherworldly amphitheater of orange hoodoos.",
+  "lodging": [
+    {
+      "name": "Springdale (Zion) then a Bryce lodge",
+      "blurb": "Springdale is at Zion's gate; a lodge sits near Bryce's rim.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Springdale%20Utah%20hotel%20Zion"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Gifford House pie (later at Capitol Reef)",
+      "blurb": "For now, hearty post-hike fare in Springdale."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 386,
+      "label": "Day 386 — Zion Canyon",
+      "type": "active",
+      "summary": "Up the canyon by shuttle.",
+      "blocks": [
+        {
+          "start": "8:30 AM",
+          "item": {
+            "id": "zion-canyon",
+            "title": "Zion Canyon: Emerald Pools & Riverside Walk",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Zion National Park",
+              "address": "1 Zion Park Blvd, Springdale, UT",
+              "lat": 37.2982,
+              "lng": -113.0263,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Zion%20National%20Park"
+            },
+            "blurb": "Ride the shuttle up the canyon between 2,000-ft walls to the Emerald Pools and the Riverside Walk to the Narrows' mouth.",
+            "gear": [
+              "water",
+              "hiking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 387,
+      "label": "Day 387 — Angels Landing or the Narrows",
+      "type": "active",
+      "summary": "A big Zion adventure.",
+      "blocks": [
+        {
+          "start": "7:30 AM",
+          "item": {
+            "id": "zion-narrows",
+            "title": "The Narrows (or Angels Landing)",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 360,
+            "location": {
+              "name": "The Narrows",
+              "address": "Riverside Walk, Zion National Park, UT",
+              "lat": 37.305,
+              "lng": -112.947,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Narrows"
+            },
+            "blurb": "Wade up the river between the slot-canyon walls of the Narrows — or, with a permit, climb the exposed spine of Angels Landing.",
+            "gear": [
+              "water shoes / rented drysuit",
+              "hiking poles"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 388,
+      "label": "Day 388 — Bryce Amphitheater",
+      "type": "active",
+      "summary": "The hoodoos from the rim.",
+      "blocks": [
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "bryce-rim",
+            "title": "Bryce Canyon rim: Sunrise to Sunset Point",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Bryce Canyon National Park",
+              "address": "Bryce Canyon City, UT",
+              "lat": 37.593,
+              "lng": -112.1871,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Bryce%20Canyon%20National%20Park"
+            },
+            "blurb": "Walk the rim between Sunrise, Sunset, and Inspiration Points above the vast amphitheater of orange spires (a ~1.5-hr drive from Zion).",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 389,
+      "label": "Day 389 — Free / Hoodoo Day",
+      "type": "free",
+      "summary": "Hike down among the hoodoos, or rest. Options below.",
+      "freeMenu": [
+        {
+          "id": "bryce-navajo-loop",
+          "title": "Navajo Loop & Queen's Garden",
+          "categoryId": "national-parks",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Navajo Loop Trail",
+            "address": "Bryce Canyon National Park, UT",
+            "lat": 37.625,
+            "lng": -112.167,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Navajo%20Loop%20Trail"
+          },
+          "blurb": "Descend into the amphitheater on the classic loop past Thor's Hammer and Wall Street."
+        },
+        {
+          "id": "bryce-stargazing",
+          "title": "Bryce stargazing",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 90,
+          "location": {
+            "name": "Bryce Canyon National Park",
+            "address": "Bryce Canyon City, UT",
+            "lat": 37.593,
+            "lng": -112.1871,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Bryce%20Canyon%20National%20Park"
+          },
+          "blurb": "One of the darkest skies in the country — the Milky Way is staggering."
+        }
+      ]
+    },
+    {
+      "dayNumber": 390,
+      "label": "Day 390 — East to Capitol Reef",
+      "type": "commute",
+      "summary": "Along Scenic Byway 12.",
+      "commute": {
+        "from": "Bryce Canyon, UT",
+        "to": "Capitol Reef National Park, UT",
+        "driveTimeMins": 150,
+        "scenicNote": "East on Highway 12 — one of America's most scenic drives."
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "jerome",
+  "name": "Jerome",
+  "state": "AZ",
+  "country": "US",
+  "order": 12,
+  "location": {
+    "lat": 34.7492,
+    "lng": -112.114
+  },
+  "summary": "A copper-boom town that nearly died and came back as an artsy 'ghost town' clinging to a mountainside above the Verde Valley.",
+  "lodging": [
+    {
+      "name": "The Jerome Grand Hotel",
+      "blurb": "A (reputedly haunted) former hospital on the hill.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Jerome%20Grand%20Hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Verde Valley wine",
+      "blurb": "Jerome's tasting rooms pour local vintages."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 384,
+      "label": "Day 384 — The Ghost Town",
+      "type": "active",
+      "summary": "Mining history and mountainside art.",
+      "blocks": [
+        {
+          "start": "10:30 AM",
+          "item": {
+            "id": "jerome-town",
+            "title": "Jerome ghost town",
+            "categoryId": "quirky",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Jerome, AZ",
+              "address": "Main St, Jerome, AZ",
+              "lat": 34.7492,
+              "lng": -112.114,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Jerome%2C%20AZ"
+            },
+            "blurb": "Steep, twisting streets of galleries, saloons, and mining ruins, with views clear across the Verde Valley."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "jerome-state-park",
+            "title": "Jerome State Historic Park",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Jerome State Historic Park",
+              "address": "100 Douglas Rd, Jerome, AZ",
+              "lat": 34.753,
+              "lng": -112.108,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Jerome%20State%20Historic%20Park"
+            },
+            "blurb": "The Douglas Mansion museum tells the copper-boom story."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 385,
+      "label": "Day 385 — North to Utah",
+      "type": "commute",
+      "summary": "The long climb to Zion.",
+      "commute": {
+        "from": "Jerome, AZ",
+        "to": "Zion National Park, UT",
+        "driveTimeMins": 270,
+        "scenicNote": "North across the plateau into Utah's canyon country."
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "monument-valley",
+  "name": "Monument Valley",
+  "state": "AZ",
+  "country": "US",
+  "order": 7,
+  "location": {
+    "lat": 36.998,
+    "lng": -110.0985
+  },
+  "summary": "The red-sandstone buttes that ARE the American West — the backdrop of a hundred Westerns, on Navajo land.",
+  "lodging": [
+    {
+      "name": "The View Hotel",
+      "blurb": "Every room faces the Mittens — a Navajo-owned lodge.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20View%20Hotel%20Monument%20Valley"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Navajo mutton stew & fry bread",
+      "blurb": "At the tribal park restaurant."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 371,
+      "label": "Day 371 — The Buttes",
+      "type": "active",
+      "summary": "Drive among the giants.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "monument-valley-drive",
+            "title": "Monument Valley Navajo Tribal Park",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Monument Valley Navajo Tribal Park",
+              "address": "Monument Valley Rd, Oljato-Monument Valley, AZ",
+              "lat": 36.998,
+              "lng": -110.0985,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Monument%20Valley%20Navajo%20Tribal%20Park"
+            },
+            "blurb": "The 17-mile scenic loop among the Mittens and Merrick Butte (a Navajo-guided tour reaches the restricted areas); catch 'Forrest Gump Point' on US-163.",
+            "gear": [
+              "dusty-road-ready vehicle"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 372,
+      "label": "Day 372 — West to Page",
+      "type": "commute",
+      "summary": "To the slot canyons.",
+      "commute": {
+        "from": "Monument Valley, AZ",
+        "to": "Page, AZ",
+        "driveTimeMins": 120,
+        "scenicNote": "West to Lake Powell and the slot canyons."
+      }
+    }
+  ]
+}
