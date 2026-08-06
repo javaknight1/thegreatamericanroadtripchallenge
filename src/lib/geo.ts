@@ -40,7 +40,9 @@ export type RegionMapData = {
 type StateFeature = GeoJSON.Feature<GeoJSON.Geometry, { name: string }> & { id: string };
 
 const WIDTH = 800;
-const HEIGHT = 520;
+/** The frame grows to the region's own shape, between these bounds. */
+const MIN_HEIGHT = 300;
+const MAX_HEIGHT = 620;
 /** Keeps pins and their labels clear of the edges. */
 const PADDING = 56;
 /** Points closer together than this (in px) add bytes, not shape. */
@@ -93,7 +95,8 @@ class DecimatingPath {
   }
 
   /** geoPath calls this for point geometry; the map draws its own pins. */
-  arc(_x: number, _y: number, _radius: number, _startAngle: number, _endAngle: number) {}
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  arc(x: number, y: number, radius: number, startAngle: number, endAngle: number) {}
 
   result(): string {
     const d = this.parts.join("");
@@ -160,25 +163,44 @@ function intersects(bounds: [[number, number], [number, number]], window: Window
   return lngOverlap && south <= window.latMax && north >= window.latMin;
 }
 
-function projectionFor(window: Window): GeoProjection {
+/**
+ * Fits the region to the full width, then sizes the frame to whatever height
+ * that leaves. Fitting into a fixed box instead would letterbox every region
+ * that isn't 800×520-shaped — New England would sit in a sea of empty chrome.
+ */
+function projectionFor(window: Window): { projection: GeoProjection; height: number } {
+  const corners = windowCorners(window);
   const projection = geoAlbers()
     .rotate([(window.lngMin + window.lngMax) / -2, 0])
     .center([0, (window.latMin + window.latMax) / 2])
     .parallels([window.latMin, window.latMax]);
 
-  projection.fitExtent(
-    [
-      [PADDING, PADDING],
-      [WIDTH - PADDING, HEIGHT - PADDING],
-    ],
-    windowCorners(window),
-  );
+  projection.fitWidth(WIDTH - PADDING * 2, corners);
+
+  const [[, y0], [, y1]] = geoPath(projection).bounds(corners);
+  const naturalHeight = Math.round(y1 - y0 + PADDING * 2);
+  const height = Math.max(MIN_HEIGHT, Math.min(MAX_HEIGHT, naturalHeight));
+
+  if (naturalHeight > MAX_HEIGHT) {
+    // Tall, narrow regions (California) fit by height instead and center.
+    projection.fitExtent(
+      [
+        [PADDING, PADDING],
+        [WIDTH - PADDING, height - PADDING],
+      ],
+      corners,
+    );
+  } else {
+    const [tx, ty] = projection.translate();
+    projection.translate([tx + PADDING, ty + PADDING + (height - naturalHeight) / 2]);
+  }
+
   projection.clipExtent([
     [0, 0],
-    [WIDTH, HEIGHT],
+    [WIDTH, height],
   ]);
 
-  return projection;
+  return { projection, height };
 }
 
 /**
@@ -215,7 +237,7 @@ export function regionMapData(region: Region): RegionMapData | undefined {
   if (!region.stops.length) return undefined;
 
   const window = windowFor(region);
-  const projection = projectionFor(window);
+  const { projection, height } = projectionFor(window);
   const context = new DecimatingPath();
   const path = geoPath(projection, context);
 
@@ -252,5 +274,5 @@ export function regionMapData(region: Region): RegionMapData | undefined {
 
   const routeD = stops.map((stop, index) => `${index ? "L" : "M"}${stop.x},${stop.y}`).join("");
 
-  return { width: WIDTH, height: HEIGHT, states, routeD, stops };
+  return { width: WIDTH, height, states, routeD, stops };
 }

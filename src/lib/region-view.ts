@@ -8,7 +8,7 @@ export function shortLabel(label: string): string {
     .slice(1)
     .join("—")
     .trim();
-  return (tail || label).slice(0, 14);
+  return (tail || label).slice(0, 12);
 }
 
 /** Every day in the region, flattened in driving order, with its stop attached. */

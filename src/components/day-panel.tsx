@@ -11,14 +11,17 @@ export function DayPanel({
   day,
   place,
   categories,
+  withHeader = true,
 }: {
   day: Day;
   place: string;
   categories: Record<string, Category>;
+  /** Day pages lead with the header themselves, above the map. */
+  withHeader?: boolean;
 }) {
   return (
     <article className="overflow-hidden rounded-xl border border-hairline bg-surface">
-      <DayHeader day={day} place={place} />
+      {withHeader && <DayHeader day={day} place={place} />}
 
       <p className="px-4 pt-4 text-[15px] font-medium text-ink sm:px-6">{day.summary}</p>
 

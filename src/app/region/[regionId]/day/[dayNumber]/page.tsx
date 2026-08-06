@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { DayPanel } from "@/components/day-panel";
 import { DayRail } from "@/components/day-rail";
+import { DayHeader } from "@/components/day-header";
 import { RegionMap } from "@/components/region-map";
 import { getRegion, getTrip } from "@/lib/content";
 import { regionMapData } from "@/lib/geo";
@@ -15,12 +16,19 @@ type Params = { regionId: string; dayNumber: string };
 export function generateStaticParams(): Params[] {
   return getTrip().regions.flatMap((region) =>
     region.stops.flatMap((stop) =>
-      stop.days.map((day) => ({ regionId: region.id, dayNumber: String(day.dayNumber) })),
+      stop.days.map((day) => ({
+        regionId: region.id,
+        dayNumber: String(day.dayNumber),
+      })),
     ),
   );
 }
 
-export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<Params>;
+}): Promise<Metadata> {
   const { regionId, dayNumber } = await params;
   const region = getRegion(regionId);
   const found = region && findDay(region, Number(dayNumber));
@@ -51,7 +59,9 @@ export default async function DayPage({ params }: { params: Promise<Params> }) {
   const colors = stopColorMap(region.stops.map((candidate) => candidate.id));
   const days = regionDays(region);
 
-  const index = days.findIndex((candidate) => candidate.dayNumber === day.dayNumber);
+  const index = days.findIndex(
+    (candidate) => candidate.dayNumber === day.dayNumber,
+  );
   const previous = days[index - 1];
   const next = days[index + 1];
 
@@ -64,18 +74,38 @@ export default async function DayPage({ params }: { params: Promise<Params> }) {
           <Link href={`/region/${region.id}/${stop.id}/`}>{stop.name}</Link>
         </div>
 
+        <section className="mt-4 overflow-hidden rounded-xl">
+          <DayHeader day={day} place={stop.name} />
+        </section>
+
         {map && (
           <section className="mt-4">
-            <RegionMap map={map} theme={theme} regionId={region.id} colors={colors} activeStopId={stop.id} />
+            <RegionMap
+              map={map}
+              theme={theme}
+              regionId={region.id}
+              colors={colors}
+              activeStopId={stop.id}
+            />
           </section>
         )}
 
         <section className="mt-4">
-          <DayRail days={days} regionId={region.id} colors={colors} currentDay={day.dayNumber} />
+          <DayRail
+            days={days}
+            regionId={region.id}
+            colors={colors}
+            currentDay={day.dayNumber}
+          />
         </section>
 
         <div className="mt-5">
-          <DayPanel day={day} place={stop.name} categories={categoryIndex(trip)} />
+          <DayPanel
+            day={day}
+            place={stop.name}
+            categories={categoryIndex(trip)}
+            withHeader={false}
+          />
         </div>
 
         <nav className="mt-4 flex gap-2.5">

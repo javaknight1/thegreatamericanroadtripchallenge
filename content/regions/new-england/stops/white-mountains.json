@@ -1,9 +1,9 @@
 {
   "id": "white-mountains",
-  "name": "The White Mountains",
+  "name": "White Mountains",
   "state": "NH",
   "country": "US",
-  "order": 4,
+  "order": 13,
   "location": {
     "lat": 44.265,
     "lng": -71.2033

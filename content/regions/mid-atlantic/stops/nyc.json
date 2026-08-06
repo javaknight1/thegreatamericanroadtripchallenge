@@ -3,7 +3,7 @@
   "name": "New York City",
   "state": "NY",
   "country": "US",
-  "order": 6,
+  "order": 1,
   "location": {
     "lat": 40.7128,
     "lng": -74.006

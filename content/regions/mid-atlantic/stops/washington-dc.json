@@ -1,9 +1,9 @@
 {
   "id": "washington-dc",
-  "name": "Washington, DC",
+  "name": "Washington",
   "state": "DC",
   "country": "US",
-  "order": 8,
+  "order": 20,
   "location": {
     "lat": 38.9072,
     "lng": -77.0369

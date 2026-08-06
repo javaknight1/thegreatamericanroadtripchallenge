@@ -1,8 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { z } from "zod";
-import { regionMetaSchema, stopSchema, tripMetaSchema } from "@/schema/trip";
-import type { Category, Day, Item, Region, Stop, Trip } from "@/types/trip";
+import { planSchema, regionMetaSchema, stopSchema, tripMetaSchema } from "@/schema/trip";
+import type { Category, Day, Item, Plan, PlannedStop, Region, Stop, Trip } from "@/types/trip";
 
 /**
  * Loads the curated JSON in `content/` and assembles it into one trip tree.
@@ -197,4 +197,37 @@ export function getStop(regionId: string, stopId: string): { region: Region; sto
 
 export function getCategoryMap(): Map<string, Category> {
   return new Map(getTrip().categories.map((category) => [category.id, category]));
+}
+
+let cachedPlan: Plan | undefined;
+
+/**
+ * The planned shape of the whole loop — every region and stop id, including the
+ * legs nobody has written days for yet. Authored content always wins; this only
+ * fills in what is still ahead.
+ */
+export function getPlan(): Plan {
+  cachedPlan ??= parseFile(planSchema, path.join(CONTENT_DIR, "plan.json"));
+  return cachedPlan;
+}
+
+export type RegionPlan = {
+  stops: PlannedStop[];
+  plannedStops: number;
+  plannedDays: number;
+  /** Stops that already have a content file. */
+  authored: Set<string>;
+};
+
+export function getRegionPlan(regionId: string): RegionPlan | undefined {
+  const planned = getPlan().regions.find((region) => region.id === regionId);
+  if (!planned) return undefined;
+
+  const authored = new Set(getRegion(regionId)?.stops.map((stop) => stop.id) ?? []);
+  return {
+    stops: [...planned.stops].sort((a, b) => a.order - b.order),
+    plannedStops: planned.stops.length,
+    plannedDays: planned.stops.reduce((total, stop) => total + stop.plannedDays, 0),
+    authored,
+  };
 }

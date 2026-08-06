@@ -152,3 +152,26 @@ export const tripMetaSchema = z.object({
   recommendedStart: nonEmpty,
   categories: z.array(categorySchema).min(1),
 });
+
+/**
+ * content/plan.json — the id contract for the whole loop, including legs whose
+ * days aren't written yet. Kept separate from the itinerary so an unwritten
+ * region can still show what's coming without faking day content.
+ */
+export const plannedStopSchema = z.object({
+  id: slug,
+  order: z.number().int().positive(),
+  name: nonEmpty,
+  state: nonEmpty,
+  plannedDays: z.number().int().positive(),
+});
+
+export const planSchema = z.object({
+  note: z.string().optional(),
+  regions: z.array(
+    z.object({
+      id: slug,
+      stops: z.array(plannedStopSchema),
+    }),
+  ),
+});

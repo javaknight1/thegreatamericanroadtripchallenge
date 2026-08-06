@@ -1,0 +1,1825 @@
+{
+  "note": "The id contract for the whole loop. Stop ids here must match content/regions/<region>/stops/<id>.json when a stop is authored. Day counts are planning estimates; real day numbers are authored inside each day object.",
+  "regions": [
+    {
+      "id": "new-england",
+      "stops": [
+        {
+          "id": "boston",
+          "order": 1,
+          "name": "Boston",
+          "state": "MA",
+          "plannedDays": 7
+        },
+        {
+          "id": "lexington-concord",
+          "order": 2,
+          "name": "Lexington & Concord",
+          "state": "MA",
+          "plannedDays": 1
+        },
+        {
+          "id": "salem-cape-ann",
+          "order": 3,
+          "name": "Salem & Cape Ann",
+          "state": "MA",
+          "plannedDays": 3
+        },
+        {
+          "id": "plymouth",
+          "order": 4,
+          "name": "Plymouth",
+          "state": "MA",
+          "plannedDays": 2
+        },
+        {
+          "id": "cape-cod",
+          "order": 5,
+          "name": "Cape Cod",
+          "state": "MA",
+          "plannedDays": 5
+        },
+        {
+          "id": "nantucket-martha-s-vineyard",
+          "order": 6,
+          "name": "Nantucket & Martha's Vineyard",
+          "state": "MA",
+          "plannedDays": 3
+        },
+        {
+          "id": "portsmouth",
+          "order": 7,
+          "name": "Portsmouth",
+          "state": "NH",
+          "plannedDays": 2
+        },
+        {
+          "id": "kennebunkport",
+          "order": 8,
+          "name": "Kennebunkport",
+          "state": "ME",
+          "plannedDays": 2
+        },
+        {
+          "id": "portland-maine",
+          "order": 9,
+          "name": "Portland",
+          "state": "ME",
+          "plannedDays": 4
+        },
+        {
+          "id": "augusta",
+          "order": 10,
+          "name": "Augusta",
+          "state": "ME",
+          "plannedDays": 2
+        },
+        {
+          "id": "camden-the-midcoast",
+          "order": 11,
+          "name": "Camden & the Midcoast",
+          "state": "ME",
+          "plannedDays": 3
+        },
+        {
+          "id": "acadia",
+          "order": 12,
+          "name": "Bar Harbor & Acadia NP",
+          "state": "ME",
+          "plannedDays": 5
+        },
+        {
+          "id": "white-mountains",
+          "order": 13,
+          "name": "White Mountains",
+          "state": "NH",
+          "plannedDays": 5
+        },
+        {
+          "id": "concord",
+          "order": 14,
+          "name": "Concord",
+          "state": "NH",
+          "plannedDays": 2
+        },
+        {
+          "id": "montpelier-stowe",
+          "order": 15,
+          "name": "Montpelier & Stowe",
+          "state": "VT",
+          "plannedDays": 4
+        },
+        {
+          "id": "burlington",
+          "order": 16,
+          "name": "Burlington",
+          "state": "VT",
+          "plannedDays": 3
+        },
+        {
+          "id": "woodstock",
+          "order": 17,
+          "name": "Woodstock",
+          "state": "VT",
+          "plannedDays": 2
+        },
+        {
+          "id": "the-berkshires",
+          "order": 18,
+          "name": "The Berkshires",
+          "state": "MA",
+          "plannedDays": 3
+        },
+        {
+          "id": "hartford",
+          "order": 19,
+          "name": "Hartford",
+          "state": "CT",
+          "plannedDays": 2
+        },
+        {
+          "id": "new-haven",
+          "order": 20,
+          "name": "New Haven",
+          "state": "CT",
+          "plannedDays": 2
+        },
+        {
+          "id": "mystic",
+          "order": 21,
+          "name": "Mystic",
+          "state": "CT",
+          "plannedDays": 2
+        },
+        {
+          "id": "providence",
+          "order": 22,
+          "name": "Providence",
+          "state": "RI",
+          "plannedDays": 3
+        },
+        {
+          "id": "newport",
+          "order": 23,
+          "name": "Newport",
+          "state": "RI",
+          "plannedDays": 3
+        }
+      ]
+    },
+    {
+      "id": "mid-atlantic",
+      "stops": [
+        {
+          "id": "nyc",
+          "order": 1,
+          "name": "New York City",
+          "state": "NY",
+          "plannedDays": 18
+        },
+        {
+          "id": "long-island-hamptons-montauk",
+          "order": 2,
+          "name": "Long Island: Hamptons & Montauk",
+          "state": "NY",
+          "plannedDays": 3
+        },
+        {
+          "id": "hudson-valley",
+          "order": 3,
+          "name": "Hudson Valley",
+          "state": "NY",
+          "plannedDays": 4
+        },
+        {
+          "id": "catskills-woodstock",
+          "order": 4,
+          "name": "Catskills & Woodstock",
+          "state": "NY",
+          "plannedDays": 2
+        },
+        {
+          "id": "albany",
+          "order": 5,
+          "name": "Albany",
+          "state": "NY",
+          "plannedDays": 2
+        },
+        {
+          "id": "trenton-princeton",
+          "order": 6,
+          "name": "Trenton & Princeton",
+          "state": "NJ",
+          "plannedDays": 3
+        },
+        {
+          "id": "atlantic-city-cape-may",
+          "order": 7,
+          "name": "Atlantic City & Cape May",
+          "state": "NJ",
+          "plannedDays": 3
+        },
+        {
+          "id": "philadelphia",
+          "order": 8,
+          "name": "Philadelphia",
+          "state": "PA",
+          "plannedDays": 6
+        },
+        {
+          "id": "scranton",
+          "order": 9,
+          "name": "Scranton",
+          "state": "PA",
+          "plannedDays": 1
+        },
+        {
+          "id": "lancaster-amish-country",
+          "order": 10,
+          "name": "Lancaster & Amish Country",
+          "state": "PA",
+          "plannedDays": 3
+        },
+        {
+          "id": "harrisburg",
+          "order": 11,
+          "name": "Harrisburg",
+          "state": "PA",
+          "plannedDays": 2
+        },
+        {
+          "id": "gettysburg",
+          "order": 12,
+          "name": "Gettysburg",
+          "state": "PA",
+          "plannedDays": 3
+        },
+        {
+          "id": "brandywine-wilmington",
+          "order": 13,
+          "name": "Brandywine & Wilmington",
+          "state": "DE",
+          "plannedDays": 3
+        },
+        {
+          "id": "dover-rehoboth-beach",
+          "order": 14,
+          "name": "Dover & Rehoboth Beach",
+          "state": "DE",
+          "plannedDays": 3
+        },
+        {
+          "id": "baltimore",
+          "order": 15,
+          "name": "Baltimore",
+          "state": "MD",
+          "plannedDays": 4
+        },
+        {
+          "id": "annapolis",
+          "order": 16,
+          "name": "Annapolis",
+          "state": "MD",
+          "plannedDays": 3
+        },
+        {
+          "id": "ocean-city-assateague",
+          "order": 17,
+          "name": "Ocean City & Assateague",
+          "state": "MD",
+          "plannedDays": 3
+        },
+        {
+          "id": "frederick-antietam",
+          "order": 18,
+          "name": "Frederick & Antietam",
+          "state": "MD",
+          "plannedDays": 2
+        },
+        {
+          "id": "mount-vernon",
+          "order": 19,
+          "name": "Mount Vernon",
+          "state": "VA",
+          "plannedDays": 1
+        },
+        {
+          "id": "washington-dc",
+          "order": 20,
+          "name": "Washington",
+          "state": "DC",
+          "plannedDays": 9
+        }
+      ]
+    },
+    {
+      "id": "coastal-southeast",
+      "stops": [
+        {
+          "id": "shenandoah-np-skyline-drive",
+          "order": 1,
+          "name": "Shenandoah NP & Skyline Drive",
+          "state": "VA",
+          "plannedDays": 3
+        },
+        {
+          "id": "charlottesville",
+          "order": 2,
+          "name": "Charlottesville",
+          "state": "VA",
+          "plannedDays": 2
+        },
+        {
+          "id": "richmond",
+          "order": 3,
+          "name": "Richmond",
+          "state": "VA",
+          "plannedDays": 3
+        },
+        {
+          "id": "williamsburg-virginia-beach",
+          "order": 4,
+          "name": "Williamsburg & Virginia Beach",
+          "state": "VA",
+          "plannedDays": 4
+        },
+        {
+          "id": "outer-banks",
+          "order": 5,
+          "name": "Outer Banks",
+          "state": "NC",
+          "plannedDays": 4
+        },
+        {
+          "id": "raleigh-durham",
+          "order": 6,
+          "name": "Raleigh & Durham",
+          "state": "NC",
+          "plannedDays": 3
+        },
+        {
+          "id": "asheville",
+          "order": 7,
+          "name": "Asheville",
+          "state": "NC",
+          "plannedDays": 4
+        },
+        {
+          "id": "charlotte",
+          "order": 8,
+          "name": "Charlotte",
+          "state": "NC",
+          "plannedDays": 2
+        },
+        {
+          "id": "wilmington",
+          "order": 9,
+          "name": "Wilmington",
+          "state": "NC",
+          "plannedDays": 2
+        },
+        {
+          "id": "greenville",
+          "order": 10,
+          "name": "Greenville",
+          "state": "SC",
+          "plannedDays": 2
+        },
+        {
+          "id": "congaree-np",
+          "order": 11,
+          "name": "Congaree NP",
+          "state": "SC",
+          "plannedDays": 2
+        },
+        {
+          "id": "columbia",
+          "order": 12,
+          "name": "Columbia",
+          "state": "SC",
+          "plannedDays": 2
+        },
+        {
+          "id": "charleston-sc",
+          "order": 13,
+          "name": "Charleston",
+          "state": "SC",
+          "plannedDays": 5
+        },
+        {
+          "id": "beaufort-hilton-head",
+          "order": 14,
+          "name": "Beaufort & Hilton Head",
+          "state": "SC",
+          "plannedDays": 2
+        },
+        {
+          "id": "myrtle-beach",
+          "order": 15,
+          "name": "Myrtle Beach",
+          "state": "SC",
+          "plannedDays": 2
+        },
+        {
+          "id": "savannah",
+          "order": 16,
+          "name": "Savannah",
+          "state": "GA",
+          "plannedDays": 4
+        },
+        {
+          "id": "tybee-island",
+          "order": 17,
+          "name": "Tybee Island",
+          "state": "GA",
+          "plannedDays": 1
+        },
+        {
+          "id": "athens",
+          "order": 18,
+          "name": "Athens",
+          "state": "GA",
+          "plannedDays": 2
+        },
+        {
+          "id": "helen",
+          "order": 19,
+          "name": "Helen",
+          "state": "GA",
+          "plannedDays": 2
+        },
+        {
+          "id": "jekyll-st-simons-islands",
+          "order": 20,
+          "name": "Jekyll & St. Simons Islands",
+          "state": "GA",
+          "plannedDays": 2
+        },
+        {
+          "id": "atlanta",
+          "order": 21,
+          "name": "Atlanta",
+          "state": "GA",
+          "plannedDays": 5
+        }
+      ]
+    },
+    {
+      "id": "florida",
+      "stops": [
+        {
+          "id": "st-augustine-jacksonville",
+          "order": 1,
+          "name": "St. Augustine & Jacksonville",
+          "state": "FL",
+          "plannedDays": 3
+        },
+        {
+          "id": "amelia-island",
+          "order": 2,
+          "name": "Amelia Island",
+          "state": "FL",
+          "plannedDays": 1
+        },
+        {
+          "id": "tallahassee",
+          "order": 3,
+          "name": "Tallahassee",
+          "state": "FL",
+          "plannedDays": 2
+        },
+        {
+          "id": "pensacola-destin",
+          "order": 4,
+          "name": "Pensacola & Destin",
+          "state": "FL",
+          "plannedDays": 3
+        },
+        {
+          "id": "orlando",
+          "order": 5,
+          "name": "Orlando",
+          "state": "FL",
+          "plannedDays": 10
+        },
+        {
+          "id": "tampa-st-petersburg",
+          "order": 6,
+          "name": "Tampa & St. Petersburg",
+          "state": "FL",
+          "plannedDays": 4
+        },
+        {
+          "id": "sarasota-naples",
+          "order": 7,
+          "name": "Sarasota & Naples",
+          "state": "FL",
+          "plannedDays": 2
+        },
+        {
+          "id": "fort-lauderdale",
+          "order": 8,
+          "name": "Fort Lauderdale",
+          "state": "FL",
+          "plannedDays": 2
+        },
+        {
+          "id": "palm-beach",
+          "order": 9,
+          "name": "Palm Beach",
+          "state": "FL",
+          "plannedDays": 1
+        },
+        {
+          "id": "miami-the-beaches",
+          "order": 10,
+          "name": "Miami & the Beaches",
+          "state": "FL",
+          "plannedDays": 6
+        },
+        {
+          "id": "everglades-np",
+          "order": 11,
+          "name": "Everglades NP",
+          "state": "FL",
+          "plannedDays": 3
+        },
+        {
+          "id": "florida-keys-key-west",
+          "order": 12,
+          "name": "Florida Keys & Key West",
+          "state": "FL",
+          "plannedDays": 5
+        }
+      ]
+    },
+    {
+      "id": "deep-south",
+      "stops": [
+        {
+          "id": "birmingham",
+          "order": 1,
+          "name": "Birmingham",
+          "state": "AL",
+          "plannedDays": 2
+        },
+        {
+          "id": "muscle-shoals",
+          "order": 2,
+          "name": "Muscle Shoals",
+          "state": "AL",
+          "plannedDays": 1
+        },
+        {
+          "id": "huntsville",
+          "order": 3,
+          "name": "Huntsville",
+          "state": "AL",
+          "plannedDays": 2
+        },
+        {
+          "id": "montgomery-selma",
+          "order": 4,
+          "name": "Montgomery & Selma",
+          "state": "AL",
+          "plannedDays": 3
+        },
+        {
+          "id": "mobile",
+          "order": 5,
+          "name": "Mobile",
+          "state": "AL",
+          "plannedDays": 2
+        },
+        {
+          "id": "new-orleans",
+          "order": 6,
+          "name": "New Orleans",
+          "state": "LA",
+          "plannedDays": 7
+        },
+        {
+          "id": "baton-rouge-river-road",
+          "order": 7,
+          "name": "Baton Rouge & River Road",
+          "state": "LA",
+          "plannedDays": 3
+        },
+        {
+          "id": "lafayette-cajun-country",
+          "order": 8,
+          "name": "Lafayette & Cajun Country",
+          "state": "LA",
+          "plannedDays": 2
+        },
+        {
+          "id": "natchez",
+          "order": 9,
+          "name": "Natchez",
+          "state": "MS",
+          "plannedDays": 2
+        },
+        {
+          "id": "vicksburg",
+          "order": 10,
+          "name": "Vicksburg",
+          "state": "MS",
+          "plannedDays": 1
+        },
+        {
+          "id": "jackson",
+          "order": 11,
+          "name": "Jackson",
+          "state": "MS",
+          "plannedDays": 2
+        },
+        {
+          "id": "mississippi-delta-clarksdale",
+          "order": 12,
+          "name": "Mississippi Delta / Clarksdale",
+          "state": "MS",
+          "plannedDays": 2
+        },
+        {
+          "id": "tupelo",
+          "order": 13,
+          "name": "Tupelo",
+          "state": "MS",
+          "plannedDays": 1
+        },
+        {
+          "id": "memphis",
+          "order": 14,
+          "name": "Memphis",
+          "state": "TN",
+          "plannedDays": 4
+        },
+        {
+          "id": "nashville",
+          "order": 15,
+          "name": "Nashville",
+          "state": "TN",
+          "plannedDays": 5
+        },
+        {
+          "id": "chattanooga",
+          "order": 16,
+          "name": "Chattanooga",
+          "state": "TN",
+          "plannedDays": 2
+        },
+        {
+          "id": "great-smoky-mountains-np",
+          "order": 17,
+          "name": "Great Smoky Mountains NP",
+          "state": "TN",
+          "plannedDays": 4
+        },
+        {
+          "id": "mammoth-cave-np",
+          "order": 18,
+          "name": "Mammoth Cave NP",
+          "state": "KY",
+          "plannedDays": 2
+        },
+        {
+          "id": "bowling-green",
+          "order": 19,
+          "name": "Bowling Green",
+          "state": "KY",
+          "plannedDays": 1
+        },
+        {
+          "id": "louisville",
+          "order": 20,
+          "name": "Louisville",
+          "state": "KY",
+          "plannedDays": 3
+        },
+        {
+          "id": "lexington-frankfort",
+          "order": 21,
+          "name": "Lexington & Frankfort",
+          "state": "KY",
+          "plannedDays": 3
+        },
+        {
+          "id": "little-rock",
+          "order": 22,
+          "name": "Little Rock",
+          "state": "AR",
+          "plannedDays": 3
+        },
+        {
+          "id": "hot-springs-np",
+          "order": 23,
+          "name": "Hot Springs NP",
+          "state": "AR",
+          "plannedDays": 2
+        },
+        {
+          "id": "eureka-springs",
+          "order": 24,
+          "name": "Eureka Springs",
+          "state": "AR",
+          "plannedDays": 2
+        },
+        {
+          "id": "bentonville",
+          "order": 25,
+          "name": "Bentonville",
+          "state": "AR",
+          "plannedDays": 2
+        }
+      ]
+    },
+    {
+      "id": "texas-south-plains",
+      "stops": [
+        {
+          "id": "oklahoma-city",
+          "order": 1,
+          "name": "Oklahoma City",
+          "state": "OK",
+          "plannedDays": 3
+        },
+        {
+          "id": "tulsa",
+          "order": 2,
+          "name": "Tulsa",
+          "state": "OK",
+          "plannedDays": 2
+        },
+        {
+          "id": "dallas-fort-worth",
+          "order": 3,
+          "name": "Dallas–Fort Worth",
+          "state": "TX",
+          "plannedDays": 5
+        },
+        {
+          "id": "waco",
+          "order": 4,
+          "name": "Waco",
+          "state": "TX",
+          "plannedDays": 1
+        },
+        {
+          "id": "austin",
+          "order": 5,
+          "name": "Austin",
+          "state": "TX",
+          "plannedDays": 6
+        },
+        {
+          "id": "fredericksburg-hill-country",
+          "order": 6,
+          "name": "Fredericksburg & Hill Country",
+          "state": "TX",
+          "plannedDays": 2
+        },
+        {
+          "id": "san-antonio",
+          "order": 7,
+          "name": "San Antonio",
+          "state": "TX",
+          "plannedDays": 4
+        },
+        {
+          "id": "houston",
+          "order": 8,
+          "name": "Houston",
+          "state": "TX",
+          "plannedDays": 4
+        },
+        {
+          "id": "galveston",
+          "order": 9,
+          "name": "Galveston",
+          "state": "TX",
+          "plannedDays": 2
+        },
+        {
+          "id": "corpus-christi-padre-island",
+          "order": 10,
+          "name": "Corpus Christi & Padre Island",
+          "state": "TX",
+          "plannedDays": 2
+        },
+        {
+          "id": "big-bend-np-marfa",
+          "order": 11,
+          "name": "Big Bend NP & Marfa",
+          "state": "TX",
+          "plannedDays": 4
+        },
+        {
+          "id": "el-paso",
+          "order": 12,
+          "name": "El Paso",
+          "state": "TX",
+          "plannedDays": 2
+        },
+        {
+          "id": "guadalupe-mountains-np",
+          "order": 13,
+          "name": "Guadalupe Mountains NP",
+          "state": "TX",
+          "plannedDays": 2
+        }
+      ]
+    },
+    {
+      "id": "desert-southwest",
+      "stops": [
+        {
+          "id": "carlsbad-caverns-white-sands",
+          "order": 1,
+          "name": "Carlsbad Caverns & White Sands",
+          "state": "NM",
+          "plannedDays": 3
+        },
+        {
+          "id": "roswell",
+          "order": 2,
+          "name": "Roswell",
+          "state": "NM",
+          "plannedDays": 1
+        },
+        {
+          "id": "santa-fe-taos",
+          "order": 3,
+          "name": "Santa Fe & Taos",
+          "state": "NM",
+          "plannedDays": 4
+        },
+        {
+          "id": "albuquerque",
+          "order": 4,
+          "name": "Albuquerque",
+          "state": "NM",
+          "plannedDays": 3
+        },
+        {
+          "id": "canyon-de-chelly-four-corners",
+          "order": 5,
+          "name": "Canyon de Chelly & Four Corners",
+          "state": "AZ",
+          "plannedDays": 2
+        },
+        {
+          "id": "monument-valley",
+          "order": 6,
+          "name": "Monument Valley",
+          "state": "AZ",
+          "plannedDays": 2
+        },
+        {
+          "id": "page-antelope-canyon-horseshoe-bend",
+          "order": 7,
+          "name": "Page: Antelope Canyon & Horseshoe Bend",
+          "state": "AZ",
+          "plannedDays": 2
+        },
+        {
+          "id": "petrified-forest-meteor-crater",
+          "order": 8,
+          "name": "Petrified Forest & Meteor Crater",
+          "state": "AZ",
+          "plannedDays": 2
+        },
+        {
+          "id": "flagstaff",
+          "order": 9,
+          "name": "Flagstaff",
+          "state": "AZ",
+          "plannedDays": 2
+        },
+        {
+          "id": "grand-canyon-np",
+          "order": 10,
+          "name": "Grand Canyon NP",
+          "state": "AZ",
+          "plannedDays": 4
+        },
+        {
+          "id": "sedona",
+          "order": 11,
+          "name": "Sedona",
+          "state": "AZ",
+          "plannedDays": 3
+        },
+        {
+          "id": "jerome",
+          "order": 12,
+          "name": "Jerome",
+          "state": "AZ",
+          "plannedDays": 1
+        },
+        {
+          "id": "phoenix-scottsdale",
+          "order": 13,
+          "name": "Phoenix & Scottsdale",
+          "state": "AZ",
+          "plannedDays": 4
+        },
+        {
+          "id": "tucson-saguaro-np",
+          "order": 14,
+          "name": "Tucson & Saguaro NP",
+          "state": "AZ",
+          "plannedDays": 3
+        },
+        {
+          "id": "bisbee-tombstone",
+          "order": 15,
+          "name": "Bisbee & Tombstone",
+          "state": "AZ",
+          "plannedDays": 2
+        },
+        {
+          "id": "las-vegas",
+          "order": 16,
+          "name": "Las Vegas",
+          "state": "NV",
+          "plannedDays": 5
+        },
+        {
+          "id": "great-basin-np",
+          "order": 17,
+          "name": "Great Basin NP",
+          "state": "NV",
+          "plannedDays": 2
+        },
+        {
+          "id": "zion-bryce-canyon-np",
+          "order": 18,
+          "name": "Zion & Bryce Canyon NP",
+          "state": "UT",
+          "plannedDays": 5
+        },
+        {
+          "id": "capitol-reef-np",
+          "order": 19,
+          "name": "Capitol Reef NP",
+          "state": "UT",
+          "plannedDays": 2
+        },
+        {
+          "id": "moab-arches-canyonlands-np",
+          "order": 20,
+          "name": "Moab: Arches & Canyonlands NP",
+          "state": "UT",
+          "plannedDays": 5
+        },
+        {
+          "id": "salt-lake-city-park-city",
+          "order": 21,
+          "name": "Salt Lake City & Park City",
+          "state": "UT",
+          "plannedDays": 4
+        }
+      ]
+    },
+    {
+      "id": "california",
+      "stops": [
+        {
+          "id": "san-diego",
+          "order": 1,
+          "name": "San Diego",
+          "state": "CA",
+          "plannedDays": 5
+        },
+        {
+          "id": "joshua-tree-np-palm-springs",
+          "order": 2,
+          "name": "Joshua Tree NP & Palm Springs",
+          "state": "CA",
+          "plannedDays": 3
+        },
+        {
+          "id": "los-angeles",
+          "order": 3,
+          "name": "Los Angeles",
+          "state": "CA",
+          "plannedDays": 8
+        },
+        {
+          "id": "santa-barbara-central-coast",
+          "order": 4,
+          "name": "Santa Barbara & Central Coast",
+          "state": "CA",
+          "plannedDays": 3
+        },
+        {
+          "id": "death-valley-np",
+          "order": 5,
+          "name": "Death Valley NP",
+          "state": "CA",
+          "plannedDays": 2
+        },
+        {
+          "id": "sequoia-kings-canyon-np",
+          "order": 6,
+          "name": "Sequoia & Kings Canyon NP",
+          "state": "CA",
+          "plannedDays": 3
+        },
+        {
+          "id": "yosemite-np",
+          "order": 7,
+          "name": "Yosemite NP",
+          "state": "CA",
+          "plannedDays": 5
+        },
+        {
+          "id": "monterey-carmel",
+          "order": 8,
+          "name": "Monterey & Carmel",
+          "state": "CA",
+          "plannedDays": 2
+        },
+        {
+          "id": "pinnacles-np",
+          "order": 9,
+          "name": "Pinnacles NP",
+          "state": "CA",
+          "plannedDays": 1
+        },
+        {
+          "id": "san-francisco",
+          "order": 10,
+          "name": "San Francisco",
+          "state": "CA",
+          "plannedDays": 7
+        },
+        {
+          "id": "sacramento",
+          "order": 11,
+          "name": "Sacramento",
+          "state": "CA",
+          "plannedDays": 2
+        },
+        {
+          "id": "napa-sonoma",
+          "order": 12,
+          "name": "Napa & Sonoma",
+          "state": "CA",
+          "plannedDays": 3
+        },
+        {
+          "id": "lake-tahoe-reno-carson-city",
+          "order": 13,
+          "name": "Lake Tahoe, Reno & Carson City",
+          "state": "NV",
+          "plannedDays": 4
+        },
+        {
+          "id": "lassen-volcanic-np",
+          "order": 14,
+          "name": "Lassen Volcanic NP",
+          "state": "CA",
+          "plannedDays": 2
+        },
+        {
+          "id": "mendocino-the-north-coast",
+          "order": 15,
+          "name": "Mendocino & the North Coast",
+          "state": "CA",
+          "plannedDays": 2
+        },
+        {
+          "id": "redwood-np",
+          "order": 16,
+          "name": "Redwood NP",
+          "state": "CA",
+          "plannedDays": 3
+        }
+      ]
+    },
+    {
+      "id": "pacific-northwest",
+      "stops": [
+        {
+          "id": "crater-lake-np",
+          "order": 1,
+          "name": "Crater Lake NP",
+          "state": "OR",
+          "plannedDays": 2
+        },
+        {
+          "id": "ashland",
+          "order": 2,
+          "name": "Ashland",
+          "state": "OR",
+          "plannedDays": 2
+        },
+        {
+          "id": "bend-central-oregon",
+          "order": 3,
+          "name": "Bend & Central Oregon",
+          "state": "OR",
+          "plannedDays": 2
+        },
+        {
+          "id": "oregon-coast",
+          "order": 4,
+          "name": "Oregon Coast",
+          "state": "OR",
+          "plannedDays": 3
+        },
+        {
+          "id": "salem",
+          "order": 5,
+          "name": "Salem",
+          "state": "OR",
+          "plannedDays": 1
+        },
+        {
+          "id": "portland-oregon",
+          "order": 6,
+          "name": "Portland",
+          "state": "OR",
+          "plannedDays": 4
+        },
+        {
+          "id": "mount-hood-columbia-gorge",
+          "order": 7,
+          "name": "Mount Hood & Columbia Gorge",
+          "state": "OR",
+          "plannedDays": 2
+        },
+        {
+          "id": "astoria",
+          "order": 8,
+          "name": "Astoria",
+          "state": "OR",
+          "plannedDays": 1
+        },
+        {
+          "id": "olympia",
+          "order": 9,
+          "name": "Olympia",
+          "state": "WA",
+          "plannedDays": 1
+        },
+        {
+          "id": "olympic-np",
+          "order": 10,
+          "name": "Olympic NP",
+          "state": "WA",
+          "plannedDays": 4
+        },
+        {
+          "id": "mount-st-helens",
+          "order": 11,
+          "name": "Mount St. Helens",
+          "state": "WA",
+          "plannedDays": 2
+        },
+        {
+          "id": "seattle",
+          "order": 12,
+          "name": "Seattle",
+          "state": "WA",
+          "plannedDays": 6
+        },
+        {
+          "id": "san-juan-islands",
+          "order": 13,
+          "name": "San Juan Islands",
+          "state": "WA",
+          "plannedDays": 2
+        },
+        {
+          "id": "mount-rainier-np",
+          "order": 14,
+          "name": "Mount Rainier NP",
+          "state": "WA",
+          "plannedDays": 3
+        },
+        {
+          "id": "leavenworth",
+          "order": 15,
+          "name": "Leavenworth",
+          "state": "WA",
+          "plannedDays": 2
+        },
+        {
+          "id": "walla-walla",
+          "order": 16,
+          "name": "Walla Walla",
+          "state": "WA",
+          "plannedDays": 2
+        },
+        {
+          "id": "north-cascades-np-vancouver",
+          "order": 17,
+          "name": "North Cascades NP & Vancouver, BC",
+          "state": "WA",
+          "plannedDays": 4
+        }
+      ]
+    },
+    {
+      "id": "northern-rockies",
+      "stops": [
+        {
+          "id": "spokane-coeur-d-alene",
+          "order": 1,
+          "name": "Spokane & Coeur d'Alene",
+          "state": "ID",
+          "plannedDays": 2
+        },
+        {
+          "id": "boise",
+          "order": 2,
+          "name": "Boise",
+          "state": "ID",
+          "plannedDays": 3
+        },
+        {
+          "id": "craters-of-the-moon",
+          "order": 3,
+          "name": "Craters of the Moon",
+          "state": "ID",
+          "plannedDays": 1
+        },
+        {
+          "id": "sun-valley",
+          "order": 4,
+          "name": "Sun Valley",
+          "state": "ID",
+          "plannedDays": 2
+        },
+        {
+          "id": "missoula",
+          "order": 5,
+          "name": "Missoula",
+          "state": "MT",
+          "plannedDays": 2
+        },
+        {
+          "id": "glacier-np",
+          "order": 6,
+          "name": "Glacier NP",
+          "state": "MT",
+          "plannedDays": 5
+        },
+        {
+          "id": "helena",
+          "order": 7,
+          "name": "Helena",
+          "state": "MT",
+          "plannedDays": 2
+        },
+        {
+          "id": "bozeman",
+          "order": 8,
+          "name": "Bozeman",
+          "state": "MT",
+          "plannedDays": 2
+        },
+        {
+          "id": "little-bighorn-battlefield",
+          "order": 9,
+          "name": "Little Bighorn Battlefield",
+          "state": "MT",
+          "plannedDays": 1
+        },
+        {
+          "id": "yellowstone-np",
+          "order": 10,
+          "name": "Yellowstone NP",
+          "state": "WY",
+          "plannedDays": 5
+        },
+        {
+          "id": "grand-teton-np-jackson",
+          "order": 11,
+          "name": "Grand Teton NP & Jackson",
+          "state": "WY",
+          "plannedDays": 4
+        },
+        {
+          "id": "cody",
+          "order": 12,
+          "name": "Cody",
+          "state": "WY",
+          "plannedDays": 2
+        },
+        {
+          "id": "devils-tower",
+          "order": 13,
+          "name": "Devils Tower",
+          "state": "WY",
+          "plannedDays": 1
+        },
+        {
+          "id": "cheyenne",
+          "order": 14,
+          "name": "Cheyenne",
+          "state": "WY",
+          "plannedDays": 2
+        }
+      ]
+    },
+    {
+      "id": "colorado-rockies",
+      "stops": [
+        {
+          "id": "fort-collins",
+          "order": 1,
+          "name": "Fort Collins",
+          "state": "CO",
+          "plannedDays": 2
+        },
+        {
+          "id": "rocky-mountain-np-estes-park",
+          "order": 2,
+          "name": "Rocky Mountain NP & Estes Park",
+          "state": "CO",
+          "plannedDays": 4
+        },
+        {
+          "id": "boulder",
+          "order": 3,
+          "name": "Boulder",
+          "state": "CO",
+          "plannedDays": 2
+        },
+        {
+          "id": "denver",
+          "order": 4,
+          "name": "Denver",
+          "state": "CO",
+          "plannedDays": 4
+        },
+        {
+          "id": "colorado-springs",
+          "order": 5,
+          "name": "Colorado Springs",
+          "state": "CO",
+          "plannedDays": 3
+        },
+        {
+          "id": "aspen-vail-breckenridge",
+          "order": 6,
+          "name": "Aspen, Vail & Breckenridge",
+          "state": "CO",
+          "plannedDays": 4
+        },
+        {
+          "id": "glenwood-springs",
+          "order": 7,
+          "name": "Glenwood Springs",
+          "state": "CO",
+          "plannedDays": 2
+        },
+        {
+          "id": "great-sand-dunes-np",
+          "order": 8,
+          "name": "Great Sand Dunes NP",
+          "state": "CO",
+          "plannedDays": 2
+        },
+        {
+          "id": "telluride",
+          "order": 9,
+          "name": "Telluride",
+          "state": "CO",
+          "plannedDays": 2
+        },
+        {
+          "id": "black-canyon-of-the-gunnison-np",
+          "order": 10,
+          "name": "Black Canyon of the Gunnison NP",
+          "state": "CO",
+          "plannedDays": 2
+        },
+        {
+          "id": "mesa-verde-np-durango",
+          "order": 11,
+          "name": "Mesa Verde NP & Durango",
+          "state": "CO",
+          "plannedDays": 3
+        }
+      ]
+    },
+    {
+      "id": "great-plains",
+      "stops": [
+        {
+          "id": "rushmore-badlands-wind-cave",
+          "order": 1,
+          "name": "Rushmore, Badlands & Wind Cave",
+          "state": "SD",
+          "plannedDays": 5
+        },
+        {
+          "id": "deadwood",
+          "order": 2,
+          "name": "Deadwood",
+          "state": "SD",
+          "plannedDays": 2
+        },
+        {
+          "id": "wall-drug",
+          "order": 3,
+          "name": "Wall Drug",
+          "state": "SD",
+          "plannedDays": 1
+        },
+        {
+          "id": "pierre",
+          "order": 4,
+          "name": "Pierre",
+          "state": "SD",
+          "plannedDays": 2
+        },
+        {
+          "id": "bismarck-theodore-roosevelt-np",
+          "order": 5,
+          "name": "Bismarck & Theodore Roosevelt NP",
+          "state": "ND",
+          "plannedDays": 4
+        },
+        {
+          "id": "fargo",
+          "order": 6,
+          "name": "Fargo",
+          "state": "ND",
+          "plannedDays": 1
+        },
+        {
+          "id": "mitchell-corn-palace-sioux-falls",
+          "order": 7,
+          "name": "Mitchell (Corn Palace) & Sioux Falls",
+          "state": "SD",
+          "plannedDays": 2
+        },
+        {
+          "id": "carhenge-scottsbluff",
+          "order": 8,
+          "name": "Carhenge & Scottsbluff",
+          "state": "NE",
+          "plannedDays": 2
+        },
+        {
+          "id": "omaha",
+          "order": 9,
+          "name": "Omaha",
+          "state": "NE",
+          "plannedDays": 3
+        },
+        {
+          "id": "lincoln",
+          "order": 10,
+          "name": "Lincoln",
+          "state": "NE",
+          "plannedDays": 2
+        },
+        {
+          "id": "abilene",
+          "order": 11,
+          "name": "Abilene",
+          "state": "KS",
+          "plannedDays": 1
+        },
+        {
+          "id": "topeka",
+          "order": 12,
+          "name": "Topeka",
+          "state": "KS",
+          "plannedDays": 2
+        },
+        {
+          "id": "wichita",
+          "order": 13,
+          "name": "Wichita",
+          "state": "KS",
+          "plannedDays": 2
+        },
+        {
+          "id": "dodge-city-the-flint-hills",
+          "order": 14,
+          "name": "Dodge City & the Flint Hills",
+          "state": "KS",
+          "plannedDays": 2
+        },
+        {
+          "id": "cawker-city",
+          "order": 15,
+          "name": "Cawker City",
+          "state": "KS",
+          "plannedDays": 1
+        }
+      ]
+    },
+    {
+      "id": "upper-midwest-great-lakes",
+      "stops": [
+        {
+          "id": "kansas-city",
+          "order": 1,
+          "name": "Kansas City",
+          "state": "MO",
+          "plannedDays": 3
+        },
+        {
+          "id": "independence",
+          "order": 2,
+          "name": "Independence",
+          "state": "MO",
+          "plannedDays": 1
+        },
+        {
+          "id": "st-louis",
+          "order": 3,
+          "name": "St. Louis (Gateway Arch NP)",
+          "state": "MO",
+          "plannedDays": 3
+        },
+        {
+          "id": "hannibal",
+          "order": 4,
+          "name": "Hannibal",
+          "state": "MO",
+          "plannedDays": 1
+        },
+        {
+          "id": "branson",
+          "order": 5,
+          "name": "Branson",
+          "state": "MO",
+          "plannedDays": 2
+        },
+        {
+          "id": "jefferson-city",
+          "order": 6,
+          "name": "Jefferson City",
+          "state": "MO",
+          "plannedDays": 1
+        },
+        {
+          "id": "des-moines",
+          "order": 7,
+          "name": "Des Moines",
+          "state": "IA",
+          "plannedDays": 2
+        },
+        {
+          "id": "amana-colonies-field-of-dreams",
+          "order": 8,
+          "name": "Amana Colonies & Field of Dreams",
+          "state": "IA",
+          "plannedDays": 2
+        },
+        {
+          "id": "minneapolis-st-paul",
+          "order": 9,
+          "name": "Minneapolis–St. Paul",
+          "state": "MN",
+          "plannedDays": 5
+        },
+        {
+          "id": "duluth-the-north-shore",
+          "order": 10,
+          "name": "Duluth & the North Shore",
+          "state": "MN",
+          "plannedDays": 2
+        },
+        {
+          "id": "voyageurs-np-boundary-waters",
+          "order": 11,
+          "name": "Voyageurs NP & Boundary Waters",
+          "state": "MN",
+          "plannedDays": 3
+        },
+        {
+          "id": "madison",
+          "order": 12,
+          "name": "Madison",
+          "state": "WI",
+          "plannedDays": 2
+        },
+        {
+          "id": "wisconsin-dells",
+          "order": 13,
+          "name": "Wisconsin Dells",
+          "state": "WI",
+          "plannedDays": 2
+        },
+        {
+          "id": "spring-green-house-on-the-rock",
+          "order": 14,
+          "name": "Spring Green (House on the Rock)",
+          "state": "WI",
+          "plannedDays": 1
+        },
+        {
+          "id": "milwaukee",
+          "order": 15,
+          "name": "Milwaukee",
+          "state": "WI",
+          "plannedDays": 3
+        },
+        {
+          "id": "green-bay",
+          "order": 16,
+          "name": "Green Bay",
+          "state": "WI",
+          "plannedDays": 1
+        },
+        {
+          "id": "door-county",
+          "order": 17,
+          "name": "Door County",
+          "state": "WI",
+          "plannedDays": 2
+        },
+        {
+          "id": "chicago",
+          "order": 18,
+          "name": "Chicago",
+          "state": "IL",
+          "plannedDays": 8
+        },
+        {
+          "id": "galena",
+          "order": 19,
+          "name": "Galena",
+          "state": "IL",
+          "plannedDays": 2
+        },
+        {
+          "id": "springfield",
+          "order": 20,
+          "name": "Springfield",
+          "state": "IL",
+          "plannedDays": 2
+        },
+        {
+          "id": "indianapolis",
+          "order": 21,
+          "name": "Indianapolis",
+          "state": "IN",
+          "plannedDays": 3
+        },
+        {
+          "id": "indiana-dunes-np",
+          "order": 22,
+          "name": "Indiana Dunes NP",
+          "state": "IN",
+          "plannedDays": 1
+        },
+        {
+          "id": "grand-rapids",
+          "order": 23,
+          "name": "Grand Rapids",
+          "state": "MI",
+          "plannedDays": 2
+        },
+        {
+          "id": "frankenmuth-holland",
+          "order": 24,
+          "name": "Frankenmuth & Holland",
+          "state": "MI",
+          "plannedDays": 2
+        },
+        {
+          "id": "detroit",
+          "order": 25,
+          "name": "Detroit",
+          "state": "MI",
+          "plannedDays": 4
+        },
+        {
+          "id": "lansing",
+          "order": 26,
+          "name": "Lansing",
+          "state": "MI",
+          "plannedDays": 1
+        },
+        {
+          "id": "mackinac-island-traverse-city",
+          "order": 27,
+          "name": "Mackinac Island & Traverse City",
+          "state": "MI",
+          "plannedDays": 3
+        },
+        {
+          "id": "cleveland-cuyahoga-valley-np",
+          "order": 28,
+          "name": "Cleveland & Cuyahoga Valley NP",
+          "state": "OH",
+          "plannedDays": 4
+        },
+        {
+          "id": "columbus",
+          "order": 29,
+          "name": "Columbus",
+          "state": "OH",
+          "plannedDays": 2
+        },
+        {
+          "id": "dayton",
+          "order": 30,
+          "name": "Dayton",
+          "state": "OH",
+          "plannedDays": 2
+        },
+        {
+          "id": "cincinnati",
+          "order": 31,
+          "name": "Cincinnati",
+          "state": "OH",
+          "plannedDays": 2
+        }
+      ]
+    },
+    {
+      "id": "appalachia-return",
+      "stops": [
+        {
+          "id": "pittsburgh",
+          "order": 1,
+          "name": "Pittsburgh",
+          "state": "PA",
+          "plannedDays": 4
+        },
+        {
+          "id": "fallingwater-laurel-highlands",
+          "order": 2,
+          "name": "Fallingwater & Laurel Highlands",
+          "state": "PA",
+          "plannedDays": 2
+        },
+        {
+          "id": "new-river-gorge-np",
+          "order": 3,
+          "name": "New River Gorge NP",
+          "state": "WV",
+          "plannedDays": 3
+        },
+        {
+          "id": "seneca-rocks-monongahela",
+          "order": 4,
+          "name": "Seneca Rocks & Monongahela",
+          "state": "WV",
+          "plannedDays": 2
+        },
+        {
+          "id": "charleston-wv",
+          "order": 5,
+          "name": "Charleston",
+          "state": "WV",
+          "plannedDays": 2
+        },
+        {
+          "id": "harpers-ferry",
+          "order": 6,
+          "name": "Harpers Ferry",
+          "state": "WV",
+          "plannedDays": 2
+        },
+        {
+          "id": "berkeley-springs",
+          "order": 7,
+          "name": "Berkeley Springs",
+          "state": "WV",
+          "plannedDays": 1
+        },
+        {
+          "id": "niagara-falls-buffalo",
+          "order": 8,
+          "name": "Niagara Falls & Buffalo",
+          "state": "NY",
+          "plannedDays": 3
+        },
+        {
+          "id": "cooperstown",
+          "order": 9,
+          "name": "Cooperstown",
+          "state": "NY",
+          "plannedDays": 2
+        },
+        {
+          "id": "corning",
+          "order": 10,
+          "name": "Corning",
+          "state": "NY",
+          "plannedDays": 1
+        },
+        {
+          "id": "finger-lakes",
+          "order": 11,
+          "name": "Finger Lakes",
+          "state": "NY",
+          "plannedDays": 3
+        }
+      ]
+    }
+  ]
+}

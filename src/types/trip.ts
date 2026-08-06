@@ -10,6 +10,8 @@ import type {
   foodMustTrySchema,
   itemLocationSchema,
   itemSchema,
+  planSchema,
+  plannedStopSchema,
   lodgingSchema,
   regionMetaSchema,
   stopSchema,
@@ -38,3 +40,6 @@ export type Region = RegionMeta & { stops: Stop[] };
 
 /** The whole assembled tree: trip → region → stop → day → block → item. */
 export type Trip = TripMeta & { regions: Region[] };
+
+export type PlannedStop = z.infer<typeof plannedStopSchema>;
+export type Plan = z.infer<typeof planSchema>;

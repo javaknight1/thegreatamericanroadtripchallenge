@@ -3,8 +3,11 @@
   "name": "Portland",
   "state": "ME",
   "country": "US",
-  "order": 2,
-  "location": { "lat": 43.6591, "lng": -70.2568 },
+  "order": 9,
+  "location": {
+    "lat": 43.6591,
+    "lng": -70.2568
+  },
   "summary": "Working waterfront, lighthouses, and arguably the best food per square mile in America.",
   "seasonalTip": "Early October: the harbor is still open for cruises and the crowds have gone home.",
   "lodging": [
@@ -48,7 +51,10 @@
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Portland%20Head%20Light"
             },
             "blurb": "Commissioned by George Washington, lit since 1791, and the single most photographed lighthouse in the country. Go at sunrise and it's yours alone.",
-            "gear": ["layers for coastal wind", "camera"]
+            "gear": [
+              "layers for coastal wind",
+              "camera"
+            ]
           }
         },
         {
@@ -86,7 +92,9 @@
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20Port%20Portland%20Maine"
             },
             "blurb": "Cobblestones, ship chandlers turned bookshops, and a harbor that still works for a living.",
-            "gear": ["comfortable walking shoes"]
+            "gear": [
+              "comfortable walking shoes"
+            ]
           }
         }
       ]
@@ -114,7 +122,11 @@
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Casco%20Bay%20Lines%20Ferry%20Terminal"
             },
             "blurb": "Ride along as the ferry delivers mail to the island communities — the cheapest, most local boat tour in New England.",
-            "gear": ["rain shell", "layers for coastal wind", "binoculars"]
+            "gear": [
+              "rain shell",
+              "layers for coastal wind",
+              "binoculars"
+            ]
           }
         },
         {

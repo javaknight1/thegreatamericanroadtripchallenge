@@ -1,9 +1,9 @@
 {
   "id": "acadia",
-  "name": "Acadia National Park",
+  "name": "Bar Harbor & Acadia NP",
   "state": "ME",
   "country": "US",
-  "order": 3,
+  "order": 12,
   "location": {
     "lat": 44.3386,
     "lng": -68.2733

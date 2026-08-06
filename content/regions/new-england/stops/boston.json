@@ -4,7 +4,10 @@
   "state": "MA",
   "country": "US",
   "order": 1,
-  "location": { "lat": 42.3601, "lng": -71.0589 },
+  "location": {
+    "lat": 42.3601,
+    "lng": -71.0589
+  },
   "summary": "The trip's opening act — colonial history, a ballgame, and chowder.",
   "seasonalTip": "Arrive late September for a Red Sox game before the season ends.",
   "lodging": [
@@ -48,7 +51,9 @@
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Freedom%20Trail%20Boston%20Common"
             },
             "blurb": "A 2.5-mile red line through 16 colonial-era sites — the essential Boston primer, and the best possible first walk of the entire trip.",
-            "gear": ["comfortable walking shoes"]
+            "gear": [
+              "comfortable walking shoes"
+            ]
           }
         },
         {
@@ -87,7 +92,9 @@
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Hanover%20Street%20North%20End%20Boston"
             },
             "blurb": "Boston's Italian quarter: narrow streets, Paul Revere's house, and the cannoli argument you're about to settle.",
-            "gear": ["comfortable walking shoes"]
+            "gear": [
+              "comfortable walking shoes"
+            ]
           }
         },
         {
@@ -107,7 +114,9 @@
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Fenway%20Park"
             },
             "blurb": "The oldest ballpark in the majors — catch the season before it closes in early October.",
-            "gear": ["layers for evening chill"]
+            "gear": [
+              "layers for evening chill"
+            ]
           }
         }
       ]
@@ -153,7 +162,9 @@
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Charles%20River%20Esplanade"
             },
             "blurb": "The city's front lawn: sailboats, skyline, and the bridge across to Harvard Square.",
-            "gear": ["comfortable walking shoes"]
+            "gear": [
+              "comfortable walking shoes"
+            ]
           }
         },
         {
