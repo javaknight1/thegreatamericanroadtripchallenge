@@ -7,9 +7,8 @@ is the list to work from once the loop is fully written.
 Rob's standing instruction: add suggestions here as they come up, without asking
 first. Items are only removed when they're resolved or explicitly dropped.
 
-Last updated at **201 stops · 605 days · 695 items · 39 states** — eleven legs
-complete plus the Great Plains in progress (8 of its 15 stops), days 1–605
-contiguous.
+Last updated at **208 stops · 621 days · 706 items · 40 states** — twelve legs of
+fourteen complete, days 1–621 contiguous, entering the Midwest.
 
 ---
 
@@ -32,11 +31,18 @@ data doesn't back that up.
 | Pacific Northwest | 2 / 48 (4%) | **23 days**, through day 503 |
 | Northern Rockies | 2 / 38 (5%) | 14 days, through day 530 |
 | Colorado Rockies | 2 / 30 (7%) | 19 days, through day 584 |
+| Great Plains | 1 / 37 (3%) | **31 days**, through day 621 |
 
-The Deep South run is the one I'd fix first: **days 256–285** is thirty straight
-days without one, and it covers the heaviest material in the trip — Whitney
-Plantation, Birmingham, the Legacy Museum, the Pettus Bridge, the National Civil
-Rights Museum. That's a lot to absorb back to back.
+**The Great Plains is now the worst leg in the trip on both measures** — a single
+free day in 37 (3%), and a 31-day run from day 591 all the way to the leg's end
+at 621. Every stop from Deadwood to Topeka is 1–4 days with no breather, and
+several are long prairie transfers. The Deep South's 30-day run (days 256–285)
+is now second.
+
+That Deep South stretch is still the one I'd fix first, because of what it
+covers — Whitney Plantation, Birmingham, the Legacy Museum, the Pettus Bridge,
+the National Civil Rights Museum, back to back with no room to absorb any of it.
+The Plains run is longer but much lighter going.
 
 **Suggestion:** now that rest is a block rather than a whole-day type, the cheap
 fix is a half-day rest event inside an existing day rather than adding days. A
@@ -283,13 +289,12 @@ order I'd pick them:
 
 ## 9. Where the trip stands
 
-Written: legs 1–11 complete, plus the Great Plains through Sioux Falls — days
-1–605. Remaining: the rest of the Great Plains, Upper Midwest & Great Lakes,
-Appalachia Return — 49 of 250 stops.
+Written: legs 1–12 complete — days 1–621, at the Missouri line.
+Remaining: Upper Midwest & Great Lakes, Appalachia Return — 42 of 250 stops.
 
-Capitals: **38 of 48 capital cities written** — Pierre (day 596) and Bismarck
-(day 598) join. Still to come: Springfield, Indianapolis, Des Moines, Topeka,
-Lansing, Saint Paul, Jefferson City, Lincoln, Columbus, Madison.
+Capitals: **40 of 48 capital cities written** — Lincoln (day 609) and Topeka (day
+620) join. Eight left: Springfield, Indianapolis, Des Moines, Lansing, Saint
+Paul, Jefferson City, Columbus, Madison — all in the two remaining legs.
 
 **The capitals check can produce false positives.** `scripts/dev/audit.ts`
 matches a capital by testing whether any stop name *contains* the city name, so

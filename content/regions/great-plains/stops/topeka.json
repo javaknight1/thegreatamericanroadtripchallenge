@@ -1,0 +1,83 @@
+{
+  "id": "topeka",
+  "name": "Topeka",
+  "state": "KS",
+  "country": "US",
+  "order": 15,
+  "location": {
+    "lat": 39.0473,
+    "lng": -95.6752
+  },
+  "summary": "Kansas's capital, with a climbable dome and the landmark civil-rights site where school segregation was struck down. The last stop on the plains.",
+  "lodging": [
+    {
+      "name": "A downtown Topeka hotel",
+      "blurb": "Near the Capitol.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Topeka%20Kansas%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A heartland diner breakfast",
+      "blurb": "Before the run to Kansas City."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 620,
+      "label": "Day 620 — Capitol & Civil Rights",
+      "type": "active",
+      "summary": "The dome and Brown v. Board.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "topeka-capitol",
+            "title": "Kansas State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Kansas State Capitol",
+              "address": "300 SW 10th Ave, Topeka, KS",
+              "lat": 39.0473,
+              "lng": -95.678,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Kansas%20State%20Capitol"
+            },
+            "blurb": "Climb the dome past John Brown in the 'Tragic Prelude' mural."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "topeka-brown-v-board",
+            "title": "Brown v. Board of Education NHS",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Brown v. Board of Education National Historical Park",
+              "address": "1515 SE Monroe St, Topeka, KS",
+              "lat": 39.035,
+              "lng": -95.676,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Brown%20v.%20Board%20of%20Education%20National%20Historical%20Park"
+            },
+            "blurb": "The former segregated school at the heart of the case that ended 'separate but equal.'"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 621,
+      "label": "Day 621 — East to Kansas City",
+      "type": "commute",
+      "summary": "Into the Midwest.",
+      "commute": {
+        "from": "Topeka, KS",
+        "to": "Kansas City, MO",
+        "driveTimeMins": 60,
+        "scenicNote": "East to Kansas City — the Great Plains are done."
+      }
+    }
+  ]
+}

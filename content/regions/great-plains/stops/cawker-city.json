@@ -1,0 +1,65 @@
+{
+  "id": "cawker-city",
+  "name": "Cawker City",
+  "state": "KS",
+  "country": "US",
+  "order": 11,
+  "location": {
+    "lat": 39.5097,
+    "lng": -98.4342
+  },
+  "summary": "A tiny Kansas town with one enormous claim to fame — the world's largest ball of sisal twine, and you can add to it.",
+  "lodging": [
+    {
+      "name": "A Beloit or Cawker City motel",
+      "blurb": "Small-town north-central Kansas.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Cawker%20City%20Kansas%20motel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Small-town diner pie",
+      "blurb": "Classic Kansas main-street fare."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 611,
+      "label": "Day 611 — The Ball of Twine",
+      "type": "active",
+      "summary": "Add a wrap.",
+      "blocks": [
+        {
+          "start": "11:00 AM",
+          "item": {
+            "id": "cawker-city-twine",
+            "title": "World's Largest Ball of Twine",
+            "categoryId": "quirky",
+            "tier": "anchor",
+            "durationMins": 60,
+            "location": {
+              "name": "World's Largest Ball of Twine",
+              "address": "719 Wisconsin St, Cawker City, KS",
+              "lat": 39.5097,
+              "lng": -98.4342,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=World%27s%20Largest%20Ball%20of%20Twine"
+            },
+            "blurb": "Over 8 million feet of twine, wound since 1953 — and visitors are invited to add to it."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 612,
+      "label": "Day 612 — Southwest to Dodge",
+      "type": "commute",
+      "summary": "To the Old West.",
+      "commute": {
+        "from": "Cawker City, KS",
+        "to": "Dodge City, KS",
+        "driveTimeMins": 180,
+        "scenicNote": "Southwest across the plains to Dodge City."
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "wichita",
+  "name": "Wichita",
+  "state": "KS",
+  "country": "US",
+  "order": 13,
+  "location": {
+    "lat": 37.6872,
+    "lng": -97.3301
+  },
+  "summary": "Kansas's biggest city on the Arkansas River — a striking riverfront sculpture, an Old West cowtown, and aviation heritage.",
+  "lodging": [
+    {
+      "name": "An Old Town Wichita hotel",
+      "blurb": "Near the river and the nightlife.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20Town%20Wichita%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Kansas City-style BBQ",
+      "blurb": "Smoked meats, Kansas-style."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 616,
+      "label": "Day 616 — Plains & Cowtown",
+      "type": "active",
+      "summary": "The river sculpture and the Old West.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "wichita-keeper",
+            "title": "Keeper of the Plains & Old Cowtown",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Keeper of the Plains",
+              "address": "650 N Seneca St, Wichita, KS",
+              "lat": 37.689,
+              "lng": -97.345,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Keeper%20of%20the%20Plains"
+            },
+            "blurb": "The giant steel sculpture at the river confluence (with its evening ring of fire), and the Old Cowtown living-history museum."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 617,
+      "label": "Day 617 — North to Abilene",
+      "type": "commute",
+      "summary": "To Ike's hometown.",
+      "commute": {
+        "from": "Wichita, KS",
+        "to": "Abilene, KS",
+        "driveTimeMins": 90,
+        "scenicNote": "North to Abilene."
+      }
+    }
+  ]
+}

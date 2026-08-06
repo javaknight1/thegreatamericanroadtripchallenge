@@ -1,0 +1,83 @@
+{
+  "id": "lincoln",
+  "name": "Lincoln",
+  "state": "NE",
+  "country": "US",
+  "order": 10,
+  "location": {
+    "lat": 40.8136,
+    "lng": -96.7026
+  },
+  "summary": "Nebraska's capital and college town — a striking tower of a statehouse, a passionate football culture, and a lively old warehouse district.",
+  "lodging": [
+    {
+      "name": "A Haymarket hotel",
+      "blurb": "In the restored warehouse district.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Haymarket%20Lincoln%20Nebraska%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Runza",
+      "blurb": "Nebraska's stuffed bread pocket."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 609,
+      "label": "Day 609 — The Tower Capitol",
+      "type": "active",
+      "summary": "The Sower and the Haymarket.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "lincoln-capitol",
+            "title": "Nebraska State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Nebraska State Capitol",
+              "address": "1445 K St, Lincoln, NE",
+              "lat": 40.808,
+              "lng": -96.6994,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Nebraska%20State%20Capitol"
+            },
+            "blurb": "The Art Deco tower topped by 'The Sower,' home of the nation's only one-house legislature."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "lincoln-haymarket",
+            "title": "The Haymarket & Sunken Gardens",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Historic Haymarket",
+              "address": "N 8th St, Lincoln, NE",
+              "lat": 40.817,
+              "lng": -96.708,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Historic%20Haymarket"
+            },
+            "blurb": "The restored warehouse district and the lovely Sunken Gardens (Husker red everywhere on game days)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 610,
+      "label": "Day 610 — South into Kansas",
+      "type": "commute",
+      "summary": "To a giant ball of twine.",
+      "commute": {
+        "from": "Lincoln, NE",
+        "to": "Cawker City, KS",
+        "driveTimeMins": 150,
+        "scenicNote": "South across the border into Kansas."
+      }
+    }
+  ]
+}

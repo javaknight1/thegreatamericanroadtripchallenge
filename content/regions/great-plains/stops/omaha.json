@@ -1,0 +1,94 @@
+{
+  "id": "omaha",
+  "name": "Omaha",
+  "state": "NE",
+  "country": "US",
+  "order": 9,
+  "location": {
+    "lat": 41.2565,
+    "lng": -95.9345
+  },
+  "summary": "Nebraska's biggest city on the Missouri — a world-class zoo, a cobblestone Old Market, and a bridge you can walk into Iowa on.",
+  "lodging": [
+    {
+      "name": "An Old Market hotel",
+      "blurb": "In the cobblestone entertainment district.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20Market%20Omaha%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "An Omaha steak & a Reuben",
+      "blurb": "Steak country — and the Reuben was reportedly invented here."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 606,
+      "label": "Day 606 — The Zoo",
+      "type": "active",
+      "summary": "One of the world's great zoos.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "omaha-zoo",
+            "title": "Henry Doorly Zoo",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Henry Doorly Zoo",
+              "address": "3701 S 10th St, Omaha, NE",
+              "lat": 41.228,
+              "lng": -95.925,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Henry%20Doorly%20Zoo"
+            },
+            "blurb": "Consistently rated among the best zoos on earth — the Desert Dome, the Lied Jungle, and a walk-through aquarium.",
+            "gear": [
+              "walking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 607,
+      "label": "Day 607 — Old Market & the River",
+      "type": "active",
+      "summary": "Downtown and a river walk.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "omaha-old-market",
+            "title": "The Old Market & Bob Kerrey Bridge",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Omaha Old Market",
+              "address": "10th & Howard St, Omaha, NE",
+              "lat": 41.256,
+              "lng": -95.926,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Omaha%20Old%20Market"
+            },
+            "blurb": "Cobblestone streets of shops and cafes, the Durham Museum in the old train station, and a walk across the Missouri to Iowa."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 608,
+      "label": "Day 608 — West to Lincoln",
+      "type": "commute",
+      "summary": "To the state capital.",
+      "commute": {
+        "from": "Omaha, NE",
+        "to": "Lincoln, NE",
+        "driveTimeMins": 60,
+        "scenicNote": "Southwest to Lincoln."
+      }
+    }
+  ]
+}

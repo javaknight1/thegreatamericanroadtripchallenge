@@ -1,0 +1,65 @@
+{
+  "id": "abilene",
+  "name": "Abilene",
+  "state": "KS",
+  "country": "US",
+  "order": 14,
+  "location": {
+    "lat": 38.9172,
+    "lng": -97.2137
+  },
+  "summary": "A former end-of-the-line cattle town that raised a president — home to the Eisenhower Presidential Library.",
+  "lodging": [
+    {
+      "name": "An Abilene hotel",
+      "blurb": "Near the Eisenhower complex.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Abilene%20Kansas%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Fried chicken, Kansas-style",
+      "blurb": "Classic heartland cooking."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 618,
+      "label": "Day 618 — Ike & the Old West",
+      "type": "active",
+      "summary": "A presidential library and a cattle town.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "abilene-eisenhower",
+            "title": "Eisenhower Presidential Library",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Dwight D. Eisenhower Presidential Library",
+              "address": "200 SE 4th St, Abilene, KS",
+              "lat": 38.917,
+              "lng": -97.211,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Dwight%20D.%20Eisenhower%20Presidential%20Library"
+            },
+            "blurb": "The library, museum, boyhood home, and grave of the 34th president, plus Old Abilene Town where Wild Bill Hickok was marshal."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 619,
+      "label": "Day 619 — East to Topeka",
+      "type": "commute",
+      "summary": "To the capital.",
+      "commute": {
+        "from": "Abilene, KS",
+        "to": "Topeka, KS",
+        "driveTimeMins": 90,
+        "scenicNote": "East to Topeka."
+      }
+    }
+  ]
+}

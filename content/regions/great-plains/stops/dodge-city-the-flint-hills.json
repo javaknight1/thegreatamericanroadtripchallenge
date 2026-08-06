@@ -1,0 +1,95 @@
+{
+  "id": "dodge-city-the-flint-hills",
+  "name": "Dodge City & the Flint Hills",
+  "state": "KS",
+  "country": "US",
+  "order": 12,
+  "location": {
+    "lat": 37.7528,
+    "lng": -100.0171
+  },
+  "summary": "The rowdiest cattle town of the Old West, and the last great swath of tallgrass prairie in America.",
+  "lodging": [
+    {
+      "name": "A Dodge City hotel, then the Flint Hills",
+      "blurb": "Old West first, prairie second.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Dodge%20City%20Kansas%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Kansas beef steak",
+      "blurb": "In the heart of cattle country."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 613,
+      "label": "Day 613 — Dodge City",
+      "type": "active",
+      "summary": "Get out of Dodge.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "dodge-city-boot-hill",
+            "title": "Boot Hill Museum & Front Street",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Boot Hill Museum",
+              "address": "500 W Wyatt Earp Blvd, Dodge City, KS",
+              "lat": 37.7528,
+              "lng": -100.0171,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Boot%20Hill%20Museum"
+            },
+            "blurb": "The reconstructed Front Street, the Long Branch Saloon, and the cattle-town legend of Wyatt Earp and 'Gunsmoke.'"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 614,
+      "label": "Day 614 — The Flint Hills",
+      "type": "active",
+      "summary": "The tallgrass prairie.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "flint-hills-tallgrass",
+            "title": "Tallgrass Prairie National Preserve",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Tallgrass Prairie National Preserve",
+              "address": "2480B KS-177, Strong City, KS",
+              "lat": 38.434,
+              "lng": -96.558,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Tallgrass%20Prairie%20National%20Preserve"
+            },
+            "blurb": "Drive east into the rolling Flint Hills to walk the last major stand of tallgrass prairie, with its bison herd.",
+            "gear": [
+              "water",
+              "sun protection"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 615,
+      "label": "Day 615 — South to Wichita",
+      "type": "commute",
+      "summary": "To the Air Capital.",
+      "commute": {
+        "from": "Flint Hills, KS",
+        "to": "Wichita, KS",
+        "driveTimeMins": 90,
+        "scenicNote": "Southwest to Wichita."
+      }
+    }
+  ]
+}

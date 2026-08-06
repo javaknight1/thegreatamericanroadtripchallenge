@@ -1411,6 +1411,13 @@
       "id": "great-plains",
       "stops": [
         {
+          "id": "carhenge-scottsbluff",
+          "order": 8,
+          "name": "Carhenge & Scottsbluff",
+          "state": "NE",
+          "plannedDays": 2
+        },
+        {
           "id": "rushmore-badlands-wind-cave",
           "order": 1,
           "name": "Rushmore, Badlands & Wind Cave",
@@ -1460,13 +1467,6 @@
           "plannedDays": 2
         },
         {
-          "id": "carhenge-scottsbluff",
-          "order": 8,
-          "name": "Carhenge & Scottsbluff",
-          "state": "NE",
-          "plannedDays": 2
-        },
-        {
           "id": "omaha",
           "order": 9,
           "name": "Omaha",
@@ -1478,6 +1478,27 @@
           "order": 10,
           "name": "Lincoln",
           "state": "NE",
+          "plannedDays": 2
+        },
+        {
+          "id": "cawker-city",
+          "order": 15,
+          "name": "Cawker City",
+          "state": "KS",
+          "plannedDays": 1
+        },
+        {
+          "id": "dodge-city-the-flint-hills",
+          "order": 14,
+          "name": "Dodge City & the Flint Hills",
+          "state": "KS",
+          "plannedDays": 2
+        },
+        {
+          "id": "wichita",
+          "order": 13,
+          "name": "Wichita",
+          "state": "KS",
           "plannedDays": 2
         },
         {
@@ -1493,27 +1514,6 @@
           "name": "Topeka",
           "state": "KS",
           "plannedDays": 2
-        },
-        {
-          "id": "wichita",
-          "order": 13,
-          "name": "Wichita",
-          "state": "KS",
-          "plannedDays": 2
-        },
-        {
-          "id": "dodge-city-the-flint-hills",
-          "order": 14,
-          "name": "Dodge City & the Flint Hills",
-          "state": "KS",
-          "plannedDays": 2
-        },
-        {
-          "id": "cawker-city",
-          "order": 15,
-          "name": "Cawker City",
-          "state": "KS",
-          "plannedDays": 1
         }
       ]
     },
