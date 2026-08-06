@@ -1,0 +1,83 @@
+{
+  "id": "eureka-springs",
+  "name": "Eureka Springs",
+  "state": "AR",
+  "country": "US",
+  "order": 24,
+  "location": {
+    "lat": 36.4012,
+    "lng": -93.7377
+  },
+  "summary": "A whole Victorian resort town clinging to the Ozark hillsides — steep winding streets, healing springs, and a famous glass chapel in the woods.",
+  "lodging": [
+    {
+      "name": "A Victorian Eureka Springs inn",
+      "blurb": "A gingerbread hotel on the steep streets.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Eureka%20Springs%20Victorian%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Ozark trout & pie",
+      "blurb": "Mountain trout and a slice at a historic café."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 312,
+      "label": "Day 312 — The Victorian Ozarks",
+      "type": "active",
+      "summary": "Steep streets and a glass chapel.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "eureka-springs-downtown",
+            "title": "Historic downtown & the springs",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Downtown Eureka Springs",
+              "address": "Spring St, Eureka Springs, AR",
+              "lat": 36.4012,
+              "lng": -93.7377,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Downtown%20Eureka%20Springs"
+            },
+            "blurb": "The entire downtown is on the National Register — winding streets, springs, galleries, and no traffic lights."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "eureka-springs-thorncrown",
+            "title": "Thorncrown Chapel",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 60,
+            "location": {
+              "name": "Thorncrown Chapel",
+              "address": "12968 US-62, Eureka Springs, AR",
+              "lat": 36.418,
+              "lng": -93.7,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Thorncrown%20Chapel"
+            },
+            "blurb": "A soaring 48-ft glass chapel with 425 windows, tucked into the Ozark woods — a modern architectural gem."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 313,
+      "label": "Day 313 — West to Bentonville",
+      "type": "commute",
+      "summary": "Over to the art town.",
+      "commute": {
+        "from": "Eureka Springs, AR",
+        "to": "Bentonville, AR",
+        "driveTimeMins": 75,
+        "scenicNote": "West across the Ozarks to Bentonville."
+      }
+    }
+  ]
+}

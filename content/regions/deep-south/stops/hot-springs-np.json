@@ -1,0 +1,68 @@
+{
+  "id": "hot-springs-np",
+  "name": "Hot Springs National Park",
+  "state": "AR",
+  "country": "US",
+  "order": 23,
+  "location": {
+    "lat": 34.5133,
+    "lng": -93.0537
+  },
+  "summary": "'The American Spa' — a national park that runs right into town, where you can still soak in 143°F waters along a grand row of historic bathhouses.",
+  "lodging": [
+    {
+      "name": "A historic Hot Springs hotel",
+      "blurb": "On or near Bathhouse Row.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Hot%20Springs%20Arkansas%20historic%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A soak, then a Southern supper",
+      "blurb": "Bathe first, eat after."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 310,
+      "label": "Day 310 — Bathhouse Row",
+      "type": "active",
+      "summary": "Soak where gangsters and ballplayers did.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "hot-springs-np-bathhouse-row",
+            "title": "Bathhouse Row & a thermal soak",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Hot Springs National Park",
+              "address": "369 Central Ave, Hot Springs, AR",
+              "lat": 34.5133,
+              "lng": -93.0537,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Hot%20Springs%20National%20Park"
+            },
+            "blurb": "Tour the ornate Fordyce Bathhouse, then take a traditional soak at the Buckstaff or Quapaw, and walk the Grand Promenade.",
+            "gear": [
+              "swimsuit"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 311,
+      "label": "Day 311 — North to Eureka Springs",
+      "type": "commute",
+      "summary": "Up into the Ozarks.",
+      "commute": {
+        "from": "Hot Springs National Park, AR",
+        "to": "Eureka Springs, AR",
+        "driveTimeMins": 180,
+        "scenicNote": "North through the Ouachitas and Ozarks."
+      }
+    }
+  ]
+}

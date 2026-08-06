@@ -557,34 +557,6 @@
       "id": "deep-south",
       "stops": [
         {
-          "id": "birmingham",
-          "order": 1,
-          "name": "Birmingham",
-          "state": "AL",
-          "plannedDays": 2
-        },
-        {
-          "id": "muscle-shoals",
-          "order": 2,
-          "name": "Muscle Shoals",
-          "state": "AL",
-          "plannedDays": 1
-        },
-        {
-          "id": "huntsville",
-          "order": 3,
-          "name": "Huntsville",
-          "state": "AL",
-          "plannedDays": 2
-        },
-        {
-          "id": "montgomery-selma",
-          "order": 4,
-          "name": "Montgomery & Selma",
-          "state": "AL",
-          "plannedDays": 3
-        },
-        {
           "id": "mobile",
           "order": 5,
           "name": "Mobile",
@@ -648,18 +620,32 @@
           "plannedDays": 1
         },
         {
-          "id": "memphis",
-          "order": 14,
-          "name": "Memphis",
-          "state": "TN",
-          "plannedDays": 4
+          "id": "muscle-shoals",
+          "order": 2,
+          "name": "Muscle Shoals",
+          "state": "AL",
+          "plannedDays": 1
         },
         {
-          "id": "nashville",
-          "order": 15,
-          "name": "Nashville",
-          "state": "TN",
-          "plannedDays": 5
+          "id": "huntsville",
+          "order": 3,
+          "name": "Huntsville",
+          "state": "AL",
+          "plannedDays": 2
+        },
+        {
+          "id": "birmingham",
+          "order": 1,
+          "name": "Birmingham",
+          "state": "AL",
+          "plannedDays": 2
+        },
+        {
+          "id": "montgomery-selma",
+          "order": 4,
+          "name": "Montgomery & Selma",
+          "state": "AL",
+          "plannedDays": 3
         },
         {
           "id": "chattanooga",
@@ -676,6 +662,20 @@
           "plannedDays": 4
         },
         {
+          "id": "lexington-frankfort",
+          "order": 21,
+          "name": "Lexington & Frankfort",
+          "state": "KY",
+          "plannedDays": 3
+        },
+        {
+          "id": "louisville",
+          "order": 20,
+          "name": "Louisville",
+          "state": "KY",
+          "plannedDays": 3
+        },
+        {
           "id": "mammoth-cave-np",
           "order": 18,
           "name": "Mammoth Cave NP",
@@ -690,18 +690,18 @@
           "plannedDays": 1
         },
         {
-          "id": "louisville",
-          "order": 20,
-          "name": "Louisville",
-          "state": "KY",
-          "plannedDays": 3
+          "id": "nashville",
+          "order": 15,
+          "name": "Nashville",
+          "state": "TN",
+          "plannedDays": 5
         },
         {
-          "id": "lexington-frankfort",
-          "order": 21,
-          "name": "Lexington & Frankfort",
-          "state": "KY",
-          "plannedDays": 3
+          "id": "memphis",
+          "order": 14,
+          "name": "Memphis",
+          "state": "TN",
+          "plannedDays": 4
         },
         {
           "id": "little-rock",

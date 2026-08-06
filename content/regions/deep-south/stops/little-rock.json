@@ -1,0 +1,109 @@
+{
+  "id": "little-rock",
+  "name": "Little Rock",
+  "state": "AR",
+  "country": "US",
+  "order": 22,
+  "location": {
+    "lat": 34.7465,
+    "lng": -92.2896
+  },
+  "summary": "Arkansas's capital — the high school that tested Brown v. Board, a presidential library, and a revived riverfront.",
+  "lodging": [
+    {
+      "name": "A River Market district hotel",
+      "blurb": "Near the Clinton Library and the riverfront.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Little%20Rock%20River%20Market%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Arkansas smoked barbecue",
+      "blurb": "Pork ribs and smoked chicken."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 307,
+      "label": "Day 307 — Central High & the Capitol",
+      "type": "active",
+      "summary": "Where school desegregation was forced.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "little-rock-central-high",
+            "title": "Little Rock Central High School NHS",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Little Rock Central High School NHS",
+              "address": "2120 Daisy L Gatson Bates Dr, Little Rock, AR",
+              "lat": 34.736,
+              "lng": -92.298,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Little%20Rock%20Central%20High%20School%20NHS"
+            },
+            "blurb": "The still-operating school where the 'Little Rock Nine' integrated in 1957 under federal troops — a moving visitor center tells the story."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "little-rock-state-capitol",
+            "title": "Arkansas State Capitol",
+            "categoryId": "capitols",
+            "tier": "mid",
+            "durationMins": 75,
+            "location": {
+              "name": "Arkansas State Capitol",
+              "address": "500 Woodlane St, Little Rock, AR",
+              "lat": 34.7465,
+              "lng": -92.2896,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Arkansas%20State%20Capitol"
+            },
+            "blurb": "A near-scale replica of the U.S. Capitol, used as a stand-in in films."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 308,
+      "label": "Day 308 — The Clinton Library",
+      "type": "active",
+      "summary": "A presidential archive on the river.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "little-rock-clinton-library",
+            "title": "William J. Clinton Presidential Library",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Clinton Presidential Library",
+              "address": "1200 President Clinton Ave, Little Rock, AR",
+              "lat": 34.748,
+              "lng": -92.262,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Clinton%20Presidential%20Library"
+            },
+            "blurb": "The 42nd president's library and museum, cantilevered over the Arkansas River, plus the River Market district."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 309,
+      "label": "Day 309 — West to Hot Springs",
+      "type": "commute",
+      "summary": "Into the Ouachitas and the spa town.",
+      "commute": {
+        "from": "Little Rock, AR",
+        "to": "Hot Springs National Park, AR",
+        "driveTimeMins": 70,
+        "scenicNote": "Southwest into the mountains to the springs."
+      }
+    }
+  ]
+}

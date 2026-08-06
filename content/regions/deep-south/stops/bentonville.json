@@ -1,0 +1,84 @@
+{
+  "id": "bentonville",
+  "name": "Bentonville",
+  "state": "AR",
+  "country": "US",
+  "order": 25,
+  "location": {
+    "lat": 36.3729,
+    "lng": -94.2088
+  },
+  "summary": "Walmart's hometown, transformed by its fortune into a world-class American art museum and a mountain-biking mecca — the last stop before Texas.",
+  "lodging": [
+    {
+      "name": "A hotel near the Bentonville square",
+      "blurb": "Walkable to Crystal Bridges and the trails.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Bentonville%20Arkansas%20square%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "An Ozark farm-to-table dinner",
+      "blurb": "Bentonville's food scene has boomed with the museum crowd."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 314,
+      "label": "Day 314 — Crystal Bridges",
+      "type": "active",
+      "summary": "World-class American art in the Ozarks.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "1:30 PM",
+          "item": {
+            "id": "bentonville-crystal-bridges",
+            "title": "Crystal Bridges Museum of American Art",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Crystal Bridges Museum of American Art",
+              "address": "600 Museum Way, Bentonville, AR",
+              "lat": 36.382,
+              "lng": -94.203,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Crystal%20Bridges%20Museum%20of%20American%20Art"
+            },
+            "blurb": "Alice Walton's spectacular (free) museum of American art in a Moshe Safdie building over a spring-fed ravine — Gilbert Stuart to Warhol."
+          }
+        },
+        {
+          "start": "3:00 PM",
+          "item": {
+            "id": "bentonville-walmart-museum",
+            "title": "The Walmart Museum & the square",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Walmart Museum",
+              "address": "104 SE A St, Bentonville, AR",
+              "lat": 36.372,
+              "lng": -94.209,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Walmart%20Museum"
+            },
+            "blurb": "Sam Walton's original five-and-dime on the town square, plus the region's celebrated mountain-bike trails."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 315,
+      "label": "Day 315 — Into Oklahoma",
+      "type": "commute",
+      "summary": "West to Tulsa — the Deep South is done.",
+      "commute": {
+        "from": "Bentonville, AR",
+        "to": "Tulsa, OK",
+        "driveTimeMins": 95,
+        "scenicNote": "West into Oklahoma as the trip turns toward Texas and the Plains."
+      }
+    }
+  ]
+}

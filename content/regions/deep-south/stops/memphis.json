@@ -1,0 +1,158 @@
+{
+  "id": "memphis",
+  "name": "Memphis",
+  "state": "TN",
+  "country": "US",
+  "order": 21,
+  "location": {
+    "lat": 35.1495,
+    "lng": -90.049
+  },
+  "summary": "The home of the blues, the birthplace of rock 'n' roll, and the soul of American music — Graceland, Beale Street, Sun and Stax — plus the searing National Civil Rights Museum.",
+  "lodging": [
+    {
+      "name": "A downtown Memphis hotel near Beale",
+      "blurb": "Walkable to Beale Street and the river.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Memphis%20hotel%20Beale%20Street"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Memphis dry-rub ribs & pulled pork",
+      "blurb": "Rendezvous ribs and a pulled-pork sandwich with slaw on top."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 303,
+      "label": "Day 303 — Graceland",
+      "type": "active",
+      "summary": "The King's home.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "memphis-graceland",
+            "title": "Graceland",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Graceland",
+              "address": "3717 Elvis Presley Blvd, Memphis, TN",
+              "lat": 35.0477,
+              "lng": -90.026,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Graceland"
+            },
+            "blurb": "Elvis's mansion, the Jungle Room, his grave, and the vast archive across the street — a full morning.",
+            "gear": [
+              "comfortable shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 304,
+      "label": "Day 304 — Beale, Sun & Stax",
+      "type": "active",
+      "summary": "Where rock and soul were born.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:30 PM",
+          "item": {
+            "id": "memphis-sun-studio",
+            "title": "Sun Studio & Stax Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Sun Studio",
+              "address": "706 Union Ave, Memphis, TN",
+              "lat": 35.14,
+              "lng": -90.035,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Sun%20Studio"
+            },
+            "blurb": "Stand where Elvis, Cash, and Jerry Lee recorded, then the Stax Museum of American Soul Music."
+          }
+        },
+        {
+          "start": "7:00 PM",
+          "item": {
+            "id": "memphis-beale-street",
+            "title": "Beale Street",
+            "categoryId": "concerts-venues",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Beale Street",
+              "address": "Beale St, Memphis, TN",
+              "lat": 35.14,
+              "lng": -90.051,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Beale%20Street"
+            },
+            "blurb": "Neon, barbecue, and live blues in every club on the historic street."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 305,
+      "label": "Day 305 — The Civil Rights Museum",
+      "type": "active",
+      "summary": "A profound stop at the Lorraine Motel.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:30 PM",
+          "item": {
+            "id": "memphis-civil-rights-museum",
+            "title": "National Civil Rights Museum",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "National Civil Rights Museum",
+              "address": "450 Mulberry St, Memphis, TN",
+              "lat": 35.1345,
+              "lng": -90.0576,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=National%20Civil%20Rights%20Museum"
+            },
+            "blurb": "Built around the Lorraine Motel where Dr. King was assassinated in 1968 — one of the most powerful museums in the country."
+          }
+        },
+        {
+          "start": "3:00 PM",
+          "item": {
+            "id": "memphis-peabody-ducks",
+            "title": "The Peabody ducks",
+            "categoryId": "quirky",
+            "tier": "low",
+            "durationMins": 60,
+            "location": {
+              "name": "The Peabody Memphis",
+              "address": "149 Union Ave, Memphis, TN",
+              "lat": 35.144,
+              "lng": -90.052,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Peabody%20Memphis"
+            },
+            "blurb": "The daily red-carpet march of the ducks through the grand hotel lobby."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 306,
+      "label": "Day 306 — West into Arkansas",
+      "type": "commute",
+      "summary": "Across the river to the capital.",
+      "commute": {
+        "from": "Memphis, TN",
+        "to": "Little Rock, AR",
+        "driveTimeMins": 130,
+        "scenicNote": "West across the Mississippi into Arkansas."
+      }
+    }
+  ]
+}
