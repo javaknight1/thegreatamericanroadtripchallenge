@@ -1,0 +1,83 @@
+{
+  "id": "natchez",
+  "name": "Natchez",
+  "state": "MS",
+  "country": "US",
+  "order": 5,
+  "location": {
+    "lat": 31.5604,
+    "lng": -91.4032
+  },
+  "summary": "The oldest town on the Mississippi — antebellum mansions on the bluff and the southern trailhead of the Natchez Trace.",
+  "lodging": [
+    {
+      "name": "An antebellum-mansion B&B",
+      "blurb": "Several grand homes take overnight guests.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Natchez%20Mississippi%20antebellum%20bed%20and%20breakfast"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Southern fine dining in a mansion",
+      "blurb": "White-tablecloth Southern cooking in historic settings."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 263,
+      "label": "Day 263 — Antebellum Natchez",
+      "type": "active",
+      "summary": "Grand houses on the bluff.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "natchez-mansions",
+            "title": "Longwood & Stanton Hall",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Longwood",
+              "address": "140 Lower Woodville Rd, Natchez, MS",
+              "lat": 31.534,
+              "lng": -91.386,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Longwood"
+            },
+            "blurb": "The octagonal, forever-unfinished Longwood and the opulent Stanton Hall — Natchez had more millionaires than anywhere before the war, on the backs of the enslaved."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "natchez-under-the-hill",
+            "title": "Natchez Under-the-Hill & the Trace",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Natchez Under-the-Hill",
+              "address": "Silver St, Natchez, MS",
+              "lat": 31.562,
+              "lng": -91.411,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Natchez%20Under-the-Hill"
+            },
+            "blurb": "The old riverboat landing on the bluff, and the start of the Natchez Trace Parkway."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 264,
+      "label": "Day 264 — Up to Vicksburg",
+      "type": "commute",
+      "summary": "North along the river.",
+      "commute": {
+        "from": "Natchez, MS",
+        "to": "Vicksburg, MS",
+        "driveTimeMins": 90,
+        "scenicNote": "North up the Mississippi to the siege city."
+      }
+    }
+  ]
+}

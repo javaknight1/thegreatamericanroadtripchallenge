@@ -1,0 +1,83 @@
+{
+  "id": "jackson",
+  "name": "Jackson",
+  "state": "MS",
+  "country": "US",
+  "order": 7,
+  "location": {
+    "lat": 32.2988,
+    "lng": -90.1848
+  },
+  "summary": "Mississippi's capital and a powerful pair of museums that tell the state's — and the movement's — hardest history.",
+  "lodging": [
+    {
+      "name": "A downtown Jackson hotel",
+      "blurb": "Near the Capitol and the museums.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Jackson%20Mississippi%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Mississippi comeback sauce & tamales",
+      "blurb": "Local fried chicken with comeback sauce, and Delta-style hot tamales."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 267,
+      "label": "Day 267 — Capital & Civil Rights",
+      "type": "active",
+      "summary": "The statehouse and a landmark museum.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "jackson-state-capitol",
+            "title": "Mississippi State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 75,
+            "location": {
+              "name": "Mississippi State Capitol",
+              "address": "400 High St, Jackson, MS",
+              "lat": 32.303,
+              "lng": -90.182,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mississippi%20State%20Capitol"
+            },
+            "blurb": "The 1903 Beaux-Arts capitol, gilded eagle atop the dome."
+          }
+        },
+        {
+          "start": "12:00 PM",
+          "item": {
+            "id": "jackson-civil-rights-museum",
+            "title": "Mississippi Civil Rights Museum",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Mississippi Civil Rights Museum",
+              "address": "222 North St, Jackson, MS",
+              "lat": 32.302,
+              "lng": -90.179,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mississippi%20Civil%20Rights%20Museum"
+            },
+            "blurb": "An unflinching museum of the movement, paired with the Museum of Mississippi History next door; Medgar Evers's home is preserved nearby."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 268,
+      "label": "Day 268 — Into the Delta",
+      "type": "commute",
+      "summary": "North to the birthplace of the blues.",
+      "commute": {
+        "from": "Jackson, MS",
+        "to": "Clarksdale, MS",
+        "driveTimeMins": 150,
+        "scenicNote": "North into the flat, fertile Delta."
+      }
+    }
+  ]
+}

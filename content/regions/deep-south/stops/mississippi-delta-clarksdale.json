@@ -1,0 +1,83 @@
+{
+  "id": "mississippi-delta-clarksdale",
+  "name": "The Mississippi Delta & Clarksdale",
+  "state": "MS",
+  "country": "US",
+  "order": 8,
+  "location": {
+    "lat": 34.2001,
+    "lng": -90.5712
+  },
+  "summary": "The flat, cotton-rich Delta where the blues was born — the crossroads, a great blues museum, and juke joints still going strong.",
+  "lodging": [
+    {
+      "name": "The Shack Up Inn, Clarksdale",
+      "blurb": "Sleep in a restored sharecropper shack on a cotton plantation.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Shack%20Up%20Inn%20Clarksdale"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Delta hot tamales & fried catfish",
+      "blurb": "The Delta's own tamale tradition, plus catfish."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 269,
+      "label": "Day 269 — Birthplace of the Blues",
+      "type": "active",
+      "summary": "The crossroads and a juke joint.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "mississippi-delta-clarksdale-blues-museum",
+            "title": "Delta Blues Museum & the Crossroads",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Delta Blues Museum",
+              "address": "1 Blues Alley, Clarksdale, MS",
+              "lat": 34.201,
+              "lng": -90.572,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Delta%20Blues%20Museum"
+            },
+            "blurb": "The blues told where it began, at the mythic crossroads of Highways 61 and 49; Dockery Farms nearby is often called the music's true cradle."
+          }
+        },
+        {
+          "start": "8:00 PM",
+          "item": {
+            "id": "mississippi-delta-clarksdale-juke-joint",
+            "title": "A Clarksdale juke joint",
+            "categoryId": "concerts-venues",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Ground Zero Blues Club",
+              "address": "0 Blues Alley, Clarksdale, MS",
+              "lat": 34.2,
+              "lng": -90.571,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Ground%20Zero%20Blues%20Club"
+            },
+            "blurb": "Live Delta blues in a genuine juke joint — Ground Zero or Red's."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 270,
+      "label": "Day 270 — East to Tupelo",
+      "type": "commute",
+      "summary": "Across the top of Mississippi.",
+      "commute": {
+        "from": "Clarksdale, MS",
+        "to": "Tupelo, MS",
+        "driveTimeMins": 150,
+        "scenicNote": "East across the Delta to Elvis's hometown."
+      }
+    }
+  ]
+}

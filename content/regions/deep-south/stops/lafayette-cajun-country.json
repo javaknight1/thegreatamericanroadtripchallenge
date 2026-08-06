@@ -1,0 +1,101 @@
+{
+  "id": "lafayette-cajun-country",
+  "name": "Lafayette & Cajun Country",
+  "state": "LA",
+  "country": "US",
+  "order": 4,
+  "location": {
+    "lat": 30.2241,
+    "lng": -92.0198
+  },
+  "summary": "The heart of Acadiana — Cajun and Creole culture, Tabasco's home island, crawfish, and zydeco on a Saturday night.",
+  "lodging": [
+    {
+      "name": "A Lafayette hotel",
+      "blurb": "Central to the dancehalls and the Atchafalaya.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Lafayette%20Louisiana%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Crawfish boil & boudin",
+      "blurb": "Peel-and-eat mudbugs and spicy boudin sausage — with a side of zydeco."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 261,
+      "label": "Day 261 — Acadiana",
+      "type": "active",
+      "summary": "Living Cajun culture and Tabasco.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "lafayette-vermilionville",
+            "title": "Vermilionville living-history village",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Vermilionville",
+              "address": "300 Fisher Rd, Lafayette, LA",
+              "lat": 30.205,
+              "lng": -91.993,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Vermilionville"
+            },
+            "blurb": "A restored Cajun/Creole village of 1765–1890 with craftspeople and music."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "lafayette-avery-island",
+            "title": "Avery Island & the Tabasco factory",
+            "categoryId": "food-drink",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Avery Island (Tabasco)",
+              "address": "Avery Island, LA",
+              "lat": 29.9,
+              "lng": -91.9,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Avery%20Island%20%28Tabasco%29"
+            },
+            "blurb": "The salt-dome island where Tabasco is made, plus the lush Jungle Gardens."
+          }
+        },
+        {
+          "start": "8:00 PM",
+          "item": {
+            "id": "lafayette-zydeco",
+            "title": "A zydeco dancehall",
+            "categoryId": "concerts-venues",
+            "tier": "low",
+            "durationMins": 120,
+            "location": {
+              "name": "Blue Moon Saloon",
+              "address": "215 E Convent St, Lafayette, LA",
+              "lat": 30.216,
+              "lng": -92.014,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Blue%20Moon%20Saloon"
+            },
+            "blurb": "Live Cajun and zydeco with a two-stepping crowd."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 262,
+      "label": "Day 262 — North into Mississippi",
+      "type": "commute",
+      "summary": "Up to the antebellum river town of Natchez.",
+      "commute": {
+        "from": "Lafayette, LA",
+        "to": "Natchez, MS",
+        "driveTimeMins": 150,
+        "scenicNote": "North across the state line to the Mississippi bluffs."
+      }
+    }
+  ]
+}

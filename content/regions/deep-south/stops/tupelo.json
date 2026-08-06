@@ -1,0 +1,83 @@
+{
+  "id": "tupelo",
+  "name": "Tupelo",
+  "state": "MS",
+  "country": "US",
+  "order": 9,
+  "location": {
+    "lat": 34.2576,
+    "lng": -88.7034
+  },
+  "summary": "Where Elvis was born — a two-room shotgun house — and the headquarters of the Natchez Trace Parkway.",
+  "lodging": [
+    {
+      "name": "A Tupelo hotel",
+      "blurb": "Near the Elvis birthplace and the Trace.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Tupelo%20Mississippi%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A fried peanut-butter-and-banana sandwich",
+      "blurb": "The King's favorite, served around town."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 271,
+      "label": "Day 271 — The King's Birthplace",
+      "type": "active",
+      "summary": "Where it all started for Elvis.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "tupelo-elvis-birthplace",
+            "title": "Elvis Presley Birthplace",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Elvis Presley Birthplace",
+              "address": "306 Elvis Presley Dr, Tupelo, MS",
+              "lat": 34.259,
+              "lng": -88.69,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Elvis%20Presley%20Birthplace"
+            },
+            "blurb": "The tiny shotgun house where Elvis was born in 1935, plus the museum and chapel."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "tupelo-natchez-trace",
+            "title": "Natchez Trace Parkway Visitor Center",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Natchez Trace Parkway Visitor Center",
+              "address": "2680 Natchez Trace Pkwy, Tupelo, MS",
+              "lat": 34.312,
+              "lng": -88.766,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Natchez%20Trace%20Parkway%20Visitor%20Center"
+            },
+            "blurb": "The HQ of the historic 444-mile parkway tracing the old wilderness road."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 272,
+      "label": "Day 272 — Into Alabama",
+      "type": "commute",
+      "summary": "East to the music of Muscle Shoals.",
+      "commute": {
+        "from": "Tupelo, MS",
+        "to": "Muscle Shoals, AL",
+        "driveTimeMins": 90,
+        "scenicNote": "East across the line to the Shoals."
+      }
+    }
+  ]
+}

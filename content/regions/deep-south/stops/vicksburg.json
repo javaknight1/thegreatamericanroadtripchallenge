@@ -1,0 +1,68 @@
+{
+  "id": "vicksburg",
+  "name": "Vicksburg",
+  "state": "MS",
+  "country": "US",
+  "order": 6,
+  "location": {
+    "lat": 32.3526,
+    "lng": -90.8779
+  },
+  "summary": "The Confederate river fortress whose 1863 fall split the South and gave the Union the Mississippi.",
+  "lodging": [
+    {
+      "name": "A Vicksburg riverfront inn",
+      "blurb": "Near the battlefield and the river.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Vicksburg%20Mississippi%20riverfront%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Southern catfish",
+      "blurb": "Fried Delta catfish and hushpuppies."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 265,
+      "label": "Day 265 — The Siege",
+      "type": "active",
+      "summary": "The battlefield that won the river.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "vicksburg-military-park",
+            "title": "Vicksburg National Military Park",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Vicksburg National Military Park",
+              "address": "3201 Clay St, Vicksburg, MS",
+              "lat": 32.345,
+              "lng": -90.848,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Vicksburg%20National%20Military%20Park"
+            },
+            "blurb": "Drive the siege lines among 1,300 monuments and see the raised ironclad USS Cairo — the 47-day siege ended July 4, 1863.",
+            "gear": [
+              "walking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 266,
+      "label": "Day 266 — East to Jackson",
+      "type": "commute",
+      "summary": "Over to the capital.",
+      "commute": {
+        "from": "Vicksburg, MS",
+        "to": "Jackson, MS",
+        "driveTimeMins": 50,
+        "scenicNote": "East to Mississippi's capital."
+      }
+    }
+  ]
+}
