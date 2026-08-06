@@ -1,0 +1,84 @@
+{
+  "id": "charlottesville",
+  "name": "Charlottesville",
+  "state": "VA",
+  "country": "US",
+  "order": 2,
+  "location": {
+    "lat": 38.0293,
+    "lng": -78.4767
+  },
+  "summary": "Thomas Jefferson's home ground — his mountaintop Monticello and the 'academical village' he designed for the University of Virginia.",
+  "lodging": [
+    {
+      "name": "A Charlottesville inn near the Downtown Mall",
+      "blurb": "Walkable to restaurants and the pedestrian mall.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Charlottesville%20Virginia%20downtown%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Virginia wine-country lunch",
+      "blurb": "The vineyards around Charlottesville are among the East's best."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 149,
+      "label": "Day 149 — Jefferson's Charlottesville",
+      "type": "active",
+      "summary": "Two UNESCO sites and a wine-country afternoon.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "charlottesville-monticello",
+            "title": "Monticello",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Monticello",
+              "address": "931 Thomas Jefferson Pkwy, Charlottesville, VA",
+              "lat": 38.008,
+              "lng": -78.453,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Monticello"
+            },
+            "blurb": "Jefferson's ingenious mountaintop home and plantation — a UNESCO World Heritage Site that reckons honestly with slavery."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "charlottesville-uva",
+            "title": "University of Virginia & the Rotunda",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "UVA Rotunda",
+              "address": "1826 University Ave, Charlottesville, VA",
+              "lat": 38.0356,
+              "lng": -78.5034,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=UVA%20Rotunda"
+            },
+            "blurb": "Jefferson's Academical Village — the Rotunda and the Lawn, also UNESCO-listed."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 150,
+      "label": "Day 150 — East to Richmond",
+      "type": "commute",
+      "summary": "To the state capital on the James.",
+      "commute": {
+        "from": "Charlottesville, VA",
+        "to": "Richmond, VA",
+        "driveTimeMins": 70,
+        "scenicNote": "East down I-64 to Richmond."
+      }
+    }
+  ]
+}

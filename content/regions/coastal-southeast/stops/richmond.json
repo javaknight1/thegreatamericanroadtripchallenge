@@ -1,0 +1,128 @@
+{
+  "id": "richmond",
+  "name": "Richmond",
+  "state": "VA",
+  "country": "US",
+  "order": 3,
+  "location": {
+    "lat": 37.5407,
+    "lng": -77.436
+  },
+  "summary": "Virginia's capital on the James — a Jefferson-designed statehouse, a superb art museum, and the country's most thoughtful Civil War museum.",
+  "lodging": [
+    {
+      "name": "A hotel in the Fan or downtown Richmond",
+      "blurb": "Near Monument Avenue's tree-lined blocks and the museums.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Richmond%20Virginia%20downtown%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Richmond's celebrated restaurant scene",
+      "blurb": "The city punches well above its weight for food."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 151,
+      "label": "Day 151 — The Capitol & the Revolution",
+      "type": "active",
+      "summary": "Where Patrick Henry spoke and Virginia governs.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "richmond-state-capitol",
+            "title": "Virginia State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "Virginia State Capitol",
+              "address": "1000 Bank St, Richmond, VA",
+              "lat": 37.5385,
+              "lng": -77.433,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Virginia%20State%20Capitol"
+            },
+            "blurb": "Designed by Thomas Jefferson, modeled on a Roman temple — one of the oldest working capitols in the country."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "richmond-st-johns",
+            "title": "St. John's Church",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 75,
+            "location": {
+              "name": "St. John's Church",
+              "address": "2401 E Broad St, Richmond, VA",
+              "lat": 37.532,
+              "lng": -77.42,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=St.%20John%27s%20Church"
+            },
+            "blurb": "Where Patrick Henry demanded 'Give me liberty, or give me death!' in 1775 (live reenactments in season)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 152,
+      "label": "Day 152 — Civil War & art",
+      "type": "active",
+      "summary": "The war's story, told with care, and a world-class museum.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "richmond-civil-war-museum",
+            "title": "American Civil War Museum",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "American Civil War Museum",
+              "address": "480 Tredegar St, Richmond, VA",
+              "lat": 37.534,
+              "lng": -77.447,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=American%20Civil%20War%20Museum"
+            },
+            "blurb": "At the Tredegar ironworks — the war told from Union, Confederate, and enslaved perspectives, in the former Confederate capital."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "richmond-vmfa",
+            "title": "Virginia Museum of Fine Arts",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Virginia Museum of Fine Arts",
+              "address": "200 N Arthur Ashe Blvd, Richmond, VA",
+              "lat": 37.558,
+              "lng": -77.475,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Virginia%20Museum%20of%20Fine%20Arts"
+            },
+            "blurb": "A free, encyclopedic art museum with a renowned Fabergé collection."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 153,
+      "label": "Day 153 — To the Historic Triangle",
+      "type": "commute",
+      "summary": "East to colonial Williamsburg.",
+      "commute": {
+        "from": "Richmond, VA",
+        "to": "Williamsburg, VA",
+        "driveTimeMins": 60,
+        "scenicNote": "Down the peninsula to the Historic Triangle."
+      }
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "shenandoah-np-skyline-drive",
+  "name": "Shenandoah National Park & Skyline Drive",
+  "state": "VA",
+  "country": "US",
+  "order": 1,
+  "location": {
+    "lat": 38.53,
+    "lng": -78.35
+  },
+  "summary": "A 105-mile ridgeline drive through the Blue Ridge, with waterfalls, overlooks, and the largest caverns in the East just below.",
+  "lodging": [
+    {
+      "name": "Big Meadows Lodge (in-park) or a Luray inn",
+      "blurb": "Stay on the ridge at Big Meadows or in the valley town of Luray.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Big%20Meadows%20Lodge%20Shenandoah"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Blackberry ice cream pie at Big Meadows",
+      "blurb": "A Skyline Drive tradition."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 146,
+      "label": "Day 146 — Skyline Drive",
+      "type": "active",
+      "summary": "The Blue Ridge from end to end.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "1:30 PM",
+          "item": {
+            "id": "shenandoah-np-skyline-drive-drive",
+            "title": "Drive Skyline Drive",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Shenandoah National Park",
+              "address": "Skyline Dr, Shenandoah National Park, VA",
+              "lat": 38.53,
+              "lng": -78.35,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Shenandoah%20National%20Park"
+            },
+            "blurb": "105 miles of ridgeline with 75 overlooks; watch for deer and black bears and stop at Big Meadows.",
+            "gear": [
+              "layers"
+            ]
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "shenandoah-np-skyline-drive-dark-hollow",
+            "title": "Dark Hollow Falls hike",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Dark Hollow Falls Trailhead",
+              "address": "Dark Hollow Falls Trail, Shenandoah NP, VA",
+              "lat": 38.517,
+              "lng": -78.427,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Dark%20Hollow%20Falls%20Trailhead"
+            },
+            "blurb": "A short, steep walk to a lovely 70-ft cascade — the most accessible waterfall in the park.",
+            "gear": [
+              "hiking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 147,
+      "label": "Day 147 — Luray Caverns",
+      "type": "active",
+      "summary": "The underground half of the Blue Ridge.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "shenandoah-np-skyline-drive-luray",
+            "title": "Luray Caverns",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Luray Caverns",
+              "address": "101 Cave Hill Rd, Luray, VA",
+              "lat": 38.664,
+              "lng": -78.483,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Luray%20Caverns"
+            },
+            "blurb": "The largest caverns in the eastern U.S. — cathedral-sized rooms and the one-of-a-kind Great Stalacpipe Organ."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 148,
+      "label": "Day 148 — Down to Charlottesville",
+      "type": "commute",
+      "summary": "Off the ridge to Jefferson's town.",
+      "commute": {
+        "from": "Shenandoah NP, VA",
+        "to": "Charlottesville, VA",
+        "driveTimeMins": 70,
+        "scenicNote": "East over the Blue Ridge into the Piedmont."
+      }
+    }
+  ]
+}
