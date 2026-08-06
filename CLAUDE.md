@@ -118,7 +118,7 @@ Added during scaffolding — the facts a future session needs before editing cod
 ### Stack as built
 - **Next.js 15 App Router + React 19 + TypeScript + Tailwind v4** (matches `rob-stack`'s Next.js conventions: `src/app`, `src/components`, `src/lib`, `@/*` alias, `postcss.config.mjs`, `eslint.config.mjs`, `Makefile`).
 - **`output: "export"`** in `next.config.ts` — every page is prerendered to static HTML at build time into `out/`. There is no server at runtime, which is exactly what "no backend, no AI in the request path" demands.
-- **Deployed to Cloudflare Workers static assets** via `wrangler deploy` (`wrangler.jsonc` points at `./out`). Deviates from `rob-stack`'s Vercel default because this is a pure static site.
+- **Deployed to Cloudflare Workers static assets** via `wrangler deploy` (`wrangler.jsonc` points at `./out`). Deviates from `rob-stack`'s Vercel default because this is a pure static site. `wrangler.jsonc` also declares `build.command`, so `wrangler deploy` produces the static export itself — Workers Builds needs no dashboard build command, and a missing one can't silently deploy a stale or absent `out/`.
 - **Deliberately absent** (per the scope rules above): Clerk, Supabase, Upstash, Resend, R2, PostHog, Sentry, swagger, middleware, API routes.
 
 ### Content lives outside `src/`

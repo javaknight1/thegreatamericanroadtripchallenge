@@ -28,8 +28,8 @@ make dev            # next dev at http://localhost:3000
 make validate       # check content/ against the schema (also runs in build)
 make build          # validate + static export to out/
 make lint           # eslint + tsc --noEmit
-make preview        # build, then serve out/ through wrangler locally
-make deploy         # build + wrangler deploy
+make preview        # serve the site through wrangler locally, exactly as Cloudflare will
+make deploy         # wrangler deploy (the build hook runs `npm run build` first)
 ```
 
 ## Authoring content
@@ -60,15 +60,15 @@ Two things are computed, never authored: the **master packing list** (aggregated
 
 The site builds to fully static HTML, so any static host works. On Cloudflare:
 
-**Option A — connect this repo (Workers Builds):** in the Cloudflare dashboard create a Worker from this GitHub repo, then set
+**Option A — connect this repo (Workers Builds):** in the Cloudflare dashboard create a Worker from this GitHub repo. The only required setting is
 
 | Setting | Value |
 |---|---|
-| Build command | `npm run build` |
 | Deploy command | `npx wrangler deploy` |
+| Build command | *(leave empty)* |
 | Root directory | `/` |
 
-Pushes to `main` then build and deploy automatically.
+`wrangler.jsonc` declares `build.command = "npm run build"`, so wrangler runs the static export itself before uploading `out/`. Leaving the dashboard's build command empty avoids building twice; setting it to `npm run build` is harmless but redundant.
 
 **Option B — deploy from your machine:** `make deploy` (`wrangler deploy` uploads `out/`).
 

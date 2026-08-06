@@ -9,8 +9,8 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "validate": "tsx scripts/validate-content.ts",
-    "preview": "npm run build && wrangler dev",
-    "deploy": "npm run build && wrangler deploy"
+    "preview": "wrangler dev",
+    "deploy": "wrangler deploy"
   },
   "dependencies": {
     "next": "^15",

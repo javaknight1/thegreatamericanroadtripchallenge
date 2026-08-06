@@ -4,6 +4,11 @@
   "compatibility_date": "2026-08-01",
   // Static-assets-only Worker: `next build` with output:"export" writes `out/`,
   // Cloudflare serves it directly. No `main` entrypoint — there is no server code.
+  // Wrangler runs this before deploying, so `wrangler deploy` alone produces a
+  // correct deploy — no dashboard build-command field required.
+  "build": {
+    "command": "npm run build"
+  },
   "assets": {
     "directory": "./out",
     "not_found_handling": "404-page"
