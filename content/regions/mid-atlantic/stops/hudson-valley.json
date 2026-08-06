@@ -1,0 +1,177 @@
+{
+  "id": "hudson-valley",
+  "name": "The Hudson Valley",
+  "state": "NY",
+  "country": "US",
+  "order": 3,
+  "location": {
+    "lat": 41.7857,
+    "lng": -73.9332
+  },
+  "summary": "Presidential estates, a legendary sculpture park, a mountaintop military academy, and the river that named a school of painting.",
+  "lodging": [
+    {
+      "name": "A Hudson Valley country inn",
+      "blurb": "Base near Rhinebeck or Cold Spring, both walkable and full of restaurants.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Rhinebeck%20New%20York%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Dinner at a Culinary Institute of America restaurant",
+      "blurb": "America's top culinary school runs student restaurants in Hyde Park."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 88,
+      "label": "Day 88 — Hyde Park",
+      "type": "active",
+      "summary": "FDR's home and the first presidential library.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "hudson-valley-fdr",
+            "title": "FDR Home & Presidential Library",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Home of Franklin D. Roosevelt NHS",
+              "address": "4097 Albany Post Rd, Hyde Park, NY",
+              "lat": 41.768,
+              "lng": -73.933,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Home%20of%20Franklin%20D.%20Roosevelt%20NHS"
+            },
+            "blurb": "Roosevelt's lifelong home and the first presidential library, plus Eleanor's retreat at Val-Kill nearby."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "hudson-valley-vanderbilt",
+            "title": "Vanderbilt Mansion",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Vanderbilt Mansion NHS",
+              "address": "119 Vanderbilt Park Rd, Hyde Park, NY",
+              "lat": 41.797,
+              "lng": -73.941,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Vanderbilt%20Mansion%20NHS"
+            },
+            "blurb": "A Gilded-Age Beaux-Arts estate above the river."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 89,
+      "label": "Day 89 — Storm King & the river",
+      "type": "active",
+      "summary": "Monumental sculpture and a walk across the Hudson.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:30 PM",
+          "item": {
+            "id": "hudson-valley-storm-king",
+            "title": "Storm King Art Center",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Storm King Art Center",
+              "address": "1 Museum Rd, New Windsor, NY",
+              "lat": 41.425,
+              "lng": -74.054,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Storm%20King%20Art%20Center"
+            },
+            "blurb": "500 acres of monumental outdoor sculpture set in rolling meadows — Calder, Serra, di Suvero.",
+            "gear": [
+              "walking shoes"
+            ]
+          }
+        },
+        {
+          "start": "3:00 PM",
+          "item": {
+            "id": "hudson-valley-walkway",
+            "title": "Walkway Over the Hudson",
+            "categoryId": "outdoor-water",
+            "tier": "low",
+            "durationMins": 75,
+            "location": {
+              "name": "Walkway Over the Hudson",
+              "address": "61 Parker Ave, Poughkeepsie, NY",
+              "lat": 41.708,
+              "lng": -73.97,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Walkway%20Over%20the%20Hudson"
+            },
+            "blurb": "The world's longest elevated pedestrian bridge, on a former railroad span high over the river."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 90,
+      "label": "Day 90 — West Point & Cold Spring",
+      "type": "active",
+      "summary": "The military academy and a riverside antiques village.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:00 PM",
+          "item": {
+            "id": "hudson-valley-west-point",
+            "title": "West Point tour",
+            "categoryId": "guided-tours",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "United States Military Academy",
+              "address": "West Point, NY",
+              "lat": 41.391,
+              "lng": -73.956,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=United%20States%20Military%20Academy"
+            },
+            "blurb": "A guided tour of the U.S. Military Academy — the Plain, the chapel, and Hudson overlooks (reserve ahead; ID required)."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "hudson-valley-cold-spring",
+            "title": "Cold Spring village",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Cold Spring, NY",
+              "address": "Main St, Cold Spring, NY",
+              "lat": 41.42,
+              "lng": -73.954,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Cold%20Spring%2C%20NY"
+            },
+            "blurb": "A postcard river village of antique shops and cafés below Storm King."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 91,
+      "label": "Day 91 — Into the Catskills",
+      "type": "commute",
+      "summary": "West across the river into the mountains.",
+      "commute": {
+        "from": "Hudson Valley, NY",
+        "to": "Woodstock, NY",
+        "driveTimeMins": 70,
+        "scenicNote": "Cross to the west bank and climb into the Catskills."
+      }
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "trenton-princeton",
+  "name": "Trenton & Princeton",
+  "state": "NJ",
+  "country": "US",
+  "order": 6,
+  "location": {
+    "lat": 40.3573,
+    "lng": -74.6672
+  },
+  "summary": "New Jersey's capital on the Delaware, the Revolutionary crossing, and one of the country's most beautiful university towns.",
+  "lodging": [
+    {
+      "name": "A Princeton inn",
+      "blurb": "Base in walkable, leafy Princeton.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Princeton%20New%20Jersey%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Trenton tomato pie",
+      "blurb": "New Jersey's own sauce-on-top pizza."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 96,
+      "label": "Day 96 — Princeton",
+      "type": "active",
+      "summary": "One of America's loveliest campuses and towns.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "trenton-princeton-university",
+            "title": "Princeton University campus",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Princeton University",
+              "address": "Princeton, NJ",
+              "lat": 40.343,
+              "lng": -74.654,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Princeton%20University"
+            },
+            "blurb": "Collegiate-Gothic quads, Nassau Hall (where the Continental Congress once met), and the university art museum."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "trenton-princeton-town",
+            "title": "Nassau Street & Palmer Square",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Palmer Square, Princeton",
+              "address": "Palmer Square, Princeton, NJ",
+              "lat": 40.35,
+              "lng": -74.659,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Palmer%20Square%2C%20Princeton"
+            },
+            "blurb": "The town's shops, bookstores, and cafés beside the campus."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 97,
+      "label": "Day 97 — Trenton & Washington's Crossing",
+      "type": "active",
+      "summary": "The state capital and where the Revolution turned.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "trenton-princeton-state-house",
+            "title": "New Jersey State House",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "New Jersey State House",
+              "address": "125 W State St, Trenton, NJ",
+              "lat": 40.221,
+              "lng": -74.77,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=New%20Jersey%20State%20House"
+            },
+            "blurb": "The second-oldest U.S. statehouse in continuous legislative use (1792)."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "trenton-princeton-crossing",
+            "title": "Washington Crossing State Park",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Washington Crossing State Park",
+              "address": "355 Washington Crossing-Pennington Rd, Titusville, NJ",
+              "lat": 40.296,
+              "lng": -74.866,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Washington%20Crossing%20State%20Park"
+            },
+            "blurb": "Where Washington crossed the icy Delaware on Christmas night 1776 before the Battle of Trenton."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 98,
+      "label": "Day 98 — Down the shore",
+      "type": "commute",
+      "summary": "South to the Jersey Shore.",
+      "commute": {
+        "from": "Trenton, NJ",
+        "to": "Atlantic City, NJ",
+        "driveTimeMins": 90,
+        "scenicNote": "Southeast to the boardwalk coast."
+      }
+    }
+  ]
+}

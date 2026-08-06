@@ -1,0 +1,86 @@
+{
+  "id": "catskills-woodstock",
+  "name": "The Catskills & Woodstock",
+  "state": "NY",
+  "country": "US",
+  "order": 4,
+  "location": {
+    "lat": 42.0409,
+    "lng": -74.1182
+  },
+  "summary": "An arts-colony town synonymous with a generation, a spectacular waterfall, and the site of the 1969 festival nearby.",
+  "lodging": [
+    {
+      "name": "A Woodstock or Catskills lodge",
+      "blurb": "Mountain cabins and inns around the arts town.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Woodstock%20New%20York%20lodge"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A farm-to-table Catskills meal",
+      "blurb": "The region's food scene has boomed."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 92,
+      "label": "Day 92 — Woodstock & Kaaterskill Falls",
+      "type": "active",
+      "summary": "The town, the mountains, and a two-tier waterfall.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "catskills-woodstock-town",
+            "title": "Woodstock village",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Woodstock, NY",
+              "address": "Tinker St, Woodstock, NY",
+              "lat": 42.0409,
+              "lng": -74.1182,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Woodstock%2C%20NY"
+            },
+            "blurb": "The arts colony that lent its name to the era — galleries, record shops, and cafés. (The 1969 festival was actually 60 miles away at Bethel Woods.)"
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "catskills-woodstock-kaaterskill",
+            "title": "Kaaterskill Falls",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Kaaterskill Falls",
+              "address": "Kaaterskill Falls Trail, Haines Falls, NY",
+              "lat": 42.196,
+              "lng": -74.063,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Kaaterskill%20Falls"
+            },
+            "blurb": "New York's tallest cascading waterfall — a 260-ft two-tier drop that inspired the Hudson River School painters.",
+            "gear": [
+              "hiking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 93,
+      "label": "Day 93 — North to the capital",
+      "type": "commute",
+      "summary": "Up to Albany.",
+      "commute": {
+        "from": "Woodstock, NY",
+        "to": "Albany, NY",
+        "driveTimeMins": 70,
+        "scenicNote": "North along the river to the state capital."
+      }
+    }
+  ]
+}

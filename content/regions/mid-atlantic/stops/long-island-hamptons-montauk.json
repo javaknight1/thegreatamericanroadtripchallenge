@@ -1,0 +1,131 @@
+{
+  "id": "long-island-hamptons-montauk",
+  "name": "Long Island: The Hamptons & Montauk",
+  "state": "NY",
+  "country": "US",
+  "order": 2,
+  "location": {
+    "lat": 41.0715,
+    "lng": -71.8577
+  },
+  "summary": "The island's East End — surf and a historic lighthouse at Montauk, moneyed villages in the Hamptons, and wine country on the North Fork.",
+  "lodging": [
+    {
+      "name": "A Montauk motel or Hamptons inn",
+      "blurb": "Montauk for a laid-back beach base; the Hamptons for village charm.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Montauk%20New%20York%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Montauk lobster roll & fresh oysters",
+      "blurb": "Off the docks at the End — plus North Fork oysters."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 85,
+      "label": "Day 85 — Montauk & the End",
+      "type": "active",
+      "summary": "Surf beaches and the oldest lighthouse in New York.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "long-island-hamptons-montauk-lighthouse",
+            "title": "Montauk Point Lighthouse",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Montauk Point Lighthouse",
+              "address": "2000 Montauk Hwy, Montauk, NY",
+              "lat": 41.0715,
+              "lng": -71.8577,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Montauk%20Point%20Lighthouse"
+            },
+            "blurb": "Commissioned by George Washington in 1792 — the oldest lighthouse in the state, at the island's very tip."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "long-island-hamptons-montauk-ditch-plains",
+            "title": "Ditch Plains Beach",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Ditch Plains Beach",
+              "address": "Ditch Plains, Montauk, NY",
+              "lat": 41.037,
+              "lng": -71.921,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Ditch%20Plains%20Beach"
+            },
+            "blurb": "Montauk's famous surf break and a laid-back beach afternoon.",
+            "gear": [
+              "beach gear"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 86,
+      "label": "Day 86 — The Hamptons & North Fork wine",
+      "type": "active",
+      "summary": "Village strolls and a wine-country afternoon.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "long-island-hamptons-montauk-villages",
+            "title": "East Hampton & Sag Harbor",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Sag Harbor, NY",
+              "address": "Main St, Sag Harbor, NY",
+              "lat": 41.004,
+              "lng": -72.293,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Sag%20Harbor%2C%20NY"
+            },
+            "blurb": "East Hampton's hedges and boutiques, then the old whaling port of Sag Harbor."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "long-island-hamptons-montauk-north-fork",
+            "title": "North Fork wineries",
+            "categoryId": "food-drink",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "North Fork wine country",
+              "address": "Cutchogue, NY",
+              "lat": 41.013,
+              "lng": -72.487,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=North%20Fork%20wine%20country"
+            },
+            "blurb": "Tasting rooms among the vineyards of the quieter North Fork."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 87,
+      "label": "Day 87 — Back west & up the Hudson",
+      "type": "commute",
+      "summary": "Leave the East End for the Hudson Valley.",
+      "commute": {
+        "from": "Montauk, NY",
+        "to": "Hudson Valley, NY",
+        "driveTimeMins": 210,
+        "scenicNote": "A long haul back around the city and north up the Hudson."
+      }
+    }
+  ]
+}

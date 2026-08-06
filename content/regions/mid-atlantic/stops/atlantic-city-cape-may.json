@@ -1,0 +1,130 @@
+{
+  "id": "atlantic-city-cape-may",
+  "name": "Atlantic City & Cape May",
+  "state": "NJ",
+  "country": "US",
+  "order": 7,
+  "location": {
+    "lat": 39.3643,
+    "lng": -74.4229
+  },
+  "summary": "The original boardwalk and casino town, then Victorian Cape May — the oldest seaside resort in America — at the state's southern tip.",
+  "lodging": [
+    {
+      "name": "A Cape May Victorian B&B",
+      "blurb": "Gingerbread guesthouses steps from the beach and the mall.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Cape%20May%20New%20Jersey%20Victorian%20bed%20and%20breakfast"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Saltwater taffy & Jersey Shore pizza",
+      "blurb": "Boardwalk taffy is an Atlantic City invention."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 99,
+      "label": "Day 99 — Atlantic City",
+      "type": "active",
+      "summary": "The boardwalk that named the Monopoly squares.",
+      "blocks": [
+        {
+          "start": "11:00 AM",
+          "item": {
+            "id": "atlantic-city-cape-may-boardwalk",
+            "title": "Atlantic City Boardwalk & Steel Pier",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Atlantic City Boardwalk",
+              "address": "Boardwalk, Atlantic City, NJ",
+              "lat": 39.356,
+              "lng": -74.436,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Atlantic%20City%20Boardwalk"
+            },
+            "blurb": "The world's first boardwalk (1870), the casinos, and the amusement rides of Steel Pier."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "atlantic-city-cape-may-lucy",
+            "title": "Lucy the Elephant",
+            "categoryId": "quirky",
+            "tier": "low",
+            "durationMins": 60,
+            "location": {
+              "name": "Lucy the Elephant",
+              "address": "9200 Atlantic Ave, Margate City, NJ",
+              "lat": 39.321,
+              "lng": -74.511,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Lucy%20the%20Elephant"
+            },
+            "blurb": "A six-story elephant-shaped building from 1881 — one of the great pieces of American roadside architecture."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 100,
+      "label": "Day 100 — Cape May",
+      "type": "active",
+      "summary": "Victorian gingerbread at the Jersey Cape.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "atlantic-city-cape-may-victorian",
+            "title": "Cape May Victorian district & the mall",
+            "categoryId": "shopping",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Washington Street Mall, Cape May",
+              "address": "Washington St Mall, Cape May, NJ",
+              "lat": 38.9351,
+              "lng": -74.906,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Washington%20Street%20Mall%2C%20Cape%20May"
+            },
+            "blurb": "Hundreds of candy-colored Victorian houses, a pedestrian shopping mall, and the oldest seaside resort in the country."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "atlantic-city-cape-may-lighthouse",
+            "title": "Cape May Lighthouse & Point",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Cape May Lighthouse",
+              "address": "215 Lighthouse Ave, Cape May Point, NJ",
+              "lat": 38.933,
+              "lng": -74.96,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Cape%20May%20Lighthouse"
+            },
+            "blurb": "Climb the 1859 light and watch for migrating birds at the point.",
+            "gear": [
+              "beach gear"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 101,
+      "label": "Day 101 — Across to Philadelphia",
+      "type": "commute",
+      "summary": "Up to the birthplace of the nation.",
+      "commute": {
+        "from": "Cape May, NJ",
+        "to": "Philadelphia, PA",
+        "driveTimeMins": 95,
+        "scenicNote": "Northwest off the Cape toward Philadelphia."
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "albany",
+  "name": "Albany",
+  "state": "NY",
+  "country": "US",
+  "order": 5,
+  "location": {
+    "lat": 42.6526,
+    "lng": -73.7562
+  },
+  "summary": "New York's capital — a grand 19th-century statehouse and a modernist plaza that looks like the future imagined in 1965.",
+  "lodging": [
+    {
+      "name": "A downtown Albany hotel",
+      "blurb": "Walkable to the Capitol and Empire State Plaza.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Albany%20New%20York%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "An Albany 'mini' hot dog",
+      "blurb": "The local late-night specialty with meat sauce."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 94,
+      "label": "Day 94 — The Capital",
+      "type": "active",
+      "summary": "One of the most opulent state capitols in the country.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "albany-state-capitol",
+            "title": "New York State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "New York State Capitol",
+              "address": "State St, Albany, NY",
+              "lat": 42.6526,
+              "lng": -73.757,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=New%20York%20State%20Capitol"
+            },
+            "blurb": "A châteauesque 1899 capitol with no dome and the hand-carved 'Million Dollar Staircase.'"
+          }
+        },
+        {
+          "start": "12:30 PM",
+          "item": {
+            "id": "albany-empire-plaza",
+            "title": "Empire State Plaza & the NY State Museum",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 180,
+            "location": {
+              "name": "Empire State Plaza",
+              "address": "Empire State Plaza, Albany, NY",
+              "lat": 42.649,
+              "lng": -73.762,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Empire%20State%20Plaza"
+            },
+            "blurb": "A vast modernist plaza with 'The Egg,' the Corning Tower observation deck, and the free state museum."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 95,
+      "label": "Day 95 — South into New Jersey",
+      "type": "commute",
+      "summary": "Down past the city to the New Jersey capital.",
+      "commute": {
+        "from": "Albany, NY",
+        "to": "Trenton, NJ",
+        "driveTimeMins": 165,
+        "scenicNote": "South down the Hudson corridor and around the city into New Jersey."
+      }
+    }
+  ]
+}
