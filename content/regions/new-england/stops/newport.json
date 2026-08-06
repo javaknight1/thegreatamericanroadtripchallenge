@@ -1,0 +1,130 @@
+{
+  "id": "newport",
+  "name": "Newport",
+  "state": "RI",
+  "country": "US",
+  "order": 23,
+  "location": {
+    "lat": 41.4901,
+    "lng": -71.3128
+  },
+  "summary": "The Gilded Age's summer capital — Vanderbilt 'cottages' on the cliffs, a legendary shore walk, and America's yachting history. New England's final stop before New York.",
+  "lodging": [
+    {
+      "name": "A Newport harbor inn",
+      "blurb": "Colonial inns walkable to the wharves and Bellevue Avenue.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Newport%20Rhode%20Island%20harbor%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Fresh oysters & stuffies on the wharf",
+      "blurb": "Rhode Island 'stuffies' (stuffed quahogs) and raw bar on the water."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 67,
+      "label": "Day 67 — The Breakers & the Cliff Walk",
+      "type": "active",
+      "summary": "The grandest mansion and the walk along the sea.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "newport-breakers",
+            "title": "The Breakers",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "The Breakers",
+              "address": "44 Ochre Point Ave, Newport, RI",
+              "lat": 41.4699,
+              "lng": -71.2985,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Breakers"
+            },
+            "blurb": "The Vanderbilts' 70-room Gilded-Age palace above the Atlantic — the definitive Newport mansion tour."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "newport-cliff-walk",
+            "title": "The Cliff Walk",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Newport Cliff Walk",
+              "address": "Cliff Walk, Newport, RI",
+              "lat": 41.479,
+              "lng": -71.296,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Newport%20Cliff%20Walk"
+            },
+            "blurb": "A 3.5-mile path between the mansion lawns and the crashing sea.",
+            "gear": [
+              "walking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 68,
+      "label": "Day 68 — Bellevue & Ocean Drive",
+      "type": "active",
+      "summary": "More mansions, the tennis hall of fame, and the scenic loop.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "newport-marble-house",
+            "title": "Marble House & The Elms",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Marble House",
+              "address": "596 Bellevue Ave, Newport, RI",
+              "lat": 41.462,
+              "lng": -71.301,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Marble%20House"
+            },
+            "blurb": "Two more Bellevue Avenue palaces — Marble House's gold ballroom and The Elms' formal gardens."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "newport-ocean-drive",
+            "title": "Ocean Drive & the Tennis Hall of Fame",
+            "categoryId": "landmarks",
+            "tier": "low",
+            "durationMins": 150,
+            "location": {
+              "name": "International Tennis Hall of Fame",
+              "address": "194 Bellevue Ave, Newport, RI",
+              "lat": 41.487,
+              "lng": -71.311,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=International%20Tennis%20Hall%20of%20Fame"
+            },
+            "blurb": "The 10-mile scenic coastal loop, plus the Victorian Casino and the International Tennis Hall of Fame."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 69,
+      "label": "Day 69 — Leave New England for New York",
+      "type": "commute",
+      "summary": "The long drive south that closes the region and opens the Mid-Atlantic.",
+      "commute": {
+        "from": "Newport, RI",
+        "to": "New York City, NY",
+        "driveTimeMins": 210,
+        "scenicNote": "South through Connecticut along the shoreline — New England gives way to the biggest city on the trip."
+      }
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "providence",
+  "name": "Providence",
+  "state": "RI",
+  "country": "US",
+  "order": 22,
+  "location": {
+    "lat": 41.824,
+    "lng": -71.4128
+  },
+  "summary": "Rhode Island's capital — a great art museum, an Ivy on a hill of colonial houses, Federal Hill's Little Italy, and rivers set on fire.",
+  "lodging": [
+    {
+      "name": "A downtown Providence hotel",
+      "blurb": "Walkable to the river, RISD, and College Hill.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Providence%20Rhode%20Island%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Dinner on Federal Hill",
+      "blurb": "Providence's Little Italy — one of the best Italian neighborhoods in New England."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 64,
+      "label": "Day 64 — RISD & College Hill",
+      "type": "active",
+      "summary": "Art and one of the best-preserved colonial streetscapes in America.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "providence-risd-museum",
+            "title": "RISD Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "RISD Museum",
+              "address": "20 N Main St, Providence, RI",
+              "lat": 41.826,
+              "lng": -71.408,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=RISD%20Museum"
+            },
+            "blurb": "The Rhode Island School of Design's museum — an outsized collection for a city this size."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "providence-college-hill",
+            "title": "Benefit Street & Brown University",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Benefit Street, Providence",
+              "address": "Benefit St, Providence, RI",
+              "lat": 41.829,
+              "lng": -71.406,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Benefit%20Street%2C%20Providence"
+            },
+            "blurb": "The 'Mile of History' — a hillside of Federal and Colonial homes below Brown's campus."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 65,
+      "label": "Day 65 — Federal Hill & WaterFire",
+      "type": "active",
+      "summary": "Little Italy by day, bonfires on the river by night.",
+      "blocks": [
+        {
+          "start": "11:00 AM",
+          "item": {
+            "id": "providence-federal-hill",
+            "title": "Federal Hill",
+            "categoryId": "food-drink",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Federal Hill, Providence",
+              "address": "Atwells Ave, Providence, RI",
+              "lat": 41.823,
+              "lng": -71.429,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Federal%20Hill%2C%20Providence"
+            },
+            "blurb": "Atwells Avenue's markets, bakeries, and red-sauce institutions under the big pinecone gate."
+          }
+        },
+        {
+          "start": "7:00 PM",
+          "item": {
+            "id": "providence-waterfire",
+            "title": "WaterFire on the rivers",
+            "categoryId": "festivals",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "WaterFire Providence",
+              "address": "Waterplace Park, Providence, RI",
+              "lat": 41.829,
+              "lng": -71.411,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=WaterFire%20Providence"
+            },
+            "blurb": "On scheduled nights, 80-plus bonfires blaze on the downtown rivers to music — check the calendar; magical when it's on."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 66,
+      "label": "Day 66 — Down to Newport",
+      "type": "commute",
+      "summary": "A short hop to the Gilded-Age coast.",
+      "commute": {
+        "from": "Providence, RI",
+        "to": "Newport, RI",
+        "driveTimeMins": 40,
+        "scenicNote": "South over the bay to the mansions."
+      }
+    }
+  ]
+}

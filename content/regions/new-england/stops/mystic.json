@@ -1,0 +1,84 @@
+{
+  "id": "mystic",
+  "name": "Mystic",
+  "state": "CT",
+  "country": "US",
+  "order": 21,
+  "location": {
+    "lat": 41.354,
+    "lng": -71.9665
+  },
+  "summary": "A wooden-shipbuilding seaport frozen in the 1800s, a top aquarium, and the pizzeria that named a movie.",
+  "lodging": [
+    {
+      "name": "A Mystic riverfront inn",
+      "blurb": "Walkable to the drawbridge and Seaport.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Mystic%20Connecticut%20riverfront%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A slice at Mystic Pizza",
+      "blurb": "Yes, the one from the movie — order the 'Slice of Heaven.'"
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 62,
+      "label": "Day 62 — The Seaport & Aquarium",
+      "type": "active",
+      "summary": "Living maritime history and beluga whales.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:30 PM",
+          "item": {
+            "id": "mystic-seaport",
+            "title": "Mystic Seaport Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Mystic Seaport Museum",
+              "address": "75 Greenmanville Ave, Mystic, CT",
+              "lat": 41.362,
+              "lng": -71.966,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mystic%20Seaport%20Museum"
+            },
+            "blurb": "The largest maritime museum in the country — a recreated 19th-century village and the last wooden whaleship, the Charles W. Morgan."
+          }
+        },
+        {
+          "start": "3:00 PM",
+          "item": {
+            "id": "mystic-aquarium",
+            "title": "Mystic Aquarium",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Mystic Aquarium",
+              "address": "55 Coogan Blvd, Mystic, CT",
+              "lat": 41.372,
+              "lng": -71.969,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mystic%20Aquarium"
+            },
+            "blurb": "Beluga whales, sea lions, and a strong New England aquarium, then the historic bascule drawbridge downtown."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 63,
+      "label": "Day 63 — Into Rhode Island",
+      "type": "commute",
+      "summary": "A short hop to the capital of the smallest state.",
+      "commute": {
+        "from": "Mystic, CT",
+        "to": "Providence, RI",
+        "driveTimeMins": 60,
+        "scenicNote": "East across the state line into Rhode Island."
+      }
+    }
+  ]
+}

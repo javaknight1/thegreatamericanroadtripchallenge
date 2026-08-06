@@ -1,0 +1,84 @@
+{
+  "id": "new-haven",
+  "name": "New Haven",
+  "state": "CT",
+  "country": "US",
+  "order": 20,
+  "location": {
+    "lat": 41.3083,
+    "lng": -72.9279
+  },
+  "summary": "Yale's Gothic campus, superb (free) museums, and the coal-fired apizza that starts fights among locals.",
+  "lodging": [
+    {
+      "name": "A hotel near the Yale campus",
+      "blurb": "Walkable to the green, the colleges, and the museums.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=New%20Haven%20Connecticut%20hotel%20near%20Yale"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "New Haven apizza",
+      "blurb": "Frank Pepe's white clam pie vs. Sally's — the definitive Connecticut argument."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 60,
+      "label": "Day 60 — Yale & Apizza",
+      "type": "active",
+      "summary": "The campus, a great art gallery, and the pizza pilgrimage.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "new-haven-yale",
+            "title": "Yale campus & University Art Gallery",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Yale University Art Gallery",
+              "address": "1111 Chapel St, New Haven, CT",
+              "lat": 41.308,
+              "lng": -72.931,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Yale%20University%20Art%20Gallery"
+            },
+            "blurb": "Gothic quads, the Beinecke's translucent-marble rare-book library, and the oldest university art museum in the country (free)."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "new-haven-apizza",
+            "title": "Frank Pepe Pizzeria Napoletana",
+            "categoryId": "food-drink",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "Frank Pepe Pizzeria Napoletana",
+              "address": "157 Wooster St, New Haven, CT",
+              "lat": 41.304,
+              "lng": -72.913,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Frank%20Pepe%20Pizzeria%20Napoletana"
+            },
+            "blurb": "Since 1925 — the coal-fired white clam pie that put New Haven on the food map."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 61,
+      "label": "Day 61 — East along the shore to Mystic",
+      "type": "commute",
+      "summary": "Down the Connecticut coast to the seaport.",
+      "commute": {
+        "from": "New Haven, CT",
+        "to": "Mystic, CT",
+        "driveTimeMins": 50,
+        "scenicNote": "East along Long Island Sound."
+      }
+    }
+  ]
+}
