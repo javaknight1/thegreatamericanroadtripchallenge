@@ -8,24 +8,34 @@
     "lat": 44.4759,
     "lng": -73.2121
   },
-  "summary": "Vermont's lakefront college town — a brick pedestrian marketplace and sunsets over the Adirondacks.",
-  "lodging": [],
-  "foodMustTry": [],
+  "summary": "Vermont's lakefront college town — a pedestrian marketplace, Lake Champlain sunsets, and one of the country's best folk-art museums.",
+  "lodging": [
+    {
+      "name": "A hotel near Church Street",
+      "blurb": "Walkable to the marketplace and the waterfront.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Burlington%20Vermont%20Church%20Street%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Vermont farm-to-table dinner",
+      "blurb": "Local cheese, cider, and produce are the whole point here."
+    }
+  ],
   "days": [
     {
-      "dayNumber": 51,
-      "label": "Day 51 — Burlington & Lake Champlain",
+      "dayNumber": 50,
+      "label": "Day 50 — Church Street & the Waterfront",
       "type": "active",
-      "summary": "Lakefront college town — pedestrian marketplace and a sunset over the Adirondacks.",
+      "summary": "The heart of Burlington and the lake at sunset.",
       "blocks": [
         {
           "start": "11:00 AM",
-          "end": "1:00 PM",
           "item": {
-            "id": "vt-church-street",
+            "id": "burlington-church-street",
             "title": "Church Street Marketplace",
             "categoryId": "shopping",
-            "tier": "mid",
+            "tier": "anchor",
             "durationMins": 120,
             "location": {
               "name": "Church Street Marketplace",
@@ -34,47 +44,84 @@
               "lng": -73.2124,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Church%20Street%20Marketplace"
             },
-            "blurb": "A brick pedestrian mall of local shops, buskers, and cafés in the heart of Burlington."
+            "blurb": "A brick pedestrian mall of local shops, buskers, and cafés."
           }
         },
         {
-          "start": "5:30 PM",
-          "end": "7:00 PM",
+          "start": "2:00 PM",
           "item": {
-            "id": "vt-champlain-sunset",
-            "title": "Lake Champlain waterfront sunset",
-            "categoryId": "outdoor-water",
-            "tier": "low",
-            "durationMins": 90,
+            "id": "burlington-echo",
+            "title": "ECHO Leahy Center & the waterfront",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 120,
             "location": {
-              "name": "Burlington Waterfront Park",
-              "address": "Waterfront Park, Burlington, VT",
-              "lat": 44.483,
+              "name": "ECHO Leahy Center",
+              "address": "1 College St, Burlington, VT",
+              "lat": 44.476,
               "lng": -73.223,
-              "mapLink": "https://www.google.com/maps/search/?api=1&query=Burlington%20Waterfront%20Park"
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=ECHO%20Leahy%20Center"
             },
-            "blurb": "The sun dropping behind the Adirondacks across the lake."
+            "blurb": "A lake-ecology science center, then the waterfront path for a Champlain sunset behind the Adirondacks."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 51,
+      "label": "Day 51 — Shelburne",
+      "type": "active",
+      "summary": "One of America's great folk-art collections, on a lakeside farm.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "burlington-shelburne-museum",
+            "title": "Shelburne Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Shelburne Museum",
+              "address": "6000 Shelburne Rd, Shelburne, VT",
+              "lat": 44.373,
+              "lng": -73.226,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Shelburne%20Museum"
+            },
+            "blurb": "39 buildings of Americana — quilts, carousels, a covered bridge, and a whole steamboat, the Ticonderoga, beached on the grounds."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "burlington-shelburne-farms",
+            "title": "Shelburne Farms",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Shelburne Farms",
+              "address": "1611 Harbor Rd, Shelburne, VT",
+              "lat": 44.408,
+              "lng": -73.247,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Shelburne%20Farms"
+            },
+            "blurb": "A model 1880s lakeside farm — cheddar, walking trails, and Adirondack views."
           }
         }
       ]
     },
     {
       "dayNumber": 52,
-      "label": "Day 52 — Drive south to New York City",
+      "label": "Day 52 — South to Woodstock",
       "type": "commute",
-      "summary": "The long, beautiful descent out of New England into the biggest city on the trip.",
+      "summary": "Down through the Green Mountains to Vermont's prettiest village.",
       "commute": {
         "from": "Burlington, VT",
-        "to": "New York City, NY",
-        "driveTimeMins": 330,
-        "scenicNote": "The longest Northeast leg — break it in the Hudson Valley to keep it humane.",
-        "stopsAlongWay": [
-          {
-            "title": "Hudson Valley farm stand",
-            "blurb": "Apples, cider doughnuts, and foliage on the way down.",
-            "mapLink": "https://www.google.com/maps/search/?api=1&query=Hudson%20Valley%20apple%20orchard"
-          }
-        ]
+        "to": "Woodstock, VT",
+        "driveTimeMins": 95,
+        "scenicNote": "South along the spine of the Greens."
       }
     }
   ]

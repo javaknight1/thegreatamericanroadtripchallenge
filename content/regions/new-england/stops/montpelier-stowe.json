@@ -5,10 +5,10 @@
   "country": "US",
   "order": 15,
   "location": {
-    "lat": 44.4654,
-    "lng": -72.6874
+    "lat": 44.2601,
+    "lng": -72.5754
   },
-  "summary": "Postcard Vermont: a steepled village under Mount Mansfield, ice cream from the source, and the smallest state capital in the country.",
+  "summary": "The smallest state capital in America, plus ice cream from the source and a steepled ski village under Mount Mansfield.",
   "lodging": [
     {
       "name": "Trapp Family Lodge, Stowe",
@@ -19,25 +19,42 @@
   "foodMustTry": [
     {
       "name": "A Ben & Jerry's factory scoop",
-      "blurb": "Tour the Waterbury factory and pay respects at the Flavor Graveyard of discontinued pints."
+      "blurb": "Tour the Waterbury factory and pay respects at the Flavor Graveyard."
     },
     {
       "name": "Vermont cheddar & a maple creemee",
-      "blurb": "Sharp local cheddar and a maple soft-serve are the state's signatures."
+      "blurb": "Sharp local cheddar and a maple soft-serve — the state's signatures."
     }
   ],
   "days": [
     {
-      "dayNumber": 47,
-      "label": "Day 47 — Stowe Village & Ben & Jerry's",
+      "dayNumber": 46,
+      "label": "Day 46 — Montpelier & Ben & Jerry's",
       "type": "active",
-      "summary": "Mountain village, the ridgeline of Mansfield, and ice cream.",
+      "summary": "The gold-domed little capital, then ice cream in Waterbury.",
       "blocks": [
         {
           "start": "10:00 AM",
-          "end": "11:30 AM",
           "item": {
-            "id": "vt-ben-jerrys-factory",
+            "id": "montpelier-stowe-state-house",
+            "title": "Vermont State House",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 75,
+            "location": {
+              "name": "Vermont State House",
+              "address": "115 State St, Montpelier, VT",
+              "lat": 44.2624,
+              "lng": -72.5806,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Vermont%20State%20House"
+            },
+            "blurb": "The gold-domed capital of the only U.S. state capital without a McDonald's — small, walkable, and proud of it."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "montpelier-stowe-ben-jerrys",
             "title": "Ben & Jerry's Factory Tour",
             "categoryId": "food-drink",
             "tier": "mid",
@@ -49,17 +66,24 @@
               "lng": -72.728,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Ben%20%26%20Jerry%27s%20Factory"
             },
-            "blurb": "A short factory tour ending in samples, plus the tongue-in-cheek Flavor Graveyard out back."
+            "blurb": "A short factory tour ending in samples, plus the tongue-in-cheek Flavor Graveyard."
           }
-        },
+        }
+      ]
+    },
+    {
+      "dayNumber": 47,
+      "label": "Day 47 — Stowe & Mount Mansfield",
+      "type": "active",
+      "summary": "The village and the ridgeline of Vermont's highest peak.",
+      "blocks": [
         {
-          "start": "1:00 PM",
-          "end": "4:00 PM",
+          "start": "10:00 AM",
           "item": {
-            "id": "vt-mount-mansfield",
+            "id": "montpelier-stowe-mansfield",
             "title": "Mount Mansfield Auto Toll Road",
             "categoryId": "outdoor-water",
-            "tier": "mid",
+            "tier": "anchor",
             "durationMins": 180,
             "location": {
               "name": "Mount Mansfield Toll Road",
@@ -68,10 +92,87 @@
               "lng": -72.8151,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Mount%20Mansfield%20Toll%20Road"
             },
-            "blurb": "Drive or hike to the ridgeline of Vermont's highest peak for foliage views across the Greens."
+            "blurb": "Drive or hike to the ridgeline of Vermont's highest peak for foliage views across the Greens.",
+            "gear": [
+              "layers"
+            ]
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "montpelier-stowe-village",
+            "title": "Stowe village & the rec path",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Stowe Village",
+              "address": "Main St, Stowe, VT",
+              "lat": 44.4654,
+              "lng": -72.6874,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Stowe%20Village"
+            },
+            "blurb": "The white-steepled village, covered bridge, and a stroll or bike on the rec path."
           }
         }
       ]
+    },
+    {
+      "dayNumber": 48,
+      "label": "Day 48 — Smugglers' Notch",
+      "type": "active",
+      "summary": "A dramatic mountain pass and the Trapp meadows.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "montpelier-stowe-smugglers",
+            "title": "Smugglers' Notch",
+            "categoryId": "national-parks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Smugglers' Notch",
+              "address": "Smugglers Notch Rd, Stowe, VT",
+              "lat": 44.556,
+              "lng": -72.792,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Smugglers%27%20Notch"
+            },
+            "blurb": "A narrow pass of house-sized boulders and 1,000-ft cliffs (closed to cars in winter)."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "montpelier-stowe-trapp",
+            "title": "Trapp Family Lodge meadows & brewery",
+            "categoryId": "food-drink",
+            "tier": "low",
+            "durationMins": 120,
+            "location": {
+              "name": "Trapp Family Lodge",
+              "address": "700 Trapp Hill Rd, Stowe, VT",
+              "lat": 44.487,
+              "lng": -72.715,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Trapp%20Family%20Lodge"
+            },
+            "blurb": "Alpine meadows, walking trails, and a lager in the von Trapp brewery."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 49,
+      "label": "Day 49 — Down to the lake",
+      "type": "commute",
+      "summary": "A short hop to Burlington on Lake Champlain.",
+      "commute": {
+        "from": "Stowe, VT",
+        "to": "Burlington, VT",
+        "driveTimeMins": 50,
+        "scenicNote": "West to Vermont's biggest city on the lake."
+      }
     }
   ]
 }
