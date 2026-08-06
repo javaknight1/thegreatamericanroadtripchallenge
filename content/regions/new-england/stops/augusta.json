@@ -1,0 +1,83 @@
+{
+  "id": "augusta",
+  "name": "Augusta",
+  "state": "ME",
+  "country": "US",
+  "order": 10,
+  "location": {
+    "lat": 44.3106,
+    "lng": -69.7795
+  },
+  "summary": "Maine's small capital on the Kennebec — the State House, the governor's mansion, and the oldest surviving wooden fort in the country.",
+  "lodging": [
+    {
+      "name": "A riverside hotel in Augusta",
+      "blurb": "Simple base near the capitol complex and the Kennebec.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Augusta%20Maine%20hotel%20Kennebec"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Maine Italian sandwich",
+      "blurb": "The state's own cold sub on a soft roll — a Kennebec Valley staple."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 29,
+      "label": "Day 29 — The Capital on the Kennebec",
+      "type": "active",
+      "summary": "Maine's seat of government and its colonial fort.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "augusta-state-house",
+            "title": "Maine State House & Blaine House",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "Maine State House",
+              "address": "210 State St, Augusta, ME",
+              "lat": 44.3072,
+              "lng": -69.7818,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Maine%20State%20House"
+            },
+            "blurb": "The 1832 granite capitol topped by a copper Minerva, with the governor's Blaine House across the lawn."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "augusta-old-fort-western",
+            "title": "Old Fort Western",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Old Fort Western",
+              "address": "16 Cony St, Augusta, ME",
+              "lat": 44.3106,
+              "lng": -69.773,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20Fort%20Western"
+            },
+            "blurb": "The oldest surviving wooden fort in the U.S. (1754), with costumed interpreters on the riverbank."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 30,
+      "label": "Day 30 — Back to the coast at Camden",
+      "type": "commute",
+      "summary": "Down to the midcoast harbors.",
+      "commute": {
+        "from": "Augusta, ME",
+        "to": "Camden, ME",
+        "driveTimeMins": 55,
+        "scenicNote": "East off the interstate to Penobscot Bay and the windjammer coast."
+      }
+    }
+  ]
+}

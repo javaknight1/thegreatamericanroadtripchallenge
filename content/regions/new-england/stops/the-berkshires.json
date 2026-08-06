@@ -1,0 +1,131 @@
+{
+  "id": "the-berkshires",
+  "name": "The Berkshires",
+  "state": "MA",
+  "country": "US",
+  "order": 18,
+  "location": {
+    "lat": 42.3118,
+    "lng": -73.307
+  },
+  "summary": "Western Massachusetts' cultured hills — Norman Rockwell's studio, a giant contemporary-art mill, and the summer home of the Boston Symphony.",
+  "lodging": [
+    {
+      "name": "A Lenox or Stockbridge inn",
+      "blurb": "Gilded-Age 'cottages' turned country inns.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Lenox%20Massachusetts%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A farm-to-table Berkshires dinner",
+      "blurb": "The hills are thick with excellent restaurants."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 55,
+      "label": "Day 55 — Rockwell & Stockbridge",
+      "type": "active",
+      "summary": "America's most beloved illustrator, at home in the Berkshires.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "the-berkshires-rockwell",
+            "title": "Norman Rockwell Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Norman Rockwell Museum",
+              "address": "9 Glendale Rd, Stockbridge, MA",
+              "lat": 42.287,
+              "lng": -73.345,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Norman%20Rockwell%20Museum"
+            },
+            "blurb": "The world's largest collection of Rockwell's work, plus his relocated studio, in the town he painted."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "the-berkshires-tanglewood",
+            "title": "Tanglewood grounds & Stockbridge Main Street",
+            "categoryId": "concerts-venues",
+            "tier": "low",
+            "durationMins": 120,
+            "location": {
+              "name": "Tanglewood",
+              "address": "297 West St, Lenox, MA",
+              "lat": 42.347,
+              "lng": -73.311,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Tanglewood"
+            },
+            "blurb": "Walk the summer home of the Boston Symphony (concerts in summer), then the Main Street Rockwell famously painted."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 56,
+      "label": "Day 56 — MASS MoCA & Greylock",
+      "type": "active",
+      "summary": "A giant art mill and the highest point in the state.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "the-berkshires-massmoca",
+            "title": "MASS MoCA",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "MASS MoCA",
+              "address": "1040 MASS MoCA Way, North Adams, MA",
+              "lat": 42.699,
+              "lng": -73.115,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=MASS%20MoCA"
+            },
+            "blurb": "One of the largest contemporary-art museums in the country, filling a sprawling old electric-works complex."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "the-berkshires-greylock",
+            "title": "Mount Greylock summit",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Mount Greylock",
+              "address": "Mount Greylock, Adams, MA",
+              "lat": 42.6376,
+              "lng": -73.1662,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mount%20Greylock"
+            },
+            "blurb": "Drive to the highest point in Massachusetts for a 90-mile view and the war-memorial tower.",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 57,
+      "label": "Day 57 — South to Hartford",
+      "type": "commute",
+      "summary": "Down out of the hills into Connecticut.",
+      "commute": {
+        "from": "The Berkshires, MA",
+        "to": "Hartford, CT",
+        "driveTimeMins": 70,
+        "scenicNote": "South into the Connecticut River valley."
+      }
+    }
+  ]
+}

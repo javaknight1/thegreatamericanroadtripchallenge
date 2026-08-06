@@ -1,0 +1,83 @@
+{
+  "id": "hartford",
+  "name": "Hartford",
+  "state": "CT",
+  "country": "US",
+  "order": 19,
+  "location": {
+    "lat": 41.7658,
+    "lng": -72.6734
+  },
+  "summary": "Connecticut's capital — Mark Twain's whimsical mansion, the oldest public art museum in America, and a gold-domed statehouse.",
+  "lodging": [
+    {
+      "name": "A downtown Hartford hotel",
+      "blurb": "Central to the capitol, Bushnell Park, and the museums.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Hartford%20Connecticut%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A New Haven-style apizza run (or wait a day)",
+      "blurb": "Connecticut's famous coal-fired pizza is 40 minutes south — save room."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 58,
+      "label": "Day 58 — Twain & the Atheneum",
+      "type": "active",
+      "summary": "A literary house and America's first public art museum.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "hartford-twain-house",
+            "title": "The Mark Twain House & Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Mark Twain House",
+              "address": "351 Farmington Ave, Hartford, CT",
+              "lat": 41.7669,
+              "lng": -72.701,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mark%20Twain%20House"
+            },
+            "blurb": "The eccentric Gilded-Age mansion where Twain wrote Tom Sawyer and Huckleberry Finn, beside Harriet Beecher Stowe's house."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "hartford-wadsworth",
+            "title": "Wadsworth Atheneum & the State Capitol",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Wadsworth Atheneum",
+              "address": "600 Main St, Hartford, CT",
+              "lat": 41.766,
+              "lng": -72.673,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Wadsworth%20Atheneum"
+            },
+            "blurb": "The oldest continuously operating public art museum in the U.S., then the gold-domed Connecticut Capitol over Bushnell Park."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 59,
+      "label": "Day 59 — Down to New Haven",
+      "type": "commute",
+      "summary": "A short hop to Yale and the pizza capital.",
+      "commute": {
+        "from": "Hartford, CT",
+        "to": "New Haven, CT",
+        "driveTimeMins": 45,
+        "scenicNote": "South to the Elm City."
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "woodstock",
+  "name": "Woodstock",
+  "state": "VT",
+  "country": "US",
+  "order": 17,
+  "location": {
+    "lat": 43.6242,
+    "lng": -72.5187
+  },
+  "summary": "The quintessential New England village — a covered bridge, a working 1890s farm, and a gorge nearby.",
+  "lodging": [
+    {
+      "name": "The Woodstock Inn",
+      "blurb": "A grand village-green inn in the heart of town.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Woodstock%20Inn%20Vermont"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Farmhouse cheddar & cider doughnuts",
+      "blurb": "From the farm stands ringing the village."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 53,
+      "label": "Day 53 — Village & Farm",
+      "type": "active",
+      "summary": "Postcard Vermont and a gorge on the way in.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "woodstock-billings-farm",
+            "title": "Billings Farm & Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Billings Farm & Museum",
+              "address": "69 Old River Rd, Woodstock, VT",
+              "lat": 43.632,
+              "lng": -72.515,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Billings%20Farm%20%26%20Museum"
+            },
+            "blurb": "A working Jersey dairy and a museum of rural Vermont life, next to Marsh-Billings-Rockefeller NHP."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "woodstock-quechee-gorge",
+            "title": "Quechee Gorge & the village green",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Quechee Gorge",
+              "address": "Quechee Gorge, Quechee, VT",
+              "lat": 43.64,
+              "lng": -72.409,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Quechee%20Gorge"
+            },
+            "blurb": "Vermont's deepest gorge from the bridge, then the covered bridge and shops on the Woodstock green."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 54,
+      "label": "Day 54 — South into the Berkshires",
+      "type": "commute",
+      "summary": "Out of Vermont into western Massachusetts.",
+      "commute": {
+        "from": "Woodstock, VT",
+        "to": "The Berkshires, MA",
+        "driveTimeMins": 120,
+        "scenicNote": "South down the Connecticut River valley into the Berkshire hills."
+      }
+    }
+  ]
+}

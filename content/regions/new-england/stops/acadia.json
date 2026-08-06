@@ -1,6 +1,6 @@
 {
   "id": "acadia",
-  "name": "Bar Harbor & Acadia NP",
+  "name": "Acadia National Park",
   "state": "ME",
   "country": "US",
   "order": 12,
@@ -8,24 +8,24 @@
     "lat": 44.3386,
     "lng": -68.2733
   },
-  "summary": "Where the mountains meet the Atlantic — granite peaks, carriage roads, and the first sunrise in the country come fall.",
+  "summary": "Where the mountains meet the Atlantic — granite peaks, Rockefeller's carriage roads, and the first sunrise in the country come fall.",
   "lodging": [
     {
       "name": "Bar Harbor inn or Blackwoods Campground",
-      "blurb": "Stay in walkable Bar Harbor for dinners, or camp at Blackwoods for a head start on the Cadillac sunrise.",
+      "blurb": "Bar Harbor for walkable dinners; Blackwoods for a jump on the Cadillac sunrise.",
       "mapLink": "https://www.google.com/maps/search/?api=1&query=Bar%20Harbor%20Maine"
     }
   ],
   "foodMustTry": [
     {
       "name": "Popovers at Jordan Pond House",
-      "blurb": "Warm popovers with jam on the lawn, overlooking the pond and the Bubbles — an Acadia ritual."
+      "blurb": "Warm popovers with jam on the lawn above the pond — an Acadia ritual."
     }
   ],
   "days": [
     {
-      "dayNumber": 35,
-      "label": "Day 35 — Cadillac Sunrise & Park Loop",
+      "dayNumber": 34,
+      "label": "Day 34 — Cadillac Sunrise & Park Loop",
       "type": "active",
       "summary": "Beat the sun to the summit, then drive the park's greatest hits.",
       "blocks": [
@@ -45,7 +45,7 @@
               "lng": -68.2247,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Cadillac%20Mountain%20Summit"
             },
-            "blurb": "From October to March, the first place in the U.S. to catch the sunrise. A timed vehicle reservation is required in season — book ahead.",
+            "blurb": "From October to March, the first place in the U.S. to catch the sunrise. A timed vehicle reservation is required in season.",
             "gear": [
               "warm layers",
               "headlamp"
@@ -68,20 +68,19 @@
               "lng": -68.187,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Park%20Loop%20Road"
             },
-            "blurb": "The 27-mile scenic loop past Sand Beach, the crash of Thunder Hole, and the cliffs at Otter Point."
+            "blurb": "The 27-mile loop past Sand Beach, the crash of Thunder Hole, and the cliffs at Otter Point."
           }
         }
       ]
     },
     {
-      "dayNumber": 36,
-      "label": "Day 36 — Carriage Roads & Jordan Pond",
+      "dayNumber": 35,
+      "label": "Day 35 — Carriage Roads & Jordan Pond",
       "type": "active",
-      "summary": "Car-free roads, stone bridges, and popovers at the end.",
+      "summary": "Car-free roads, stone bridges, and popovers.",
       "blocks": [
         {
           "start": "10:00 AM",
-          "end": "1:00 PM",
           "item": {
             "id": "acadia-carriage-roads",
             "title": "Bike the carriage roads to Jordan Pond",
@@ -95,7 +94,7 @@
               "lng": -68.2531,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Jordan%20Pond%20House"
             },
-            "blurb": "45 miles of crushed-stone, car-free roads and hand-built stone bridges, ending with tea and popovers at Jordan Pond.",
+            "blurb": "45 miles of crushed-stone, car-free roads and hand-built bridges, ending with popovers at Jordan Pond.",
             "gear": [
               "bike (or rent in Bar Harbor)"
             ]
@@ -104,53 +103,98 @@
       ]
     },
     {
+      "dayNumber": 36,
+      "label": "Day 36 — Schoodic & the sea",
+      "type": "active",
+      "summary": "The quieter mainland side of the park and the whale-rich waters.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "acadia-whale-watch",
+            "title": "Bar Harbor whale watch",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 210,
+            "location": {
+              "name": "Bar Harbor Whale Watch Co.",
+              "address": "1 West St, Bar Harbor, ME",
+              "lat": 44.3919,
+              "lng": -68.205,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Bar%20Harbor%20Whale%20Watch%20Co."
+            },
+            "blurb": "Finbacks and humpbacks offshore if the season and seas cooperate."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "acadia-bar-harbor",
+            "title": "Bar Harbor village & the Shore Path",
+            "categoryId": "shopping",
+            "tier": "low",
+            "durationMins": 120,
+            "location": {
+              "name": "Bar Harbor Village Green",
+              "address": "Bar Harbor, ME",
+              "lat": 44.3876,
+              "lng": -68.2039,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Bar%20Harbor%20Village%20Green"
+            },
+            "blurb": "Maine trinkets, taffy, and a stroll along the oceanfront path."
+          }
+        }
+      ]
+    },
+    {
       "dayNumber": 37,
       "label": "Day 37 — Free Day",
       "type": "free",
-      "summary": "Rest, kayak, or just read on the rocks. Optional ideas below.",
+      "summary": "Rest, kayak, or read on the pink granite. Optional ideas below.",
       "freeMenu": [
         {
-          "id": "acadia-whale-watch",
-          "title": "Bar Harbor whale watch",
-          "categoryId": "outdoor-water",
+          "id": "acadia-schoodic",
+          "title": "Schoodic Peninsula loop",
+          "categoryId": "national-parks",
           "tier": "low",
-          "durationMins": 210,
+          "durationMins": 180,
           "location": {
-            "name": "Bar Harbor Whale Watch Co.",
-            "address": "1 West St, Bar Harbor, ME",
-            "lat": 44.3919,
-            "lng": -68.205,
-            "mapLink": "https://www.google.com/maps/search/?api=1&query=Bar%20Harbor%20Whale%20Watch%20Co."
+            "name": "Schoodic Point",
+            "address": "Schoodic Point, Winter Harbor, ME",
+            "lat": 44.33,
+            "lng": -68.06,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Schoodic%20Point"
           },
-          "blurb": "Finbacks and humpbacks offshore if the season and seas cooperate."
+          "blurb": "The uncrowded mainland corner of Acadia, with pounding surf on pink granite."
         },
         {
-          "id": "acadia-bar-harbor-shops",
-          "title": "Browse Bar Harbor",
-          "categoryId": "shopping",
+          "id": "acadia-sand-beach",
+          "title": "Swim (or shiver) at Sand Beach",
+          "categoryId": "outdoor-water",
           "tier": "low",
           "durationMins": 90,
           "location": {
-            "name": "Bar Harbor Village",
-            "address": "Main St, Bar Harbor, ME",
-            "lat": 44.3876,
-            "lng": -68.2039,
-            "mapLink": "https://www.google.com/maps/search/?api=1&query=Bar%20Harbor%20Village"
+            "name": "Sand Beach, Acadia",
+            "address": "Sand Beach, Bar Harbor, ME",
+            "lat": 44.3294,
+            "lng": -68.184,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Sand%20Beach%2C%20Acadia"
           },
-          "blurb": "Maine trinkets, taffy, and a lobster roll on the pier."
+          "blurb": "A rare sand cove between the cliffs — the water is bracing."
         }
       ]
     },
     {
       "dayNumber": 38,
-      "label": "Day 38 — Drive to the White Mountains",
+      "label": "Day 38 — Inland to the White Mountains",
       "type": "commute",
-      "summary": "Trade the coast for New Hampshire's high country.",
+      "summary": "A long leg west from the coast into New Hampshire's high country.",
       "commute": {
         "from": "Bar Harbor, ME",
         "to": "North Conway, NH",
         "driveTimeMins": 210,
-        "scenicNote": "A longer leg; the payoff is swapping the coast for alpine notches and peak foliage."
+        "scenicNote": "The longest New England leg — the payoff is trading coast for alpine notches and peak foliage."
       }
     }
   ]

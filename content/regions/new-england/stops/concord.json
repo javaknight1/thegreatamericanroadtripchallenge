@@ -1,0 +1,83 @@
+{
+  "id": "concord",
+  "name": "Concord",
+  "state": "NH",
+  "country": "US",
+  "order": 14,
+  "location": {
+    "lat": 43.2081,
+    "lng": -71.5376
+  },
+  "summary": "New Hampshire's compact capital — a working State House with legislators still in the original chambers, and a space-history museum.",
+  "lodging": [
+    {
+      "name": "A downtown Concord inn",
+      "blurb": "Walkable to Main Street and the capitol.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Concord%20NH%20downtown%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A New Hampshire maple creemee",
+      "blurb": "Soft-serve made with local maple."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 44,
+      "label": "Day 44 — The Capital",
+      "type": "active",
+      "summary": "New Hampshire's seat of government and a look to the stars.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "concord-state-house",
+            "title": "New Hampshire State House",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "New Hampshire State House",
+              "address": "107 N Main St, Concord, NH",
+              "lat": 43.2069,
+              "lng": -71.538,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=New%20Hampshire%20State%20House"
+            },
+            "blurb": "The oldest state house in which a legislature still meets in its original chambers (1819)."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "concord-mcauliffe-planetarium",
+            "title": "McAuliffe-Shepard Discovery Center",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "McAuliffe-Shepard Discovery Center",
+              "address": "2 Institute Dr, Concord, NH",
+              "lat": 43.226,
+              "lng": -71.497,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=McAuliffe-Shepard%20Discovery%20Center"
+            },
+            "blurb": "A planetarium and space museum honoring Concord teacher and Challenger astronaut Christa McAuliffe."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 45,
+      "label": "Day 45 — West into Vermont",
+      "type": "commute",
+      "summary": "Across the Connecticut River to the Green Mountains.",
+      "commute": {
+        "from": "Concord, NH",
+        "to": "Montpelier, VT",
+        "driveTimeMins": 120,
+        "scenicNote": "Cross the river into Vermont toward the smallest state capital."
+      }
+    }
+  ]
+}

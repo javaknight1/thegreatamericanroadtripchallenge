@@ -1,0 +1,130 @@
+{
+  "id": "camden-the-midcoast",
+  "name": "Camden & the Midcoast",
+  "state": "ME",
+  "country": "US",
+  "order": 11,
+  "location": {
+    "lat": 44.2098,
+    "lng": -69.0648
+  },
+  "summary": "'Where the mountains meet the sea' — a schooner harbor under Mount Battie, plus Rockland's Wyeth art and a classic lighthouse.",
+  "lodging": [
+    {
+      "name": "A harbor inn in Camden",
+      "blurb": "Sea-captain inns walkable to the windjammer harbor.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Camden%20Maine%20harbor%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Steamed lobster on the dock",
+      "blurb": "Point at your lobster, get a bib, and go."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 31,
+      "label": "Day 31 — Camden Harbor & Mount Battie",
+      "type": "active",
+      "summary": "Windjammers below, a summit view above.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "camden-mount-battie",
+            "title": "Mount Battie, Camden Hills State Park",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Mount Battie",
+              "address": "Camden Hills State Park, Camden, ME",
+              "lat": 44.22,
+              "lng": -69.05,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mount%20Battie"
+            },
+            "blurb": "Drive or hike the auto road for the view over Penobscot Bay that inspired Millay's poetry.",
+            "gear": [
+              "walking shoes"
+            ]
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "camden-windjammer",
+            "title": "Camden Harbor & a windjammer sail",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Camden Harbor",
+              "address": "Camden Public Landing, Camden, ME",
+              "lat": 44.2098,
+              "lng": -69.0648,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Camden%20Harbor"
+            },
+            "blurb": "A classic schooner day-sail out of one of the great tall-ship harbors in America."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 32,
+      "label": "Day 32 — Rockland & Wyeth country",
+      "type": "active",
+      "summary": "Art and lighthouses down the bay.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "camden-farnsworth",
+            "title": "Farnsworth Art Museum & Wyeth Center",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Farnsworth Art Museum",
+              "address": "16 Museum St, Rockland, ME",
+              "lat": 44.104,
+              "lng": -69.11,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Farnsworth%20Art%20Museum"
+            },
+            "blurb": "Three generations of Wyeths and a deep collection of Maine art in downtown Rockland."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "camden-owls-head",
+            "title": "Owls Head Light & Transportation Museum",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Owls Head Light",
+              "address": "186 Lighthouse Rd, Owls Head, ME",
+              "lat": 44.092,
+              "lng": -69.043,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Owls%20Head%20Light"
+            },
+            "blurb": "A squat, beloved lighthouse and a museum of antique planes and cars nearby."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 33,
+      "label": "Day 33 — Up the coast to Acadia",
+      "type": "commute",
+      "summary": "Downeast to Mount Desert Island.",
+      "commute": {
+        "from": "Camden, ME",
+        "to": "Bar Harbor, ME",
+        "driveTimeMins": 95,
+        "scenicNote": "Northeast along the coast to Mount Desert Island and Acadia."
+      }
+    }
+  ]
+}

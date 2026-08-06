@@ -1,6 +1,6 @@
 {
   "id": "white-mountains",
-  "name": "White Mountains",
+  "name": "The White Mountains",
   "state": "NH",
   "country": "US",
   "order": 13,
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 40,
-      "label": "Day 40 — Mount Washington",
+      "dayNumber": 39,
+      "label": "Day 39 — Mount Washington",
       "type": "active",
       "summary": "Ride the world's first mountain-climbing cog railway to the roof of the Northeast.",
       "blocks": [
@@ -33,7 +33,7 @@
           "start": "9:30 AM",
           "end": "12:30 PM",
           "item": {
-            "id": "wm-cog-railway",
+            "id": "white-mountains-cog-railway",
             "title": "Mount Washington Cog Railway",
             "categoryId": "landmarks",
             "tier": "anchor",
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 41,
-      "label": "Day 41 — Kancamagus & Franconia Notch",
+      "dayNumber": 40,
+      "label": "Day 40 — Kancamagus & Franconia Notch",
       "type": "active",
       "summary": "The most beautiful drive in New England during foliage.",
       "blocks": [
@@ -63,7 +63,7 @@
           "start": "9:00 AM",
           "end": "12:00 PM",
           "item": {
-            "id": "wm-kancamagus-highway",
+            "id": "white-mountains-kancamagus",
             "title": "Drive the Kancamagus Highway",
             "categoryId": "outdoor-water",
             "tier": "anchor",
@@ -75,14 +75,14 @@
               "lng": -71.585,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Kancamagus%20Highway"
             },
-            "blurb": "A 34-mile National Scenic Byway with no gas or services and endless overlooks, waterfalls, and — in October — walls of color."
+            "blurb": "A 34-mile National Scenic Byway with no gas or services and endless overlooks, waterfalls, and, in October, walls of color."
           }
         },
         {
           "start": "1:30 PM",
           "end": "3:30 PM",
           "item": {
-            "id": "wm-flume-gorge",
+            "id": "white-mountains-flume-gorge",
             "title": "Flume Gorge, Franconia Notch",
             "categoryId": "national-parks",
             "tier": "mid",
@@ -103,15 +103,100 @@
       ]
     },
     {
+      "dayNumber": 41,
+      "label": "Day 41 — Cannon & the Notch",
+      "type": "active",
+      "summary": "Ride above the notch and explore the caves.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "white-mountains-cannon",
+            "title": "Cannon Mountain Aerial Tramway",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Cannon Mountain Aerial Tramway",
+              "address": "260 Tramway Dr, Franconia, NH",
+              "lat": 44.171,
+              "lng": -71.698,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Cannon%20Mountain%20Aerial%20Tramway"
+            },
+            "blurb": "An 80-second ride to a 4,080-ft summit with views across the Presidentials."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "white-mountains-lost-river",
+            "title": "Lost River Gorge & Boulder Caves",
+            "categoryId": "national-parks",
+            "tier": "low",
+            "durationMins": 120,
+            "location": {
+              "name": "Lost River Gorge",
+              "address": "1712 Lost River Rd, North Woodstock, NH",
+              "lat": 44.038,
+              "lng": -71.793,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Lost%20River%20Gorge"
+            },
+            "blurb": "Boardwalks and ladders through a boulder-choked gorge and squeeze-through caves.",
+            "gear": [
+              "shoes that can get wet"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "dayNumber": 42,
-      "label": "Day 42 — Drive to Stowe, Vermont",
+      "label": "Day 42 — Free Day",
+      "type": "free",
+      "summary": "Slow morning, a covered-bridge drive, or an easy hike. Optional ideas below.",
+      "freeMenu": [
+        {
+          "id": "white-mountains-conway-railroad",
+          "title": "Conway Scenic Railroad",
+          "categoryId": "guided-tours",
+          "tier": "low",
+          "durationMins": 150,
+          "location": {
+            "name": "Conway Scenic Railroad",
+            "address": "38 Norcross Cir, North Conway, NH",
+            "lat": 44.054,
+            "lng": -71.129,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Conway%20Scenic%20Railroad"
+          },
+          "blurb": "A vintage train through Crawford Notch in prime foliage."
+        },
+        {
+          "id": "white-mountains-diana-baths",
+          "title": "Diana's Baths",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 90,
+          "location": {
+            "name": "Diana's Baths",
+            "address": "Diana's Baths, Bartlett, NH",
+            "lat": 44.072,
+            "lng": -71.169,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Diana%27s%20Baths"
+          },
+          "blurb": "An easy walk to a staircase of small waterfalls and pools."
+        }
+      ]
+    },
+    {
+      "dayNumber": 43,
+      "label": "Day 43 — South to the capital",
       "type": "commute",
-      "summary": "West over the Connecticut River into the Green Mountains.",
+      "summary": "Down out of the mountains to Concord.",
       "commute": {
         "from": "North Conway, NH",
-        "to": "Stowe, VT",
-        "driveTimeMins": 130,
-        "scenicNote": "White Mountains to Green Mountains — two different flavors of New England fall in one afternoon."
+        "to": "Concord, NH",
+        "driveTimeMins": 90,
+        "scenicNote": "South through the lakes region toward New Hampshire's capital."
       }
     }
   ]
