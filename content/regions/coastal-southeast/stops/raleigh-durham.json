@@ -1,0 +1,127 @@
+{
+  "id": "raleigh-durham",
+  "name": "Raleigh & Durham",
+  "state": "NC",
+  "country": "US",
+  "order": 6,
+  "location": {
+    "lat": 35.7796,
+    "lng": -78.6382
+  },
+  "summary": "North Carolina's Research Triangle — the capital's free museums, Duke's Gothic campus, and the tobacco town turned tech hub.",
+  "lodging": [
+    {
+      "name": "A downtown Raleigh or Durham hotel",
+      "blurb": "Either anchors the Triangle well.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Raleigh%20North%20Carolina%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Eastern North Carolina barbecue",
+      "blurb": "Whole-hog, vinegar-and-pepper — the Carolina style."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 162,
+      "label": "Day 162 — The Capital & its museums",
+      "type": "active",
+      "summary": "Raleigh's free museum row.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "raleigh-durham-capitol",
+            "title": "North Carolina State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 75,
+            "location": {
+              "name": "North Carolina State Capitol",
+              "address": "1 E Edenton St, Raleigh, NC",
+              "lat": 35.7804,
+              "lng": -78.639,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=North%20Carolina%20State%20Capitol"
+            },
+            "blurb": "A pristine 1840 Greek Revival capitol in the heart of the city."
+          }
+        },
+        {
+          "start": "12:00 PM",
+          "item": {
+            "id": "raleigh-durham-museums",
+            "title": "NC Museums of Natural Sciences & Art",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 180,
+            "location": {
+              "name": "North Carolina Museum of Natural Sciences",
+              "address": "11 W Jones St, Raleigh, NC",
+              "lat": 35.782,
+              "lng": -78.639,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=North%20Carolina%20Museum%20of%20Natural%20Sciences"
+            },
+            "blurb": "The largest natural-history museum in the Southeast, plus a superb (free) art museum with an outdoor park."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 163,
+      "label": "Day 163 — Durham & the campuses",
+      "type": "active",
+      "summary": "Duke, tobacco history, and Tar Heel country.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "raleigh-durham-duke",
+            "title": "Duke University & Duke Gardens",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Duke Chapel",
+              "address": "401 Chapel Dr, Durham, NC",
+              "lat": 36.0018,
+              "lng": -78.94,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Duke%20Chapel"
+            },
+            "blurb": "The soaring Gothic Duke Chapel and the 55-acre Sarah P. Duke Gardens."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "raleigh-durham-american-tobacco",
+            "title": "American Tobacco Campus",
+            "categoryId": "food-drink",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "American Tobacco Campus",
+              "address": "318 Blackwell St, Durham, NC",
+              "lat": 35.993,
+              "lng": -78.904,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=American%20Tobacco%20Campus"
+            },
+            "blurb": "Old cigarette factories reborn as restaurants and breweries along a water feature."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 164,
+      "label": "Day 164 — West to Asheville",
+      "type": "commute",
+      "summary": "Across the state to the mountains.",
+      "commute": {
+        "from": "Raleigh, NC",
+        "to": "Asheville, NC",
+        "driveTimeMins": 210,
+        "scenicNote": "West up into the Blue Ridge and the Great Smokies' edge."
+      }
+    }
+  ]
+}

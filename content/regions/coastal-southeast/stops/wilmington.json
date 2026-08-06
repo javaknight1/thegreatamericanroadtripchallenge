@@ -1,0 +1,84 @@
+{
+  "id": "wilmington",
+  "name": "Wilmington",
+  "state": "NC",
+  "country": "US",
+  "order": 9,
+  "location": {
+    "lat": 34.2257,
+    "lng": -77.9447
+  },
+  "summary": "A riverfront port town on the Cape Fear — a battleship across the water, a walkable historic district, and beaches minutes away.",
+  "lodging": [
+    {
+      "name": "A riverwalk inn in historic Wilmington",
+      "blurb": "Walkable to the Cape Fear riverfront.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=historic%20Wilmington%20North%20Carolina%20riverwalk%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Cape Fear shrimp & grits",
+      "blurb": "Local shrimp done the Lowcountry way."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 171,
+      "label": "Day 171 — Riverfront & Battleship",
+      "type": "active",
+      "summary": "The Cape Fear and the sea.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "wilmington-battleship",
+            "title": "Battleship USS North Carolina",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Battleship USS North Carolina",
+              "address": "1 Battleship Rd, Wilmington, NC",
+              "lat": 34.237,
+              "lng": -77.954,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Battleship%20USS%20North%20Carolina"
+            },
+            "blurb": "Tour the WWII battleship moored across the river from the historic downtown."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "wilmington-riverwalk",
+            "title": "Riverwalk & Wrightsville Beach",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Wilmington Riverwalk",
+              "address": "Water St, Wilmington, NC",
+              "lat": 34.235,
+              "lng": -77.949,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Wilmington%20Riverwalk"
+            },
+            "blurb": "The restored riverfront and antebellum district, then the beach at Wrightsville."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 172,
+      "label": "Day 172 — Into South Carolina",
+      "type": "commute",
+      "summary": "Southwest to the SC upstate.",
+      "commute": {
+        "from": "Wilmington, NC",
+        "to": "Greenville, SC",
+        "driveTimeMins": 240,
+        "scenicNote": "West into South Carolina toward the upstate."
+      }
+    }
+  ]
+}

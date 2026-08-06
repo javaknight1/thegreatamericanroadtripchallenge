@@ -1,0 +1,135 @@
+{
+  "id": "asheville",
+  "name": "Asheville",
+  "state": "NC",
+  "country": "US",
+  "order": 7,
+  "location": {
+    "lat": 35.5951,
+    "lng": -82.5515
+  },
+  "summary": "A mountain arts-and-beer town wrapped around America's largest house, with the Blue Ridge Parkway and the highest peak in the East at the door.",
+  "lodging": [
+    {
+      "name": "The Omni Grove Park Inn",
+      "blurb": "A 1913 arts-and-crafts landmark over the city, with a famous cave spa.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Omni%20Grove%20Park%20Inn%20Asheville"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A craft-beer flight",
+      "blurb": "Asheville has more breweries per capita than almost anywhere — 'Beer City.'"
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 165,
+      "label": "Day 165 — Biltmore",
+      "type": "active",
+      "summary": "America's largest home.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "asheville-biltmore",
+            "title": "Biltmore Estate",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Biltmore Estate",
+              "address": "1 Lodge St, Asheville, NC",
+              "lat": 35.5401,
+              "lng": -82.5515,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Biltmore%20Estate"
+            },
+            "blurb": "George Vanderbilt's 250-room French château and its gardens, winery, and 8,000 acres — a full day.",
+            "gear": [
+              "comfortable shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 166,
+      "label": "Day 166 — The Blue Ridge & Mount Mitchell",
+      "type": "active",
+      "summary": "The parkway and the roof of the East.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "asheville-blue-ridge-parkway",
+            "title": "Blue Ridge Parkway & Mount Mitchell",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Mount Mitchell State Park",
+              "address": "2388 NC-128, Burnsville, NC",
+              "lat": 35.765,
+              "lng": -82.265,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mount%20Mitchell%20State%20Park"
+            },
+            "blurb": "Drive the most scenic stretch of the Parkway to the highest peak east of the Mississippi (6,684 ft).",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 167,
+      "label": "Day 167 — Free Day",
+      "type": "free",
+      "summary": "Breweries, the River Arts District, or a hike. Options below.",
+      "freeMenu": [
+        {
+          "id": "asheville-river-arts",
+          "title": "River Arts District & downtown",
+          "categoryId": "shopping",
+          "tier": "low",
+          "durationMins": 150,
+          "location": {
+            "name": "River Arts District Asheville",
+            "address": "Depot St, Asheville, NC",
+            "lat": 35.586,
+            "lng": -82.572,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=River%20Arts%20District%20Asheville"
+          },
+          "blurb": "Working studios in old warehouses, plus downtown's galleries and taprooms."
+        },
+        {
+          "id": "asheville-dupont-falls",
+          "title": "DuPont State Forest waterfalls",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "DuPont State Recreational Forest",
+            "address": "Hendersonville, NC",
+            "lat": 35.2,
+            "lng": -82.62,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=DuPont%20State%20Recreational%20Forest"
+          },
+          "blurb": "A trio of easy-to-reach waterfalls (some seen in The Hunger Games)."
+        }
+      ]
+    },
+    {
+      "dayNumber": 168,
+      "label": "Day 168 — Down to Charlotte",
+      "type": "commute",
+      "summary": "Out of the mountains to the Queen City.",
+      "commute": {
+        "from": "Asheville, NC",
+        "to": "Charlotte, NC",
+        "driveTimeMins": 120,
+        "scenicNote": "Southeast off the Blue Ridge to North Carolina's biggest city."
+      }
+    }
+  ]
+}

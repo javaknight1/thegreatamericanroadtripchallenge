@@ -1,0 +1,83 @@
+{
+  "id": "charlotte",
+  "name": "Charlotte",
+  "state": "NC",
+  "country": "US",
+  "order": 8,
+  "location": {
+    "lat": 35.2271,
+    "lng": -80.8431
+  },
+  "summary": "The 'Queen City' — a banking-tower skyline, NASCAR's hall of fame, and a whitewater center on the edge of town.",
+  "lodging": [
+    {
+      "name": "An Uptown Charlotte hotel",
+      "blurb": "Central to the museums and stadiums.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Uptown%20Charlotte%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Carolina-style barbecue & sweet tea",
+      "blurb": "Piedmont pork and a proper glass of sweet tea."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 169,
+      "label": "Day 169 — Speedways & Uptown",
+      "type": "active",
+      "summary": "NASCAR country and the city center.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "charlotte-nascar-hall",
+            "title": "NASCAR Hall of Fame",
+            "categoryId": "sports",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "NASCAR Hall of Fame",
+              "address": "400 E Martin Luther King Jr Blvd, Charlotte, NC",
+              "lat": 35.223,
+              "lng": -80.839,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=NASCAR%20Hall%20of%20Fame"
+            },
+            "blurb": "Interactive racing simulators and stock-car history in the sport's home region."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "charlotte-uptown",
+            "title": "Uptown museums & Discovery Place",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Discovery Place Science",
+              "address": "301 N Tryon St, Charlotte, NC",
+              "lat": 35.229,
+              "lng": -80.84,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Discovery%20Place%20Science"
+            },
+            "blurb": "The Levine Museum of the New South and the hands-on Discovery Place among the bank towers."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 170,
+      "label": "Day 170 — Southeast to the coast",
+      "type": "commute",
+      "summary": "Back to the ocean at Wilmington.",
+      "commute": {
+        "from": "Charlotte, NC",
+        "to": "Wilmington, NC",
+        "driveTimeMins": 200,
+        "scenicNote": "Southeast across the coastal plain to the Cape Fear River."
+      }
+    }
+  ]
+}

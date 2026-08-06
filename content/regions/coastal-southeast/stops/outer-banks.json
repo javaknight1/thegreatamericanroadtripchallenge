@@ -1,0 +1,153 @@
+{
+  "id": "outer-banks",
+  "name": "The Outer Banks",
+  "state": "NC",
+  "country": "US",
+  "order": 5,
+  "location": {
+    "lat": 35.9582,
+    "lng": -75.6201
+  },
+  "summary": "A thin ribbon of barrier islands where the Wright Brothers first flew, tall lighthouses stripe the dunes, and wild ponies roam the north beaches.",
+  "lodging": [
+    {
+      "name": "An oceanfront cottage in Nags Head",
+      "blurb": "Classic OBX stilted beach houses.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Nags%20Head%20Outer%20Banks%20beach%20house"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Fresh-caught seafood & hushpuppies",
+      "blurb": "Off the boats along the sounds."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 158,
+      "label": "Day 158 — First Flight",
+      "type": "active",
+      "summary": "Where powered flight began.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "outer-banks-wright-brothers",
+            "title": "Wright Brothers National Memorial",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Wright Brothers National Memorial",
+              "address": "1000 N Croatan Hwy, Kill Devil Hills, NC",
+              "lat": 36.0146,
+              "lng": -75.669,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Wright%20Brothers%20National%20Memorial"
+            },
+            "blurb": "Stand where the Wright brothers made the first powered flight in 1903, marked stone by stone."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "outer-banks-jockeys-ridge",
+            "title": "Jockey's Ridge State Park",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Jockey's Ridge State Park",
+              "address": "300 W Carolista Dr, Nags Head, NC",
+              "lat": 35.964,
+              "lng": -75.63,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Jockey%27s%20Ridge%20State%20Park"
+            },
+            "blurb": "The tallest active sand dune on the East Coast — climb it, hang-glide, or watch the sunset.",
+            "gear": [
+              "sun protection"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 159,
+      "label": "Day 159 — Lighthouses & the Seashore",
+      "type": "active",
+      "summary": "Down the wild Cape Hatteras shore.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "outer-banks-cape-hatteras",
+            "title": "Cape Hatteras Lighthouse & National Seashore",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Cape Hatteras Lighthouse",
+              "address": "46379 Lighthouse Rd, Buxton, NC",
+              "lat": 35.251,
+              "lng": -75.529,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Cape%20Hatteras%20Lighthouse"
+            },
+            "blurb": "Climb the tallest brick lighthouse in America, then the empty beaches of the first national seashore.",
+            "gear": [
+              "beach gear"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 160,
+      "label": "Day 160 — Free / Beach Day",
+      "type": "free",
+      "summary": "Sand and sound. Options below.",
+      "freeMenu": [
+        {
+          "id": "outer-banks-ocracoke",
+          "title": "Ferry to Ocracoke Island",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 240,
+          "location": {
+            "name": "Ocracoke Island Ferry",
+            "address": "Hatteras Ferry Terminal, Hatteras, NC",
+            "lat": 35.209,
+            "lng": -75.696,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Ocracoke%20Island%20Ferry"
+          },
+          "blurb": "A free ferry to Blackbeard's old haunt — a village-and-beach day trip."
+        },
+        {
+          "id": "outer-banks-corolla-horses",
+          "title": "Wild horses of Corolla",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Corolla Wild Horses",
+            "address": "Corolla, NC",
+            "lat": 36.376,
+            "lng": -75.83,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Corolla%20Wild%20Horses"
+          },
+          "blurb": "A 4x4 tour up the northern beaches to see the Banker ponies."
+        }
+      ]
+    },
+    {
+      "dayNumber": 161,
+      "label": "Day 161 — Inland to the Triangle",
+      "type": "commute",
+      "summary": "West off the islands to the Research Triangle.",
+      "commute": {
+        "from": "Outer Banks, NC",
+        "to": "Raleigh, NC",
+        "driveTimeMins": 180,
+        "scenicNote": "West across the sounds and coastal plain to the state capital."
+      }
+    }
+  ]
+}
