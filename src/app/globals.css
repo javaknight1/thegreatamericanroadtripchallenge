@@ -1,36 +1,72 @@
 @import "tailwindcss";
 
 /*
- * Design tokens. Category colors deliberately live in content/trip.json, not
- * here — these are only the surfaces those colors sit on.
+ * Fonts are vendored (public/fonts, latin subset) rather than pulled from
+ * Google Fonts, so neither the build nor the browser ever touches a third
+ * party. Inter and JetBrains Mono are variable — one file covers the range.
  */
-@theme {
-  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
-
-  --color-canvas: #fbf8f3;
-  --color-surface: #ffffff;
-  --color-raised: #f4efe6;
-  --color-ink: #16202c;
-  --color-muted: #5b6672;
-  --color-hairline: #e6ded1;
-  --color-accent: #b4462b;
-  --color-accent-soft: #f6e7e1;
-  --color-highway: #1f3a5f;
+@font-face {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/anton-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/barlow-condensed-600.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/barlow-condensed-700.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/inter-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 100 800;
+  font-display: swap;
+  src: url("/fonts/jetbrains-mono-400.woff2") format("woff2");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-canvas: #0d1218;
-    --color-surface: #141b23;
-    --color-raised: #1b242e;
-    --color-ink: #edf2f7;
-    --color-muted: #9aa7b4;
-    --color-hairline: #26313c;
-    --color-accent: #e5714f;
-    --color-accent-soft: #2b1a15;
-    --color-highway: #a8c6ea;
-  }
+/*
+ * A printed-roadbook palette: warm paper, dark chrome, trail orange. One
+ * deliberate look, light only — this doubles as the marketing surface, and the
+ * paper stock is the identity. Category colors come from content/trip.json.
+ */
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Anton", Impact, "Arial Narrow", sans-serif;
+  --font-cond: "Barlow Condensed", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-canvas: #ece3d2;
+  --color-surface: #f5efe1;
+  --color-raised: #e2d6be;
+  --color-ink: #161719;
+  --color-ink-soft: #3a382f;
+  --color-muted: #6a6252;
+  --color-hairline: #cbbfa3;
+  --color-chrome: #161719;
+  --color-chrome-2: #20242a;
+  --color-accent: #c2521c;
+  --color-accent-soft: #f0dfc9;
+  --color-rock: #9a3b2c;
+  --color-gold: #d2892b;
+  --color-sage: #5e6b45;
+  --color-highway: #1e7c8c;
 }
 
 html {
@@ -43,6 +79,7 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  line-height: 1.5;
 }
 
 :focus-visible {
@@ -50,13 +87,25 @@ body {
   outline-offset: 2px;
 }
 
-/* The dashed line running down a day's time blocks. */
-.timeline-rail {
-  background-image: linear-gradient(
-    to bottom,
-    var(--color-hairline) 0 8px,
-    transparent 8px 16px
-  );
-  background-size: 2px 16px;
-  background-repeat: repeat-y;
+/* Hide the horizontal day rail's scrollbar without disabling the scroll. */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Map link affordance used throughout the itinerary. */
+.pin-link::before {
+  content: "◈";
+  font-size: 0.85em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
 }

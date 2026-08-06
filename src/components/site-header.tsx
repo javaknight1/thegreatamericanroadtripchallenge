@@ -5,33 +5,27 @@ export function SiteHeader() {
   const trip = getTrip();
 
   return (
-    <header className="sticky top-0 z-20 border-b border-hairline bg-canvas/85 backdrop-blur">
-      <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-        <Link href="/" className="group flex min-w-0 items-center gap-2.5">
-          <span
-            aria-hidden
-            className="grid h-8 w-8 shrink-0 place-items-center rounded-full border-2 border-accent text-[10px] font-bold tracking-tight text-accent"
-          >
-            US
+    <header className="sticky top-0 z-40 border-b-2 border-accent bg-chrome text-canvas">
+      <div className="mx-auto flex max-w-3xl items-center gap-3 px-4 py-2.5 sm:px-6">
+        <Link href="/" className="min-w-0 flex-1">
+          <span className="block truncate font-display text-[15px] leading-none tracking-wider uppercase sm:text-[17px]">
+            {trip.title}
           </span>
-          <span className="min-w-0">
-            <span className="block truncate font-display text-base leading-tight font-semibold sm:text-lg">
-              {trip.title}
-            </span>
-            <span className="hidden text-xs text-muted sm:block">{trip.durationEstimate} · one continuous loop</span>
+          <span className="mt-1 block truncate font-mono text-[9px] tracking-[0.2em] text-gold uppercase sm:text-[10px]">
+            {trip.durationEstimate} · 48 states · one loop
           </span>
         </Link>
 
-        <nav className="flex shrink-0 items-center gap-1 text-sm">
+        <nav className="flex shrink-0 items-center gap-1 rounded-full bg-chrome-2 p-1">
           <Link
             href="/#regions"
-            className="rounded-full px-3 py-1.5 text-muted transition-colors hover:bg-raised hover:text-ink"
+            className="rounded-full px-3 py-1.5 font-cond text-[13px] font-semibold tracking-wider text-canvas/70 uppercase transition-colors hover:text-canvas"
           >
             Regions
           </Link>
           <Link
             href="/packing-list/"
-            className="rounded-full px-3 py-1.5 text-muted transition-colors hover:bg-raised hover:text-ink"
+            className="rounded-full px-3 py-1.5 font-cond text-[13px] font-semibold tracking-wider text-canvas/70 uppercase transition-colors hover:text-canvas"
           >
             Packing
           </Link>
