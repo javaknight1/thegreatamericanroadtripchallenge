@@ -209,7 +209,7 @@ function projectionFor(window: Window): { projection: GeoProjection; height: num
  * which case drop it below the pin.
  */
 function placeLabels(stops: MapStop[]): MapStop[] {
-  const halfWidth = (name: string) => Math.max(30, name.length * 3.6);
+  const halfWidth = (name: string) => Math.max(34, name.length * 4.6);
   const placed: Array<{ x: number; y: number; half: number }> = [];
 
   return stops.map((stop) => {
@@ -219,7 +219,7 @@ function placeLabels(stops: MapStop[]): MapStop[] {
     for (const side of candidates) {
       const y = side === "above" ? stop.y - 15 : stop.y + 22;
       const clash = placed.some(
-        (box) => Math.abs(box.y - y) < 13 && Math.abs(box.x - stop.x) < box.half + half,
+        (box) => Math.abs(box.y - y) < 17 && Math.abs(box.x - stop.x) < box.half + half,
       );
       if (!clash) {
         placed.push({ x: stop.x, y, half });

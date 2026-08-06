@@ -87,6 +87,12 @@ Every day is its own prerendered page rather than client-side state, so days are
 linkable and a 700-day itinerary never becomes a 700-day payload. There are no
 client components: the site works with JavaScript off.
 
+Region and day pages are a single stacked column on a phone and split into two
+at `lg`: the leg's identity (banner, map) holds still on the left while its days
+scroll on the right, so a whole day is readable without scrolling the map off
+the screen. Grid columns carry `min-w-0` — without it the day rail's row of
+chips stretches the track and pushes the page sideways on a phone.
+
 Two things are generated rather than drawn by hand, both at build time and both
 as inline SVG: the **region map** (d3-geo projects the leg's own stops, crops to
 them, and decimates the state outlines to whole pixels) and the **artwork** — a

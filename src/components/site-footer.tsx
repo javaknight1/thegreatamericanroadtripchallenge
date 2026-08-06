@@ -6,7 +6,7 @@ export function SiteFooter() {
 
   return (
     <footer className="mt-14 bg-chrome text-canvas/80">
-      <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6">
+      <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
         <p className="font-display text-lg tracking-wider uppercase">{trip.title}</p>
         <p className="mt-2 max-w-2xl font-mono text-[11px] leading-relaxed tracking-wide">{trip.tagline}</p>
 

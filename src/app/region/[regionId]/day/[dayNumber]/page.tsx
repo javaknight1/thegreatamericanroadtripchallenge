@@ -67,48 +67,56 @@ export default async function DayPage({ params }: { params: Promise<Params> }) {
 
   return (
     <div style={regionThemeStyle(theme)}>
-      <div className="mx-auto max-w-3xl px-4 py-6 sm:px-6 sm:py-10">
+      <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-8">
         <div className="flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-[11px] tracking-wide text-muted uppercase">
           <Link href={`/region/${region.id}/`}>← {region.name}</Link>
           <span aria-hidden>·</span>
           <Link href={`/region/${region.id}/${stop.id}/`}>{stop.name}</Link>
         </div>
 
-        <section className="mt-4 overflow-hidden rounded-xl">
-          <DayHeader day={day} place={stop.name} />
-        </section>
+        {/*
+          Phone: everything stacks in reading order — where you are, then the
+          map, then the hours. Desktop: the place and the map hold still on the
+          left while the itinerary scrolls beside them, so a whole day is
+          legible without losing the map off the top of the screen.
+        */}
+        <div className="mt-4 grid items-start gap-5 lg:grid-cols-[minmax(0,42%)_minmax(0,58%)]">
+          <div className="no-scrollbar min-w-0 space-y-4 lg:sticky lg:top-[72px] lg:max-h-[calc(100vh-5.5rem)] lg:overflow-y-auto">
+            <section className="overflow-hidden rounded-xl">
+              <DayHeader day={day} place={stop.name} />
+            </section>
 
-        {map && (
-          <section className="mt-4">
-            <RegionMap
-              map={map}
-              theme={theme}
-              regionId={region.id}
-              colors={colors}
-              activeStopId={stop.id}
+            {map && (
+              <section>
+                <RegionMap
+                  map={map}
+                  theme={theme}
+                  regionId={region.id}
+                  colors={colors}
+                  activeStopId={stop.id}
+                />
+              </section>
+            )}
+          </div>
+
+          <div className="min-w-0 space-y-4">
+            <section>
+              <DayRail
+                days={days}
+                regionId={region.id}
+                colors={colors}
+                currentDay={day.dayNumber}
+              />
+            </section>
+
+            <DayPanel
+              day={day}
+              place={stop.name}
+              categories={categoryIndex(trip)}
+              withHeader={false}
             />
-          </section>
-        )}
 
-        <section className="mt-4">
-          <DayRail
-            days={days}
-            regionId={region.id}
-            colors={colors}
-            currentDay={day.dayNumber}
-          />
-        </section>
-
-        <div className="mt-5">
-          <DayPanel
-            day={day}
-            place={stop.name}
-            categories={categoryIndex(trip)}
-            withHeader={false}
-          />
-        </div>
-
-        <nav className="mt-4 flex gap-2.5">
+            <nav className="flex gap-2.5">
           {previous ? (
             <Link
               href={`/region/${region.id}/day/${previous.dayNumber}/`}
@@ -134,7 +142,9 @@ export default async function DayPage({ params }: { params: Promise<Params> }) {
               End of leg →
             </Link>
           )}
-        </nav>
+            </nav>
+          </div>
+        </div>
       </div>
     </div>
   );

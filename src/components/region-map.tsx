@@ -88,7 +88,7 @@ export function RegionMap({
                 y={stop.y + 3.5}
                 textAnchor="middle"
                 fill="#fff"
-                fontSize={active ? 11 : 9}
+                fontSize={active ? 15 : 13}
                 fontWeight={700}
                 fontFamily="var(--font-mono)"
               >
@@ -101,10 +101,10 @@ export function RegionMap({
                   textAnchor="middle"
                   fill={active ? theme.surface : "#9aa2ad"}
                   stroke={theme.water}
-                  strokeWidth={3}
+                  strokeWidth={4}
                   paintOrder="stroke"
-                  fontSize={13}
-                  fontWeight={active ? 700 : 500}
+                  fontSize={17}
+                  fontWeight={active ? 700 : 600}
                   fontFamily="var(--font-cond)"
                   letterSpacing="0.03em"
                 >
