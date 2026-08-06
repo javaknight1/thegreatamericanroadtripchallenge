@@ -1,0 +1,86 @@
+{
+  "id": "duluth-the-north-shore",
+  "name": "Duluth & the North Shore",
+  "state": "MN",
+  "country": "US",
+  "order": 10,
+  "location": {
+    "lat": 46.7867,
+    "lng": -92.1005
+  },
+  "summary": "A rugged port city on Lake Superior and the wild, waterfall-laced shore that runs north from it.",
+  "lodging": [
+    {
+      "name": "A Canal Park hotel",
+      "blurb": "By the lift bridge and the lakewalk.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Canal%20Park%20Duluth%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Fresh Lake Superior fish",
+      "blurb": "Whitefish and a Duluth pasty."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 645,
+      "label": "Day 645 — The Lake & the Shore",
+      "type": "active",
+      "summary": "The lift bridge and the falls.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "duluth-canal-park",
+            "title": "Canal Park & the Aerial Lift Bridge",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Canal Park",
+              "address": "Canal Park, Duluth, MN",
+              "lat": 46.781,
+              "lng": -92.093,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Canal%20Park"
+            },
+            "blurb": "Watch the great lake freighters pass under the iconic lift bridge."
+          }
+        },
+        {
+          "start": "12:00 PM",
+          "item": {
+            "id": "north-shore-split-rock",
+            "title": "The North Shore & Split Rock Lighthouse",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Split Rock Lighthouse",
+              "address": "3713 Split Rock Lighthouse Rd, Two Harbors, MN",
+              "lat": 47.2003,
+              "lng": -91.367,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Split%20Rock%20Lighthouse"
+            },
+            "blurb": "Drive the North Shore past Gooseberry Falls to the cliff-top Split Rock Lighthouse.",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 646,
+      "label": "Day 646 — North to Voyageurs",
+      "type": "commute",
+      "summary": "To the water wilderness.",
+      "commute": {
+        "from": "Duluth, MN",
+        "to": "Voyageurs National Park, MN",
+        "driveTimeMins": 180,
+        "scenicNote": "North to the Canadian-border lake country."
+      }
+    }
+  ]
+}

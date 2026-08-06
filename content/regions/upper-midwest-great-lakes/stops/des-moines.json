@@ -1,0 +1,65 @@
+{
+  "id": "des-moines",
+  "name": "Des Moines",
+  "state": "IA",
+  "country": "US",
+  "order": 7,
+  "location": {
+    "lat": 41.5868,
+    "lng": -93.625
+  },
+  "summary": "Iowa's capital — a five-domed statehouse, a free downtown sculpture park, and the grounds of the country's most famous state fair.",
+  "lodging": [
+    {
+      "name": "A downtown or East Village hotel",
+      "blurb": "Near the Capitol and the sculpture park.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Des%20Moines%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A loose-meat sandwich & pork tenderloin",
+      "blurb": "Iowa diner classics."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 636,
+      "label": "Day 636 — Capitol & Sculpture",
+      "type": "active",
+      "summary": "Gold domes and open-air art.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "des-moines-capitol",
+            "title": "Iowa State Capitol & Sculpture Park",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Iowa State Capitol",
+              "address": "1007 E Grand Ave, Des Moines, IA",
+              "lat": 41.5912,
+              "lng": -93.603,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Iowa%20State%20Capitol"
+            },
+            "blurb": "The gleaming five-domed capitol (one is gold-leafed), then the free Pappajohn Sculpture Park and the East Village."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 637,
+      "label": "Day 637 — East to the Colonies",
+      "type": "commute",
+      "summary": "To communal villages and a cornfield diamond.",
+      "commute": {
+        "from": "Des Moines, IA",
+        "to": "Amana Colonies, IA",
+        "driveTimeMins": 120,
+        "scenicNote": "East to the Amana Colonies."
+      }
+    }
+  ]
+}

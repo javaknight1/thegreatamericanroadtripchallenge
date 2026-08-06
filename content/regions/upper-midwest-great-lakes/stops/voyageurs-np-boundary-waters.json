@@ -1,0 +1,99 @@
+{
+  "id": "voyageurs-np-boundary-waters",
+  "name": "Voyageurs & the Boundary Waters",
+  "state": "MN",
+  "country": "US",
+  "order": 11,
+  "location": {
+    "lat": 48.4839,
+    "lng": -92.8386
+  },
+  "summary": "A north-woods wilderness of interconnected lakes on the Canadian border — a national park you explore by boat, and the greatest canoe country in America.",
+  "lodging": [
+    {
+      "name": "An International Falls or Kabetogama lodge",
+      "blurb": "On the water at the park's edge.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Lake%20Kabetogama%20Voyageurs%20lodge"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Shore lunch",
+      "blurb": "Fresh-caught walleye cooked lakeside."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 647,
+      "label": "Day 647 — On the Water",
+      "type": "active",
+      "summary": "A park you reach by boat.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "voyageurs-boat",
+            "title": "Voyageurs National Park by boat",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Voyageurs National Park",
+              "address": "Voyageurs National Park, MN",
+              "lat": 48.4839,
+              "lng": -92.8386,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Voyageurs%20National%20Park"
+            },
+            "blurb": "Take a boat tour or rent a canoe across Rainy and Kabetogama Lakes — the old fur-trade voyageur route, and northern lights at night.",
+            "gear": [
+              "layers",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 648,
+      "label": "Day 648 — The Boundary Waters",
+      "type": "active",
+      "summary": "Paddle the canoe country.",
+      "blocks": [
+        {
+          "start": "8:00 AM",
+          "item": {
+            "id": "boundary-waters-canoe",
+            "title": "Boundary Waters Canoe Area",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 360,
+            "location": {
+              "name": "Boundary Waters Canoe Area Wilderness",
+              "address": "Ely, MN",
+              "lat": 47.902,
+              "lng": -91.867,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Boundary%20Waters%20Canoe%20Area%20Wilderness"
+            },
+            "blurb": "Paddle and portage into over a million acres of pristine lake wilderness (an outfitter can set you up).",
+            "gear": [
+              "canoe/outfitter",
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 649,
+      "label": "Day 649 — Southeast to Wisconsin",
+      "type": "commute",
+      "summary": "The long run to Door County.",
+      "commute": {
+        "from": "Voyageurs National Park, MN",
+        "to": "Door County, WI",
+        "driveTimeMins": 300,
+        "scenicNote": "Southeast down toward the Lake Michigan peninsula — a big transfer day."
+      }
+    }
+  ]
+}

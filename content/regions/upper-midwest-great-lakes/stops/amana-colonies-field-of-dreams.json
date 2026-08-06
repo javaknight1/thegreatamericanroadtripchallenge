@@ -1,0 +1,84 @@
+{
+  "id": "amana-colonies-field-of-dreams",
+  "name": "Amana Colonies & Field of Dreams",
+  "state": "IA",
+  "country": "US",
+  "order": 8,
+  "location": {
+    "lat": 41.7997,
+    "lng": -91.8686
+  },
+  "summary": "Seven historic German communal villages, and the movie baseball diamond still cut into the Iowa corn.",
+  "lodging": [
+    {
+      "name": "An Amana Colonies inn",
+      "blurb": "In the historic villages.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Amana%20Colonies%20Iowa%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Family-style German dinner",
+      "blurb": "Bratwurst, sauerkraut, and Amana wine."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 638,
+      "label": "Day 638 — Colonies & the Cornfield",
+      "type": "active",
+      "summary": "Crafts, then a movie diamond.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "amana-colonies",
+            "title": "The Amana Colonies",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Amana Colonies",
+              "address": "Amana, IA",
+              "lat": 41.7997,
+              "lng": -91.8686,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Amana%20Colonies"
+            },
+            "blurb": "Seven villages founded by a German communal society — woolen mill, furniture shops, and hearty family-style restaurants."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "field-of-dreams",
+            "title": "Field of Dreams",
+            "categoryId": "quirky",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Field of Dreams Movie Site",
+              "address": "28995 Lansing Rd, Dyersville, IA",
+              "lat": 42.498,
+              "lng": -91.053,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Field%20of%20Dreams%20Movie%20Site"
+            },
+            "blurb": "The baseball field carved into the corn from the movie — 'If you build it, he will come' (a ~1.5-hr drive northeast)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 639,
+      "label": "Day 639 — North to the Twin Cities",
+      "type": "commute",
+      "summary": "Up to Minnesota.",
+      "commute": {
+        "from": "Dyersville, IA",
+        "to": "Minneapolis, MN",
+        "driveTimeMins": 210,
+        "scenicNote": "North to Minneapolis and St. Paul."
+      }
+    }
+  ]
+}

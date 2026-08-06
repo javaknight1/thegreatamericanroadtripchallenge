@@ -1,0 +1,210 @@
+{
+  "id": "minneapolis-st-paul",
+  "name": "Minneapolis & St. Paul",
+  "state": "MN",
+  "country": "US",
+  "order": 9,
+  "location": {
+    "lat": 44.9778,
+    "lng": -93.265
+  },
+  "summary": "The Twin Cities on the Mississippi — lakes and a milling history, a legendary music scene, world-class art, and the country's biggest mall. A full stay.",
+  "lodging": [
+    {
+      "name": "A downtown Minneapolis hotel",
+      "blurb": "Near the river and the lakes.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Minneapolis%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Jucy Lucy & wild rice soup",
+      "blurb": "The cheese-stuffed burger born here."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 640,
+      "label": "Day 640 — River & Lakes",
+      "type": "active",
+      "summary": "The mills and the sculpture garden.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "minneapolis-stone-arch",
+            "title": "Stone Arch Bridge & Mill City",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Stone Arch Bridge",
+              "address": "Stone Arch Bridge, Minneapolis, MN",
+              "lat": 44.981,
+              "lng": -93.257,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Stone%20Arch%20Bridge"
+            },
+            "blurb": "The falls of St. Anthony, the Mill City Museum, and the walk across the historic stone bridge."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "minneapolis-sculpture-garden",
+            "title": "Minneapolis Sculpture Garden",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Minneapolis Sculpture Garden",
+              "address": "725 Vineland Pl, Minneapolis, MN",
+              "lat": 44.969,
+              "lng": -93.289,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Minneapolis%20Sculpture%20Garden"
+            },
+            "blurb": "The 'Spoonbridge and Cherry' and the Walker Art Center beside it."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 641,
+      "label": "Day 641 — Mall & Falls",
+      "type": "active",
+      "summary": "America's biggest mall and a city waterfall.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "2:00 PM",
+          "item": {
+            "id": "minneapolis-mall-of-america",
+            "title": "Mall of America",
+            "categoryId": "shopping",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Mall of America",
+              "address": "60 E Broadway, Bloomington, MN",
+              "lat": 44.8548,
+              "lng": -93.2422,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mall%20of%20America"
+            },
+            "blurb": "The largest mall in the country — with an indoor amusement park in the middle."
+          }
+        },
+        {
+          "start": "3:00 PM",
+          "item": {
+            "id": "minneapolis-minnehaha",
+            "title": "Minnehaha Falls",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Minnehaha Regional Park",
+              "address": "4801 S Minnehaha Dr, Minneapolis, MN",
+              "lat": 44.9153,
+              "lng": -93.211,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Minnehaha%20Regional%20Park"
+            },
+            "blurb": "A 53-ft waterfall in a city park, of Longfellow's 'Hiawatha.'"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 642,
+      "label": "Day 642 — St. Paul",
+      "type": "active",
+      "summary": "The other twin.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "st-paul-capitol",
+            "title": "Minnesota State Capitol & the Cathedral",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Minnesota State Capitol",
+              "address": "75 Rev Dr Martin Luther King Jr Blvd, St Paul, MN",
+              "lat": 44.955,
+              "lng": -93.102,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Minnesota%20State%20Capitol"
+            },
+            "blurb": "The gleaming capitol dome, the hilltop Cathedral of Saint Paul, and the mansions of Summit Avenue."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "st-paul-science-museum",
+            "title": "Science Museum of Minnesota",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Science Museum of Minnesota",
+              "address": "120 W Kellogg Blvd, St Paul, MN",
+              "lat": 44.943,
+              "lng": -93.099,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Science%20Museum%20of%20Minnesota"
+            },
+            "blurb": "A great riverside science museum with a dino hall and omnitheater."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 643,
+      "label": "Day 643 — Free Day",
+      "type": "free",
+      "summary": "Art, music, or the lakes. Options below.",
+      "freeMenu": [
+        {
+          "id": "minneapolis-first-avenue",
+          "title": "First Avenue & the music scene",
+          "categoryId": "concerts-venues",
+          "tier": "low",
+          "durationMins": 120,
+          "location": {
+            "name": "First Avenue",
+            "address": "701 N 1st Ave, Minneapolis, MN",
+            "lat": 44.9785,
+            "lng": -93.276,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=First%20Avenue"
+          },
+          "blurb": "The club that launched Prince and the 'Minneapolis sound.'"
+        },
+        {
+          "id": "minneapolis-chain-of-lakes",
+          "title": "The Chain of Lakes",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Bde Maka Ska",
+            "address": "Bde Maka Ska, Minneapolis, MN",
+            "lat": 44.943,
+            "lng": -93.308,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Bde%20Maka%20Ska"
+          },
+          "blurb": "Bike or paddle the beloved city lakes."
+        }
+      ]
+    },
+    {
+      "dayNumber": 644,
+      "label": "Day 644 — North to Lake Superior",
+      "type": "commute",
+      "summary": "To the great lake.",
+      "commute": {
+        "from": "Minneapolis, MN",
+        "to": "Duluth, MN",
+        "driveTimeMins": 150,
+        "scenicNote": "North to Duluth and Lake Superior."
+      }
+    }
+  ]
+}
