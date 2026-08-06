@@ -208,5 +208,15 @@ Written: legs 1–8 complete, plus the Pacific Northwest through Astoria — day
 Rockies, Great Plains, Upper Midwest & Great Lakes, Appalachia Return — 91 of
 250 stops.
 
-Capitals: **32 of 48 capital cities written**, 48/48 present in the plan.
+Capitals: **31 of 48 capital cities written**, 48/48 present in the plan.
+Still to come: Denver, Boise, Springfield, Indianapolis, Des Moines, Topeka,
+Lansing, Saint Paul, Jefferson City, Helena, Lincoln, Bismarck, Columbus,
+Pierre, Olympia, Madison, Cheyenne — all in the six remaining legs.
+
+**The capitals check can produce false positives.** `scripts/dev/audit.ts`
+matches a capital by testing whether any stop name *contains* the city name, so
+"Mount Hood & the Columbia Gorge" satisfies Columbia, SC, and a future "Jackson
+Hole" would satisfy Jackson, MS. Both of those capitals are genuinely written, so
+nothing is wrong today — but the check will quietly over-report as the western
+legs land. **Suggestion:** match on stop `state` as well as name.
 (Though see §5 — three of those capitals have no `capitols` item.)
