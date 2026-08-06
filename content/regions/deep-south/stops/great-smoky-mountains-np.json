@@ -1,0 +1,136 @@
+{
+  "id": "great-smoky-mountains-np",
+  "name": "Great Smoky Mountains National Park",
+  "state": "TN",
+  "country": "US",
+  "order": 15,
+  "location": {
+    "lat": 35.6532,
+    "lng": -83.507
+  },
+  "summary": "The most-visited national park in America — misty ridgelines, wildflowers and black bears, historic cabins, and the highest point in Tennessee.",
+  "lodging": [
+    {
+      "name": "A Gatlinburg cabin",
+      "blurb": "A mountain cabin at the park's doorstep.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Gatlinburg%20Tennessee%20cabin"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Mountain trout & Appalachian fare",
+      "blurb": "Pancakes and fresh trout in Gatlinburg."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 284,
+      "label": "Day 284 — Newfound Gap & Clingmans Dome",
+      "type": "active",
+      "summary": "The crest of the Smokies.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "great-smoky-mountains-np-clingmans-dome",
+            "title": "Newfound Gap & Clingmans Dome",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Clingmans Dome",
+              "address": "Clingmans Dome Rd, Bryson City, NC",
+              "lat": 35.5628,
+              "lng": -83.4985,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Clingmans%20Dome"
+            },
+            "blurb": "Drive to Newfound Gap and climb to the observation tower at Clingmans Dome — the highest point in Tennessee (6,643 ft).",
+            "gear": [
+              "layers",
+              "hiking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 285,
+      "label": "Day 285 — Cades Cove",
+      "type": "active",
+      "summary": "Wildlife and pioneer history.",
+      "blocks": [
+        {
+          "start": "8:30 AM",
+          "item": {
+            "id": "great-smoky-mountains-np-cades-cove",
+            "title": "Cades Cove Loop",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Cades Cove",
+              "address": "Cades Cove Loop Rd, Townsend, TN",
+              "lat": 35.603,
+              "lng": -83.777,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Cades%20Cove"
+            },
+            "blurb": "An 11-mile loop through a broad valley of historic cabins and churches, with black bears, deer, and turkeys at dawn.",
+            "gear": [
+              "binoculars"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 286,
+      "label": "Day 286 — Free Day",
+      "type": "free",
+      "summary": "Waterfalls, Dollywood, or a hike. Options below.",
+      "freeMenu": [
+        {
+          "id": "great-smoky-mountains-np-roaring-fork",
+          "title": "Roaring Fork & Grotto Falls",
+          "categoryId": "national-parks",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Roaring Fork Motor Nature Trail",
+            "address": "Gatlinburg, TN",
+            "lat": 35.69,
+            "lng": -83.48,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Roaring%20Fork%20Motor%20Nature%20Trail"
+          },
+          "blurb": "A narrow motor trail past old homesteads and an easy walk behind Grotto Falls."
+        },
+        {
+          "id": "great-smoky-mountains-np-dollywood",
+          "title": "Dollywood",
+          "categoryId": "theme-parks",
+          "tier": "low",
+          "durationMins": 360,
+          "location": {
+            "name": "Dollywood",
+            "address": "2700 Dollywood Parks Blvd, Pigeon Forge, TN",
+            "lat": 35.795,
+            "lng": -83.53,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Dollywood"
+          },
+          "blurb": "Dolly Parton's beloved coaster-and-crafts park in Pigeon Forge."
+        }
+      ]
+    },
+    {
+      "dayNumber": 287,
+      "label": "Day 287 — North to Kentucky",
+      "type": "commute",
+      "summary": "Up into the Bluegrass.",
+      "commute": {
+        "from": "Great Smoky Mountains National Park, TN",
+        "to": "Lexington, KY",
+        "driveTimeMins": 180,
+        "scenicNote": "North into Kentucky's horse country."
+      }
+    }
+  ]
+}

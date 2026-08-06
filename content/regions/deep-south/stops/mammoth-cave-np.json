@@ -1,0 +1,69 @@
+{
+  "id": "mammoth-cave-np",
+  "name": "Mammoth Cave National Park",
+  "state": "KY",
+  "country": "US",
+  "order": 18,
+  "location": {
+    "lat": 37.1866,
+    "lng": -86.1005
+  },
+  "summary": "The longest known cave system on Earth — more than 400 miles of surveyed passages beneath the Kentucky hills.",
+  "lodging": [
+    {
+      "name": "The Lodge at Mammoth Cave",
+      "blurb": "In the park by the visitor center.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Lodge%20at%20Mammoth%20Cave"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Southern cooking at the lodge",
+      "blurb": "Country fare after your tour."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 294,
+      "label": "Day 294 — Into the Earth",
+      "type": "active",
+      "summary": "A ranger-led descent.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "mammoth-cave-np-tour",
+            "title": "Mammoth Cave ranger tour",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Mammoth Cave National Park",
+              "address": "1 Mammoth Cave Pkwy, Mammoth Cave, KY",
+              "lat": 37.187,
+              "lng": -86.1,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mammoth%20Cave%20National%20Park"
+            },
+            "blurb": "Book a ranger-led tour (the Historic Tour or Frozen Niagara) into the world's longest cave.",
+            "gear": [
+              "walking shoes",
+              "a light layer"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 295,
+      "label": "Day 295 — Short hop to Bowling Green",
+      "type": "commute",
+      "summary": "Down to Corvette country.",
+      "commute": {
+        "from": "Mammoth Cave National Park, KY",
+        "to": "Bowling Green, KY",
+        "driveTimeMins": 40,
+        "scenicNote": "South to Bowling Green."
+      }
+    }
+  ]
+}

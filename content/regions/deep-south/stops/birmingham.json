@@ -1,0 +1,84 @@
+{
+  "id": "birmingham",
+  "name": "Birmingham",
+  "state": "AL",
+  "country": "US",
+  "order": 12,
+  "location": {
+    "lat": 33.5186,
+    "lng": -86.8104
+  },
+  "summary": "Alabama's largest city and a crucible of the civil-rights movement — the church, the park, and a landmark institute.",
+  "lodging": [
+    {
+      "name": "A downtown Birmingham hotel",
+      "blurb": "Near the Civil Rights District.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Birmingham%20Alabama%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Barbecue with white sauce",
+      "blurb": "Alabama's tangy mayonnaise-based BBQ sauce."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 277,
+      "label": "Day 277 — The Civil Rights District",
+      "type": "active",
+      "summary": "Where the movement turned.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "birmingham-civil-rights-institute",
+            "title": "Birmingham Civil Rights Institute & 16th St Church",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Birmingham Civil Rights Institute",
+              "address": "520 16th St N, Birmingham, AL",
+              "lat": 33.516,
+              "lng": -86.815,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Birmingham%20Civil%20Rights%20Institute"
+            },
+            "blurb": "The institute, the 16th Street Baptist Church where four girls were killed in 1963, and Kelly Ingram Park across the street."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "birmingham-vulcan",
+            "title": "Vulcan Park",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Vulcan Park and Museum",
+              "address": "1701 Valley View Dr, Birmingham, AL",
+              "lat": 33.487,
+              "lng": -86.799,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Vulcan%20Park%20and%20Museum"
+            },
+            "blurb": "The world's largest cast-iron statue, honoring the city's iron-and-steel roots, with a skyline view."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 278,
+      "label": "Day 278 — South to the capital",
+      "type": "commute",
+      "summary": "Down to Montgomery.",
+      "commute": {
+        "from": "Birmingham, AL",
+        "to": "Montgomery, AL",
+        "driveTimeMins": 90,
+        "scenicNote": "South to the state capital and the civil-rights heartland."
+      }
+    }
+  ]
+}

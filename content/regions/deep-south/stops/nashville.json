@@ -1,0 +1,210 @@
+{
+  "id": "nashville",
+  "name": "Nashville",
+  "state": "TN",
+  "country": "US",
+  "order": 20,
+  "location": {
+    "lat": 36.1627,
+    "lng": -86.7816
+  },
+  "summary": "Music City — the Opry and the Ryman, the honky-tonks of Broadway, the Country Music Hall of Fame, and a full-scale Parthenon. A big, loud, joyful stay.",
+  "lodging": [
+    {
+      "name": "A downtown Nashville hotel",
+      "blurb": "Walkable to Broadway and the Ryman.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Nashville%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Hot chicken & biscuits",
+      "blurb": "Nashville's fiery fried chicken — start mild."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 298,
+      "label": "Day 298 — The Home of Country",
+      "type": "active",
+      "summary": "The Opry, the Ryman, and the Hall.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "nashville-country-hall",
+            "title": "Country Music Hall of Fame",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Country Music Hall of Fame and Museum",
+              "address": "222 Rep. John Lewis Way S, Nashville, TN",
+              "lat": 36.158,
+              "lng": -86.776,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Country%20Music%20Hall%20of%20Fame%20and%20Museum"
+            },
+            "blurb": "The definitive museum of the music, plus RCA Studio B tours where Elvis recorded."
+          }
+        },
+        {
+          "start": "7:00 PM",
+          "item": {
+            "id": "nashville-opry",
+            "title": "The Grand Ole Opry / the Ryman",
+            "categoryId": "concerts-venues",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Grand Ole Opry",
+              "address": "2804 Opryland Dr, Nashville, TN",
+              "lat": 36.207,
+              "lng": -86.692,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Grand%20Ole%20Opry"
+            },
+            "blurb": "A night at the Opry, or a show at the Ryman — the 'Mother Church of Country Music.'"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 299,
+      "label": "Day 299 — Broadway & the Capitol",
+      "type": "active",
+      "summary": "Honky-tonks and the statehouse.",
+      "blocks": [
+        {
+          "start": "11:00 AM",
+          "item": {
+            "id": "nashville-broadway",
+            "title": "Lower Broadway honky-tonks",
+            "categoryId": "concerts-venues",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Broadway, Nashville",
+              "address": "Broadway, Nashville, TN",
+              "lat": 36.161,
+              "lng": -86.778,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Broadway%2C%20Nashville"
+            },
+            "blurb": "Neon and live music in every doorway, plus the Johnny Cash Museum around the corner."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "nashville-capitol",
+            "title": "Tennessee State Capitol",
+            "categoryId": "capitols",
+            "tier": "mid",
+            "durationMins": 75,
+            "location": {
+              "name": "Tennessee State Capitol",
+              "address": "600 Dr. M.L.K. Jr Blvd, Nashville, TN",
+              "lat": 36.166,
+              "lng": -86.784,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Tennessee%20State%20Capitol"
+            },
+            "blurb": "A Greek-Revival capitol on the hill, with President Polk's tomb on the grounds."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 300,
+      "label": "Day 300 — The Parthenon",
+      "type": "active",
+      "summary": "Athens of the South.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "nashville-parthenon",
+            "title": "The Parthenon & Centennial Park",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "The Parthenon",
+              "address": "2500 West End Ave, Nashville, TN",
+              "lat": 36.149,
+              "lng": -86.813,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Parthenon"
+            },
+            "blurb": "A full-scale replica of the Athenian Parthenon, complete with a 42-ft gilded Athena, in a leafy park."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "nashville-hatch-show",
+            "title": "Hatch Show Print & the Gulch",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Hatch Show Print",
+              "address": "224 Rep. John Lewis Way S, Nashville, TN",
+              "lat": 36.159,
+              "lng": -86.777,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Hatch%20Show%20Print"
+            },
+            "blurb": "The historic letterpress poster shop, plus murals and shops in the Gulch."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 301,
+      "label": "Day 301 — Free Day",
+      "type": "free",
+      "summary": "More music, hot chicken, or rest. Options below.",
+      "freeMenu": [
+        {
+          "id": "nashville-hot-chicken",
+          "title": "A hot-chicken crawl",
+          "categoryId": "food-drink",
+          "tier": "low",
+          "durationMins": 120,
+          "location": {
+            "name": "Hattie B's Hot Chicken",
+            "address": "112 19th Ave S, Nashville, TN",
+            "lat": 36.152,
+            "lng": -86.799,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Hattie%20B%27s%20Hot%20Chicken"
+          },
+          "blurb": "Work up the heat scale at the city's famous hot-chicken joints."
+        },
+        {
+          "id": "nashville-belle-meade",
+          "title": "Belle Meade Historic Site",
+          "categoryId": "museums-history",
+          "tier": "low",
+          "durationMins": 150,
+          "location": {
+            "name": "Belle Meade Historic Site & Winery",
+            "address": "5025 Harding Pike, Nashville, TN",
+            "lat": 36.101,
+            "lng": -86.864,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Belle%20Meade%20Historic%20Site%20%26%20Winery"
+          },
+          "blurb": "A Thoroughbred-plantation mansion and winery."
+        }
+      ]
+    },
+    {
+      "dayNumber": 302,
+      "label": "Day 302 — West to Memphis",
+      "type": "commute",
+      "summary": "Across the state to the other music city.",
+      "commute": {
+        "from": "Nashville, TN",
+        "to": "Memphis, TN",
+        "driveTimeMins": 210,
+        "scenicNote": "West across Tennessee to Memphis."
+      }
+    }
+  ]
+}

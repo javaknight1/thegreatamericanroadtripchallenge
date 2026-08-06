@@ -1,0 +1,84 @@
+{
+  "id": "chattanooga",
+  "name": "Chattanooga",
+  "state": "TN",
+  "country": "US",
+  "order": 14,
+  "location": {
+    "lat": 35.0456,
+    "lng": -85.3097
+  },
+  "summary": "A river city under Lookout Mountain — a great aquarium, a waterfall inside the mountain, and Civil War heights.",
+  "lodging": [
+    {
+      "name": "A downtown/riverfront Chattanooga hotel",
+      "blurb": "Near the aquarium and the Walnut Street Bridge.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Chattanooga%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Southern-fusion on the Southside",
+      "blurb": "Chattanooga's revived food scene."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 282,
+      "label": "Day 282 — Lookout Mountain",
+      "type": "active",
+      "summary": "The aquarium and the mountain's wonders.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:00 PM",
+          "item": {
+            "id": "chattanooga-aquarium",
+            "title": "Tennessee Aquarium",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Tennessee Aquarium",
+              "address": "1 Broad St, Chattanooga, TN",
+              "lat": 35.0556,
+              "lng": -85.311,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Tennessee%20Aquarium"
+            },
+            "blurb": "One of the country's best freshwater aquariums on the riverfront."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "chattanooga-lookout-mountain",
+            "title": "Lookout Mountain: Rock City & Ruby Falls",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Rock City Gardens",
+              "address": "1400 Patten Rd, Lookout Mountain, GA",
+              "lat": 34.972,
+              "lng": -85.351,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Rock%20City%20Gardens"
+            },
+            "blurb": "'See Seven States' at Rock City, the underground waterfall at Ruby Falls, and the steep Incline Railway."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 283,
+      "label": "Day 283 — East to the Smokies",
+      "type": "commute",
+      "summary": "Into the most-visited national park.",
+      "commute": {
+        "from": "Chattanooga, TN",
+        "to": "Great Smoky Mountains National Park, TN",
+        "driveTimeMins": 150,
+        "scenicNote": "East along the mountains to the Smokies."
+      }
+    }
+  ]
+}

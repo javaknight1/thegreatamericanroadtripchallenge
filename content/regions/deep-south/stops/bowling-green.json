@@ -1,0 +1,83 @@
+{
+  "id": "bowling-green",
+  "name": "Bowling Green",
+  "state": "KY",
+  "country": "US",
+  "order": 19,
+  "location": {
+    "lat": 36.9685,
+    "lng": -86.4808
+  },
+  "summary": "Where every Corvette is built — a slick museum (famous for the sinkhole that swallowed eight of them) and an underground river.",
+  "lodging": [
+    {
+      "name": "A Bowling Green hotel",
+      "blurb": "Near the Corvette Museum.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Bowling%20Green%20Kentucky%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Western Kentucky barbecue",
+      "blurb": "Hickory-smoked pork and mutton."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 296,
+      "label": "Day 296 — Corvettes & a Cave",
+      "type": "active",
+      "summary": "America's sports car and an underground river.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "bowling-green-corvette-museum",
+            "title": "National Corvette Museum",
+            "categoryId": "quirky",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "National Corvette Museum",
+              "address": "350 Corvette Dr, Bowling Green, KY",
+              "lat": 36.988,
+              "lng": -86.372,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=National%20Corvette%20Museum"
+            },
+            "blurb": "Beside the assembly plant — the marque's history and the sinkhole that famously swallowed eight cars in 2014."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "bowling-green-lost-river-cave",
+            "title": "Lost River Cave",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Lost River Cave",
+              "address": "2818 Nashville Rd, Bowling Green, KY",
+              "lat": 36.949,
+              "lng": -86.464,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Lost%20River%20Cave"
+            },
+            "blurb": "An underground boat tour on a river beneath the city."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 297,
+      "label": "Day 297 — South to Nashville",
+      "type": "commute",
+      "summary": "Down to Music City.",
+      "commute": {
+        "from": "Bowling Green, KY",
+        "to": "Nashville, TN",
+        "driveTimeMins": 70,
+        "scenicNote": "South into Tennessee and Music City."
+      }
+    }
+  ]
+}

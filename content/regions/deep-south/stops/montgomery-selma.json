@@ -1,0 +1,110 @@
+{
+  "id": "montgomery-selma",
+  "name": "Montgomery & Selma",
+  "state": "AL",
+  "country": "US",
+  "order": 13,
+  "location": {
+    "lat": 32.3668,
+    "lng": -86.3
+  },
+  "summary": "The cradle of the Confederacy and of the civil-rights movement — Rosa Parks, Dr. King's church, the Legacy sites, and the Selma bridge.",
+  "lodging": [
+    {
+      "name": "A downtown Montgomery hotel",
+      "blurb": "Walkable to the Capitol and the civil-rights sites.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Montgomery%20Alabama%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Southern soul food",
+      "blurb": "Fried chicken, greens, and cornbread."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 279,
+      "label": "Day 279 — Montgomery",
+      "type": "active",
+      "summary": "The movement's beginnings and a searing memorial.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "montgomery-selma-legacy",
+            "title": "The Legacy Museum & National Memorial for Peace and Justice",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "National Memorial for Peace and Justice",
+              "address": "417 Caroline St, Montgomery, AL",
+              "lat": 32.373,
+              "lng": -86.314,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=National%20Memorial%20for%20Peace%20and%20Justice"
+            },
+            "blurb": "EJI's unflinching museum of slavery-to-mass-incarceration and the memorial to lynching victims — profoundly moving."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "montgomery-selma-rosa-parks",
+            "title": "Rosa Parks Museum & Dexter Ave Church",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Rosa Parks Museum",
+              "address": "252 Montgomery St, Montgomery, AL",
+              "lat": 32.377,
+              "lng": -86.308,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Rosa%20Parks%20Museum"
+            },
+            "blurb": "Where the bus boycott began, plus Dr. King's Dexter Avenue church and the Alabama Capitol up the hill."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 280,
+      "label": "Day 280 — Selma",
+      "type": "active",
+      "summary": "The bridge that changed voting rights.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "montgomery-selma-pettus-bridge",
+            "title": "Edmund Pettus Bridge & Voting Rights Museum",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Edmund Pettus Bridge",
+              "address": "Edmund Pettus Bridge, Selma, AL",
+              "lat": 32.404,
+              "lng": -87.019,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Edmund%20Pettus%20Bridge"
+            },
+            "blurb": "Walk the bridge where marchers were beaten on 'Bloody Sunday' in 1965, and the National Voting Rights Museum at its foot."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 281,
+      "label": "Day 281 — Northeast to Chattanooga",
+      "type": "commute",
+      "summary": "Up to the Tennessee River.",
+      "commute": {
+        "from": "Montgomery, AL",
+        "to": "Chattanooga, TN",
+        "driveTimeMins": 210,
+        "scenicNote": "Northeast into Tennessee and the mountains."
+      }
+    }
+  ]
+}

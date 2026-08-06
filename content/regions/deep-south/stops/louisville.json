@@ -1,0 +1,127 @@
+{
+  "id": "louisville",
+  "name": "Louisville",
+  "state": "KY",
+  "country": "US",
+  "order": 17,
+  "location": {
+    "lat": 38.2527,
+    "lng": -85.7585
+  },
+  "summary": "Home of the Kentucky Derby, the Louisville Slugger, Muhammad Ali, and a downtown row of bourbon distilleries.",
+  "lodging": [
+    {
+      "name": "A downtown Louisville hotel",
+      "blurb": "Near Whiskey Row and the museums.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Louisville%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Hot Brown at the Brown Hotel",
+      "blurb": "The dish was invented here."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 291,
+      "label": "Day 291 — The Derby & the Slugger",
+      "type": "active",
+      "summary": "Racing and baseball icons.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "louisville-churchill-downs",
+            "title": "Churchill Downs & the Kentucky Derby Museum",
+            "categoryId": "sports",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Churchill Downs",
+              "address": "700 Central Ave, Louisville, KY",
+              "lat": 38.202,
+              "lng": -85.77,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Churchill%20Downs"
+            },
+            "blurb": "The twin spires and the museum of 'the most exciting two minutes in sports.'"
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "louisville-slugger",
+            "title": "Louisville Slugger Museum & Factory",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Louisville Slugger Museum & Factory",
+              "address": "800 W Main St, Louisville, KY",
+              "lat": 38.256,
+              "lng": -85.765,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Louisville%20Slugger%20Museum%20%26%20Factory"
+            },
+            "blurb": "Watch bats being made under the world's biggest baseball bat, and hold a Babe Ruth model."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 292,
+      "label": "Day 292 — Bourbon & Ali",
+      "type": "active",
+      "summary": "Whiskey Row and the Greatest.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "louisville-bourbon-row",
+            "title": "Whiskey Row distilleries",
+            "categoryId": "food-drink",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Evan Williams Bourbon Experience",
+              "address": "528 W Main St, Louisville, KY",
+              "lat": 38.257,
+              "lng": -85.762,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Evan%20Williams%20Bourbon%20Experience"
+            },
+            "blurb": "Downtown distillery experiences (Evan Williams, Angel's Envy, Old Forester) — the urban start of the Bourbon Trail."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "louisville-ali-center",
+            "title": "Muhammad Ali Center",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Muhammad Ali Center",
+              "address": "144 N 6th St, Louisville, KY",
+              "lat": 38.257,
+              "lng": -85.759,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Muhammad%20Ali%20Center"
+            },
+            "blurb": "The life and principles of Louisville's own, 'the Greatest.'"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 293,
+      "label": "Day 293 — South to Mammoth Cave",
+      "type": "commute",
+      "summary": "Down to the longest cave on earth.",
+      "commute": {
+        "from": "Louisville, KY",
+        "to": "Mammoth Cave National Park, KY",
+        "driveTimeMins": 90,
+        "scenicNote": "South to cave country."
+      }
+    }
+  ]
+}

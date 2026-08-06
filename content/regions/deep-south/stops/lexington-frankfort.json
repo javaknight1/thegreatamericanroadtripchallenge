@@ -1,0 +1,109 @@
+{
+  "id": "lexington-frankfort",
+  "name": "Lexington & Frankfort",
+  "state": "KY",
+  "country": "US",
+  "order": 16,
+  "location": {
+    "lat": 38.0406,
+    "lng": -84.5037
+  },
+  "summary": "The heart of Bluegrass horse country and the little capital next door — white-fenced Thoroughbred farms and the start of the Bourbon Trail.",
+  "lodging": [
+    {
+      "name": "A Lexington horse-country inn",
+      "blurb": "Among the rolling paddocks.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Lexington%20Kentucky%20horse%20country%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Hot Brown & bourbon",
+      "blurb": "Kentucky's open-faced turkey classic, with a bourbon to follow."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 288,
+      "label": "Day 288 — Horse Country",
+      "type": "active",
+      "summary": "The Thoroughbred capital of the world.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "lexington-frankfort-horse-park",
+            "title": "Kentucky Horse Park & a farm tour",
+            "categoryId": "guided-tours",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Kentucky Horse Park",
+              "address": "4089 Iron Works Pkwy, Lexington, KY",
+              "lat": 38.152,
+              "lng": -84.521,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Kentucky%20Horse%20Park"
+            },
+            "blurb": "The horse park and museums, plus a tour of a working Thoroughbred farm past white-fenced paddocks and Keeneland."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 289,
+      "label": "Day 289 — Frankfort & Bourbon",
+      "type": "active",
+      "summary": "The capital and a legendary distillery.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "lexington-frankfort-capitol",
+            "title": "Kentucky State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "Kentucky State Capitol",
+              "address": "700 Capital Ave, Frankfort, KY",
+              "lat": 38.187,
+              "lng": -84.875,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Kentucky%20State%20Capitol"
+            },
+            "blurb": "A grand 1910 Beaux-Arts capitol with a floral clock on the grounds."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "lexington-frankfort-buffalo-trace",
+            "title": "Buffalo Trace Distillery",
+            "categoryId": "food-drink",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Buffalo Trace Distillery",
+              "address": "113 Great Buffalo Trace, Frankfort, KY",
+              "lat": 38.218,
+              "lng": -84.872,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Buffalo%20Trace%20Distillery"
+            },
+            "blurb": "A free tour and tasting at the oldest continuously operating distillery in America."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 290,
+      "label": "Day 290 — West to Louisville",
+      "type": "commute",
+      "summary": "Down to the Derby city.",
+      "commute": {
+        "from": "Lexington, KY",
+        "to": "Louisville, KY",
+        "driveTimeMins": 75,
+        "scenicNote": "West to Louisville."
+      }
+    }
+  ]
+}

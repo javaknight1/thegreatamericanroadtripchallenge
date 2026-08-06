@@ -1,0 +1,83 @@
+{
+  "id": "muscle-shoals",
+  "name": "Muscle Shoals",
+  "state": "AL",
+  "country": "US",
+  "order": 10,
+  "location": {
+    "lat": 34.7448,
+    "lng": -87.6675
+  },
+  "summary": "A tiny Alabama river town with an outsized sound — the studios where Aretha, the Stones, and countless hits were cut.",
+  "lodging": [
+    {
+      "name": "A Florence/Shoals hotel",
+      "blurb": "Base in Florence across the river.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Florence%20Alabama%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Southern meat-and-three",
+      "blurb": "A plate lunch with three sides."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 273,
+      "label": "Day 273 — The Muscle Shoals Sound",
+      "type": "active",
+      "summary": "Where the hits were recorded.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "muscle-shoals-fame",
+            "title": "FAME Studios & Muscle Shoals Sound",
+            "categoryId": "concerts-venues",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "FAME Recording Studios",
+              "address": "603 E Avalon Ave, Muscle Shoals, AL",
+              "lat": 34.744,
+              "lng": -87.654,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=FAME%20Recording%20Studios"
+            },
+            "blurb": "Tour the studios where the Swampers backed Aretha Franklin, Wilson Pickett, and the Rolling Stones."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "muscle-shoals-wc-handy",
+            "title": "W.C. Handy Birthplace",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "W.C. Handy Birthplace",
+              "address": "620 W College St, Florence, AL",
+              "lat": 34.8,
+              "lng": -87.68,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=W.C.%20Handy%20Birthplace"
+            },
+            "blurb": "The log-cabin birthplace of the 'Father of the Blues.'"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 274,
+      "label": "Day 274 — East to Huntsville",
+      "type": "commute",
+      "summary": "Over to Rocket City.",
+      "commute": {
+        "from": "Muscle Shoals, AL",
+        "to": "Huntsville, AL",
+        "driveTimeMins": 75,
+        "scenicNote": "East to Huntsville."
+      }
+    }
+  ]
+}
