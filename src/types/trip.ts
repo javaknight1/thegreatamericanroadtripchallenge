@@ -14,6 +14,7 @@ import type {
   plannedStopSchema,
   lodgingSchema,
   regionMetaSchema,
+  restSchema,
   stopSchema,
   tierSchema,
   tripMetaSchema,
@@ -28,6 +29,7 @@ export type Item = z.infer<typeof itemSchema>;
 export type Block = z.infer<typeof blockSchema>;
 export type CommuteStop = z.infer<typeof commuteStopSchema>;
 export type Commute = z.infer<typeof commuteSchema>;
+export type Rest = z.infer<typeof restSchema>;
 export type Day = z.infer<typeof daySchema>;
 export type Lodging = z.infer<typeof lodgingSchema>;
 export type FoodMustTry = z.infer<typeof foodMustTrySchema>;

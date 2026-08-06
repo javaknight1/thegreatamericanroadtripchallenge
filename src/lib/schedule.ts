@@ -1,5 +1,3 @@
-import type { Block } from "@/types/trip";
-
 /**
  * Turns a day's blocks into real clock spans.
  *
@@ -42,38 +40,51 @@ export function formatClock(minutes: number): string {
   return `${hour}:${String(minute).padStart(2, "0")} ${meridiem}`;
 }
 
-export type Span = {
-  start: string;
-  end: string;
-  /** The author's loose label, kept as context when there was one. */
+export type TimedEvent = {
+  start?: string;
+  end?: string;
   slot?: string;
-  /** True when the clock times were computed rather than authored. */
-  estimated: boolean;
+  /** Absent means open-ended — a rest that takes whatever is left of the day. */
+  durationMins?: number;
 };
 
-/** Clock spans for a day's blocks, in order. */
-export function scheduleBlocks(blocks: Block[]): Span[] {
+export type Span = {
+  start?: string;
+  end?: string;
+  /** The author's loose label, kept as context when there was one. */
+  slot?: string;
+  /** Set instead of a clock span when the event has no duration to place. */
+  label?: string;
+};
+
+/** Clock spans for a day's events, in order. */
+export function scheduleSpans(events: TimedEvent[]): Span[] {
   let cursor: number | undefined;
 
-  return blocks.map((block) => {
-    const authoredStart = parseClock(block.start);
-    const authoredEnd = parseClock(block.end);
+  return events.map((event) => {
+    const authoredStart = parseClock(event.start);
+    const authoredEnd = parseClock(event.end);
 
-    const slotDefault = block.slot
-      ? SLOT_DEFAULTS.find(([pattern]) => pattern.test(block.slot!))?.[1]
+    // Open-ended and unanchored — say so rather than invent a clock.
+    if (event.durationMins === undefined && authoredStart === undefined && authoredEnd === undefined) {
+      return { label: "All day", slot: event.slot };
+    }
+
+    const slotDefault = event.slot
+      ? SLOT_DEFAULTS.find(([pattern]) => pattern.test(event.slot!))?.[1]
       : undefined;
 
-    // An authored start always wins; otherwise continue from the last block,
+    // An authored start always wins; otherwise continue from the last event,
     // falling back to what the slot label implies and then to the day's start.
     const start = authoredStart ?? cursor ?? slotDefault ?? DAY_STARTS_AT;
-    const end = authoredEnd ?? start + block.item.durationMins;
-    cursor = end;
+    const end = authoredEnd ?? (event.durationMins !== undefined ? start + event.durationMins : undefined);
 
-    return {
-      start: formatClock(start),
-      end: formatClock(end),
-      slot: block.slot,
-      estimated: authoredStart === undefined || authoredEnd === undefined,
-    };
+    if (end === undefined) {
+      cursor = start;
+      return { start: formatClock(start), label: `from ${formatClock(start)}`, slot: event.slot };
+    }
+
+    cursor = end;
+    return { start: formatClock(start), end: formatClock(end), slot: event.slot };
   });
 }

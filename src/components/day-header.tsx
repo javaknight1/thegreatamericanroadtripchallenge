@@ -15,9 +15,18 @@ const typeLabels: Record<DayType, string> = {
 export function DayHeader({ day, place }: { day: Day; place: string }) {
   const art = dayArt(day);
   const gradientId = `sky-${day.dayNumber}`;
+  // Everything the day asks of you: activities, plus any driving.
   const minutes =
-    day.commute?.driveTimeMins ??
-    (day.blocks ?? []).reduce((total, block) => total + block.item.durationMins, 0);
+    (day.commute?.driveTimeMins ?? 0) +
+    (day.blocks ?? []).reduce(
+      (total, block) =>
+        total +
+        (block.item?.durationMins ??
+          block.drive?.driveTimeMins ??
+          block.rest?.durationMins ??
+          0),
+      0,
+    );
 
   return (
     <div className="relative h-52 overflow-hidden bg-chrome sm:h-64">
@@ -56,7 +65,9 @@ export function DayHeader({ day, place }: { day: Day; place: string }) {
 
       <div className="absolute inset-x-0 bottom-0 p-4 text-canvas sm:p-6">
         <div className="flex items-baseline gap-2">
-          <span className="font-mono text-[9px] tracking-[0.28em] text-gold uppercase">Day</span>
+          <span className="font-mono text-[9px] tracking-[0.28em] text-gold uppercase">
+            Day
+          </span>
           <span className="font-display text-4xl leading-none text-white sm:text-5xl">
             {String(day.dayNumber).padStart(2, "0")}
           </span>
@@ -70,7 +81,9 @@ export function DayHeader({ day, place }: { day: Day; place: string }) {
           </span>
           {minutes > 0 && (
             <span className="font-mono text-[11px] tracking-widest text-white/85">
-              {day.type === "commute" ? `${formatDuration(minutes)} drive` : `${formatDuration(minutes)} planned`}
+              {day.type === "commute"
+                ? `${formatDuration(minutes)} drive`
+                : `${formatDuration(minutes)} planned`}
             </span>
           )}
         </div>

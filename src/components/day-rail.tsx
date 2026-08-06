@@ -65,7 +65,8 @@ export function DayRail({
       }
     }
 
-    const remember = () => sessionStorage.setItem(storageKey, String(rail.scrollLeft));
+    const remember = () =>
+      sessionStorage.setItem(storageKey, String(rail.scrollLeft));
     remember();
     rail.addEventListener("scroll", remember, { passive: true });
     return () => rail.removeEventListener("scroll", remember);
@@ -86,9 +87,13 @@ export function DayRail({
             aria-current={on ? "page" : undefined}
             title={day.label}
             className={`w-[76px] shrink-0 rounded-lg px-1.5 py-2 text-center transition-opacity ${
-              on ? "opacity-100 ring-2 ring-ink" : "opacity-65 hover:opacity-100"
+              on
+                ? "opacity-100 ring-2 ring-ink"
+                : "opacity-65 hover:opacity-100"
             }`}
-            style={{ backgroundColor: colors[day.stopId] ?? "var(--color-accent)" }}
+            style={{
+              backgroundColor: colors[day.stopId] ?? "var(--color-accent)",
+            }}
           >
             <span className="block font-display text-base leading-none text-white">
               {day.dayNumber}

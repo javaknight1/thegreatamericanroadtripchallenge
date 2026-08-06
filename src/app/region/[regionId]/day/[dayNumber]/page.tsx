@@ -117,31 +117,31 @@ export default async function DayPage({ params }: { params: Promise<Params> }) {
             />
 
             <nav className="flex gap-2.5">
-          {previous ? (
-            <Link
-              href={`/region/${region.id}/day/${previous.dayNumber}/`}
-              className="flex-1 rounded-lg border-[1.5px] border-ink bg-canvas px-3 py-3 text-center font-cond text-sm font-bold tracking-wider uppercase"
-            >
-              ← Day {previous.dayNumber}
-            </Link>
-          ) : (
-            <span className="flex-1" />
-          )}
-          {next ? (
-            <Link
-              href={`/region/${region.id}/day/${next.dayNumber}/`}
-              className="flex-1 rounded-lg border-[1.5px] border-ink bg-ink px-3 py-3 text-center font-cond text-sm font-bold tracking-wider text-canvas uppercase"
-            >
-              Day {next.dayNumber} →
-            </Link>
-          ) : (
-            <Link
-              href={`/region/${region.id}/`}
-              className="flex-1 rounded-lg border-[1.5px] border-ink bg-ink px-3 py-3 text-center font-cond text-sm font-bold tracking-wider text-canvas uppercase"
-            >
-              End of leg →
-            </Link>
-          )}
+              {previous ? (
+                <Link
+                  href={`/region/${region.id}/day/${previous.dayNumber}/`}
+                  className="flex-1 rounded-lg border-[1.5px] border-ink bg-canvas px-3 py-3 text-center font-cond text-sm font-bold tracking-wider uppercase"
+                >
+                  ← Day {previous.dayNumber}
+                </Link>
+              ) : (
+                <span className="flex-1" />
+              )}
+              {next ? (
+                <Link
+                  href={`/region/${region.id}/day/${next.dayNumber}/`}
+                  className="flex-1 rounded-lg border-[1.5px] border-ink bg-ink px-3 py-3 text-center font-cond text-sm font-bold tracking-wider text-canvas uppercase"
+                >
+                  Day {next.dayNumber} →
+                </Link>
+              ) : (
+                <Link
+                  href={`/region/${region.id}/`}
+                  className="flex-1 rounded-lg border-[1.5px] border-ink bg-ink px-3 py-3 text-center font-cond text-sm font-bold tracking-wider text-canvas uppercase"
+                >
+                  End of leg →
+                </Link>
+              )}
             </nav>
           </div>
         </div>

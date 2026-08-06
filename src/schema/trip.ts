@@ -47,18 +47,6 @@ export const itemSchema = z.object({
   gear: z.array(nonEmpty).optional(),
 });
 
-export const blockSchema = z
-  .object({
-    start: z.string().optional(),
-    end: z.string().optional(),
-    /** Looser alternative to start/end, e.g. "Morning". */
-    slot: z.string().optional(),
-    item: itemSchema,
-  })
-  .refine((block) => Boolean(block.slot) || Boolean(block.start), {
-    message: "a block needs either `start` (with optional `end`) or a `slot` label",
-  });
-
 export const commuteStopSchema = z.object({
   title: nonEmpty,
   blurb: nonEmpty,
@@ -72,6 +60,36 @@ export const commuteSchema = z.object({
   scenicNote: z.string().optional(),
   stopsAlongWay: z.array(commuteStopSchema).optional(),
 });
+
+/**
+ * Time off, as an event. A rest block with no `durationMins` is open-ended —
+ * that's a whole free day; with one, it's an afternoon back at the hotel.
+ */
+export const restSchema = z.object({
+  label: z.string().optional(),
+  durationMins: z.number().int().positive().optional(),
+  note: z.string().optional(),
+});
+
+/**
+ * A slot on the day's clock holding exactly one of: something to do, a drive,
+ * or a rest. Driving and resting are events in their own right — a day can
+ * open with a three-hour drive and still have an afternoon in town.
+ */
+export const blockSchema = z
+  .object({
+    start: z.string().optional(),
+    end: z.string().optional(),
+    /** Looser alternative to start/end, e.g. "Morning". */
+    slot: z.string().optional(),
+    item: itemSchema.optional(),
+    drive: commuteSchema.optional(),
+    rest: restSchema.optional(),
+  })
+  .refine(
+    (block) => [block.item, block.drive, block.rest].filter(Boolean).length === 1,
+    { message: "a block holds exactly one of `item`, `drive`, or `rest`" },
+  );
 
 export const daySchema = z
   .object({
@@ -88,19 +106,26 @@ export const daySchema = z
     const fail = (message: string, path: string) =>
       ctx.addIssue({ code: z.ZodIssueCode.custom, message, path: [path] });
 
-    if (day.type === "active") {
-      if (!day.blocks?.length) fail("active days need at least one block", "blocks");
-      if (day.commute) fail("active days must not have a `commute`", "commute");
-      if (day.freeMenu) fail("active days must not have a `freeMenu`", "freeMenu");
+    const blocks = day.blocks ?? [];
+    const hasDrive = Boolean(day.commute) || blocks.some((block) => block.drive);
+    const hasRest = blocks.some((block) => block.rest);
+
+    // A day has to contain something.
+    if (!blocks.length && !day.commute && !day.freeMenu?.length) {
+      fail("a day needs blocks, a commute, or a freeMenu", "blocks");
     }
-    if (day.type === "free") {
-      if (day.blocks) fail("free days must not have `blocks`", "blocks");
-      if (day.commute) fail("free days must not have a `commute`", "commute");
+
+    // `type` characterises the day for chips and labels; it doesn't restrict
+    // what the day may contain, because a drive day can still have an evening
+    // and an active day can still have a long drive in the morning.
+    if (day.type === "commute" && !hasDrive) {
+      fail("a drive day needs a `commute` or a block with a `drive`", "commute");
     }
-    if (day.type === "commute") {
-      if (!day.commute) fail("commute days need a `commute` object", "commute");
-      if (day.blocks) fail("commute days must not have `blocks`", "blocks");
-      if (day.freeMenu) fail("commute days must not have a `freeMenu`", "freeMenu");
+    if (day.type === "free" && !hasRest && !day.freeMenu?.length && blocks.length) {
+      fail("a free day needs a rest block or a freeMenu", "freeMenu");
+    }
+    if (day.type === "active" && !blocks.length) {
+      fail("active days need at least one block", "blocks");
     }
   });
 

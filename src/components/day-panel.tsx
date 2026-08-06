@@ -1,93 +1,17 @@
 import { DayHeader } from "@/components/day-header";
+import { dayExtras, dayTimeline, type TimelineEntry } from "@/lib/day-timeline";
 import { formatDuration, mapUrl, tierLabels } from "@/lib/format";
-import { formatClock, scheduleBlocks } from "@/lib/schedule";
-import type { Category, Day, Item, Tier } from "@/types/trip";
+import type { Category, Day, Item } from "@/types/trip";
 
 /**
- * One day, in full — and every day type reads as the same timeline.
+ * One day, in full — and every kind of event reads the same way.
  *
- * A free day and a drive day take up just as much of your life as a full one,
- * so they get a block on the clock rather than a footnote: rest is scheduled,
- * and the drive shows its hours. What's optional (a free day's menu, the stops
- * worth pulling over for) sits below the timeline, clearly separated from what
- * the day actually commits you to.
+ * Driving and resting sit on the clock alongside everything else, because a
+ * three-hour drive or a scheduled afternoon off consumes the day just as surely
+ * as a museum does. What's *optional* — a free day's menu, the stops worth
+ * pulling over for — sits below the timeline, so a day's commitments and its
+ * suggestions never blur together.
  */
-
-/** A timeline row, whether it came from an authored block or from the day itself. */
-type Entry = {
-  key: string;
-  /** Every event shows a span; `slot` is the author's label when there was one. */
-  timing: { start?: string; end?: string; slot?: string; label?: string };
-  color: string;
-  categoryLabel?: string;
-  title: string;
-  tier?: Tier;
-  durationMins?: number;
-  durationLabel?: string;
-  blurb: string;
-  gear?: string[];
-  location?: Item["location"];
-};
-
-function timeline(day: Day, categories: Record<string, Category>): Entry[] {
-  if (day.type === "active") {
-    const blocks = day.blocks ?? [];
-    const spans = scheduleBlocks(blocks);
-    return blocks.map((block, index) => {
-      const category = categories[block.item.categoryId];
-      const span = spans[index];
-      return {
-        key: block.item.id,
-        timing: { start: span.start, end: span.end, slot: span.slot },
-        color: category?.color ?? "var(--color-muted)",
-        categoryLabel: category?.label,
-        title: block.item.title,
-        tier: block.item.tier,
-        durationMins: block.item.durationMins,
-        blurb: block.item.blurb,
-        gear: block.item.gear,
-        location: block.item.location,
-      };
-    });
-  }
-
-  if (day.type === "commute" && day.commute) {
-    const category = categories.commuting;
-    return [
-      {
-        key: `drive-${day.dayNumber}`,
-        // Departure is the driver's call, so the clock starts at a civilised
-        // hour and the span shows how much of the day the drive eats.
-        timing: {
-          start: formatClock(9 * 60),
-          end: formatClock(9 * 60 + day.commute.driveTimeMins),
-          slot: "On the road",
-        },
-        color: category?.color ?? "#64748B",
-        categoryLabel: category?.label,
-        title: `${day.commute.from} → ${day.commute.to}`,
-        durationMins: day.commute.driveTimeMins,
-        blurb:
-          day.commute.scenicNote ??
-          "A driving day — the miles are the plan. Set out when you like and take the stops as they come.",
-      },
-    ];
-  }
-
-  const category = categories["free-rest"];
-  return [
-    {
-      key: `free-${day.dayNumber}`,
-      timing: { label: "All day" },
-      color: category?.color ?? "#B0BEC5",
-      categoryLabel: category?.label,
-      title: "Rest — the day is yours",
-      durationLabel: "unscheduled",
-      blurb:
-        "Nothing is booked today, on purpose. Sleep in, do laundry, wander, or pick something from the list below. The pace of this trip depends on days like this one.",
-    },
-  ];
-}
 
 export function DayPanel({
   day,
@@ -101,9 +25,8 @@ export function DayPanel({
   /** Day pages lead with the header themselves, above the map. */
   withHeader?: boolean;
 }) {
-  const entries = timeline(day, categories);
-  const options = day.freeMenu ?? [];
-  const roadStops = day.commute?.stopsAlongWay ?? [];
+  const entries = dayTimeline(day, categories);
+  const { options, roadStops } = dayExtras(day);
 
   return (
     <article className="overflow-hidden rounded-xl border border-hairline bg-surface">
@@ -163,7 +86,7 @@ export function DayPanel({
   );
 }
 
-function TimelineRow({ entry }: { entry: Entry }) {
+function TimelineRow({ entry }: { entry: TimelineEntry }) {
   const isAnchor = entry.tier === "anchor";
   const duration =
     entry.durationLabel ??

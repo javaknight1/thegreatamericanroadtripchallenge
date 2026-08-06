@@ -80,10 +80,18 @@ trip  (header + mission + categories)
 - `freeMenu[]` — **free days only**: a menu of optional items to pick from
 - `commute` — **commute days only** (object, below)
 
-**block** (active day time slot)
+**block** (a slot on the day's clock — holds exactly one of `item`, `drive`, or `rest`)
 - `start`, `end` — clock times as strings (`"9:00 AM"`, `"12:00 PM"`), OR
 - `slot` — a looser label (`"Morning"` / `"Afternoon"` / `"Evening"`) when exact times don't matter
-- `item`
+- `item` — something to do (below), OR
+- `drive` — same shape as `commute`: `{ from, to, driveTimeMins, scenicNote?, stopsAlongWay? }`, OR
+- `rest` — `{ label?, durationMins?, note? }`; omit `durationMins` for open-ended time off
+
+**Driving and resting are events.** A day can open with a three-hour drive and
+still have an afternoon in town, or hold a scheduled rest between two museums —
+author those as `drive` and `rest` blocks in the same `blocks[]` array. The
+day-level `commute` object and a bare `free` day still work and normalise into
+the same timeline, so nothing already written has to change.
 
 `end` is optional in practice: the site computes it from `start + item.durationMins`
 when it isn't authored, and places a `slot`-only block after the one before it, so
@@ -234,7 +242,8 @@ One region stub showing all three day types. (Content here is illustrative — t
 - **Master packing list** is computed, not authored — aggregate every `item.gear[]` across the trip (and per region).
 - **Canada detours** are just stops with `country: "CA"`.
 - **Soft seasonal events** (parades, single-peak festivals) live in `seasonalTip` or a blurb — never as hard dates, since the trip is undated.
-- **Free and drive days render as timeline blocks too** — the site synthesises a `free-rest` "rest" block for a free day and a `commuting` block for the drive, so those two categories are used by the renderer even though no authored item can carry them. A free day's `freeMenu` and a drive day's `stopsAlongWay` appear *below* the timeline, as explicitly optional.
+- **`type` characterises a day; it no longer restricts it.** `active` / `free` / `commute` drive the chip labels and the day's artwork, but any day may contain drives, rest, and activities together. Validation only checks that a day marked `commute` actually contains a drive and one marked `free` contains rest or a menu.
+- **Drive and rest blocks carry the `commuting` and `free-rest` categories** — assigned by the renderer, since no authored *item* can hold them. A day's `freeMenu` and any `stopsAlongWay` appear *below* the timeline, as explicitly optional.
 - **No progress/completion fields** in v1 — `item.id` is already stable, so tracking can be layered on later without a schema break.
 
 ---

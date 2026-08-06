@@ -54,7 +54,7 @@ export function terrainFor(day: Day): Terrain {
   if (day.type === "commute") return "road";
 
   const categoryIds = [
-    ...(day.blocks?.map((block) => block.item.categoryId) ?? []),
+    ...(day.blocks ?? []).flatMap((block) => (block.item ? [block.item.categoryId] : [])),
     ...(day.freeMenu?.map((item) => item.categoryId) ?? []),
   ];
 

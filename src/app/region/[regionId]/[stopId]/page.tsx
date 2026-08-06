@@ -166,7 +166,9 @@ export default async function StopPage({
           <ol className="mt-4 divide-y divide-hairline border-y border-hairline">
             {stop.days.map((day) => {
               const minutes = (day.blocks ?? []).reduce(
-                (total, block) => total + block.item.durationMins,
+                (total, block) =>
+                  total +
+                  (block.item?.durationMins ?? block.drive?.driveTimeMins ?? 0),
                 0,
               );
               return (

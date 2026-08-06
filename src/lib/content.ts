@@ -180,9 +180,10 @@ export function loadTripFresh(): Trip {
   return getTrip();
 }
 
-/** Every item on a day, whichever day type it is. */
+/** Every activity on a day — drive and rest blocks carry no item. */
 export function itemsOf(day: Day): Item[] {
-  return [...(day.blocks?.map((block) => block.item) ?? []), ...(day.freeMenu ?? [])];
+  const fromBlocks = (day.blocks ?? []).flatMap((block) => (block.item ? [block.item] : []));
+  return [...fromBlocks, ...(day.freeMenu ?? [])];
 }
 
 export function getRegion(regionId: string): Region | undefined {

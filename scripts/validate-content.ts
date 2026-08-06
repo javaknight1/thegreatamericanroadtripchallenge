@@ -24,7 +24,10 @@ try {
   // Cheap authoring smells that aren't schema violations.
   const warnings: string[] = [];
   for (const day of allDays(trip)) {
-    const minutes = (day.blocks ?? []).reduce((total, block) => total + block.item.durationMins, 0);
+    const minutes = (day.blocks ?? []).reduce(
+      (total, block) => total + (block.item?.durationMins ?? block.drive?.driveTimeMins ?? 0),
+      0,
+    );
     if (minutes > 14 * 60) warnings.push(`day ${day.dayNumber} schedules ${Math.round(minutes / 60)}h of activities`);
   }
   const numbers = allDays(trip).map((day) => day.dayNumber);

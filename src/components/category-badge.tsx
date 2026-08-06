@@ -5,11 +5,20 @@ import type { Category } from "@/types/trip";
  * The visual backbone of the site: every item wears its category color.
  * Colors come from content/trip.json so one edit restyles the whole trip.
  */
-export function CategoryBadge({ category, count }: { category: Category; count?: number }) {
+export function CategoryBadge({
+  category,
+  count,
+}: {
+  category: Category;
+  count?: number;
+}) {
   return (
     <span
       className="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium"
-      style={{ backgroundColor: category.color, color: contrastText(category.color) }}
+      style={{
+        backgroundColor: category.color,
+        color: contrastText(category.color),
+      }}
     >
       {category.label}
       {count != null && <span className="opacity-75">{count}</span>}

@@ -242,7 +242,10 @@ export default async function RegionPage({
                             {stop.days.map((day) => {
                               const minutes = (day.blocks ?? []).reduce(
                                 (total, block) =>
-                                  total + block.item.durationMins,
+                                  total +
+                                  (block.item?.durationMins ??
+                                    block.drive?.driveTimeMins ??
+                                    0),
                                 0,
                               );
                               return (
