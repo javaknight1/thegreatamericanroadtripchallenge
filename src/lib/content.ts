@@ -29,7 +29,9 @@ export class ContentError extends Error {
 
 const rel = (file: string) => path.relative(process.cwd(), file);
 
-function parseFile<T>(schema: z.ZodType<T>, file: string): T {
+// Generic over the schema itself so the *output* type (post-defaults) is what
+// callers get — inferring from z.ZodType<T> would hand back the input type.
+function parseFile<S extends z.ZodTypeAny>(schema: S, file: string): z.infer<S> {
   let raw: unknown;
   try {
     raw = JSON.parse(fs.readFileSync(file, "utf8"));

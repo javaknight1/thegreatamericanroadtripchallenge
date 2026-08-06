@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens. Category colors deliberately live in content/trip.json, not
+ * here — these are only the surfaces those colors sit on.
+ */
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+
+  --color-canvas: #fbf8f3;
+  --color-surface: #ffffff;
+  --color-raised: #f4efe6;
+  --color-ink: #16202c;
+  --color-muted: #5b6672;
+  --color-hairline: #e6ded1;
+  --color-accent: #b4462b;
+  --color-accent-soft: #f6e7e1;
+  --color-highway: #1f3a5f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-canvas: #0d1218;
+    --color-surface: #141b23;
+    --color-raised: #1b242e;
+    --color-ink: #edf2f7;
+    --color-muted: #9aa7b4;
+    --color-hairline: #26313c;
+    --color-accent: #e5714f;
+    --color-accent-soft: #2b1a15;
+    --color-highway: #a8c6ea;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* The dashed line running down a day's time blocks. */
+.timeline-rail {
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-hairline) 0 8px,
+    transparent 8px 16px
+  );
+  background-size: 2px 16px;
+  background-repeat: repeat-y;
+}
