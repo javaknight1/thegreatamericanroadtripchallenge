@@ -1,0 +1,131 @@
+{
+  "id": "colorado-springs",
+  "name": "Colorado Springs",
+  "state": "CO",
+  "country": "US",
+  "order": 5,
+  "location": {
+    "lat": 38.8339,
+    "lng": -104.8214
+  },
+  "summary": "At the foot of Pikes Peak — the surreal red spires of the Garden of the Gods, the mountain that inspired 'America the Beautiful,' and the Air Force Academy.",
+  "lodging": [
+    {
+      "name": "A Manitou Springs or downtown hotel",
+      "blurb": "Near the Garden and the peak.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Manitou%20Springs%20Colorado%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Bison and Rocky Mountain fare",
+      "blurb": "With Pikes Peak as the backdrop."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 567,
+      "label": "Day 567 — Garden of the Gods & Pikes Peak",
+      "type": "active",
+      "summary": "Red rocks and America's Mountain.",
+      "blocks": [
+        {
+          "start": "8:00 AM",
+          "end": "11:00 AM",
+          "item": {
+            "id": "colorado-springs-garden",
+            "title": "Garden of the Gods",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Garden of the Gods",
+              "address": "1805 N 30th St, Colorado Springs, CO",
+              "lat": 38.8784,
+              "lng": -104.8697,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Garden%20of%20the%20Gods"
+            },
+            "blurb": "Towering red sandstone fins against the mountains — free, and unforgettable."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "colorado-springs-pikes-peak",
+            "title": "Pikes Peak",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Pikes Peak",
+              "address": "Pikes Peak Hwy, Cascade, CO",
+              "lat": 38.8409,
+              "lng": -105.0442,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Pikes%20Peak"
+            },
+            "blurb": "Ride the cog railway or drive the highway to the 14,115-ft summit that inspired 'America the Beautiful.'",
+            "gear": [
+              "warm layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 568,
+      "label": "Day 568 — The Academy & the Caves",
+      "type": "active",
+      "summary": "Cadets and caverns.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "colorado-springs-air-force",
+            "title": "U.S. Air Force Academy",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "U.S. Air Force Academy",
+              "address": "2346 Academy Dr, Colorado Springs, CO",
+              "lat": 38.9983,
+              "lng": -104.8613,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=U.S.%20Air%20Force%20Academy"
+            },
+            "blurb": "The soaring Cadet Chapel and grounds of the academy."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "colorado-springs-manitou",
+            "title": "Manitou Springs & Cave of the Winds",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 180,
+            "location": {
+              "name": "Cave of the Winds Mountain Park",
+              "address": "100 Cave of the Winds Rd, Manitou Springs, CO",
+              "lat": 38.879,
+              "lng": -104.937,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Cave%20of%20the%20Winds%20Mountain%20Park"
+            },
+            "blurb": "The quirky spa town's mineral springs and a cavern tour above the canyon."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 569,
+      "label": "Day 569 — South to the dunes",
+      "type": "commute",
+      "summary": "To the tallest dunes in America.",
+      "commute": {
+        "from": "Colorado Springs, CO",
+        "to": "Great Sand Dunes National Park, CO",
+        "driveTimeMins": 150,
+        "scenicNote": "South toward the San Luis Valley."
+      }
+    }
+  ]
+}

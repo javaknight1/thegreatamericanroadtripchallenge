@@ -1,0 +1,88 @@
+{
+  "id": "boulder",
+  "name": "Boulder",
+  "state": "CO",
+  "country": "US",
+  "order": 3,
+  "location": {
+    "lat": 40.015,
+    "lng": -105.2705
+  },
+  "summary": "An outdoorsy, brainy college town beneath the tilted slabs of the Flatirons — a pedestrian mall, mountain trails, and a famous tea factory.",
+  "lodging": [
+    {
+      "name": "A hotel near Pearl Street",
+      "blurb": "Walkable to the mall and trailheads.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Pearl%20Street%20Boulder%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Farm-to-table & kombucha",
+      "blurb": "Health-minded Boulder does it well."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 561,
+      "label": "Day 561 — Flatirons & Pearl Street",
+      "type": "active",
+      "summary": "Trails and the mall.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "boulder-flatirons",
+            "title": "The Flatirons at Chautauqua",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Chautauqua Park",
+              "address": "900 Baseline Rd, Boulder, CO",
+              "lat": 39.999,
+              "lng": -105.281,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Chautauqua%20Park"
+            },
+            "blurb": "Hike the trails beneath the iconic tilted rock slabs.",
+            "gear": [
+              "hiking shoes",
+              "water"
+            ]
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "boulder-pearl-street",
+            "title": "Pearl Street Mall",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Pearl Street Mall",
+              "address": "Pearl St, Boulder, CO",
+              "lat": 40.018,
+              "lng": -105.279,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Pearl%20Street%20Mall"
+            },
+            "blurb": "The lively pedestrian mall of shops, buskers, and patios."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 562,
+      "label": "Day 562 — South to Denver",
+      "type": "commute",
+      "summary": "To the Mile High City.",
+      "commute": {
+        "from": "Boulder, CO",
+        "to": "Denver, CO",
+        "driveTimeMins": 45,
+        "scenicNote": "Southeast to Denver."
+      }
+    }
+  ]
+}

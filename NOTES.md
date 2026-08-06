@@ -7,8 +7,9 @@ is the list to work from once the loop is fully written.
 Rob's standing instruction: add suggestions here as they come up, without asking
 first. Items are only removed when they're resolved or explicitly dropped.
 
-Last updated at **182 stops · 554 days · 653 items · 35 states** — ten legs of
-fourteen complete, days 1–554 contiguous, entering Colorado.
+Last updated at **187 stops · 569 days · 669 items · 36 states** — ten legs
+complete plus Colorado & the Rockies in progress (5 of its 11 stops), days 1–569
+contiguous.
 
 ---
 
@@ -239,6 +240,23 @@ a selling point, not a footnote.
   fine today, but as the West fills in it's worth re-checking that all fourteen
   are distinguishable side by side.
 
+### Colorado's season note and the skiing gap point the same direction
+
+`colorado-rockies/region.json` is timed for **early fall** — "aspens gold above
+9,000 feet," with an explicit note that the window is short — and its summary
+promises "ski towns out of season." That is a deliberate editorial choice and
+it reads well. It also means Aspen and Vail, the last two realistic homes for a
+`skiing` item, arrive in a leg whose whole framing is *not* winter.
+
+So the skiing gap may not be fixable by re-tagging within this route at all. If
+`skiing` is meant to carry real weight, the options are: give one of the ski
+towns a winter-facing item anyway (the category is about the place, not the
+date), re-tag Park City or Jackson Hole retroactively, or accept that a
+summer-and-fall loop through the mountains legitimately doesn't ski and let the
+category stay at one item. **I'd take the first** — a lift-served summit or a
+resort-village item reads honestly in any season, and 18 categories with one
+near-empty is a visible hole on the home page.
+
 ## 8. Ideas, not problems
 
 - **Day 365 is a milestone the site doesn't mark.** One year on the road lands
@@ -252,13 +270,14 @@ a selling point, not a footnote.
 
 ## 9. Where the trip stands
 
-Written: legs 1–10 complete — days 1–554, at the Colorado line.
-Remaining: Colorado Rockies, Great Plains, Upper Midwest & Great Lakes,
-Appalachia Return — 68 of 250 stops.
+Written: legs 1–10 complete, plus Colorado through Colorado Springs — days
+1–569. Remaining: the rest of Colorado, Great Plains, Upper Midwest & Great
+Lakes, Appalachia Return — 63 of 250 stops.
 
-Capitals: **35 of 48 capital cities written** — Cheyenne lands on day 553. Still
-to come: Denver, Springfield, Indianapolis, Des Moines, Topeka, Lansing, Saint
-Paul, Jefferson City, Lincoln, Bismarck, Columbus, Pierre, Madison.
+Capitals: **36 of 48 capital cities written** — Denver lands on day 563. Still
+to come: Springfield, Indianapolis, Des Moines, Topeka, Lansing, Saint Paul,
+Jefferson City, Lincoln, Bismarck, Columbus, Pierre, Madison — all twelve in the
+three remaining legs.
 
 **The capitals check can produce false positives.** `scripts/dev/audit.ts`
 matches a capital by testing whether any stop name *contains* the city name, so

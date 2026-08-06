@@ -1,0 +1,138 @@
+{
+  "id": "rocky-mountain-np-estes-park",
+  "name": "Rocky Mountain National Park",
+  "state": "CO",
+  "country": "US",
+  "order": 2,
+  "location": {
+    "lat": 40.3428,
+    "lng": -105.6836
+  },
+  "summary": "A high-country wonderland of alpine tundra, glacier-carved lakes, and elk — crossed by the highest continuous paved road in the country.",
+  "lodging": [
+    {
+      "name": "An Estes Park lodge (or the Stanley Hotel)",
+      "blurb": "At the park gate; the Stanley inspired 'The Shining.'",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Estes%20Park%20lodge%20Rocky%20Mountain"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Elk chili & a mountain ale",
+      "blurb": "Hearty food at altitude."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 557,
+      "label": "Day 557 — Trail Ridge Road",
+      "type": "active",
+      "summary": "Above the tree line.",
+      "blocks": [
+        {
+          "start": "8:30 AM",
+          "item": {
+            "id": "rmnp-trail-ridge",
+            "title": "Trail Ridge Road",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Trail Ridge Road",
+              "address": "Trail Ridge Rd, Estes Park, CO",
+              "lat": 40.3928,
+              "lng": -105.6836,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Trail%20Ridge%20Road"
+            },
+            "blurb": "Drive to 12,183 ft across the alpine tundra — the highest continuous paved road in the U.S. — with marmots and endless views.",
+            "gear": [
+              "warm layers",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 558,
+      "label": "Day 558 — Bear Lake",
+      "type": "active",
+      "summary": "Lakes and elk.",
+      "blocks": [
+        {
+          "start": "7:30 AM",
+          "item": {
+            "id": "rmnp-bear-lake",
+            "title": "Bear Lake & Emerald Lake",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Bear Lake Trailhead",
+              "address": "Bear Lake Rd, Estes Park, CO",
+              "lat": 40.313,
+              "lng": -105.648,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Bear%20Lake%20Trailhead"
+            },
+            "blurb": "The classic hike past Nymph, Dream, and Emerald Lakes, then elk-watching in Moraine Park (timed entry may be required).",
+            "gear": [
+              "hiking boots",
+              "layers",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 559,
+      "label": "Day 559 — Free Day",
+      "type": "free",
+      "summary": "More trails, the Stanley, or rest. Options below.",
+      "freeMenu": [
+        {
+          "id": "rmnp-longs-peak-area",
+          "title": "A longer hike",
+          "categoryId": "national-parks",
+          "tier": "low",
+          "durationMins": 300,
+          "location": {
+            "name": "Rocky Mountain National Park",
+            "address": "Estes Park, CO",
+            "lat": 40.3428,
+            "lng": -105.6836,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Rocky%20Mountain%20National%20Park"
+          },
+          "blurb": "Sky Pond or the Longs Peak area for the ambitious."
+        },
+        {
+          "id": "rmnp-stanley-hotel",
+          "title": "The Stanley Hotel",
+          "categoryId": "landmarks",
+          "tier": "low",
+          "durationMins": 90,
+          "location": {
+            "name": "Stanley Hotel",
+            "address": "333 E Wonderview Ave, Estes Park, CO",
+            "lat": 40.383,
+            "lng": -105.517,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Stanley%20Hotel"
+          },
+          "blurb": "Tour the grand, reputedly haunted 1909 hotel that inspired 'The Shining.'"
+        }
+      ]
+    },
+    {
+      "dayNumber": 560,
+      "label": "Day 560 — South to Boulder",
+      "type": "commute",
+      "summary": "Down to the Flatirons.",
+      "commute": {
+        "from": "Estes Park, CO",
+        "to": "Boulder, CO",
+        "driveTimeMins": 60,
+        "scenicNote": "South to Boulder."
+      }
+    }
+  ]
+}

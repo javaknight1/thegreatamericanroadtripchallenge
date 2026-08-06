@@ -1,0 +1,65 @@
+{
+  "id": "fort-collins",
+  "name": "Fort Collins",
+  "state": "CO",
+  "country": "US",
+  "order": 1,
+  "location": {
+    "lat": 40.5853,
+    "lng": -105.0844
+  },
+  "summary": "A laid-back college town at the foot of the Rockies with a picture-perfect Old Town and one of the great craft-beer scenes in the country.",
+  "lodging": [
+    {
+      "name": "A downtown Fort Collins hotel",
+      "blurb": "Steps from Old Town.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Fort%20Collins%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A flight of local craft beer",
+      "blurb": "New Belgium, Odell, and a dozen more."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 555,
+      "label": "Day 555 — Old Town & Ales",
+      "type": "active",
+      "summary": "The square and the breweries.",
+      "blocks": [
+        {
+          "start": "11:00 AM",
+          "item": {
+            "id": "fort-collins-old-town",
+            "title": "Old Town & the brewery scene",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Old Town Fort Collins",
+              "address": "Old Town Square, Fort Collins, CO",
+              "lat": 40.5876,
+              "lng": -105.077,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20Town%20Fort%20Collins"
+            },
+            "blurb": "The charming square that helped inspire Disney's Main Street, plus a walk (or pedal) among the breweries."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 556,
+      "label": "Day 556 — Into the Rockies",
+      "type": "commute",
+      "summary": "Up to the national park.",
+      "commute": {
+        "from": "Fort Collins, CO",
+        "to": "Estes Park, CO",
+        "driveTimeMins": 75,
+        "scenicNote": "West into the mountains at Estes Park."
+      }
+    }
+  ]
+}

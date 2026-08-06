@@ -1,0 +1,150 @@
+{
+  "id": "denver",
+  "name": "Denver",
+  "state": "CO",
+  "country": "US",
+  "order": 4,
+  "location": {
+    "lat": 39.7392,
+    "lng": -104.9903
+  },
+  "summary": "The Mile High City — a mile-high capitol step, great museums, a booming brewery and art scene, and the world's most beautiful concert venue in the red rocks just outside town.",
+  "lodging": [
+    {
+      "name": "A LoDo or downtown hotel",
+      "blurb": "Near Union Station and the 16th St Mall.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=LoDo%20Denver%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A green-chile smothered burrito",
+      "blurb": "Denver-style, plus a craft beer to match."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 563,
+      "label": "Day 563 — Downtown & the Capitol",
+      "type": "active",
+      "summary": "The heart of the city.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "denver-capitol",
+            "title": "Colorado State Capitol & downtown",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Colorado State Capitol",
+              "address": "200 E Colfax Ave, Denver, CO",
+              "lat": 39.7392,
+              "lng": -104.9848,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Colorado%20State%20Capitol"
+            },
+            "blurb": "Stand exactly one mile high on the 13th step of the gold-domed capitol, then Union Station and the 16th Street Mall."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 564,
+      "label": "Day 564 — Museums & Red Rocks",
+      "type": "active",
+      "summary": "Art by day, a venue by night.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "denver-art-museum",
+            "title": "Denver Art Museum & RiNo",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Denver Art Museum",
+              "address": "100 W 14th Ave Pkwy, Denver, CO",
+              "lat": 39.737,
+              "lng": -104.9893,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Denver%20Art%20Museum"
+            },
+            "blurb": "A world-class collection (superb Indigenous art), then the murals of the RiNo art district."
+          }
+        },
+        {
+          "start": "6:00 PM",
+          "item": {
+            "id": "denver-red-rocks",
+            "title": "Red Rocks Amphitheatre",
+            "categoryId": "concerts-venues",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Red Rocks Amphitheatre",
+              "address": "18300 W Alameda Pkwy, Morrison, CO",
+              "lat": 39.6655,
+              "lng": -105.2053,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Red%20Rocks%20Amphitheatre"
+            },
+            "blurb": "A concert (or just a hike and the sunset) at the stunning natural rock amphitheater.",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 565,
+      "label": "Day 565 — Free Day",
+      "type": "free",
+      "summary": "A brewery, the mountains, or a game. Options below.",
+      "freeMenu": [
+        {
+          "id": "denver-coors",
+          "title": "The Coors Brewery (Golden)",
+          "categoryId": "food-drink",
+          "tier": "low",
+          "durationMins": 150,
+          "location": {
+            "name": "Coors Brewery",
+            "address": "311 10th St, Golden, CO",
+            "lat": 39.7555,
+            "lng": -105.227,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Coors%20Brewery"
+          },
+          "blurb": "Tour the huge brewery in nearby Golden."
+        },
+        {
+          "id": "denver-nature-science",
+          "title": "Denver Museum of Nature & Science",
+          "categoryId": "museums-history",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Denver Museum of Nature & Science",
+            "address": "2001 Colorado Blvd, Denver, CO",
+            "lat": 39.7475,
+            "lng": -104.9426,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Denver%20Museum%20of%20Nature%20%26%20Science"
+          },
+          "blurb": "Dinosaurs, space, and a planetarium in City Park."
+        }
+      ]
+    },
+    {
+      "dayNumber": 566,
+      "label": "Day 566 — South to the Springs",
+      "type": "commute",
+      "summary": "Down to Pikes Peak country.",
+      "commute": {
+        "from": "Denver, CO",
+        "to": "Colorado Springs, CO",
+        "driveTimeMins": 75,
+        "scenicNote": "South to Colorado Springs."
+      }
+    }
+  ]
+}
