@@ -1,0 +1,128 @@
+{
+  "id": "lancaster-amish-country",
+  "name": "Lancaster & Amish Country",
+  "state": "PA",
+  "country": "US",
+  "order": 10,
+  "location": {
+    "lat": 40.0379,
+    "lng": -76.3055
+  },
+  "summary": "Pennsylvania Dutch farmland of buggies and covered bridges, an antique railroad, and the chocolate town next door.",
+  "lodging": [
+    {
+      "name": "A Lancaster County farm inn",
+      "blurb": "Stay on a working farm among the Amish countryside.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Lancaster%20County%20Pennsylvania%20farm%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Pennsylvania Dutch smorgasbord",
+      "blurb": "Shoofly pie, chow-chow, and family-style everything."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 110,
+      "label": "Day 110 — Amish Country",
+      "type": "active",
+      "summary": "Farmland, buggies, and markets.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "lancaster-amish-country-buggy",
+            "title": "Amish buggy ride & Bird-in-Hand",
+            "categoryId": "guided-tours",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Bird-in-Hand, PA",
+              "address": "Bird-in-Hand, PA",
+              "lat": 40.035,
+              "lng": -76.183,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Bird-in-Hand%2C%20PA"
+            },
+            "blurb": "A horse-and-buggy ride through the farms, then the market and villages of Bird-in-Hand and Intercourse."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "lancaster-amish-country-kitchen-kettle",
+            "title": "Kitchen Kettle Village",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Kitchen Kettle Village",
+              "address": "3529 Old Philadelphia Pike, Intercourse, PA",
+              "lat": 40.04,
+              "lng": -76.108,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Kitchen%20Kettle%20Village"
+            },
+            "blurb": "Jams, crafts, and Pennsylvania Dutch food stalls."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 111,
+      "label": "Day 111 — Hershey & the Strasburg Rail Road",
+      "type": "active",
+      "summary": "Chocolate and a steam train.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "lancaster-amish-country-hershey",
+            "title": "Hershey's Chocolate World & Hersheypark",
+            "categoryId": "theme-parks",
+            "tier": "mid",
+            "durationMins": 180,
+            "location": {
+              "name": "Hershey's Chocolate World",
+              "address": "251 Hersheypark Dr, Hershey, PA",
+              "lat": 40.288,
+              "lng": -76.657,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Hershey%27s%20Chocolate%20World"
+            },
+            "blurb": "The chocolate tour ride (free) and, in season, the amusement park in the town where the streetlights are Kisses."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "lancaster-amish-country-strasburg",
+            "title": "Strasburg Rail Road",
+            "categoryId": "guided-tours",
+            "tier": "low",
+            "durationMins": 90,
+            "location": {
+              "name": "Strasburg Rail Road",
+              "address": "301 Gap Rd, Ronks, PA",
+              "lat": 40.001,
+              "lng": -76.173,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Strasburg%20Rail%20Road"
+            },
+            "blurb": "America's oldest continuously operating railroad — a steam ride through Amish farmland."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 112,
+      "label": "Day 112 — To the capital",
+      "type": "commute",
+      "summary": "A short hop to Harrisburg.",
+      "commute": {
+        "from": "Lancaster, PA",
+        "to": "Harrisburg, PA",
+        "driveTimeMins": 45,
+        "scenicNote": "Northwest along the Susquehanna to the state capital."
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "harrisburg",
+  "name": "Harrisburg",
+  "state": "PA",
+  "country": "US",
+  "order": 11,
+  "location": {
+    "lat": 40.2732,
+    "lng": -76.8867
+  },
+  "summary": "Pennsylvania's capital on the Susquehanna — a capitol so grand Teddy Roosevelt called it the handsomest building he ever saw — and a superb Civil War museum.",
+  "lodging": [
+    {
+      "name": "A riverfront Harrisburg hotel",
+      "blurb": "Near the capitol and the Susquehanna riverwalk.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Harrisburg%20Pennsylvania%20riverfront%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Broad Street Market lunch",
+      "blurb": "One of the oldest continuously operating farmers' markets in the country."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 113,
+      "label": "Day 113 — The Capitol & the Civil War",
+      "type": "active",
+      "summary": "A palatial statehouse and a balanced war museum.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "harrisburg-state-capitol",
+            "title": "Pennsylvania State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "Pennsylvania State Capitol",
+              "address": "501 N 3rd St, Harrisburg, PA",
+              "lat": 40.2645,
+              "lng": -76.883,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Pennsylvania%20State%20Capitol"
+            },
+            "blurb": "A 1906 Beaux-Arts 'Palace of Art' — a 272-ft dome modeled on St. Peter's, tiled floors, and murals throughout."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "harrisburg-civil-war-museum",
+            "title": "National Civil War Museum",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "National Civil War Museum",
+              "address": "1 Lincoln Cir, Harrisburg, PA",
+              "lat": 40.282,
+              "lng": -76.863,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=National%20Civil%20War%20Museum"
+            },
+            "blurb": "A rare museum that tells the war's story evenhandedly from both Union and Confederate perspectives."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 114,
+      "label": "Day 114 — South to Gettysburg",
+      "type": "commute",
+      "summary": "A short drive to the battlefield.",
+      "commute": {
+        "from": "Harrisburg, PA",
+        "to": "Gettysburg, PA",
+        "driveTimeMins": 50,
+        "scenicNote": "Southwest into the Adams County farmland."
+      }
+    }
+  ]
+}

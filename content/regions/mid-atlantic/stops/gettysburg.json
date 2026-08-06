@@ -1,0 +1,135 @@
+{
+  "id": "gettysburg",
+  "name": "Gettysburg",
+  "state": "PA",
+  "country": "US",
+  "order": 12,
+  "location": {
+    "lat": 39.8309,
+    "lng": -77.2311
+  },
+  "summary": "The battlefield where the Civil War turned and Lincoln spoke — one of the most moving historical landscapes in America.",
+  "lodging": [
+    {
+      "name": "A historic Gettysburg inn",
+      "blurb": "Some inns date to the battle itself.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Gettysburg%20Pennsylvania%20historic%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Tavern fare in the historic square",
+      "blurb": "Colonial-style taverns ring Lincoln Square."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 115,
+      "label": "Day 115 — The Battlefield",
+      "type": "active",
+      "summary": "Three days of 1863, told across the fields.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "end": "11:30 AM",
+          "item": {
+            "id": "gettysburg-museum-cyclorama",
+            "title": "Museum & the Gettysburg Cyclorama",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Gettysburg NMP Museum & Visitor Center",
+              "address": "1195 Baltimore Pike, Gettysburg, PA",
+              "lat": 39.811,
+              "lng": -77.226,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Gettysburg%20NMP%20Museum%20%26%20Visitor%20Center"
+            },
+            "blurb": "Start here — the film, the 1884 cyclorama painting of Pickett's Charge, and the museum before you take the field."
+          }
+        },
+        {
+          "start": "12:30 PM",
+          "item": {
+            "id": "gettysburg-auto-tour",
+            "title": "Battlefield auto tour with a guide",
+            "categoryId": "guided-tours",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Gettysburg National Military Park",
+              "address": "Gettysburg, PA",
+              "lat": 39.806,
+              "lng": -77.234,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Gettysburg%20National%20Military%20Park"
+            },
+            "blurb": "Hire a licensed battlefield guide to ride your car through the 3-day battle — the best way to grasp what happened here.",
+            "gear": [
+              "comfortable shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 116,
+      "label": "Day 116 — Little Round Top & the Address",
+      "type": "active",
+      "summary": "The famous ground and the cemetery where Lincoln spoke.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:00 PM",
+          "item": {
+            "id": "gettysburg-little-round-top",
+            "title": "Little Round Top & Devil's Den",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Little Round Top",
+              "address": "Gettysburg, PA",
+              "lat": 39.792,
+              "lng": -77.236,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Little%20Round%20Top"
+            },
+            "blurb": "Walk the boulders of Devil's Den and the hill Chamberlain's men held on the second day.",
+            "gear": [
+              "walking shoes"
+            ]
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "gettysburg-national-cemetery",
+            "title": "Soldiers' National Cemetery",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "Soldiers' National Cemetery",
+              "address": "Baltimore Pike, Gettysburg, PA",
+              "lat": 39.82,
+              "lng": -77.229,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Soldiers%27%20National%20Cemetery"
+            },
+            "blurb": "Where Lincoln delivered the Gettysburg Address in 1863 — quiet rows of Union graves."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 117,
+      "label": "Day 117 — Into Delaware",
+      "type": "commute",
+      "summary": "Southeast to the Brandywine Valley.",
+      "commute": {
+        "from": "Gettysburg, PA",
+        "to": "Wilmington, DE",
+        "driveTimeMins": 120,
+        "scenicNote": "Southeast across the Mason-Dixon line into the du Pont country of Delaware."
+      }
+    }
+  ]
+}

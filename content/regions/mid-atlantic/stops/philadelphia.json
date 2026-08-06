@@ -8,7 +8,7 @@
     "lat": 39.9526,
     "lng": -75.1652
   },
-  "summary": "The birthplace of the nation — where independence was declared and signed — plus a great art museum and the country's best food market.",
+  "summary": "The birthplace of the nation — where independence was declared and signed — plus a world-class art parkway, the country's best food market, and the cheesesteak wars.",
   "lodging": [
     {
       "name": "A hotel in Old City or Rittenhouse Square",
@@ -19,25 +19,25 @@
   "foodMustTry": [
     {
       "name": "A cheesesteak",
-      "blurb": "Pat's and Geno's square off across one intersection; locals often send you to Dalessandro's instead."
+      "blurb": "Pat's and Geno's face off across one intersection; locals often send you to Dalessandro's instead."
     },
     {
       "name": "Reading Terminal Market",
-      "blurb": "A historic indoor market — roast pork sandwiches, Amish pretzels, and Bassetts ice cream."
+      "blurb": "Roast pork sandwiches, Amish pretzels, and Bassetts ice cream under one roof."
     }
   ],
   "days": [
     {
-      "dayNumber": 106,
-      "label": "Day 106 — Independence & the Rocky Steps",
+      "dayNumber": 102,
+      "label": "Day 102 — Independence & Old City",
       "type": "active",
-      "summary": "The founding sites in the morning, art and a famous staircase after.",
+      "summary": "Where the country was founded.",
       "blocks": [
         {
           "start": "9:00 AM",
           "end": "12:00 PM",
           "item": {
-            "id": "philly-independence-hall",
+            "id": "philadelphia-independence-hall",
             "title": "Independence Hall & the Liberty Bell",
             "categoryId": "museums-history",
             "tier": "anchor",
@@ -51,19 +51,90 @@
             },
             "blurb": "The room where the Declaration and Constitution were debated and signed, and the cracked bell across the street. Free timed tickets in peak season.",
             "gear": [
-              "comfortable walking shoes"
+              "walking shoes"
             ]
           }
         },
         {
-          "start": "1:00 PM",
-          "end": "2:00 PM",
+          "start": "1:30 PM",
           "item": {
-            "id": "philly-reading-terminal",
-            "title": "Lunch at Reading Terminal Market",
-            "categoryId": "food-drink",
+            "id": "philadelphia-old-city",
+            "title": "Elfreth's Alley & Betsy Ross House",
+            "categoryId": "landmarks",
             "tier": "mid",
-            "durationMins": 60,
+            "durationMins": 120,
+            "location": {
+              "name": "Elfreth's Alley",
+              "address": "Elfreth's Alley, Philadelphia, PA",
+              "lat": 39.953,
+              "lng": -75.142,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Elfreth%27s%20Alley"
+            },
+            "blurb": "The oldest continuously inhabited residential street in America, plus the Betsy Ross House and Christ Church."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 103,
+      "label": "Day 103 — The Parkway museums",
+      "type": "active",
+      "summary": "Run the Rocky steps, then two great collections.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "philadelphia-art-museum",
+            "title": "Philadelphia Museum of Art & the Rocky Steps",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Philadelphia Museum of Art",
+              "address": "2600 Benjamin Franklin Pkwy, Philadelphia, PA",
+              "lat": 39.9656,
+              "lng": -75.181,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Philadelphia%20Museum%20of%20Art"
+            },
+            "blurb": "Run the steps, high-five the Rocky statue, then a genuinely great collection inside."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "philadelphia-barnes",
+            "title": "The Barnes Foundation",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "The Barnes Foundation",
+              "address": "2025 Benjamin Franklin Pkwy, Philadelphia, PA",
+              "lat": 39.9599,
+              "lng": -75.173,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Barnes%20Foundation"
+            },
+            "blurb": "One of the world's greatest private collections of Impressionist and Post-Impressionist art, hung in Dr. Barnes's exact 'ensembles.'"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 104,
+      "label": "Day 104 — Markets & the cheesesteak wars",
+      "type": "active",
+      "summary": "Eat your way across the city.",
+      "blocks": [
+        {
+          "start": "11:00 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "philadelphia-reading-terminal",
+            "title": "Reading Terminal Market",
+            "categoryId": "food-drink",
+            "tier": "anchor",
+            "durationMins": 90,
             "location": {
               "name": "Reading Terminal Market",
               "address": "1136 Arch St, Philadelphia, PA",
@@ -75,81 +146,137 @@
           }
         },
         {
-          "start": "3:00 PM",
-          "end": "5:30 PM",
+          "start": "1:00 PM",
+          "end": "2:00 PM",
           "item": {
-            "id": "philly-art-museum-rocky",
-            "title": "Philadelphia Museum of Art & the Rocky Steps",
+            "id": "philadelphia-cheesesteaks",
+            "title": "The cheesesteak showdown",
+            "categoryId": "food-drink",
+            "tier": "mid",
+            "durationMins": 60,
+            "location": {
+              "name": "Pat's & Geno's",
+              "address": "1237 E Passyunk Ave, Philadelphia, PA",
+              "lat": 39.933,
+              "lng": -75.159,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Pat%27s%20%26%20Geno%27s"
+            },
+            "blurb": "Pat's vs. Geno's across one South Philly intersection — order 'wiz wit.'"
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "philadelphia-magic-gardens",
+            "title": "Philadelphia's Magic Gardens & the Italian Market",
+            "categoryId": "quirky",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Philadelphia's Magic Gardens",
+              "address": "1020 South St, Philadelphia, PA",
+              "lat": 39.9417,
+              "lng": -75.1595,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Philadelphia%27s%20Magic%20Gardens"
+            },
+            "blurb": "A whole block of mosaic folk art, then the 9th Street Italian Market — America's oldest outdoor market."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 105,
+      "label": "Day 105 — Penitentiary & science",
+      "type": "active",
+      "summary": "A haunting prison and a hands-on science palace.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "12:00 PM",
+          "item": {
+            "id": "philadelphia-eastern-state",
+            "title": "Eastern State Penitentiary",
+            "categoryId": "somber-sites",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Eastern State Penitentiary",
+              "address": "2027 Fairmount Ave, Philadelphia, PA",
+              "lat": 39.9683,
+              "lng": -75.1727,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Eastern%20State%20Penitentiary"
+            },
+            "blurb": "The eerie ruins of the world's first true penitentiary — Al Capone's cell included."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "philadelphia-franklin-institute",
+            "title": "The Franklin Institute",
             "categoryId": "museums-history",
             "tier": "mid",
             "durationMins": 150,
             "location": {
-              "name": "Philadelphia Museum of Art",
-              "address": "2600 Benjamin Franklin Pkwy, Philadelphia, PA",
-              "lat": 39.9656,
-              "lng": -75.181,
-              "mapLink": "https://www.google.com/maps/search/?api=1&query=Philadelphia%20Museum%20of%20Art"
+              "name": "The Franklin Institute",
+              "address": "222 N 20th St, Philadelphia, PA",
+              "lat": 39.9581,
+              "lng": -75.1731,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Franklin%20Institute"
             },
-            "blurb": "Run the Rocky Steps, high-five the statue, then see a genuinely great collection inside."
+            "blurb": "The giant walk-through heart, the planetarium, and Franklin's legacy of science."
           }
+        }
+      ]
+    },
+    {
+      "dayNumber": 106,
+      "label": "Day 106 — Free Day",
+      "type": "free",
+      "summary": "Rest, shop Rittenhouse, or take a Revolutionary day trip. Options below.",
+      "freeMenu": [
+        {
+          "id": "philadelphia-valley-forge",
+          "title": "Valley Forge NHP",
+          "categoryId": "national-parks",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Valley Forge National Historical Park",
+            "address": "1400 N Outer Line Dr, King of Prussia, PA",
+            "lat": 40.1,
+            "lng": -75.45,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Valley%20Forge%20National%20Historical%20Park"
+          },
+          "blurb": "Where Washington's army wintered and rebuilt in 1777–78 — drive or bike the encampment."
+        },
+        {
+          "id": "philadelphia-rittenhouse",
+          "title": "Rittenhouse Square & shopping",
+          "categoryId": "shopping",
+          "tier": "low",
+          "durationMins": 120,
+          "location": {
+            "name": "Rittenhouse Square",
+            "address": "Rittenhouse Square, Philadelphia, PA",
+            "lat": 39.949,
+            "lng": -75.172,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Rittenhouse%20Square"
+          },
+          "blurb": "The city's most elegant square and the boutiques around it."
         }
       ]
     },
     {
       "dayNumber": 107,
-      "label": "Day 107 — Free Day",
-      "type": "free",
-      "summary": "Wander Old City and the Italian Market, or just rest before the capital.",
-      "freeMenu": [
-        {
-          "id": "philly-magic-gardens",
-          "title": "Philadelphia's Magic Gardens",
-          "categoryId": "quirky",
-          "tier": "low",
-          "durationMins": 60,
-          "location": {
-            "name": "Philadelphia's Magic Gardens",
-            "address": "1020 South St, Philadelphia, PA",
-            "lat": 39.9417,
-            "lng": -75.1595,
-            "mapLink": "https://www.google.com/maps/search/?api=1&query=Philadelphia%27s%20Magic%20Gardens"
-          },
-          "blurb": "A whole block of mosaic folk art — gloriously weird."
-        },
-        {
-          "id": "philly-italian-market",
-          "title": "South 9th Street Italian Market",
-          "categoryId": "shopping",
-          "tier": "low",
-          "durationMins": 90,
-          "location": {
-            "name": "9th Street Italian Market",
-            "address": "919 S 9th St, Philadelphia, PA",
-            "lat": 39.9364,
-            "lng": -75.1583,
-            "mapLink": "https://www.google.com/maps/search/?api=1&query=9th%20Street%20Italian%20Market"
-          },
-          "blurb": "The oldest continuously operating outdoor market in the country."
-        }
-      ]
-    },
-    {
-      "dayNumber": 108,
-      "label": "Day 108 — Drive to Washington, DC",
+      "label": "Day 107 — North to Scranton",
       "type": "commute",
-      "summary": "The final leg of the Northeast, into the capital.",
+      "summary": "Up into the coal-country northeast.",
       "commute": {
         "from": "Philadelphia, PA",
-        "to": "Washington, DC",
-        "driveTimeMins": 160,
-        "scenicNote": "Optional history stop in Baltimore — Fort McHenry, where the national anthem was written.",
-        "stopsAlongWay": [
-          {
-            "title": "Fort McHenry, Baltimore",
-            "blurb": "The star fort whose defense inspired 'The Star-Spangled Banner.'",
-            "mapLink": "https://www.google.com/maps/search/?api=1&query=Fort%20McHenry%20Baltimore"
-          }
-        ]
+        "to": "Scranton, PA",
+        "driveTimeMins": 120,
+        "scenicNote": "North through the Poconos' edge into the Lackawanna Valley."
       }
     }
   ]

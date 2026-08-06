@@ -1,0 +1,86 @@
+{
+  "id": "scranton",
+  "name": "Scranton",
+  "state": "PA",
+  "country": "US",
+  "order": 9,
+  "location": {
+    "lat": 41.409,
+    "lng": -75.6624
+  },
+  "summary": "The 'Electric City' of anthracite and railroads — a preserved steam yard and a real coal mine you can descend into (and, yes, the setting of a certain sitcom).",
+  "lodging": [
+    {
+      "name": "A downtown Scranton hotel",
+      "blurb": "Central to Steamtown and the restored downtown.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Scranton%20Pennsylvania%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Old Forge 'cut' pizza",
+      "blurb": "Scranton's rectangular, cheesy hometown style."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 108,
+      "label": "Day 108 — Steam & coal",
+      "type": "active",
+      "summary": "Railroad and mining history you can walk into.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "scranton-steamtown",
+            "title": "Steamtown NHS",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Steamtown National Historic Site",
+              "address": "350 Cliff St, Scranton, PA",
+              "lat": 41.409,
+              "lng": -75.671,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Steamtown%20National%20Historic%20Site"
+            },
+            "blurb": "A working steam-locomotive roundhouse and railyard, with excursion rides."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "scranton-coal-mine",
+            "title": "Lackawanna Coal Mine Tour",
+            "categoryId": "guided-tours",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Lackawanna Coal Mine",
+              "address": "McDade Park, Scranton, PA",
+              "lat": 41.418,
+              "lng": -75.696,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Lackawanna%20Coal%20Mine"
+            },
+            "blurb": "Ride 300 feet underground into a real anthracite mine with a former miner as guide.",
+            "gear": [
+              "a warm layer (it's cold underground)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 109,
+      "label": "Day 109 — South to Amish country",
+      "type": "commute",
+      "summary": "Down to the Pennsylvania Dutch heartland.",
+      "commute": {
+        "from": "Scranton, PA",
+        "to": "Lancaster, PA",
+        "driveTimeMins": 150,
+        "scenicNote": "South through the Susquehanna valley into Lancaster County."
+      }
+    }
+  ]
+}
