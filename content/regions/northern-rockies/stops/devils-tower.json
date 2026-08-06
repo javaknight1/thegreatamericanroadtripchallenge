@@ -1,0 +1,68 @@
+{
+  "id": "devils-tower",
+  "name": "Devils Tower",
+  "state": "WY",
+  "country": "US",
+  "order": 13,
+  "location": {
+    "lat": 44.5902,
+    "lng": -104.7146
+  },
+  "summary": "America's first national monument — a colossal, fluted stone tower rising from the plains, sacred to Native nations and famous from 'Close Encounters.'",
+  "lodging": [
+    {
+      "name": "A Hulett or Sundance motel",
+      "blurb": "Small towns near the tower.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Hulett%20Wyoming%20motel%20Devils%20Tower"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Black Hills-edge burger",
+      "blurb": "Roadhouse fare near the tower."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 551,
+      "label": "Day 551 — The Tower",
+      "type": "active",
+      "summary": "Around the base.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "devils-tower-trail",
+            "title": "Devils Tower",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Devils Tower National Monument",
+              "address": "Devils Tower, WY",
+              "lat": 44.5902,
+              "lng": -104.7146,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Devils%20Tower%20National%20Monument"
+            },
+            "blurb": "Walk the 1.3-mile Tower Trail around the base of the 867-ft monolith, watching climbers inch up its columns (a sacred site to many Plains tribes).",
+            "gear": [
+              "walking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 552,
+      "label": "Day 552 — South to the capital",
+      "type": "commute",
+      "summary": "Down to Cheyenne.",
+      "commute": {
+        "from": "Devils Tower, WY",
+        "to": "Cheyenne, WY",
+        "driveTimeMins": 270,
+        "scenicNote": "South across the Wyoming plains to Cheyenne."
+      }
+    }
+  ]
+}

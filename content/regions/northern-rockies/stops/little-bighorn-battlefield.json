@@ -1,0 +1,65 @@
+{
+  "id": "little-bighorn-battlefield",
+  "name": "Little Bighorn Battlefield",
+  "state": "MT",
+  "country": "US",
+  "order": 12,
+  "location": {
+    "lat": 45.5703,
+    "lng": -107.4295
+  },
+  "summary": "The windswept hills where Lakota and Cheyenne warriors defeated Custer's cavalry in 1876 — now a moving memorial to those who fell on both sides.",
+  "lodging": [
+    {
+      "name": "A Hardin motel",
+      "blurb": "The nearest town to the battlefield.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Hardin%20Montana%20motel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A simple prairie-town meal",
+      "blurb": "Small-town Montana fare."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 549,
+      "label": "Day 549 — Last Stand Hill",
+      "type": "active",
+      "summary": "A somber, storied ground.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "little-bighorn-battlefield-tour",
+            "title": "Little Bighorn Battlefield",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Little Bighorn Battlefield National Monument",
+              "address": "756 Battlefield Tour Rd, Crow Agency, MT",
+              "lat": 45.5703,
+              "lng": -107.4295,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Little%20Bighorn%20Battlefield%20National%20Monument"
+            },
+            "blurb": "Walk Last Stand Hill and the Indian Memorial where the 1876 battle unfolded, told from both sides."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 550,
+      "label": "Day 550 — South to Devils Tower",
+      "type": "commute",
+      "summary": "To the great stone monolith.",
+      "commute": {
+        "from": "Little Bighorn Battlefield, MT",
+        "to": "Devils Tower, WY",
+        "driveTimeMins": 180,
+        "scenicNote": "South and east into Wyoming."
+      }
+    }
+  ]
+}

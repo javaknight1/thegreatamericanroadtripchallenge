@@ -1,0 +1,83 @@
+{
+  "id": "cheyenne",
+  "name": "Cheyenne",
+  "state": "WY",
+  "country": "US",
+  "order": 14,
+  "location": {
+    "lat": 41.14,
+    "lng": -104.8202
+  },
+  "summary": "Wyoming's capital and a living monument to the Old West and the railroad — home of the 'Daddy of 'em All' rodeo. The last stop before Colorado.",
+  "lodging": [
+    {
+      "name": "A downtown Cheyenne hotel",
+      "blurb": "Near the Capitol and the depot.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Cheyenne%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Wyoming beef & a saloon",
+      "blurb": "Steak in a historic downtown."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 553,
+      "label": "Day 553 — Capital & Frontier",
+      "type": "active",
+      "summary": "The statehouse and the Old West.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "cheyenne-capitol",
+            "title": "Wyoming State Capitol & the depot",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Wyoming State Capitol",
+              "address": "200 W 24th St, Cheyenne, WY",
+              "lat": 41.14,
+              "lng": -104.8202,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Wyoming%20State%20Capitol"
+            },
+            "blurb": "The gold-domed capitol and the historic Union Pacific depot, with the Big Boy locomotive nearby."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "cheyenne-frontier-days",
+            "title": "Frontier Days & Old West history",
+            "categoryId": "festivals",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Cheyenne Frontier Days Old West Museum",
+              "address": "4610 Carey Ave, Cheyenne, WY",
+              "lat": 41.166,
+              "lng": -104.808,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Cheyenne%20Frontier%20Days%20Old%20West%20Museum"
+            },
+            "blurb": "The story (and, in late July, the spectacle) of the 'Daddy of 'em All' — the world's largest outdoor rodeo."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 554,
+      "label": "Day 554 — South to Colorado",
+      "type": "commute",
+      "summary": "Into the Colorado Rockies.",
+      "commute": {
+        "from": "Cheyenne, WY",
+        "to": "Fort Collins, CO",
+        "driveTimeMins": 90,
+        "scenicNote": "South into Colorado — the Northern Rockies are done."
+      }
+    }
+  ]
+}

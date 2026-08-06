@@ -1282,13 +1282,6 @@
           "plannedDays": 2
         },
         {
-          "id": "little-bighorn-battlefield",
-          "order": 9,
-          "name": "Little Bighorn Battlefield",
-          "state": "MT",
-          "plannedDays": 1
-        },
-        {
           "id": "yellowstone-np",
           "order": 10,
           "name": "Yellowstone NP",
@@ -1308,6 +1301,13 @@
           "name": "Cody",
           "state": "WY",
           "plannedDays": 2
+        },
+        {
+          "id": "little-bighorn-battlefield",
+          "order": 9,
+          "name": "Little Bighorn Battlefield",
+          "state": "MT",
+          "plannedDays": 1
         },
         {
           "id": "devils-tower",

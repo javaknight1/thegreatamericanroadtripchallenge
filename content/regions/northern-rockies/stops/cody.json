@@ -1,0 +1,83 @@
+{
+  "id": "cody",
+  "name": "Cody",
+  "state": "WY",
+  "country": "US",
+  "order": 11,
+  "location": {
+    "lat": 44.5263,
+    "lng": -109.0565
+  },
+  "summary": "Buffalo Bill's own town at Yellowstone's east gate — a superb five-in-one western museum and a rodeo every summer night.",
+  "lodging": [
+    {
+      "name": "The Irma Hotel or a Cody motel",
+      "blurb": "Buffalo Bill's own historic hotel.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Irma%20Hotel%20Cody%20Wyoming"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A cowboy steak dinner",
+      "blurb": "Prime rib at the Irma's cherrywood bar."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 547,
+      "label": "Day 547 — Buffalo Bill & the Rodeo",
+      "type": "active",
+      "summary": "The West, museum and live.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "cody-buffalo-bill-center",
+            "title": "Buffalo Bill Center of the West",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Buffalo Bill Center of the West",
+              "address": "720 Sheridan Ave, Cody, WY",
+              "lat": 44.524,
+              "lng": -109.07,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Buffalo%20Bill%20Center%20of%20the%20West"
+            },
+            "blurb": "Five museums in one — firearms, Plains Indian culture, western art, natural history, and Buffalo Bill himself."
+          }
+        },
+        {
+          "start": "8:00 PM",
+          "item": {
+            "id": "cody-rodeo",
+            "title": "Cody Nite Rodeo",
+            "categoryId": "sports",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Cody Stampede Park",
+              "address": "519 W Yellowstone Ave, Cody, WY",
+              "lat": 44.521,
+              "lng": -109.087,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Cody%20Stampede%20Park"
+            },
+            "blurb": "A rodeo every summer night in the self-proclaimed 'Rodeo Capital of the World.'"
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 548,
+      "label": "Day 548 — Northeast to the battlefield",
+      "type": "commute",
+      "summary": "To Custer's last stand.",
+      "commute": {
+        "from": "Cody, WY",
+        "to": "Little Bighorn Battlefield, MT",
+        "driveTimeMins": 180,
+        "scenicNote": "Northeast into Montana."
+      }
+    }
+  ]
+}

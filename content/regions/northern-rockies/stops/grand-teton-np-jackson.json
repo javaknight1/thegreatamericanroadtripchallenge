@@ -1,0 +1,124 @@
+{
+  "id": "grand-teton-np-jackson",
+  "name": "Grand Teton & Jackson",
+  "state": "WY",
+  "country": "US",
+  "order": 10,
+  "location": {
+    "lat": 43.7904,
+    "lng": -110.6818
+  },
+  "summary": "The most dramatic mountains in America — the Tetons rise straight off the valley floor above lakes, barns, and the winding Snake River, with the Old West town of Jackson at their feet.",
+  "lodging": [
+    {
+      "name": "A Jackson or Teton Village lodge",
+      "blurb": "In town or at the base of the range.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Jackson%20Hole%20Wyoming%20lodge"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Elk or bison, and a saloon stop",
+      "blurb": "At the Million Dollar Cowboy Bar on the square."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 543,
+      "label": "Day 543 — The Range & the Barns",
+      "type": "active",
+      "summary": "Jenny Lake and Mormon Row.",
+      "blocks": [
+        {
+          "start": "8:00 AM",
+          "item": {
+            "id": "teton-jenny-lake",
+            "title": "Jenny Lake & Mormon Row",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Jenny Lake",
+              "address": "Jenny Lake, Grand Teton National Park, WY",
+              "lat": 43.768,
+              "lng": -110.723,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Jenny%20Lake"
+            },
+            "blurb": "Boat across Jenny Lake to Hidden Falls and Inspiration Point, and shoot the iconic barns of Mormon Row beneath the peaks.",
+            "gear": [
+              "hiking shoes",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 544,
+      "label": "Day 544 — River & Wildlife",
+      "type": "active",
+      "summary": "The Snake and the valley.",
+      "blocks": [
+        {
+          "start": "8:00 AM",
+          "item": {
+            "id": "teton-snake-river",
+            "title": "Snake River & Oxbow Bend",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Oxbow Bend",
+              "address": "Grand Teton National Park, WY",
+              "lat": 43.863,
+              "lng": -110.547,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Oxbow%20Bend"
+            },
+            "blurb": "A float trip on the Snake past moose and eagles, and the classic reflection at Oxbow Bend.",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 545,
+      "label": "Day 545 — Jackson",
+      "type": "active",
+      "summary": "The Old West town.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "jackson-town-square",
+            "title": "Jackson Town Square & the Elk Refuge",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Jackson Town Square",
+              "address": "Jackson, WY",
+              "lat": 43.4799,
+              "lng": -110.7624,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Jackson%20Town%20Square"
+            },
+            "blurb": "The antler-arch square, art galleries, and the National Elk Refuge on the edge of town."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 546,
+      "label": "Day 546 — Northeast to Cody",
+      "type": "commute",
+      "summary": "Over the mountains to Buffalo Bill's town.",
+      "commute": {
+        "from": "Jackson, WY",
+        "to": "Cody, WY",
+        "driveTimeMins": 180,
+        "scenicNote": "Northeast over Togwotee Pass toward Cody."
+      }
+    }
+  ]
+}

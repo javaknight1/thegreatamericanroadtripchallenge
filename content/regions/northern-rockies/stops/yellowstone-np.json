@@ -1,0 +1,196 @@
+{
+  "id": "yellowstone-np",
+  "name": "Yellowstone National Park",
+  "state": "WY",
+  "country": "US",
+  "order": 9,
+  "location": {
+    "lat": 44.428,
+    "lng": -110.5885
+  },
+  "summary": "The world's first national park, sitting on a supervolcano — geysers and rainbow springs, a golden canyon, and valleys teeming with bison, wolves, and bears. A big, unmissable stay.",
+  "lodging": [
+    {
+      "name": "Old Faithful Inn (in-park)",
+      "blurb": "The great log lodge by the geyser — book a year ahead.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20Faithful%20Inn%20Yellowstone"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Bison chili & huckleberry",
+      "blurb": "Hearty park fare between the geysers."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 537,
+      "label": "Day 537 — Old Faithful",
+      "type": "active",
+      "summary": "The geyser basins.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "yellowstone-old-faithful",
+            "title": "Old Faithful & the Upper Geyser Basin",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Old Faithful",
+              "address": "Old Faithful, Yellowstone National Park, WY",
+              "lat": 44.4605,
+              "lng": -110.8281,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20Faithful"
+            },
+            "blurb": "The famous eruption on schedule, plus the boardwalks past the world's densest concentration of geysers.",
+            "gear": [
+              "layers",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 538,
+      "label": "Day 538 — Rainbow Springs",
+      "type": "active",
+      "summary": "Grand Prismatic and Norris.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "yellowstone-grand-prismatic",
+            "title": "Grand Prismatic & Norris Basin",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Grand Prismatic Spring",
+              "address": "Midway Geyser Basin, Yellowstone National Park, WY",
+              "lat": 44.525,
+              "lng": -110.838,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Grand%20Prismatic%20Spring"
+            },
+            "blurb": "The vast rainbow-ringed hot spring (climb to the overlook), and the roaring Norris Geyser Basin.",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 539,
+      "label": "Day 539 — Canyon & Wildlife",
+      "type": "active",
+      "summary": "The golden canyon and Hayden Valley.",
+      "blocks": [
+        {
+          "start": "8:00 AM",
+          "item": {
+            "id": "yellowstone-canyon",
+            "title": "Grand Canyon of the Yellowstone & Hayden Valley",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Artist Point",
+              "address": "Grand Canyon of the Yellowstone, WY",
+              "lat": 44.72,
+              "lng": -110.48,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Artist%20Point"
+            },
+            "blurb": "Artist Point over the Lower Falls, then bison herds (and maybe grizzlies) in Hayden Valley.",
+            "gear": [
+              "binoculars"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 540,
+      "label": "Day 540 — Lamar & Mammoth",
+      "type": "active",
+      "summary": "Wolves and travertine terraces.",
+      "blocks": [
+        {
+          "start": "6:00 AM",
+          "item": {
+            "id": "yellowstone-lamar-mammoth",
+            "title": "Lamar Valley & Mammoth Hot Springs",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 360,
+            "location": {
+              "name": "Lamar Valley",
+              "address": "Lamar Valley, Yellowstone National Park, WY",
+              "lat": 44.898,
+              "lng": -110.227,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Lamar%20Valley"
+            },
+            "blurb": "Dawn in the 'American Serengeti' for wolves and bison, then the terraced Mammoth Hot Springs.",
+            "gear": [
+              "binoculars",
+              "warm layers",
+              "early start"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 541,
+      "label": "Day 541 — Free Day",
+      "type": "free",
+      "summary": "More geysers, the lake, or rest. Options below.",
+      "freeMenu": [
+        {
+          "id": "yellowstone-lake",
+          "title": "Yellowstone Lake & West Thumb",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "West Thumb Geyser Basin",
+            "address": "Yellowstone National Park, WY",
+            "lat": 44.416,
+            "lng": -110.573,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=West%20Thumb%20Geyser%20Basin"
+          },
+          "blurb": "Lakeshore geysers on the largest high-elevation lake in North America."
+        },
+        {
+          "id": "yellowstone-wildlife-tour",
+          "title": "A guided wildlife safari",
+          "categoryId": "guided-tours",
+          "tier": "low",
+          "durationMins": 240,
+          "location": {
+            "name": "Yellowstone National Park",
+            "address": "Yellowstone National Park, WY",
+            "lat": 44.428,
+            "lng": -110.5885,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Yellowstone%20National%20Park"
+          },
+          "blurb": "A naturalist-led dawn tour with spotting scopes."
+        }
+      ]
+    },
+    {
+      "dayNumber": 542,
+      "label": "Day 542 — South to the Tetons",
+      "type": "commute",
+      "summary": "Into the Tetons.",
+      "commute": {
+        "from": "Yellowstone National Park, WY",
+        "to": "Grand Teton National Park, WY",
+        "driveTimeMins": 75,
+        "scenicNote": "South past Jackson Lake into Grand Teton."
+      }
+    }
+  ]
+}
