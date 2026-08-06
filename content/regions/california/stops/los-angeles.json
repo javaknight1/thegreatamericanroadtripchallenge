@@ -1,0 +1,213 @@
+{
+  "id": "los-angeles",
+  "name": "Los Angeles",
+  "state": "CA",
+  "country": "US",
+  "order": 3,
+  "location": {
+    "lat": 34.0522,
+    "lng": -118.2437
+  },
+  "summary": "The sprawling capital of entertainment — Hollywood and the studios, the Getty and the Broad, the beaches at Santa Monica and Venice, and the theme parks. A big, sun-soaked stay.",
+  "lodging": [
+    {
+      "name": "A Santa Monica or Hollywood hotel",
+      "blurb": "Beach-side or in the middle of the action.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Santa%20Monica%20hotel%20Los%20Angeles"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Tacos & a French dip",
+      "blurb": "World-class taco trucks — and the LA-invented French dip."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 425,
+      "label": "Day 425 — Hollywood",
+      "type": "active",
+      "summary": "Stars, the sign, and the observatory.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "la-hollywood",
+            "title": "Hollywood Boulevard & the sign",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "TCL Chinese Theatre",
+              "address": "6925 Hollywood Blvd, Los Angeles, CA",
+              "lat": 34.1022,
+              "lng": -118.341,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=TCL%20Chinese%20Theatre"
+            },
+            "blurb": "The Walk of Fame, the Chinese Theatre handprints, and views of the Hollywood Sign."
+          }
+        },
+        {
+          "start": "4:00 PM",
+          "item": {
+            "id": "la-griffith",
+            "title": "Griffith Observatory",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Griffith Observatory",
+              "address": "2800 E Observatory Rd, Los Angeles, CA",
+              "lat": 34.1184,
+              "lng": -118.3004,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Griffith%20Observatory"
+            },
+            "blurb": "The Art Deco observatory with the definitive city-and-sign view, best at sunset."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 426,
+      "label": "Day 426 — Art & the Beach",
+      "type": "active",
+      "summary": "The Getty, then the Pacific.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "la-getty",
+            "title": "The Getty Center",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "The Getty Center",
+              "address": "1200 Getty Center Dr, Los Angeles, CA",
+              "lat": 34.078,
+              "lng": -118.474,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Getty%20Center"
+            },
+            "blurb": "A hilltop museum of European art, gardens, and architecture — free, with a tram up."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "la-santa-monica",
+            "title": "Santa Monica Pier & Venice Beach",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 180,
+            "location": {
+              "name": "Santa Monica Pier",
+              "address": "200 Santa Monica Pier, Santa Monica, CA",
+              "lat": 34.009,
+              "lng": -118.497,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Santa%20Monica%20Pier"
+            },
+            "blurb": "The pier, the beach, and the boardwalk carnival of Venice.",
+            "gear": [
+              "beach gear"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 427,
+      "label": "Day 427 — Downtown & the Studios",
+      "type": "active",
+      "summary": "Downtown culture or the backlot.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "la-broad",
+            "title": "The Broad & Downtown",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "The Broad",
+              "address": "221 S Grand Ave, Los Angeles, CA",
+              "lat": 34.0546,
+              "lng": -118.25,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Broad"
+            },
+            "blurb": "Contemporary art (free) beside Disney Concert Hall, plus Grand Central Market for lunch."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "la-universal",
+            "title": "Universal Studios Hollywood",
+            "categoryId": "theme-parks",
+            "tier": "mid",
+            "durationMins": 240,
+            "location": {
+              "name": "Universal Studios Hollywood",
+              "address": "100 Universal City Plaza, Universal City, CA",
+              "lat": 34.1381,
+              "lng": -118.3534,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Universal%20Studios%20Hollywood"
+            },
+            "blurb": "The studio tram tour and the theme-park rides (or save it for the free day)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 428,
+      "label": "Day 428 — Free Day",
+      "type": "free",
+      "summary": "Disneyland, more beach, or a studio tour. Options below.",
+      "freeMenu": [
+        {
+          "id": "la-disneyland",
+          "title": "Disneyland (Anaheim)",
+          "categoryId": "theme-parks",
+          "tier": "low",
+          "durationMins": 600,
+          "location": {
+            "name": "Disneyland Park",
+            "address": "1313 Disneyland Dr, Anaheim, CA",
+            "lat": 33.8121,
+            "lng": -117.919,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Disneyland%20Park"
+          },
+          "blurb": "The original Magic Kingdom, about an hour southeast."
+        },
+        {
+          "id": "la-lacma",
+          "title": "LACMA & the La Brea Tar Pits",
+          "categoryId": "museums-history",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "LACMA",
+            "address": "5905 Wilshire Blvd, Los Angeles, CA",
+            "lat": 34.0639,
+            "lng": -118.3592,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=LACMA"
+          },
+          "blurb": "The county art museum's 'Urban Light' and the Ice Age fossils bubbling up next door."
+        }
+      ]
+    },
+    {
+      "dayNumber": 429,
+      "label": "Day 429 — Up the coast",
+      "type": "commute",
+      "summary": "To the American Riviera.",
+      "commute": {
+        "from": "Los Angeles, CA",
+        "to": "Santa Barbara, CA",
+        "driveTimeMins": 120,
+        "scenicNote": "Northwest up the coast to Santa Barbara."
+      }
+    }
+  ]
+}

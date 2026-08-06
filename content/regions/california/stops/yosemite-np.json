@@ -1,0 +1,167 @@
+{
+  "id": "yosemite-np",
+  "name": "Yosemite National Park",
+  "state": "CA",
+  "country": "US",
+  "order": 7,
+  "location": {
+    "lat": 37.8651,
+    "lng": -119.5383
+  },
+  "summary": "The cathedral of American wilderness — sheer granite walls, thundering waterfalls, giant sequoias, and the incomparable Yosemite Valley. A full, glorious stay.",
+  "lodging": [
+    {
+      "name": "The Ahwahnee or a valley lodge",
+      "blurb": "Sleeping in the valley is worth booking a year out.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Ahwahnee%20Yosemite"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Dinner in the Ahwahnee dining room",
+      "blurb": "Grand-lodge dining beneath the granite."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 438,
+      "label": "Day 438 — Yosemite Valley",
+      "type": "active",
+      "summary": "First look at the valley.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "yosemite-valley",
+            "title": "Yosemite Valley: Tunnel View to the Falls",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 360,
+            "location": {
+              "name": "Yosemite Valley",
+              "address": "Yosemite Valley, CA",
+              "lat": 37.7456,
+              "lng": -119.5936,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Yosemite%20Valley"
+            },
+            "blurb": "The jaw-dropping Tunnel View, El Capitan and Half Dome, and the base of Yosemite Falls.",
+            "gear": [
+              "layers",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 439,
+      "label": "Day 439 — Glacier Point & the Mist Trail",
+      "type": "active",
+      "summary": "High views and waterfall hikes.",
+      "blocks": [
+        {
+          "start": "8:00 AM",
+          "item": {
+            "id": "yosemite-glacier-point",
+            "title": "Glacier Point & the Mist Trail",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 360,
+            "location": {
+              "name": "Glacier Point",
+              "address": "Glacier Point Rd, Yosemite National Park, CA",
+              "lat": 37.728,
+              "lng": -119.5738,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Glacier%20Point"
+            },
+            "blurb": "The valley from 3,200 ft up at Glacier Point, then the Mist Trail up alongside Vernal Fall.",
+            "gear": [
+              "hiking boots",
+              "rain shell",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 440,
+      "label": "Day 440 — Sequoias & the High Country",
+      "type": "active",
+      "summary": "Big trees and alpine meadows.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "yosemite-mariposa",
+            "title": "Mariposa Grove & Tuolumne Meadows",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Mariposa Grove",
+              "address": "Mariposa Grove Rd, Yosemite National Park, CA",
+              "lat": 37.514,
+              "lng": -119.6,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mariposa%20Grove"
+            },
+            "blurb": "The park's giant sequoias, and (when Tioga Road is open) the alpine meadows of the high country.",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 441,
+      "label": "Day 441 — Free Day",
+      "type": "free",
+      "summary": "A big hike, a rest, or the valley again. Options below.",
+      "freeMenu": [
+        {
+          "id": "yosemite-half-dome",
+          "title": "Half Dome (with a permit)",
+          "categoryId": "national-parks",
+          "tier": "low",
+          "durationMins": 600,
+          "location": {
+            "name": "Half Dome",
+            "address": "Yosemite National Park, CA",
+            "lat": 37.746,
+            "lng": -119.533,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Half%20Dome"
+          },
+          "blurb": "The strenuous cables route to the top — permit and fitness required."
+        },
+        {
+          "id": "yosemite-valley-bike",
+          "title": "Bike or raft the valley floor",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Yosemite Valley",
+            "address": "Yosemite Valley, CA",
+            "lat": 37.7456,
+            "lng": -119.5936,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Yosemite%20Valley"
+          },
+          "blurb": "An easy loop beneath the walls, or a summer float on the Merced."
+        }
+      ]
+    },
+    {
+      "dayNumber": 442,
+      "label": "Day 442 — West to the coast",
+      "type": "commute",
+      "summary": "Down to the Monterey Peninsula.",
+      "commute": {
+        "from": "Yosemite National Park, CA",
+        "to": "Monterey, CA",
+        "driveTimeMins": 240,
+        "scenicNote": "West out of the Sierra to the Pacific at Monterey."
+      }
+    }
+  ]
+}

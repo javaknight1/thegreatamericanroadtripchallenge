@@ -1,0 +1,99 @@
+{
+  "id": "sequoia-kings-canyon-np",
+  "name": "Sequoia & Kings Canyon National Parks",
+  "state": "CA",
+  "country": "US",
+  "order": 6,
+  "location": {
+    "lat": 36.4864,
+    "lng": -118.5658
+  },
+  "summary": "The biggest living things on earth — groves of giant sequoias — above one of the deepest canyons in America.",
+  "lodging": [
+    {
+      "name": "Wuksachi Lodge (in-park)",
+      "blurb": "Among the sequoias at elevation.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Wuksachi%20Lodge%20Sequoia"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Hearty lodge fare",
+      "blurb": "Warm food at altitude after the trails."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 435,
+      "label": "Day 435 — The Giant Forest",
+      "type": "active",
+      "summary": "The largest tree on earth.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "sequoia-general-sherman",
+            "title": "General Sherman & the Giant Forest",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "General Sherman Tree",
+              "address": "Giant Forest, Sequoia National Park, CA",
+              "lat": 36.5817,
+              "lng": -118.7514,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=General%20Sherman%20Tree"
+            },
+            "blurb": "Stand beneath General Sherman, the largest tree on earth by volume, then walk the Giant Forest and climb Moro Rock.",
+            "gear": [
+              "layers",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 436,
+      "label": "Day 436 — Kings Canyon",
+      "type": "active",
+      "summary": "A giant tree and a deep canyon.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "sequoia-kings-canyon-grant",
+            "title": "General Grant & the Kings Canyon Byway",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "General Grant Tree",
+              "address": "Kings Canyon National Park, CA",
+              "lat": 36.7477,
+              "lng": -118.9713,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=General%20Grant%20Tree"
+            },
+            "blurb": "The 'Nation's Christmas Tree,' then the scenic byway down into the depths of Kings Canyon at Cedar Grove.",
+            "gear": [
+              "water",
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 437,
+      "label": "Day 437 — North to Yosemite",
+      "type": "commute",
+      "summary": "To the great valley.",
+      "commute": {
+        "from": "Sequoia National Park, CA",
+        "to": "Yosemite National Park, CA",
+        "driveTimeMins": 240,
+        "scenicNote": "North along the Sierra to Yosemite."
+      }
+    }
+  ]
+}

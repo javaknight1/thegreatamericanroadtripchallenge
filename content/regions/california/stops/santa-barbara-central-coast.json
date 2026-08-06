@@ -1,0 +1,113 @@
+{
+  "id": "santa-barbara-central-coast",
+  "name": "Santa Barbara & the Central Coast",
+  "state": "CA",
+  "country": "US",
+  "order": 4,
+  "location": {
+    "lat": 34.4208,
+    "lng": -119.6982
+  },
+  "summary": "The red-tiled 'American Riviera' and the Central Coast beyond — a hilltop mission, a Danish village, Hearst's fantasy castle, and elephant seals.",
+  "lodging": [
+    {
+      "name": "A Santa Barbara hotel near the beach",
+      "blurb": "Walkable to State Street and the wharf.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Santa%20Barbara%20beach%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Santa Maria tri-tip & local wine",
+      "blurb": "Central Coast barbecue and Santa Ynez Valley wine."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 430,
+      "label": "Day 430 — Santa Barbara",
+      "type": "active",
+      "summary": "The American Riviera.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "santa-barbara-mission",
+            "title": "Old Mission Santa Barbara & State Street",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Old Mission Santa Barbara",
+              "address": "2201 Laguna St, Santa Barbara, CA",
+              "lat": 34.4383,
+              "lng": -119.713,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20Mission%20Santa%20Barbara"
+            },
+            "blurb": "The 'Queen of the Missions,' the red-tiled downtown, and Stearns Wharf on the water."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 431,
+      "label": "Day 431 — The Central Coast",
+      "type": "active",
+      "summary": "Danish villages and Hearst Castle.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "11:30 AM",
+          "item": {
+            "id": "santa-barbara-central-coast-solvang",
+            "title": "Solvang",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Solvang",
+              "address": "Mission Dr, Solvang, CA",
+              "lat": 34.5958,
+              "lng": -120.1377,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Solvang"
+            },
+            "blurb": "A kitschy-charming Danish village of windmills, bakeries, and wine tasting."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "santa-barbara-central-coast-hearst",
+            "title": "Hearst Castle & the elephant seals",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Hearst Castle",
+              "address": "750 Hearst Castle Rd, San Simeon, CA",
+              "lat": 35.6852,
+              "lng": -121.1682,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Hearst%20Castle"
+            },
+            "blurb": "William Randolph Hearst's opulent hilltop estate, plus the elephant-seal rookery just up Highway 1.",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 432,
+      "label": "Day 432 — East to Death Valley",
+      "type": "commute",
+      "summary": "Inland to the hottest place on earth.",
+      "commute": {
+        "from": "Santa Barbara, CA",
+        "to": "Death Valley National Park, CA",
+        "driveTimeMins": 300,
+        "scenicNote": "A long drive east and north into the desert."
+      }
+    }
+  ]
+}

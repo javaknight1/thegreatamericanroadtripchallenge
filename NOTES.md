@@ -7,9 +7,9 @@ is the list to work from once the loop is fully written.
 Rob's standing instruction: add suggestions here as they come up, without asking
 first. Items are only removed when they're resolved or explicitly dropped.
 
-Last updated at **135 stops · 417 days · 527 items · 29 states** — seven legs of
-fourteen written (New England, Mid-Atlantic, Coastal Southeast, Florida, Deep
-South, Texas & the South Plains, the Desert Southwest), days 1–417 contiguous.
+Last updated at **142 stops · 442 days · 553 items · 30 states** — seven legs
+complete plus California in progress (7 of its 16 stops), days 1–442
+contiguous.
 
 ---
 
@@ -98,6 +98,19 @@ the way to nothing; the leg backtracks to reach them. An alternative running
 Phoenix/Tucson *before* going north to Utah would cut a long desert leg, but it
 would renumber a lot of days, so it's a question for later, not a defect now.
 
+### Death Valley is in the wrong leg
+
+The clearest routing win I've seen so far. The trip currently reaches it via
+**Santa Barbara → Death Valley (5h east, day 432) → Sequoia (4.5h west, day
+434)** — 9.5 hours of driving, out and back, to visit a park that the trip
+already drove within **two hours of when it was in Las Vegas on days 404–408.**
+
+Moving Death Valley into the Las Vegas stretch would save most of that and let
+California run cleanly up the coast: San Diego → Palm Springs → LA → Santa
+Barbara → Sequoia → Yosemite → Monterey. It costs a renumber of the Southwest's
+tail and California's head, which is why it's recorded rather than done — but of
+everything in this file, this is the one I'd actually change.
+
 ## 5. Categories with no content yet
 
 - **`skiing`** — still empty at 417 days, and **Park City just went by tagged as
@@ -174,9 +187,10 @@ its own `capitols` item even if it shares the day.
 
 ## 9. Where the trip stands
 
-Written: legs 1–7, days 1–417, out to the California line.
-Remaining: California, Pacific Northwest, Northern Rockies, Colorado Rockies,
-Great Plains, Upper Midwest & Great Lakes, Appalachia Return — 115 of 250 stops.
+Written: legs 1–7 complete, plus California through Yosemite — days 1–442.
+Remaining: the rest of California, Pacific Northwest, Northern Rockies, Colorado
+Rockies, Great Plains, Upper Midwest & Great Lakes, Appalachia Return — 108 of
+250 stops.
 
-Capitals: **29 of 48 capital cities written**, 48/48 present in the plan.
+Capitals: **30 of 48 capital cities written**, 48/48 present in the plan.
 (Though see §5 — three of those capitals have no `capitols` item.)

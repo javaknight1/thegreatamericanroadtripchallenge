@@ -1,0 +1,114 @@
+{
+  "id": "joshua-tree-np-palm-springs",
+  "name": "Joshua Tree & Palm Springs",
+  "state": "CA",
+  "country": "US",
+  "order": 2,
+  "location": {
+    "lat": 33.8734,
+    "lng": -115.901
+  },
+  "summary": "Surreal desert of twisted trees and giant boulders, next to a mid-century-modern oasis of pools and palm-lined streets.",
+  "lodging": [
+    {
+      "name": "A mid-century Palm Springs hotel",
+      "blurb": "A pool and a mountain backdrop.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Palm%20Springs%20mid-century%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Date shake",
+      "blurb": "A Coachella Valley specialty from the date farms."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 422,
+      "label": "Day 422 — Joshua Tree",
+      "type": "active",
+      "summary": "Trees, boulders, and dark skies.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "joshua-tree-park",
+            "title": "Joshua Tree National Park",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Joshua Tree National Park",
+              "address": "Joshua Tree, CA",
+              "lat": 33.8734,
+              "lng": -115.901,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Joshua%20Tree%20National%20Park"
+            },
+            "blurb": "Hidden Valley, Keys View, the Cholla Cactus Garden, and scrambling the giant boulders where the desert ecosystems meet.",
+            "gear": [
+              "lots of water",
+              "sun protection"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 423,
+      "label": "Day 423 — Palm Springs",
+      "type": "active",
+      "summary": "Mid-century cool and a mountain tram.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "joshua-tree-palm-springs-tram",
+            "title": "Palm Springs Aerial Tramway",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Palm Springs Aerial Tramway",
+              "address": "1 Tram Way, Palm Springs, CA",
+              "lat": 33.841,
+              "lng": -116.613,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Palm%20Springs%20Aerial%20Tramway"
+            },
+            "blurb": "Rotating cars climb from the desert floor to 8,500 ft and pine forest in minutes."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "joshua-tree-palm-springs-modernism",
+            "title": "Mid-century Palm Springs",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Downtown Palm Springs",
+              "address": "Palm Canyon Dr, Palm Springs, CA",
+              "lat": 33.825,
+              "lng": -116.545,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Downtown%20Palm%20Springs"
+            },
+            "blurb": "The famous modernist architecture, the shops of Palm Canyon Drive, and the pools."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 424,
+      "label": "Day 424 — West to Los Angeles",
+      "type": "commute",
+      "summary": "Into the City of Angels.",
+      "commute": {
+        "from": "Palm Springs, CA",
+        "to": "Los Angeles, CA",
+        "driveTimeMins": 120,
+        "scenicNote": "West to Los Angeles."
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "death-valley-np",
+  "name": "Death Valley National Park",
+  "state": "CA",
+  "country": "US",
+  "order": 5,
+  "location": {
+    "lat": 36.5054,
+    "lng": -117.0794
+  },
+  "summary": "The hottest, driest, lowest place in North America — a surreal, beautiful desert of salt flats, dunes, and painted hills. Best in spring.",
+  "lodging": [
+    {
+      "name": "The Ranch or Inn at Death Valley",
+      "blurb": "Oasis lodging at Furnace Creek.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Oasis%20at%20Death%20Valley%20Furnace%20Creek"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A cold drink at Furnace Creek",
+      "blurb": "Hydration is the priority here."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 433,
+      "label": "Day 433 — Below Sea Level",
+      "type": "active",
+      "summary": "Salt flats, dunes, and painted hills.",
+      "blocks": [
+        {
+          "start": "7:00 AM",
+          "item": {
+            "id": "death-valley-badwater",
+            "title": "Badwater Basin, Zabriskie & Artist's Palette",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 360,
+            "location": {
+              "name": "Badwater Basin",
+              "address": "Death Valley National Park, CA",
+              "lat": 36.2295,
+              "lng": -116.7669,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Badwater%20Basin"
+            },
+            "blurb": "Stand 282 ft below sea level on the salt flats, catch sunrise at Zabriskie Point, drive Artist's Palette, and see the Mesquite Dunes — go early, it gets brutally hot.",
+            "gear": [
+              "lots of water",
+              "sun protection",
+              "start at dawn"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 434,
+      "label": "Day 434 — West to the Sierra",
+      "type": "commute",
+      "summary": "To the biggest trees on earth.",
+      "commute": {
+        "from": "Death Valley National Park, CA",
+        "to": "Sequoia National Park, CA",
+        "driveTimeMins": 270,
+        "scenicNote": "West and up into the Sierra Nevada."
+      }
+    }
+  ]
+}

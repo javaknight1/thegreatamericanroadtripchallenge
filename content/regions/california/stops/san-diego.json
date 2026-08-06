@@ -1,0 +1,144 @@
+{
+  "id": "san-diego",
+  "name": "San Diego",
+  "state": "CA",
+  "country": "US",
+  "order": 1,
+  "location": {
+    "lat": 32.7157,
+    "lng": -117.1611
+  },
+  "summary": "California's laid-back southern corner — perfect weather, a huge cultural park, a historic aircraft carrier, and the sea lions of La Jolla.",
+  "lodging": [
+    {
+      "name": "A Gaslamp or Coronado hotel",
+      "blurb": "Downtown for nightlife; Coronado for the beach.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=San%20Diego%20Gaslamp%20Quarter%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A California burrito & fish tacos",
+      "blurb": "Carne asada with fries inside — a San Diego original."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 418,
+      "label": "Day 418 — Balboa Park",
+      "type": "active",
+      "summary": "Museums, gardens, and the zoo.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "san-diego-balboa-park",
+            "title": "Balboa Park & the San Diego Zoo",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Balboa Park",
+              "address": "1549 El Prado, San Diego, CA",
+              "lat": 32.7341,
+              "lng": -117.1447,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Balboa%20Park"
+            },
+            "blurb": "Spanish-Revival museums, gardens, and the world-famous zoo in one vast park.",
+            "gear": [
+              "walking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 419,
+      "label": "Day 419 — Harbor & Coronado",
+      "type": "active",
+      "summary": "The waterfront and the island.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "san-diego-midway",
+            "title": "USS Midway & the Embarcadero",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "USS Midway Museum",
+              "address": "910 N Harbor Dr, San Diego, CA",
+              "lat": 32.7137,
+              "lng": -117.1751,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=USS%20Midway%20Museum"
+            },
+            "blurb": "Tour the massive aircraft-carrier museum, then the Gaslamp Quarter and Little Italy."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "san-diego-coronado",
+            "title": "Coronado & the Hotel del",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Hotel del Coronado",
+              "address": "1500 Orange Ave, Coronado, CA",
+              "lat": 32.681,
+              "lng": -117.178,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Hotel%20del%20Coronado"
+            },
+            "blurb": "The iconic Victorian beach hotel and Coronado's wide, sparkling sand.",
+            "gear": [
+              "beach gear"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 420,
+      "label": "Day 420 — La Jolla",
+      "type": "active",
+      "summary": "Coves, cliffs, and sea lions.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "san-diego-la-jolla",
+            "title": "La Jolla Cove",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "La Jolla Cove",
+              "address": "1100 Coast Blvd, La Jolla, CA",
+              "lat": 32.85,
+              "lng": -117.272,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=La%20Jolla%20Cove"
+            },
+            "blurb": "Tide pools, sea caves, and a raucous colony of sea lions on the rocks — snorkel the protected cove.",
+            "gear": [
+              "swimsuit"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 421,
+      "label": "Day 421 — Up to the desert",
+      "type": "commute",
+      "summary": "Northeast to Joshua Tree.",
+      "commute": {
+        "from": "San Diego, CA",
+        "to": "Palm Springs, CA",
+        "driveTimeMins": 150,
+        "scenicNote": "Northeast into the desert and the Joshua trees."
+      }
+    }
+  ]
+}
