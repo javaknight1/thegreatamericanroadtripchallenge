@@ -1,0 +1,83 @@
+{
+  "id": "waco",
+  "name": "Waco",
+  "state": "TX",
+  "country": "US",
+  "order": 4,
+  "location": {
+    "lat": 31.5493,
+    "lng": -97.1467
+  },
+  "summary": "A friendly stop on I-35 — the Magnolia empire of 'Fixer Upper' fame, a Columbian mammoth dig, and the birthplace of Dr Pepper.",
+  "lodging": [
+    {
+      "name": "A Waco hotel near the Silos",
+      "blurb": "Central to Magnolia and Baylor.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Waco%20Texas%20hotel%20Magnolia"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A cupcake at Silos Baking Co.",
+      "blurb": "From the Magnolia bakery."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 325,
+      "label": "Day 325 — Magnolia & the Mammoths",
+      "type": "active",
+      "summary": "The Silos and an Ice Age dig.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "waco-magnolia",
+            "title": "Magnolia Market at the Silos",
+            "categoryId": "shopping",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Magnolia Market at the Silos",
+              "address": "601 Webster Ave, Waco, TX",
+              "lat": 31.554,
+              "lng": -97.129,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Magnolia%20Market%20at%20the%20Silos"
+            },
+            "blurb": "Chip and Joanna Gaines's shopping, garden, and food-truck complex around the landmark silos."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "waco-mammoth",
+            "title": "Waco Mammoth National Monument",
+            "categoryId": "national-parks",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Waco Mammoth National Monument",
+              "address": "6220 Steinbeck Bend Dr, Waco, TX",
+              "lat": 31.606,
+              "lng": -97.177,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Waco%20Mammoth%20National%20Monument"
+            },
+            "blurb": "A dig site of Columbian mammoths, viewable in situ under a shelter."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 326,
+      "label": "Day 326 — South to Austin",
+      "type": "commute",
+      "summary": "Into the capital and Live Music Capital.",
+      "commute": {
+        "from": "Waco, TX",
+        "to": "Austin, TX",
+        "driveTimeMins": 95,
+        "scenicNote": "South to Austin."
+      }
+    }
+  ]
+}

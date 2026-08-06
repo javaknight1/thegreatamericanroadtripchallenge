@@ -1,15 +1,24 @@
 import Link from "next/link";
 import { CategoryDot } from "@/components/category-badge";
+import { NationalMap } from "@/components/national-map";
 import { StatTile } from "@/components/stat-tile";
 import { getRegionPlan, getTrip } from "@/lib/content";
 import { categoryUsage, regionStats, tripStats } from "@/lib/derive";
 import { formatDuration } from "@/lib/format";
+import { nationalMapData } from "@/lib/geo";
 import { regionTheme } from "@/lib/region-theme";
 
 export default function HomePage() {
   const trip = getTrip();
   const stats = tripStats(trip);
   const usage = categoryUsage(trip);
+  const nation = nationalMapData(trip.regions);
+  const legend = trip.regions
+    .filter((region) => region.stops.length > 0)
+    .map((region) => {
+      const info = regionStats(region);
+      return { id: region.id, name: region.name, days: info.days, stops: info.stops };
+    });
 
   // The very first written day of the loop — where "Start at Day 1" points.
   const firstDay = trip.regions.flatMap((region) =>
@@ -63,6 +72,17 @@ export default function HomePage() {
         <StatTile value={stats.items} label="Things to do" />
         <StatTile value={stats.freeDays} label="Free days" />
       </section>
+
+      {nation && (
+        <section className="mt-10">
+          <NationalMap map={nation} base={legend} />
+          <p className="mt-3 text-sm text-muted">
+            Every leg written so far, on one map — {stats.stops} stops through{" "}
+            {stats.states.length} of the 48 states. The dark states are the ones
+            still to come.
+          </p>
+        </section>
+      )}
 
       <section id="regions" className="mt-14 scroll-mt-20">
         <h2 className="font-display text-2xl tracking-wide uppercase sm:text-3xl">

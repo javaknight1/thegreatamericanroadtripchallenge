@@ -68,6 +68,10 @@ class DecimatingPath {
   private lastX = Number.NaN;
   private lastY = Number.NaN;
 
+  /** Bigger tolerance for maps drawn at national scale, where a pixel of
+   *  coastline is noise but forty-nine states of it is most of the page. */
+  constructor(private readonly gap: number = MIN_POINT_GAP) {}
+
   /** Part of d3's canvas-shaped context contract; each path starts empty here. */
   beginPath() {
     this.parts = [];
@@ -84,7 +88,7 @@ class DecimatingPath {
   lineTo(x: number, y: number) {
     const nextX = Math.round(x);
     const nextY = Math.round(y);
-    if (Math.abs(nextX - this.lastX) < MIN_POINT_GAP && Math.abs(nextY - this.lastY) < MIN_POINT_GAP) return;
+    if (Math.abs(nextX - this.lastX) < this.gap && Math.abs(nextY - this.lastY) < this.gap) return;
     this.lastX = nextX;
     this.lastY = nextY;
     this.parts.push(`L${nextX},${nextY}`);
@@ -168,12 +172,20 @@ function intersects(bounds: [[number, number], [number, number]], window: Window
  * that leaves. Fitting into a fixed box instead would letterbox every region
  * that isn't 800×520-shaped — New England would sit in a sea of empty chrome.
  */
-function projectionFor(window: Window): { projection: GeoProjection; height: number } {
-  const corners = windowCorners(window);
+function projectionFor(
+  window: Window,
+  options: { parallels?: [number, number]; fitTo?: GeoJSON.GeoJSON } = {},
+): { projection: GeoProjection; height: number } {
+  // A lat/lng box is the right frame for a region — it leaves margin around the
+  // stops. It is the wrong frame for the whole country, which isn't a rectangle:
+  // the box's western corners sit in the Pacific and the eastern ones in the
+  // Atlantic, stranding the land in 150px of empty ocean. So the caller can hand
+  // in what should actually fill the frame.
+  const corners = options.fitTo ?? windowCorners(window);
   const projection = geoAlbers()
     .rotate([(window.lngMin + window.lngMax) / -2, 0])
     .center([0, (window.latMin + window.latMax) / 2])
-    .parallels([window.latMin, window.latMax]);
+    .parallels(options.parallels ?? [window.latMin, window.latMax]);
 
   projection.fitWidth(WIDTH - PADDING * 2, corners);
 
@@ -275,4 +287,139 @@ export function regionMapData(region: Region): RegionMapData | undefined {
   const routeD = stops.map((stop, index) => `${index ? "L" : "M"}${stop.x},${stop.y}`).join("");
 
   return { width: WIDTH, height, states, routeD, stops };
+}
+
+/* ---------------------------------------------------------------- the nation */
+
+export type NationalStop = {
+  id: string;
+  name: string;
+  state: string;
+  x: number;
+  y: number;
+  firstDay?: number;
+  dayRange?: string;
+};
+
+export type NationalLeg = {
+  id: string;
+  name: string;
+  order: number;
+  /** This leg's drive, opening with the hop from the previous leg's last stop. */
+  routeD: string;
+  stops: NationalStop[];
+  /** Where the leg's number sits — its first stop. */
+  badge?: { x: number; y: number };
+};
+
+export type NationalMapData = {
+  width: number;
+  height: number;
+  states: Array<{ id: string; name: string; d: string; visited: boolean }>;
+  legs: NationalLeg[];
+};
+
+/**
+ * The contiguous 48, fixed. Cropping to the written stops instead would redraw
+ * the country every time a leg lands — and the point of this map is the part
+ * that isn't filled in yet.
+ */
+const NATION: Window = { lngMin: -125.4, lngMax: -66.6, latMin: 24.3, latMax: 49.6 };
+/** Whole coastlines at this scale: a pixel of wiggle isn't visible, but keeping
+ *  it across 49 states is most of the home page's bytes. */
+const NATION_POINT_GAP = 1.6;
+/** Albers' usual conic parallels for the US — less bowing than the frame's own. */
+const NATION_PARALLELS: [number, number] = [29.5, 45.5];
+
+/** Postal code → the name us-atlas uses, so `stop.state` can shade its state. */
+const STATE_BY_POSTAL: Record<string, string> = {
+  AL: "Alabama", AR: "Arkansas", AZ: "Arizona", CA: "California", CO: "Colorado",
+  CT: "Connecticut", DC: "District of Columbia", DE: "Delaware", FL: "Florida",
+  GA: "Georgia", IA: "Iowa", ID: "Idaho", IL: "Illinois", IN: "Indiana",
+  KS: "Kansas", KY: "Kentucky", LA: "Louisiana", MA: "Massachusetts",
+  MD: "Maryland", ME: "Maine", MI: "Michigan", MN: "Minnesota", MO: "Missouri",
+  MS: "Mississippi", MT: "Montana", NC: "North Carolina", ND: "North Dakota",
+  NE: "Nebraska", NH: "New Hampshire", NJ: "New Jersey", NM: "New Mexico",
+  NV: "Nevada", NY: "New York", OH: "Ohio", OK: "Oklahoma", OR: "Oregon",
+  PA: "Pennsylvania", RI: "Rhode Island", SC: "South Carolina", SD: "South Dakota",
+  TN: "Tennessee", TX: "Texas", UT: "Utah", VA: "Virginia", VT: "Vermont",
+  WA: "Washington", WI: "Wisconsin", WV: "West Virginia", WY: "Wyoming",
+};
+
+/**
+ * Every written region's stops on one map of the country — the region maps
+ * merged. One projection, so the legs line up into the single continuous loop
+ * they actually are, and the states still to come stay visibly empty.
+ *
+ * At a hundred-plus stops nothing is labelled: pins are dots, each leg carries
+ * one number, and the legend beside the map does the naming.
+ */
+export function nationalMapData(regions: Region[]): NationalMapData | undefined {
+  const written = regions.filter((region) => region.stops.length > 0);
+  if (!written.length) return undefined;
+
+  const contiguous = stateFeatures.filter((state) => {
+    const bounds = stateBounds.get(String(state.id));
+    return bounds ? intersects(bounds, NATION) : false;
+  });
+
+  const { projection, height } = projectionFor(NATION, {
+    parallels: NATION_PARALLELS,
+    fitTo: { type: "FeatureCollection", features: contiguous },
+  });
+  const context = new DecimatingPath(NATION_POINT_GAP);
+  const path = geoPath(projection, context);
+
+  const visitedNames = new Set(
+    written.flatMap((region) => region.stops.map((stop) => STATE_BY_POSTAL[stop.state] ?? "")),
+  );
+
+  const states = contiguous
+    .map((state) => {
+      path(state);
+      return {
+        id: String(state.id),
+        name: state.properties.name,
+        d: context.result(),
+        visited: visitedNames.has(state.properties.name),
+      };
+    })
+    .filter((state) => state.d.length > 0);
+
+  let previous: NationalStop | undefined;
+
+  const legs = written.map((region) => {
+    const stops: NationalStop[] = region.stops.flatMap((stop) => {
+      const point = projection([stop.location.lng, stop.location.lat]);
+      if (!point) return [];
+      return [
+        {
+          id: stop.id,
+          name: stop.name,
+          state: stop.state,
+          x: Math.round(point[0]),
+          y: Math.round(point[1]),
+          firstDay: stop.days[0]?.dayNumber,
+          dayRange: dayRange(stop),
+        },
+      ];
+    });
+
+    // Opening from the previous leg's last stop keeps the loop unbroken across
+    // the seam — the drive between legs is a drive like any other.
+    const line = previous ? [previous, ...stops] : stops;
+    const routeD = line.map((stop, index) => `${index ? "L" : "M"}${stop.x},${stop.y}`).join("");
+    previous = stops.at(-1) ?? previous;
+
+    return {
+      id: region.id,
+      name: region.name,
+      order: region.order,
+      routeD,
+      stops,
+      badge: stops[0] ? { x: stops[0].x, y: stops[0].y } : undefined,
+    };
+  });
+
+  return { width: WIDTH, height, states, legs };
 }

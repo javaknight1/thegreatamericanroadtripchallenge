@@ -1,0 +1,128 @@
+{
+  "id": "oklahoma-city",
+  "name": "Oklahoma City",
+  "state": "OK",
+  "country": "US",
+  "order": 2,
+  "location": {
+    "lat": 35.4676,
+    "lng": -97.5164
+  },
+  "summary": "The capital of the Sooner State — a moving memorial to the 1995 bombing, a great cowboy museum, and a working stockyards.",
+  "lodging": [
+    {
+      "name": "A Bricktown hotel",
+      "blurb": "On the canal near restaurants and ballpark.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Bricktown%20Oklahoma%20City%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Stockyards steak",
+      "blurb": "Cattlemen's Steakhouse, since 1910, in Stockyards City."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 318,
+      "label": "Day 318 — The National Memorial",
+      "type": "active",
+      "summary": "A place of quiet remembrance.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "okc-national-memorial",
+            "title": "Oklahoma City National Memorial & Museum",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Oklahoma City National Memorial",
+              "address": "620 N Harvey Ave, Oklahoma City, OK",
+              "lat": 35.473,
+              "lng": -97.517,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Oklahoma%20City%20National%20Memorial"
+            },
+            "blurb": "The field of 168 empty chairs and the Survivor Tree, memorializing the 1995 bombing — deeply affecting."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "okc-bricktown",
+            "title": "Bricktown",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Bricktown",
+              "address": "Bricktown, Oklahoma City, OK",
+              "lat": 35.464,
+              "lng": -97.506,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Bricktown"
+            },
+            "blurb": "The revived warehouse district along a canal, with water taxis and restaurants."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 319,
+      "label": "Day 319 — Cowboys & Cattle",
+      "type": "active",
+      "summary": "The West, mythologized and working.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "okc-cowboy-museum",
+            "title": "National Cowboy & Western Heritage Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "National Cowboy & Western Heritage Museum",
+              "address": "1700 NE 63rd St, Oklahoma City, OK",
+              "lat": 35.53,
+              "lng": -97.475,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=National%20Cowboy%20%26%20Western%20Heritage%20Museum"
+            },
+            "blurb": "A superb museum of Western art and frontier history — Remingtons, rodeo, and the mythology of the cowboy."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "okc-stockyards",
+            "title": "Stockyards City & the Capitol",
+            "categoryId": "capitols",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Oklahoma National Stockyards",
+              "address": "2501 Exchange Ave, Oklahoma City, OK",
+              "lat": 35.453,
+              "lng": -97.547,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Oklahoma%20National%20Stockyards"
+            },
+            "blurb": "The world's largest stocker/feeder cattle market and Western-wear shops, plus the state capitol with a working oil well on its lawn."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 320,
+      "label": "Day 320 — South to Dallas",
+      "type": "commute",
+      "summary": "Into Texas and the Metroplex.",
+      "commute": {
+        "from": "Oklahoma City, OK",
+        "to": "Dallas, TX",
+        "driveTimeMins": 200,
+        "scenicNote": "South across the Red River into Texas."
+      }
+    }
+  ]
+}

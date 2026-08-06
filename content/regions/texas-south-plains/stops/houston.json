@@ -1,0 +1,151 @@
+{
+  "id": "houston",
+  "name": "Houston",
+  "state": "TX",
+  "country": "US",
+  "order": 6,
+  "location": {
+    "lat": 29.7604,
+    "lng": -95.3698
+  },
+  "summary": "The Space City — NASA's Mission Control, a superb museum district, the meditative Rothko Chapel, and some of the most diverse food in America.",
+  "lodging": [
+    {
+      "name": "A Museum District or downtown hotel",
+      "blurb": "Near the museums and Hermann Park.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Houston%20Museum%20District%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Viet-Cajun crawfish & Tex-Mex",
+      "blurb": "Houston's astonishing global food scene — plus killer breakfast tacos."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 332,
+      "label": "Day 332 — Space City",
+      "type": "active",
+      "summary": "'Houston, we have a problem.'",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "houston-space-center",
+            "title": "Space Center Houston",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Space Center Houston",
+              "address": "1601 E NASA Pkwy, Houston, TX",
+              "lat": 29.552,
+              "lng": -95.098,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Space%20Center%20Houston"
+            },
+            "blurb": "NASA's visitor complex — the historic Mission Control, moon rocks, a Saturn V, and astronaut training.",
+            "gear": [
+              "comfortable shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 333,
+      "label": "Day 333 — The Museum District",
+      "type": "active",
+      "summary": "Art, science, and a chapel.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "houston-natural-science",
+            "title": "Houston Museum of Natural Science",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Houston Museum of Natural Science",
+              "address": "5555 Hermann Park Dr, Houston, TX",
+              "lat": 29.722,
+              "lng": -95.39,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Houston%20Museum%20of%20Natural%20Science"
+            },
+            "blurb": "Dinosaurs, gems, and a butterfly center in Hermann Park."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "houston-rothko",
+            "title": "The Menil Collection & Rothko Chapel",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Rothko Chapel",
+              "address": "3900 Yupon St, Houston, TX",
+              "lat": 29.738,
+              "lng": -95.396,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Rothko%20Chapel"
+            },
+            "blurb": "A free, world-class private art collection and the meditative, non-denominational Rothko Chapel."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 334,
+      "label": "Day 334 — Free Day",
+      "type": "free",
+      "summary": "A ballgame, a bayou, or the Galleria. Options below.",
+      "freeMenu": [
+        {
+          "id": "houston-astros",
+          "title": "An Astros game at Daikin Park",
+          "categoryId": "sports",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Daikin Park",
+            "address": "501 Crawford St, Houston, TX",
+            "lat": 29.757,
+            "lng": -95.355,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Daikin%20Park"
+          },
+          "blurb": "Baseball downtown in season, under the retractable roof."
+        },
+        {
+          "id": "houston-buffalo-bayou",
+          "title": "Buffalo Bayou Park",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 120,
+          "location": {
+            "name": "Buffalo Bayou Park",
+            "address": "1800 Allen Pkwy, Houston, TX",
+            "lat": 29.762,
+            "lng": -95.383,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Buffalo%20Bayou%20Park"
+          },
+          "blurb": "Kayak or bike the green bayou ribbon through the city."
+        }
+      ]
+    },
+    {
+      "dayNumber": 335,
+      "label": "Day 335 — Down to Galveston",
+      "type": "commute",
+      "summary": "To the Gulf island.",
+      "commute": {
+        "from": "Houston, TX",
+        "to": "Galveston, TX",
+        "driveTimeMins": 75,
+        "scenicNote": "South to Galveston Island."
+      }
+    }
+  ]
+}

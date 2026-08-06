@@ -1,0 +1,83 @@
+{
+  "id": "tulsa",
+  "name": "Tulsa",
+  "state": "OK",
+  "country": "US",
+  "order": 1,
+  "location": {
+    "lat": 36.154,
+    "lng": -95.9928
+  },
+  "summary": "An oil-boom Art Deco city on Route 66 — a spectacular new riverfront park, a villa art museum, and the Greenwood district's hard, essential history.",
+  "lodging": [
+    {
+      "name": "A downtown Tulsa hotel",
+      "blurb": "Near the Deco district and the Gathering Place.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Tulsa%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "An Oklahoma onion burger",
+      "blurb": "Griddled with smashed onions — a state classic."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 316,
+      "label": "Day 316 — Deco, Greenwood & the Gathering Place",
+      "type": "active",
+      "summary": "Oil wealth, hard history, and a world-class park.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "tulsa-greenwood",
+            "title": "Greenwood Rising & Black Wall Street",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Greenwood Rising",
+              "address": "23 N Greenwood Ave, Tulsa, OK",
+              "lat": 36.161,
+              "lng": -95.987,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Greenwood%20Rising"
+            },
+            "blurb": "The history center for the once-thriving Black Wall Street and the 1921 Tulsa Race Massacre — sobering and important."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "tulsa-gathering-place",
+            "title": "The Gathering Place & Philbrook",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Gathering Place",
+              "address": "2650 S John Williams Way, Tulsa, OK",
+              "lat": 36.117,
+              "lng": -95.982,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Gathering%20Place"
+            },
+            "blurb": "A lavish, award-winning riverfront park, plus the Philbrook Museum in an Italian-villa mansion."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 317,
+      "label": "Day 317 — Southwest to OKC",
+      "type": "commute",
+      "summary": "Down to the state capital.",
+      "commute": {
+        "from": "Tulsa, OK",
+        "to": "Oklahoma City, OK",
+        "driveTimeMins": 100,
+        "scenicNote": "Southwest on the turnpike to Oklahoma City."
+      }
+    }
+  ]
+}

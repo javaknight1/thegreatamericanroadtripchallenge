@@ -1,0 +1,95 @@
+{
+  "id": "corpus-christi-padre-island",
+  "name": "Corpus Christi & Padre Island",
+  "state": "TX",
+  "country": "US",
+  "order": 8,
+  "location": {
+    "lat": 27.8006,
+    "lng": -97.3964
+  },
+  "summary": "The Sparkling City by the Sea — an aircraft carrier, a Gulf aquarium, and the longest undeveloped barrier island on earth.",
+  "lodging": [
+    {
+      "name": "A Corpus Christi bayfront hotel",
+      "blurb": "On the seawall near the museums.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Corpus%20Christi%20bayfront%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Gulf snapper & ceviche",
+      "blurb": "Coastal Tex-Mex seafood."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 338,
+      "label": "Day 338 — Bayfront & the Lexington",
+      "type": "active",
+      "summary": "A carrier and an aquarium.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "corpus-uss-lexington",
+            "title": "USS Lexington & the Texas State Aquarium",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "USS Lexington Museum",
+              "address": "2914 N Shoreline Blvd, Corpus Christi, TX",
+              "lat": 27.814,
+              "lng": -97.388,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=USS%20Lexington%20Museum"
+            },
+            "blurb": "Tour the WWII aircraft carrier 'the Blue Ghost,' then the Gulf-focused Texas State Aquarium next door."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 339,
+      "label": "Day 339 — Padre Island National Seashore",
+      "type": "active",
+      "summary": "70 miles of wild beach.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "corpus-padre-island",
+            "title": "Padre Island National Seashore",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Padre Island National Seashore",
+              "address": "P.O. Box 181300, Corpus Christi, TX",
+              "lat": 27.427,
+              "lng": -97.296,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Padre%20Island%20National%20Seashore"
+            },
+            "blurb": "The longest stretch of undeveloped barrier island in the world — empty beaches, sea-turtle releases, and world-class birding.",
+            "gear": [
+              "beach gear",
+              "sun protection"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 340,
+      "label": "Day 340 — Northwest to San Antonio",
+      "type": "commute",
+      "summary": "Inland to the Alamo City.",
+      "commute": {
+        "from": "Corpus Christi, TX",
+        "to": "San Antonio, TX",
+        "driveTimeMins": 130,
+        "scenicNote": "Northwest off the coast to San Antonio."
+      }
+    }
+  ]
+}

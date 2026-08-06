@@ -1,0 +1,212 @@
+{
+  "id": "austin",
+  "name": "Austin",
+  "state": "TX",
+  "country": "US",
+  "order": 5,
+  "location": {
+    "lat": 30.2672,
+    "lng": -97.7431
+  },
+  "summary": "Texas's capital and the self-styled Live Music Capital of the World — the biggest statehouse in the country, a spring-fed swimming hole, a bridge full of bats, and the best barbecue anywhere. A full, fun stay.",
+  "lodging": [
+    {
+      "name": "A downtown or South Congress hotel",
+      "blurb": "Near the music and Lady Bird Lake.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Austin%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Franklin Barbecue brisket",
+      "blurb": "Worth the famous line — or any great Austin BBQ joint; plus breakfast tacos."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 327,
+      "label": "Day 327 — The Capitol & the Bats",
+      "type": "active",
+      "summary": "The biggest statehouse and a dusk spectacle.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "austin-capitol",
+            "title": "Texas State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "Texas State Capitol",
+              "address": "1100 Congress Ave, Austin, TX",
+              "lat": 30.2747,
+              "lng": -97.7404,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Texas%20State%20Capitol"
+            },
+            "blurb": "The largest state capitol in the country — taller than the U.S. Capitol, in pink granite."
+          }
+        },
+        {
+          "start": "8:00 PM",
+          "item": {
+            "id": "austin-bats",
+            "title": "The Congress Avenue Bridge bats",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 60,
+            "location": {
+              "name": "Congress Avenue Bridge",
+              "address": "Congress Ave Bridge, Austin, TX",
+              "lat": 30.261,
+              "lng": -97.745,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Congress%20Avenue%20Bridge"
+            },
+            "blurb": "At dusk (spring–fall) up to 1.5 million bats stream out from under the bridge."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 328,
+      "label": "Day 328 — SoCo & Barton Springs",
+      "type": "active",
+      "summary": "Springs, funk, and the South Congress scene.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "austin-barton-springs",
+            "title": "Barton Springs Pool & Zilker Park",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Barton Springs Pool",
+              "address": "2201 Barton Springs Rd, Austin, TX",
+              "lat": 30.264,
+              "lng": -97.771,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Barton%20Springs%20Pool"
+            },
+            "blurb": "A three-acre, 68°F spring-fed pool in the middle of the city.",
+            "gear": [
+              "swimsuit"
+            ]
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "austin-south-congress",
+            "title": "South Congress (SoCo)",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "South Congress Ave, Austin",
+              "address": "S Congress Ave, Austin, TX",
+              "lat": 30.249,
+              "lng": -97.751,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=South%20Congress%20Ave%2C%20Austin"
+            },
+            "blurb": "Vintage shops, food trucks, the 'i love you so much' mural, and the classic Capitol view."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 329,
+      "label": "Day 329 — Live Music & BBQ",
+      "type": "active",
+      "summary": "The reason it's the Live Music Capital.",
+      "blocks": [
+        {
+          "start": "12:00 PM",
+          "item": {
+            "id": "austin-bbq",
+            "title": "Central Texas barbecue",
+            "categoryId": "food-drink",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Franklin Barbecue",
+              "address": "900 E 11th St, Austin, TX",
+              "lat": 30.27,
+              "lng": -97.731,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Franklin%20Barbecue"
+            },
+            "blurb": "Franklin's or another legend — brisket that defines the genre."
+          }
+        },
+        {
+          "start": "8:00 PM",
+          "item": {
+            "id": "austin-live-music",
+            "title": "6th Street & the Continental Club",
+            "categoryId": "concerts-venues",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "The Continental Club",
+              "address": "1315 S Congress Ave, Austin, TX",
+              "lat": 30.25,
+              "lng": -97.752,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Continental%20Club"
+            },
+            "blurb": "Club-hop the live-music scene, from dive stages to the historic Continental Club."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 330,
+      "label": "Day 330 — Free Day",
+      "type": "free",
+      "summary": "A presidential library, a paddle, or day-drinking. Options below.",
+      "freeMenu": [
+        {
+          "id": "austin-lbj-library",
+          "title": "The LBJ Presidential Library",
+          "categoryId": "museums-history",
+          "tier": "low",
+          "durationMins": 150,
+          "location": {
+            "name": "LBJ Presidential Library",
+            "address": "2313 Red River St, Austin, TX",
+            "lat": 30.286,
+            "lng": -97.729,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=LBJ%20Presidential%20Library"
+          },
+          "blurb": "LBJ's library on the UT campus — the Great Society and a turbulent era."
+        },
+        {
+          "id": "austin-lady-bird-lake",
+          "title": "Lady Bird Lake",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 120,
+          "location": {
+            "name": "Lady Bird Lake",
+            "address": "Lady Bird Lake, Austin, TX",
+            "lat": 30.255,
+            "lng": -97.743,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Lady%20Bird%20Lake"
+          },
+          "blurb": "Kayak or walk the hike-and-bike trail through the middle of the city."
+        }
+      ]
+    },
+    {
+      "dayNumber": 331,
+      "label": "Day 331 — East to Houston",
+      "type": "commute",
+      "summary": "Across to the Bayou City.",
+      "commute": {
+        "from": "Austin, TX",
+        "to": "Houston, TX",
+        "driveTimeMins": 165,
+        "scenicNote": "East to Houston."
+      }
+    }
+  ]
+}

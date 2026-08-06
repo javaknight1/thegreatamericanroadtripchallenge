@@ -1,0 +1,165 @@
+{
+  "id": "dallas-fort-worth",
+  "name": "Dallas & Fort Worth",
+  "state": "TX",
+  "country": "US",
+  "order": 3,
+  "location": {
+    "lat": 32.7767,
+    "lng": -96.797
+  },
+  "summary": "The Metroplex — Dallas's gleaming arts district and the site of the Kennedy assassination, and Fort Worth's genuine cowtown with a twice-daily cattle drive and a jewel-box art museum.",
+  "lodging": [
+    {
+      "name": "A downtown Dallas or Fort Worth hotel",
+      "blurb": "Dallas for the Arts District; Fort Worth for the Stockyards.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Fort%20Worth%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Texas brisket & a chicken-fried steak",
+      "blurb": "Barbecue and the state's cream-gravy classic."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 321,
+      "label": "Day 321 — Dallas & Dealey Plaza",
+      "type": "active",
+      "summary": "The city and a national tragedy.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "dfw-sixth-floor",
+            "title": "The Sixth Floor Museum at Dealey Plaza",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "The Sixth Floor Museum",
+              "address": "411 Elm St, Dallas, TX",
+              "lat": 32.7797,
+              "lng": -96.8085,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Sixth%20Floor%20Museum"
+            },
+            "blurb": "The perch from which JFK was shot in 1963, now a careful museum of the assassination and its aftermath."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "dfw-arts-district",
+            "title": "Dallas Arts District",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Dallas Arts District",
+              "address": "2010 Flora St, Dallas, TX",
+              "lat": 32.789,
+              "lng": -96.798,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Dallas%20Arts%20District"
+            },
+            "blurb": "The largest arts district in the country — the Nasher Sculpture Center and the Dallas Museum of Art."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 322,
+      "label": "Day 322 — Fort Worth & the Stockyards",
+      "type": "active",
+      "summary": "Where the West begins.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "dfw-stockyards",
+            "title": "Fort Worth Stockyards & cattle drive",
+            "categoryId": "guided-tours",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Fort Worth Stockyards",
+              "address": "131 E Exchange Ave, Fort Worth, TX",
+              "lat": 32.789,
+              "lng": -97.347,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Fort%20Worth%20Stockyards"
+            },
+            "blurb": "A twice-daily Longhorn cattle drive down brick streets, plus honky-tonks and Billy Bob's."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "dfw-kimbell",
+            "title": "The Kimbell Art Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Kimbell Art Museum",
+              "address": "3333 Camp Bowie Blvd, Fort Worth, TX",
+              "lat": 32.749,
+              "lng": -97.365,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Kimbell%20Art%20Museum"
+            },
+            "blurb": "A small, perfect collection in a Louis Kahn masterpiece — one of the finest art buildings in America."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 323,
+      "label": "Day 323 — Free Day",
+      "type": "free",
+      "summary": "Science, a presidential library, or shopping. Options below.",
+      "freeMenu": [
+        {
+          "id": "dfw-perot",
+          "title": "Perot Museum of Nature and Science",
+          "categoryId": "museums-history",
+          "tier": "low",
+          "durationMins": 150,
+          "location": {
+            "name": "Perot Museum of Nature and Science",
+            "address": "2201 N Field St, Dallas, TX",
+            "lat": 32.787,
+            "lng": -96.807,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Perot%20Museum%20of%20Nature%20and%20Science"
+          },
+          "blurb": "A striking science museum, great with or without kids."
+        },
+        {
+          "id": "dfw-bush-library",
+          "title": "George W. Bush Presidential Library",
+          "categoryId": "museums-history",
+          "tier": "low",
+          "durationMins": 120,
+          "location": {
+            "name": "George W. Bush Presidential Library",
+            "address": "2943 SMU Blvd, Dallas, TX",
+            "lat": 32.841,
+            "lng": -96.784,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=George%20W.%20Bush%20Presidential%20Library"
+          },
+          "blurb": "The 43rd president's library and museum at SMU."
+        }
+      ]
+    },
+    {
+      "dayNumber": 324,
+      "label": "Day 324 — South to Waco",
+      "type": "commute",
+      "summary": "Down I-35 to Waco.",
+      "commute": {
+        "from": "Dallas, TX",
+        "to": "Waco, TX",
+        "driveTimeMins": 95,
+        "scenicNote": "South down I-35 toward Austin."
+      }
+    }
+  ]
+}

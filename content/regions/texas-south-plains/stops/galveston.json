@@ -1,0 +1,86 @@
+{
+  "id": "galveston",
+  "name": "Galveston",
+  "state": "TX",
+  "country": "US",
+  "order": 7,
+  "location": {
+    "lat": 29.3013,
+    "lng": -94.7977
+  },
+  "summary": "A historic Gulf island — Victorian mansions, a pleasure pier, wide beaches, and the memory of the deadliest disaster in American history.",
+  "lodging": [
+    {
+      "name": "A Strand-district or beachfront hotel",
+      "blurb": "Near the historic Strand or on the seawall.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Galveston%20Texas%20Strand%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Gulf shrimp & oysters",
+      "blurb": "Fresh off the boats on the island."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 336,
+      "label": "Day 336 — The Island",
+      "type": "active",
+      "summary": "The Strand, the pier, and the beach.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "galveston-strand",
+            "title": "The Strand & Bishop's Palace",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "The Strand Historic District",
+              "address": "2100 Strand St, Galveston, TX",
+              "lat": 29.31,
+              "lng": -94.793,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Strand%20Historic%20District"
+            },
+            "blurb": "The Victorian commercial district that survived the 1900 Storm — the deadliest natural disaster in U.S. history — and the ornate Bishop's Palace."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "galveston-pleasure-pier",
+            "title": "Pleasure Pier & the Seawall",
+            "categoryId": "theme-parks",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Galveston Island Historic Pleasure Pier",
+              "address": "2501 Seawall Blvd, Galveston, TX",
+              "lat": 29.287,
+              "lng": -94.781,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Galveston%20Island%20Historic%20Pleasure%20Pier"
+            },
+            "blurb": "Rides over the Gulf on the pier, then the beach along the seawall.",
+            "gear": [
+              "beach gear"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 337,
+      "label": "Day 337 — Down the coast to Corpus",
+      "type": "commute",
+      "summary": "Southwest along the Gulf.",
+      "commute": {
+        "from": "Galveston, TX",
+        "to": "Corpus Christi, TX",
+        "driveTimeMins": 210,
+        "scenicNote": "Southwest down the coast to Corpus Christi."
+      }
+    }
+  ]
+}
