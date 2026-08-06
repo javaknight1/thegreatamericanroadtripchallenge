@@ -12,11 +12,22 @@ const trip = getTrip();
 const plan = getPlan();
 const written = trip.regions.filter((region) => region.stops.length > 0);
 
-/** State → its capital city, for checking the "every state capital" promise. */
-const CAPITAL_CITY: Record<string, string> = {
-  MA: "Boston", ME: "Augusta", NH: "Concord", VT: "Montpelier", CT: "Hartford", RI: "Providence",
-  NY: "Albany", NJ: "Trenton", PA: "Harrisburg", DE: "Dover", MD: "Annapolis",
-};
+/**
+ * The promise is to visit every state capital *city* — not to tour every
+ * capitol building. This checks the cities.
+ */
+const CAPITALS: Array<[string, string]> = [
+  ["AL", "Montgomery"], ["AZ", "Phoenix"], ["AR", "Little Rock"], ["CA", "Sacramento"], ["CO", "Denver"],
+  ["CT", "Hartford"], ["DE", "Dover"], ["FL", "Tallahassee"], ["GA", "Atlanta"], ["ID", "Boise"],
+  ["IL", "Springfield"], ["IN", "Indianapolis"], ["IA", "Des Moines"], ["KS", "Topeka"], ["KY", "Frankfort"],
+  ["LA", "Baton Rouge"], ["ME", "Augusta"], ["MD", "Annapolis"], ["MA", "Boston"], ["MI", "Lansing"],
+  ["MN", "St. Paul"], ["MS", "Jackson"], ["MO", "Jefferson City"], ["MT", "Helena"], ["NE", "Lincoln"],
+  ["NV", "Carson City"], ["NH", "Concord"], ["NJ", "Trenton"], ["NM", "Santa Fe"], ["NY", "Albany"],
+  ["NC", "Raleigh"], ["ND", "Bismarck"], ["OH", "Columbus"], ["OK", "Oklahoma City"], ["OR", "Salem"],
+  ["PA", "Harrisburg"], ["RI", "Providence"], ["SC", "Columbia"], ["SD", "Pierre"], ["TN", "Nashville"],
+  ["TX", "Austin"], ["UT", "Salt Lake City"], ["VT", "Montpelier"], ["VA", "Richmond"], ["WA", "Olympia"],
+  ["WV", "Charleston"], ["WI", "Madison"], ["WY", "Cheyenne"],
+];
 
 for (const region of written) {
   const planned = plan.regions.find((entry) => entry.id === region.id)!;
@@ -50,13 +61,17 @@ for (const region of written) {
   const used = new Set(items.map((item) => item.categoryId));
   console.log("categories unused here:", trip.categories.filter((c) => !used.has(c.id)).map((c) => c.id).join(", ") || "none");
 
-  for (const stop of region.stops) {
-    const capital = CAPITAL_CITY[stop.state];
-    if (!capital || !stop.name.toLowerCase().includes(capital.toLowerCase())) continue;
-    const hasItem = stop.days.flatMap(itemsOf).some((item) => item.categoryId === "capitols");
-    if (!hasItem) console.log(`  ⚠ ${stop.state}: ${stop.name} has no "capitols" item — the state capitol isn't a visit here`);
-  }
 }
 
 const everywhere = new Set(written.flatMap((r) => r.stops.flatMap((s) => s.days.flatMap(itemsOf))).map((i) => i.categoryId));
 console.log("\ncategories with no items in any written region:", trip.categories.filter((c) => !everywhere.has(c.id)).map((c) => c.id).join(", "));
+
+// Capital cities: authored stops first, then the plan for legs not yet written.
+const authoredNames = written.flatMap((region) => region.stops.map((stop) => stop.name.toLowerCase()));
+const plannedNames = plan.regions.flatMap((region) => region.stops.map((stop) => stop.name.toLowerCase()));
+const covers = (names: string[], city: string) => names.some((name) => name.includes(city.toLowerCase()));
+
+const authored = CAPITALS.filter(([, city]) => covers(authoredNames, city));
+const missing = CAPITALS.filter(([, city]) => !covers(plannedNames, city));
+console.log(`\ncapital cities: ${authored.length}/48 written, ${48 - missing.length}/48 in the plan`);
+console.log("capitals missing from the plan entirely:", missing.map(([state, city]) => `${city}, ${state}`).join(" · ") || "none");
