@@ -1,0 +1,68 @@
+{
+  "id": "leavenworth",
+  "name": "Leavenworth",
+  "state": "WA",
+  "country": "US",
+  "order": 16,
+  "location": {
+    "lat": 47.5962,
+    "lng": -120.6615
+  },
+  "summary": "A former timber town remade as a Bavarian village in the Cascade foothills — alpine kitsch, river play, and the trailhead to the storied Enchantments.",
+  "lodging": [
+    {
+      "name": "A Bavarian-style Leavenworth inn",
+      "blurb": "In the theme-town center.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Leavenworth%20Washington%20Bavarian%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Bratwurst & a Bavarian pretzel",
+      "blurb": "Plus local Washington cider and beer."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 513,
+      "label": "Day 513 — Alpine Village",
+      "type": "active",
+      "summary": "Bavaria in the Cascades.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "leavenworth-village",
+            "title": "Leavenworth village & Icicle Gorge",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Leavenworth",
+              "address": "Front St, Leavenworth, WA",
+              "lat": 47.5962,
+              "lng": -120.6615,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Leavenworth"
+            },
+            "blurb": "The faux-Bavarian downtown (famous at Oktoberfest and Christmas), plus a walk up the Icicle Gorge along the river.",
+            "gear": [
+              "walking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 514,
+      "label": "Day 514 — Southeast to wine country",
+      "type": "commute",
+      "summary": "Down to Walla Walla.",
+      "commute": {
+        "from": "Leavenworth, WA",
+        "to": "Walla Walla, WA",
+        "driveTimeMins": 210,
+        "scenicNote": "Southeast to the wine country."
+      }
+    }
+  ]
+}

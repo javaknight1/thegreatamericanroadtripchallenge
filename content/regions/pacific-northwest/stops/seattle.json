@@ -1,0 +1,237 @@
+{
+  "id": "seattle",
+  "name": "Seattle",
+  "state": "WA",
+  "country": "US",
+  "order": 13,
+  "location": {
+    "lat": 47.6062,
+    "lng": -122.3321
+  },
+  "summary": "The Emerald City on Puget Sound — Pike Place Market, the Space Needle, glass art and pop culture, coffee and ferries, all under the gaze of Mount Rainier. A big stay.",
+  "lodging": [
+    {
+      "name": "A downtown hotel near Pike Place",
+      "blurb": "Walkable to the market and waterfront.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Seattle%20hotel%20Pike%20Place"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Fresh salmon, oysters & coffee",
+      "blurb": "Plus the original Starbucks, if you must."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 500,
+      "label": "Day 500 — Pike Place & the Waterfront",
+      "type": "active",
+      "summary": "The heart of the city.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "seattle-pike-place",
+            "title": "Pike Place Market",
+            "categoryId": "food-drink",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Pike Place Market",
+              "address": "85 Pike St, Seattle, WA",
+              "lat": 47.6097,
+              "lng": -122.3421,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Pike%20Place%20Market"
+            },
+            "blurb": "The flying-fish market, the first Starbucks, the gum wall, and the waterfront below."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 501,
+      "label": "Day 501 — Seattle Center",
+      "type": "active",
+      "summary": "The Needle and the glass.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "seattle-space-needle",
+            "title": "Space Needle & Chihuly Garden",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Space Needle",
+              "address": "400 Broad St, Seattle, WA",
+              "lat": 47.6205,
+              "lng": -122.3493,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Space%20Needle"
+            },
+            "blurb": "Up the 1962 World's Fair icon, then the dazzling Chihuly Garden and Glass next door."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "seattle-mopop",
+            "title": "Museum of Pop Culture",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Museum of Pop Culture",
+              "address": "325 5th Ave N, Seattle, WA",
+              "lat": 47.6215,
+              "lng": -122.3481,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Museum%20of%20Pop%20Culture"
+            },
+            "blurb": "Music, sci-fi, and pop culture in a wild Frank Gehry building (Nirvana and Hendrix hometown heroes)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 502,
+      "label": "Day 502 — Pioneer Square & Ballard",
+      "type": "active",
+      "summary": "Underground history and locks.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "seattle-underground",
+            "title": "Pioneer Square & the Underground",
+            "categoryId": "guided-tours",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Bill Speidel's Underground Tour",
+              "address": "614 1st Ave, Seattle, WA",
+              "lat": 47.602,
+              "lng": -122.334,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Bill%20Speidel%27s%20Underground%20Tour"
+            },
+            "blurb": "Tour the buried storefronts beneath the original city."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "seattle-ballard-locks",
+            "title": "Ballard Locks & the Fremont Troll",
+            "categoryId": "quirky",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Ballard Locks",
+              "address": "3015 NW 54th St, Seattle, WA",
+              "lat": 47.6657,
+              "lng": -122.397,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Ballard%20Locks"
+            },
+            "blurb": "Watch boats (and salmon) transit the locks, then the troll under the bridge in quirky Fremont."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 503,
+      "label": "Day 503 — Flight & Views",
+      "type": "active",
+      "summary": "Aviation and a ferry.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "seattle-museum-of-flight",
+            "title": "Museum of Flight",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Museum of Flight",
+              "address": "9404 E Marginal Way S, Seattle, WA",
+              "lat": 47.518,
+              "lng": -122.297,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Museum%20of%20Flight"
+            },
+            "blurb": "A world-class air-and-space collection in Boeing's hometown."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "seattle-ferry",
+            "title": "A Puget Sound ferry & Kerry Park",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Kerry Park",
+              "address": "211 W Highland Dr, Seattle, WA",
+              "lat": 47.6295,
+              "lng": -122.36,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Kerry%20Park"
+            },
+            "blurb": "A ferry hop for the skyline-and-Rainier view, and the classic postcard vista at Kerry Park."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 504,
+      "label": "Day 504 — Free Day",
+      "type": "free",
+      "summary": "Coffee, a market, or a day trip. Options below.",
+      "freeMenu": [
+        {
+          "id": "seattle-coffee",
+          "title": "A Seattle coffee crawl",
+          "categoryId": "food-drink",
+          "tier": "low",
+          "durationMins": 120,
+          "location": {
+            "name": "Capitol Hill",
+            "address": "Seattle, WA",
+            "lat": 47.625,
+            "lng": -122.32,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Capitol%20Hill"
+          },
+          "blurb": "The neighborhood cafés that built American coffee culture."
+        },
+        {
+          "id": "seattle-discovery-park",
+          "title": "Discovery Park",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Discovery Park",
+            "address": "3801 Discovery Park Blvd, Seattle, WA",
+            "lat": 47.658,
+            "lng": -122.406,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Discovery%20Park"
+          },
+          "blurb": "Bluffs, beach, and a lighthouse on Puget Sound."
+        }
+      ]
+    },
+    {
+      "dayNumber": 505,
+      "label": "Day 505 — North to the islands",
+      "type": "commute",
+      "summary": "Up to the ferry at Anacortes.",
+      "commute": {
+        "from": "Seattle, WA",
+        "to": "San Juan Islands, WA",
+        "driveTimeMins": 120,
+        "scenicNote": "North to Anacortes and the island ferry."
+      }
+    }
+  ]
+}

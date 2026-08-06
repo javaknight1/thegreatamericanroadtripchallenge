@@ -1,0 +1,68 @@
+{
+  "id": "mount-st-helens",
+  "name": "Mount St. Helens",
+  "state": "WA",
+  "country": "US",
+  "order": 9,
+  "location": {
+    "lat": 46.1912,
+    "lng": -122.1944
+  },
+  "summary": "The volcano that blew its top in 1980 — a still-recovering blast zone with a gaping crater and a superb ridge-top observatory.",
+  "lodging": [
+    {
+      "name": "A Castle Rock or Kelso motel",
+      "blurb": "At the foot of the Spirit Lake Highway.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Castle%20Rock%20Washington%20motel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A hearty diner breakfast",
+      "blurb": "Fuel before the drive up the mountain."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 489,
+      "label": "Day 489 — The Blast Zone",
+      "type": "active",
+      "summary": "Into the crater's shadow.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "mount-st-helens-johnston-ridge",
+            "title": "Johnston Ridge & the crater",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Johnston Ridge Observatory",
+              "address": "24000 Spirit Lake Hwy, Toutle, WA",
+              "lat": 46.274,
+              "lng": -122.217,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Johnston%20Ridge%20Observatory"
+            },
+            "blurb": "Drive the Spirit Lake Highway into the 1980 eruption's blast zone for a face-on view of the crater and the slowly recovering landscape.",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 490,
+      "label": "Day 490 — Northeast to Rainier",
+      "type": "commute",
+      "summary": "To the giant of the Cascades.",
+      "commute": {
+        "from": "Mount St. Helens, WA",
+        "to": "Mount Rainier National Park, WA",
+        "driveTimeMins": 150,
+        "scenicNote": "Northeast to Mount Rainier."
+      }
+    }
+  ]
+}

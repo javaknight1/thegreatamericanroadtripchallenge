@@ -1,0 +1,68 @@
+{
+  "id": "walla-walla",
+  "name": "Walla Walla",
+  "state": "WA",
+  "country": "US",
+  "order": 17,
+  "location": {
+    "lat": 46.0646,
+    "lng": -118.343
+  },
+  "summary": "A charming southeast-Washington town that's become one of the West's great wine destinations — and the last stop before the Rockies.",
+  "lodging": [
+    {
+      "name": "A downtown Walla Walla inn",
+      "blurb": "Walkable to the tasting rooms.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Walla%20Walla%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Walla Walla sweet onions & Syrah",
+      "blurb": "The famous sweet onion, and standout red wine."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 515,
+      "label": "Day 515 — Wine & Main Street",
+      "type": "active",
+      "summary": "Tasting rooms and history.",
+      "blocks": [
+        {
+          "start": "11:00 AM",
+          "item": {
+            "id": "walla-walla-wineries",
+            "title": "Walla Walla wine country",
+            "categoryId": "food-drink",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Walla Walla",
+              "address": "Main St, Walla Walla, WA",
+              "lat": 46.0646,
+              "lng": -118.343,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Walla%20Walla"
+            },
+            "blurb": "Tasting rooms in and around a lovely tree-lined downtown, with the Whitman Mission history nearby.",
+            "gear": [
+              "a designated driver or a tour"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 516,
+      "label": "Day 516 — Into the Rockies",
+      "type": "commute",
+      "summary": "Northeast toward Idaho.",
+      "commute": {
+        "from": "Walla Walla, WA",
+        "to": "Spokane & Coeur d'Alene, ID",
+        "driveTimeMins": 180,
+        "scenicNote": "Northeast toward Spokane and the Northern Rockies — the Pacific Northwest is done."
+      }
+    }
+  ]
+}

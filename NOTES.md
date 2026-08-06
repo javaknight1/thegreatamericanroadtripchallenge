@@ -7,9 +7,8 @@ is the list to work from once the loop is fully written.
 Rob's standing instruction: add suggestions here as they come up, without asking
 first. Items are only removed when they're resolved or explicitly dropped.
 
-Last updated at **159 stops · 488 days · 597 items · 31 states** — eight legs
-complete plus the Pacific Northwest in progress (8 of its 18 stops), days 1–488
-contiguous.
+Last updated at **168 stops · 516 days · 621 items · 32 states** — nine legs of
+fourteen complete, days 1–516 contiguous, heading into the Northern Rockies.
 
 ---
 
@@ -29,6 +28,7 @@ data doesn't back that up.
 | Texas & South Plains | 4 / 39 (10%) | 11 days, through day 354 |
 | Desert Southwest | 6 / 63 (10%) | 22 days, through day 376 |
 | California | 4 / 51 (8%) | 12 days, through day 440 |
+| Pacific Northwest | 2 / 48 (4%) | **23 days**, through day 503 |
 
 The Deep South run is the one I'd fix first: **days 256–285** is thirty straight
 days without one, and it covers the heaviest material in the trip — Whitney
@@ -43,8 +43,15 @@ long runs without changing any day numbers.
 Also flagged by the audit — 4+ day stops with no breather anywhere in them:
 Portland, Montpelier & Stowe, The Hudson Valley, Baltimore, Williamsburg &
 Virginia Beach, Tampa & St. Petersburg, Memphis, Big Bend & Marfa, Santa Fe &
-Taos. Big Bend is arguably correct (the days *are* the point); the cities less
-so.
+Taos, Olympic NP, North Cascades & Vancouver. Big Bend is arguably correct (the
+days *are* the point); the cities less so.
+
+**The Pacific Northwest is now the worst leg for this** — 2 free days in 48 (4%),
+tying the Deep South for the lowest rate, with a 23-day run from day 481 to 503.
+That stretch covers Salem, the Oregon Coast, Astoria, St. Helens, Rainier,
+Olympia, three days of Olympic, and four of Seattle. It's also physically hard:
+Paradise, the Hoh, Hurricane Ridge and Ruby Beach are consecutive hiking days
+with a ferry crossing in the middle.
 
 The Southwest's 22-day run (days 355–376) is worth a look for a different
 reason: it ends at the Grand Canyon, and the days leading in are physically
@@ -173,6 +180,21 @@ capitals that are the outliers.
   picture of the product. It's a real content decision though (250 coordinates),
   not a code change, so it's parked here rather than done.
 
+### The Vancouver stop is filed as US/WA
+
+`north-cascades-np-vancouver` carries `state: "WA"`, `country: "US"`, but two of
+its four days (509 and 510) are in British Columbia — Stanley Park, Granville
+Island, Capilano, Grouse Mountain. The schema explicitly supports `country: "CA"`
+for exactly this (the brief calls out Canada detours as ordinary stops), and the
+map projects the stop from its `location`, which sits on the US side.
+
+Nothing renders wrong today. But the state-coverage stat counts this as
+Washington only, and a future "which countries does this trip enter?" question
+would answer wrong. **Suggestion:** either split Vancouver into its own
+`country: "CA"` stop, or leave it and accept that the Canada content is
+invisible to the data model. I'd split it — the trip's international detours are
+a selling point, not a footnote.
+
 ## 7. Small consistency items
 
 - **Item id prefixes don't always match their stop id** — `dfw-*` under
@@ -203,15 +225,14 @@ capitals that are the outliers.
 
 ## 9. Where the trip stands
 
-Written: legs 1–8 complete, plus the Pacific Northwest through Astoria — days
-1–488. Remaining: the rest of the Pacific Northwest, Northern Rockies, Colorado
-Rockies, Great Plains, Upper Midwest & Great Lakes, Appalachia Return — 91 of
-250 stops.
+Written: legs 1–9 complete — days 1–516, at the Idaho line.
+Remaining: Northern Rockies, Colorado Rockies, Great Plains, Upper Midwest &
+Great Lakes, Appalachia Return — 82 of 250 stops.
 
-Capitals: **31 of 48 capital cities written**, 48/48 present in the plan.
-Still to come: Denver, Boise, Springfield, Indianapolis, Des Moines, Topeka,
-Lansing, Saint Paul, Jefferson City, Helena, Lincoln, Bismarck, Columbus,
-Pierre, Olympia, Madison, Cheyenne — all in the six remaining legs.
+Capitals: **32 of 48 capital cities written**, 48/48 present in the plan (Olympia
+lands on day 494). Still to come: Denver, Boise, Springfield, Indianapolis, Des
+Moines, Topeka, Lansing, Saint Paul, Jefferson City, Helena, Lincoln, Bismarck,
+Columbus, Pierre, Madison, Cheyenne — all in the five remaining legs.
 
 **The capitals check can produce false positives.** `scripts/dev/audit.ts`
 matches a capital by testing whether any stop name *contains* the city name, so

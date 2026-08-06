@@ -1,0 +1,98 @@
+{
+  "id": "san-juan-islands",
+  "name": "San Juan Islands",
+  "state": "WA",
+  "country": "US",
+  "order": 14,
+  "location": {
+    "lat": 48.532,
+    "lng": -123.087
+  },
+  "summary": "An emerald archipelago reached by ferry — orca waters, a mountaintop with a 360° view, and slow, salt-air island life.",
+  "lodging": [
+    {
+      "name": "A Friday Harbor inn (San Juan Island)",
+      "blurb": "Walk-off-the-ferry island base.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Friday%20Harbor%20San%20Juan%20Island%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Just-caught seafood",
+      "blurb": "Island oysters and Dungeness crab."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 506,
+      "label": "Day 506 — San Juan Island",
+      "type": "active",
+      "summary": "Whales and a lighthouse.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "san-juan-whale-watch",
+            "title": "Whale watching & Lime Kiln Point",
+            "categoryId": "guided-tours",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Lime Kiln Point State Park",
+              "address": "1567 Westside Rd, Friday Harbor, WA",
+              "lat": 48.516,
+              "lng": -123.152,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Lime%20Kiln%20Point%20State%20Park"
+            },
+            "blurb": "Ferry to Friday Harbor and watch for orcas from a boat or the 'Whale Watch Park' cliffs.",
+            "gear": [
+              "binoculars",
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 507,
+      "label": "Day 507 — Orcas Island",
+      "type": "active",
+      "summary": "The archipelago from the top.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "san-juan-orcas-island",
+            "title": "Orcas Island & Mount Constitution",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Mount Constitution",
+              "address": "Moran State Park, Olga, WA",
+              "lat": 48.678,
+              "lng": -122.83,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mount%20Constitution"
+            },
+            "blurb": "A short hop to Orcas Island and the 360° view from Mount Constitution in Moran State Park — plus kayaking the coves.",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 508,
+      "label": "Day 508 — North to Canada & the Cascades",
+      "type": "commute",
+      "summary": "Ferry back, then north.",
+      "commute": {
+        "from": "San Juan Islands, WA",
+        "to": "Vancouver, BC",
+        "driveTimeMins": 150,
+        "scenicNote": "Ferry back and north toward Vancouver and the North Cascades."
+      }
+    }
+  ]
+}

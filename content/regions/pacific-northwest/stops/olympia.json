@@ -1,0 +1,83 @@
+{
+  "id": "olympia",
+  "name": "Olympia",
+  "state": "WA",
+  "country": "US",
+  "order": 11,
+  "location": {
+    "lat": 47.0379,
+    "lng": -122.9007
+  },
+  "summary": "Washington's capital at the southern tip of Puget Sound — a grand domed statehouse and an easygoing waterfront.",
+  "lodging": [
+    {
+      "name": "A downtown Olympia hotel",
+      "blurb": "Near the Capitol and the waterfront.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Olympia%20Washington%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Olympia oysters",
+      "blurb": "The tiny native oyster of these very waters."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 494,
+      "label": "Day 494 — The Statehouse",
+      "type": "active",
+      "summary": "The dome and the waterfront.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "olympia-capitol",
+            "title": "Washington State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Washington State Capitol",
+              "address": "416 Sid Snyder Ave SW, Olympia, WA",
+              "lat": 47.0357,
+              "lng": -122.9051,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Washington%20State%20Capitol"
+            },
+            "blurb": "The Legislative Building's soaring dome — one of the tallest masonry domes in the world — and its campus above the Sound."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "olympia-waterfront",
+            "title": "Percival Landing & the market",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Percival Landing",
+              "address": "217 Thurston Ave NW, Olympia, WA",
+              "lat": 47.047,
+              "lng": -122.904,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Percival%20Landing"
+            },
+            "blurb": "The boardwalk waterfront and the year-round Olympia Farmers Market."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 495,
+      "label": "Day 495 — Out to the peninsula",
+      "type": "commute",
+      "summary": "To the Olympic wilderness.",
+      "commute": {
+        "from": "Olympia, WA",
+        "to": "Olympic National Park, WA",
+        "driveTimeMins": 120,
+        "scenicNote": "Northwest onto the Olympic Peninsula."
+      }
+    }
+  ]
+}

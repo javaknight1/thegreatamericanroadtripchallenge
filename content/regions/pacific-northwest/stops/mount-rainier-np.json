@@ -1,0 +1,100 @@
+{
+  "id": "mount-rainier-np",
+  "name": "Mount Rainier National Park",
+  "state": "WA",
+  "country": "US",
+  "order": 10,
+  "location": {
+    "lat": 46.8523,
+    "lng": -121.7603
+  },
+  "summary": "The glaciated 14,411-ft giant that looms over Seattle — wildflower meadows at Paradise and high alpine views at Sunrise.",
+  "lodging": [
+    {
+      "name": "Paradise Inn (in-park) or an Ashford lodge",
+      "blurb": "The historic inn puts you at the trailheads.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Paradise%20Inn%20Mount%20Rainier"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Dinner at Paradise Inn",
+      "blurb": "Grand-lodge dining beneath the peak."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 491,
+      "label": "Day 491 — Paradise",
+      "type": "active",
+      "summary": "Wildflower meadows below the summit.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "mount-rainier-paradise",
+            "title": "Paradise & the Skyline Trail",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Paradise, Mount Rainier",
+              "address": "Paradise Rd, Mount Rainier National Park, WA",
+              "lat": 46.786,
+              "lng": -121.736,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Paradise%2C%20Mount%20Rainier"
+            },
+            "blurb": "The famous subalpine meadows in bloom and the Skyline Trail up toward the glaciers.",
+            "gear": [
+              "hiking boots",
+              "layers",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 492,
+      "label": "Day 492 — Sunrise & Old Growth",
+      "type": "active",
+      "summary": "The high side and ancient trees.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "mount-rainier-sunrise",
+            "title": "Sunrise & the Grove of the Patriarchs",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Sunrise, Mount Rainier",
+              "address": "Sunrise Rd, Mount Rainier National Park, WA",
+              "lat": 46.9145,
+              "lng": -121.643,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Sunrise%2C%20Mount%20Rainier"
+            },
+            "blurb": "Drive to Sunrise, the highest point you can reach by car, then walk the old-growth Grove of the Patriarchs.",
+            "gear": [
+              "layers",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 493,
+      "label": "Day 493 — Northwest to the capital",
+      "type": "commute",
+      "summary": "Down to Olympia.",
+      "commute": {
+        "from": "Mount Rainier National Park, WA",
+        "to": "Olympia, WA",
+        "driveTimeMins": 120,
+        "scenicNote": "Northwest to Washington's capital."
+      }
+    }
+  ]
+}

@@ -1102,16 +1102,16 @@
       "id": "pacific-northwest",
       "stops": [
         {
-          "id": "crater-lake-np",
-          "order": 1,
-          "name": "Crater Lake NP",
+          "id": "ashland",
+          "order": 2,
+          "name": "Ashland",
           "state": "OR",
           "plannedDays": 2
         },
         {
-          "id": "ashland",
-          "order": 2,
-          "name": "Ashland",
+          "id": "crater-lake-np",
+          "order": 1,
+          "name": "Crater Lake NP",
           "state": "OR",
           "plannedDays": 2
         },
@@ -1123,18 +1123,11 @@
           "plannedDays": 2
         },
         {
-          "id": "oregon-coast",
-          "order": 4,
-          "name": "Oregon Coast",
+          "id": "mount-hood-columbia-gorge",
+          "order": 7,
+          "name": "Mount Hood & Columbia Gorge",
           "state": "OR",
-          "plannedDays": 3
-        },
-        {
-          "id": "salem",
-          "order": 5,
-          "name": "Salem",
-          "state": "OR",
-          "plannedDays": 1
+          "plannedDays": 2
         },
         {
           "id": "portland-oregon",
@@ -1144,11 +1137,18 @@
           "plannedDays": 4
         },
         {
-          "id": "mount-hood-columbia-gorge",
-          "order": 7,
-          "name": "Mount Hood & Columbia Gorge",
+          "id": "salem",
+          "order": 5,
+          "name": "Salem",
           "state": "OR",
-          "plannedDays": 2
+          "plannedDays": 1
+        },
+        {
+          "id": "oregon-coast",
+          "order": 4,
+          "name": "Oregon Coast",
+          "state": "OR",
+          "plannedDays": 3
         },
         {
           "id": "astoria",
@@ -1156,6 +1156,20 @@
           "name": "Astoria",
           "state": "OR",
           "plannedDays": 1
+        },
+        {
+          "id": "mount-st-helens",
+          "order": 11,
+          "name": "Mount St. Helens",
+          "state": "WA",
+          "plannedDays": 2
+        },
+        {
+          "id": "mount-rainier-np",
+          "order": 14,
+          "name": "Mount Rainier NP",
+          "state": "WA",
+          "plannedDays": 3
         },
         {
           "id": "olympia",
@@ -1172,13 +1186,6 @@
           "plannedDays": 4
         },
         {
-          "id": "mount-st-helens",
-          "order": 11,
-          "name": "Mount St. Helens",
-          "state": "WA",
-          "plannedDays": 2
-        },
-        {
           "id": "seattle",
           "order": 12,
           "name": "Seattle",
@@ -1193,11 +1200,11 @@
           "plannedDays": 2
         },
         {
-          "id": "mount-rainier-np",
-          "order": 14,
-          "name": "Mount Rainier NP",
+          "id": "north-cascades-np-vancouver",
+          "order": 17,
+          "name": "North Cascades NP & Vancouver, BC",
           "state": "WA",
-          "plannedDays": 3
+          "plannedDays": 4
         },
         {
           "id": "leavenworth",
@@ -1212,13 +1219,6 @@
           "name": "Walla Walla",
           "state": "WA",
           "plannedDays": 2
-        },
-        {
-          "id": "north-cascades-np-vancouver",
-          "order": 17,
-          "name": "North Cascades NP & Vancouver, BC",
-          "state": "WA",
-          "plannedDays": 4
         }
       ]
     },

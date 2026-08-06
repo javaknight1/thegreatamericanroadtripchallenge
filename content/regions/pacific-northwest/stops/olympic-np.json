@@ -1,0 +1,127 @@
+{
+  "id": "olympic-np",
+  "name": "Olympic National Park",
+  "state": "WA",
+  "country": "US",
+  "order": 12,
+  "location": {
+    "lat": 47.8021,
+    "lng": -123.6044
+  },
+  "summary": "Three parks in one — glaciated peaks, a moss-draped rainforest, and a wild Pacific coast of sea stacks and tide pools.",
+  "lodging": [
+    {
+      "name": "Lake Crescent Lodge or a Port Angeles hotel",
+      "blurb": "Central to the peninsula's three worlds.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Lake%20Crescent%20Lodge%20Olympic"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Dungeness crab",
+      "blurb": "Named for the spit right here on the peninsula."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 496,
+      "label": "Day 496 — Hurricane Ridge",
+      "type": "active",
+      "summary": "Up into the mountains.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "olympic-hurricane-ridge",
+            "title": "Hurricane Ridge",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Hurricane Ridge",
+              "address": "Hurricane Ridge Rd, Port Angeles, WA",
+              "lat": 47.969,
+              "lng": -123.498,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Hurricane%20Ridge"
+            },
+            "blurb": "A mile-high drive to meadows and ridgeline views across the glaciated Olympic peaks.",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 497,
+      "label": "Day 497 — The Rainforest",
+      "type": "active",
+      "summary": "Into the Hoh.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "olympic-hoh",
+            "title": "Hoh Rain Forest",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Hoh Rain Forest Visitor Center",
+              "address": "18113 Upper Hoh Rd, Forks, WA",
+              "lat": 47.8607,
+              "lng": -123.935,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Hoh%20Rain%20Forest%20Visitor%20Center"
+            },
+            "blurb": "The Hall of Mosses — a dripping, emerald temperate rainforest that gets 12+ feet of rain a year.",
+            "gear": [
+              "rain gear"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 498,
+      "label": "Day 498 — The Wild Coast",
+      "type": "active",
+      "summary": "Sea stacks and tide pools.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "olympic-coast",
+            "title": "Rialto & Ruby Beaches",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Ruby Beach",
+              "address": "Ruby Beach, Forks, WA",
+              "lat": 47.71,
+              "lng": -124.415,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Ruby%20Beach"
+            },
+            "blurb": "Driftwood-strewn beaches of sea stacks and tide pools, with a stop at deep-blue Lake Crescent.",
+            "gear": [
+              "layers",
+              "waterproof shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 499,
+      "label": "Day 499 — East to Seattle",
+      "type": "commute",
+      "summary": "Across the Sound to the city.",
+      "commute": {
+        "from": "Olympic National Park, WA",
+        "to": "Seattle, WA",
+        "driveTimeMins": 180,
+        "scenicNote": "East (with a ferry) to Seattle."
+      }
+    }
+  ]
+}
