@@ -1,0 +1,87 @@
+{
+  "id": "sun-valley",
+  "name": "Sun Valley",
+  "state": "ID",
+  "country": "US",
+  "order": 4,
+  "location": {
+    "lat": 43.6971,
+    "lng": -114.3517
+  },
+  "summary": "America's original destination ski resort in summer bloom — mountain trails, a charming town, and Hemingway's final home.",
+  "lodging": [
+    {
+      "name": "A Ketchum or Sun Valley lodge",
+      "blurb": "At the base of Bald Mountain.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Ketchum%20Sun%20Valley%20lodge"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Idaho trout & a mountain dinner",
+      "blurb": "Ketchum punches above its weight for food."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 524,
+      "label": "Day 524 — Bald Mountain & Ketchum",
+      "type": "active",
+      "summary": "Trails and Hemingway.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "sun-valley-baldy",
+            "title": "Bald Mountain & the trails",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Bald Mountain",
+              "address": "Sun Valley, ID",
+              "lat": 43.671,
+              "lng": -114.367,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Bald%20Mountain"
+            },
+            "blurb": "Ride the lift or hike 'Baldy,' then the bike paths and river trails around town (world-class skiing in winter).",
+            "gear": [
+              "hiking shoes",
+              "water"
+            ]
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "sun-valley-hemingway",
+            "title": "Ketchum & Hemingway's grave",
+            "categoryId": "museums-history",
+            "tier": "low",
+            "durationMins": 90,
+            "location": {
+              "name": "Ketchum Cemetery",
+              "address": "1026 N Main St, Ketchum, ID",
+              "lat": 43.687,
+              "lng": -114.363,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Ketchum%20Cemetery"
+            },
+            "blurb": "The mountain town where Hemingway lived, died, and is buried, plus his memorial up Trail Creek."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 525,
+      "label": "Day 525 — North to Montana",
+      "type": "commute",
+      "summary": "Into Big Sky Country.",
+      "commute": {
+        "from": "Sun Valley, ID",
+        "to": "Missoula, MT",
+        "driveTimeMins": 240,
+        "scenicNote": "North over the mountains into Montana."
+      }
+    }
+  ]
+}

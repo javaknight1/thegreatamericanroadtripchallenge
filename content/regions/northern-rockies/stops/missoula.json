@@ -1,0 +1,83 @@
+{
+  "id": "missoula",
+  "name": "Missoula",
+  "state": "MT",
+  "country": "US",
+  "order": 5,
+  "location": {
+    "lat": 46.8721,
+    "lng": -113.994
+  },
+  "summary": "A laid-back university and river town in western Montana — a surf wave downtown, and the home base of the nation's smokejumpers.",
+  "lodging": [
+    {
+      "name": "A downtown Missoula hotel",
+      "blurb": "By the Clark Fork River.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Missoula%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Montana bison burger & local ale",
+      "blurb": "Missoula has a great brewery scene."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 526,
+      "label": "Day 526 — River & Smokejumpers",
+      "type": "active",
+      "summary": "The Clark Fork and firefighting history.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "missoula-riverfront",
+            "title": "Downtown & the Clark Fork",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Caras Park",
+              "address": "123 Carousel Dr, Missoula, MT",
+              "lat": 46.87,
+              "lng": -113.997,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Caras%20Park"
+            },
+            "blurb": "The riverfront trails, Brennan's Wave surf spot, and the walkable downtown."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "missoula-smokejumpers",
+            "title": "Smokejumper Visitor Center",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Smokejumper Visitor Center",
+              "address": "5765 W Broadway St, Missoula, MT",
+              "lat": 46.92,
+              "lng": -114.09,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Smokejumper%20Visitor%20Center"
+            },
+            "blurb": "The base and story of the wildland firefighters who parachute into the backcountry."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 527,
+      "label": "Day 527 — North to Glacier",
+      "type": "commute",
+      "summary": "To the Crown of the Continent.",
+      "commute": {
+        "from": "Missoula, MT",
+        "to": "Glacier National Park, MT",
+        "driveTimeMins": 150,
+        "scenicNote": "North to Glacier National Park."
+      }
+    }
+  ]
+}

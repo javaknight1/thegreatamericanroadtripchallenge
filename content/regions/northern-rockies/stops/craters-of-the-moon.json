@@ -1,0 +1,70 @@
+{
+  "id": "craters-of-the-moon",
+  "name": "Craters of the Moon",
+  "state": "ID",
+  "country": "US",
+  "order": 3,
+  "location": {
+    "lat": 43.4166,
+    "lng": -113.517
+  },
+  "summary": "A vast, otherworldly sea of black lava, cinder cones, and caves — so alien that Apollo astronauts trained here.",
+  "lodging": [
+    {
+      "name": "An Arco motel (or campground)",
+      "blurb": "Tiny gateway town by the monument.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Arco%20Idaho%20motel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A small-town diner meal",
+      "blurb": "Arco was the first town lit by atomic power."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 522,
+      "label": "Day 522 — The Lava Fields",
+      "type": "active",
+      "summary": "Walk on the moon.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "craters-lava",
+            "title": "Craters of the Moon lava fields",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Craters of the Moon National Monument",
+              "address": "Arco, ID",
+              "lat": 43.4166,
+              "lng": -113.517,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Craters%20of%20the%20Moon%20National%20Monument"
+            },
+            "blurb": "Drive and hike the black lava flows, cinder cones, and lava-tube caves of this surreal volcanic landscape.",
+            "gear": [
+              "headlamp for caves",
+              "sturdy shoes",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 523,
+      "label": "Day 523 — North to Sun Valley",
+      "type": "commute",
+      "summary": "To the resort town.",
+      "commute": {
+        "from": "Craters of the Moon, ID",
+        "to": "Sun Valley, ID",
+        "driveTimeMins": 90,
+        "scenicNote": "North to Sun Valley and Ketchum."
+      }
+    }
+  ]
+}

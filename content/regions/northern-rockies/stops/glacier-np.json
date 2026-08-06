@@ -1,0 +1,167 @@
+{
+  "id": "glacier-np",
+  "name": "Glacier National Park",
+  "state": "MT",
+  "country": "US",
+  "order": 6,
+  "location": {
+    "lat": 48.7596,
+    "lng": -113.787
+  },
+  "summary": "The Crown of the Continent — knife-edge peaks, glacial lakes, and the incomparable Going-to-the-Sun Road, all still home to grizzlies and mountain goats. A full stay.",
+  "lodging": [
+    {
+      "name": "Lake McDonald Lodge or a West Glacier base",
+      "blurb": "A historic lodge on the lake — book far ahead.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Lake%20McDonald%20Lodge%20Glacier"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Huckleberry pie",
+      "blurb": "The park's signature treat."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 528,
+      "label": "Day 528 — Going-to-the-Sun Road",
+      "type": "active",
+      "summary": "The great alpine drive.",
+      "blocks": [
+        {
+          "start": "8:00 AM",
+          "item": {
+            "id": "glacier-gtsr",
+            "title": "Going-to-the-Sun Road & Logan Pass",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 360,
+            "location": {
+              "name": "Going-to-the-Sun Road",
+              "address": "Going-to-the-Sun Rd, West Glacier, MT",
+              "lat": 48.697,
+              "lng": -113.718,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Going-to-the-Sun%20Road"
+            },
+            "blurb": "One of the most spectacular drives on earth, over Logan Pass at the Continental Divide (vehicle reservation may be required).",
+            "gear": [
+              "layers",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 529,
+      "label": "Day 529 — Many Glacier",
+      "type": "active",
+      "summary": "The heart of the park.",
+      "blocks": [
+        {
+          "start": "8:00 AM",
+          "item": {
+            "id": "glacier-many-glacier",
+            "title": "Many Glacier & Grinnell Glacier",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 360,
+            "location": {
+              "name": "Many Glacier",
+              "address": "Many Glacier Rd, Babb, MT",
+              "lat": 48.797,
+              "lng": -113.658,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Many%20Glacier"
+            },
+            "blurb": "The park's most beautiful basin — hike toward Grinnell Glacier past turquoise lakes, watching for bears and goats.",
+            "gear": [
+              "hiking boots",
+              "bear spray",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 530,
+      "label": "Day 530 — Lakes & Boats",
+      "type": "active",
+      "summary": "Two Medicine and Lake McDonald.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "glacier-lakes",
+            "title": "Lake McDonald & Two Medicine",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Lake McDonald",
+              "address": "Lake McDonald, MT",
+              "lat": 48.611,
+              "lng": -113.876,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Lake%20McDonald"
+            },
+            "blurb": "A historic wooden boat cruise and the quieter, stunning Two Medicine valley.",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 531,
+      "label": "Day 531 — Free Day",
+      "type": "free",
+      "summary": "A big hike, a red-bus tour, or rest. Options below.",
+      "freeMenu": [
+        {
+          "id": "glacier-highline",
+          "title": "The Highline Trail",
+          "categoryId": "national-parks",
+          "tier": "low",
+          "durationMins": 360,
+          "location": {
+            "name": "Highline Trail",
+            "address": "Logan Pass, Glacier National Park, MT",
+            "lat": 48.696,
+            "lng": -113.718,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Highline%20Trail"
+          },
+          "blurb": "The classic ledge trail along the Garden Wall from Logan Pass."
+        },
+        {
+          "id": "glacier-red-bus",
+          "title": "A red-bus tour",
+          "categoryId": "guided-tours",
+          "tier": "low",
+          "durationMins": 240,
+          "location": {
+            "name": "Glacier National Park",
+            "address": "West Glacier, MT",
+            "lat": 48.7596,
+            "lng": -113.787,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Glacier%20National%20Park"
+          },
+          "blurb": "The vintage 1930s convertible touring buses over the pass."
+        }
+      ]
+    },
+    {
+      "dayNumber": 532,
+      "label": "Day 532 — South to Helena",
+      "type": "commute",
+      "summary": "To the state capital.",
+      "commute": {
+        "from": "Glacier National Park, MT",
+        "to": "Helena, MT",
+        "driveTimeMins": 180,
+        "scenicNote": "South to Helena."
+      }
+    }
+  ]
+}

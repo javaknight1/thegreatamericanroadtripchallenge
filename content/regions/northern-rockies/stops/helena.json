@@ -1,0 +1,65 @@
+{
+  "id": "helena",
+  "name": "Helena",
+  "state": "MT",
+  "country": "US",
+  "order": 7,
+  "location": {
+    "lat": 46.5927,
+    "lng": -112.0361
+  },
+  "summary": "Montana's capital, born of a gold strike — a domed statehouse, a walkable gold-rush main street, and a soaring cathedral.",
+  "lodging": [
+    {
+      "name": "A downtown Helena hotel",
+      "blurb": "Near Last Chance Gulch.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Helena%20Montana%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Montana steak",
+      "blurb": "Beef country, done right."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 533,
+      "label": "Day 533 — Capital & Gold Gulch",
+      "type": "active",
+      "summary": "The statehouse and the gulch.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "helena-capitol",
+            "title": "Montana State Capitol & Last Chance Gulch",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Montana State Capitol",
+              "address": "1301 E 6th Ave, Helena, MT",
+              "lat": 46.585,
+              "lng": -112.018,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Montana%20State%20Capitol"
+            },
+            "blurb": "The copper-domed capitol, the gold-rush 'Last Chance Gulch' main street, and the striking St. Helena Cathedral."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 534,
+      "label": "Day 534 — South to Bozeman",
+      "type": "commute",
+      "summary": "To the dinosaur town.",
+      "commute": {
+        "from": "Helena, MT",
+        "to": "Bozeman, MT",
+        "driveTimeMins": 90,
+        "scenicNote": "South to Bozeman."
+      }
+    }
+  ]
+}

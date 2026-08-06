@@ -7,8 +7,9 @@ is the list to work from once the loop is fully written.
 Rob's standing instruction: add suggestions here as they come up, without asking
 first. Items are only removed when they're resolved or explicitly dropped.
 
-Last updated at **168 stops · 516 days · 621 items · 32 states** — nine legs of
-fourteen complete, days 1–516 contiguous, heading into the Northern Rockies.
+Last updated at **176 stops · 536 days · 638 items · 34 states** — nine legs
+complete plus the Northern Rockies in progress (8 of its 14 stops), days 1–536
+contiguous.
 
 ---
 
@@ -108,6 +109,7 @@ Twenty-four days involve 3+ hours behind the wheel. The outliers:
 
 | day | hours | leg |
 |---|---|---|
+| 518 | **7.0h** Coeur d'Alene → Boise | Northern Rockies |
 | 346 | **5.5h** Fredericksburg → Big Bend | Texas |
 | 417 | **5.5h** Tucson → San Diego | Southwest → California |
 | 408 | **5.0h** Las Vegas → Phoenix | Southwest |
@@ -115,10 +117,17 @@ Twenty-four days involve 3+ hours behind the wheel. The outliers:
 | 385 | **4.5h** Jerome → Zion | Southwest |
 | 237 | **4.5h** Key West → Naples | Florida |
 
+**Day 518 is now the longest drive in the trip by a wide margin** — seven hours
+down the length of Idaho on US-95, and unlike day 346 it has no stop along the
+way authored. Its own scenicNote calls it "one of the trip's big transfer days,"
+which is honest, but seven hours is a lot for an itinerary that sells itself as
+unrushed. McCall or Riggins would break it near the middle; either would also
+add Idaho content, which the leg is thin on outside Boise.
+
 Day 346 is authored with Marfa as a stop along the way and Marfa returns as a
-real stop on day 349, so nothing is lost — but 5.5 hours is the longest single
-hop in the trip. Worth deciding whether the Trans-Pecos crossing deserves an
-overnight (Fort Stockton or Alpine) rather than one long push.
+real stop on day 349, so nothing is lost — but it's worth deciding whether the
+Trans-Pecos crossing deserves an overnight (Fort Stockton or Alpine) rather than
+one long push.
 
 The Southwest adds three more. **Day 408, Las Vegas → Phoenix at 5 hours, is the
 one I'd question** — the route goes Utah → Great Basin → Vegas → *back southeast*
@@ -146,8 +155,11 @@ everything in this file, this is the one I'd actually change.
   first item to carry it, so all 18 categories are now in use. Worth noting the
   two that got away, in case they're worth re-tagging for balance: Park City
   (2002 Olympics) is `cities`, and Lake Tahoe's "Kayak or ski Tahoe" free-day
-  option is `outdoor-water`. One category item across 488 days is still thin for
-  a trip claiming full coverage — the Rockies legs are where it should fill in.
+  option is `outdoor-water`. **Sun Valley has now gone by too** (day 524) —
+  "America's original destination ski resort," with its Bald Mountain item tagged
+  `outdoor-water` and skiing mentioned only in the blurb. That's three of the
+  country's best-known ski destinations passed over. One `skiing` item across 536
+  days is very thin; Jackson Hole, Aspen and Vail are the remaining chances.
 - **`festivals`** — used in the Deep South (Mardi Gras, Mobile Carnival) but
   absent from Mid-Atlantic, Texas and the Southwest. Balloon Fiesta is mentioned
   in an Albuquerque blurb rather than being its own item.
@@ -238,14 +250,14 @@ a selling point, not a footnote.
 
 ## 9. Where the trip stands
 
-Written: legs 1–9 complete — days 1–516, at the Idaho line.
-Remaining: Northern Rockies, Colorado Rockies, Great Plains, Upper Midwest &
-Great Lakes, Appalachia Return — 82 of 250 stops.
+Written: legs 1–9 complete, plus the Northern Rockies through Bozeman — days
+1–536. Remaining: the rest of the Northern Rockies, Colorado Rockies, Great
+Plains, Upper Midwest & Great Lakes, Appalachia Return — 74 of 250 stops.
 
-Capitals: **32 of 48 capital cities written**, 48/48 present in the plan (Olympia
-lands on day 494). Still to come: Denver, Boise, Springfield, Indianapolis, Des
-Moines, Topeka, Lansing, Saint Paul, Jefferson City, Helena, Lincoln, Bismarck,
-Columbus, Pierre, Madison, Cheyenne — all in the five remaining legs.
+Capitals: **34 of 48 capital cities written** — Boise (day 519) and Helena (day
+533) join. Still to come: Denver, Springfield, Indianapolis, Des Moines, Topeka,
+Lansing, Saint Paul, Jefferson City, Lincoln, Bismarck, Columbus, Pierre,
+Madison, Cheyenne.
 
 **The capitals check can produce false positives.** `scripts/dev/audit.ts`
 matches a capital by testing whether any stop name *contains* the city name, so

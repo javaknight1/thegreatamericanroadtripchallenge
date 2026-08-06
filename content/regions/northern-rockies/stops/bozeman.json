@@ -1,0 +1,83 @@
+{
+  "id": "bozeman",
+  "name": "Bozeman",
+  "state": "MT",
+  "country": "US",
+  "order": 8,
+  "location": {
+    "lat": 45.677,
+    "lng": -111.0429
+  },
+  "summary": "A booming college town in the mountains with one of the great dinosaur museums in the world and hot springs all around — the northern gateway to Yellowstone.",
+  "lodging": [
+    {
+      "name": "A downtown Bozeman hotel",
+      "blurb": "Walkable Main Street.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Bozeman%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Farm-to-table & craft beer",
+      "blurb": "Bozeman's food scene has taken off."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 535,
+      "label": "Day 535 — Dinosaurs & Downtown",
+      "type": "active",
+      "summary": "The Museum of the Rockies.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "bozeman-museum-rockies",
+            "title": "Museum of the Rockies",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Museum of the Rockies",
+              "address": "600 W Kagy Blvd, Bozeman, MT",
+              "lat": 45.66,
+              "lng": -111.049,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Museum%20of%20the%20Rockies"
+            },
+            "blurb": "One of the world's great dinosaur collections — the T. rex and Triceratops of Montana's badlands."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "bozeman-downtown",
+            "title": "Main Street & a hot spring",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 180,
+            "location": {
+              "name": "Downtown Bozeman",
+              "address": "Main St, Bozeman, MT",
+              "lat": 45.6796,
+              "lng": -111.035,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Downtown%20Bozeman"
+            },
+            "blurb": "Historic Main Street, then a soak at a nearby hot spring."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 536,
+      "label": "Day 536 — South to Yellowstone",
+      "type": "commute",
+      "summary": "Into the world's first national park.",
+      "commute": {
+        "from": "Bozeman, MT",
+        "to": "Yellowstone National Park, WY",
+        "driveTimeMins": 90,
+        "scenicNote": "South through Gardiner into Yellowstone."
+      }
+    }
+  ]
+}

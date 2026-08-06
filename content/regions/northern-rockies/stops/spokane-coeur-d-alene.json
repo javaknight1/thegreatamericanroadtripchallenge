@@ -1,0 +1,65 @@
+{
+  "id": "spokane-coeur-d-alene",
+  "name": "Spokane & Coeur d'Alene",
+  "state": "ID",
+  "country": "US",
+  "order": 1,
+  "location": {
+    "lat": 47.6777,
+    "lng": -116.7805
+  },
+  "summary": "A river-city and a jewel of a lake at the gateway to the northern Rockies — falls in the middle of downtown, and a resort town on the water.",
+  "lodging": [
+    {
+      "name": "A Coeur d'Alene lakefront resort",
+      "blurb": "On the water, with a boardwalk.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Coeur%20d%27Alene%20resort%20lakefront"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Huckleberry everything",
+      "blurb": "The wild berry of the Inland Northwest."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 517,
+      "label": "Day 517 — Lake & Falls",
+      "type": "active",
+      "summary": "The lake and the river city.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "spokane-lake",
+            "title": "Coeur d'Alene Lake & Spokane Falls",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Coeur d'Alene Lake",
+              "address": "Coeur d'Alene, ID",
+              "lat": 47.6777,
+              "lng": -116.7805,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Coeur%20d%27Alene%20Lake"
+            },
+            "blurb": "The floating boardwalk and beaches of Lake Coeur d'Alene, plus Riverfront Park and the falls in downtown Spokane just west."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 518,
+      "label": "Day 518 — Long haul to Boise",
+      "type": "commute",
+      "summary": "The length of Idaho.",
+      "commute": {
+        "from": "Coeur d'Alene, ID",
+        "to": "Boise, ID",
+        "driveTimeMins": 420,
+        "scenicNote": "A long, scenic drive south down US-95 through the mountains — one of the trip's big transfer days."
+      }
+    }
+  ]
+}

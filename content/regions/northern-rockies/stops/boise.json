@@ -1,0 +1,112 @@
+{
+  "id": "boise",
+  "name": "Boise",
+  "state": "ID",
+  "country": "US",
+  "order": 2,
+  "location": {
+    "lat": 43.615,
+    "lng": -116.2023
+  },
+  "summary": "Idaho's surprisingly hip capital — a geothermal statehouse, a green riverside path through the middle of town, and the largest Basque community in the country.",
+  "lodging": [
+    {
+      "name": "A downtown Boise hotel",
+      "blurb": "Near the Greenbelt and the Basque Block.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Boise%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Basque tapas & chorizo",
+      "blurb": "On the Basque Block downtown."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 519,
+      "label": "Day 519 — Capital & Greenbelt",
+      "type": "active",
+      "summary": "The statehouse and the river.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "boise-capitol",
+            "title": "Idaho State Capitol & the Basque Block",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Idaho State Capitol",
+              "address": "700 W Jefferson St, Boise, ID",
+              "lat": 43.6178,
+              "lng": -116.1996,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Idaho%20State%20Capitol"
+            },
+            "blurb": "The only geothermally heated statehouse in the U.S., plus the lively Basque Block nearby."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "boise-greenbelt",
+            "title": "The Boise River Greenbelt",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Boise River Greenbelt",
+              "address": "Boise River Greenbelt, Boise, ID",
+              "lat": 43.611,
+              "lng": -116.21,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Boise%20River%20Greenbelt"
+            },
+            "blurb": "Walk or bike the 25-mile tree-lined path along the river through the heart of the city.",
+            "gear": [
+              "bike optional"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 520,
+      "label": "Day 520 — Foothills & History",
+      "type": "active",
+      "summary": "A prison and the hills.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "boise-old-pen",
+            "title": "Old Idaho Penitentiary & the foothills",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Old Idaho Penitentiary",
+              "address": "2445 Old Penitentiary Rd, Boise, ID",
+              "lat": 43.603,
+              "lng": -116.156,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20Idaho%20Penitentiary"
+            },
+            "blurb": "Tour the atmospheric 1870s prison, then a drive or hike into the Boise foothills."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 521,
+      "label": "Day 521 — East to the lava",
+      "type": "commute",
+      "summary": "To a lunar landscape.",
+      "commute": {
+        "from": "Boise, ID",
+        "to": "Craters of the Moon National Monument, ID",
+        "driveTimeMins": 150,
+        "scenicNote": "East across the Snake River Plain."
+      }
+    }
+  ]
+}
