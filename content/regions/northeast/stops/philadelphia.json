@@ -1,0 +1,156 @@
+{
+  "id": "philadelphia",
+  "name": "Philadelphia",
+  "state": "PA",
+  "country": "US",
+  "order": 7,
+  "location": {
+    "lat": 39.9526,
+    "lng": -75.1652
+  },
+  "summary": "The birthplace of the nation — where independence was declared and signed — plus a great art museum and the country's best food market.",
+  "lodging": [
+    {
+      "name": "A hotel in Old City or Rittenhouse Square",
+      "blurb": "Old City puts you steps from Independence Hall; Rittenhouse is the walkable dining hub.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=hotels%20Old%20City%20Philadelphia"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A cheesesteak",
+      "blurb": "Pat's and Geno's square off across one intersection; locals often send you to Dalessandro's instead."
+    },
+    {
+      "name": "Reading Terminal Market",
+      "blurb": "A historic indoor market — roast pork sandwiches, Amish pretzels, and Bassetts ice cream."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 23,
+      "label": "Day 23 — Independence & the Rocky Steps",
+      "type": "active",
+      "summary": "The founding sites in the morning, art and a famous staircase after.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "end": "12:00 PM",
+          "item": {
+            "id": "philly-independence-hall",
+            "title": "Independence Hall & the Liberty Bell",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Independence Hall",
+              "address": "520 Chestnut St, Philadelphia, PA",
+              "lat": 39.9489,
+              "lng": -75.15,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Independence%20Hall"
+            },
+            "blurb": "The room where the Declaration and Constitution were debated and signed, and the cracked bell across the street. Free timed tickets in peak season.",
+            "gear": [
+              "comfortable walking shoes"
+            ]
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "end": "2:00 PM",
+          "item": {
+            "id": "philly-reading-terminal",
+            "title": "Lunch at Reading Terminal Market",
+            "categoryId": "food-drink",
+            "tier": "mid",
+            "durationMins": 60,
+            "location": {
+              "name": "Reading Terminal Market",
+              "address": "1136 Arch St, Philadelphia, PA",
+              "lat": 39.9533,
+              "lng": -75.159,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Reading%20Terminal%20Market"
+            },
+            "blurb": "Graze the stalls — roast pork with broccoli rabe is the local move."
+          }
+        },
+        {
+          "start": "3:00 PM",
+          "end": "5:30 PM",
+          "item": {
+            "id": "philly-art-museum-rocky",
+            "title": "Philadelphia Museum of Art & the Rocky Steps",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Philadelphia Museum of Art",
+              "address": "2600 Benjamin Franklin Pkwy, Philadelphia, PA",
+              "lat": 39.9656,
+              "lng": -75.181,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Philadelphia%20Museum%20of%20Art"
+            },
+            "blurb": "Run the Rocky Steps, high-five the statue, then see a genuinely great collection inside."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 24,
+      "label": "Day 24 — Free Day",
+      "type": "free",
+      "summary": "Wander Old City and the Italian Market, or just rest before the capital.",
+      "freeMenu": [
+        {
+          "id": "philly-magic-gardens",
+          "title": "Philadelphia's Magic Gardens",
+          "categoryId": "quirky",
+          "tier": "low",
+          "durationMins": 60,
+          "location": {
+            "name": "Philadelphia's Magic Gardens",
+            "address": "1020 South St, Philadelphia, PA",
+            "lat": 39.9417,
+            "lng": -75.1595,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Philadelphia%27s%20Magic%20Gardens"
+          },
+          "blurb": "A whole block of mosaic folk art — gloriously weird."
+        },
+        {
+          "id": "philly-italian-market",
+          "title": "South 9th Street Italian Market",
+          "categoryId": "shopping",
+          "tier": "low",
+          "durationMins": 90,
+          "location": {
+            "name": "9th Street Italian Market",
+            "address": "919 S 9th St, Philadelphia, PA",
+            "lat": 39.9364,
+            "lng": -75.1583,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=9th%20Street%20Italian%20Market"
+          },
+          "blurb": "The oldest continuously operating outdoor market in the country."
+        }
+      ]
+    },
+    {
+      "dayNumber": 25,
+      "label": "Day 25 — Drive to Washington, DC",
+      "type": "commute",
+      "summary": "The final leg of the Northeast, into the capital.",
+      "commute": {
+        "from": "Philadelphia, PA",
+        "to": "Washington, DC",
+        "driveTimeMins": 160,
+        "scenicNote": "Optional history stop in Baltimore — Fort McHenry, where the national anthem was written.",
+        "stopsAlongWay": [
+          {
+            "title": "Fort McHenry, Baltimore",
+            "blurb": "The star fort whose defense inspired 'The Star-Spangled Banner.'",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Fort%20McHenry%20Baltimore"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "stowe-burlington",
+  "name": "Stowe & Burlington",
+  "state": "VT",
+  "country": "US",
+  "order": 5,
+  "location": {
+    "lat": 44.4654,
+    "lng": -72.6874
+  },
+  "summary": "Postcard Vermont: a steepled village under Mount Mansfield, ice cream from the source, and a lakefront college town.",
+  "lodging": [
+    {
+      "name": "Trapp Family Lodge, Stowe",
+      "blurb": "Austrian-style mountain lodge founded by the von Trapps of Sound of Music fame — meadows, trails, and a brewery.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Trapp%20Family%20Lodge%20Stowe"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Ben & Jerry's factory scoop",
+      "blurb": "Tour the Waterbury factory and pay respects at the Flavor Graveyard of discontinued pints."
+    },
+    {
+      "name": "Vermont cheddar & a maple creemee",
+      "blurb": "Sharp local cheddar and a maple soft-serve are the state's signatures."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 15,
+      "label": "Day 15 — Stowe Village & Ben & Jerry's",
+      "type": "active",
+      "summary": "Mountain village, the ridgeline of Mansfield, and ice cream.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "11:30 AM",
+          "item": {
+            "id": "vt-ben-jerrys-factory",
+            "title": "Ben & Jerry's Factory Tour",
+            "categoryId": "food-drink",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Ben & Jerry's Factory",
+              "address": "1281 Waterbury-Stowe Rd, Waterbury, VT",
+              "lat": 44.3937,
+              "lng": -72.728,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Ben%20%26%20Jerry%27s%20Factory"
+            },
+            "blurb": "A short factory tour ending in samples, plus the tongue-in-cheek Flavor Graveyard out back."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "end": "4:00 PM",
+          "item": {
+            "id": "vt-mount-mansfield",
+            "title": "Mount Mansfield Auto Toll Road",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 180,
+            "location": {
+              "name": "Mount Mansfield Toll Road",
+              "address": "5781 Mountain Rd, Stowe, VT",
+              "lat": 44.5297,
+              "lng": -72.8151,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mount%20Mansfield%20Toll%20Road"
+            },
+            "blurb": "Drive or hike to the ridgeline of Vermont's highest peak for foliage views across the Greens."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 16,
+      "label": "Day 16 — Burlington & Lake Champlain",
+      "type": "active",
+      "summary": "Lakefront college town — pedestrian marketplace and a sunset over the Adirondacks.",
+      "blocks": [
+        {
+          "start": "11:00 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "vt-church-street",
+            "title": "Church Street Marketplace",
+            "categoryId": "shopping",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Church Street Marketplace",
+              "address": "2 Church St, Burlington, VT",
+              "lat": 44.479,
+              "lng": -73.2124,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Church%20Street%20Marketplace"
+            },
+            "blurb": "A brick pedestrian mall of local shops, buskers, and cafés in the heart of Burlington."
+          }
+        },
+        {
+          "start": "5:30 PM",
+          "end": "7:00 PM",
+          "item": {
+            "id": "vt-champlain-sunset",
+            "title": "Lake Champlain waterfront sunset",
+            "categoryId": "outdoor-water",
+            "tier": "low",
+            "durationMins": 90,
+            "location": {
+              "name": "Burlington Waterfront Park",
+              "address": "Waterfront Park, Burlington, VT",
+              "lat": 44.483,
+              "lng": -73.223,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Burlington%20Waterfront%20Park"
+            },
+            "blurb": "The sun dropping behind the Adirondacks across the lake."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 17,
+      "label": "Day 17 — Drive south to New York City",
+      "type": "commute",
+      "summary": "The long, beautiful descent out of New England into the biggest city on the trip.",
+      "commute": {
+        "from": "Burlington, VT",
+        "to": "New York City, NY",
+        "driveTimeMins": 330,
+        "scenicNote": "The longest Northeast leg — break it in the Hudson Valley to keep it humane.",
+        "stopsAlongWay": [
+          {
+            "title": "Hudson Valley farm stand",
+            "blurb": "Apples, cider doughnuts, and foliage on the way down.",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Hudson%20Valley%20apple%20orchard"
+          }
+        ]
+      }
+    }
+  ]
+}

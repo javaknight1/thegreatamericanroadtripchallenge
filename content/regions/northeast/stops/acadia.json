@@ -1,0 +1,157 @@
+{
+  "id": "acadia",
+  "name": "Acadia National Park",
+  "state": "ME",
+  "country": "US",
+  "order": 3,
+  "location": {
+    "lat": 44.3386,
+    "lng": -68.2733
+  },
+  "summary": "Where the mountains meet the Atlantic — granite peaks, carriage roads, and the first sunrise in the country come fall.",
+  "lodging": [
+    {
+      "name": "Bar Harbor inn or Blackwoods Campground",
+      "blurb": "Stay in walkable Bar Harbor for dinners, or camp at Blackwoods for a head start on the Cadillac sunrise.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Bar%20Harbor%20Maine"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Popovers at Jordan Pond House",
+      "blurb": "Warm popovers with jam on the lawn, overlooking the pond and the Bubbles — an Acadia ritual."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 8,
+      "label": "Day 8 — Cadillac Sunrise & Park Loop",
+      "type": "active",
+      "summary": "Beat the sun to the summit, then drive the park's greatest hits.",
+      "blocks": [
+        {
+          "start": "6:00 AM",
+          "end": "7:30 AM",
+          "item": {
+            "id": "acadia-cadillac-sunrise",
+            "title": "Sunrise on Cadillac Mountain",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "Cadillac Mountain Summit",
+              "address": "Cadillac Summit Rd, Bar Harbor, ME",
+              "lat": 44.3529,
+              "lng": -68.2247,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Cadillac%20Mountain%20Summit"
+            },
+            "blurb": "From October to March, the first place in the U.S. to catch the sunrise. A timed vehicle reservation is required in season — book ahead.",
+            "gear": [
+              "warm layers",
+              "headlamp"
+            ]
+          }
+        },
+        {
+          "start": "9:30 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "acadia-park-loop-road",
+            "title": "Park Loop Road & Thunder Hole",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Park Loop Road",
+              "address": "Park Loop Rd, Bar Harbor, ME",
+              "lat": 44.3268,
+              "lng": -68.187,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Park%20Loop%20Road"
+            },
+            "blurb": "The 27-mile scenic loop past Sand Beach, the crash of Thunder Hole, and the cliffs at Otter Point."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 9,
+      "label": "Day 9 — Carriage Roads & Jordan Pond",
+      "type": "active",
+      "summary": "Car-free roads, stone bridges, and popovers at the end.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:00 PM",
+          "item": {
+            "id": "acadia-carriage-roads",
+            "title": "Bike the carriage roads to Jordan Pond",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 180,
+            "location": {
+              "name": "Jordan Pond House",
+              "address": "2928 Park Loop Rd, Seal Harbor, ME",
+              "lat": 44.3208,
+              "lng": -68.2531,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Jordan%20Pond%20House"
+            },
+            "blurb": "45 miles of crushed-stone, car-free roads and hand-built stone bridges, ending with tea and popovers at Jordan Pond.",
+            "gear": [
+              "bike (or rent in Bar Harbor)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 10,
+      "label": "Day 10 — Free Day",
+      "type": "free",
+      "summary": "Rest, kayak, or just read on the rocks. Optional ideas below.",
+      "freeMenu": [
+        {
+          "id": "acadia-whale-watch",
+          "title": "Bar Harbor whale watch",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 210,
+          "location": {
+            "name": "Bar Harbor Whale Watch Co.",
+            "address": "1 West St, Bar Harbor, ME",
+            "lat": 44.3919,
+            "lng": -68.205,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Bar%20Harbor%20Whale%20Watch%20Co."
+          },
+          "blurb": "Finbacks and humpbacks offshore if the season and seas cooperate."
+        },
+        {
+          "id": "acadia-bar-harbor-shops",
+          "title": "Browse Bar Harbor",
+          "categoryId": "shopping",
+          "tier": "low",
+          "durationMins": 90,
+          "location": {
+            "name": "Bar Harbor Village",
+            "address": "Main St, Bar Harbor, ME",
+            "lat": 44.3876,
+            "lng": -68.2039,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Bar%20Harbor%20Village"
+          },
+          "blurb": "Maine trinkets, taffy, and a lobster roll on the pier."
+        }
+      ]
+    },
+    {
+      "dayNumber": 11,
+      "label": "Day 11 — Drive to the White Mountains",
+      "type": "commute",
+      "summary": "Trade the coast for New Hampshire's high country.",
+      "commute": {
+        "from": "Bar Harbor, ME",
+        "to": "North Conway, NH",
+        "driveTimeMins": 210,
+        "scenicNote": "A longer leg; the payoff is swapping the coast for alpine notches and peak foliage."
+      }
+    }
+  ]
+}

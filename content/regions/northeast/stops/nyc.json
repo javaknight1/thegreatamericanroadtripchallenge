@@ -1,0 +1,292 @@
+{
+  "id": "nyc",
+  "name": "New York City",
+  "state": "NY",
+  "country": "US",
+  "order": 6,
+  "location": {
+    "lat": 40.7128,
+    "lng": -74.006
+  },
+  "summary": "The trip's marquee stay — plan on two to three weeks. These are the anchor days; the full build expands them across the boroughs and seasons.",
+  "seasonalTip": "NYC is all-season — take whatever slot the loop gives you and lean in (ballgames and rooftops in summer; the Rockefeller tree, skating, and holiday windows near winter).",
+  "lodging": [
+    {
+      "name": "A classic Midtown or Village hotel",
+      "blurb": "Base near a subway hub; Midtown and the Village both put most anchors a short ride away.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=hotels%20Greenwich%20Village%20New%20York"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Pastrami on rye at Katz's Delicatessen",
+      "blurb": "The definitive New York deli since 1888."
+    },
+    {
+      "name": "A classic New York slice",
+      "blurb": "Fold it. Joe's in the Village is a reliable benchmark."
+    },
+    {
+      "name": "An everything bagel with lox",
+      "blurb": "The proper New York breakfast."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 18,
+      "label": "Day 18 — Liberty, Ellis Island & Lower Manhattan",
+      "type": "active",
+      "summary": "Start at the harbor icons and the 9/11 Memorial.",
+      "blocks": [
+        {
+          "start": "8:30 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "nyc-statue-liberty-ellis",
+            "title": "Statue of Liberty & Ellis Island ferry",
+            "categoryId": "guided-tours",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Battery Park (ferry departure)",
+              "address": "Battery Park, New York, NY",
+              "lat": 40.7033,
+              "lng": -74.017,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Battery%20Park%20%28ferry%20departure%29"
+            },
+            "blurb": "Ferry to Liberty Island (book crown or pedestal ahead) and the deeply moving Ellis Island immigration museum."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "end": "4:30 PM",
+          "item": {
+            "id": "nyc-911-memorial",
+            "title": "9/11 Memorial & Museum",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "9/11 Memorial & Museum",
+              "address": "180 Greenwich St, New York, NY",
+              "lat": 40.7115,
+              "lng": -74.0134,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=9/11%20Memorial%20%26%20Museum"
+            },
+            "blurb": "The twin reflecting pools in the towers' footprints, and a museum that handles the day with extraordinary care."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 19,
+      "label": "Day 19 — Midtown Icons",
+      "type": "active",
+      "summary": "The skyline from above, the park, and the museum mile.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "end": "10:30 AM",
+          "item": {
+            "id": "nyc-top-of-the-rock",
+            "title": "Top of the Rock observation deck",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "Top of the Rock",
+              "address": "30 Rockefeller Plaza, New York, NY",
+              "lat": 40.7587,
+              "lng": -73.9787,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Top%20of%20the%20Rock"
+            },
+            "blurb": "The best skyline view because it puts the Empire State Building in your photo. Go early to beat the lines."
+          }
+        },
+        {
+          "start": "11:30 AM",
+          "end": "1:30 PM",
+          "item": {
+            "id": "nyc-central-park",
+            "title": "Walk Central Park",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Central Park",
+              "address": "Central Park, New York, NY",
+              "lat": 40.7829,
+              "lng": -73.9654,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Central%20Park"
+            },
+            "blurb": "Bethesda Terrace, the Mall, and the Bow Bridge — 843 acres in the middle of Manhattan."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "end": "5:30 PM",
+          "item": {
+            "id": "nyc-met-museum",
+            "title": "The Metropolitan Museum of Art",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "The Metropolitan Museum of Art",
+              "address": "1000 5th Ave, New York, NY",
+              "lat": 40.7794,
+              "lng": -73.9632,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Metropolitan%20Museum%20of%20Art"
+            },
+            "blurb": "One of the greatest museums on earth — pick a few wings; you can't do it all in a day."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 20,
+      "label": "Day 20 — Broadway & the Village",
+      "type": "active",
+      "summary": "Downtown by day, a show by night, late laughs after.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "12:00 PM",
+          "item": {
+            "id": "nyc-high-line",
+            "title": "Walk the High Line",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "The High Line",
+              "address": "New York, NY 10011",
+              "lat": 40.748,
+              "lng": -74.0048,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20High%20Line"
+            },
+            "blurb": "An elevated park on old freight rails from the Meatpacking District to Hudson Yards."
+          }
+        },
+        {
+          "start": "7:00 PM",
+          "end": "9:30 PM",
+          "item": {
+            "id": "nyc-broadway-show",
+            "title": "A Broadway show",
+            "categoryId": "concerts-venues",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Theater District",
+              "address": "Times Square, New York, NY",
+              "lat": 40.759,
+              "lng": -73.9845,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Theater%20District"
+            },
+            "blurb": "Whatever's playing, this is the pinnacle of American theater. TKTS and lotteries help with tickets."
+          }
+        },
+        {
+          "start": "10:30 PM",
+          "end": "12:00 AM",
+          "item": {
+            "id": "nyc-comedy-cellar",
+            "title": "The Comedy Cellar",
+            "categoryId": "concerts-venues",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "Comedy Cellar",
+              "address": "117 MacDougal St, New York, NY",
+              "lat": 40.73,
+              "lng": -74.0003,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Comedy%20Cellar"
+            },
+            "blurb": "The most famous comedy club in the country — legendary drop-in sets. Reserve ahead."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 21,
+      "label": "Day 21 — Free Day (deep menu)",
+      "type": "free",
+      "summary": "In a stay this long you'll want several of these. A sampler of the optional bench.",
+      "freeMenu": [
+        {
+          "id": "nyc-madison-square-garden",
+          "title": "An event at Madison Square Garden",
+          "categoryId": "concerts-venues",
+          "tier": "anchor",
+          "durationMins": 180,
+          "location": {
+            "name": "Madison Square Garden",
+            "address": "4 Pennsylvania Plaza, New York, NY",
+            "lat": 40.7505,
+            "lng": -73.9934,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Madison%20Square%20Garden"
+          },
+          "blurb": "The world's most famous arena — Knicks, Rangers, or a concert. Go for whatever's on while you're here."
+        },
+        {
+          "id": "nyc-yankees-game",
+          "title": "Yankees game in the Bronx",
+          "categoryId": "sports",
+          "tier": "mid",
+          "durationMins": 180,
+          "location": {
+            "name": "Yankee Stadium",
+            "address": "1 E 161 St, Bronx, NY",
+            "lat": 40.8296,
+            "lng": -73.9262,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Yankee%20Stadium"
+          },
+          "blurb": "If you land in baseball season, the pinstripes are an American bucket-list game."
+        },
+        {
+          "id": "nyc-brooklyn-bridge",
+          "title": "Walk the Brooklyn Bridge to DUMBO",
+          "categoryId": "landmarks",
+          "tier": "mid",
+          "durationMins": 120,
+          "location": {
+            "name": "Brooklyn Bridge",
+            "address": "Brooklyn Bridge, New York, NY",
+            "lat": 40.7061,
+            "lng": -73.9969,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Brooklyn%20Bridge"
+          },
+          "blurb": "Cross into Brooklyn for the classic Manhattan Bridge photo and pizza at Grimaldi's."
+        },
+        {
+          "id": "nyc-katzs-deli",
+          "title": "Pastrami at Katz's Delicatessen",
+          "categoryId": "food-drink",
+          "tier": "low",
+          "durationMins": 60,
+          "location": {
+            "name": "Katz's Delicatessen",
+            "address": "205 E Houston St, New York, NY",
+            "lat": 40.7223,
+            "lng": -73.9874,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Katz%27s%20Delicatessen"
+          },
+          "blurb": "Hand-cut pastrami on rye at the 1888 institution on the Lower East Side."
+        }
+      ]
+    },
+    {
+      "dayNumber": 22,
+      "label": "Day 22 — Drive to Philadelphia",
+      "type": "commute",
+      "summary": "South out of the city into Pennsylvania.",
+      "commute": {
+        "from": "New York City, NY",
+        "to": "Philadelphia, PA",
+        "driveTimeMins": 120,
+        "scenicNote": "Short hop; time it outside NYC rush hour."
+      }
+    }
+  ]
+}

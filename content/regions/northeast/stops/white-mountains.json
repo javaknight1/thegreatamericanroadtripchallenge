@@ -1,0 +1,118 @@
+{
+  "id": "white-mountains",
+  "name": "The White Mountains",
+  "state": "NH",
+  "country": "US",
+  "order": 4,
+  "location": {
+    "lat": 44.265,
+    "lng": -71.2033
+  },
+  "summary": "New Hampshire's alpine heart — the Northeast's tallest peak, a byway made for leaf season, and glacier-carved notches.",
+  "lodging": [
+    {
+      "name": "Omni Mount Washington Resort, Bretton Woods",
+      "blurb": "A grand 1902 hotel beneath Mount Washington — the definitive White Mountains stay.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Omni%20Mount%20Washington%20Resort"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Maple everything",
+      "blurb": "Roadside sugar houses sell syrup, candy, and maple soft-serve — peak New England."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 12,
+      "label": "Day 12 — Mount Washington",
+      "type": "active",
+      "summary": "Ride the world's first mountain-climbing cog railway to the roof of the Northeast.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "wm-cog-railway",
+            "title": "Mount Washington Cog Railway",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Mount Washington Cog Railway",
+              "address": "3168 Base Station Rd, Mount Washington, NH",
+              "lat": 44.2686,
+              "lng": -71.3543,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mount%20Washington%20Cog%20Railway"
+            },
+            "blurb": "Since 1869, a steam-and-coal cog train up the steepest tracks in the country to a 6,288-ft summit famous for some of the worst weather on earth.",
+            "gear": [
+              "warm layers (the summit is frigid and windswept)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 13,
+      "label": "Day 13 — Kancamagus & Franconia Notch",
+      "type": "active",
+      "summary": "The most beautiful drive in New England during foliage.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "end": "12:00 PM",
+          "item": {
+            "id": "wm-kancamagus-highway",
+            "title": "Drive the Kancamagus Highway",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Kancamagus Highway",
+              "address": "Kancamagus Hwy, Lincoln, NH",
+              "lat": 44.049,
+              "lng": -71.585,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Kancamagus%20Highway"
+            },
+            "blurb": "A 34-mile National Scenic Byway with no gas or services and endless overlooks, waterfalls, and — in October — walls of color."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "end": "3:30 PM",
+          "item": {
+            "id": "wm-flume-gorge",
+            "title": "Flume Gorge, Franconia Notch",
+            "categoryId": "national-parks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Flume Gorge",
+              "address": "852 Daniel Webster Hwy, Lincoln, NH",
+              "lat": 44.0972,
+              "lng": -71.68,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Flume%20Gorge"
+            },
+            "blurb": "A boardwalk trail through a mossy granite gorge with waterfalls and covered bridges.",
+            "gear": [
+              "walking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 14,
+      "label": "Day 14 — Drive to Stowe, Vermont",
+      "type": "commute",
+      "summary": "West over the Connecticut River into the Green Mountains.",
+      "commute": {
+        "from": "North Conway, NH",
+        "to": "Stowe, VT",
+        "driveTimeMins": 130,
+        "scenicNote": "White Mountains to Green Mountains — two different flavors of New England fall in one afternoon."
+      }
+    }
+  ]
+}
