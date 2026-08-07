@@ -1,0 +1,65 @@
+{
+  "id": "green-bay",
+  "name": "Green Bay",
+  "state": "WI",
+  "country": "US",
+  "order": 13,
+  "location": {
+    "lat": 44.5013,
+    "lng": -88.0621
+  },
+  "summary": "Titletown — home of the Packers and the hallowed Frozen Tundra of Lambeau Field.",
+  "lodging": [
+    {
+      "name": "A hotel near Lambeau",
+      "blurb": "In the Titletown District.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Lambeau%20Field%20hotel%20Green%20Bay"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Bratwurst & cheese curds",
+      "blurb": "Tailgate food, any day."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 652,
+      "label": "Day 652 — Lambeau Field",
+      "type": "active",
+      "summary": "The Frozen Tundra.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "green-bay-lambeau",
+            "title": "Lambeau Field & the Packers Hall of Fame",
+            "categoryId": "sports",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Lambeau Field",
+              "address": "1265 Lombardi Ave, Green Bay, WI",
+              "lat": 44.5013,
+              "lng": -88.0621,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Lambeau%20Field"
+            },
+            "blurb": "Tour the historic stadium of the community-owned Packers and the Hall of Fame — or catch a game."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 653,
+      "label": "Day 653 — West to the Dells",
+      "type": "commute",
+      "summary": "To the waterpark capital.",
+      "commute": {
+        "from": "Green Bay, WI",
+        "to": "Wisconsin Dells, WI",
+        "driveTimeMins": 120,
+        "scenicNote": "West to Wisconsin Dells."
+      }
+    }
+  ]
+}

@@ -1535,20 +1535,6 @@
           "plannedDays": 1
         },
         {
-          "id": "st-louis",
-          "order": 3,
-          "name": "St. Louis (Gateway Arch NP)",
-          "state": "MO",
-          "plannedDays": 3
-        },
-        {
-          "id": "hannibal",
-          "order": 4,
-          "name": "Hannibal",
-          "state": "MO",
-          "plannedDays": 1
-        },
-        {
           "id": "branson",
           "order": 5,
           "name": "Branson",
@@ -1559,6 +1545,20 @@
           "id": "jefferson-city",
           "order": 6,
           "name": "Jefferson City",
+          "state": "MO",
+          "plannedDays": 1
+        },
+        {
+          "id": "st-louis",
+          "order": 3,
+          "name": "St. Louis (Gateway Arch NP)",
+          "state": "MO",
+          "plannedDays": 3
+        },
+        {
+          "id": "hannibal",
+          "order": 4,
+          "name": "Hannibal",
           "state": "MO",
           "plannedDays": 1
         },
@@ -1598,11 +1598,18 @@
           "plannedDays": 3
         },
         {
-          "id": "madison",
-          "order": 12,
-          "name": "Madison",
+          "id": "door-county",
+          "order": 17,
+          "name": "Door County",
           "state": "WI",
           "plannedDays": 2
+        },
+        {
+          "id": "green-bay",
+          "order": 16,
+          "name": "Green Bay",
+          "state": "WI",
+          "plannedDays": 1
         },
         {
           "id": "wisconsin-dells",
@@ -1619,25 +1626,18 @@
           "plannedDays": 1
         },
         {
+          "id": "madison",
+          "order": 12,
+          "name": "Madison",
+          "state": "WI",
+          "plannedDays": 2
+        },
+        {
           "id": "milwaukee",
           "order": 15,
           "name": "Milwaukee",
           "state": "WI",
           "plannedDays": 3
-        },
-        {
-          "id": "green-bay",
-          "order": 16,
-          "name": "Green Bay",
-          "state": "WI",
-          "plannedDays": 1
-        },
-        {
-          "id": "door-county",
-          "order": 17,
-          "name": "Door County",
-          "state": "WI",
-          "plannedDays": 2
         },
         {
           "id": "chicago",
@@ -1689,11 +1689,11 @@
           "plannedDays": 2
         },
         {
-          "id": "detroit",
-          "order": 25,
-          "name": "Detroit",
+          "id": "mackinac-island-traverse-city",
+          "order": 27,
+          "name": "Mackinac Island & Traverse City",
           "state": "MI",
-          "plannedDays": 4
+          "plannedDays": 3
         },
         {
           "id": "lansing",
@@ -1703,11 +1703,11 @@
           "plannedDays": 1
         },
         {
-          "id": "mackinac-island-traverse-city",
-          "order": 27,
-          "name": "Mackinac Island & Traverse City",
+          "id": "detroit",
+          "order": 25,
+          "name": "Detroit",
           "state": "MI",
-          "plannedDays": 3
+          "plannedDays": 4
         },
         {
           "id": "cleveland-cuyahoga-valley-np",

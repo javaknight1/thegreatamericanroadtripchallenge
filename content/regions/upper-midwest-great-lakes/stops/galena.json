@@ -1,0 +1,65 @@
+{
+  "id": "galena",
+  "name": "Galena",
+  "state": "IL",
+  "country": "US",
+  "order": 19,
+  "location": {
+    "lat": 42.4167,
+    "lng": -90.429
+  },
+  "summary": "A gorgeously preserved Victorian river town in Illinois's hilly northwest corner — and the home Ulysses S. Grant left to win the Civil War.",
+  "lodging": [
+    {
+      "name": "A historic Main Street inn",
+      "blurb": "In the Victorian old town.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Galena%20Illinois%20historic%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Local wine & a Main Street dinner",
+      "blurb": "In the 19th-century downtown."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 671,
+      "label": "Day 671 — Main Street & Grant",
+      "type": "active",
+      "summary": "A Victorian time capsule.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "galena-main-street",
+            "title": "Main Street & the Grant Home",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Ulysses S. Grant Home",
+              "address": "500 Bouthillier St, Galena, IL",
+              "lat": 42.415,
+              "lng": -90.423,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Ulysses%20S.%20Grant%20Home"
+            },
+            "blurb": "A Main Street where most every building is on the National Register, plus the home the town gave General Grant."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 672,
+      "label": "Day 672 — South to Springfield",
+      "type": "commute",
+      "summary": "To Lincoln's town.",
+      "commute": {
+        "from": "Galena, IL",
+        "to": "Springfield, IL",
+        "driveTimeMins": 210,
+        "scenicNote": "South to the state capital."
+      }
+    }
+  ]
+}

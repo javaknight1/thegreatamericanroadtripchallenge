@@ -1,0 +1,68 @@
+{
+  "id": "door-county",
+  "name": "Door County",
+  "state": "WI",
+  "country": "US",
+  "order": 12,
+  "location": {
+    "lat": 45.1333,
+    "lng": -87.14
+  },
+  "summary": "The 'Cape Cod of the Midwest' — a peninsula of lighthouses, cherry orchards, harbor villages, and the traditional fish boil.",
+  "lodging": [
+    {
+      "name": "A Fish Creek or Sister Bay inn",
+      "blurb": "In one of the harbor villages.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Fish%20Creek%20Door%20County%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Door County fish boil",
+      "blurb": "Whitefish over an open fire — and cherry pie."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 650,
+      "label": "Day 650 — The Peninsula",
+      "type": "active",
+      "summary": "Lighthouses and harbor towns.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "door-county-peninsula",
+            "title": "Peninsula State Park & the villages",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Peninsula State Park",
+              "address": "9462 Shore Rd, Fish Creek, WI",
+              "lat": 45.137,
+              "lng": -87.235,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Peninsula%20State%20Park"
+            },
+            "blurb": "Bluff-top lighthouses and shoreline drives, cherry orchards, and the goats on the roof at Al Johnson's in Sister Bay.",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 651,
+      "label": "Day 651 — South to Green Bay",
+      "type": "commute",
+      "summary": "To Titletown.",
+      "commute": {
+        "from": "Fish Creek, WI",
+        "to": "Green Bay, WI",
+        "driveTimeMins": 60,
+        "scenicNote": "South to Green Bay."
+      }
+    }
+  ]
+}

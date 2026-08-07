@@ -1,0 +1,65 @@
+{
+  "id": "springfield",
+  "name": "Springfield",
+  "state": "IL",
+  "country": "US",
+  "order": 20,
+  "location": {
+    "lat": 39.7817,
+    "lng": -89.6501
+  },
+  "summary": "Illinois's capital and Abraham Lincoln's hometown — his home, his tomb, and a superb museum, all on Route 66.",
+  "lodging": [
+    {
+      "name": "A downtown Springfield hotel",
+      "blurb": "Near the Lincoln sites.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Springfield%20Illinois%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A horseshoe sandwich",
+      "blurb": "Springfield's open-faced, cheese-smothered specialty."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 673,
+      "label": "Day 673 — Lincoln's Springfield",
+      "type": "active",
+      "summary": "Home, tomb, and museum.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "springfield-lincoln",
+            "title": "Abraham Lincoln sites",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Abraham Lincoln Presidential Library and Museum",
+              "address": "212 N 6th St, Springfield, IL",
+              "lat": 39.801,
+              "lng": -89.647,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Abraham%20Lincoln%20Presidential%20Library%20and%20Museum"
+            },
+            "blurb": "The excellent Presidential Museum, the only home Lincoln ever owned, the Old State Capitol, and his tomb."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 674,
+      "label": "Day 674 — East to Indianapolis",
+      "type": "commute",
+      "summary": "Into Indiana.",
+      "commute": {
+        "from": "Springfield, IL",
+        "to": "Indianapolis, IN",
+        "driveTimeMins": 210,
+        "scenicNote": "East to Indianapolis."
+      }
+    }
+  ]
+}

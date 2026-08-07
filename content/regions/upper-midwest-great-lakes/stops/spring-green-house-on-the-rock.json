@@ -1,0 +1,68 @@
+{
+  "id": "spring-green-house-on-the-rock",
+  "name": "Spring Green: House on the Rock",
+  "state": "WI",
+  "country": "US",
+  "order": 15,
+  "location": {
+    "lat": 43.0908,
+    "lng": -90.133
+  },
+  "summary": "One of the strangest attractions in America — a fever-dream house of endless bizarre collections — a few miles from Frank Lloyd Wright's Taliesin.",
+  "lodging": [
+    {
+      "name": "A Spring Green inn",
+      "blurb": "In the driftless hills.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Spring%20Green%20Wisconsin%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A supper-club dinner",
+      "blurb": "A Wisconsin institution — relish tray and brandy old fashioned."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 656,
+      "label": "Day 656 — Down the Rabbit Hole",
+      "type": "active",
+      "summary": "The Infinity Room and beyond.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "house-on-the-rock",
+            "title": "House on the Rock",
+            "categoryId": "quirky",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "House on the Rock",
+              "address": "5754 State Rd 23, Spring Green, WI",
+              "lat": 43.0908,
+              "lng": -90.133,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=House%20on%20the%20Rock"
+            },
+            "blurb": "The vertigo-inducing Infinity Room, the world's largest indoor carousel, and room after room of gloriously strange collections — Taliesin is next door.",
+            "gear": [
+              "comfortable shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 657,
+      "label": "Day 657 — East to the capital",
+      "type": "commute",
+      "summary": "To Madison.",
+      "commute": {
+        "from": "Spring Green, WI",
+        "to": "Madison, WI",
+        "driveTimeMins": 60,
+        "scenicNote": "East to Madison."
+      }
+    }
+  ]
+}

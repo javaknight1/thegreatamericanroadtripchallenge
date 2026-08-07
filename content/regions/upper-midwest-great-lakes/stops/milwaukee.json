@@ -1,0 +1,91 @@
+{
+  "id": "milwaukee",
+  "name": "Milwaukee",
+  "state": "WI",
+  "country": "US",
+  "order": 17,
+  "location": {
+    "lat": 43.0389,
+    "lng": -87.9065
+  },
+  "summary": "A hearty lakefront city of brewing and motorcycles, crowned by a museum with wings that open to the sky.",
+  "lodging": [
+    {
+      "name": "A downtown or Third Ward hotel",
+      "blurb": "Near the lakefront and the Public Market.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Milwaukee%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A fish fry & frozen custard",
+      "blurb": "Friday fish fry is a Milwaukee institution."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 660,
+      "label": "Day 660 — Art on the Lake",
+      "type": "active",
+      "summary": "The winged museum.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "milwaukee-art-museum",
+            "title": "Milwaukee Art Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Milwaukee Art Museum",
+              "address": "700 N Art Museum Dr, Milwaukee, WI",
+              "lat": 43.04,
+              "lng": -87.897,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Milwaukee%20Art%20Museum"
+            },
+            "blurb": "Calatrava's soaring lakefront pavilion, whose great brise-soleil 'wings' open and close through the day."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 661,
+      "label": "Day 661 — Harleys & Beer",
+      "type": "active",
+      "summary": "Motorcycles and brewing heritage.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "milwaukee-harley",
+            "title": "Harley-Davidson Museum & the Third Ward",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Harley-Davidson Museum",
+              "address": "400 W Canal St, Milwaukee, WI",
+              "lat": 43.03,
+              "lng": -87.92,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Harley-Davidson%20Museum"
+            },
+            "blurb": "The story of the hometown motorcycle, then the Historic Third Ward, the Public Market, and a brewery tour."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 662,
+      "label": "Day 662 — South to Chicago",
+      "type": "commute",
+      "summary": "To the big city.",
+      "commute": {
+        "from": "Milwaukee, WI",
+        "to": "Chicago, IL",
+        "driveTimeMins": 90,
+        "scenicNote": "South down the lakeshore to Chicago."
+      }
+    }
+  ]
+}

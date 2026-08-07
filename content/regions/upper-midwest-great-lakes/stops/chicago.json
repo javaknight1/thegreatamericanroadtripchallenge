@@ -1,0 +1,285 @@
+{
+  "id": "chicago",
+  "name": "Chicago",
+  "state": "IL",
+  "country": "US",
+  "order": 18,
+  "location": {
+    "lat": 41.8781,
+    "lng": -87.6298
+  },
+  "summary": "The city of big shoulders and bigger architecture — the Bean and the Art Institute, a river cruise past the skyline, world-class museums, blues, and deep-dish. A grand, full stay.",
+  "lodging": [
+    {
+      "name": "A Loop or Near North hotel",
+      "blurb": "Walkable to the parks, river, and Mag Mile.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Chicago%20Loop%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Deep-dish & an Italian beef",
+      "blurb": "Plus a Chicago dog — no ketchup."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 663,
+      "label": "Day 663 — The Bean & the Art Institute",
+      "type": "active",
+      "summary": "Millennium Park and masterpieces.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "chicago-millennium-park",
+            "title": "Millennium Park & Cloud Gate",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Cloud Gate",
+              "address": "201 E Randolph St, Chicago, IL",
+              "lat": 41.8827,
+              "lng": -87.6233,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Cloud%20Gate"
+            },
+            "blurb": "'The Bean,' Crown Fountain, and the Pritzker Pavilion in the park."
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "item": {
+            "id": "chicago-art-institute",
+            "title": "The Art Institute of Chicago",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Art Institute of Chicago",
+              "address": "111 S Michigan Ave, Chicago, IL",
+              "lat": 41.8796,
+              "lng": -87.6237,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Art%20Institute%20of%20Chicago"
+            },
+            "blurb": "'American Gothic,' 'Nighthawks,' and one of the great art collections in the world."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 664,
+      "label": "Day 664 — Architecture & the Sky",
+      "type": "active",
+      "summary": "A river cruise and a skydeck.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "12:00 PM",
+          "item": {
+            "id": "chicago-architecture-cruise",
+            "title": "Architecture River Cruise",
+            "categoryId": "guided-tours",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Chicago Architecture Center River Cruise",
+              "address": "112 E Wacker Dr, Chicago, IL",
+              "lat": 41.888,
+              "lng": -87.625,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Chicago%20Architecture%20Center%20River%20Cruise"
+            },
+            "blurb": "The definitive way to see the city — a boat tour of the skyline from the river."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "chicago-willis-tower",
+            "title": "Willis Tower Skydeck",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Willis Tower Skydeck",
+              "address": "233 S Wacker Dr, Chicago, IL",
+              "lat": 41.8789,
+              "lng": -87.6359,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Willis%20Tower%20Skydeck"
+            },
+            "blurb": "Step out onto the glass ledge 1,353 ft up."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 665,
+      "label": "Day 665 — Museum Campus",
+      "type": "active",
+      "summary": "Dinosaurs, fish, and stars.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "chicago-museum-campus",
+            "title": "Field Museum, Shedd & Adler",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 360,
+            "location": {
+              "name": "Museum Campus Chicago",
+              "address": "1200 S DuSable Lake Shore Dr, Chicago, IL",
+              "lat": 41.8663,
+              "lng": -87.617,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Museum%20Campus%20Chicago"
+            },
+            "blurb": "Sue the T. rex at the Field, the Shedd Aquarium, and the Adler Planetarium on the lakefront point.",
+            "gear": [
+              "walking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 666,
+      "label": "Day 666 — The Mag Mile & the Pier",
+      "type": "active",
+      "summary": "Shopping and the lakefront.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "chicago-navy-pier",
+            "title": "Navy Pier & the Magnificent Mile",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Navy Pier",
+              "address": "600 E Grand Ave, Chicago, IL",
+              "lat": 41.8917,
+              "lng": -87.6086,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Navy%20Pier"
+            },
+            "blurb": "The Ferris wheel and lakefront at Navy Pier, then the shops of Michigan Avenue."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 667,
+      "label": "Day 667 — Wrigley & the South Side",
+      "type": "active",
+      "summary": "Baseball and science.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "chicago-science-industry",
+            "title": "Museum of Science and Industry",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Museum of Science and Industry",
+              "address": "5700 S DuSable Lake Shore Dr, Chicago, IL",
+              "lat": 41.7906,
+              "lng": -87.5831,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Museum%20of%20Science%20and%20Industry"
+            },
+            "blurb": "A U-boat, a coal mine, and a walk-through heart in Hyde Park (Wrigley Field and the Cubs are the North Side alternative)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 668,
+      "label": "Day 668 — Free Day",
+      "type": "free",
+      "summary": "Blues, neighborhoods, or a game. Options below.",
+      "freeMenu": [
+        {
+          "id": "chicago-blues",
+          "title": "A blues club",
+          "categoryId": "concerts-venues",
+          "tier": "low",
+          "durationMins": 150,
+          "location": {
+            "name": "Kingston Mines",
+            "address": "2548 N Halsted St, Chicago, IL",
+            "lat": 41.929,
+            "lng": -87.649,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Kingston%20Mines"
+          },
+          "blurb": "Chicago blues in the city that electrified it."
+        },
+        {
+          "id": "chicago-wrigley",
+          "title": "A Cubs game at Wrigley",
+          "categoryId": "sports",
+          "tier": "low",
+          "durationMins": 210,
+          "location": {
+            "name": "Wrigley Field",
+            "address": "1060 W Addison St, Chicago, IL",
+            "lat": 41.9484,
+            "lng": -87.6553,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Wrigley%20Field"
+          },
+          "blurb": "Ivy walls and a seventh-inning stretch on the North Side."
+        }
+      ]
+    },
+    {
+      "dayNumber": 669,
+      "label": "Day 669 — Free Day",
+      "type": "free",
+      "summary": "Comedy, the zoo, or more deep-dish. Options below.",
+      "freeMenu": [
+        {
+          "id": "chicago-second-city",
+          "title": "Second City comedy",
+          "categoryId": "concerts-venues",
+          "tier": "low",
+          "durationMins": 150,
+          "location": {
+            "name": "The Second City",
+            "address": "1616 N Wells St, Chicago, IL",
+            "lat": 41.911,
+            "lng": -87.634,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Second%20City"
+          },
+          "blurb": "The legendary improv theater that launched countless comedians."
+        },
+        {
+          "id": "chicago-lincoln-park",
+          "title": "Lincoln Park & the free zoo",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Lincoln Park Zoo",
+            "address": "2001 N Clark St, Chicago, IL",
+            "lat": 41.921,
+            "lng": -87.633,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Park%20Zoo"
+          },
+          "blurb": "A lakefront park and one of the last free zoos in the country."
+        }
+      ]
+    },
+    {
+      "dayNumber": 670,
+      "label": "Day 670 — Northwest to Galena",
+      "type": "commute",
+      "summary": "To Victorian river country.",
+      "commute": {
+        "from": "Chicago, IL",
+        "to": "Galena, IL",
+        "driveTimeMins": 180,
+        "scenicNote": "Northwest to the driftless hills and Galena."
+      }
+    }
+  ]
+}

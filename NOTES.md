@@ -7,9 +7,10 @@ is the list to work from once the loop is fully written.
 Rob's standing instruction: add suggestions here as they come up, without asking
 first. Items are only removed when they're resolved or explicitly dropped.
 
-Last updated at **219 stops · 649 days · 733 items · 43 states** — twelve legs
-complete plus the Upper Midwest in progress (11 of its 31 stops), days 1–649
-contiguous.
+Last updated at **246 stops · 720 days · 788 items · all 48 states** — thirteen
+legs of fourteen complete, days 1–720 contiguous with no gaps, and **48/48
+capital cities and 48/48 states are written**. Only the Appalachia Return's last
+four stops remain.
 
 ---
 
@@ -304,22 +305,18 @@ order I'd pick them:
    home page showing `skiing: 1` is honest. But it will read as an oversight to
    anyone scanning the category list, not as an editorial choice.
 
-### The Upper Midwest is a 31-stop leg — watch its pacing as it fills
+### The Upper Midwest closed better than it started
 
-At 31 stops it is **the largest leg in the manifest**, more than twice the
-average, and it carries five of the remaining seven capitals.
+Complete at 31/31 stops, days 622–703 — the largest leg in the trip. It ended
+with **four free days in 82** (5%), two of them back-to-back in Chicago (days
+668–669), which is the first time the itinerary has given two consecutive free
+days anywhere. Given this leg follows the Great Plains' 31-day dry run, that
+pairing does real work.
 
-Eleven stops in (days 622–649) it has **one free day, on day 643 in the Twin
-Cities** — which broke a run that had reached 21 days counting back into the
-Plains. That's the pattern holding at ~4%. A leg this size will likely land
-three or four free days across 70–80 days of content unless something changes.
-
-Also worth noting for when the leg completes: **the authored route already
-diverges from the manifest.** Day 649 drives from Voyageurs to Door County,
-skipping Madison, the Dells, Spring Green, Milwaukee and Green Bay, which the
-manifest lists first. That's fine — `plan.json` gets re-sorted to the authored
-order at completion, same as every other leg — but with 20 stops still to write
-this is the leg where the two orders will differ most.
+`plan.json` has been re-sorted to the authored route, which diverged from the
+manifest more than any other leg — the manifest ran Wisconsin before Chicago and
+Illinois; the authored route runs Minnesota → Wisconsin → Chicago → Illinois →
+Indiana → Michigan → Ohio, which is geographically clean.
 
 ## 8. Ideas, not problems
 
@@ -338,11 +335,14 @@ Written: legs 1–12 complete, plus the Upper Midwest through Voyageurs — days
 1–649. Remaining: the rest of the Upper Midwest & Great Lakes (20 stops), and
 the Appalachia Return — 31 of 250 stops.
 
-Capitals: **43 of 48 capital cities written** — Des Moines (day 636) and Saint
-Paul (day 642) join. Five left: Springfield, Indianapolis, Lansing, Columbus,
-Madison — all in the Upper Midwest leg, which still has 20 stops to go.
+Capitals: **48 of 48 — complete.** Madison (day 658) and Springfield (day 673)
+were the last two. Every state capital city on the mission statement's list now
+has a written day.
 
 **The capitals check produced a real false positive — confirmed, now moot.**
+(All 48 are now written, so the count is right by any method; the matching
+weakness remains for anyone re-running the audit on a partial rewrite.)
+
 `scripts/dev/audit.ts` matches a capital by testing whether any stop name
 *contains* the city name, with no state check. **Charleston, SC** (Coastal
 Southeast, not a capital) was therefore satisfying **Charleston, WV** (a

@@ -1,0 +1,65 @@
+{
+  "id": "madison",
+  "name": "Madison",
+  "state": "WI",
+  "country": "US",
+  "order": 16,
+  "location": {
+    "lat": 43.0731,
+    "lng": -89.4012
+  },
+  "summary": "Wisconsin's capital and college town on an isthmus between two lakes — a grand statehouse, a lively student street, and a legendary farmers' market.",
+  "lodging": [
+    {
+      "name": "A downtown hotel near the Capitol",
+      "blurb": "On the isthmus between the lakes.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Madison%20Wisconsin%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Cheese curds & a Terrace beer",
+      "blurb": "On the Memorial Union Terrace by the lake."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 658,
+      "label": "Day 658 — Capitol & State Street",
+      "type": "active",
+      "summary": "The dome, the street, and the lakes.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "madison-capitol",
+            "title": "Wisconsin State Capitol & State Street",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Wisconsin State Capitol",
+              "address": "2 E Main St, Madison, WI",
+              "lat": 43.0747,
+              "lng": -89.3844,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Wisconsin%20State%20Capitol"
+            },
+            "blurb": "The largest capitol dome by volume in the country, the pedestrian State Street up to the university, and the lakefront Terrace (the Saturday farmers' market rings the square)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 659,
+      "label": "Day 659 — East to Milwaukee",
+      "type": "commute",
+      "summary": "To the lakefront.",
+      "commute": {
+        "from": "Madison, WI",
+        "to": "Milwaukee, WI",
+        "driveTimeMins": 90,
+        "scenicNote": "East to Milwaukee."
+      }
+    }
+  ]
+}

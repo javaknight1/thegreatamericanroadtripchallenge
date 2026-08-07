@@ -1,0 +1,68 @@
+{
+  "id": "wisconsin-dells",
+  "name": "Wisconsin Dells",
+  "state": "WI",
+  "country": "US",
+  "order": 14,
+  "location": {
+    "lat": 43.6275,
+    "lng": -89.771
+  },
+  "summary": "The self-proclaimed 'Waterpark Capital of the World,' wrapped around the scenic sandstone gorges of the Wisconsin River.",
+  "lodging": [
+    {
+      "name": "A Dells waterpark resort",
+      "blurb": "Slides and lazy rivers on site.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Wisconsin%20Dells%20waterpark%20resort"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Classic amusement-strip fare",
+      "blurb": "Fudge, cheese, and family-diner meals."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 654,
+      "label": "Day 654 — Water & Rock",
+      "type": "active",
+      "summary": "Waterparks and a duck boat.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "wisconsin-dells-boat",
+            "title": "The Dells & the Original Wisconsin Ducks",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Original Wisconsin Ducks",
+              "address": "1890 Wisconsin Dells Pkwy, Wisconsin Dells, WI",
+              "lat": 43.61,
+              "lng": -89.777,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Original%20Wisconsin%20Ducks"
+            },
+            "blurb": "An amphibious duck tour and a boat trip through the river's sandstone dells — plus a giant waterpark if you like.",
+            "gear": [
+              "swimsuit"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 655,
+      "label": "Day 655 — South to Spring Green",
+      "type": "commute",
+      "summary": "To one of America's oddest attractions.",
+      "commute": {
+        "from": "Wisconsin Dells, WI",
+        "to": "Spring Green, WI",
+        "driveTimeMins": 60,
+        "scenicNote": "South to Spring Green."
+      }
+    }
+  ]
+}
