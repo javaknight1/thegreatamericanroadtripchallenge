@@ -10,6 +10,9 @@ import { dayRange, regionStats } from "@/lib/derive";
 import { formatDuration, formatPlace } from "@/lib/format";
 import { regionMapData } from "@/lib/geo";
 import { regionTheme, regionThemeStyle } from "@/lib/region-theme";
+import { JsonLd } from "@/components/json-ld";
+import { breadcrumbs, regionSchema } from "@/lib/schema-org";
+import { canonical, regionDescription } from "@/lib/seo";
 import { regionDays } from "@/lib/region-view";
 import { stopColorMap } from "@/lib/stop-colors";
 
@@ -27,7 +30,18 @@ export async function generateMetadata({
   const { regionId } = await params;
   const region = getRegion(regionId);
   if (!region) return {};
-  return { title: region.name, description: region.summary };
+  const description = regionDescription(region);
+  return {
+    title: region.name,
+    description,
+    alternates: { canonical: canonical(`region/${region.id}`) },
+    openGraph: {
+      title: region.name,
+      description,
+      url: canonical(`region/${region.id}`),
+      type: "article",
+    },
+  };
 }
 
 const typeLabels = {
@@ -54,6 +68,13 @@ export default async function RegionPage({
 
   return (
     <div style={regionThemeStyle(theme)}>
+      <JsonLd data={regionSchema(region)} />
+      <JsonLd
+        data={breadcrumbs([
+          { name: "The Great American Road Trip Challenge", path: "/" },
+          { name: region.name, path: `region/${region.id}` },
+        ])}
+      />
       <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
         <Link
           href="/#regions"

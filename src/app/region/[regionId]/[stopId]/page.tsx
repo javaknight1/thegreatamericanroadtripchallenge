@@ -5,6 +5,9 @@ import { CategoryDot } from "@/components/category-badge";
 import { getStop, getTrip, itemsOf } from "@/lib/content";
 import { dayRange } from "@/lib/derive";
 import { regionTheme, regionThemeStyle } from "@/lib/region-theme";
+import { JsonLd } from "@/components/json-ld";
+import { breadcrumbs, stopSchema } from "@/lib/schema-org";
+import { canonical, stopDescription } from "@/lib/seo";
 import { formatDuration, formatPlace, mapUrl } from "@/lib/format";
 
 type Params = { regionId: string; stopId: string };
@@ -23,9 +26,18 @@ export async function generateMetadata({
   const { regionId, stopId } = await params;
   const found = getStop(regionId, stopId);
   if (!found) return {};
+  const path = `region/${found.region.id}/${found.stop.id}`;
+  const description = stopDescription(found.stop, found.region);
   return {
     title: `${found.stop.name}, ${found.stop.state}`,
-    description: found.stop.summary,
+    description,
+    alternates: { canonical: canonical(path) },
+    openGraph: {
+      title: `${found.stop.name}, ${found.stop.state}`,
+      description,
+      url: canonical(path),
+      type: "article",
+    },
   };
 }
 
@@ -67,6 +79,14 @@ export default async function StopPage({
 
   return (
     <div style={regionThemeStyle(theme)}>
+      <JsonLd data={stopSchema(stop, region)} />
+      <JsonLd
+        data={breadcrumbs([
+          { name: "The Great American Road Trip Challenge", path: "/" },
+          { name: region.name, path: `region/${region.id}` },
+          { name: stop.name, path: `region/${region.id}/${stop.id}` },
+        ])}
+      />
       <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-12">
         <Link
           href={`/region/${region.id}/`}

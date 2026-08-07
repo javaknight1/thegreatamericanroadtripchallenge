@@ -2,30 +2,48 @@ import type { Metadata, Viewport } from "next";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { getTrip } from "@/lib/content";
+import { canonical, tripDescription } from "@/lib/seo";
 import "./globals.css";
-
-const SITE_URL = "https://thegreatamericanroadtripchallenge.com";
 
 export function generateMetadata(): Metadata {
   const trip = getTrip();
+  // The description leads with what the thing *is* and how big it is. "See all
+  // of America" is a good tagline and a bad search result — it says nothing a
+  // reader can act on, and nothing a model can quote.
+  const description = tripDescription(trip);
   return {
-    metadataBase: new URL(SITE_URL),
+    metadataBase: new URL(canonical()),
     title: {
-      default: trip.title,
+      default: `${trip.title} — ${trip.tagline}`,
       template: `%s — ${trip.title}`,
     },
-    description: trip.tagline,
+    description,
+    alternates: { canonical: canonical() },
+    keywords: [
+      "road trip itinerary",
+      "USA road trip",
+      "all 48 states road trip",
+      "cross country road trip planner",
+      "national parks road trip",
+      "day by day road trip itinerary",
+    ],
     openGraph: {
       type: "website",
-      url: SITE_URL,
+      url: canonical(),
       siteName: trip.title,
       title: trip.title,
-      description: trip.tagline,
+      description,
+      locale: "en_US",
     },
     twitter: {
       card: "summary_large_image",
       title: trip.title,
-      description: trip.tagline,
+      description,
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
     },
   };
 }

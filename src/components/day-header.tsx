@@ -72,9 +72,16 @@ export function DayHeader({ day, place }: { day: Day; place: string }) {
             {String(day.dayNumber).padStart(2, "0")}
           </span>
         </div>
-        <p className="mt-1 font-display text-2xl leading-none tracking-wide text-white uppercase sm:text-3xl">
+        {/*
+          The day's own heading. Every day is its own page, so it needs an h1 —
+          "Day 412 — Southeast to the Old West" is the thing a search result or
+          a model summarising the page should lead with, and the visible label
+          and the accessible one should be the same string.
+        */}
+        <h1 className="mt-1 font-display text-2xl leading-none tracking-wide text-white uppercase sm:text-3xl">
+          <span className="sr-only">{day.label} — </span>
           {place}
-        </p>
+        </h1>
         <div className="mt-3 flex flex-wrap items-center gap-2">
           <span className="rounded-full border border-white/30 bg-black/30 px-2.5 py-0.5 font-cond text-xs font-semibold tracking-wider uppercase">
             {typeLabels[day.type]}

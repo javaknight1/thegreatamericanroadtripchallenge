@@ -7,6 +7,8 @@ import { categoryUsage, regionStats, tripStats } from "@/lib/derive";
 import { formatDuration } from "@/lib/format";
 import { nationalMapData } from "@/lib/geo";
 import { regionTheme } from "@/lib/region-theme";
+import { JsonLd } from "@/components/json-ld";
+import { tripSchema } from "@/lib/schema-org";
 
 export default function HomePage() {
   const trip = getTrip();
@@ -29,6 +31,7 @@ export default function HomePage() {
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-14">
+      <JsonLd data={tripSchema(trip)} />
       <section>
         <p className="font-mono text-[10.5px] tracking-[0.22em] text-accent uppercase">
           {stats.states.length} states so far · {trip.durationEstimate} · one

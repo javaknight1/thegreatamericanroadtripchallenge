@@ -200,6 +200,33 @@ its own `capitols` item even if it shares the day.
 and Carson City's is too. So the pattern is established; it's the three Southwest
 capitals that are the outliers.
 
+### SEO/GEO: what's done, and what still needs a human
+
+Built (all derived from content, so it can't drift): canonical URLs, per-page
+descriptions that name places rather than repeating a four-word day summary,
+JSON-LD on every page type, `sitemap.xml` (924 URLs), `robots.txt` explicitly
+welcoming AI crawlers, `llms.txt`, and an `<h1>` on day pages, which had none.
+
+What I could **not** do from here, in rough order of value:
+
+1. **No social share image.** Static export can't run Next's `ImageResponse`, so
+   there is no OG image — links posted to iMessage, Slack or Instagram render as
+   bare text. Given the brief says the site is a marketing showcase for
+   screenshot-driven ads, this is the biggest remaining gap. Fix: generate PNGs
+   at build from the existing `region-art.ts` / `day-art.ts` SVGs (a script +
+   `sharp`), or commit one hand-made 1200×630 default.
+2. **Google Search Console and Bing Webmaster aren't verified** — needs a DNS
+   record or meta tag only Rob can add. Until then nobody knows what the site
+   ranks for.
+3. **No FAQ content.** Answer engines quote question-shaped text. "How long does
+   it take to drive all 48 states?" / "What's the best month to start?" are
+   questions this trip genuinely answers, and a short FAQ block with `FAQPage`
+   JSON-LD would be quotable in a way the itinerary itself isn't.
+4. **`trip.tagline` is doing double duty.** "See all of America — the definitive
+   road trip, mapped hour by hour" is a fine banner and a weak `<title>`; the
+   title now appends it to the site name, but a keyword-led variant
+   ("48-state road trip itinerary, day by day") would compete better.
+
 ## 6. UI gaps
 
 - **There is no category legend anywhere on the site.** `categoryUsage()` in
