@@ -1,0 +1,100 @@
+{
+  "id": "new-river-gorge-np",
+  "name": "New River Gorge National Park",
+  "state": "WV",
+  "country": "US",
+  "order": 4,
+  "location": {
+    "lat": 38.07,
+    "lng": -81.08
+  },
+  "summary": "America's newest national park — a deep, forested gorge spanned by one of the great bridges, with some of the best whitewater in the East.",
+  "lodging": [
+    {
+      "name": "A Fayetteville inn",
+      "blurb": "The gorge's laid-back gateway town.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Fayetteville%20West%20Virginia%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Post-raft brewpub fare",
+      "blurb": "Fayetteville's outdoor-town kitchens."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 712,
+      "label": "Day 712 — The Bridge & the Rim",
+      "type": "active",
+      "summary": "A gorge and a great span.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "new-river-gorge-bridge",
+            "title": "New River Gorge Bridge & Endless Wall",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "New River Gorge Bridge",
+              "address": "Lansing, WV",
+              "lat": 38.07,
+              "lng": -81.08,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=New%20River%20Gorge%20Bridge"
+            },
+            "blurb": "The overlook of the 876-ft steel-arch bridge (walk the catwalk beneath it), and the Endless Wall Trail along the rim.",
+            "gear": [
+              "hiking shoes",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 713,
+      "label": "Day 713 — Whitewater",
+      "type": "active",
+      "summary": "Run the river.",
+      "blocks": [
+        {
+          "start": "8:30 AM",
+          "item": {
+            "id": "new-river-gorge-rafting",
+            "title": "Whitewater rafting the New",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 360,
+            "location": {
+              "name": "New River Gorge",
+              "address": "Fayetteville, WV",
+              "lat": 38.05,
+              "lng": -81.09,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=New%20River%20Gorge"
+            },
+            "blurb": "Raft the rapids of the New (or the fierce Gauley in fall) with an outfitter.",
+            "gear": [
+              "outfitter",
+              "water shoes",
+              "change of clothes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 714,
+      "label": "Day 714 — Northeast to Seneca Rocks",
+      "type": "commute",
+      "summary": "Into the high forest.",
+      "commute": {
+        "from": "New River Gorge National Park, WV",
+        "to": "Seneca Rocks, WV",
+        "driveTimeMins": 150,
+        "scenicNote": "Northeast into the Monongahela National Forest."
+      }
+    }
+  ]
+}

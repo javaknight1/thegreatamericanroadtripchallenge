@@ -1,0 +1,70 @@
+{
+  "id": "seneca-rocks-monongahela",
+  "name": "Seneca Rocks & the Monongahela",
+  "state": "WV",
+  "country": "US",
+  "order": 5,
+  "location": {
+    "lat": 38.8353,
+    "lng": -79.3736
+  },
+  "summary": "A dramatic quartzite fin rising over a mountain valley — the East's great climbing crag — in a forest of the state's highest peaks and wild high plains.",
+  "lodging": [
+    {
+      "name": "A Seneca Rocks or Canaan Valley lodge",
+      "blurb": "In the national forest.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Seneca%20Rocks%20West%20Virginia%20lodge"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A country-store lunch",
+      "blurb": "Simple fare at the foot of the rocks."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 715,
+      "label": "Day 715 — The Crag & the High Plains",
+      "type": "active",
+      "summary": "Climb, or take in the heights.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "seneca-rocks-crag",
+            "title": "Seneca Rocks, Spruce Knob & Dolly Sods",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Seneca Rocks",
+              "address": "Seneca Rocks, WV",
+              "lat": 38.8353,
+              "lng": -79.3736,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Seneca%20Rocks"
+            },
+            "blurb": "Hike to the base of the climbing fin, drive up Spruce Knob (the state's highest point), and see the tundra-like Dolly Sods.",
+            "gear": [
+              "hiking shoes",
+              "layers",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 716,
+      "label": "Day 716 — Northeast to Harpers Ferry",
+      "type": "commute",
+      "summary": "To the river confluence.",
+      "commute": {
+        "from": "Seneca Rocks, WV",
+        "to": "Harpers Ferry, WV",
+        "driveTimeMins": 150,
+        "scenicNote": "Northeast to the Potomac."
+      }
+    }
+  ]
+}

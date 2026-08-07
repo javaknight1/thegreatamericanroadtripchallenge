@@ -1,0 +1,65 @@
+{
+  "id": "berkeley-springs",
+  "name": "Berkeley Springs",
+  "state": "WV",
+  "country": "US",
+  "order": 7,
+  "location": {
+    "lat": 39.6256,
+    "lng": -78.2278
+  },
+  "summary": "America's first spa town, where George Washington himself once soaked in the warm mineral springs.",
+  "lodging": [
+    {
+      "name": "A Berkeley Springs inn",
+      "blurb": "In the arts-and-spa town.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Berkeley%20Springs%20West%20Virginia%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A spa-town cafe meal",
+      "blurb": "After a good long soak."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 719,
+      "label": "Day 719 — Take the Waters",
+      "type": "active",
+      "summary": "A soak in the springs.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "berkeley-springs-spa",
+            "title": "Berkeley Springs State Park",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Berkeley Springs State Park",
+              "address": "2 S Washington St, Berkeley Springs, WV",
+              "lat": 39.6256,
+              "lng": -78.2278,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Berkeley%20Springs%20State%20Park"
+            },
+            "blurb": "The warm mineral springs the nation's first president bathed in — plus the quirky Berkeley Castle and an artsy little downtown."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 720,
+      "label": "Day 720 — North to Niagara",
+      "type": "commute",
+      "summary": "The long run to the falls.",
+      "commute": {
+        "from": "Berkeley Springs, WV",
+        "to": "Niagara Falls, NY",
+        "driveTimeMins": 300,
+        "scenicNote": "North across Pennsylvania to Niagara Falls — the home stretch begins."
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "harpers-ferry",
+  "name": "Harpers Ferry",
+  "state": "WV",
+  "country": "US",
+  "order": 6,
+  "location": {
+    "lat": 39.3254,
+    "lng": -77.7392
+  },
+  "summary": "A perfectly preserved historic town where two rivers and three states meet — the site of John Brown's raid and a spark of the Civil War.",
+  "lodging": [
+    {
+      "name": "A Harpers Ferry inn",
+      "blurb": "Near the historic lower town.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Harpers%20Ferry%20West%20Virginia%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Riverside tavern fare",
+      "blurb": "In the 19th-century town."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 717,
+      "label": "Day 717 — The Confluence",
+      "type": "active",
+      "summary": "History where the rivers meet.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "harpers-ferry-town",
+            "title": "Harpers Ferry National Historical Park",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Harpers Ferry National Historical Park",
+              "address": "171 Shoreline Dr, Harpers Ferry, WV",
+              "lat": 39.3254,
+              "lng": -77.7392,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Harpers%20Ferry%20National%20Historical%20Park"
+            },
+            "blurb": "The stone streets of the armory town, John Brown's Fort, and Jefferson Rock above the Potomac–Shenandoah confluence (the Appalachian Trail runs right through)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 718,
+      "label": "Day 718 — North to the spa town",
+      "type": "commute",
+      "summary": "To America's first spa.",
+      "commute": {
+        "from": "Harpers Ferry, WV",
+        "to": "Berkeley Springs, WV",
+        "driveTimeMins": 45,
+        "scenicNote": "North to Berkeley Springs."
+      }
+    }
+  ]
+}
