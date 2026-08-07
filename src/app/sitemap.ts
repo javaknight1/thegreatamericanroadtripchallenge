@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const entries: MetadataRoute.Sitemap = [
     { url: canonical(), changeFrequency: "weekly", priority: 1 },
+    { url: canonical("calendar"), changeFrequency: "monthly", priority: 0.7 },
     { url: canonical("packing-list"), changeFrequency: "monthly", priority: 0.6 },
   ];
 

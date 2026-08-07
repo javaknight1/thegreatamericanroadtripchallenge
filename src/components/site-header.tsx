@@ -24,6 +24,12 @@ export function SiteHeader() {
             Regions
           </Link>
           <Link
+            href="/calendar/"
+            className="rounded-full px-3 py-1.5 font-cond text-[13px] font-semibold tracking-wider text-canvas/70 uppercase transition-colors hover:text-canvas"
+          >
+            Calendar
+          </Link>
+          <Link
             href="/packing-list/"
             className="rounded-full px-3 py-1.5 font-cond text-[13px] font-semibold tracking-wider text-canvas/70 uppercase transition-colors hover:text-canvas"
           >

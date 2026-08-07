@@ -1,5 +1,5 @@
 import { itemsOf } from "@/lib/content";
-import type { Day, Item, Region, Stop, Trip } from "@/types/trip";
+import type { Coordinates, Day, Item, Region, Stop, Trip } from "@/types/trip";
 
 /**
  * Everything computed rather than authored. Nothing here is ever stored in the
@@ -90,6 +90,46 @@ export function regionStats(region: Region): RegionStats {
  * The master packing list: every `item.gear[]` in the trip, deduped
  * case-insensitively, counted, and tagged with the regions that need it.
  */
+/**
+ * Roughly how far the loop is, in miles.
+ *
+ * There are no distances in the content — only coordinates and drive times — so
+ * this is derived: great-circle distance between consecutive stops in trip
+ * order, closed back to the first stop (day 735 drives home to Boston), times a
+ * road-circuity factor because roads don't go in straight lines. 1.2 is the
+ * usual figure for long-haul US driving.
+ *
+ * Sanity check: the trip's own authored drive times total ~555 hours, which at
+ * 55 mph is ~30,500 miles. This method gives ~31,100. Two independent routes to
+ * the same number, so it's a fair thing to print — rounded, and never presented
+ * as exact.
+ */
+const ROAD_CIRCUITY = 1.2;
+const EARTH_RADIUS_MILES = 3958.8;
+
+export function routeMiles(trip: Trip): number {
+  const stops = allStops(trip);
+  if (stops.length < 2) return 0;
+
+  const toRadians = (degrees: number) => (degrees * Math.PI) / 180;
+  const between = (a: Coordinates, b: Coordinates) => {
+    const dLat = toRadians(b.lat - a.lat);
+    const dLng = toRadians(b.lng - a.lng);
+    const h =
+      Math.sin(dLat / 2) ** 2 +
+      Math.cos(toRadians(a.lat)) * Math.cos(toRadians(b.lat)) * Math.sin(dLng / 2) ** 2;
+    return 2 * EARTH_RADIUS_MILES * Math.asin(Math.sqrt(h));
+  };
+
+  let miles = 0;
+  for (let i = 1; i < stops.length; i += 1) {
+    miles += between(stops[i - 1].location, stops[i].location);
+  }
+  miles += between(stops.at(-1)!.location, stops[0].location);
+
+  return Math.round((miles * ROAD_CIRCUITY) / 100) * 100;
+}
+
 export function packingList(trip: Trip): PackingEntry[] {
   const entries = new Map<string, PackingEntry & { regionSet: Set<string> }>();
 

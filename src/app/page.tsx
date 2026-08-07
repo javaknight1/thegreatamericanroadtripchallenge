@@ -4,7 +4,7 @@ import { JsonLd } from "@/components/json-ld";
 import { NationalMap } from "@/components/national-map";
 import { StatTile } from "@/components/stat-tile";
 import { getTrip } from "@/lib/content";
-import { categoryUsage, regionStats, tripStats } from "@/lib/derive";
+import { categoryUsage, regionStats, routeMiles, tripStats } from "@/lib/derive";
 import { nationalMapData } from "@/lib/geo";
 import { regionTheme } from "@/lib/region-theme";
 import { tripSchema } from "@/lib/schema-org";
@@ -35,50 +35,16 @@ export default function HomePage() {
   // and the promise on the tin is 48.
   const stateCount = stats.states.filter((state) => state !== "DC").length;
 
-  // The very first written day of the loop — where "Start at Day 1" points.
-  const firstDay = trip.regions.flatMap((region) =>
-    region.stops.flatMap((stop) =>
-      stop.days.map((day) => ({ regionId: region.id, dayNumber: day.dayNumber })),
-    ),
-  )[0];
-
   return (
-    <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:py-16">
+    <div className="mx-auto max-w-4xl px-4 pt-5 pb-10 sm:px-6 sm:pt-8 sm:pb-16">
       <JsonLd data={tripSchema(trip)} />
 
       <section>
-        <p className="font-mono text-[10.5px] tracking-[0.22em] text-accent uppercase">
-          {trip.durationEstimate} · {stats.regions} legs · no flights
-        </p>
-        {/* The line breaks are deliberate — three claims, three lines — which
-            means the longest line can't wrap out of trouble on a narrow phone.
-            "One continuous loop." sets the ceiling: measured at a true 390px
-            viewport it fits at text-4xl with room to spare, and doesn't at the
-            next step up. Re-measure if the wording changes. */}
-        <h1 className="mt-3 font-display text-4xl leading-[0.95] tracking-wide uppercase sm:text-5xl md:text-6xl">
-          All {stateCount} states.
+        <h1 className="font-display text-[2.1rem] leading-[1.02] tracking-wide text-balance uppercase sm:text-[3.25rem] sm:leading-[0.98]">
+          The whole country,
           <br />
-          One continuous loop.
-          <br />
-          <span className="text-accent">Every day planned.</span>
+          <span className="text-accent">in the order it&apos;s best driven.</span>
         </h1>
-
-        <div className="mt-8 flex flex-wrap gap-2.5">
-          {firstDay && (
-            <Link
-              href={`/region/${firstDay.regionId}/day/${firstDay.dayNumber}/`}
-              className="rounded-lg bg-accent px-5 py-3 font-cond text-sm font-bold tracking-wider text-canvas uppercase"
-            >
-              Start at Day {firstDay.dayNumber}
-            </Link>
-          )}
-          <Link
-            href="/packing-list/"
-            className="rounded-lg border-[1.5px] border-ink px-5 py-3 font-cond text-sm font-bold tracking-wider uppercase"
-          >
-            What to pack
-          </Link>
-        </div>
       </section>
 
       {nation && (
@@ -97,7 +63,7 @@ export default function HomePage() {
         {/* "553h 55m" is precise and unreadable at a glance; hours is the unit
             anyone actually thinks in for a number this size. */}
         <StatTile value={`${Math.round(stats.driveTimeMins / 60)} hrs`} label="Behind the wheel" />
-        <StatTile value={stats.commuteDays} label="Drive days" />
+        <StatTile value={routeMiles(trip).toLocaleString("en-US")} label="Miles driven" />
       </section>
 
       <p className="mt-4 text-sm text-muted">

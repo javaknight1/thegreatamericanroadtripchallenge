@@ -21,6 +21,9 @@ export function SiteFooter() {
           <Link href="/#regions" className="transition-colors hover:text-gold">
             Regions
           </Link>
+          <Link href="/calendar/" className="transition-colors hover:text-gold">
+            Calendar
+          </Link>
           <Link
             href="/packing-list/"
             className="transition-colors hover:text-gold"
