@@ -1,0 +1,65 @@
+{
+  "id": "columbus",
+  "name": "Columbus",
+  "state": "OH",
+  "country": "US",
+  "order": 29,
+  "location": {
+    "lat": 39.9612,
+    "lng": -82.9988
+  },
+  "summary": "Ohio's capital and biggest city — a Greek-Revival statehouse, a hip arts district, and the brick streets of German Village.",
+  "lodging": [
+    {
+      "name": "A Short North or downtown hotel",
+      "blurb": "Near the galleries and restaurants.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Short%20North%20Columbus%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A cream puff & a food-hall crawl",
+      "blurb": "At the North Market."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 698,
+      "label": "Day 698 — Statehouse & German Village",
+      "type": "active",
+      "summary": "The capitol and the brick streets.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "columbus-statehouse",
+            "title": "Ohio Statehouse & German Village",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Ohio Statehouse",
+              "address": "1 Capitol Sq, Columbus, OH",
+              "lat": 39.9612,
+              "lng": -82.9988,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Ohio%20Statehouse"
+            },
+            "blurb": "The columned statehouse and the Short North arts district, plus the cobbled German Village and its famous Book Loft."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 699,
+      "label": "Day 699 — West to Dayton",
+      "type": "commute",
+      "summary": "To the birthplace of flight.",
+      "commute": {
+        "from": "Columbus, OH",
+        "to": "Dayton, OH",
+        "driveTimeMins": 90,
+        "scenicNote": "West to Dayton."
+      }
+    }
+  ]
+}

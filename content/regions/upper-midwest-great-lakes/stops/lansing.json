@@ -1,0 +1,65 @@
+{
+  "id": "lansing",
+  "name": "Lansing",
+  "state": "MI",
+  "country": "US",
+  "order": 26,
+  "location": {
+    "lat": 42.7325,
+    "lng": -84.5555
+  },
+  "summary": "Michigan's capital and, next door, the sprawling green campus of Michigan State.",
+  "lodging": [
+    {
+      "name": "A Lansing or East Lansing hotel",
+      "blurb": "Near the Capitol or MSU.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Lansing%20Michigan%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Michigan coney dog",
+      "blurb": "Chili, mustard, and onions."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 688,
+      "label": "Day 688 — Capitol & Campus",
+      "type": "active",
+      "summary": "The statehouse and MSU.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "lansing-capitol",
+            "title": "Michigan State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Michigan State Capitol",
+              "address": "100 N Capitol Ave, Lansing, MI",
+              "lat": 42.7335,
+              "lng": -84.5553,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Michigan%20State%20Capitol"
+            },
+            "blurb": "The restored Victorian capitol, plus the leafy Michigan State campus and the Michigan History Center."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 689,
+      "label": "Day 689 — East to Detroit",
+      "type": "commute",
+      "summary": "To the Motor City.",
+      "commute": {
+        "from": "Lansing, MI",
+        "to": "Detroit, MI",
+        "driveTimeMins": 90,
+        "scenicNote": "East to Detroit."
+      }
+    }
+  ]
+}

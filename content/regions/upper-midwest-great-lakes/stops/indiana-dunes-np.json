@@ -1,0 +1,69 @@
+{
+  "id": "indiana-dunes-np",
+  "name": "Indiana Dunes National Park",
+  "state": "IN",
+  "country": "US",
+  "order": 22,
+  "location": {
+    "lat": 41.6533,
+    "lng": -87.0524
+  },
+  "summary": "Fifteen miles of Lake Michigan beach and towering dunes, with the Chicago skyline shimmering across the water.",
+  "lodging": [
+    {
+      "name": "A Chesterton or Michigan City hotel",
+      "blurb": "Near the beaches.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Chesterton%20Indiana%20hotel%20dunes"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A lakeside ice cream",
+      "blurb": "After the dune climb."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 678,
+      "label": "Day 678 — Sand & Shore",
+      "type": "active",
+      "summary": "Climb the dunes.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "indiana-dunes-beach",
+            "title": "Indiana Dunes National Park",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Indiana Dunes National Park",
+              "address": "1215 IN-49, Porter, IN",
+              "lat": 41.6533,
+              "lng": -87.0524,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Indiana%20Dunes%20National%20Park"
+            },
+            "blurb": "Beaches, the 3 Dune Challenge, and one of the most biodiverse parks in the country.",
+            "gear": [
+              "swimsuit",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 679,
+      "label": "Day 679 — East to Grand Rapids",
+      "type": "commute",
+      "summary": "Around the lake into Michigan.",
+      "commute": {
+        "from": "Indiana Dunes National Park, IN",
+        "to": "Grand Rapids, MI",
+        "driveTimeMins": 150,
+        "scenicNote": "East into Michigan."
+      }
+    }
+  ]
+}

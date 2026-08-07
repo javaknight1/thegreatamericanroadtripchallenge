@@ -1,0 +1,83 @@
+{
+  "id": "cincinnati",
+  "name": "Cincinnati",
+  "state": "OH",
+  "country": "US",
+  "order": 31,
+  "location": {
+    "lat": 39.1031,
+    "lng": -84.512
+  },
+  "summary": "A handsome river city of hills and a famous chili — with a suspension bridge that was a rehearsal for Brooklyn's. The last stop in the Midwest.",
+  "lodging": [
+    {
+      "name": "A downtown or Over-the-Rhine hotel",
+      "blurb": "Near the riverfront and the breweries.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Over-the-Rhine%20Cincinnati%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Cincinnati chili (a 3-way)",
+      "blurb": "Chili over spaghetti with a mound of cheese — plus goetta."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 702,
+      "label": "Day 702 — The Riverfront",
+      "type": "active",
+      "summary": "Chili, a market, and a bridge.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "cincinnati-riverfront",
+            "title": "Riverfront & Findlay Market",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "John A. Roebling Suspension Bridge",
+              "address": "Roebling Suspension Bridge, Cincinnati, OH",
+              "lat": 39.0925,
+              "lng": -84.51,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=John%20A.%20Roebling%20Suspension%20Bridge"
+            },
+            "blurb": "Walk the Roebling Bridge (Brooklyn's prototype) and Smale Park, then Findlay Market and historic Over-the-Rhine."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "cincinnati-museum-center",
+            "title": "Cincinnati Museum Center at Union Terminal",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Cincinnati Museum Center",
+              "address": "1301 Western Ave, Cincinnati, OH",
+              "lat": 39.11,
+              "lng": -84.537,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Cincinnati%20Museum%20Center"
+            },
+            "blurb": "Three museums inside a stunning Art Deco train station."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 703,
+      "label": "Day 703 — East to Pittsburgh",
+      "type": "commute",
+      "summary": "Into Appalachia — the Midwest is done.",
+      "commute": {
+        "from": "Cincinnati, OH",
+        "to": "Pittsburgh, PA",
+        "driveTimeMins": 270,
+        "scenicNote": "East across the hills to Pittsburgh and the final leg home."
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "mackinac-island-traverse-city",
+  "name": "Mackinac Island & Traverse City",
+  "state": "MI",
+  "country": "US",
+  "order": 25,
+  "location": {
+    "lat": 45.8492,
+    "lng": -84.6189
+  },
+  "summary": "A car-free Victorian island of fudge and horse-drawn carriages at the top of the mitt, and the cherry-and-wine country and giant dunes to the south.",
+  "lodging": [
+    {
+      "name": "The Grand Hotel or a Mackinaw City base",
+      "blurb": "Splurge on the island, or stay on the mainland.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Grand%20Hotel%20Mackinac%20Island"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Mackinac Island fudge & a cherry pie",
+      "blurb": "Fudge on the island, cherries in Traverse City."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 685,
+      "label": "Day 685 — Mackinac Island",
+      "type": "active",
+      "summary": "No cars, just horses and fudge.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "mackinac-island",
+            "title": "Mackinac Island",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 360,
+            "location": {
+              "name": "Mackinac Island",
+              "address": "Mackinac Island, MI",
+              "lat": 45.8492,
+              "lng": -84.6189,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Mackinac%20Island"
+            },
+            "blurb": "Ferry to the island where cars are banned — bike the 8-mile shore loop, tour Fort Mackinac and the Grand Hotel, and buy fudge.",
+            "gear": [
+              "bike-friendly clothes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 686,
+      "label": "Day 686 — Sleeping Bear & the Wine",
+      "type": "active",
+      "summary": "Giant dunes and cherry country.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "traverse-city-sleeping-bear",
+            "title": "Sleeping Bear Dunes & Traverse City",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Sleeping Bear Dunes National Lakeshore",
+              "address": "9922 Front St, Empire, MI",
+              "lat": 44.799,
+              "lng": -86.058,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Sleeping%20Bear%20Dunes%20National%20Lakeshore"
+            },
+            "blurb": "The towering dune climb and the Lake Michigan Overlook, then Traverse City's cherry orchards and peninsula wineries.",
+            "gear": [
+              "water",
+              "sun protection"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 687,
+      "label": "Day 687 — South to Lansing",
+      "type": "commute",
+      "summary": "Down to the capital.",
+      "commute": {
+        "from": "Traverse City, MI",
+        "to": "Lansing, MI",
+        "driveTimeMins": 180,
+        "scenicNote": "South to Lansing."
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "grand-rapids",
+  "name": "Grand Rapids",
+  "state": "MI",
+  "country": "US",
+  "order": 23,
+  "location": {
+    "lat": 42.9634,
+    "lng": -85.6681
+  },
+  "summary": "'Beer City USA' on the Grand River — a world-class sculpture garden, a presidential museum, and a booming brewery scene.",
+  "lodging": [
+    {
+      "name": "A downtown Grand Rapids hotel",
+      "blurb": "Near the breweries and the river.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Grand%20Rapids%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A craft-beer flight",
+      "blurb": "Founders and dozens more in Beer City."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 680,
+      "label": "Day 680 — Gardens & a President",
+      "type": "active",
+      "summary": "Sculpture and Gerald Ford.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "end": "1:30 PM",
+          "item": {
+            "id": "grand-rapids-meijer-gardens",
+            "title": "Frederik Meijer Gardens & Sculpture Park",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Frederik Meijer Gardens & Sculpture Park",
+              "address": "1000 E Beltline Ave NE, Grand Rapids, MI",
+              "lat": 42.974,
+              "lng": -85.59,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Frederik%20Meijer%20Gardens%20%26%20Sculpture%20Park"
+            },
+            "blurb": "A magnificent garden and sculpture park — a da Vinci horse, a tropical conservatory, and works by the masters."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "grand-rapids-ford",
+            "title": "Gerald R. Ford Presidential Museum",
+            "categoryId": "museums-history",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Gerald R. Ford Presidential Museum",
+              "address": "303 Pearl St NW, Grand Rapids, MI",
+              "lat": 42.969,
+              "lng": -85.678,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Gerald%20R.%20Ford%20Presidential%20Museum"
+            },
+            "blurb": "The life and presidency of the hometown 38th president, on the riverfront."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 681,
+      "label": "Day 681 — To the Dutch coast",
+      "type": "commute",
+      "summary": "To tulips and windmills.",
+      "commute": {
+        "from": "Grand Rapids, MI",
+        "to": "Holland, MI",
+        "driveTimeMins": 45,
+        "scenicNote": "Southwest to Holland."
+      }
+    }
+  ]
+}

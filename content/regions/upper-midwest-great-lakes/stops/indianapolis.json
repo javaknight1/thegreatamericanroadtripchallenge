@@ -1,0 +1,109 @@
+{
+  "id": "indianapolis",
+  "name": "Indianapolis",
+  "state": "IN",
+  "country": "US",
+  "order": 21,
+  "location": {
+    "lat": 39.7684,
+    "lng": -86.1581
+  },
+  "summary": "The Racing Capital of the World — the hallowed Brickyard, a monument-ringed circle downtown, and the largest children's museum on earth.",
+  "lodging": [
+    {
+      "name": "A downtown hotel near Monument Circle",
+      "blurb": "Walkable to the canal and Mass Ave.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Indianapolis%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A pork tenderloin sandwich",
+      "blurb": "Indiana's plate-sized breaded classic."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 675,
+      "label": "Day 675 — The Brickyard",
+      "type": "active",
+      "summary": "The temple of speed.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "indy-speedway",
+            "title": "Indianapolis Motor Speedway",
+            "categoryId": "sports",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Indianapolis Motor Speedway",
+              "address": "4790 W 16th St, Indianapolis, IN",
+              "lat": 39.795,
+              "lng": -86.235,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Indianapolis%20Motor%20Speedway"
+            },
+            "blurb": "Kiss the bricks — a track tour and the museum at the home of the Indy 500."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 676,
+      "label": "Day 676 — Circle City",
+      "type": "active",
+      "summary": "Monuments and museums.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "indy-monument-circle",
+            "title": "Monument Circle & the Capitol",
+            "categoryId": "cities",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Soldiers' and Sailors' Monument",
+              "address": "1 Monument Cir, Indianapolis, IN",
+              "lat": 39.7684,
+              "lng": -86.158,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Soldiers%27%20and%20Sailors%27%20Monument"
+            },
+            "blurb": "The soaring war monument at the city's heart and the Indiana Statehouse nearby."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "indy-childrens-museum",
+            "title": "The Children's Museum of Indianapolis",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "The Children's Museum of Indianapolis",
+              "address": "3000 N Meridian St, Indianapolis, IN",
+              "lat": 39.81,
+              "lng": -86.158,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Children%27s%20Museum%20of%20Indianapolis"
+            },
+            "blurb": "The largest children's museum in the world — dinosaurs, a carousel, and a dragon."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 677,
+      "label": "Day 677 — Northwest to the Dunes",
+      "type": "commute",
+      "summary": "To the Lake Michigan shore.",
+      "commute": {
+        "from": "Indianapolis, IN",
+        "to": "Indiana Dunes National Park, IN",
+        "driveTimeMins": 150,
+        "scenicNote": "Northwest to the lakeshore dunes."
+      }
+    }
+  ]
+}

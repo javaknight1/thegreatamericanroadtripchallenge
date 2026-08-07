@@ -1,0 +1,94 @@
+{
+  "id": "frankenmuth-holland",
+  "name": "Frankenmuth & Holland",
+  "state": "MI",
+  "country": "US",
+  "order": 24,
+  "location": {
+    "lat": 42.7875,
+    "lng": -86.1089
+  },
+  "summary": "Two old-country transplants — a Dutch town of tulips and windmills on the lake, and a 'Little Bavaria' with the world's biggest Christmas store.",
+  "lodging": [
+    {
+      "name": "A Holland lakeshore inn, then Frankenmuth",
+      "blurb": "Dutch coast first, Bavaria second.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Holland%20Michigan%20lakeshore%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Zehnder's chicken dinner",
+      "blurb": "Frankenmuth's famous family-style feast."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 682,
+      "label": "Day 682 — Holland",
+      "type": "active",
+      "summary": "Tulips, windmills, and the big red light.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "holland-windmill",
+            "title": "Holland: Windmill Island & Big Red",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Windmill Island Gardens",
+              "address": "1 Lincoln Ave, Holland, MI",
+              "lat": 42.793,
+              "lng": -86.098,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Windmill%20Island%20Gardens"
+            },
+            "blurb": "An authentic Dutch windmill and tulip gardens (a riot of color at May's Tulip Time), plus the 'Big Red' lighthouse on the lake.",
+            "gear": [
+              "layers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 683,
+      "label": "Day 683 — Frankenmuth",
+      "type": "active",
+      "summary": "Little Bavaria.",
+      "blocks": [
+        {
+          "start": "11:00 AM",
+          "item": {
+            "id": "frankenmuth-bavaria",
+            "title": "Frankenmuth & Bronner's",
+            "categoryId": "quirky",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Bronner's CHRISTmas Wonderland",
+              "address": "25 Christmas Ln, Frankenmuth, MI",
+              "lat": 43.316,
+              "lng": -83.7,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Bronner%27s%20CHRISTmas%20Wonderland"
+            },
+            "blurb": "The Bavarian-themed town (a ~2.5-hr drive east) and Bronner's, the world's largest Christmas store — open year-round."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 684,
+      "label": "Day 684 — North to the Straits",
+      "type": "commute",
+      "summary": "Up to Mackinac.",
+      "commute": {
+        "from": "Frankenmuth, MI",
+        "to": "Mackinaw City, MI",
+        "driveTimeMins": 180,
+        "scenicNote": "North to the Straits of Mackinac."
+      }
+    }
+  ]
+}

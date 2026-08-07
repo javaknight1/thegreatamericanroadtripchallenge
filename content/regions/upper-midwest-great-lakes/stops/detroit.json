@@ -1,0 +1,120 @@
+{
+  "id": "detroit",
+  "name": "Detroit",
+  "state": "MI",
+  "country": "US",
+  "order": 27,
+  "location": {
+    "lat": 42.3314,
+    "lng": -83.0458
+  },
+  "summary": "The Motor City and the birthplace of Motown — a resurgent downtown, an incomparable history museum, and Diego Rivera's industrial masterpiece. A gateway to Canada, too.",
+  "lodging": [
+    {
+      "name": "A downtown Detroit hotel",
+      "blurb": "Near the RiverWalk and Campus Martius.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Detroit%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A coney dog & Detroit-style pizza",
+      "blurb": "Plus a paczki if the timing's right."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 690,
+      "label": "Day 690 — Motown & Downtown",
+      "type": "active",
+      "summary": "Where the music was made.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "detroit-motown",
+            "title": "Motown Museum & downtown",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Motown Museum",
+              "address": "2648 W Grand Blvd, Detroit, MI",
+              "lat": 42.364,
+              "lng": -83.085,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Motown%20Museum"
+            },
+            "blurb": "Hitsville U.S.A., where the hits were cut, then the revived downtown and the RiverWalk (Canada is right across the water)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 691,
+      "label": "Day 691 — The Henry Ford",
+      "type": "active",
+      "summary": "American history you can touch.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "detroit-henry-ford",
+            "title": "The Henry Ford & Greenfield Village",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 360,
+            "location": {
+              "name": "The Henry Ford",
+              "address": "20900 Oakwood Blvd, Dearborn, MI",
+              "lat": 42.304,
+              "lng": -83.234,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Henry%20Ford"
+            },
+            "blurb": "The bus Rosa Parks rode, the chair Lincoln died in, and a whole village of historic Americana in Dearborn.",
+            "gear": [
+              "walking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 692,
+      "label": "Day 692 — Rivera's Detroit",
+      "type": "active",
+      "summary": "Industry as art.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "detroit-dia",
+            "title": "Detroit Institute of Arts",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Detroit Institute of Arts",
+              "address": "5200 Woodward Ave, Detroit, MI",
+              "lat": 42.3593,
+              "lng": -83.0645,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Detroit%20Institute%20of%20Arts"
+            },
+            "blurb": "Diego Rivera's soaring 'Detroit Industry' murals anchor one of the great art museums (Toronto is a possible ~4-hr detour)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 693,
+      "label": "Day 693 — South to Cleveland",
+      "type": "commute",
+      "summary": "Around Lake Erie into Ohio.",
+      "commute": {
+        "from": "Detroit, MI",
+        "to": "Cleveland, OH",
+        "driveTimeMins": 180,
+        "scenicNote": "Southeast to Cleveland."
+      }
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "cleveland-cuyahoga-valley-np",
+  "name": "Cleveland & Cuyahoga Valley",
+  "state": "OH",
+  "country": "US",
+  "order": 28,
+  "location": {
+    "lat": 41.4993,
+    "lng": -81.6944
+  },
+  "summary": "The Rock Hall on Lake Erie, a superb free art museum, and a whole national park of waterfalls and a scenic railroad hiding between the city and Akron.",
+  "lodging": [
+    {
+      "name": "A downtown Cleveland hotel",
+      "blurb": "Near the lakefront and the Rock Hall.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Cleveland%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A West Side Market lunch",
+      "blurb": "Pierogi and a Polish Boy sandwich."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 694,
+      "label": "Day 694 — Rock & Roll",
+      "type": "active",
+      "summary": "The Hall of Fame on the lake.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "cleveland-rock-hall",
+            "title": "Rock & Roll Hall of Fame",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Rock & Roll Hall of Fame",
+              "address": "1100 Rock and Roll Blvd, Cleveland, OH",
+              "lat": 41.5085,
+              "lng": -81.6954,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Rock%20%26%20Roll%20Hall%20of%20Fame"
+            },
+            "blurb": "The glass pyramid on Lake Erie, packed with the artifacts and stories of rock history."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 695,
+      "label": "Day 695 — Cuyahoga Valley",
+      "type": "active",
+      "summary": "A park between the cities.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "cleveland-cuyahoga",
+            "title": "Cuyahoga Valley National Park",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Cuyahoga Valley National Park",
+              "address": "Cuyahoga Valley National Park, OH",
+              "lat": 41.2808,
+              "lng": -81.5678,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Cuyahoga%20Valley%20National%20Park"
+            },
+            "blurb": "Brandywine Falls, the Towpath Trail, and the scenic railroad winding through the valley to Akron.",
+            "gear": [
+              "hiking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 696,
+      "label": "Day 696 — Free Day",
+      "type": "free",
+      "summary": "Art, the market, or the lake. Options below.",
+      "freeMenu": [
+        {
+          "id": "cleveland-art-museum",
+          "title": "Cleveland Museum of Art",
+          "categoryId": "museums-history",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Cleveland Museum of Art",
+            "address": "11150 East Blvd, Cleveland, OH",
+            "lat": 41.509,
+            "lng": -81.612,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Cleveland%20Museum%20of%20Art"
+          },
+          "blurb": "A world-class collection, and free."
+        },
+        {
+          "id": "cleveland-west-side-market",
+          "title": "West Side Market",
+          "categoryId": "food-drink",
+          "tier": "low",
+          "durationMins": 120,
+          "location": {
+            "name": "West Side Market",
+            "address": "1979 W 25th St, Cleveland, OH",
+            "lat": 41.484,
+            "lng": -81.702,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=West%20Side%20Market"
+          },
+          "blurb": "A century-old public market of ethnic foods."
+        }
+      ]
+    },
+    {
+      "dayNumber": 697,
+      "label": "Day 697 — South to Columbus",
+      "type": "commute",
+      "summary": "To the state capital.",
+      "commute": {
+        "from": "Cleveland, OH",
+        "to": "Columbus, OH",
+        "driveTimeMins": 150,
+        "scenicNote": "South to Columbus."
+      }
+    }
+  ]
+}
