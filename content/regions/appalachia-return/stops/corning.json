@@ -1,0 +1,65 @@
+{
+  "id": "corning",
+  "name": "Corning",
+  "state": "NY",
+  "country": "US",
+  "order": 11,
+  "location": {
+    "lat": 42.1429,
+    "lng": -77.0547
+  },
+  "summary": "A glassmaking town with one of the most dazzling museums anywhere — a whole world of glass, with the furnaces lit.",
+  "lodging": [
+    {
+      "name": "A Corning Gaffer District inn",
+      "blurb": "On historic Market Street.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Corning%20New%20York%20Gaffer%20District%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Market Street bistro dinner",
+      "blurb": "In the walkable Gaffer District."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 729,
+      "label": "Day 729 — The Glass Museum",
+      "type": "active",
+      "summary": "Fire and glass.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "corning-glass",
+            "title": "The Corning Museum of Glass",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Corning Museum of Glass",
+              "address": "1 Museum Way, Corning, NY",
+              "lat": 42.15,
+              "lng": -77.051,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Corning%20Museum%20of%20Glass"
+            },
+            "blurb": "The world's largest glass collection, live glassblowing demos, and a chance to make your own — then the historic Gaffer District."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 730,
+      "label": "Day 730 — Northeast to Syracuse",
+      "type": "commute",
+      "summary": "Up toward the Adirondacks.",
+      "commute": {
+        "from": "Corning, NY",
+        "to": "Syracuse, NY",
+        "driveTimeMins": 120,
+        "scenicNote": "Northeast to Syracuse."
+      }
+    }
+  ]
+}

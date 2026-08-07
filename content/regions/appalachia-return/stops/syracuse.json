@@ -1,0 +1,65 @@
+{
+  "id": "syracuse",
+  "name": "Syracuse",
+  "state": "NY",
+  "country": "US",
+  "order": 12,
+  "location": {
+    "lat": 43.0481,
+    "lng": -76.1474
+  },
+  "summary": "The old Salt City on the Erie Canal, and the gateway to the Adirondacks.",
+  "lodging": [
+    {
+      "name": "A downtown Syracuse hotel",
+      "blurb": "Near the canal museum and Armory Square.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Syracuse%20New%20York%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Salt potatoes & a Hofmann coney",
+      "blurb": "Syracuse originals."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 731,
+      "label": "Day 731 — Canal & Art",
+      "type": "active",
+      "summary": "The waterway and a Pei museum.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "syracuse-erie-canal",
+            "title": "Erie Canal Museum & the Everson",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Erie Canal Museum",
+              "address": "318 Erie Blvd E, Syracuse, NY",
+              "lat": 43.051,
+              "lng": -76.149,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Erie%20Canal%20Museum"
+            },
+            "blurb": "The story of the canal that built New York, in the old Weighlock Building, plus I.M. Pei's Everson Museum of Art."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 732,
+      "label": "Day 732 — Southeast to Cooperstown",
+      "type": "commute",
+      "summary": "To baseball's shrine.",
+      "commute": {
+        "from": "Syracuse, NY",
+        "to": "Cooperstown, NY",
+        "driveTimeMins": 90,
+        "scenicNote": "Southeast to Cooperstown — the last stop."
+      }
+    }
+  ]
+}

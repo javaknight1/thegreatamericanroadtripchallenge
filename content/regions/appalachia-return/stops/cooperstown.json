@@ -1,0 +1,103 @@
+{
+  "id": "cooperstown",
+  "name": "Cooperstown",
+  "state": "NY",
+  "country": "US",
+  "order": 13,
+  "location": {
+    "lat": 42.7003,
+    "lng": -74.9241
+  },
+  "summary": "A storybook village on Otsego Lake and the home of the Baseball Hall of Fame — the final stop before the long loop closes back in New England.",
+  "lodging": [
+    {
+      "name": "The Otesaga or a village inn",
+      "blurb": "A grand lakeside resort, or a Main Street inn.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Cooperstown%20New%20York%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "An Ommegang beer & a lakeside dinner",
+      "blurb": "A fine last supper on the road."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 733,
+      "label": "Day 733 — The Hall of Fame",
+      "type": "active",
+      "summary": "Baseball's shrine.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "cooperstown-baseball-hall",
+            "title": "National Baseball Hall of Fame",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "National Baseball Hall of Fame and Museum",
+              "address": "25 Main St, Cooperstown, NY",
+              "lat": 42.7003,
+              "lng": -74.9241,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=National%20Baseball%20Hall%20of%20Fame%20and%20Museum"
+            },
+            "blurb": "The plaques, the artifacts, and the whole history of the game in a perfect little village."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 734,
+      "label": "Day 734 — Last Free Day",
+      "type": "free",
+      "summary": "The lake, a brewery, or one more museum. Options below.",
+      "freeMenu": [
+        {
+          "id": "cooperstown-otsego-lake",
+          "title": "Otsego Lake ('Glimmerglass')",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Otsego Lake",
+            "address": "Otsego Lake, Cooperstown, NY",
+            "lat": 42.78,
+            "lng": -74.89,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Otsego%20Lake"
+          },
+          "blurb": "A boat or a lakeshore walk on James Fenimore Cooper's 'Glimmerglass.'"
+        },
+        {
+          "id": "cooperstown-ommegang",
+          "title": "Brewery Ommegang & the Farmers' Museum",
+          "categoryId": "food-drink",
+          "tier": "low",
+          "durationMins": 180,
+          "location": {
+            "name": "Brewery Ommegang",
+            "address": "656 County Hwy 33, Cooperstown, NY",
+            "lat": 42.652,
+            "lng": -74.933,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Brewery%20Ommegang"
+          },
+          "blurb": "A Belgian-style brewery and the living-history Farmers' Museum."
+        }
+      ]
+    },
+    {
+      "dayNumber": 735,
+      "label": "Day 735 — Home to Boston",
+      "type": "commute",
+      "summary": "The loop closes.",
+      "commute": {
+        "from": "Cooperstown, NY",
+        "to": "Boston, MA",
+        "driveTimeMins": 270,
+        "scenicNote": "East across New England to Boston — where day 1 began. The great American road trip is complete."
+      }
+    }
+  ]
+}

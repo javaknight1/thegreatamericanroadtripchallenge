@@ -1,0 +1,117 @@
+{
+  "id": "finger-lakes",
+  "name": "The Finger Lakes",
+  "state": "NY",
+  "country": "US",
+  "order": 10,
+  "location": {
+    "lat": 42.3814,
+    "lng": -76.8674
+  },
+  "summary": "Eleven long glacial lakes lined with wineries and cut by spectacular waterfall gorges.",
+  "lodging": [
+    {
+      "name": "A lakeside inn near Watkins Glen or Ithaca",
+      "blurb": "On a wine-trail lake.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Watkins%20Glen%20New%20York%20lakeside%20inn"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Finger Lakes Riesling",
+      "blurb": "World-class cool-climate wine, farm-to-table food alongside."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 726,
+      "label": "Day 726 — Gorge & Vine",
+      "type": "active",
+      "summary": "A waterfall gorge and the wine trail.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "end": "12:00 PM",
+          "item": {
+            "id": "finger-lakes-watkins-glen",
+            "title": "Watkins Glen State Park",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Watkins Glen State Park",
+              "address": "1009 N Franklin St, Watkins Glen, NY",
+              "lat": 42.376,
+              "lng": -76.872,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Watkins%20Glen%20State%20Park"
+            },
+            "blurb": "Walk the gorge trail past 19 waterfalls, under and beside the cascades.",
+            "gear": [
+              "good shoes",
+              "water"
+            ]
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "finger-lakes-wine",
+            "title": "The Seneca Lake wine trail",
+            "categoryId": "food-drink",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Seneca Lake Wine Trail",
+              "address": "Seneca Lake, NY",
+              "lat": 42.67,
+              "lng": -76.94,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Seneca%20Lake%20Wine%20Trail"
+            },
+            "blurb": "Tasting rooms around the lake — famous for Riesling (a tour or driver is wise)."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 727,
+      "label": "Day 727 — Ithaca & the Falls",
+      "type": "active",
+      "summary": "Gorges and a college town.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "finger-lakes-ithaca",
+            "title": "Ithaca & Taughannock Falls",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Taughannock Falls State Park",
+              "address": "1740 Taughannock Blvd, Trumansburg, NY",
+              "lat": 42.545,
+              "lng": -76.608,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Taughannock%20Falls%20State%20Park"
+            },
+            "blurb": "A 215-ft plunge (higher than Niagara), and the gorges of Cornell in 'gorges' Ithaca.",
+            "gear": [
+              "hiking shoes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 728,
+      "label": "Day 728 — South to Corning",
+      "type": "commute",
+      "summary": "To the glass city.",
+      "commute": {
+        "from": "Ithaca, NY",
+        "to": "Corning, NY",
+        "driveTimeMins": 60,
+        "scenicNote": "South to Corning."
+      }
+    }
+  ]
+}
