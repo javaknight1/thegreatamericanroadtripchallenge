@@ -7,10 +7,13 @@ is the list to work from once the loop is fully written.
 Rob's standing instruction: add suggestions here as they come up, without asking
 first. Items are only removed when they're resolved or explicitly dropped.
 
-Last updated at **246 stops · 720 days · 788 items · all 48 states** — thirteen
-legs of fourteen complete, days 1–720 contiguous with no gaps, and **48/48
-capital cities and 48/48 states are written**. Only the Appalachia Return's last
-four stops remain.
+Last updated at **252 stops · 735 days · 800 items · all 48 states** — the
+itinerary is **complete**. All fourteen legs, days 1 through 735 contiguous with
+no gaps, 48/48 states and 48/48 capital cities, ending where it began in Boston.
+`validate` reports no warnings.
+
+Everything below is the backlog: things worth improving now that the baseline
+exists.
 
 ---
 
@@ -331,9 +334,12 @@ Indiana → Michigan → Ohio, which is geographically clean.
 
 ## 9. Where the trip stands
 
-Written: legs 1–12 complete, plus the Upper Midwest through Voyageurs — days
-1–649. Remaining: the rest of the Upper Midwest & Great Lakes (20 stops), and
-the Appalachia Return — 31 of 250 stops.
+**The trip is written.** 14 legs · 252 stops · 735 days · 800 things to do ·
+48 states · 48 capitals · 455 anchors · 48 free days · ~554 hours of driving.
+Day 1 opens in Boston; day 735 drives back into it.
+
+`plan.json` gained two stops that were authored but never planned — Rochester
+and Syracuse — so the manifest now stands at 252 against its original 250.
 
 Capitals: **48 of 48 — complete.** Madison (day 658) and Springfield (day 673)
 were the last two. Every state capital city on the mission statement's list now

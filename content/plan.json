@@ -1757,23 +1757,23 @@
           "plannedDays": 2
         },
         {
-          "id": "new-river-gorge-np",
+          "id": "charleston-wv",
           "order": 3,
+          "name": "Charleston",
+          "state": "WV",
+          "plannedDays": 2
+        },
+        {
+          "id": "new-river-gorge-np",
+          "order": 4,
           "name": "New River Gorge NP",
           "state": "WV",
           "plannedDays": 3
         },
         {
           "id": "seneca-rocks-monongahela",
-          "order": 4,
-          "name": "Seneca Rocks & Monongahela",
-          "state": "WV",
-          "plannedDays": 2
-        },
-        {
-          "id": "charleston-wv",
           "order": 5,
-          "name": "Charleston",
+          "name": "Seneca Rocks & Monongahela",
           "state": "WV",
           "plannedDays": 2
         },
@@ -1799,25 +1799,39 @@
           "plannedDays": 3
         },
         {
-          "id": "cooperstown",
+          "id": "rochester",
           "order": 9,
-          "name": "Cooperstown",
+          "name": "Rochester",
           "state": "NY",
           "plannedDays": 2
         },
         {
-          "id": "corning",
+          "id": "finger-lakes",
           "order": 10,
+          "name": "Finger Lakes",
+          "state": "NY",
+          "plannedDays": 3
+        },
+        {
+          "id": "corning",
+          "order": 11,
           "name": "Corning",
           "state": "NY",
           "plannedDays": 1
         },
         {
-          "id": "finger-lakes",
-          "order": 11,
-          "name": "Finger Lakes",
+          "id": "syracuse",
+          "order": 12,
+          "name": "Syracuse",
           "state": "NY",
-          "plannedDays": 3
+          "plannedDays": 2
+        },
+        {
+          "id": "cooperstown",
+          "order": 13,
+          "name": "Cooperstown",
+          "state": "NY",
+          "plannedDays": 2
         }
       ]
     }

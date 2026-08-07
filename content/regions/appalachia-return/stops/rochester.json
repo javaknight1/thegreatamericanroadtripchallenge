@@ -1,0 +1,83 @@
+{
+  "id": "rochester",
+  "name": "Rochester",
+  "state": "NY",
+  "country": "US",
+  "order": 9,
+  "location": {
+    "lat": 43.1566,
+    "lng": -77.6088
+  },
+  "summary": "The Kodak city on the Erie Canal — the world's oldest photography museum and one of the great museums of play.",
+  "lodging": [
+    {
+      "name": "A downtown Rochester hotel",
+      "blurb": "Near the museums and the canal.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Rochester%20New%20York%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A garbage plate",
+      "blurb": "Rochester's gloriously piled-high specialty."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 724,
+      "label": "Day 724 — Photography & Play",
+      "type": "active",
+      "summary": "Eastman and the Strong.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "rochester-eastman",
+            "title": "George Eastman Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "George Eastman Museum",
+              "address": "900 East Ave, Rochester, NY",
+              "lat": 43.152,
+              "lng": -77.581,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=George%20Eastman%20Museum"
+            },
+            "blurb": "The mansion and photography museum of the Kodak founder — the world's oldest."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "rochester-strong",
+            "title": "The Strong Museum of Play",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "The Strong National Museum of Play",
+              "address": "1 Manhattan Sq Dr, Rochester, NY",
+              "lat": 43.153,
+              "lng": -77.598,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Strong%20National%20Museum%20of%20Play"
+            },
+            "blurb": "A giant, joyful museum of toys and games, home to the National Toy Hall of Fame."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 725,
+      "label": "Day 725 — South to the lakes",
+      "type": "commute",
+      "summary": "Into wine and gorge country.",
+      "commute": {
+        "from": "Rochester, NY",
+        "to": "Finger Lakes, NY",
+        "driveTimeMins": 75,
+        "scenicNote": "South into the Finger Lakes."
+      }
+    }
+  ]
+}
