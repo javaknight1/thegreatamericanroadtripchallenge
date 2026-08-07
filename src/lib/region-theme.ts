@@ -29,7 +29,7 @@ export type RegionTheme = {
 
 const DEFAULT_THEME: RegionTheme = {
   accent: "#C2521C",
-  accentSoft: "#F0DFC9",
+  accentSoft: "#EBCFBA",
   canvas: "#ECE3D2",
   surface: "#F5EFE1",
   raised: "#E2D6BE",
@@ -42,8 +42,8 @@ const DEFAULT_THEME: RegionTheme = {
 
 const THEMES: Record<string, RegionTheme> = {
   "new-england": {
-    accent: "#B4401F",
-    accentSoft: "#F5DFC6",
+    accent: "#C13B26",
+    accentSoft: "#EBCABC",
     canvas: "#EFE4CE",
     surface: "#F8F0DF",
     raised: "#E4D5B8",
@@ -54,8 +54,8 @@ const THEMES: Record<string, RegionTheme> = {
     mood: "Foliage rust and maple gold",
   },
   "mid-atlantic": {
-    accent: "#8C4A2F",
-    accentSoft: "#EFDECD",
+    accent: "#7D5BA6",
+    accentSoft: "#DDD1D5",
     canvas: "#EAE2D5",
     surface: "#F4EEE3",
     raised: "#DED3C2",
@@ -63,11 +63,11 @@ const THEMES: Record<string, RegionTheme> = {
     land: "#242832",
     landStroke: "#414a5c",
     water: "#15171d",
-    mood: "Late-fall brick and slate",
+    mood: "Slate violet and late-fall haze",
   },
   "coastal-southeast": {
-    accent: "#2F7D6B",
-    accentSoft: "#DCEBE2",
+    accent: "#2E8B63",
+    accentSoft: "#CDDAC8",
     canvas: "#E9E7D9",
     surface: "#F4F2E6",
     raised: "#DCDAC8",
@@ -78,8 +78,8 @@ const THEMES: Record<string, RegionTheme> = {
     mood: "Live oak and Lowcountry green",
   },
   florida: {
-    accent: "#E0653C",
-    accentSoft: "#FBE2D5",
+    accent: "#EF7B2C",
+    accentSoft: "#F4D7BD",
     canvas: "#EFEAD9",
     surface: "#FAF6E8",
     raised: "#E2DCC6",
@@ -90,8 +90,8 @@ const THEMES: Record<string, RegionTheme> = {
     mood: "Turquoise water and coral sun",
   },
   "deep-south": {
-    accent: "#8E3B52",
-    accentSoft: "#F0D9DF",
+    accent: "#B03A6B",
+    accentSoft: "#E7CAC9",
     canvas: "#EDE4D6",
     surface: "#F7F0E4",
     raised: "#E0D4C1",
@@ -102,8 +102,8 @@ const THEMES: Record<string, RegionTheme> = {
     mood: "Mardi Gras plum and river brass",
   },
   "texas-south-plains": {
-    accent: "#B5591C",
-    accentSoft: "#F6E1CB",
+    accent: "#D2A24F",
+    accentSoft: "#EEDFC4",
     canvas: "#F0E6D2",
     surface: "#FAF2E2",
     raised: "#E5D8BE",
@@ -114,8 +114,8 @@ const THEMES: Record<string, RegionTheme> = {
     mood: "Sun-bleached ranch tan",
   },
   "desert-southwest": {
-    accent: "#B4432B",
-    accentSoft: "#F7DDD1",
+    accent: "#8A3A1F",
+    accentSoft: "#E0CABA",
     canvas: "#F2E5D6",
     surface: "#FBF1E4",
     raised: "#E8D6C2",
@@ -126,8 +126,8 @@ const THEMES: Record<string, RegionTheme> = {
     mood: "Red rock and adobe",
   },
   california: {
-    accent: "#C2711C",
-    accentSoft: "#F8E5C8",
+    accent: "#E2BB33",
+    accentSoft: "#F1E4BE",
     canvas: "#F1EADA",
     surface: "#FBF5E8",
     raised: "#E6DDC7",
@@ -138,8 +138,8 @@ const THEMES: Record<string, RegionTheme> = {
     mood: "Golden hills and Pacific fog",
   },
   "pacific-northwest": {
-    accent: "#1F6E72",
-    accentSoft: "#D7E9E7",
+    accent: "#1C716E",
+    accentSoft: "#CAD5CA",
     canvas: "#E7E9E0",
     surface: "#F2F4EC",
     raised: "#D9DCCF",
@@ -150,8 +150,8 @@ const THEMES: Record<string, RegionTheme> = {
     mood: "Evergreen and rain-grey",
   },
   "northern-rockies": {
-    accent: "#3A6A8C",
-    accentSoft: "#DAE6EF",
+    accent: "#4E93C6",
+    accentSoft: "#D4DCDC",
     canvas: "#E8E8E2",
     surface: "#F3F3EE",
     raised: "#D9DAD2",
@@ -162,8 +162,8 @@ const THEMES: Record<string, RegionTheme> = {
     mood: "Alpine blue and glacier grey",
   },
   "colorado-rockies": {
-    accent: "#9A4B2E",
-    accentSoft: "#F2DECF",
+    accent: "#6E7F8C",
+    accentSoft: "#DAD8D0",
     canvas: "#EEE7DA",
     surface: "#F8F2E7",
     raised: "#E1D8C6",
@@ -171,11 +171,11 @@ const THEMES: Record<string, RegionTheme> = {
     land: "#2a2822",
     landStroke: "#4f4a3a",
     water: "#191811",
-    mood: "Aspen gold and granite",
+    mood: "Granite grey and high-country haze",
   },
   "great-plains": {
-    accent: "#A5761B",
-    accentSoft: "#F5E6C6",
+    accent: "#8F6526",
+    accentSoft: "#E1D3BC",
     canvas: "#F0E9D5",
     surface: "#FAF4E4",
     raised: "#E5DCC1",
@@ -186,8 +186,8 @@ const THEMES: Record<string, RegionTheme> = {
     mood: "Prairie wheat and big sky",
   },
   "upper-midwest-great-lakes": {
-    accent: "#2A5E8C",
-    accentSoft: "#D9E5F0",
+    accent: "#27548A",
+    accentSoft: "#CCCFD0",
     canvas: "#E8E9E4",
     surface: "#F3F4F0",
     raised: "#D9DBD3",
@@ -198,8 +198,8 @@ const THEMES: Record<string, RegionTheme> = {
     mood: "Great Lakes blue and birch",
   },
   "appalachia-return": {
-    accent: "#7A4A28",
-    accentSoft: "#EEDECB",
+    accent: "#5C7A3C",
+    accentSoft: "#D6D7C0",
     canvas: "#ECE5D6",
     surface: "#F6F0E3",
     raised: "#DFD5C1",
@@ -207,7 +207,7 @@ const THEMES: Record<string, RegionTheme> = {
     land: "#232a22",
     landStroke: "#3f4c3c",
     water: "#151a14",
-    mood: "Ridge-and-valley bronze",
+    mood: "Ridge-and-valley moss",
   },
 };
 
