@@ -1,0 +1,94 @@
+{
+  "id": "niagara-falls-buffalo",
+  "name": "Niagara Falls & Buffalo",
+  "state": "NY",
+  "country": "US",
+  "order": 8,
+  "location": {
+    "lat": 43.0962,
+    "lng": -79.0377
+  },
+  "summary": "One of the world's great waterfalls, and a resurgent lake city of Frank Lloyd Wright architecture and the original Buffalo wing.",
+  "lodging": [
+    {
+      "name": "A Niagara Falls or Buffalo hotel",
+      "blurb": "By the falls, or in revived downtown Buffalo.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Niagara%20Falls%20New%20York%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Buffalo wings & beef on weck",
+      "blurb": "At the Anchor Bar, where the wing was born."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 721,
+      "label": "Day 721 — The Falls",
+      "type": "active",
+      "summary": "Into the mist.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "niagara-falls",
+            "title": "Niagara Falls & the Maid of the Mist",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Niagara Falls State Park",
+              "address": "332 Prospect St, Niagara Falls, NY",
+              "lat": 43.0828,
+              "lng": -79.0648,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Niagara%20Falls%20State%20Park"
+            },
+            "blurb": "The thundering American and Horseshoe Falls — ride the Maid of the Mist and walk the Cave of the Winds into the spray (the oldest state park in the country).",
+            "gear": [
+              "poncho / rain gear"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 722,
+      "label": "Day 722 — Buffalo",
+      "type": "active",
+      "summary": "Wings and Wright.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "buffalo-martin-house",
+            "title": "The Martin House & the AKG",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Frank Lloyd Wright's Martin House",
+              "address": "125 Jewett Pkwy, Buffalo, NY",
+              "lat": 42.941,
+              "lng": -78.846,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Frank%20Lloyd%20Wright%27s%20Martin%20House"
+            },
+            "blurb": "Frank Lloyd Wright's Prairie masterpiece, plus the superb Buffalo AKG Art Museum and the revived Canalside."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 723,
+      "label": "Day 723 — East to Rochester",
+      "type": "commute",
+      "summary": "Along the Erie Canal.",
+      "commute": {
+        "from": "Niagara Falls, NY",
+        "to": "Rochester, NY",
+        "driveTimeMins": 90,
+        "scenicNote": "East to Rochester."
+      }
+    }
+  ]
+}

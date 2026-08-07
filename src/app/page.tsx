@@ -1,26 +1,39 @@
 import Link from "next/link";
 import { CategoryDot } from "@/components/category-badge";
+import { JsonLd } from "@/components/json-ld";
 import { NationalMap } from "@/components/national-map";
 import { StatTile } from "@/components/stat-tile";
-import { getRegionPlan, getTrip } from "@/lib/content";
+import { getTrip } from "@/lib/content";
 import { categoryUsage, regionStats, tripStats } from "@/lib/derive";
-import { formatDuration } from "@/lib/format";
 import { nationalMapData } from "@/lib/geo";
 import { regionTheme } from "@/lib/region-theme";
-import { JsonLd } from "@/components/json-ld";
 import { tripSchema } from "@/lib/schema-org";
 
+/**
+ * The home page answers one question — what is this? — and then gets out of the
+ * way. Headline, map, numbers, the route, and two links.
+ *
+ * The map sits directly under the headline because it *is* the pitch: a reader
+ * understands "one continuous loop through all 48 states" from the picture in
+ * about a second, faster than any paragraph could tell them. Everything below
+ * it is supporting evidence, ordered by how much a first-time visitor cares.
+ */
 export default function HomePage() {
   const trip = getTrip();
   const stats = tripStats(trip);
   const usage = categoryUsage(trip);
+
+  // `commuting` and `free-rest` are assigned by the renderer to drive and rest
+  // blocks — no authored item can carry them, so they'd always read "0" here
+  // and look like holes in the coverage. They're explained in the copy instead.
+  const activityCategories = trip.categories.filter(
+    (category) => category.id !== "commuting" && category.id !== "free-rest",
+  );
   const nation = nationalMapData(trip.regions);
-  const legend = trip.regions
-    .filter((region) => region.stops.length > 0)
-    .map((region) => {
-      const info = regionStats(region);
-      return { id: region.id, name: region.name, days: info.days, stops: info.stops };
-    });
+
+  // DC is in the data (the Mid-Atlantic runs through it) but it isn't a state,
+  // and the promise on the tin is 48.
+  const stateCount = stats.states.filter((state) => state !== "DC").length;
 
   // The very first written day of the loop — where "Start at Day 1" points.
   const firstDay = trip.regions.flatMap((region) =>
@@ -30,21 +43,27 @@ export default function HomePage() {
   )[0];
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-14">
+    <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:py-16">
       <JsonLd data={tripSchema(trip)} />
+
       <section>
         <p className="font-mono text-[10.5px] tracking-[0.22em] text-accent uppercase">
-          {stats.states.length} states so far · {trip.durationEstimate} · one
-          continuous loop
+          {trip.durationEstimate} · {stats.regions} legs · no flights
         </p>
-        <h1 className="mt-3 font-display text-4xl leading-[0.95] tracking-wide text-balance uppercase sm:text-6xl">
-          {trip.tagline}
+        {/* The line breaks are deliberate — three claims, three lines — which
+            means the longest line can't wrap out of trouble on a narrow phone.
+            "One continuous loop." sets the ceiling: measured at a true 390px
+            viewport it fits at text-4xl with room to spare, and doesn't at the
+            next step up. Re-measure if the wording changes. */}
+        <h1 className="mt-3 font-display text-4xl leading-[0.95] tracking-wide uppercase sm:text-5xl md:text-6xl">
+          All {stateCount} states.
+          <br />
+          One continuous loop.
+          <br />
+          <span className="text-accent">Every day planned.</span>
         </h1>
-        <p className="mt-5 max-w-2xl text-[15px] leading-relaxed text-ink-soft sm:text-base">
-          {trip.mission}
-        </p>
 
-        <div className="mt-7 flex flex-wrap gap-2.5">
+        <div className="mt-8 flex flex-wrap gap-2.5">
           {firstDay && (
             <Link
               href={`/region/${firstDay.regionId}/day/${firstDay.dayNumber}/`}
@@ -60,152 +79,131 @@ export default function HomePage() {
             What to pack
           </Link>
         </div>
-
-        <p className="mt-6 max-w-2xl rounded-xl border border-hairline bg-surface p-4 text-sm">
-          <span className="font-cond font-bold tracking-wide uppercase">
-            Where to begin:{" "}
-          </span>
-          <span className="text-ink-soft">{trip.recommendedStart}</span>
-        </p>
-      </section>
-
-      <section className="mt-10 grid grid-cols-2 gap-2.5 sm:grid-cols-4">
-        <StatTile value={stats.days} label="Days mapped" />
-        <StatTile value={stats.stops} label="Stops" />
-        <StatTile value={stats.items} label="Things to do" />
-        <StatTile value={stats.freeDays} label="Free days" />
       </section>
 
       {nation && (
         <section className="mt-10">
-          <NationalMap map={nation} base={legend} />
-          <p className="mt-3 text-sm text-muted">
-            Every leg written so far, on one map — {stats.stops} stops through{" "}
-            {stats.states.length} of the 48 states. The dark states are the ones
-            still to come.
-          </p>
+          <NationalMap map={nation} />
         </section>
       )}
 
+      <section className="mt-10 grid grid-cols-2 gap-2.5 sm:grid-cols-4">
+        <StatTile value={stats.days} label="Days planned" />
+        <StatTile value={stats.stops} label="Cities & towns" />
+        <StatTile value={stats.items} label="Things to do" />
+        <StatTile value={stateCount} label="States" />
+        <StatTile value={stats.anchors} label="Must-dos" />
+        <StatTile value={stats.freeDays} label="Free days" />
+        {/* "553h 55m" is precise and unreadable at a glance; hours is the unit
+            anyone actually thinks in for a number this size. */}
+        <StatTile value={`${Math.round(stats.driveTimeMins / 60)} hrs`} label="Behind the wheel" />
+        <StatTile value={stats.commuteDays} label="Drive days" />
+      </section>
+
+      <p className="mt-4 text-sm text-muted">
+        <span className="font-cond font-bold tracking-wide text-ink uppercase">
+          Best time to start:{" "}
+        </span>
+        {trip.recommendedStart}
+      </p>
+
       <section id="regions" className="mt-14 scroll-mt-20">
         <h2 className="font-display text-2xl tracking-wide uppercase sm:text-3xl">
-          The route, region by region
+          The route
         </h2>
         <p className="mt-2 max-w-2xl text-sm text-ink-soft">
           The loop runs clockwise and chases the seasons — each leg is timed for
           the weather that makes it worth being there.
         </p>
 
-        <ol className="mt-5 space-y-3">
+        {/*
+          One line per leg. The summaries live on the region pages; repeating
+          fourteen of them here was the single busiest thing on this page.
+        */}
+        <ol className="mt-5 divide-y divide-hairline overflow-hidden rounded-xl border border-hairline bg-surface">
           {trip.regions.map((region) => {
             const info = regionStats(region);
-            const plan = getRegionPlan(region.id);
-            const written = region.stops.length > 0;
             return (
               <li key={region.id}>
                 <Link
                   href={`/region/${region.id}/`}
-                  className="block overflow-hidden rounded-xl border border-hairline bg-surface"
+                  className="flex items-center gap-3 px-4 py-3 transition-colors hover:bg-raised sm:gap-4 sm:px-5"
                 >
-                  <div className="flex">
-                    <div
-                      aria-hidden
-                      className="w-2 shrink-0"
-                      style={{ backgroundColor: regionTheme(region.id).accent }}
-                    />
-                    <div className="min-w-0 flex-1 p-4 sm:p-5">
-                      <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                        <span className="font-mono text-[10px] tracking-[0.18em] text-muted uppercase">
-                          Leg {region.order}
-                        </span>
-                        <h3 className="font-display text-xl tracking-wide uppercase">
-                          {region.name}
-                        </h3>
-                        <span className="rounded-full border border-hairline bg-raised px-2.5 py-0.5 font-cond text-[11px] font-bold tracking-wider uppercase">
-                          {region.season}
-                        </span>
-                      </div>
-                      <p className="mt-2 text-sm text-ink-soft">
-                        {region.summary}
-                      </p>
-                      <p className="mt-3 font-mono text-[10.5px] text-muted">
-                        {written
-                          ? `${info.stops} stops · ${info.days} days · ${info.states.join(", ")}`
-                          : `${plan?.plannedStops ?? 0} stops planned · ~${plan?.plannedDays ?? 0} days · not yet written`}
-                      </p>
-                    </div>
-                  </div>
+                  <span
+                    aria-hidden
+                    className="size-2.5 shrink-0 rounded-full"
+                    style={{ backgroundColor: regionTheme(region.id).accent }}
+                  />
+                  <span className="font-mono text-[10px] text-muted tabular-nums">
+                    {String(region.order).padStart(2, "0")}
+                  </span>
+                  <span className="min-w-0 flex-1">
+                    <span className="block truncate font-cond text-[17px] font-bold tracking-wide uppercase">
+                      {region.name}
+                    </span>
+                    <span className="block truncate font-mono text-[10px] text-muted">
+                      {info.states.join(" · ")}
+                    </span>
+                  </span>
+                  <span className="shrink-0 text-right font-mono text-[10.5px] text-muted tabular-nums">
+                    {info.stops} stops
+                    <span className="block">{info.days} days</span>
+                  </span>
                 </Link>
               </li>
             );
           })}
         </ol>
-
-        <p className="mt-4 rounded-xl border border-dashed border-hairline p-4 text-sm text-muted">
-          More legs are being written region by region, clockwise around the
-          country. Everything published here is final — it just isn&apos;t
-          finished yet.
-        </p>
       </section>
 
       <section className="mt-14">
         <h2 className="font-display text-2xl tracking-wide uppercase sm:text-3xl">
-          Everything is color-coded
+          Color-coded, end to end
         </h2>
         <p className="mt-2 max-w-2xl text-sm text-ink-soft">
-          Every activity belongs to one of {trip.categories.length} categories.
-          Counts show what&apos;s published so far.
+          Every activity belongs to one of {activityCategories.length}{" "}
+          categories and carries a duration, a map link, and a priority. Drives
+          and rest get their own shades on the day&apos;s timeline.
         </p>
-        <ul className="mt-5 grid grid-cols-1 gap-x-6 gap-y-2.5 sm:grid-cols-2">
-          {trip.categories.map((category) => {
-            const count = usage.get(category.id) ?? 0;
-            return (
-              <li
-                key={category.id}
-                className={`flex items-center justify-between gap-3 ${count ? "" : "opacity-45"}`}
-              >
-                <CategoryDot category={category} />
-                <span className="font-mono text-[10.5px] text-muted">
-                  {count}
-                </span>
-              </li>
-            );
-          })}
+        <ul className="mt-5 flex flex-wrap gap-x-4 gap-y-2">
+          {activityCategories.map((category) => (
+            <li key={category.id} className="flex items-center gap-1.5">
+              <CategoryDot category={category} />
+              <span className="font-mono text-[10px] text-muted tabular-nums">
+                {usage.get(category.id) ?? 0}
+              </span>
+            </li>
+          ))}
         </ul>
       </section>
 
-      <section className="mt-14 rounded-xl border border-hairline bg-surface p-5 sm:p-6">
-        <h2 className="font-display text-xl tracking-wide uppercase">
-          How to read the itinerary
-        </h2>
-        <dl className="mt-4 grid gap-4 sm:grid-cols-3">
-          <div>
-            <dt className="font-cond text-[15px] font-bold tracking-wide uppercase">
-              Full days
-            </dt>
-            <dd className="mt-1 text-sm text-ink-soft">
-              Planned hour by hour, from morning through the evening.
-            </dd>
-          </div>
-          <div>
-            <dt className="font-cond text-[15px] font-bold tracking-wide uppercase">
-              Free days
-            </dt>
-            <dd className="mt-1 text-sm text-ink-soft">
-              Empty on purpose. {stats.freeDays} of the {stats.days} days so far
-              are yours.
-            </dd>
-          </div>
-          <div>
-            <dt className="font-cond text-[15px] font-bold tracking-wide uppercase">
-              Drive days
-            </dt>
-            <dd className="mt-1 text-sm text-ink-soft">
-              {formatDuration(stats.driveTimeMins)} of driving mapped so far,
-              with the stops worth pulling over for.
-            </dd>
-          </div>
-        </dl>
+      <section className="mt-14 grid gap-4 rounded-xl border border-hairline bg-surface p-5 sm:grid-cols-3 sm:p-6">
+        <div>
+          <p className="font-cond text-[15px] font-bold tracking-wide uppercase">
+            Full days
+          </p>
+          <p className="mt-1 text-sm text-ink-soft">
+            {stats.activeDays} days planned hour by hour, morning to evening.
+          </p>
+        </div>
+        <div>
+          <p className="font-cond text-[15px] font-bold tracking-wide uppercase">
+            Free days
+          </p>
+          <p className="mt-1 text-sm text-ink-soft">
+            {stats.freeDays} days left open on purpose, with suggestions if you
+            want them.
+          </p>
+        </div>
+        <div>
+          <p className="font-cond text-[15px] font-bold tracking-wide uppercase">
+            Drive days
+          </p>
+          <p className="mt-1 text-sm text-ink-soft">
+            {stats.commuteDays} days on the road, with the stops worth pulling
+            over for.
+          </p>
+        </div>
       </section>
     </div>
   );
