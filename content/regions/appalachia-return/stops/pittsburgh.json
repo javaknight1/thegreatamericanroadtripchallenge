@@ -1,0 +1,147 @@
+{
+  "id": "pittsburgh",
+  "name": "Pittsburgh",
+  "state": "PA",
+  "country": "US",
+  "order": 1,
+  "location": {
+    "lat": 40.4406,
+    "lng": -79.9959
+  },
+  "summary": "The steel city reborn — three rivers, a fabled hilltop view up an incline, a city of bridges, and the world's biggest Warhol collection.",
+  "lodging": [
+    {
+      "name": "A downtown or Mount Washington hotel",
+      "blurb": "Near the Point or above it, for the view.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Pittsburgh%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A Primanti Bros sandwich",
+      "blurb": "Fries and slaw piled right inside."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 704,
+      "label": "Day 704 — Three Rivers & the Incline",
+      "type": "active",
+      "summary": "The Point and the view.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "pittsburgh-incline",
+            "title": "Duquesne Incline & the Point",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Duquesne Incline",
+              "address": "1197 W Carson St, Pittsburgh, PA",
+              "lat": 40.46,
+              "lng": -80.017,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Duquesne%20Incline"
+            },
+            "blurb": "Ride the 1877 incline up Mount Washington for the classic view where the three rivers meet at Point State Park."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 705,
+      "label": "Day 705 — Warhol & the Strip",
+      "type": "active",
+      "summary": "Pop art and a food street.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "pittsburgh-warhol",
+            "title": "The Andy Warhol Museum",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "The Andy Warhol Museum",
+              "address": "117 Sandusky St, Pittsburgh, PA",
+              "lat": 40.448,
+              "lng": -80.002,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Andy%20Warhol%20Museum"
+            },
+            "blurb": "The largest museum devoted to a single artist — the hometown pop icon."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "pittsburgh-strip",
+            "title": "The Strip District",
+            "categoryId": "food-drink",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Strip District",
+              "address": "Penn Ave, Pittsburgh, PA",
+              "lat": 40.451,
+              "lng": -79.982,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Strip%20District"
+            },
+            "blurb": "A market street of ethnic groceries, delis, and Steelers gear."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 706,
+      "label": "Day 706 — Free Day",
+      "type": "free",
+      "summary": "Gardens, dinosaurs, or a ballgame. Options below.",
+      "freeMenu": [
+        {
+          "id": "pittsburgh-phipps",
+          "title": "Phipps Conservatory",
+          "categoryId": "outdoor-water",
+          "tier": "low",
+          "durationMins": 150,
+          "location": {
+            "name": "Phipps Conservatory",
+            "address": "1 Schenley Dr, Pittsburgh, PA",
+            "lat": 40.439,
+            "lng": -79.948,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Phipps%20Conservatory"
+          },
+          "blurb": "A Victorian glasshouse of gardens in Schenley Park."
+        },
+        {
+          "id": "pittsburgh-pnc-park",
+          "title": "A Pirates game at PNC Park",
+          "categoryId": "sports",
+          "tier": "low",
+          "durationMins": 210,
+          "location": {
+            "name": "PNC Park",
+            "address": "115 Federal St, Pittsburgh, PA",
+            "lat": 40.4469,
+            "lng": -80.0057,
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=PNC%20Park"
+          },
+          "blurb": "Widely called the best view in baseball, across the river."
+        }
+      ]
+    },
+    {
+      "dayNumber": 707,
+      "label": "Day 707 — Southeast to Fallingwater",
+      "type": "commute",
+      "summary": "Into the Laurel Highlands.",
+      "commute": {
+        "from": "Pittsburgh, PA",
+        "to": "Fallingwater, PA",
+        "driveTimeMins": 90,
+        "scenicNote": "Southeast into the mountains."
+      }
+    }
+  ]
+}

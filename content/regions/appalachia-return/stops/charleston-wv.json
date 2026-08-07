@@ -1,0 +1,65 @@
+{
+  "id": "charleston-wv",
+  "name": "Charleston",
+  "state": "WV",
+  "country": "US",
+  "order": 3,
+  "location": {
+    "lat": 38.3498,
+    "lng": -81.6326
+  },
+  "summary": "West Virginia's capital on the Kanawha River, crowned by a gold-domed statehouse taller than the U.S. Capitol.",
+  "lodging": [
+    {
+      "name": "A downtown Charleston hotel",
+      "blurb": "Near the Capitol and the river.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Charleston%20West%20Virginia%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A pepperoni roll",
+      "blurb": "West Virginia's coal-country staple."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 710,
+      "label": "Day 710 — The Gold Dome",
+      "type": "active",
+      "summary": "The statehouse on the river.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "charleston-wv-capitol",
+            "title": "West Virginia State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "West Virginia State Capitol",
+              "address": "1900 Kanawha Blvd E, Charleston, WV",
+              "lat": 38.336,
+              "lng": -81.612,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=West%20Virginia%20State%20Capitol"
+            },
+            "blurb": "Cass Gilbert's gold-domed capitol — taller than the U.S. Capitol — with the state museum and Culture Center alongside."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 711,
+      "label": "Day 711 — Southeast to the gorge",
+      "type": "commute",
+      "summary": "To the newest national park.",
+      "commute": {
+        "from": "Charleston, WV",
+        "to": "New River Gorge National Park, WV",
+        "driveTimeMins": 75,
+        "scenicNote": "Southeast to the New River Gorge."
+      }
+    }
+  ]
+}

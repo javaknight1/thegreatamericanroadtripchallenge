@@ -342,10 +342,16 @@ Capitals: **43 of 48 capital cities written** — Des Moines (day 636) and Saint
 Paul (day 642) join. Five left: Springfield, Indianapolis, Lansing, Columbus,
 Madison — all in the Upper Midwest leg, which still has 20 stops to go.
 
-**The capitals check can produce false positives.** `scripts/dev/audit.ts`
-matches a capital by testing whether any stop name *contains* the city name, so
-"Mount Hood & the Columbia Gorge" satisfies Columbia, SC, and a future "Jackson
-Hole" would satisfy Jackson, MS. Both of those capitals are genuinely written, so
-nothing is wrong today — but the check will quietly over-report as the western
-legs land. **Suggestion:** match on stop `state` as well as name.
+**The capitals check produced a real false positive — confirmed, now moot.**
+`scripts/dev/audit.ts` matches a capital by testing whether any stop name
+*contains* the city name, with no state check. **Charleston, SC** (Coastal
+Southeast, not a capital) was therefore satisfying **Charleston, WV** (a
+capital), and the audit reported 46/48 when the true figure was 45/48. Writing
+Charleston, WV on day 710 closed the gap by accident, so the number is correct
+again — but it was wrong for several legs and nothing surfaced it.
+
+The same shape still lurks: "Mount Hood & the Columbia Gorge" satisfies
+Columbia, SC, and a future "Jackson Hole" would satisfy Jackson, MS. Both are
+genuinely written, so no live error today. **Suggestion:** match on stop `state`
+as well as name — a two-line change that would have caught this.
 (Though see §5 — three of those capitals have no `capitols` item.)

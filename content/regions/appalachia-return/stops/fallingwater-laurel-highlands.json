@@ -1,0 +1,87 @@
+{
+  "id": "fallingwater-laurel-highlands",
+  "name": "Fallingwater & the Laurel Highlands",
+  "state": "PA",
+  "country": "US",
+  "order": 2,
+  "location": {
+    "lat": 39.906,
+    "lng": -79.4681
+  },
+  "summary": "Frank Lloyd Wright's masterpiece cantilevered over a waterfall, in a mountain region of whitewater and forest.",
+  "lodging": [
+    {
+      "name": "A Laurel Highlands lodge",
+      "blurb": "Near Ohiopyle and the FLW houses.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Laurel%20Highlands%20Pennsylvania%20lodge"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A mountain-lodge dinner",
+      "blurb": "Hearty highland fare."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 708,
+      "label": "Day 708 — Fallingwater & Ohiopyle",
+      "type": "active",
+      "summary": "A house on a waterfall, and the river.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "end": "12:30 PM",
+          "item": {
+            "id": "fallingwater-house",
+            "title": "Fallingwater",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Fallingwater",
+              "address": "1491 Mill Run Rd, Mill Run, PA",
+              "lat": 39.906,
+              "lng": -79.4681,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Fallingwater"
+            },
+            "blurb": "Wright's most famous house, built out over the falls of Bear Run — book the tour ahead."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "laurel-highlands-ohiopyle",
+            "title": "Ohiopyle State Park",
+            "categoryId": "outdoor-water",
+            "tier": "mid",
+            "durationMins": 180,
+            "location": {
+              "name": "Ohiopyle State Park",
+              "address": "Ohiopyle, PA",
+              "lat": 39.869,
+              "lng": -79.492,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Ohiopyle%20State%20Park"
+            },
+            "blurb": "Waterfalls, whitewater on the Youghiogheny, and the Great Allegheny Passage bike trail.",
+            "gear": [
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 709,
+      "label": "Day 709 — South to Charleston",
+      "type": "commute",
+      "summary": "Down into West Virginia.",
+      "commute": {
+        "from": "Fallingwater, PA",
+        "to": "Charleston, WV",
+        "driveTimeMins": 210,
+        "scenicNote": "South into West Virginia's capital."
+      }
+    }
+  ]
+}
