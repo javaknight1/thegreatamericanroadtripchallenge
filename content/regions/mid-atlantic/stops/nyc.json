@@ -126,7 +126,7 @@
       "dayNumber": 72,
       "label": "Day 72 — Midtown Icons",
       "type": "active",
-      "summary": "The skyline from above and the heart of Midtown.",
+      "summary": "The skyline from above, the heart of Midtown, and the great room under the stars.",
       "blocks": [
         {
           "start": "9:00 AM",
@@ -182,6 +182,24 @@
               "mapLink": "https://www.google.com/maps/search/?api=1&query=New%20York%20Public%20Library"
             },
             "blurb": "The lion-guarded main library and the park behind it."
+          }
+        },
+        {
+          "start": "5:00 PM",
+          "item": {
+            "id": "nyc-grand-central",
+            "title": "Grand Central Terminal",
+            "categoryId": "landmarks",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "Grand Central Terminal",
+              "address": "89 E 42nd St, New York, NY",
+              "lat": 40.7527,
+              "lng": -73.9772,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Grand%20Central%20Terminal"
+            },
+            "blurb": "Two blocks east along 42nd Street and one of the great rooms in America: a marble concourse under a turquoise ceiling painted with the constellations — backwards, as it happens, and nobody has ever fixed it. Stand on the ramp for the evening rush, find the whispering gallery outside the Oyster Bar, and eat downstairs if you're hungry."
           }
         }
       ]
@@ -414,9 +432,9 @@
     },
     {
       "dayNumber": 77,
-      "label": "Day 77 — Brooklyn",
+      "label": "Day 77 — Brooklyn, Bridge to Boardwalk",
       "type": "active",
-      "summary": "Walk the bridge into a borough of its own.",
+      "summary": "Walk the bridge into a borough of its own, and end it at the beach.",
       "blocks": [
         {
           "start": "10:00 AM",
@@ -472,6 +490,27 @@
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Brooklyn%20Heights%20Promenade"
             },
             "blurb": "Brownstone streets and a promenade with the definitive lower-Manhattan skyline view."
+          }
+        },
+        {
+          "start": "5:00 PM",
+          "item": {
+            "id": "nyc-coney-island",
+            "title": "Coney Island & the boardwalk",
+            "categoryId": "theme-parks",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Coney Island Boardwalk",
+              "address": "1000 Surf Ave, Brooklyn, NY",
+              "lat": 40.5749,
+              "lng": -73.9857,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Coney%20Island%20Boardwalk%20Brooklyn"
+            },
+            "blurb": "Forty-five minutes south on the D train and you are at the beach, which is the thing nobody expects about New York. Ride the Cyclone — a wooden coaster from 1927 that is a designated landmark and still rattles your teeth — and the Wonder Wheel, eat a hot dog at the original Nathan's, and walk the boardwalk as the lights come on over the water. Fireworks on Friday nights in summer.",
+            "gear": [
+              "cash for the boardwalk"
+            ]
           }
         }
       ]

@@ -93,9 +93,13 @@ days, and Universal, Disneyland and the Getty are already competing for room.
 
 ## 3. Places I think are missing
 
-- **New York City: Grand Central Terminal and Coney Island.** Both are obvious
-  omissions for a trip whose pitch is "nothing left for a first time," and NYC
-  is already three days under plan — they'd fit without displacing anything.
+- **New York City: Grand Central Terminal and Coney Island — DONE.** Both were
+  obvious omissions for a trip whose pitch is "nothing left for a first time."
+  Grand Central closes day 72, two blocks east of the library the day already
+  ended at, timed for the evening rush under the ceiling. Coney Island closes day
+  77's Brooklyn run — the Cyclone, the Wonder Wheel, Nathan's and the boardwalk at
+  dusk, and it makes `theme-parks` a New York category. Both went into afternoons
+  that were already open, so NYC is still 15 days.
 - **Sports is thin.** Only Churchill Downs (Deep South) and an Astros game
   (Houston, as a free-day option) so far. For a trip crossing the whole country
   over years, more ballparks/arenas would be easy and characterful — Fenway and
