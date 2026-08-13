@@ -80,7 +80,7 @@ export function tripSchema(trip: Trip): Json {
         additionalProperty: [
           { "@type": "PropertyValue", name: "Days mapped", value: stats.days },
           { "@type": "PropertyValue", name: "Stops", value: stats.stops },
-          { "@type": "PropertyValue", name: "States covered", value: stats.states.length },
+          { "@type": "PropertyValue", name: "States covered", value: stats.usStates.length },
         ],
       },
     ],

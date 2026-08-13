@@ -31,10 +31,6 @@ export default function HomePage() {
   );
   const nation = nationalMapData(trip.regions);
 
-  // DC is in the data (the Mid-Atlantic runs through it) but it isn't a state,
-  // and the promise on the tin is 48.
-  const stateCount = stats.states.filter((state) => state !== "DC").length;
-
   return (
     <div className="mx-auto max-w-4xl px-4 pt-5 pb-10 sm:px-6 sm:pt-8 sm:pb-16">
       <JsonLd data={tripSchema(trip)} />
@@ -57,7 +53,9 @@ export default function HomePage() {
         <StatTile value={stats.days} label="Days planned" />
         <StatTile value={stats.stops} label="Cities & towns" />
         <StatTile value={stats.items} label="Things to do" />
-        <StatTile value={stateCount} label="States" />
+        {/* `usStates`, not `states` — DC and the Canada detour are in the data
+            and neither is one of the 48 on the tin. */}
+        <StatTile value={stats.usStates.length} label="States" />
         <StatTile value={stats.anchors} label="Must-dos" />
         <StatTile value={stats.freeDays} label="Free days" />
         {/* "553h 55m" is precise and unreadable at a glance; hours is the unit

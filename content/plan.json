@@ -1103,14 +1103,14 @@
       "stops": [
         {
           "id": "ashland",
-          "order": 2,
+          "order": 1,
           "name": "Ashland",
           "state": "OR",
           "plannedDays": 2
         },
         {
           "id": "crater-lake-np",
-          "order": 1,
+          "order": 2,
           "name": "Crater Lake NP",
           "state": "OR",
           "plannedDays": 2
@@ -1124,28 +1124,28 @@
         },
         {
           "id": "mount-hood-columbia-gorge",
-          "order": 7,
+          "order": 4,
           "name": "Mount Hood & Columbia Gorge",
           "state": "OR",
           "plannedDays": 2
         },
         {
           "id": "portland-oregon",
-          "order": 6,
+          "order": 5,
           "name": "Portland",
           "state": "OR",
           "plannedDays": 4
         },
         {
           "id": "salem",
-          "order": 5,
+          "order": 6,
           "name": "Salem",
           "state": "OR",
           "plannedDays": 1
         },
         {
           "id": "oregon-coast",
-          "order": 4,
+          "order": 7,
           "name": "Oregon Coast",
           "state": "OR",
           "plannedDays": 3
@@ -1159,63 +1159,70 @@
         },
         {
           "id": "mount-st-helens",
-          "order": 11,
+          "order": 9,
           "name": "Mount St. Helens",
           "state": "WA",
           "plannedDays": 2
         },
         {
           "id": "mount-rainier-np",
-          "order": 14,
+          "order": 10,
           "name": "Mount Rainier NP",
           "state": "WA",
           "plannedDays": 3
         },
         {
           "id": "olympia",
-          "order": 9,
+          "order": 11,
           "name": "Olympia",
           "state": "WA",
           "plannedDays": 1
         },
         {
           "id": "olympic-np",
-          "order": 10,
+          "order": 12,
           "name": "Olympic NP",
           "state": "WA",
           "plannedDays": 4
         },
         {
           "id": "seattle",
-          "order": 12,
+          "order": 13,
           "name": "Seattle",
           "state": "WA",
           "plannedDays": 6
         },
         {
           "id": "san-juan-islands",
-          "order": 13,
+          "order": 14,
           "name": "San Juan Islands",
           "state": "WA",
           "plannedDays": 2
         },
         {
-          "id": "north-cascades-np-vancouver",
-          "order": 17,
-          "name": "North Cascades NP & Vancouver, BC",
+          "id": "vancouver-bc",
+          "order": 15,
+          "name": "Vancouver, BC",
+          "state": "BC",
+          "plannedDays": 2
+        },
+        {
+          "id": "north-cascades-np",
+          "order": 16,
+          "name": "North Cascades NP",
           "state": "WA",
-          "plannedDays": 4
+          "plannedDays": 2
         },
         {
           "id": "leavenworth",
-          "order": 15,
+          "order": 17,
           "name": "Leavenworth",
           "state": "WA",
           "plannedDays": 2
         },
         {
           "id": "walla-walla",
-          "order": 16,
+          "order": 18,
           "name": "Walla Walla",
           "state": "WA",
           "plannedDays": 2

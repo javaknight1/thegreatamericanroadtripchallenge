@@ -30,7 +30,7 @@ const lines: string[] = [
   "",
   "## About",
   "",
-  `- **Scale so far:** ${stats.days} days, ${stats.stops} stops, ${stats.items} things to do, across ${stats.states.length} of the 48 contiguous states.`,
+  `- **Scale so far:** ${stats.days} days, ${stats.stops} stops, ${stats.items} things to do, across ${stats.usStates.length} of the 48 contiguous states.`,
   `- **Full trip estimate:** ${trip.durationEstimate}.`,
   `- **Structure:** the trip is one continuous loop, divided into ${trip.regions.length} regions (legs). Each region contains stops (towns or parks); each stop contains numbered days; each day is an ordered list of activities with start and end times, durations, and map links.`,
   `- **Day numbering** runs continuously across the whole trip (day 1 to the end), not per region.`,

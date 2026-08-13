@@ -24,7 +24,10 @@ export type TripStats = {
   commuteDays: number;
   items: number;
   anchors: number;
+  /** Every subdivision the trip enters, US or not — BC is in here. */
   states: string[];
+  /** The 48-states claim: US only, and DC isn't a state. */
+  usStates: string[];
   countries: string[];
   driveTimeMins: number;
 };
@@ -34,6 +37,7 @@ export type RegionStats = {
   days: number;
   items: number;
   states: string[];
+  usStates: string[];
 };
 
 export function allStops(trip: Trip): Stop[] {
@@ -88,7 +92,8 @@ export function tripStats(trip: Trip): TripStats {
     commuteDays: days.filter((day) => day.type === "commute").length,
     items: items.length,
     anchors: items.filter((item) => item.tier === "anchor").length,
-    states: [...new Set(stops.map((stop) => stop.state))].sort(),
+    states: subdivisions(stops),
+    usStates: subdivisions(stops.filter(isUsState)),
     countries: [...new Set(stops.map((stop) => stop.country))].sort(),
     driveTimeMins: days.reduce((total, day) => total + driveMinutes(day), 0),
   };
@@ -99,9 +104,22 @@ export function regionStats(region: Region): RegionStats {
     stops: region.stops.length,
     days: allDays(region).length,
     items: allItems(region).length,
-    states: [...new Set(region.stops.map((stop) => stop.state))].sort(),
+    states: subdivisions(region.stops),
+    usStates: subdivisions(region.stops.filter(isUsState)),
   };
 }
+
+/**
+ * "All 48 states" is a promise about US states, and the trip's data contains
+ * two things that aren't one: DC, and the Canada detours the schema explicitly
+ * supports. Counting subdivisions would quietly turn British Columbia into a
+ * 49th state, so anything that reports a *number* uses `usStates` and anything
+ * that lists where the trip actually goes uses `states`.
+ */
+const isUsState = (stop: Stop) => stop.country === "US" && stop.state !== "DC";
+
+const subdivisions = (stops: Stop[]) =>
+  [...new Set(stops.map((stop) => stop.state))].sort();
 
 /**
  * The master packing list: every `item.gear[]` in the trip, deduped

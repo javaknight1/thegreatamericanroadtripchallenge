@@ -1,0 +1,99 @@
+{
+  "id": "vancouver-bc",
+  "name": "Vancouver, BC",
+  "state": "BC",
+  "country": "CA",
+  "order": 15,
+  "location": {
+    "lat": 49.2827,
+    "lng": -123.1207
+  },
+  "summary": "The loop's longest step outside the country — a glass city wedged between the mountains and the Pacific, with a thousand-acre forest at the end of downtown, a rainforest canopy on the North Shore, and arguably the best food in North America.",
+  "seasonalTip": "You need a passport, and the Peace Arch crossing at Blaine backs up badly on summer weekend afternoons — cross mid-morning or mid-week if you can.",
+  "lodging": [
+    {
+      "name": "A downtown Vancouver hotel",
+      "blurb": "Yaletown or the West End, both walking distance to the seawall.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=downtown%20Vancouver%20BC%20hotel"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Vancouver's global food scene",
+      "blurb": "World-class dim sum, sushi, and Japanese hot dogs on a street corner."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 509,
+      "label": "Day 509 — Vancouver, BC",
+      "type": "active",
+      "summary": "A thousand acres of forest at the end of a downtown.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "vancouver-stanley-park",
+            "title": "Stanley Park & Granville Island",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Stanley Park",
+              "address": "Vancouver, BC",
+              "lat": 49.302,
+              "lng": -123.144,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Stanley%20Park"
+            },
+            "blurb": "Seawall-and-forest Stanley Park, historic Gastown, and the public market on Granville Island (bring your passport).",
+            "gear": [
+              "passport"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 510,
+      "label": "Day 510 — Bridges, Peaks & the Border",
+      "type": "active",
+      "summary": "A rainforest canopy, a mountain, and back into Washington.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "vancouver-capilano",
+            "title": "Capilano Suspension Bridge & Grouse Mountain",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Capilano Suspension Bridge",
+              "address": "3735 Capilano Rd, North Vancouver, BC",
+              "lat": 49.343,
+              "lng": -123.115,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Capilano%20Suspension%20Bridge"
+            },
+            "blurb": "A swaying bridge through the rainforest canopy and a gondola up Grouse Mountain."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "drive": {
+            "from": "Vancouver, BC",
+            "to": "North Cascades National Park, WA",
+            "driveTimeMins": 180,
+            "scenicNote": "South out of the city and back across the border at Sumas or Peace Arch, then east up the Skagit Valley on Highway 20. Have the passports out and don't bring the fruit.",
+            "stopsAlongWay": [
+              {
+                "title": "The Peace Arch",
+                "blurb": "A white monument standing in both countries at once, in a park with no fence through it — inscribed \"Children of a Common Mother\" on one side and \"Brethren Dwelling Together in Unity\" on the other.",
+                "mapLink": "https://www.google.com/maps/search/?api=1&query=Peace%20Arch%20Blaine%20Washington"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

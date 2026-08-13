@@ -276,20 +276,33 @@ What I could **not** do from here, in rough order of value:
   picture of the product. It's a real content decision though (250 coordinates),
   not a code change, so it's parked here rather than done.
 
-### The Vancouver stop is filed as US/WA
+### The Vancouver stop was filed as US/WA — **DONE**
 
-`north-cascades-np-vancouver` carries `state: "WA"`, `country: "US"`, but two of
-its four days (509 and 510) are in British Columbia — Stanley Park, Granville
-Island, Capilano, Grouse Mountain. The schema explicitly supports `country: "CA"`
-for exactly this (the brief calls out Canada detours as ordinary stops), and the
-map projects the stop from its `location`, which sits on the US side.
+`north-cascades-np-vancouver` carried `state: "WA"`, `country: "US"` while two of
+its four days were in British Columbia, so the only international content in the
+trip was invisible to the data model.
 
-Nothing renders wrong today. But the state-coverage stat counts this as
-Washington only, and a future "which countries does this trip enter?" question
-would answer wrong. **Suggestion:** either split Vancouver into its own
-`country: "CA"` stop, or leave it and accept that the Canada content is
-invisible to the data model. I'd split it — the trip's international detours are
-a selling point, not a footnote.
+It's now two stops: **`vancouver-bc`** (`state: "BC"`, `country: "CA"`, days
+509–510) and **`north-cascades-np`** (WA, days 511–512). Day 510 now ends with the
+border crossing authored as a real drive, with the Peace Arch as a stop along the
+way, instead of the crossing appearing as a throwaway clause in the next day's
+blurb. No day numbers moved; the trip is 254 stops.
+
+That split exposed a live counting bug, now fixed. Every "States" figure on the
+site was `new Set(stops.map(s => s.state)).length`, with the home page subtracting
+DC by hand — so **British Columbia would have rendered as a 49th state** on the
+home page, the region pages, the meta descriptions, the JSON-LD and `llms.txt`.
+`derive.ts` now exposes `usStates` (US only, DC excluded) for anything that
+reports a *number*, and keeps `states` for anything that *lists* where the trip
+goes, so the Pacific Northwest page reads "OR, WA, BC" and the counter still reads
+48. Worth remembering for the Europe/Japan expansion in the brief: that was the
+first stop that wasn't a US state, and five separate places assumed there'd never
+be one.
+
+Checked the rest of the content for the same shape: Duluth and Voyageurs mention
+the Canadian border but stay on the US side of it, and Niagara is authored
+entirely from the American side (Maid of the Mist, Cave of the Winds). Vancouver
+was the only case.
 
 ## 7. Small consistency items
 

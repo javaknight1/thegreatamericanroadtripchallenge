@@ -139,7 +139,7 @@ export default async function RegionPage({
                   <StatTile value={stats.stops} label="Stops" />
                   <StatTile value={stats.days} label="Days" />
                   <StatTile value={stats.items} label="Things to do" />
-                  <StatTile value={stats.states.length} label="States" />
+                  <StatTile value={stats.usStates.length} label="States" />
                 </>
               ) : (
                 <>

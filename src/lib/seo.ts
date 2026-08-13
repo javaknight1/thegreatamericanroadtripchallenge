@@ -36,7 +36,7 @@ function clamp(text: string, max = 155): string {
 export function tripDescription(trip: Trip): string {
   const stats = tripStats(trip);
   return clamp(
-    `A free, hour-by-hour road trip itinerary through all 48 contiguous states. ${stats.days} days and ${stats.stops} stops mapped so far across ${stats.states.length} states.`,
+    `A free, hour-by-hour road trip itinerary through all 48 contiguous states. ${stats.days} days and ${stats.stops} stops mapped so far across ${stats.usStates.length} states.`,
   );
 }
 

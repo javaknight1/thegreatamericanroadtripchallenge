@@ -1,0 +1,69 @@
+{
+  "id": "north-cascades-np",
+  "name": "North Cascades National Park",
+  "state": "WA",
+  "country": "US",
+  "order": 16,
+  "location": {
+    "lat": 48.7718,
+    "lng": -121.2985
+  },
+  "summary": "The American Alps — over three hundred glaciers, more than anywhere else in the lower 48, hung above turquoise lakes on one of the great mountain highways. One of the least-visited national parks in the country, and nobody can explain why.",
+  "lodging": [
+    {
+      "name": "A Newhalem or Marblemount base",
+      "blurb": "Small and few — book ahead, and expect no cell signal on the highway.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Marblemount%20Washington%20lodging"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A burger in Marblemount",
+      "blurb": "The last real meal before the highway climbs."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 511,
+      "label": "Day 511 — North Cascades",
+      "type": "active",
+      "summary": "The American Alps.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "north-cascades-diablo",
+            "title": "North Cascades Highway & Diablo Lake",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 300,
+            "location": {
+              "name": "Diablo Lake Overlook",
+              "address": "North Cascades Hwy, Newhalem, WA",
+              "lat": 48.714,
+              "lng": -121.136,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Diablo%20Lake%20Overlook"
+            },
+            "blurb": "The jaw-dropping turquoise of Diablo Lake — glacial rock flour suspended in the water is what makes that colour — and the serrated peaks along Highway 20.",
+            "gear": [
+              "layers",
+              "water"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 512,
+      "label": "Day 512 — Southeast to Leavenworth",
+      "type": "commute",
+      "summary": "Over the mountains to Bavaria.",
+      "commute": {
+        "from": "North Cascades, WA",
+        "to": "Leavenworth, WA",
+        "driveTimeMins": 180,
+        "scenicNote": "South and east over the Cascades."
+      }
+    }
+  ]
+}

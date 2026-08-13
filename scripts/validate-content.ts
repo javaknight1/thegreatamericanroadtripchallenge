@@ -19,7 +19,10 @@ try {
     `  days: ${stats.activeDays} active, ${stats.freeDays} free, ${stats.commuteDays} commute` +
       ` · ${stats.anchors} anchors · ${gear.length} distinct gear entries`,
   );
-  console.log(`  states: ${stats.states.join(", ") || "none"}`);
+  console.log(
+    `  ${stats.usStates.length} US states + ${stats.states.length - stats.usStates.length} other` +
+      ` (${stats.countries.join(", ")}): ${stats.states.join(", ") || "none"}`,
+  );
 
   // Cheap authoring smells that aren't schema violations.
   const warnings: string[] = [];
