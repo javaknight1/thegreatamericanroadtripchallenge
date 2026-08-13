@@ -158,6 +158,13 @@
             },
             "blurb": "A postcard river village of antique shops and cafés below Storm King."
           }
+        },
+        {
+          "slot": "Late afternoon",
+          "rest": {
+            "label": "An evening on the river",
+            "note": "Three days of the Hudson behind you and one more ahead. Cold Spring's main street runs downhill to a bandstand on the water with Storm King opposite; sit on it until the trains stop being interesting."
+          }
         }
       ]
     },

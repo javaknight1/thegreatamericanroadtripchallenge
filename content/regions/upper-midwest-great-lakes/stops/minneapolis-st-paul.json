@@ -153,6 +153,13 @@
             },
             "blurb": "A great riverside science museum with a dino hall and omnitheater."
           }
+        },
+        {
+          "slot": "Evening",
+          "rest": {
+            "label": "The river and a patio",
+            "note": "Both of these cities are built to be outside in for the three months a year they can be, and this is one of them. The Mississippi is only a hundred yards wide this far up. Find water, find a patio, do nothing."
+          }
         }
       ]
     },

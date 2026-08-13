@@ -76,6 +76,13 @@
               "bug spray"
             ]
           }
+        },
+        {
+          "slot": "Afternoon",
+          "rest": {
+            "label": "The beach, and nothing else",
+            "note": "A barrier island, an ocean, wild horses wandering through the dunes, and no schedule. This is the last unhurried beach before the trip turns inland for the Blue Ridge."
+          }
         }
       ]
     },

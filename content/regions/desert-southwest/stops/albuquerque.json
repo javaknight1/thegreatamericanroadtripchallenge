@@ -111,6 +111,13 @@
             },
             "blurb": "The story of New Mexico's 19 pueblos, told by the pueblos themselves (Balloon Fiesta if you're here in October)."
           }
+        },
+        {
+          "slot": "Evening",
+          "rest": {
+            "label": "One year on the road",
+            "note": "Day 365. A year ago today this trip pulled out of Boston, and it is a little over half done. That is worth an evening off: Old Town, a plate of green chile, and the Sandias at sunset — the name means watermelon, and for about ten minutes you can see why."
+          }
         }
       ]
     },

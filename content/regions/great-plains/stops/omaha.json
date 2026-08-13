@@ -75,6 +75,13 @@
             },
             "blurb": "Cobblestone streets of shops and cafes, the Durham Museum in the old train station, and a walk across the Missouri to Iowa."
           }
+        },
+        {
+          "slot": "Evening",
+          "rest": {
+            "label": "The Old Market, unhurried",
+            "note": "Brick warehouses, cobbled streets, and a pedestrian bridge that puts you in two states at once halfway across. Wander it — the plains have been long and there are more of them coming."
+          }
         }
       ]
     },

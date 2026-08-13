@@ -81,6 +81,13 @@
               "water"
             ]
           }
+        },
+        {
+          "slot": "Late afternoon",
+          "rest": {
+            "label": "Stay for sunset on the dunes",
+            "note": "This is the best hour at White Sands by a distance, and it is worth giving up the rest of the afternoon to be out on the gypsum for it. Bring a sled, bring dinner, and watch the whole basin go pink."
+          }
         }
       ]
     },

@@ -46,6 +46,13 @@
             },
             "blurb": "The domed capitol above the Missouri, home to Thomas Hart Benton's sweeping social-history mural."
           }
+        },
+        {
+          "slot": "Afternoon",
+          "rest": {
+            "label": "An afternoon off",
+            "note": "A small capital, a big dome, and then nothing at all. The bluff behind the capitol looks straight down the Missouri River and is the best seat in town."
+          }
         }
       ]
     },

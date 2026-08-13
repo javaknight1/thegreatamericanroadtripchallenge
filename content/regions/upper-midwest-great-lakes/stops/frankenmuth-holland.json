@@ -75,6 +75,13 @@
             },
             "blurb": "The Bavarian-themed town (a ~2.5-hr drive east) and Bronner's, the world's largest Christmas store — open year-round."
           }
+        },
+        {
+          "slot": "Afternoon",
+          "rest": {
+            "label": "Chicken dinner and a slow river",
+            "note": "Frankenmuth exists to be ambled through, and the Cass River runs right past the main street with paddleboats on it. There is no way to do this town quickly and no reason to."
+          }
         }
       ]
     },

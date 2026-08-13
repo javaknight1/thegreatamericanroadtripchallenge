@@ -46,6 +46,13 @@
             },
             "blurb": "The presidential library and home of 'the buck stops here,' plus the National Frontier Trails Museum where the Oregon, California, and Santa Fe Trails began."
           }
+        },
+        {
+          "slot": "Late afternoon",
+          "rest": {
+            "label": "A small-town afternoon",
+            "note": "Independence is where the Santa Fe, California and Oregon trails all started and where Truman came home to. The square is four blocks and takes as long as you let it."
+          }
         }
       ]
     },

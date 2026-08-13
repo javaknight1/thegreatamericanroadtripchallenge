@@ -140,6 +140,13 @@
               "beach gear"
             ]
           }
+        },
+        {
+          "slot": "Late afternoon",
+          "rest": {
+            "label": "Stay for the sunset",
+            "note": "Don't drive back early. St. Pete Beach faces exactly the right way, the whole coast turns out for it, and this is the day the trip's beaches peak."
+          }
         }
       ]
     },

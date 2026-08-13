@@ -64,6 +64,13 @@
             },
             "blurb": "The HQ of the historic 444-mile parkway tracing the old wilderness road."
           }
+        },
+        {
+          "slot": "Afternoon",
+          "rest": {
+            "label": "The Trace, at 50 mph",
+            "note": "The Natchez Trace has no trucks, no billboards, no traffic lights and a fifty-mile-an-hour limit for four hundred and forty miles. Drive a stretch of it with the windows down and stop at whatever turnout looks good. This is the least hurried road in the country and the trip has earned an afternoon on it."
+          }
         }
       ]
     },

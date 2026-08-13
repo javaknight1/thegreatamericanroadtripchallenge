@@ -90,6 +90,13 @@
             },
             "blurb": "The 42nd president's library and museum, cantilevered over the Arkansas River, plus the River Market district."
           }
+        },
+        {
+          "slot": "Late afternoon",
+          "rest": {
+            "label": "The riverfront",
+            "note": "The library sits on the Arkansas River with a park either side of it and a pedestrian bridge across. There is no more history today."
+          }
         }
       ]
     },

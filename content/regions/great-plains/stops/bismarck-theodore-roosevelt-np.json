@@ -75,6 +75,13 @@
               "layers"
             ]
           }
+        },
+        {
+          "slot": "Evening",
+          "rest": {
+            "label": "The badlands, in the late light",
+            "note": "The badlands are a poor place to be at noon and a spectacular one at seven, because the stripes in the rock only show when the sun is low. Wild horses come down onto the flats. Sit still and let them."
+          }
         }
       ]
     },

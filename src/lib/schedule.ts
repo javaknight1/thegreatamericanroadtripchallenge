@@ -57,6 +57,9 @@ export type Span = {
   label?: string;
 };
 
+const later = (a: number | undefined, b: number | undefined) =>
+  a === undefined ? b : b === undefined ? a : Math.max(a, b);
+
 /** Clock spans for a day's events, in order. */
 export function scheduleSpans(events: TimedEvent[]): Span[] {
   let cursor: number | undefined;
@@ -64,9 +67,13 @@ export function scheduleSpans(events: TimedEvent[]): Span[] {
   return events.map((event) => {
     const authoredStart = parseClock(event.start);
     const authoredEnd = parseClock(event.end);
+    const unbounded =
+      event.durationMins === undefined && authoredStart === undefined && authoredEnd === undefined;
 
-    // Open-ended and unanchored — say so rather than invent a clock.
-    if (event.durationMins === undefined && authoredStart === undefined && authoredEnd === undefined) {
+    // Open-ended *and* first on the day — that's a whole free day, and there is
+    // no clock to invent. Open-ended after something else is different: it's the
+    // rest of the day, and it starts when the thing before it ended.
+    if (unbounded && cursor === undefined) {
       return { label: "All day", slot: event.slot };
     }
 
@@ -74,9 +81,11 @@ export function scheduleSpans(events: TimedEvent[]): Span[] {
       ? SLOT_DEFAULTS.find(([pattern]) => pattern.test(event.slot!))?.[1]
       : undefined;
 
-    // An authored start always wins; otherwise continue from the last event,
-    // falling back to what the slot label implies and then to the day's start.
-    const start = authoredStart ?? cursor ?? slotDefault ?? DAY_STARTS_AT;
+    // An authored start always wins. Otherwise take the later of where the last
+    // event ended and what the slot label implies, so "Evening" never resolves
+    // to half past three just because the afternoon finished early — and never
+    // resolves to a time that overlaps what came before it either.
+    const start = authoredStart ?? later(cursor, slotDefault) ?? DAY_STARTS_AT;
     const end = authoredEnd ?? (event.durationMins !== undefined ? start + event.durationMins : undefined);
 
     if (end === undefined) {

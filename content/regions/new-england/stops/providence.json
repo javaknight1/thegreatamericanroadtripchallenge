@@ -108,6 +108,13 @@
             },
             "blurb": "On scheduled nights, 80-plus bonfires blaze on the downtown rivers to music — check the calendar; magical when it's on."
           }
+        },
+        {
+          "slot": "Evening",
+          "rest": {
+            "label": "After WaterFire",
+            "note": "The braziers burn down the middle of the rivers until late and the whole city walks along them. Stay out — there is nowhere to be in the morning until you decide there is."
+          }
         }
       ]
     },

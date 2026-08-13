@@ -50,6 +50,13 @@
               "water"
             ]
           }
+        },
+        {
+          "slot": "Late afternoon",
+          "rest": {
+            "label": "The rim at sunset",
+            "note": "The mesa-top road has overlooks the length of it and almost nobody on them at the end of the day. Pick one facing west and stay there."
+          }
         }
       ]
     },

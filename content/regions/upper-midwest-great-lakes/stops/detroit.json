@@ -101,6 +101,13 @@
             },
             "blurb": "Diego Rivera's soaring 'Detroit Industry' murals anchor one of the great art museums (Toronto is a possible ~4-hr detour)."
           }
+        },
+        {
+          "slot": "Afternoon",
+          "rest": {
+            "label": "Sit with the Rivera murals",
+            "note": "Most people give the Rivera Court twenty minutes. Give it an hour — Diego Rivera thought it was the best work he ever did — and then give the rest of the day to nothing. Detroit rewards wandering considerably more than it rewards a list."
+          }
         }
       ]
     },

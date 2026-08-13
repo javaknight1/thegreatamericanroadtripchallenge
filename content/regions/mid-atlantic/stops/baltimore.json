@@ -154,6 +154,13 @@
             },
             "blurb": "Steamed blue crabs with Old Bay — the definitive Maryland meal (Orioles game at Camden Yards optional in season)."
           }
+        },
+        {
+          "slot": "Evening",
+          "rest": {
+            "label": "After the crabs",
+            "note": "A crab feast is not a meal you schedule anything after. Newspaper on the table, a mallet, Old Bay in everything, and three hours gone before you notice."
+          }
         }
       ]
     },

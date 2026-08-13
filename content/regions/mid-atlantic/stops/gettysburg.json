@@ -116,6 +116,13 @@
             },
             "blurb": "Where Lincoln delivered the Gettysburg Address in 1863 — quiet rows of Union graves."
           }
+        },
+        {
+          "slot": "Late afternoon",
+          "rest": {
+            "label": "Time to sit with it",
+            "note": "You have just walked Little Round Top and stood where the Address was given, and the months ahead hold a great deal more of this. Nothing goes after it. The fields stay open until dark and are best walked slowly, and alone."
+          }
         }
       ]
     },

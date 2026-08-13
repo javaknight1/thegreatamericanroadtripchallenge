@@ -75,6 +75,13 @@
             },
             "blurb": "Frank Lloyd Wright's Prairie masterpiece, plus the superb Buffalo AKG Art Museum and the revived Canalside."
           }
+        },
+        {
+          "slot": "Evening",
+          "rest": {
+            "label": "Wings, and the last of the road",
+            "note": "Two weeks out from Boston, in the city that invented the buffalo wing, with a lake to watch the sun go down over. Order them medium and stop making plans for a few hours."
+          }
         }
       ]
     },

@@ -90,6 +90,13 @@
             },
             "blurb": "The largest children's museum in the world — dinosaurs, a carousel, and a dragon."
           }
+        },
+        {
+          "slot": "Late afternoon",
+          "rest": {
+            "label": "The canal walk",
+            "note": "The downtown canal loop is a mile and a half, flat, and full of people not doing anything in particular. Join them."
+          }
         }
       ]
     },

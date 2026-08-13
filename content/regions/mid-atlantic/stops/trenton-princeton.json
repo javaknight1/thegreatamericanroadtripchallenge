@@ -108,6 +108,13 @@
             },
             "blurb": "Where Washington crossed the icy Delaware on Christmas night 1776 before the Battle of Trenton."
           }
+        },
+        {
+          "slot": "Late afternoon",
+          "rest": {
+            "label": "An afternoon on campus",
+            "note": "Princeton's campus is open, free, gothic, and one of the great places in America to walk around with no destination. Nassau Street has the coffee. Nothing else is planned."
+          }
         }
       ]
     },

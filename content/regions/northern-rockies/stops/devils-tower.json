@@ -49,6 +49,13 @@
               "walking shoes"
             ]
           }
+        },
+        {
+          "slot": "Evening",
+          "rest": {
+            "label": "Under the dark sky",
+            "note": "There is almost no light out here. Stay after the prairie dogs have gone to bed, lie back on the hood, and look up: the tower goes to silhouette and the Milky Way runs directly over the top of it."
+          }
         }
       ]
     },

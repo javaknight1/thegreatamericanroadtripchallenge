@@ -109,6 +109,13 @@
             },
             "blurb": "A Greek-Revival capitol on the hill, with President Polk's tomb on the grounds."
           }
+        },
+        {
+          "slot": "Evening",
+          "rest": {
+            "label": "Music, at your own pace",
+            "note": "Every bar on lower Broadway has a band in it, all afternoon, for free, and no two of them are the same. This is not a thing to schedule — walk until you like the sound coming out of a doorway, then go in."
+          }
         }
       ]
     },

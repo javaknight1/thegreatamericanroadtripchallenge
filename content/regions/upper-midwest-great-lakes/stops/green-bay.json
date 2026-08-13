@@ -46,6 +46,13 @@
             },
             "blurb": "Tour the historic stadium of the community-owned Packers and the Hall of Fame — or catch a game."
           }
+        },
+        {
+          "slot": "Late afternoon",
+          "rest": {
+            "label": "The rest of the day off",
+            "note": "Titletown, the park across from the stadium, is free and has a beer garden in it. On a Sunday in autumn the whole county is in one of two places and both of them are here. That is a complete plan."
+          }
         }
       ]
     },

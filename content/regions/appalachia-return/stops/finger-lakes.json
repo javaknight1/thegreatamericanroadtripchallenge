@@ -98,6 +98,13 @@
               "hiking shoes"
             ]
           }
+        },
+        {
+          "slot": "Afternoon",
+          "rest": {
+            "label": "A winery, or nothing",
+            "note": "Every one of these lakes has a road of wineries down both sides and not one of them requires a plan. You are eight days from Boston and 727 days from the morning you left it; this is the right time to stop rushing."
+          }
         }
       ]
     },

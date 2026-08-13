@@ -125,6 +125,13 @@
               "swimsuit"
             ]
           }
+        },
+        {
+          "slot": "Afternoon",
+          "rest": {
+            "label": "An afternoon at the cove",
+            "note": "Sea lions on the rocks, a beach, and the first Pacific of the trip. California starts here and there is no hurry about any part of it."
+          }
         }
       ]
     },

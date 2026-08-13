@@ -17,61 +17,61 @@ exists.
 
 ---
 
-## 1. Free days are thin, and clustered badly
+## 1. Free days were thin and clustered badly — **FIXED**
 
-Every leg is under 10% free days, and the *gaps* are worse than the averages.
-The brief says the trip is unrushed and free days are a feature — right now the
-data doesn't back that up.
+Measured properly this was worse than the per-leg percentages suggested, because
+the runs cross leg boundaries. Counting any day with neither a free day nor an
+hour off in it, the trip contained **twenty runs of 14 days or longer**, the
+worst being **52 consecutive days** from day 591 to 642 — the Great Plains
+straight through into the Upper Midwest with no let-up anywhere.
 
-| leg | free days | longest run with none |
+The fix, as suggested, was a rest **block** inside a day that already exists
+rather than a new day: **39 of them**, so no day number moved and no content was
+lost. Each is placed at the end of a day that could absorb it, in a place worth
+staying in, and each is written to that place rather than being a generic
+"day off".
+
+| | before | after |
 |---|---|---|
-| New England | 4 / 69 (6%) | **27 days**, through day 69 |
-| Mid-Atlantic | 5 / 76 (7%) | **35 days**, through day 141 |
-| Coastal Southeast | 5 / 59 (8%) | 16 days, through day 183 |
-| Florida | 4 / 44 (9%) | 12 days, through day 248 |
-| Deep South | 3 / 67 (4%) | **30 days**, through day 285 |
-| Texas & South Plains | 4 / 39 (10%) | 11 days, through day 354 |
-| Desert Southwest | 6 / 63 (10%) | 22 days, through day 376 |
-| California | 4 / 51 (8%) | 12 days, through day 440 |
-| Pacific Northwest | 2 / 48 (4%) | **23 days**, through day 503 |
-| Northern Rockies | 2 / 38 (5%) | 14 days, through day 530 |
-| Colorado Rockies | 2 / 30 (7%) | 19 days, through day 584 |
-| Great Plains | 1 / 37 (3%) | **31 days**, through day 621 |
+| Breathers in 735 days | 48 | **89** (48 free days + 41 days with a rest block) |
+| Longest run with none | **52 days** | **13 days** |
+| Runs of 14+ days | 20 | **0** |
+| Mean gap between breathers | 15.3 days | **8.3 days** |
 
-**The Great Plains is now the worst leg in the trip on both measures** — a single
-free day in 37 (3%), and a 31-day run from day 591 all the way to the leg's end
-at 621. Every stop from Deadwood to Topeka is 1–4 days with no breather, and
-several are long prairie transfers. The Deep South's 30-day run (days 256–285)
-is now second.
+Per leg, longest run with no breather: New England 13 · Mid-Atlantic 9 · Coastal
+Southeast 12 · Florida 9 · Deep South 12 · Texas 11 · Southwest 11 · California
+10 · Pacific NW 12 · Northern Rockies 12 · Colorado 6 · Great Plains 8 · Upper
+Midwest 12 · Appalachia 9.
 
-That Deep South stretch is still the one I'd fix first, because of what it
-covers — Whitney Plantation, Birmingham, the Legacy Museum, the Pettus Bridge,
-the National Civil Rights Museum, back to back with no room to absorb any of it.
-The Plains run is longer but much lighter going.
+The two the notes singled out both got what they asked for:
 
-**Suggestion:** now that rest is a block rather than a whole-day type, the cheap
-fix is a half-day rest event inside an existing day rather than adding days. A
-rest block in one of the Delta days and one mid-Mid-Atlantic would break both
-long runs without changing any day numbers.
+- **The Deep South civil-rights stretch.** Day 280 now ends at Selma with the rest
+  of the day deliberately empty — the Legacy Museum, the National Memorial for
+  Peace and Justice, Montgomery and the Edmund Pettus Bridge come four days
+  running, and nothing is scheduled after the bridge.
+- **Before the Grand Canyon descent, not after it.** Day 356 takes the afternoon
+  at White Sands and stays for sunset, which breaks the run leading into the rim.
 
-Also flagged by the audit — 4+ day stops with no breather anywhere in them:
-Portland, Montpelier & Stowe, The Hudson Valley, Baltimore, Williamsburg &
-Virginia Beach, Tampa & St. Petersburg, Memphis, Big Bend & Marfa, Santa Fe &
-Taos, Olympic NP, North Cascades & Vancouver. Big Bend is arguably correct (the
-days *are* the point); the cities less so.
+**Day 365 also became a marker.** One year on the road lands in Albuquerque, and
+the rest block there says so — which quietly resolves half of §8's milestone idea
+at no cost.
 
-**The Pacific Northwest is now the worst leg for this** — 2 free days in 48 (4%),
-tying the Deep South for the lowest rate, with a 23-day run from day 481 to 503.
-That stretch covers Salem, the Oregon Coast, Astoria, St. Helens, Rainier,
-Olympia, three days of Olympic, and four of Seattle. It's also physically hard:
-Paradise, the Hoh, Hurricane Ridge and Ruby Beach are consecutive hiking days
-with a ferry crossing in the middle.
+Two things this surfaced in the renderer, both fixed in `schedule.ts`:
 
-The Southwest's 22-day run (days 355–376) is worth a look for a different
-reason: it ends at the Grand Canyon, and the days leading in are physically
-demanding — White Sands, Canyon de Chelly, Monument Valley, Antelope Canyon,
-then the rim, then Bright Angel. A rest day *before* day 376's descent would
-serve the hike better than the free day that currently lands after it.
+1. An open-ended event returned `"All day"` whenever it had no start, duration or
+   end — correct for a whole free day, wrong for an evening that follows a full
+   day of items, which is what every one of these rest blocks is. It now says
+   `"All day"` only when nothing precedes it, and `"from 6:00 PM"` otherwise.
+2. A `slot` label used to be ignored whenever a previous block had set the
+   cursor, so `"Evening"` resolved to half past three if the afternoon finished
+   early. A slot now takes the *later* of the cursor and what the label implies,
+   so it can never contradict its own name or overlap what came before it.
+
+Still true, and left alone deliberately — some 4+ day stops have no breather
+inside them (Memphis, Big Bend & Marfa, Santa Fe & Taos, Olympic NP). Big Bend is
+arguably correct: the days *are* the point. The rest are close enough to a
+breather on either side that adding one inside would have cost content for
+nothing.
 
 ## 2. Stops running under their planned length
 

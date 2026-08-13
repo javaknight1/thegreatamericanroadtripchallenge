@@ -72,6 +72,13 @@
             },
             "blurb": "The story of the hometown motorcycle, then the Historic Third Ward, the Public Market, and a brewery tour."
           }
+        },
+        {
+          "slot": "Evening",
+          "rest": {
+            "label": "A beer garden by the lake",
+            "note": "Milwaukee invented the American beer garden and never gave it up — there are half a dozen in the parks along the lake, they are outdoors, and they do not take reservations. Go to one."
+          }
         }
       ]
     },

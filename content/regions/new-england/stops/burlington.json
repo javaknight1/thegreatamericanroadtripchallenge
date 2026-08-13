@@ -109,6 +109,13 @@
             },
             "blurb": "A model 1880s lakeside farm — cheddar, walking trails, and Adirondack views."
           }
+        },
+        {
+          "slot": "Evening",
+          "rest": {
+            "label": "An evening on Lake Champlain",
+            "note": "Church Street is closed to cars and the sunset goes down behind the Adirondacks across the water, which is the best free thing in Vermont. Nothing is scheduled after this."
+          }
         }
       ]
     },

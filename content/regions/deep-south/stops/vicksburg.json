@@ -49,6 +49,13 @@
               "walking shoes"
             ]
           }
+        },
+        {
+          "slot": "Late afternoon",
+          "rest": {
+            "label": "The bluff at dusk",
+            "note": "The Mississippi runs below the battlefield and the light coming off it at the end of the day is most of the reason to stop here. Nothing else is planned."
+          }
         }
       ]
     },

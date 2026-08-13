@@ -64,6 +64,13 @@
             },
             "blurb": "A tree-lined, walkable Main Street of galleries, cafés, and boutiques."
           }
+        },
+        {
+          "slot": "Afternoon",
+          "rest": {
+            "label": "Falls Park, slowly",
+            "note": "Greenville's main street was rebuilt to be sat on, and there is a waterfall in the middle of downtown with a suspension bridge over it. Go back to it and let the afternoon go."
+          }
         }
       ]
     },

@@ -81,6 +81,13 @@
               "water"
             ]
           }
+        },
+        {
+          "slot": "Evening",
+          "rest": {
+            "label": "The meadows, at an amble",
+            "note": "You have hiked at altitude two days running and Olympic is next. Take Paradise slowly and watch the mountain go pink — it is the last thing to lose the light for a hundred miles in any direction."
+          }
         }
       ]
     },

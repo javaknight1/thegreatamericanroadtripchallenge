@@ -109,6 +109,13 @@
             },
             "blurb": "The world's largest stocker/feeder cattle market and Western-wear shops, plus the state capitol with a working oil well on its lawn."
           }
+        },
+        {
+          "slot": "Evening",
+          "rest": {
+            "label": "Bricktown, and then nothing",
+            "note": "The canal loop through Bricktown is a mile of water, boats and patios, and there is no more of Oklahoma to see today."
+          }
         }
       ]
     },

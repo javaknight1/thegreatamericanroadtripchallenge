@@ -76,6 +76,13 @@
               "sun protection"
             ]
           }
+        },
+        {
+          "slot": "Afternoon",
+          "rest": {
+            "label": "The prairie, unhurried",
+            "note": "There is nothing here, which is the entire point and the hardest thing on this itinerary to put on a clock. Walk out into the tallgrass until you can't hear the road any more, and stay a while. This is the last of the original prairie — ninety-six percent of it is gone."
+          }
         }
       ]
     },

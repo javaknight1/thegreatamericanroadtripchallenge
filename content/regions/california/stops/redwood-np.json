@@ -79,6 +79,13 @@
               "waterproof shoes"
             ]
           }
+        },
+        {
+          "slot": "Afternoon",
+          "rest": {
+            "label": "Under the tall trees",
+            "note": "Find a grove with nobody else in it — Stout Grove and the Boy Scout Tree Trail both qualify — and stop walking. These are the tallest living things on earth and they do not read at speed."
+          }
         }
       ]
     },

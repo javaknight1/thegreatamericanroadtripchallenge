@@ -98,6 +98,13 @@
             },
             "blurb": "Ride the working mailboat run through the Calendar Islands — seals, lighthouses, and lobster boats."
           }
+        },
+        {
+          "slot": "Late afternoon",
+          "rest": {
+            "label": "The rest of the day is yours",
+            "note": "You have been moving since Boston. Portland is a good town to stop moving in — the Old Port is four blocks of brick and cobblestone, there is a beer in it with your name on it, and the evening light on the water is the reason people paint here."
+          }
         }
       ]
     },

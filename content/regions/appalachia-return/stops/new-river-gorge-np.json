@@ -50,6 +50,13 @@
               "water"
             ]
           }
+        },
+        {
+          "slot": "Evening",
+          "rest": {
+            "label": "The overlook, late",
+            "note": "The gorge fills with mist in the evening and the bridge appears to float on top of it. Grandview and the Endless Wall overlooks both face the right way. Take a chair."
+          }
         }
       ]
     },

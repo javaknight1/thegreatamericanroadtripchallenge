@@ -67,6 +67,13 @@
             },
             "blurb": "Cave tours and clifftop rides on the mountain above town (Doc Holliday's grave is nearby)."
           }
+        },
+        {
+          "slot": "Late afternoon",
+          "rest": {
+            "label": "Back in the hot springs",
+            "note": "Go back to the pool. It is two blocks long, it has been open since 1888, it is 90 degrees at one end and 104 at the other, and you are eleven days from the last real day off with the high Rockies still ahead. This is the single best place on the entire loop to do nothing, and doing it twice in one day is the correct answer."
+          }
         }
       ]
     },
