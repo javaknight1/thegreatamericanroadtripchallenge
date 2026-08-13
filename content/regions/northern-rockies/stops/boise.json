@@ -3,7 +3,7 @@
   "name": "Boise",
   "state": "ID",
   "country": "US",
-  "order": 2,
+  "order": 3,
   "location": {
     "lat": 43.615,
     "lng": -116.2023
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 519,
-      "label": "Day 519 — Capital & Greenbelt",
+      "dayNumber": 520,
+      "label": "Day 520 — Capital & Greenbelt",
       "type": "active",
       "summary": "The statehouse and the river.",
       "blocks": [
@@ -71,10 +71,10 @@
       ]
     },
     {
-      "dayNumber": 520,
-      "label": "Day 520 — Foothills & History",
+      "dayNumber": 521,
+      "label": "Day 521 — Foothills, then the Lava",
       "type": "active",
-      "summary": "A prison and the hills.",
+      "summary": "A prison, the hills, and an afternoon across the Snake River Plain.",
       "blocks": [
         {
           "start": "10:00 AM",
@@ -93,20 +93,17 @@
             },
             "blurb": "Tour the atmospheric 1870s prison, then a drive or hike into the Boise foothills."
           }
+        },
+        {
+          "start": "1:30 PM",
+          "drive": {
+            "from": "Boise, ID",
+            "to": "Craters of the Moon National Monument, ID",
+            "driveTimeMins": 150,
+            "scenicNote": "East across the Snake River Plain on I-84 and US-20, with the farmland thinning out and the ground turning black in the last half hour."
+          }
         }
       ]
-    },
-    {
-      "dayNumber": 521,
-      "label": "Day 521 — East to the lava",
-      "type": "commute",
-      "summary": "To a lunar landscape.",
-      "commute": {
-        "from": "Boise, ID",
-        "to": "Craters of the Moon National Monument, ID",
-        "driveTimeMins": 150,
-        "scenicNote": "East across the Snake River Plain."
-      }
     }
   ]
 }

@@ -57,6 +57,23 @@ export function dayRange(stop: Stop): string | undefined {
   return first === last ? `Day ${first}` : `Days ${first}–${last}`;
 }
 
+/**
+ * Every minute of driving in a day, however it was authored.
+ *
+ * A day-level `commute` is the older shape and still the common one; a drive
+ * that happens *after* something else — a morning in town, then two hours down
+ * the canyon — has to be a block instead, because the day-level commute always
+ * renders first. Counting only one of the two would quietly under-report the
+ * trip's driving every time a day is authored the second way.
+ */
+function driveMinutes(day: Day): number {
+  const fromBlocks = (day.blocks ?? []).reduce(
+    (total, block) => total + (block.drive?.driveTimeMins ?? 0),
+    0,
+  );
+  return (day.commute?.driveTimeMins ?? 0) + fromBlocks;
+}
+
 export function tripStats(trip: Trip): TripStats {
   const days = allDays(trip);
   const items = allItems(trip);
@@ -73,7 +90,7 @@ export function tripStats(trip: Trip): TripStats {
     anchors: items.filter((item) => item.tier === "anchor").length,
     states: [...new Set(stops.map((stop) => stop.state))].sort(),
     countries: [...new Set(stops.map((stop) => stop.country))].sort(),
-    driveTimeMins: days.reduce((total, day) => total + (day.commute?.driveTimeMins ?? 0), 0),
+    driveTimeMins: days.reduce((total, day) => total + driveMinutes(day), 0),
   };
 }
 

@@ -51,15 +51,41 @@
     },
     {
       "dayNumber": 518,
-      "label": "Day 518 — Long haul to Boise",
+      "label": "Day 518 — Down US-95",
       "type": "commute",
-      "summary": "The length of Idaho.",
+      "summary": "Most of the length of Idaho, and an afternoon on a lake.",
       "commute": {
         "from": "Coeur d'Alene, ID",
-        "to": "Boise, ID",
-        "driveTimeMins": 420,
-        "scenicNote": "A long, scenic drive south down US-95 through the mountains — one of the trip's big transfer days."
-      }
+        "to": "McCall, ID",
+        "driveTimeMins": 320,
+        "scenicNote": "South on US-95 — the only road that runs the length of Idaho — through the Palouse wheat country, down to the Snake at Lewiston, up the White Bird grade, and along the Salmon River into the mountains. Leave early and take the stops; this is the drive, not the gap between two of them.",
+        "stopsAlongWay": [
+          {
+            "title": "Hells Gate & the Lewis-Clark confluence, Lewiston",
+            "blurb": "Where the Clearwater meets the Snake at 730 feet — Idaho's only seaport, 465 river miles from the Pacific, and the jumping-off point for jetboats into Hells Canyon.",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Hells%20Gate%20State%20Park%20Lewiston%20Idaho"
+          },
+          {
+            "title": "The White Bird grade",
+            "blurb": "Pull off at the summit for the view down onto the old 1921 switchback road and the battlefield where the Nez Perce War began.",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=White%20Bird%20Battlefield%20Overlook%20Idaho"
+          },
+          {
+            "title": "Riggins",
+            "blurb": "Four hundred people wedged between the canyon walls where the Little Salmon meets the Salmon — the whitewater capital of Idaho, and the right place to stop for lunch.",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Riggins%20Idaho"
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "start": "2:00 PM",
+          "rest": {
+            "label": "Afternoon on Payette Lake",
+            "note": "You'll be into McCall by mid-afternoon, which is the whole point of stopping here. Nothing is scheduled: the lake has a public beach three blocks off the main street, the water is cold, and the day ends better in it than in a car."
+          }
+        }
+      ]
     }
   ]
 }

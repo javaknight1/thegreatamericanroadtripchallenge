@@ -3,7 +3,7 @@
   "name": "Missoula",
   "state": "MT",
   "country": "US",
-  "order": 5,
+  "order": 6,
   "location": {
     "lat": 46.8721,
     "lng": -113.994

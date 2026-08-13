@@ -122,22 +122,32 @@ Twenty-four days involve 3+ hours behind the wheel. The outliers:
 
 | day | hours | leg |
 |---|---|---|
-| 518 | **7.0h** Coeur d'Alene → Boise | Northern Rockies |
 | 346 | **5.5h** Fredericksburg → Big Bend | Texas |
-| 584 | **5.0h** Breckenridge → Scottsbluff | Colorado → Great Plains |
 | 419 | **5.5h** Tucson → San Diego | Southwest → California |
+| 518 | **5.3h** Coeur d'Alene → McCall | Northern Rockies |
+| 584 | **5.0h** Breckenridge → Scottsbluff | Colorado → Great Plains |
 | 403 | **5.0h** Great Basin → Death Valley | Southwest |
 | 410 | **5.0h** Las Vegas → Phoenix | Southwest |
 | 204 | **5.0h** Atlanta → St. Augustine | Coastal SE → FL |
 | 385 | **4.5h** Jerome → Zion | Southwest |
 | 237 | **4.5h** Key West → Naples | Florida |
 
-**Day 518 is now the longest drive in the trip by a wide margin** — seven hours
-down the length of Idaho on US-95, and unlike day 346 it has no stop along the
-way authored. Its own scenicNote calls it "one of the trip's big transfer days,"
-which is honest, but seven hours is a lot for an itinerary that sells itself as
-unrushed. McCall or Riggins would break it near the middle; either would also
-add Idaho content, which the leg is thin on outside Boise.
+**Day 518's seven-hour haul is fixed — DONE.** It used to run the whole length of
+Idaho, Coeur d'Alene to Boise on US-95, with nothing authored along the way. It
+now stops at **McCall**, a mountain town on Payette Lake at roughly the two-thirds
+mark: 5h20 in, an afternoon on the lake, then a morning in Ponderosa State Park
+and two hours down the Payette River canyon into Boise. Lewiston's confluence, the
+White Bird grade and Riggins are authored as stops along the way.
+
+It cost no days. Boise now drives itself to Craters of the Moon on the afternoon of
+its second day instead of spending a whole day on a 2h30 transfer, which paid for
+McCall — 735 days in, 735 days out, and no day after 521 moved. **The longest
+drive in the trip is now 5.5h**, and there are two of them.
+
+That change is also what surfaced a real bug: `tripStats.driveTimeMins` summed
+only day-level `commute` objects and ignored block-level `drive`s, so any drive
+authored as a block — the only way to put a drive *after* something else in a day
+— was invisible to the "Behind the wheel" figure. Fixed in `derive.ts`.
 
 Day 346 is authored with Marfa as a stop along the way and Marfa returns as a
 real stop on day 349, so nothing is lost — but it's worth deciding whether the

@@ -1233,50 +1233,57 @@
           "plannedDays": 2
         },
         {
-          "id": "boise",
+          "id": "mccall",
           "order": 2,
+          "name": "McCall",
+          "state": "ID",
+          "plannedDays": 1
+        },
+        {
+          "id": "boise",
+          "order": 3,
           "name": "Boise",
           "state": "ID",
           "plannedDays": 3
         },
         {
           "id": "craters-of-the-moon",
-          "order": 3,
+          "order": 4,
           "name": "Craters of the Moon",
           "state": "ID",
           "plannedDays": 1
         },
         {
           "id": "sun-valley",
-          "order": 4,
+          "order": 5,
           "name": "Sun Valley",
           "state": "ID",
           "plannedDays": 2
         },
         {
           "id": "missoula",
-          "order": 5,
+          "order": 6,
           "name": "Missoula",
           "state": "MT",
           "plannedDays": 2
         },
         {
           "id": "glacier-np",
-          "order": 6,
+          "order": 7,
           "name": "Glacier NP",
           "state": "MT",
           "plannedDays": 5
         },
         {
           "id": "helena",
-          "order": 7,
+          "order": 8,
           "name": "Helena",
           "state": "MT",
           "plannedDays": 2
         },
         {
           "id": "bozeman",
-          "order": 8,
+          "order": 9,
           "name": "Bozeman",
           "state": "MT",
           "plannedDays": 2
@@ -1304,21 +1311,21 @@
         },
         {
           "id": "little-bighorn-battlefield",
-          "order": 9,
+          "order": 13,
           "name": "Little Bighorn Battlefield",
           "state": "MT",
           "plannedDays": 1
         },
         {
           "id": "devils-tower",
-          "order": 13,
+          "order": 14,
           "name": "Devils Tower",
           "state": "WY",
           "plannedDays": 1
         },
         {
           "id": "cheyenne",
-          "order": 14,
+          "order": 15,
           "name": "Cheyenne",
           "state": "WY",
           "plannedDays": 2

@@ -1,0 +1,84 @@
+{
+  "id": "mccall",
+  "name": "McCall",
+  "state": "ID",
+  "country": "US",
+  "order": 2,
+  "location": {
+    "lat": 44.911,
+    "lng": -116.0993
+  },
+  "summary": "A mountain town on a glacial lake halfway down Idaho — beaches and old-growth ponderosa in summer, a ski hill and a carnival of snow sculptures in winter, and the reason the length of this state no longer has to be driven in one day.",
+  "lodging": [
+    {
+      "name": "Shore Lodge, or a cabin on Payette Lake",
+      "blurb": "A 1948 lodge right on the water at the north end of town.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Shore%20Lodge%20McCall%20Idaho"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Idaho rainbow trout",
+      "blurb": "Out of the Payette lakes and rivers, and on every menu in town."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 519,
+      "label": "Day 519 — Payette Lake, then the Capital",
+      "type": "active",
+      "summary": "A morning on the lake and an afternoon down the Payette River.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "item": {
+            "id": "mccall-payette-lake",
+            "title": "Payette Lake & Ponderosa State Park",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 210,
+            "location": {
+              "name": "Ponderosa State Park",
+              "address": "1920 Davis Ave, McCall, ID",
+              "lat": 44.9312,
+              "lng": -116.0787,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Ponderosa%20State%20Park%20McCall%20Idaho"
+            },
+            "blurb": "A peninsula of old-growth ponderosa reaching out into a glacial lake, with trails along the bluff and sandy coves at the end of them. The water is snowmelt-clear and startlingly cold — swim anyway.",
+            "gear": [
+              "swimsuit",
+              "towel"
+            ]
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "drive": {
+            "from": "McCall, ID",
+            "to": "Boise, ID",
+            "driveTimeMins": 120,
+            "scenicNote": "ID-55 down the Payette River canyon — two hours of whitewater on your right, with kayakers running the drops at Banks and the rafting put-ins one after another."
+          }
+        },
+        {
+          "start": "3:30 PM",
+          "item": {
+            "id": "boise-freak-alley",
+            "title": "Freak Alley Gallery",
+            "categoryId": "quirky",
+            "tier": "low",
+            "durationMins": 60,
+            "location": {
+              "name": "Freak Alley Gallery",
+              "address": "210 N 9th St, Boise, ID",
+              "lat": 43.6178,
+              "lng": -116.2005,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Freak%20Alley%20Gallery%20Boise"
+            },
+            "blurb": "The largest open-air mural gallery in the Northwest, filling a downtown alley and repainted every summer — a good, loose first hour in a new city."
+          }
+        }
+      ]
+    }
+  ]
+}
