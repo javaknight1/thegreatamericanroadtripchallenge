@@ -102,19 +102,18 @@ days, and Universal, Disneyland and the Getty are already competing for room.
   Yankee Stadium are the glaring ones, both in legs already written.
 - **Florida has no `somber-sites`, `concerts-venues` or `sports` at all.** The
   Kennedy Space Center covers space; but nothing on, say, the Pulse memorial.
-- **Reno and South Lake Tahoe are named but never visited.** The stop is titled
-  "Lake Tahoe, Reno & Carson City" and its summary promises "Reno's neon," but
-  no item goes there — Reno appears only as a trailing clause in the Carson City
-  blurb ("and Reno, the 'Biggest Little City,' nearby"). South Lake Tahoe is
-  thinner still: it exists as a lodging suggestion and as Emerald Bay's mailing
-  address, with the free-day Stateline casinos option the closest thing to an
-  activity. Two of the three places in the stop's own name have no time on the
-  itinerary. **Suggestion:** either give each an item — the Reno Arch and the
-  National Automobile Museum are the obvious pair; the South Lake Tahoe lakefront
-  and Heavenly gondola for the other — or drop them from the stop name so the
-  title stops promising what the days don't deliver. Day 459 already carries
-  Carson City and Virginia City, so Reno needs its own slot, not a share of that
-  one.
+- **Reno and South Lake Tahoe were named but never visited — DONE.** The stop is
+  titled "Lake Tahoe, Reno & Carson City" and promised "Reno's neon," but no item
+  went there; Reno survived only as a trailing clause in the Carson City blurb.
+  South Lake Tahoe was thinner still — a lodging suggestion and Emerald Bay's
+  mailing address.
+
+  Both now have real time, and it cost no days. Day 458 adds the **Heavenly
+  Gondola** out of the middle of South Lake Tahoe, 9,100 ft above the lake (and
+  the trip's second `skiing` item). Day 459 is re-cut as Carson City → Virginia
+  City → **Reno**, with the **National Automobile Museum** and the **Reno Arch and
+  Truckee Riverwalk** after dark. The stop summary and the day label now describe
+  what the days actually contain.
 
 ## 4. Long drives worth a second look
 

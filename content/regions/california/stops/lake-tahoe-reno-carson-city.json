@@ -8,7 +8,7 @@
     "lat": 39.0968,
     "lng": -120.0324
   },
-  "summary": "The dazzling blue alpine lake straddling the California–Nevada line, plus Reno's neon, Nevada's little capital, and the Comstock ghost town of Virginia City.",
+  "summary": "The dazzling blue alpine lake straddling the California–Nevada line — South Lake Tahoe and the gondola up Heavenly, Reno's neon and its car collection, Nevada's little capital, and the Comstock ghost town of Virginia City.",
   "lodging": [
     {
       "name": "A South Lake Tahoe lodge",
@@ -49,17 +49,38 @@
               "swimsuit or layers, by season"
             ]
           }
+        },
+        {
+          "start": "3:00 PM",
+          "item": {
+            "id": "lake-tahoe-heavenly-gondola",
+            "title": "The Heavenly Gondola, South Lake Tahoe",
+            "categoryId": "skiing",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Heavenly Gondola",
+              "address": "4080 Lake Tahoe Blvd, South Lake Tahoe, CA",
+              "lat": 38.9585,
+              "lng": -119.9401,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Heavenly%20Gondola%20South%20Lake%20Tahoe"
+            },
+            "blurb": "It starts in the middle of South Lake Tahoe and climbs two and a half miles to an observation deck at 9,100 feet, with the whole lake laid out below and the Carson Range behind. In winter this is the way onto one of the great American ski mountains, straddling two states; in summer it is the best view of Tahoe you can get without hiking for it. Walk back down through the village afterwards — the lakefront at Lakeview Commons is ten minutes away.",
+            "gear": [
+              "a warm layer — it is twenty degrees cooler at the top"
+            ]
+          }
         }
       ]
     },
     {
       "dayNumber": 459,
-      "label": "Day 459 — Reno, Carson City & the Comstock",
+      "label": "Day 459 — Carson City, the Comstock & Reno",
       "type": "active",
-      "summary": "Neon, a capital, and silver-mine history.",
+      "summary": "A capital, silver-mine history, and the Biggest Little City.",
       "blocks": [
         {
-          "start": "10:00 AM",
+          "start": "9:30 AM",
           "item": {
             "id": "lake-tahoe-carson-virginia-city",
             "title": "Carson City & Virginia City",
@@ -73,7 +94,43 @@
               "lng": -119.7674,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Nevada%20State%20Capitol"
             },
-            "blurb": "Nevada's small capital, then the Comstock Lode boomtown of Virginia City — and Reno, the 'Biggest Little City,' nearby."
+            "blurb": "Nevada's small silver-domed capital, then up the grade to Virginia City — the Comstock Lode boomtown where Mark Twain got his start on the Territorial Enterprise, its boardwalks and saloons still standing along C Street."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "lake-tahoe-reno-auto-museum",
+            "title": "The National Automobile Museum, Reno",
+            "categoryId": "museums-history",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "National Automobile Museum",
+              "address": "1 Museum Dr, Reno, NV",
+              "lat": 39.5215,
+              "lng": -119.8125,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=National%20Automobile%20Museum%20Reno"
+            },
+            "blurb": "What's left of Bill Harrah's collection — over two hundred cars staged along period street scenes, including the 1907 Thomas Flyer that won the New York to Paris race and the Mercury James Dean drove in Rebel Without a Cause. One of the best car museums in the country, in a town nobody expects it in."
+          }
+        },
+        {
+          "start": "5:30 PM",
+          "item": {
+            "id": "lake-tahoe-reno-arch",
+            "title": "The Reno Arch & the Riverwalk",
+            "categoryId": "quirky",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "The Reno Arch",
+              "address": "N Virginia St & Commercial Row, Reno, NV",
+              "lat": 39.5296,
+              "lng": -119.8138,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Reno%20Arch"
+            },
+            "blurb": "\"The Biggest Little City in the World\" has been strung across Virginia Street in neon since 1929, and it is worth waiting for dark to see it lit. Then walk the Truckee River Riverwalk a block south, where a whitewater park runs through the middle of downtown and people surf a standing wave between the casinos."
           }
         }
       ]
