@@ -11,7 +11,8 @@
     "validate": "tsx scripts/validate-content.ts",
     "preview": "wrangler dev",
     "deploy": "wrangler deploy",
-    "llms": "tsx scripts/build-llms-txt.ts"
+    "llms": "tsx scripts/build-llms-txt.ts",
+    "og": "tsx scripts/build-og.ts"
   },
   "dependencies": {
     "d3-geo": "^3.1.1",
@@ -34,6 +35,7 @@
     "@types/topojson-specification": "^1.0.5",
     "eslint": "^9",
     "eslint-config-next": "^15",
+    "sharp": "^0.34.0",
     "tailwindcss": "^4",
     "tsx": "^4",
     "typescript": "^5",

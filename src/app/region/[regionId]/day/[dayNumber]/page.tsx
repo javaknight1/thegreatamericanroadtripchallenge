@@ -10,7 +10,7 @@ import { regionMapData } from "@/lib/geo";
 import { regionTheme, regionThemeStyle } from "@/lib/region-theme";
 import { JsonLd } from "@/components/json-ld";
 import { breadcrumbs, daySchema } from "@/lib/schema-org";
-import { canonical, dayDescription } from "@/lib/seo";
+import { canonical, dayDescription, shareImage } from "@/lib/seo";
 import { categoryIndex, findDay, regionDays } from "@/lib/region-view";
 import { stopColorMap } from "@/lib/stop-colors";
 
@@ -47,6 +47,11 @@ export async function generateMetadata({
       description,
       url: canonical(path),
       type: "article",
+      images: [shareImage(`Map of ${region.name}`, region.id)],
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: [shareImage(`Map of ${region.name}`, region.id)],
     },
   };
 }

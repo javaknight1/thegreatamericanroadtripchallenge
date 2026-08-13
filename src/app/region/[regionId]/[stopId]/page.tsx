@@ -7,7 +7,7 @@ import { dayRange } from "@/lib/derive";
 import { regionTheme, regionThemeStyle } from "@/lib/region-theme";
 import { JsonLd } from "@/components/json-ld";
 import { breadcrumbs, stopSchema } from "@/lib/schema-org";
-import { canonical, stopDescription } from "@/lib/seo";
+import { canonical, stopDescription, shareImage } from "@/lib/seo";
 import { formatDuration, formatPlace, mapUrl } from "@/lib/format";
 
 type Params = { regionId: string; stopId: string };
@@ -37,6 +37,11 @@ export async function generateMetadata({
       description,
       url: canonical(path),
       type: "article",
+      images: [shareImage(`Map of ${found.region.name}`, found.region.id)],
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: [shareImage(`Map of ${found.region.name}`, found.region.id)],
     },
   };
 }

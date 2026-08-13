@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { getTrip } from "@/lib/content";
-import { canonical, tripDescription } from "@/lib/seo";
+import { canonical, shareImage, tripDescription } from "@/lib/seo";
 import "./globals.css";
 
 export function generateMetadata(): Metadata {
@@ -34,11 +34,13 @@ export function generateMetadata(): Metadata {
       title: trip.title,
       description,
       locale: "en_US",
+      images: [shareImage(`Map of ${trip.title} — the whole loop through the contiguous 48`)],
     },
     twitter: {
       card: "summary_large_image",
       title: trip.title,
       description,
+      images: [shareImage(`Map of ${trip.title}`)],
     },
     robots: {
       index: true,

@@ -25,6 +25,26 @@ export function canonical(path = "/"): string {
   return `${SITE_URL}${clean}`;
 }
 
+/**
+ * The share card for a page, as an Open Graph image descriptor.
+ *
+ * The cards are committed PNGs under `public/og/` (see `scripts/build-og.ts`
+ * for why they aren't built). Every page that declares `openGraph` has to name
+ * one explicitly: Next replaces a parent's `openGraph` object wholesale when a
+ * child defines its own, so an image set only in the root layout silently
+ * vanishes from all 900-odd inner pages — which is the failure this whole
+ * exercise was meant to fix.
+ */
+export function shareImage(alt: string, regionId?: string) {
+  return {
+    url: `${SITE_URL}/og/${regionId ? `region-${regionId}` : "default"}.png`,
+    width: 1200,
+    height: 630,
+    alt,
+    type: "image/png",
+  };
+}
+
 /** Descriptions get truncated around 155–160 chars in results; land under it. */
 function clamp(text: string, max = 155): string {
   const flat = text.replace(/\s+/g, " ").trim();

@@ -1,0 +1,23 @@
+{
+  "days": 735,
+  "stops": 254,
+  "usStates": 48,
+  "parks": 48,
+  "miles": 31200,
+  "legs": [
+    "new-england",
+    "mid-atlantic",
+    "coastal-southeast",
+    "florida",
+    "deep-south",
+    "texas-south-plains",
+    "desert-southwest",
+    "california",
+    "pacific-northwest",
+    "northern-rockies",
+    "colorado-rockies",
+    "great-plains",
+    "upper-midwest-great-lakes",
+    "appalachia-return"
+  ]
+}
