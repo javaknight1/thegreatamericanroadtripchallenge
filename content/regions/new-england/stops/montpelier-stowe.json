@@ -159,6 +159,24 @@
             },
             "blurb": "Alpine meadows, walking trails, and a lager in the von Trapp brewery."
           }
+        },
+        {
+          "start": "4:00 PM",
+          "item": {
+            "id": "montpelier-stowe-ski-museum",
+            "title": "The Vermont Ski and Snowboard Museum",
+            "categoryId": "skiing",
+            "tier": "mid",
+            "durationMins": 75,
+            "location": {
+              "name": "Vermont Ski and Snowboard Museum",
+              "address": "1 S Main St, Stowe, VT",
+              "lat": 44.4654,
+              "lng": -72.6874,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Vermont%20Ski%20and%20Snowboard%20Museum%20Stowe"
+            },
+            "blurb": "In the old town hall on Stowe's main street, in the town that has a fair claim to being where American skiing started. Rope tows and wooden rope-tow gripper mitts, the story of the 10th Mountain Division, and a snowboard collection that takes the sport seriously — Vermont produced Burton, and it shows."
+          }
         }
       ]
     },

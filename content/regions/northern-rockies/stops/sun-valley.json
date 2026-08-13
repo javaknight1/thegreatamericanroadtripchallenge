@@ -33,8 +33,8 @@
           "start": "9:30 AM",
           "item": {
             "id": "sun-valley-baldy",
-            "title": "Bald Mountain & the trails",
-            "categoryId": "outdoor-water",
+            "title": "Bald Mountain",
+            "categoryId": "skiing",
             "tier": "anchor",
             "durationMins": 210,
             "location": {
@@ -44,7 +44,7 @@
               "lng": -114.367,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Bald%20Mountain"
             },
-            "blurb": "Ride the lift or hike 'Baldy,' then the bike paths and river trails around town (world-class skiing in winter).",
+            "blurb": "Three thousand four hundred feet of continuous fall-line, and a strong argument for the best ski mountain in America — no flats, no traverses, just top to bottom. In summer the lift runs to the Roundhouse and the trails are yours on foot or on a bike.",
             "gear": [
               "hiking shoes",
               "water"
@@ -67,6 +67,24 @@
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Ketchum%20Cemetery"
             },
             "blurb": "The mountain town where Hemingway lived, died, and is buried, plus his memorial up Trail Creek."
+          }
+        },
+        {
+          "start": "4:15 PM",
+          "item": {
+            "id": "sun-valley-first-chairlift",
+            "title": "Sun Valley Lodge & the world's first chairlift",
+            "categoryId": "skiing",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "Sun Valley Lodge",
+              "address": "1 Sun Valley Rd, Sun Valley, ID",
+              "lat": 43.6968,
+              "lng": -114.3538,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Sun%20Valley%20Lodge%20Idaho"
+            },
+            "blurb": "America's first destination ski resort, built in 1936 by the Union Pacific to give people a reason to ride its trains west. Its engineers adapted a machine used to load bananas onto boats and invented the chairlift here — the original is on display. The lodge corridors are lined with photographs of everyone who came: Hemingway finished For Whom the Bell Tolls in room 206."
           }
         }
       ]

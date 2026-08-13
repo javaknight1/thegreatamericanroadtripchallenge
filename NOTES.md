@@ -191,17 +191,8 @@ authored order for both legs (the Southwest had never been re-sorted).
 
 ## 5. Categories with no content yet
 
-- **`skiing` — RESOLVED at day 475.** Timberline Lodge on Mount Hood is the
-  first item to carry it, so all 18 categories are now in use. Worth noting the
-  two that got away, in case they're worth re-tagging for balance: Park City
-  (2002 Olympics) is `cities`, and Lake Tahoe's "Kayak or ski Tahoe" free-day
-  option is `outdoor-water`. **Sun Valley has now gone by too** (day 524) —
-  "America's original destination ski resort," with its Bald Mountain item tagged
-  `outdoor-water` and skiing mentioned only in the blurb. **Jackson Hole makes
-  four** — days 543–546 cover the Tetons, the Snake and the town square, with no
-  mention of the ski resort at all. That's four of the country's best-known ski
-  destinations passed over, and one `skiing` item across 554 days. Aspen and Vail
-  in the Colorado leg are the last realistic chances.
+- **`skiing` — FIXED. One item became fifteen.** See the section at the end of
+  this file for what was wrong and how it was resolved.
 - **`festivals`** — used in the Deep South (Mardi Gras, Mobile Carnival) but
   absent from Mid-Atlantic, Texas and the Southwest. Balloon Fiesta is mentioned
   in an Albuquerque blurb rather than being its own item.
@@ -321,31 +312,51 @@ was the only case.
   fine today, but as the West fills in it's worth re-checking that all fourteen
   are distinguishable side by side.
 
-### `skiing` will finish the trip with one item
+### `skiing` finished the trip with one item — **FIXED, now fifteen**
 
-**Settled, unless something changes.** Aspen, Vail and Breckenridge are now
-written (days 581–583) and none carries a `skiing` item — Maroon Bells is
-`landmarks`, Vail Village and Breckenridge are `cities`. That completes the
-sweep: Park City, Lake Tahoe, Sun Valley, Jackson Hole, Telluride, and now the
-I-70 trio have all gone by tagged as something else.
+The problem: Park City, Lake Tahoe, Sun Valley, Jackson Hole, Telluride, Aspen,
+Vail and Breckenridge had all gone by tagged as something else, leaving one
+`skiing` item across 735 days — Timberline Lodge, which only qualified because
+Mount Hood skis in summer.
 
-The route is the reason, and it's a defensible one. The leg is timed for late
-summer and fall — the season note is explicit about aspens, and the summary says
-"ski towns out of season." Nowhere does this itinerary arrive at a mountain in
-winter, so nothing in it honestly skis.
+The route was the reason and it's still true: this itinerary never arrives at a
+mountain in winter, so **nothing in it honestly skis**, and inventing a winter
+day would have been a lie. What it does do is drive through eight of the
+best-known ski destinations in the country, every one of which has a summer face
+that is unmistakably about skiing. Those are what got written:
 
-That leaves **one `skiing` item across 584 days** (Timberline Lodge, day 475,
-which qualifies only because Mount Hood offers summer skiing). Options, in the
-order I'd pick them:
+| leg | day | item |
+|---|---|---|
+| New England | 41 | The New England Ski Museum, at the foot of the Cannon tram |
+| New England | 48 | The Vermont Ski and Snowboard Museum, Stowe |
+| Mid-Atlantic | — | *nothing suitable on the route* |
+| Desert Southwest | 362 | **Taos Ski Valley** |
+| Desert Southwest | 399 | **Utah Olympic Park & the Alf Engen Ski Museum** |
+| California | 458 | **The Heavenly Gondola**, South Lake Tahoe |
+| Pacific NW | 475 | Timberline Lodge *(the original)* |
+| Northern Rockies | 524 | **Bald Mountain** *(re-tagged)* + the world's first chairlift |
+| Northern Rockies | 536 | **The Lone Peak Tram at Big Sky** |
+| Northern Rockies | 545 | **The Aerial Tram at Jackson Hole** |
+| Colorado | 575 | The gondola to Mountain Village, Telluride |
+| Colorado | 581 | **The Silver Queen Gondola up Aspen Mountain** |
+| Colorado | 582 | The Colorado Snowsports Museum + **Gondola One & the Back Bowls** |
+| Colorado | 583 | Peak 8 & the BreckConnect Gondola |
 
-1. **Add a winter-facing item anyway** at Vail or Breckenridge — the category
-   describes the place, and a reader planning their own trip wants to know the
-   mountain is there. Costs nothing structurally.
-2. **Re-tag one existing item** — Sun Valley's Bald Mountain is the cleanest fit,
-   since the blurb already says "world-class skiing in winter."
-3. **Accept it.** A fall loop through the Rockies genuinely doesn't ski, and the
-   home page showing `skiing: 1` is honest. But it will read as an oversight to
-   anyone scanning the category list, not as an editorial choice.
+Three of these are more than a tag fix:
+
+- **Taos Ski Valley is the one place on the loop the trip reaches in season.** The
+  Southwest leg runs in spring and the Valley stays open into April, so day 362 is
+  the only day on this itinerary where the lifts might actually be turning.
+- **Day 536 was a 90-minute transfer and nothing else**, on a road that runs
+  straight past the largest ski resort in the United States. It's now Bozeman →
+  Big Sky → the west gate of Yellowstone, with the Lone Peak Tram in the middle.
+- **Park City's single 210-minute `cities` item** bundled Main Street with the
+  Olympic park. Split, so the 2002 venues get their own billing.
+
+Still worth knowing: **Bend has no Mount Bachelor item** (day 473 is genuinely
+full with Smith Rock and the Ale Trail), Whitefish goes by unmentioned in the
+Glacier leg, and McCall's Brundage Mountain is named in the stop summary but has
+no item — day 518 arrives mid-afternoon and that time is deliberately unscheduled.
 
 ### The Upper Midwest closed better than it started
 

@@ -127,7 +127,25 @@
           }
         },
         {
-          "start": "1:30 PM",
+          "start": "12:15 PM",
+          "item": {
+            "id": "white-mountains-ski-museum",
+            "title": "The New England Ski Museum",
+            "categoryId": "skiing",
+            "tier": "mid",
+            "durationMins": 75,
+            "location": {
+              "name": "New England Ski Museum",
+              "address": "135 Tramway Dr, Franconia, NH",
+              "lat": 44.1766,
+              "lng": -71.6845,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=New%20England%20Ski%20Museum%20Franconia%20NH"
+            },
+            "blurb": "It sits at the foot of the tramway you just rode, and it is free. A hundred and fifty years of the sport in one room — hickory skis and leather boots, the 10th Mountain Division troops who trained on these slopes and came home to build the American ski industry, and Bode Miller's medals, from Franconia, three miles down the road."
+          }
+        },
+        {
+          "start": "2:00 PM",
           "item": {
             "id": "white-mountains-lost-river",
             "title": "Lost River Gorge & Boulder Caves",

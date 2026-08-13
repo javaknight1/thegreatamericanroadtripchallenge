@@ -69,15 +69,50 @@
     },
     {
       "dayNumber": 536,
-      "label": "Day 536 — South to Yellowstone",
+      "label": "Day 536 — Big Sky, then Yellowstone",
       "type": "commute",
-      "summary": "Into the world's first national park.",
-      "commute": {
-        "from": "Bozeman, MT",
-        "to": "Yellowstone National Park, WY",
-        "driveTimeMins": 90,
-        "scenicNote": "South through Gardiner into Yellowstone."
-      }
+      "summary": "Down US-191 past Lone Peak to the west gate.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "drive": {
+            "from": "Bozeman, MT",
+            "to": "Big Sky, MT",
+            "driveTimeMins": 60,
+            "scenicNote": "South on US-191 into the Gallatin Canyon, with the river on your right the whole way — they filmed A River Runs Through It along here."
+          }
+        },
+        {
+          "start": "10:15 AM",
+          "item": {
+            "id": "bozeman-big-sky-tram",
+            "title": "The Lone Peak Tram at Big Sky",
+            "categoryId": "skiing",
+            "tier": "anchor",
+            "durationMins": 180,
+            "location": {
+              "name": "Big Sky Resort",
+              "address": "50 Big Sky Resort Rd, Big Sky, MT",
+              "lat": 45.2845,
+              "lng": -111.4017,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Big%20Sky%20Resort%20Montana%20Lone%20Peak%20Tram"
+            },
+            "blurb": "Big Sky is the largest ski resort in the United States — nearly six thousand acres — and the tram hauls you to the 11,166-ft summit of Lone Peak, a rock fin standing alone above everything. Three states from the top on a clear day, and the Yellowstone plateau laid out to the south. The runs off this summit are the serious kind; in summer it is simply the best view in Montana that you can reach without walking.",
+            "gear": [
+              "a windproof layer"
+            ]
+          }
+        },
+        {
+          "start": "1:45 PM",
+          "drive": {
+            "from": "Big Sky, MT",
+            "to": "Yellowstone National Park, WY",
+            "driveTimeMins": 75,
+            "scenicNote": "The rest of the canyon to West Yellowstone and in through the west gate."
+          }
+        }
+      ]
     }
   ]
 }

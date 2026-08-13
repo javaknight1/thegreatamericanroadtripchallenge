@@ -56,13 +56,31 @@
       "summary": "An Olympic mountain town.",
       "blocks": [
         {
-          "start": "10:00 AM",
+          "start": "9:30 AM",
           "item": {
-            "id": "salt-lake-park-city",
-            "title": "Park City Main Street & Olympic Park",
-            "categoryId": "cities",
+            "id": "salt-lake-olympic-park",
+            "title": "Utah Olympic Park & the Alf Engen Ski Museum",
+            "categoryId": "skiing",
             "tier": "anchor",
             "durationMins": 210,
+            "location": {
+              "name": "Utah Olympic Park",
+              "address": "3419 Olympic Pkwy, Park City, UT",
+              "lat": 40.7133,
+              "lng": -111.5613,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Utah%20Olympic%20Park%20Park%20City%20Utah"
+            },
+            "blurb": "The 2002 Winter Games left Park City the best public ski museum in the country and a set of venues that never went quiet. Watch the national team throw itself off the ninety- and one-twenty-metre jumps into a swimming pool, ride a bobsled down the real Olympic track with a professional driver, and walk the Alf Engen Ski Museum, which is free and tells the story of skiing in the Wasatch — the snow here is the reason any of this is in Utah."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "salt-lake-park-city",
+            "title": "Park City Main Street",
+            "categoryId": "cities",
+            "tier": "anchor",
+            "durationMins": 150,
             "location": {
               "name": "Park City Main Street",
               "address": "Main St, Park City, UT",
@@ -70,7 +88,7 @@
               "lng": -111.498,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Park%20City%20Main%20Street"
             },
-            "blurb": "The historic silver-mining Main Street and the 2002 Winter Olympic park (bobsled rides in season; Sundance in January) — world-class skiing in winter.",
+            "blurb": "A silver-mining boomtown that ran out of silver and found something better under the same mountains. The Victorian main street climbs away from the base of the lifts; Sundance takes the whole town over every January.",
             "gear": [
               "layers"
             ]

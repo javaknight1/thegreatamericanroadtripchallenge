@@ -50,12 +50,30 @@
               "water"
             ]
           }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "aspen-silver-queen-gondola",
+            "title": "The Silver Queen Gondola up Aspen Mountain",
+            "categoryId": "skiing",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Silver Queen Gondola",
+              "address": "601 E Dean St, Aspen, CO",
+              "lat": 39.1866,
+              "lng": -106.8181,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Silver%20Queen%20Gondola%20Aspen%20Mountain"
+            },
+            "blurb": "Straight up out of the middle of town to 11,212 feet in fourteen minutes. Aspen Mountain has no beginner terrain at all — not one green run, which is almost unheard of — and from the Sundeck at the top you can see why: it falls away in every direction. The mining town underneath it went bust twice before skiing arrived in the 1940s and made it the most famous resort name in the country."
+          }
         }
       ]
     },
     {
       "dayNumber": 582,
-      "label": "Day 582 — Vail",
+      "label": "Day 582 — Vail & the Back Bowls",
       "type": "active",
       "summary": "An alpine village.",
       "blocks": [
@@ -78,6 +96,42 @@
             "gear": [
               "layers"
             ]
+          }
+        },
+        {
+          "start": "2:15 PM",
+          "item": {
+            "id": "vail-snowsports-museum",
+            "title": "The Colorado Snowsports Museum",
+            "categoryId": "skiing",
+            "tier": "mid",
+            "durationMins": 75,
+            "location": {
+              "name": "Colorado Snowsports Museum and Hall of Fame",
+              "address": "231 S Frontage Rd E, Vail, CO",
+              "lat": 39.6425,
+              "lng": -106.3742,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Colorado%20Snowsports%20Museum%20Vail"
+            },
+            "blurb": "Free, in the middle of Vail Village, and the answer to why this valley exists. The 10th Mountain Division trained at Camp Hale twenty miles south, learned to fight and ski at altitude, and came back after the war to build Vail, Aspen Highlands, Arapahoe Basin and half the resorts in the state. The Hall of Fame is upstairs."
+          }
+        },
+        {
+          "start": "4:00 PM",
+          "item": {
+            "id": "vail-gondola-back-bowls",
+            "title": "Gondola One & the Back Bowls",
+            "categoryId": "skiing",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Gondola One, Vail",
+              "address": "Vail Village, Vail, CO",
+              "lat": 39.6398,
+              "lng": -106.3742,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Gondola%20One%20Vail%20Village"
+            },
+            "blurb": "Ride up to Mid-Vail and walk to the back side, where the mountain drops into seven miles of open bowls with no trees in them — the terrain that made Vail's reputation and still makes it the biggest single ski mountain in Colorado. Green and wildflowered in summer, which is its own kind of strange when you know what it looks like in February."
           }
         }
       ]
@@ -107,6 +161,24 @@
             "gear": [
               "layers"
             ]
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "breckenridge-peak-8",
+            "title": "Peak 8 & the BreckConnect Gondola",
+            "categoryId": "skiing",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Breckenridge Ski Resort, Peak 8",
+              "address": "1599 Ski Hill Rd, Breckenridge, CO",
+              "lat": 39.4817,
+              "lng": -106.0673,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Breckenridge%20Peak%208%20BreckConnect%20Gondola"
+            },
+            "blurb": "The gondola leaves from the edge of town and climbs to Peak 8, one of five numbered peaks the resort spreads across. The Imperial Express chair above it tops out at 12,840 feet — the highest lift in North America — on terrain you have to hike the last of. In summer Peak 8 is an alpine coaster and a chairlift full of mountain bikes, and the view down the Tenmile Range is the same either way."
           }
         }
       ]

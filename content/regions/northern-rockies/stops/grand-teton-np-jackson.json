@@ -84,9 +84,9 @@
     },
     {
       "dayNumber": 545,
-      "label": "Day 545 — Jackson",
+      "label": "Day 545 — Jackson & the Tram",
       "type": "active",
-      "summary": "The Old West town.",
+      "summary": "A town square of antlers, and 4,139 feet straight up.",
       "blocks": [
         {
           "start": "10:00 AM",
@@ -104,6 +104,27 @@
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Jackson%20Town%20Square"
             },
             "blurb": "The antler-arch square, art galleries, and the National Elk Refuge on the edge of town."
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "jackson-hole-tram",
+            "title": "The Aerial Tram at Jackson Hole",
+            "categoryId": "skiing",
+            "tier": "anchor",
+            "durationMins": 240,
+            "location": {
+              "name": "Jackson Hole Mountain Resort",
+              "address": "3395 Cody Ln, Teton Village, WY",
+              "lat": 43.5875,
+              "lng": -110.8276,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Jackson%20Hole%20Aerial%20Tram%20Teton%20Village"
+            },
+            "blurb": "Twelve minutes and 4,139 vertical feet — the biggest continuous rise of any lift in the country — to the top of Rendezvous Mountain, with the Tetons across the valley at eye level. Look over the edge at Corbet's Couloir, a twenty-foot drop into a chute that is the most famous single turn in American skiing, and understand why people move here and never leave. There are waffles at the top, and they are not incidental: Corbet's Cabin has been selling them to everyone who rides up since long before the tram was rebuilt.",
+            "gear": [
+              "a warm layer — it is 10,450 feet at the top"
+            ]
           }
         }
       ]

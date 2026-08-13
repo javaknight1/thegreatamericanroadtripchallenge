@@ -33,10 +33,10 @@
           "start": "9:30 AM",
           "item": {
             "id": "telluride-gondola-falls",
-            "title": "Free gondola & Bridal Veil Falls",
+            "title": "Main Street & Bridal Veil Falls",
             "categoryId": "cities",
             "tier": "anchor",
-            "durationMins": 240,
+            "durationMins": 210,
             "location": {
               "name": "Telluride Gondola",
               "address": "Telluride, CO",
@@ -44,11 +44,29 @@
               "lng": -107.8123,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Telluride%20Gondola"
             },
-            "blurb": "Ride the free gondola over the ridge, walk the historic main street, and hike toward Colorado's tallest free-falling waterfall.",
+            "blurb": "A box canyon with one way in, a main street of false-front Victorians below it, and Colorado's tallest free-falling waterfall at the closed end — Butch Cassidy robbed his first bank here, and the town looks much as it did when he did.",
             "gear": [
               "layers",
               "hiking shoes"
             ]
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "telluride-mountain-village",
+            "title": "The gondola to Mountain Village",
+            "categoryId": "skiing",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Telluride Gondola",
+              "address": "Oak St & San Juan Ave, Telluride, CO",
+              "lat": 37.9375,
+              "lng": -107.8123,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Telluride%20Gondola%20Mountain%20Village"
+            },
+            "blurb": "Free, thirteen minutes over a 10,500-ft ridge to Mountain Village, and the only transit system of its kind in the country — built as a condition of the resort's expansion so the two halves of town wouldn't need a road between them. Telluride's ski runs fall away on both sides; See Forever, the run down the ridgeline, is named for exactly what you get from the top."
           }
         }
       ]
