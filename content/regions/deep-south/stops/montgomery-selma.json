@@ -30,7 +30,25 @@
       "summary": "The movement's beginnings and a searing memorial.",
       "blocks": [
         {
-          "start": "9:30 AM",
+          "start": "9:00 AM",
+          "item": {
+            "id": "montgomery-selma-capitol",
+            "title": "The Alabama State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 60,
+            "location": {
+              "name": "Alabama State Capitol",
+              "address": "600 Dexter Ave, Montgomery, AL",
+              "lat": 32.3777,
+              "lng": -86.3,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Alabama%20State%20Capitol%20Montgomery"
+            },
+            "blurb": "Two things happened on these steps. Jefferson Davis was sworn in as president of the Confederacy here in 1861, and a bronze star marks where he stood. A hundred and four years later the march from Selma arrived at the same steps and King asked how long — not long. Dexter Avenue runs downhill from the door, and King's church is at the bottom of it."
+          }
+        },
+        {
+          "start": "10:15 AM",
           "end": "1:00 PM",
           "item": {
             "id": "montgomery-selma-legacy",
@@ -49,7 +67,7 @@
           }
         },
         {
-          "start": "2:30 PM",
+          "start": "2:15 PM",
           "item": {
             "id": "montgomery-selma-rosa-parks",
             "title": "Rosa Parks Museum & Dexter Ave Church",

@@ -59,10 +59,10 @@
           "start": "10:00 AM",
           "item": {
             "id": "indy-monument-circle",
-            "title": "Monument Circle & the Capitol",
+            "title": "Monument Circle",
             "categoryId": "cities",
             "tier": "mid",
-            "durationMins": 150,
+            "durationMins": 100,
             "location": {
               "name": "Soldiers' and Sailors' Monument",
               "address": "1 Monument Cir, Indianapolis, IN",
@@ -70,7 +70,25 @@
               "lng": -86.158,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Soldiers%27%20and%20Sailors%27%20Monument"
             },
-            "blurb": "The soaring war monument at the city's heart and the Indiana Statehouse nearby."
+            "blurb": "The Soldiers' and Sailors' Monument stands in the middle of the city's one roundabout — climb it, or take the lift, for the view down all four streets. Indianapolis has more war memorials than anywhere in the country except Washington."
+          }
+        },
+        {
+          "start": "12:00 PM",
+          "item": {
+            "id": "indy-statehouse",
+            "title": "The Indiana Statehouse",
+            "categoryId": "capitols",
+            "tier": "mid",
+            "durationMins": 60,
+            "location": {
+              "name": "Indiana Statehouse",
+              "address": "200 W Washington St, Indianapolis, IN",
+              "lat": 39.7684,
+              "lng": -86.1623,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Indiana%20Statehouse%20Indianapolis"
+            },
+            "blurb": "Two blocks west of the circle, and unusually it holds all three branches of the state's government under one roof. Walk in and look up through the stained-glass rotunda dome; the tours are free and self-guided ones are always available."
           }
         },
         {

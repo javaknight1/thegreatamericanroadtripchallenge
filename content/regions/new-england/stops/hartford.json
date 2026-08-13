@@ -48,13 +48,13 @@
           }
         },
         {
-          "start": "1:30 PM",
+          "start": "1:00 PM",
           "item": {
             "id": "hartford-wadsworth",
-            "title": "Wadsworth Atheneum & the State Capitol",
+            "title": "The Wadsworth Atheneum",
             "categoryId": "museums-history",
             "tier": "mid",
-            "durationMins": 150,
+            "durationMins": 100,
             "location": {
               "name": "Wadsworth Atheneum",
               "address": "600 Main St, Hartford, CT",
@@ -62,7 +62,25 @@
               "lng": -72.673,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Wadsworth%20Atheneum"
             },
-            "blurb": "The oldest continuously operating public art museum in the U.S., then the gold-domed Connecticut Capitol over Bushnell Park."
+            "blurb": "The oldest continuously operating public art museum in the country, opened in 1844 — Hudson River School landscapes, Colt firearms, and a Caravaggio."
+          }
+        },
+        {
+          "start": "3:15 PM",
+          "item": {
+            "id": "hartford-state-capitol",
+            "title": "The Connecticut State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 75,
+            "location": {
+              "name": "Connecticut State Capitol",
+              "address": "210 Capitol Ave, Hartford, CT",
+              "lat": 41.7627,
+              "lng": -72.6822,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Connecticut%20State%20Capitol%20Hartford"
+            },
+            "blurb": "A wild marble-and-granite pile above Bushnell Park, gold-domed and covered in gables and statuary — one architecture critic called it the handsomest capitol in America and Mark Twain, who lived up the road, reportedly called it something less kind. Free tours, and the Genius of Connecticut stands in the atrium."
           }
         }
       ]

@@ -36,7 +36,7 @@
             "title": "Abraham Lincoln sites",
             "categoryId": "museums-history",
             "tier": "anchor",
-            "durationMins": 300,
+            "durationMins": 240,
             "location": {
               "name": "Abraham Lincoln Presidential Library and Museum",
               "address": "212 N 6th St, Springfield, IL",
@@ -45,6 +45,24 @@
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Abraham%20Lincoln%20Presidential%20Library%20and%20Museum"
             },
             "blurb": "The excellent Presidential Museum, the only home Lincoln ever owned, the Old State Capitol, and his tomb."
+          }
+        },
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "springfield-state-capitols",
+            "title": "The Old State Capitol & the Illinois Statehouse",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Old State Capitol State Historic Site",
+              "address": "1 Old State Capitol Plaza, Springfield, IL",
+              "lat": 39.8014,
+              "lng": -89.6465,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20State%20Capitol%20Springfield%20Illinois"
+            },
+            "blurb": "Lincoln gave the House Divided speech in this hall in 1858, argued cases in it as a lawyer, and lay in state in it after Ford's Theatre; Obama announced his candidacy on the steps outside in 2007. The working capitol is six blocks west and is the tallest non-skyscraper statehouse in the country — taller than the one in Washington."
           }
         }
       ]

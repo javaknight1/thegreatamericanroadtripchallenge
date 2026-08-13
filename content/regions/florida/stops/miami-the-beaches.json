@@ -111,6 +111,24 @@
             },
             "blurb": "An open-air museum of giant street murals, plus galleries and breweries."
           }
+        },
+        {
+          "start": "8:00 PM",
+          "item": {
+            "id": "miami-ball-and-chain",
+            "title": "Live salsa on Calle Ocho",
+            "categoryId": "concerts-venues",
+            "tier": "mid",
+            "durationMins": 150,
+            "location": {
+              "name": "Ball & Chain",
+              "address": "1513 SW 8th St, Miami, FL",
+              "lat": 25.7657,
+              "lng": -80.2185,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Ball%20and%20Chain%20Little%20Havana%20Miami"
+            },
+            "blurb": "Go back to Calle Ocho after dark. Ball & Chain has been on this corner since 1935 — Billie Holiday and Chet Baker played it — and there is a band in the pineapple-shaped bandstand out the back most nights, with people who genuinely know how to dance to it. Nobody minds if you don't."
+          }
         }
       ]
     },
@@ -198,7 +216,7 @@
     },
     {
       "dayNumber": 228,
-      "label": "Day 228 — Biscayne Bay",
+      "label": "Day 228 — Biscayne Bay & a Ball Game",
       "type": "active",
       "summary": "Out on the water.",
       "blocks": [
@@ -218,6 +236,24 @@
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Bayside%20Marketplace"
             },
             "blurb": "A cruise past the downtown skyline and the 'Star Island' celebrity mansions from Bayside Marketplace."
+          }
+        },
+        {
+          "start": "7:30 PM",
+          "item": {
+            "id": "miami-heat-game",
+            "title": "A Heat game downtown",
+            "categoryId": "sports",
+            "tier": "mid",
+            "durationMins": 180,
+            "location": {
+              "name": "Kaseya Center",
+              "address": "601 Biscayne Blvd, Miami, FL",
+              "lat": 25.7814,
+              "lng": -80.187,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Kaseya%20Center%20Miami"
+            },
+            "blurb": "The arena sits on the bay downtown, and Miami in winter is the middle of the NBA season. It is the loudest room in the city on a good night. If basketball isn't the thing, the Panthers play hockey up in Sunrise and the Dolphins are at Hard Rock Stadium through January."
           }
         }
       ]

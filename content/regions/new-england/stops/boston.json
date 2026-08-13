@@ -287,7 +287,25 @@
           }
         },
         {
-          "start": "12:00 PM",
+          "start": "11:45 AM",
+          "item": {
+            "id": "boston-state-house",
+            "title": "The Massachusetts State House",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 60,
+            "location": {
+              "name": "Massachusetts State House",
+              "address": "24 Beacon St, Boston, MA",
+              "lat": 42.3588,
+              "lng": -71.0638,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Massachusetts%20State%20House%20Boston"
+            },
+            "blurb": "Charles Bulfinch's 1798 statehouse sits at the top of the Common with a dome that Paul Revere's company sheathed in copper and the state later covered in gold leaf. Free tours run on the hour; look up in the House chamber for the Sacred Cod, a wooden fish that has hung over the proceedings since the 1700s and once got kidnapped by pranksters from the Harvard Lampoon."
+          }
+        },
+        {
+          "start": "1:00 PM",
           "end": "1:30 PM",
           "item": {
             "id": "boston-public-garden",
@@ -306,7 +324,7 @@
           }
         },
         {
-          "start": "2:30 PM",
+          "start": "3:00 PM",
           "item": {
             "id": "boston-newbury-st",
             "title": "Shopping on Newbury Street",

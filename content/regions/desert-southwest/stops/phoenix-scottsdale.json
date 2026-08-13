@@ -79,7 +79,25 @@
       "summary": "Architecture and Native American art.",
       "blocks": [
         {
-          "start": "9:30 AM",
+          "start": "9:00 AM",
+          "item": {
+            "id": "phoenix-arizona-capitol",
+            "title": "The Arizona Capitol Museum",
+            "categoryId": "capitols",
+            "tier": "mid",
+            "durationMins": 75,
+            "location": {
+              "name": "Arizona State Capitol Museum",
+              "address": "1700 W Washington St, Phoenix, AZ",
+              "lat": 33.4482,
+              "lng": -112.0972,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Arizona%20State%20Capitol%20Museum%20Phoenix"
+            },
+            "blurb": "The 1901 territorial capitol, now a museum, with a copper dome — sixteen tons of Arizona copper — and Winged Victory turning on top of it as a weather vane. The legislature moved out to the towers behind, so the old chambers are restored to 1912, the year Arizona became a state. The silver service from the battleship USS Arizona is here too."
+          }
+        },
+        {
+          "start": "10:30 AM",
           "end": "12:00 PM",
           "item": {
             "id": "phoenix-taliesin",
@@ -98,7 +116,7 @@
           }
         },
         {
-          "start": "1:30 PM",
+          "start": "2:00 PM",
           "item": {
             "id": "phoenix-heard",
             "title": "The Heard Museum",

@@ -64,6 +64,24 @@
             },
             "blurb": "The 'Mile of History' — a hillside of Federal and Colonial homes below Brown's campus."
           }
+        },
+        {
+          "start": "4:00 PM",
+          "item": {
+            "id": "providence-state-house",
+            "title": "The Rhode Island State House",
+            "categoryId": "capitols",
+            "tier": "mid",
+            "durationMins": 60,
+            "location": {
+              "name": "Rhode Island State House",
+              "address": "82 Smith St, Providence, RI",
+              "lat": 41.8309,
+              "lng": -71.4147,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Rhode%20Island%20State%20House%20Providence"
+            },
+            "blurb": "White Georgian marble with one of the largest self-supporting marble domes in the world, and the Independent Man on top of it. Inside is Rhode Island's 1663 royal charter — the first document anywhere to guarantee freedom of worship, and the colony's law for 180 years."
+          }
         }
       ]
     },

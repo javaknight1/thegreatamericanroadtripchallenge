@@ -287,15 +287,38 @@
     },
     {
       "dayNumber": 219,
-      "label": "Day 219 — South to Palm Beach",
+      "label": "Day 219 — Pulse, then South",
       "type": "commute",
-      "summary": "Down to the Gold Coast.",
-      "commute": {
-        "from": "Orlando, FL",
-        "to": "Palm Beach, FL",
-        "driveTimeMins": 150,
-        "scenicNote": "Southeast to the Atlantic and the start of the Gold Coast."
-      }
+      "summary": "A memorial in the morning, the coast in the afternoon.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "orlando-pulse-memorial",
+            "title": "The Pulse Memorial",
+            "categoryId": "somber-sites",
+            "tier": "anchor",
+            "durationMins": 75,
+            "location": {
+              "name": "Pulse Memorial",
+              "address": "1912 S Orange Ave, Orlando, FL",
+              "lat": 28.5211,
+              "lng": -81.3768,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Pulse%20Memorial%20Orlando%20Florida"
+            },
+            "blurb": "Forty-nine people were killed here on 12 June 2016, most of them young, Latino and gay, on the club's Latin night. The interim memorial wraps the building in their names and in the offerings people have left since; the city bought the site and a permanent memorial is being built. Nine days of theme parks end four miles from here, and it is worth the forty minutes to stand in the difference."
+          }
+        },
+        {
+          "start": "11:30 AM",
+          "drive": {
+            "from": "Orlando, FL",
+            "to": "Palm Beach, FL",
+            "driveTimeMins": 150,
+            "scenicNote": "South on the Turnpike and out to the coast at the far end — the first of the Atlantic since Amelia Island."
+          }
+        }
+      ]
     }
   ]
 }

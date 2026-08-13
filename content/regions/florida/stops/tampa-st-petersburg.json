@@ -54,7 +54,7 @@
     },
     {
       "dayNumber": 241,
-      "label": "Day 241 — Ybor City & the Riverwalk",
+      "label": "Day 241 — Ybor City, the Riverwalk & the Bolts",
       "type": "active",
       "summary": "Historic Cuban Tampa and the water.",
       "blocks": [
@@ -92,6 +92,24 @@
               "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Florida%20Aquarium"
             },
             "blurb": "A waterfront promenade and a strong aquarium on the channel."
+          }
+        },
+        {
+          "start": "7:00 PM",
+          "item": {
+            "id": "tampa-lightning-game",
+            "title": "A Lightning game on the Riverwalk",
+            "categoryId": "sports",
+            "tier": "mid",
+            "durationMins": 180,
+            "location": {
+              "name": "Benchmark International Arena",
+              "address": "401 Channelside Dr, Tampa, FL",
+              "lat": 27.9427,
+              "lng": -82.4518,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Benchmark%20International%20Arena%20Tampa"
+            },
+            "blurb": "The arena is on the Riverwalk you just walked, and hockey in Florida turns out to be one of the loudest tickets in the sport — they blow a Tesla coil for goals. If you're through in late February or March instead, the Grapefruit League is the better answer: the Yankees train in Tampa and the Phillies in Clearwater, tickets are cheap, and the players are close enough to hear."
           }
         }
       ]

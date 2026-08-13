@@ -33,10 +33,10 @@
           "start": "10:00 AM",
           "item": {
             "id": "salt-lake-temple-square",
-            "title": "Temple Square & the Utah State Capitol",
+            "title": "Temple Square",
             "categoryId": "landmarks",
             "tier": "anchor",
-            "durationMins": 180,
+            "durationMins": 150,
             "location": {
               "name": "Temple Square",
               "address": "50 N Temple, Salt Lake City, UT",
@@ -44,7 +44,25 @@
               "lng": -111.8927,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Temple%20Square"
             },
-            "blurb": "The Salt Lake Temple grounds and the Tabernacle, then the columned Utah State Capitol on the hill above."
+            "blurb": "The centre of the Latter-day Saint world — ten acres of gardens, the Tabernacle with its famous acoustics, and the temple itself, which non-members don't enter."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "item": {
+            "id": "salt-lake-utah-capitol",
+            "title": "The Utah State Capitol",
+            "categoryId": "capitols",
+            "tier": "anchor",
+            "durationMins": 90,
+            "location": {
+              "name": "Utah State Capitol",
+              "address": "350 State St, Salt Lake City, UT",
+              "lat": 40.7767,
+              "lng": -111.8881,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Utah%20State%20Capitol%20Salt%20Lake%20City"
+            },
+            "blurb": "It stands on the bench above the city with the whole Salt Lake Valley below it and the Wasatch behind, which is the best free view in Utah. Granite and Georgian marble, a rotunda painted with the state's history, and a seismic retrofit that rests the entire building on 280 base isolators so it can slide two feet in an earthquake."
           }
         }
       ]

@@ -48,7 +48,25 @@
           }
         },
         {
-          "start": "2:00 PM",
+          "start": "12:45 PM",
+          "item": {
+            "id": "santa-fe-roundhouse",
+            "title": "The Roundhouse",
+            "categoryId": "capitols",
+            "tier": "mid",
+            "durationMins": 75,
+            "location": {
+              "name": "New Mexico State Capitol",
+              "address": "490 Old Santa Fe Trail, Santa Fe, NM",
+              "lat": 35.6823,
+              "lng": -105.9391,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=New%20Mexico%20State%20Capitol%20Roundhouse%20Santa%20Fe"
+            },
+            "blurb": "The only round state capitol in the United States, built in the shape of the Zia sun symbol that's on the state flag. It doubles as a public art museum — six hundred works by New Mexican artists hung through the corridors, free, and almost nobody goes."
+          }
+        },
+        {
+          "start": "2:30 PM",
           "item": {
             "id": "santa-fe-okeeffe",
             "title": "Georgia O'Keeffe Museum & Canyon Road",
