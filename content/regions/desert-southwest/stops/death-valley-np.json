@@ -1,0 +1,107 @@
+{
+  "id": "death-valley-np",
+  "name": "Death Valley National Park",
+  "state": "CA",
+  "country": "US",
+  "order": 18,
+  "location": {
+    "lat": 36.5054,
+    "lng": -117.0794
+  },
+  "summary": "The hottest, driest, lowest place in North America — a surreal, beautiful desert of salt flats, dunes, and painted hills, two hours off the Strip.",
+  "lodging": [
+    {
+      "name": "The Ranch or Inn at Death Valley",
+      "blurb": "Oasis lodging at Furnace Creek.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=The%20Oasis%20at%20Death%20Valley%20Furnace%20Creek"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "A cold drink at Furnace Creek",
+      "blurb": "Hydration is the priority here."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 404,
+      "label": "Day 404 — Below Sea Level",
+      "type": "active",
+      "summary": "Salt flats, dunes, and painted hills.",
+      "blocks": [
+        {
+          "start": "7:00 AM",
+          "item": {
+            "id": "death-valley-badwater",
+            "title": "Badwater Basin, Zabriskie & Artist's Palette",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 360,
+            "location": {
+              "name": "Badwater Basin",
+              "address": "Death Valley National Park, CA",
+              "lat": 36.2295,
+              "lng": -116.7669,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Badwater%20Basin"
+            },
+            "blurb": "Stand 282 ft below sea level on the salt flats, catch sunrise at Zabriskie Point, drive Artist's Palette, and see the Mesquite Dunes — go early, it gets brutally hot.",
+            "gear": [
+              "lots of water",
+              "sun protection",
+              "start at dawn"
+            ]
+          }
+        },
+        {
+          "start": "1:00 PM",
+          "rest": {
+            "label": "Out of the sun",
+            "durationMins": 240,
+            "note": "Not laziness — strategy. Everyone who knows this park is indoors or in the water between one and five, and the light is flat and white anyway. Go back to Furnace Creek, sit under the tamarisks, and wait for the afternoon to break."
+          }
+        },
+        {
+          "start": "5:30 PM",
+          "item": {
+            "id": "death-valley-dantes-view",
+            "title": "Sunset at Dante's View",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Dante's View",
+              "address": "Dantes View Rd, Death Valley National Park, CA",
+              "lat": 36.2206,
+              "lng": -116.7267,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Dante%27s%20View%20Death%20Valley"
+            },
+            "blurb": "A mile straight up from the salt flats you stood on this morning, with Badwater directly below and 11,000-ft Telescope Peak across the valley. The whole park makes sense from here, and at sunset the basin turns gold. Stay for the stars — this is one of the darkest skies in the country.",
+            "gear": [
+              "a warm layer",
+              "headlamp for the drive down"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 405,
+      "label": "Day 405 — East to the Strip",
+      "type": "commute",
+      "summary": "Out of the desert and into the neon.",
+      "commute": {
+        "from": "Death Valley National Park, CA",
+        "to": "Las Vegas, NV",
+        "driveTimeMins": 130,
+        "scenicNote": "Out past Death Valley Junction and across the Amargosa Valley — barely two hours from the lowest point in North America to the Strip.",
+        "stopsAlongWay": [
+          {
+            "title": "Amargosa Opera House",
+            "blurb": "A one-woman opera house in the middle of nowhere, murals painted across the walls by the dancer who ran it for fifty years.",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Amargosa%20Opera%20House"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "name": "Sacramento",
   "state": "CA",
   "country": "US",
-  "order": 11,
+  "order": 10,
   "location": {
     "lat": 38.5816,
     "lng": -121.4944

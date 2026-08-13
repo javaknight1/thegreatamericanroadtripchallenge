@@ -862,42 +862,42 @@
         },
         {
           "id": "petrified-forest-meteor-crater",
-          "order": 8,
+          "order": 5,
           "name": "Petrified Forest & Meteor Crater",
           "state": "AZ",
           "plannedDays": 2
         },
         {
           "id": "canyon-de-chelly-four-corners",
-          "order": 5,
+          "order": 6,
           "name": "Canyon de Chelly & Four Corners",
           "state": "AZ",
           "plannedDays": 2
         },
         {
           "id": "monument-valley",
-          "order": 6,
+          "order": 7,
           "name": "Monument Valley",
           "state": "AZ",
           "plannedDays": 2
         },
         {
           "id": "page-antelope-canyon-horseshoe-bend",
-          "order": 7,
+          "order": 8,
           "name": "Page: Antelope Canyon & Horseshoe Bend",
           "state": "AZ",
           "plannedDays": 2
         },
         {
           "id": "grand-canyon-np",
-          "order": 10,
+          "order": 9,
           "name": "Grand Canyon NP",
           "state": "AZ",
           "plannedDays": 4
         },
         {
           "id": "flagstaff",
-          "order": 9,
+          "order": 10,
           "name": "Flagstaff",
           "state": "AZ",
           "plannedDays": 2
@@ -918,28 +918,28 @@
         },
         {
           "id": "zion-bryce-canyon-np",
-          "order": 18,
+          "order": 13,
           "name": "Zion & Bryce Canyon NP",
           "state": "UT",
           "plannedDays": 5
         },
         {
           "id": "capitol-reef-np",
-          "order": 19,
+          "order": 14,
           "name": "Capitol Reef NP",
           "state": "UT",
           "plannedDays": 2
         },
         {
           "id": "moab-arches-canyonlands-np",
-          "order": 20,
+          "order": 15,
           "name": "Moab: Arches & Canyonlands NP",
           "state": "UT",
           "plannedDays": 5
         },
         {
           "id": "salt-lake-city-park-city",
-          "order": 21,
+          "order": 16,
           "name": "Salt Lake City & Park City",
           "state": "UT",
           "plannedDays": 4
@@ -952,29 +952,36 @@
           "plannedDays": 2
         },
         {
+          "id": "death-valley-np",
+          "order": 18,
+          "name": "Death Valley NP",
+          "state": "CA",
+          "plannedDays": 2
+        },
+        {
           "id": "las-vegas",
-          "order": 16,
+          "order": 19,
           "name": "Las Vegas",
           "state": "NV",
           "plannedDays": 5
         },
         {
           "id": "phoenix-scottsdale",
-          "order": 13,
+          "order": 20,
           "name": "Phoenix & Scottsdale",
           "state": "AZ",
           "plannedDays": 4
         },
         {
           "id": "bisbee-tombstone",
-          "order": 15,
+          "order": 21,
           "name": "Bisbee & Tombstone",
           "state": "AZ",
           "plannedDays": 2
         },
         {
           "id": "tucson-saguaro-np",
-          "order": 14,
+          "order": 22,
           "name": "Tucson & Saguaro NP",
           "state": "AZ",
           "plannedDays": 3
@@ -1013,85 +1020,78 @@
           "plannedDays": 3
         },
         {
-          "id": "death-valley-np",
-          "order": 5,
-          "name": "Death Valley NP",
-          "state": "CA",
-          "plannedDays": 2
-        },
-        {
           "id": "sequoia-kings-canyon-np",
-          "order": 6,
+          "order": 5,
           "name": "Sequoia & Kings Canyon NP",
           "state": "CA",
           "plannedDays": 3
         },
         {
           "id": "yosemite-np",
-          "order": 7,
+          "order": 6,
           "name": "Yosemite NP",
           "state": "CA",
           "plannedDays": 5
         },
         {
           "id": "monterey-carmel",
-          "order": 8,
+          "order": 7,
           "name": "Monterey & Carmel",
           "state": "CA",
           "plannedDays": 2
         },
         {
           "id": "pinnacles-np",
-          "order": 9,
+          "order": 8,
           "name": "Pinnacles NP",
           "state": "CA",
           "plannedDays": 1
         },
         {
           "id": "san-francisco",
-          "order": 10,
+          "order": 9,
           "name": "San Francisco",
           "state": "CA",
           "plannedDays": 7
         },
         {
           "id": "sacramento",
-          "order": 11,
+          "order": 10,
           "name": "Sacramento",
           "state": "CA",
           "plannedDays": 2
         },
         {
           "id": "napa-sonoma",
-          "order": 12,
+          "order": 11,
           "name": "Napa & Sonoma",
           "state": "CA",
           "plannedDays": 3
         },
         {
           "id": "lake-tahoe-reno-carson-city",
-          "order": 13,
+          "order": 12,
           "name": "Lake Tahoe, Reno & Carson City",
           "state": "NV",
           "plannedDays": 4
         },
         {
           "id": "lassen-volcanic-np",
-          "order": 14,
+          "order": 13,
           "name": "Lassen Volcanic NP",
           "state": "CA",
           "plannedDays": 2
         },
         {
           "id": "mendocino-the-north-coast",
-          "order": 15,
+          "order": 14,
           "name": "Mendocino & the North Coast",
           "state": "CA",
           "plannedDays": 2
         },
         {
           "id": "redwood-np",
-          "order": 16,
+          "order": 15,
           "name": "Redwood NP",
           "state": "CA",
           "plannedDays": 3

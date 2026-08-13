@@ -55,14 +55,26 @@
     },
     {
       "dayNumber": 403,
-      "label": "Day 403 — South to Las Vegas",
+      "label": "Day 403 — Across the Loneliest Road",
       "type": "commute",
-      "summary": "Down the lonely highway to the neon.",
+      "summary": "Basin and range, all the way to Death Valley.",
       "commute": {
         "from": "Great Basin National Park, NV",
-        "to": "Las Vegas, NV",
-        "driveTimeMins": 240,
-        "scenicNote": "South through the empty basins to Las Vegas."
+        "to": "Death Valley National Park, CA",
+        "driveTimeMins": 300,
+        "scenicNote": "West on US-6 through Ely and Tonopah, then south on US-95 — mountain range, empty basin, mountain range, for five hours. There is almost nothing out here, which is the point. Fill the tank in Tonopah.",
+        "stopsAlongWay": [
+          {
+            "title": "Goldfield",
+            "blurb": "Nevada's biggest city in 1906 and nearly a ghost town now — the Goldfield Hotel still stands empty on the main street.",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Goldfield%20Nevada"
+          },
+          {
+            "title": "Rhyolite ghost town",
+            "blurb": "A bank, a jail, a house built of bottles, and a yard of ghostly plaster sculptures, just outside the park's northern gate.",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Rhyolite%20ghost%20town%20Nevada"
+          }
+        ]
       }
     }
   ]

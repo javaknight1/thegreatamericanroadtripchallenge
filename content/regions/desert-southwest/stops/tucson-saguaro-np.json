@@ -3,7 +3,7 @@
   "name": "Tucson & Saguaro National Park",
   "state": "AZ",
   "country": "US",
-  "order": 21,
+  "order": 22,
   "location": {
     "lat": 32.2226,
     "lng": -110.9747
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 415,
-      "label": "Day 415 — Saguaro & the Desert Museum",
+      "dayNumber": 417,
+      "label": "Day 417 — Saguaro & the Desert Museum",
       "type": "active",
       "summary": "Giant cacti and desert life.",
       "blocks": [
@@ -73,8 +73,8 @@
       ]
     },
     {
-      "dayNumber": 416,
-      "label": "Day 416 — The White Dove",
+      "dayNumber": 418,
+      "label": "Day 418 — The White Dove",
       "type": "active",
       "summary": "A Spanish mission and the old city.",
       "blocks": [
@@ -117,8 +117,8 @@
       ]
     },
     {
-      "dayNumber": 417,
-      "label": "Day 417 — West to California",
+      "dayNumber": 419,
+      "label": "Day 419 — West to California",
       "type": "commute",
       "summary": "Across to San Diego — the Southwest is done.",
       "commute": {

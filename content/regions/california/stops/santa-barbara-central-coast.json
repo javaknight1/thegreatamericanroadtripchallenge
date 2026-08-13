@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 430,
-      "label": "Day 430 — Santa Barbara",
+      "dayNumber": 432,
+      "label": "Day 432 — Santa Barbara",
       "type": "active",
       "summary": "The American Riviera.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 431,
-      "label": "Day 431 — The Central Coast",
+      "dayNumber": 433,
+      "label": "Day 433 — The Central Coast",
       "type": "active",
       "summary": "Danish villages and Hearst Castle.",
       "blocks": [
@@ -98,15 +98,15 @@
       ]
     },
     {
-      "dayNumber": 432,
-      "label": "Day 432 — East to Death Valley",
+      "dayNumber": 434,
+      "label": "Day 434 — Inland to the Sierra",
       "type": "commute",
-      "summary": "Inland to the hottest place on earth.",
+      "summary": "Off the coast and up to the big trees.",
       "commute": {
         "from": "Santa Barbara, CA",
-        "to": "Death Valley National Park, CA",
-        "driveTimeMins": 300,
-        "scenicNote": "A long drive east and north into the desert."
+        "to": "Sequoia National Park, CA",
+        "driveTimeMins": 240,
+        "scenicNote": "Over the coastal range, across the farm country of the San Joaquin Valley, then up the switchbacks into the Sierra Nevada — sea level to six thousand feet by evening."
       }
     }
   ]

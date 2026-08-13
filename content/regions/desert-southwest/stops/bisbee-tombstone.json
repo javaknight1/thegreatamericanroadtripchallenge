@@ -3,7 +3,7 @@
   "name": "Bisbee & Tombstone",
   "state": "AZ",
   "country": "US",
-  "order": 20,
+  "order": 21,
   "location": {
     "lat": 31.4482,
     "lng": -109.9284
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 413,
-      "label": "Day 413 — Gunfights & Copper",
+      "dayNumber": 415,
+      "label": "Day 415 — Gunfights & Copper",
       "type": "active",
       "summary": "The Old West and a mine.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 414,
-      "label": "Day 414 — Northwest to Tucson",
+      "dayNumber": 416,
+      "label": "Day 416 — Northwest to Tucson",
       "type": "commute",
       "summary": "To the saguaros.",
       "commute": {

@@ -125,8 +125,9 @@ Twenty-four days involve 3+ hours behind the wheel. The outliers:
 | 518 | **7.0h** Coeur d'Alene → Boise | Northern Rockies |
 | 346 | **5.5h** Fredericksburg → Big Bend | Texas |
 | 584 | **5.0h** Breckenridge → Scottsbluff | Colorado → Great Plains |
-| 417 | **5.5h** Tucson → San Diego | Southwest → California |
-| 408 | **5.0h** Las Vegas → Phoenix | Southwest |
+| 419 | **5.5h** Tucson → San Diego | Southwest → California |
+| 403 | **5.0h** Great Basin → Death Valley | Southwest |
+| 410 | **5.0h** Las Vegas → Phoenix | Southwest |
 | 204 | **5.0h** Atlanta → St. Augustine | Coastal SE → FL |
 | 385 | **4.5h** Jerome → Zion | Southwest |
 | 237 | **4.5h** Key West → Naples | Florida |
@@ -143,25 +144,37 @@ real stop on day 349, so nothing is lost — but it's worth deciding whether the
 Trans-Pecos crossing deserves an overnight (Fort Stockton or Alpine) rather than
 one long push.
 
-The Southwest adds three more. **Day 408, Las Vegas → Phoenix at 5 hours, is the
-one I'd question** — the route goes Utah → Great Basin → Vegas → *back southeast*
-to Phoenix → Bisbee → Tucson → San Diego. Phoenix and Tucson sit below Vegas on
-the way to nothing; the leg backtracks to reach them. An alternative running
-Phoenix/Tucson *before* going north to Utah would cut a long desert leg, but it
-would renumber a lot of days, so it's a question for later, not a defect now.
+The Southwest adds three more. **Day 410, Las Vegas → Phoenix at 5 hours, is the
+one I'd question** — the route goes Utah → Great Basin → Death Valley → Vegas →
+*back southeast* to Phoenix → Bisbee → Tucson → San Diego. Phoenix and Tucson sit
+below Vegas on the way to nothing; the leg backtracks to reach them. An
+alternative running Phoenix/Tucson *before* going north to Utah would cut a long
+desert leg, but it would renumber a lot of days, so it's a question for later,
+not a defect now.
 
-### Death Valley is in the wrong leg
+Day 403's new 5-hour Great Basin → Death Valley run is the cost of the Death
+Valley move, and it's a good trade: it replaces a 4-hour drive to Vegas and
+retires two much worse ones. It's also the most characterful empty-desert drive
+in the trip, with Goldfield and Rhyolite authored as stops along the way.
 
-The clearest routing win I've seen so far. The trip currently reaches it via
-**Santa Barbara → Death Valley (5h east, day 432) → Sequoia (4.5h west, day
-434)** — 9.5 hours of driving, out and back, to visit a park that the trip
-already drove within **two hours of when it was in Las Vegas on days 404–408.**
+### Death Valley was in the wrong leg — **DONE**
 
-Moving Death Valley into the Las Vegas stretch would save most of that and let
-California run cleanly up the coast: San Diego → Palm Springs → LA → Santa
-Barbara → Sequoia → Yosemite → Monterey. It costs a renumber of the Southwest's
-tail and California's head, which is why it's recorded rather than done — but of
-everything in this file, this is the one I'd actually change.
+It used to be reached via Santa Barbara → Death Valley (5h east) → Sequoia (4.5h
+west), an out-and-back to a park the trip had already driven within two hours of
+at Las Vegas.
+
+It now sits in the Desert Southwest between Great Basin and Las Vegas, on days
+404–405. Great Basin drives west across US-6/US-95 through Goldfield and Rhyolite
+(5h), and Death Valley is two hours from the Strip. California starts at San
+Diego and runs up the coast without doubling back once: San Diego → Joshua Tree →
+LA → Santa Barbara → Sequoia → Yosemite → Monterey.
+
+The block of days 404–434 was reordered rather than lengthened, so it is the same
+31 days and **nothing from day 435 to 735 moved.** Net driving is 2h20 lower, and
+Death Valley is now visited in the Southwest's spring rather than California's
+"late spring to summer," which is the season it actually wants. Both region
+`seasonNote`s and `summary`s were updated, and `plan.json` was re-sorted to the
+authored order for both legs (the Southwest had never been re-sorted).
 
 ## 5. Categories with no content yet
 
