@@ -1,5 +1,6 @@
 import { dayRange, regionStats, tripStats } from "@/lib/derive";
 import { itemsOf } from "@/lib/content";
+import { parkCoverage } from "@/lib/national-parks";
 import type { Day, Region, Stop, Trip } from "@/types/trip";
 
 /**
@@ -35,8 +36,11 @@ function clamp(text: string, max = 155): string {
 
 export function tripDescription(trip: Trip): string {
   const stats = tripStats(trip);
+  const parks = parkCoverage(trip);
+  // "mapped so far" was true while the legs were being written and isn't any
+  // more. The parks number is the fact most likely to be quoted back.
   return clamp(
-    `A free, hour-by-hour road trip itinerary through all 48 contiguous states. ${stats.days} days and ${stats.stops} stops mapped so far across ${stats.usStates.length} states.`,
+    `A free, hour-by-hour itinerary for driving all ${stats.usStates.length} contiguous states: ${stats.days} days, ${stats.stops} stops, ${parks.visited.length} national parks, one continuous loop.`,
   );
 }
 

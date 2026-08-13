@@ -4,8 +4,9 @@ import { JsonLd } from "@/components/json-ld";
 import { NationalMap } from "@/components/national-map";
 import { StatTile } from "@/components/stat-tile";
 import { getTrip } from "@/lib/content";
-import { categoryUsage, regionStats, routeMiles, tripStats } from "@/lib/derive";
+import { categoryUsage, pacing, regionStats, routeMiles, tripStats } from "@/lib/derive";
 import { nationalMapData } from "@/lib/geo";
+import { parkCoverage } from "@/lib/national-parks";
 import { regionTheme } from "@/lib/region-theme";
 import { tripSchema } from "@/lib/schema-org";
 
@@ -22,6 +23,9 @@ export default function HomePage() {
   const trip = getTrip();
   const stats = tripStats(trip);
   const usage = categoryUsage(trip);
+  const parks = parkCoverage(trip);
+  const { restDays, breathers, longestPush } = pacing(trip);
+  const countryCount = stats.countries.length;
 
   // `commuting` and `free-rest` are assigned by the renderer to drive and rest
   // blocks — no authored item can carry them, so they'd always read "0" here
@@ -56,15 +60,29 @@ export default function HomePage() {
         {/* `usStates`, not `states` — DC and the Canada detour are in the data
             and neither is one of the 48 on the tin. */}
         <StatTile value={stats.usStates.length} label="States" />
+        <StatTile value={parks.visited.length} label="National parks" />
         <StatTile value={stats.anchors} label="Must-dos" />
-        <StatTile value={stats.freeDays} label="Free days" />
-        {/* "553h 55m" is precise and unreadable at a glance; hours is the unit
+        {/* "557h 55m" is precise and unreadable at a glance; hours is the unit
             anyone actually thinks in for a number this size. */}
         <StatTile value={`${Math.round(stats.driveTimeMins / 60)} hrs`} label="Behind the wheel" />
         <StatTile value={routeMiles(trip).toLocaleString("en-US")} label="Miles driven" />
       </section>
 
-      <p className="mt-4 text-sm text-muted">
+      {/*
+        The two claims worth backing up, because both sound too good: the parks
+        number is the whole point of a trip like this, and "48 states" invites
+        the question of whether it leaves the country. It does, once.
+      */}
+      <p className="mt-4 text-sm leading-relaxed text-muted">
+        That&apos;s {parks.visited.length} of the {parks.total} national parks in
+        the lower 48. The only {parks.missed.length} it leaves out —{" "}
+        {parks.missed.join(", ")} — can&apos;t be driven to at all. It also
+        covers the District of Columbia and crosses into{" "}
+        {countryCount === 2 ? "a second country" : `${countryCount} countries`}{" "}
+        once, for two days in British Columbia.
+      </p>
+
+      <p className="mt-3 text-sm text-muted">
         <span className="font-cond font-bold tracking-wide text-ink uppercase">
           Best time to start:{" "}
         </span>
@@ -141,33 +159,51 @@ export default function HomePage() {
         </ul>
       </section>
 
-      <section className="mt-14 grid gap-4 rounded-xl border border-hairline bg-surface p-5 sm:grid-cols-3 sm:p-6">
-        <div>
-          <p className="font-cond text-[15px] font-bold tracking-wide uppercase">
-            Full days
-          </p>
-          <p className="mt-1 text-sm text-ink-soft">
-            {stats.activeDays} days planned hour by hour, morning to evening.
-          </p>
+      <section className="mt-14">
+        <h2 className="font-display text-2xl tracking-wide uppercase sm:text-3xl">
+          Paced to be lived, not survived
+        </h2>
+        <div className="mt-5 grid gap-4 rounded-xl border border-hairline bg-surface p-5 sm:grid-cols-4 sm:p-6">
+          <div>
+            <p className="font-cond text-[15px] font-bold tracking-wide uppercase">
+              Full days
+            </p>
+            <p className="mt-1 text-sm text-ink-soft">
+              {stats.activeDays} days planned hour by hour, morning to evening.
+            </p>
+          </div>
+          <div>
+            <p className="font-cond text-[15px] font-bold tracking-wide uppercase">
+              Free days
+            </p>
+            <p className="mt-1 text-sm text-ink-soft">
+              {stats.freeDays} days left open on purpose, with suggestions if you
+              want them.
+            </p>
+          </div>
+          <div>
+            <p className="font-cond text-[15px] font-bold tracking-wide uppercase">
+              Time off
+            </p>
+            <p className="mt-1 text-sm text-ink-soft">
+              {restDays} more days that stop early — an afternoon, an evening,
+              nothing booked.
+            </p>
+          </div>
+          <div>
+            <p className="font-cond text-[15px] font-bold tracking-wide uppercase">
+              Drive days
+            </p>
+            <p className="mt-1 text-sm text-ink-soft">
+              {stats.commuteDays} days on the road, with the stops worth pulling
+              over for.
+            </p>
+          </div>
         </div>
-        <div>
-          <p className="font-cond text-[15px] font-bold tracking-wide uppercase">
-            Free days
-          </p>
-          <p className="mt-1 text-sm text-ink-soft">
-            {stats.freeDays} days left open on purpose, with suggestions if you
-            want them.
-          </p>
-        </div>
-        <div>
-          <p className="font-cond text-[15px] font-bold tracking-wide uppercase">
-            Drive days
-          </p>
-          <p className="mt-1 text-sm text-ink-soft">
-            {stats.commuteDays} days on the road, with the stops worth pulling
-            over for.
-          </p>
-        </div>
+        <p className="mt-3 text-sm text-muted">
+          You are never more than {longestPush} days from one of those{" "}
+          {breathers} breathers, anywhere in the loop.
+        </p>
       </section>
     </div>
   );

@@ -15,6 +15,31 @@ no gaps, 48/48 states and 48/48 capital cities, ending where it began in Boston.
 Everything below is the backlog: things worth improving now that the baseline
 exists.
 
+### Home-page stats — audited and brought current
+
+Every figure on the home page is derived, so nothing had gone *stale*; what had
+gone missing was the new material. Now:
+
+- **A national-parks tile: 48.** `src/lib/national-parks.ts` matches the content
+  against the NPS list of the 51 parks in the contiguous 48. This is the one
+  number on the site that needs an external fact, so the list is isolated in its
+  own file with the reasoning written down — but the *count* still derives from
+  the itinerary, so it can under-report and cannot over-report. The three it
+  misses (**Biscayne, Channel Islands, Isle Royale**) are all boat-access-only,
+  which is a better line than the number.
+  - A loose substring match returned 49 and was wrong: Miami's *Biscayne
+    Boulevard* and *Biscayne Bay* were satisfying Biscayne National Park. The
+    matcher now requires either "<Park> National Park" or a stop named for it.
+- **A `pacing()` derivation**, so the rest-block work is visible: 41 days that
+  stop early alongside the 48 free days, and "never more than 13 days from one of
+  those 89 breathers" — the worst case rather than an average, which is the only
+  honest way to claim a trip is unrushed.
+- **The Canada crossing is stated** rather than being invisible.
+- **Free days moved off the tiles** into the pacing block, where the four day
+  types are explained together and it isn't double-counted.
+- The trip JSON-LD and `llms.txt` carry the same figures, and `tripDescription`
+  no longer says "mapped so far" — the itinerary is finished.
+
 ---
 
 ## 1. Free days were thin and clustered badly — **FIXED**

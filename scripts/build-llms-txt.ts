@@ -1,7 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import { getRegionPlan, getTrip } from "../src/lib/content";
-import { allDays, dayRange, regionStats, tripStats } from "../src/lib/derive";
+import { allDays, dayRange, pacing, regionStats, routeMiles, tripStats } from "../src/lib/derive";
+import { parkCoverage } from "../src/lib/national-parks";
 import { SITE_URL } from "../src/lib/seo";
 
 /**
@@ -16,6 +17,8 @@ import { SITE_URL } from "../src/lib/seo";
 
 const trip = getTrip();
 const stats = tripStats(trip);
+const parks = parkCoverage(trip);
+const rhythm = pacing(trip);
 
 /** A leg's day span, from its own days rather than the planning manifest. */
 function span(region: Parameters<typeof regionStats>[0]): string {
@@ -30,7 +33,9 @@ const lines: string[] = [
   "",
   "## About",
   "",
-  `- **Scale so far:** ${stats.days} days, ${stats.stops} stops, ${stats.items} things to do, across ${stats.usStates.length} of the 48 contiguous states.`,
+  `- **Scale:** ${stats.days} days, ${stats.stops} stops, ${stats.items} things to do, roughly ${routeMiles(trip).toLocaleString("en-US")} miles and ${Math.round(stats.driveTimeMins / 60)} hours of driving.`,
+  `- **Coverage:** all ${stats.usStates.length} contiguous states, the District of Columbia, a two-day detour into British Columbia, and ${parks.visited.length} of the ${parks.total} national parks in the lower 48 (the ${parks.missed.length} it misses — ${parks.missed.join(", ")} — have no road access).`,
+  `- **Pace:** ${stats.activeDays} full days, ${stats.freeDays} free days, ${rhythm.restDays} further days that stop early, ${stats.commuteDays} drive days. The longest stretch with no time off anywhere in it is ${rhythm.longestPush} days.`,
   `- **Full trip estimate:** ${trip.durationEstimate}.`,
   `- **Structure:** the trip is one continuous loop, divided into ${trip.regions.length} regions (legs). Each region contains stops (towns or parks); each stop contains numbered days; each day is an ordered list of activities with start and end times, durations, and map links.`,
   `- **Day numbering** runs continuously across the whole trip (day 1 to the end), not per region.`,

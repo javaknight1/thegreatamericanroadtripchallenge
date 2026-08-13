@@ -99,6 +99,50 @@ export function tripStats(trip: Trip): TripStats {
   };
 }
 
+export type Pacing = {
+  /** Days that aren't free days but still stop early — an authored rest block. */
+  restDays: number;
+  /** Every day the itinerary lets up: free days plus those. */
+  breathers: number;
+  /** The longest stretch anywhere in the loop with neither. */
+  longestPush: number;
+};
+
+/**
+ * How hard the trip pushes before it lets you off.
+ *
+ * Counting free days alone understates this badly, because a rest block inside
+ * an otherwise full day does the same job — it's an afternoon or an evening
+ * with nothing booked — and the itinerary has more of those than it has free
+ * days. `longestPush` is the honest version of "unrushed": the worst case, not
+ * the average.
+ */
+export function pacing(scope: Trip | Region): Pacing {
+  const days = allDays(scope);
+  const letsUp = (day: Day) =>
+    day.type === "free" || (day.blocks ?? []).some((block) => block.rest);
+
+  let run = 0;
+  let longestPush = 0;
+  for (const day of days) {
+    if (letsUp(day)) {
+      longestPush = Math.max(longestPush, run);
+      run = 0;
+    } else run += 1;
+  }
+  longestPush = Math.max(longestPush, run);
+
+  const restDays = days.filter(
+    (day) => day.type !== "free" && (day.blocks ?? []).some((block) => block.rest),
+  ).length;
+
+  return {
+    restDays,
+    breathers: days.filter(letsUp).length,
+    longestPush,
+  };
+}
+
 export function regionStats(region: Region): RegionStats {
   return {
     stops: region.stops.length,
@@ -122,10 +166,6 @@ const subdivisions = (stops: Stop[]) =>
   [...new Set(stops.map((stop) => stop.state))].sort();
 
 /**
- * The master packing list: every `item.gear[]` in the trip, deduped
- * case-insensitively, counted, and tagged with the regions that need it.
- */
-/**
  * Roughly how far the loop is, in miles.
  *
  * There are no distances in the content — only coordinates and drive times — so
@@ -134,8 +174,8 @@ const subdivisions = (stops: Stop[]) =>
  * road-circuity factor because roads don't go in straight lines. 1.2 is the
  * usual figure for long-haul US driving.
  *
- * Sanity check: the trip's own authored drive times total ~555 hours, which at
- * 55 mph is ~30,500 miles. This method gives ~31,100. Two independent routes to
+ * Sanity check: the trip's own authored drive times total ~557 hours, which at
+ * 55 mph is ~30,600 miles. This method gives ~31,200. Two independent routes to
  * the same number, so it's a fair thing to print — rounded, and never presented
  * as exact.
  */
@@ -165,6 +205,10 @@ export function routeMiles(trip: Trip): number {
   return Math.round((miles * ROAD_CIRCUITY) / 100) * 100;
 }
 
+/**
+ * The master packing list: every `item.gear[]` in the trip, deduped
+ * case-insensitively, counted, and tagged with the regions that need it.
+ */
 export function packingList(trip: Trip): PackingEntry[] {
   const entries = new Map<string, PackingEntry & { regionSet: Set<string> }>();
 

@@ -1,5 +1,6 @@
 import { itemsOf } from "@/lib/content";
-import { dayRange, regionStats, tripStats } from "@/lib/derive";
+import { dayRange, regionStats, routeMiles, tripStats } from "@/lib/derive";
+import { parkCoverage } from "@/lib/national-parks";
 import { canonical, tripDescription } from "@/lib/seo";
 import type { Day, Region, Stop, Trip } from "@/types/trip";
 
@@ -77,10 +78,15 @@ export function tripSchema(trip: Trip): Json {
             },
           })),
         },
+        // Only figures the home page itself prints — structured data must never
+        // claim more than the reader can see.
         additionalProperty: [
-          { "@type": "PropertyValue", name: "Days mapped", value: stats.days },
+          { "@type": "PropertyValue", name: "Days planned", value: stats.days },
           { "@type": "PropertyValue", name: "Stops", value: stats.stops },
+          { "@type": "PropertyValue", name: "Things to do", value: stats.items },
           { "@type": "PropertyValue", name: "States covered", value: stats.usStates.length },
+          { "@type": "PropertyValue", name: "National parks", value: parkCoverage(trip).visited.length },
+          { "@type": "PropertyValue", name: "Approximate miles", value: routeMiles(trip) },
         ],
       },
     ],
