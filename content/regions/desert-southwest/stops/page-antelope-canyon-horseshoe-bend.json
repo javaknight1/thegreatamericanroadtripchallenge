@@ -3,7 +3,7 @@
   "name": "Page: Antelope Canyon & Horseshoe Bend",
   "state": "AZ",
   "country": "US",
-  "order": 8,
+  "order": 15,
   "location": {
     "lat": 36.9147,
     "lng": -111.4558
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 373,
-      "label": "Day 373 — Slot Canyon & the Bend",
+      "dayNumber": 398,
+      "label": "Day 398 — Slot Canyon & the Bend",
       "type": "active",
       "summary": "Light beams and a river bend.",
       "blocks": [
@@ -73,8 +73,8 @@
       ]
     },
     {
-      "dayNumber": 374,
-      "label": "Day 374 — To the Grand Canyon",
+      "dayNumber": 399,
+      "label": "Day 399 — To the Grand Canyon",
       "type": "commute",
       "summary": "Southwest to the big one.",
       "commute": {

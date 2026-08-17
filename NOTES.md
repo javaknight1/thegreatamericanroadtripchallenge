@@ -153,11 +153,9 @@ Twenty-four days involve 3+ hours behind the wheel. The outliers:
 | 346 | **5.5h** Fredericksburg → Big Bend | Texas |
 | 419 | **5.5h** Tucson → San Diego | Southwest → California |
 | 518 | **5.3h** Coeur d'Alene → McCall | Northern Rockies |
+| 383 | **5.0h** Great Basin → Death Valley | Southwest |
 | 584 | **5.0h** Breckenridge → Scottsbluff | Colorado → Great Plains |
-| 403 | **5.0h** Great Basin → Death Valley | Southwest |
-| 410 | **5.0h** Las Vegas → Phoenix | Southwest |
 | 204 | **5.0h** Atlanta → St. Augustine | Coastal SE → FL |
-| 385 | **4.5h** Jerome → Zion | Southwest |
 | 237 | **4.5h** Key West → Naples | Florida |
 
 **Day 518's seven-hour haul is fixed — DONE.** It used to run the whole length of
@@ -182,18 +180,31 @@ real stop on day 349, so nothing is lost — but it's worth deciding whether the
 Trans-Pecos crossing deserves an overnight (Fort Stockton or Alpine) rather than
 one long push.
 
-The Southwest adds three more. **Day 410, Las Vegas → Phoenix at 5 hours, is the
-one I'd question** — the route goes Utah → Great Basin → Death Valley → Vegas →
-*back southeast* to Phoenix → Bisbee → Tucson → San Diego. Phoenix and Tucson sit
-below Vegas on the way to nothing; the leg backtracks to reach them. An
-alternative running Phoenix/Tucson *before* going north to Utah would cut a long
-desert leg, but it would renumber a lot of days, so it's a question for later,
-not a defect now.
+### The Southwest backtracked — **DONE**
 
-Day 403's new 5-hour Great Basin → Death Valley run is the cost of the Death
-Valley move, and it's a good trade: it replaces a 4-hour drive to Vegas and
-retires two much worse ones. It's also the most characterful empty-desert drive
-in the trip, with Goldfield and Rhyolite authored as stops along the way.
+It ran Utah → Great Basin → Death Valley → Las Vegas and then turned 300 miles
+*back southeast* to Phoenix, Bisbee and Tucson before heading west again to San
+Diego. Phoenix and Tucson sat below Vegas on the way to nothing.
+
+The leg is now a spiral. It goes up through the Four Corners into Utah (Moab,
+Salt Lake City), west across Nevada (Great Basin, Death Valley, Las Vegas), and
+then back *down* through Zion, Bryce, Capitol Reef, Page, the Grand Canyon,
+Sedona and Jerome into southern Arizona and out to California — so Phoenix and
+Tucson are passed through on the way somewhere instead of being doubled back to.
+
+**205 miles shorter on stop-to-stop distance, and both Las Vegas → Phoenix (5h)
+and Jerome → Zion (4.5h) are gone.** Only four commutes had to be rewritten. The
+block was reordered, not resized — the same 53 days, 367–419 — so day 420 onward,
+which is California and the six legs after it, did not move.
+
+A variant that was 60 miles shorter still was **rejected**: it reached Capitol
+Reef from Moab, which breaks the Bryce ↔ Capitol Reef leg, and that road is
+Scenic Byway 12. Sixty miles is not worth one of the best drives in the country.
+
+Day 383's 5-hour Great Basin → Death Valley run is now the leg's longest and is
+the cost of the Death Valley move — a good trade, since it replaces a 4-hour
+drive to Vegas and retires two much worse ones. It's also the most characterful
+empty-desert drive in the trip, with Goldfield and Rhyolite as stops along the way.
 
 ### Death Valley was in the wrong leg — **DONE**
 

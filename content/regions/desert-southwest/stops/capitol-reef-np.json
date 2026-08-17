@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 391,
-      "label": "Day 391 — The Waterpocket Fold",
+      "dayNumber": 396,
+      "label": "Day 396 — The Waterpocket Fold",
       "type": "active",
       "summary": "Orchards, petroglyphs, and a natural bridge.",
       "blocks": [
@@ -54,15 +54,15 @@
       ]
     },
     {
-      "dayNumber": 392,
-      "label": "Day 392 — East to Moab",
+      "dayNumber": 397,
+      "label": "Day 397 — South to Lake Powell",
       "type": "commute",
-      "summary": "To arch country.",
+      "summary": "Down the spine of the plateau.",
       "commute": {
         "from": "Capitol Reef National Park, UT",
-        "to": "Moab, UT",
-        "driveTimeMins": 140,
-        "scenicNote": "East across the San Rafael Swell to Moab."
+        "to": "Page, AZ",
+        "driveTimeMins": 180,
+        "scenicNote": "South on US-89 under the Grand Staircase, with the Vermilion Cliffs building along the eastern skyline for the last hour before Lake Powell."
       }
     }
   ]

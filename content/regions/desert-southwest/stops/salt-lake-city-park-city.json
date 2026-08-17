@@ -3,7 +3,7 @@
   "name": "Salt Lake City & Park City",
   "state": "UT",
   "country": "US",
-  "order": 16,
+  "order": 9,
   "location": {
     "lat": 40.7608,
     "lng": -111.891
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 398,
-      "label": "Day 398 — Temple Square & the Capitol",
+      "dayNumber": 378,
+      "label": "Day 378 — Temple Square & the Capitol",
       "type": "active",
       "summary": "The heart of the city.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 399,
-      "label": "Day 399 — Park City",
+      "dayNumber": 379,
+      "label": "Day 379 — Park City",
       "type": "active",
       "summary": "An Olympic mountain town.",
       "blocks": [
@@ -115,8 +115,8 @@
       ]
     },
     {
-      "dayNumber": 400,
-      "label": "Day 400 — Free Day",
+      "dayNumber": 380,
+      "label": "Day 380 — Free Day",
       "type": "free",
       "summary": "The lake, a museum, or the mountains. Options below.",
       "freeMenu": [
@@ -153,8 +153,8 @@
       ]
     },
     {
-      "dayNumber": 401,
-      "label": "Day 401 — Out to Great Basin",
+      "dayNumber": 381,
+      "label": "Day 381 — Out to Great Basin",
       "type": "commute",
       "summary": "Across the desert to remote Nevada.",
       "commute": {

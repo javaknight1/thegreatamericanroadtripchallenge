@@ -3,7 +3,7 @@
   "name": "Great Basin National Park",
   "state": "NV",
   "country": "US",
-  "order": 17,
+  "order": 10,
   "location": {
     "lat": 38.9833,
     "lng": -114.3
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 402,
-      "label": "Day 402 — Caves, Pines & Stars",
+      "dayNumber": 382,
+      "label": "Day 382 — Caves, Pines & Stars",
       "type": "active",
       "summary": "The remote alpine desert.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 403,
-      "label": "Day 403 — Across the Loneliest Road",
+      "dayNumber": 383,
+      "label": "Day 383 — Across the Loneliest Road",
       "type": "commute",
       "summary": "Basin and range, all the way to Death Valley.",
       "commute": {

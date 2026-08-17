@@ -3,7 +3,7 @@
   "name": "Las Vegas",
   "state": "NV",
   "country": "US",
-  "order": 19,
+  "order": 12,
   "location": {
     "lat": 36.1699,
     "lng": -115.1398
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 406,
-      "label": "Day 406 — The Strip",
+      "dayNumber": 386,
+      "label": "Day 386 — The Strip",
       "type": "active",
       "summary": "Fountains, volcanoes, and neon.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 407,
-      "label": "Day 407 — Hoover Dam",
+      "dayNumber": 387,
+      "label": "Day 387 — Hoover Dam",
       "type": "active",
       "summary": "An engineering marvel.",
       "blocks": [
@@ -97,8 +97,8 @@
       ]
     },
     {
-      "dayNumber": 408,
-      "label": "Day 408 — Old Vegas",
+      "dayNumber": 388,
+      "label": "Day 388 — Old Vegas",
       "type": "active",
       "summary": "The neon of the original downtown.",
       "blocks": [
@@ -123,8 +123,8 @@
       ]
     },
     {
-      "dayNumber": 409,
-      "label": "Day 409 — Free Day",
+      "dayNumber": 389,
+      "label": "Day 389 — Free Day",
       "type": "free",
       "summary": "Red rock, a day trip, or the pool. Options below.",
       "freeMenu": [
@@ -161,15 +161,15 @@
       ]
     },
     {
-      "dayNumber": 410,
-      "label": "Day 410 — Southeast to Phoenix",
+      "dayNumber": 390,
+      "label": "Day 390 — Northeast to Zion",
       "type": "commute",
-      "summary": "Across the desert to the Valley of the Sun.",
+      "summary": "Out of the neon and into the canyon country.",
       "commute": {
         "from": "Las Vegas, NV",
-        "to": "Phoenix, AZ",
-        "driveTimeMins": 300,
-        "scenicNote": "Southeast back into Arizona."
+        "to": "Zion National Park, UT",
+        "driveTimeMins": 165,
+        "scenicNote": "I-15 northeast, and the best twenty minutes of interstate in America through the Virgin River Gorge — the road was blasted through the canyon and crosses the river a dozen times. Clip the corner of Arizona on the way."
       }
     }
   ]

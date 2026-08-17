@@ -3,7 +3,7 @@
   "name": "Jerome",
   "state": "AZ",
   "country": "US",
-  "order": 12,
+  "order": 19,
   "location": {
     "lat": 34.7492,
     "lng": -112.114
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 384,
-      "label": "Day 384 — The Ghost Town",
+      "dayNumber": 409,
+      "label": "Day 409 — The Ghost Town",
       "type": "active",
       "summary": "Mining history and mountainside art.",
       "blocks": [
@@ -68,15 +68,15 @@
       ]
     },
     {
-      "dayNumber": 385,
-      "label": "Day 385 — North to Utah",
+      "dayNumber": 410,
+      "label": "Day 410 — Down to the Valley of the Sun",
       "type": "commute",
-      "summary": "The long climb to Zion.",
+      "summary": "Off the mountain into the desert.",
       "commute": {
         "from": "Jerome, AZ",
-        "to": "Zion National Park, UT",
-        "driveTimeMins": 270,
-        "scenicNote": "North across the plateau into Utah's canyon country."
+        "to": "Phoenix, AZ",
+        "driveTimeMins": 120,
+        "scenicNote": "Down the switchbacks off Cleopatra Hill and south through Prescott and the Bradshaw Mountains — three thousand feet of descent, and the saguaros start where the pines stop."
       }
     }
   ]

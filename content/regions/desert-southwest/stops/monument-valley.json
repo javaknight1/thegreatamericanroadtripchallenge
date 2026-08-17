@@ -54,14 +54,21 @@
     },
     {
       "dayNumber": 372,
-      "label": "Day 372 — West to Page",
+      "label": "Day 372 — North into Utah",
       "type": "commute",
-      "summary": "To the slot canyons.",
+      "summary": "Up the San Juan into red-rock country.",
       "commute": {
         "from": "Monument Valley, AZ",
-        "to": "Page, AZ",
-        "driveTimeMins": 120,
-        "scenicNote": "West to Lake Powell and the slot canyons."
+        "to": "Moab, UT",
+        "driveTimeMins": 150,
+        "scenicNote": "North on US-163 past Mexican Hat, then up through Bluff and Blanding with the Abajos on your left — the Valley of the Gods and the Moki Dugway are both a short detour off it and both worth taking.",
+        "stopsAlongWay": [
+          {
+            "title": "Valley of the Gods",
+            "blurb": "A seventeen-mile dirt loop through buttes that look like Monument Valley with nobody in it, and no fee, and no gate.",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Valley%20of%20the%20Gods%20Utah"
+          }
+        ]
       }
     }
   ]

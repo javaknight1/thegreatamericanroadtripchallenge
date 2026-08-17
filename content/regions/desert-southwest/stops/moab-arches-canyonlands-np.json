@@ -3,7 +3,7 @@
   "name": "Moab: Arches & Canyonlands",
   "state": "UT",
   "country": "US",
-  "order": 15,
+  "order": 8,
   "location": {
     "lat": 38.5733,
     "lng": -109.5498
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 393,
-      "label": "Day 393 — Arches",
+      "dayNumber": 373,
+      "label": "Day 373 — Arches",
       "type": "active",
       "summary": "A landscape of stone arches.",
       "blocks": [
@@ -55,8 +55,8 @@
       ]
     },
     {
-      "dayNumber": 394,
-      "label": "Day 394 — Canyonlands",
+      "dayNumber": 374,
+      "label": "Day 374 — Canyonlands",
       "type": "active",
       "summary": "Canyons to the horizon.",
       "blocks": [
@@ -85,8 +85,8 @@
       ]
     },
     {
-      "dayNumber": 395,
-      "label": "Day 395 — River & Rimrock",
+      "dayNumber": 375,
+      "label": "Day 375 — River & Rimrock",
       "type": "active",
       "summary": "The Colorado and a famous overlook.",
       "blocks": [
@@ -115,8 +115,8 @@
       ]
     },
     {
-      "dayNumber": 396,
-      "label": "Day 396 — Free Day",
+      "dayNumber": 376,
+      "label": "Day 376 — Free Day",
       "type": "free",
       "summary": "Mountain bike, revisit an arch, or rest. Options below.",
       "freeMenu": [
@@ -153,8 +153,8 @@
       ]
     },
     {
-      "dayNumber": 397,
-      "label": "Day 397 — Northwest to Salt Lake",
+      "dayNumber": 377,
+      "label": "Day 377 — Northwest to Salt Lake",
       "type": "commute",
       "summary": "Up to the capital.",
       "commute": {

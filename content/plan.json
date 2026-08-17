@@ -882,39 +882,39 @@
           "plannedDays": 2
         },
         {
-          "id": "page-antelope-canyon-horseshoe-bend",
+          "id": "moab-arches-canyonlands-np",
           "order": 8,
-          "name": "Page: Antelope Canyon & Horseshoe Bend",
-          "state": "AZ",
-          "plannedDays": 2
+          "name": "Moab: Arches & Canyonlands NP",
+          "state": "UT",
+          "plannedDays": 5
         },
         {
-          "id": "grand-canyon-np",
+          "id": "salt-lake-city-park-city",
           "order": 9,
-          "name": "Grand Canyon NP",
-          "state": "AZ",
+          "name": "Salt Lake City & Park City",
+          "state": "UT",
           "plannedDays": 4
         },
         {
-          "id": "flagstaff",
+          "id": "great-basin-np",
           "order": 10,
-          "name": "Flagstaff",
-          "state": "AZ",
+          "name": "Great Basin NP",
+          "state": "NV",
           "plannedDays": 2
         },
         {
-          "id": "sedona",
+          "id": "death-valley-np",
           "order": 11,
-          "name": "Sedona",
-          "state": "AZ",
-          "plannedDays": 3
+          "name": "Death Valley NP",
+          "state": "CA",
+          "plannedDays": 2
         },
         {
-          "id": "jerome",
+          "id": "las-vegas",
           "order": 12,
-          "name": "Jerome",
-          "state": "AZ",
-          "plannedDays": 1
+          "name": "Las Vegas",
+          "state": "NV",
+          "plannedDays": 5
         },
         {
           "id": "zion-bryce-canyon-np",
@@ -931,39 +931,39 @@
           "plannedDays": 2
         },
         {
-          "id": "moab-arches-canyonlands-np",
+          "id": "page-antelope-canyon-horseshoe-bend",
           "order": 15,
-          "name": "Moab: Arches & Canyonlands NP",
-          "state": "UT",
-          "plannedDays": 5
+          "name": "Page: Antelope Canyon & Horseshoe Bend",
+          "state": "AZ",
+          "plannedDays": 2
         },
         {
-          "id": "salt-lake-city-park-city",
+          "id": "grand-canyon-np",
           "order": 16,
-          "name": "Salt Lake City & Park City",
-          "state": "UT",
+          "name": "Grand Canyon NP",
+          "state": "AZ",
           "plannedDays": 4
         },
         {
-          "id": "great-basin-np",
+          "id": "flagstaff",
           "order": 17,
-          "name": "Great Basin NP",
-          "state": "NV",
+          "name": "Flagstaff",
+          "state": "AZ",
           "plannedDays": 2
         },
         {
-          "id": "death-valley-np",
+          "id": "sedona",
           "order": 18,
-          "name": "Death Valley NP",
-          "state": "CA",
-          "plannedDays": 2
+          "name": "Sedona",
+          "state": "AZ",
+          "plannedDays": 3
         },
         {
-          "id": "las-vegas",
+          "id": "jerome",
           "order": 19,
-          "name": "Las Vegas",
-          "state": "NV",
-          "plannedDays": 5
+          "name": "Jerome",
+          "state": "AZ",
+          "plannedDays": 1
         },
         {
           "id": "phoenix-scottsdale",

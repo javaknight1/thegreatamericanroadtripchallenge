@@ -3,7 +3,7 @@
   "name": "Flagstaff",
   "state": "AZ",
   "country": "US",
-  "order": 10,
+  "order": 17,
   "location": {
     "lat": 35.1983,
     "lng": -111.6513
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 379,
-      "label": "Day 379 — Route 66 & the Stars",
+      "dayNumber": 404,
+      "label": "Day 404 — Route 66 & the Stars",
       "type": "active",
       "summary": "Downtown and the observatory.",
       "blocks": [
@@ -71,8 +71,8 @@
       ]
     },
     {
-      "dayNumber": 380,
-      "label": "Day 380 — South to Sedona",
+      "dayNumber": 405,
+      "label": "Day 405 — South to Sedona",
       "type": "commute",
       "summary": "Down into red rock country.",
       "commute": {
