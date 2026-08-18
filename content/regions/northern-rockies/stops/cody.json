@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 547,
-      "label": "Day 547 — Buffalo Bill & the Rodeo",
+      "dayNumber": 549,
+      "label": "Day 549 — Buffalo Bill & the Rodeo",
       "type": "active",
       "summary": "The West, museum and live.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 548,
-      "label": "Day 548 — Northeast to the battlefield",
+      "dayNumber": 550,
+      "label": "Day 550 — Northeast to the battlefield",
       "type": "commute",
       "summary": "To Custer's last stand.",
       "commute": {

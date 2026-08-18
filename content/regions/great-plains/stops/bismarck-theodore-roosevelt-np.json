@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 598,
-      "label": "Day 598 — The Capital",
+      "dayNumber": 600,
+      "label": "Day 600 — The Capital",
       "type": "active",
       "summary": "A skyscraper on the prairie.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 599,
-      "label": "Day 599 — West to Medora",
+      "dayNumber": 601,
+      "label": "Day 601 — West to Medora",
       "type": "active",
       "summary": "Into the painted badlands.",
       "blocks": [
@@ -86,8 +86,8 @@
       ]
     },
     {
-      "dayNumber": 600,
-      "label": "Day 600 — Theodore Roosevelt NP",
+      "dayNumber": 602,
+      "label": "Day 602 — Theodore Roosevelt NP",
       "type": "active",
       "summary": "Wild horses and bison.",
       "blocks": [
@@ -116,8 +116,8 @@
       ]
     },
     {
-      "dayNumber": 601,
-      "label": "Day 601 — East to Fargo",
+      "dayNumber": 603,
+      "label": "Day 603 — East to Fargo",
       "type": "commute",
       "summary": "Across North Dakota.",
       "commute": {

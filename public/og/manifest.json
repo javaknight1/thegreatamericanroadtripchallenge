@@ -1,9 +1,9 @@
 {
-  "days": 735,
-  "stops": 254,
+  "days": 737,
+  "stops": 255,
   "usStates": 48,
   "parks": 48,
-  "miles": 31000,
+  "miles": 31100,
   "legs": [
     "new-england",
     "mid-atlantic",

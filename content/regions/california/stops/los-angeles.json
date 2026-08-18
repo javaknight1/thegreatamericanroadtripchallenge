@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 427,
-      "label": "Day 427 — Hollywood",
+      "dayNumber": 429,
+      "label": "Day 429 — Hollywood",
       "type": "active",
       "summary": "Stars, the sign, and the observatory.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 428,
-      "label": "Day 428 — Art & the Beach",
+      "dayNumber": 430,
+      "label": "Day 430 — Art & the Beach",
       "type": "active",
       "summary": "The Getty, then the Pacific.",
       "blocks": [
@@ -116,8 +116,8 @@
       ]
     },
     {
-      "dayNumber": 429,
-      "label": "Day 429 — Downtown & the Studios",
+      "dayNumber": 431,
+      "label": "Day 431 — Downtown & the Studios",
       "type": "active",
       "summary": "Downtown culture or the backlot.",
       "blocks": [
@@ -160,8 +160,8 @@
       ]
     },
     {
-      "dayNumber": 430,
-      "label": "Day 430 — Free Day",
+      "dayNumber": 432,
+      "label": "Day 432 — Free Day",
       "type": "free",
       "summary": "Disneyland, more beach, or a studio tour. Options below.",
       "freeMenu": [
@@ -198,8 +198,8 @@
       ]
     },
     {
-      "dayNumber": 431,
-      "label": "Day 431 — Up the coast",
+      "dayNumber": 433,
+      "label": "Day 433 — Up the coast",
       "type": "commute",
       "summary": "To the American Riviera.",
       "commute": {

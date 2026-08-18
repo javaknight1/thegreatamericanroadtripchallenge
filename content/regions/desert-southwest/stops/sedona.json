@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 406,
-      "label": "Day 406 — Red Rocks",
+      "dayNumber": 408,
+      "label": "Day 408 — Red Rocks",
       "type": "active",
       "summary": "Cathedral Rock and a cliffside chapel.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 407,
-      "label": "Day 407 — Jeeps & Canyons",
+      "dayNumber": 409,
+      "label": "Day 409 — Jeeps & Canyons",
       "type": "active",
       "summary": "Off-road and up the creek.",
       "blocks": [
@@ -102,8 +102,8 @@
       ]
     },
     {
-      "dayNumber": 408,
-      "label": "Day 408 — Up to Jerome",
+      "dayNumber": 410,
+      "label": "Day 410 — Up to Jerome",
       "type": "commute",
       "summary": "To the hillside ghost town.",
       "commute": {

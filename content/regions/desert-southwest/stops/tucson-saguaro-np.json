@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 417,
-      "label": "Day 417 — Saguaro & the Desert Museum",
+      "dayNumber": 419,
+      "label": "Day 419 — Saguaro & the Desert Museum",
       "type": "active",
       "summary": "Giant cacti and desert life.",
       "blocks": [
@@ -73,8 +73,8 @@
       ]
     },
     {
-      "dayNumber": 418,
-      "label": "Day 418 — The White Dove",
+      "dayNumber": 420,
+      "label": "Day 420 — The White Dove",
       "type": "active",
       "summary": "A Spanish mission and the old city.",
       "blocks": [
@@ -117,8 +117,8 @@
       ]
     },
     {
-      "dayNumber": 419,
-      "label": "Day 419 — West to California",
+      "dayNumber": 421,
+      "label": "Day 421 — West to California",
       "type": "commute",
       "summary": "Across to San Diego — the Southwest is done.",
       "commute": {

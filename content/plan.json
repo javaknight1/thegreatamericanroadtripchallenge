@@ -738,14 +738,14 @@
       "stops": [
         {
           "id": "tulsa",
-          "order": 2,
+          "order": 1,
           "name": "Tulsa",
           "state": "OK",
           "plannedDays": 2
         },
         {
           "id": "oklahoma-city",
-          "order": 1,
+          "order": 2,
           "name": "Oklahoma City",
           "state": "OK",
           "plannedDays": 3
@@ -773,56 +773,63 @@
         },
         {
           "id": "houston",
-          "order": 8,
+          "order": 6,
           "name": "Houston",
           "state": "TX",
           "plannedDays": 4
         },
         {
           "id": "galveston",
-          "order": 9,
+          "order": 7,
           "name": "Galveston",
           "state": "TX",
           "plannedDays": 2
         },
         {
           "id": "corpus-christi-padre-island",
-          "order": 10,
+          "order": 8,
           "name": "Corpus Christi & Padre Island",
           "state": "TX",
           "plannedDays": 2
         },
         {
           "id": "san-antonio",
-          "order": 7,
+          "order": 9,
           "name": "San Antonio",
           "state": "TX",
           "plannedDays": 4
         },
         {
+          "id": "horseshoe-bay",
+          "order": 10,
+          "name": "Horseshoe Bay & the Highland Lakes",
+          "state": "TX",
+          "plannedDays": 2
+        },
+        {
           "id": "fredericksburg-hill-country",
-          "order": 6,
+          "order": 11,
           "name": "Fredericksburg & Hill Country",
           "state": "TX",
           "plannedDays": 2
         },
         {
           "id": "big-bend-np-marfa",
-          "order": 11,
+          "order": 12,
           "name": "Big Bend NP & Marfa",
           "state": "TX",
           "plannedDays": 4
         },
         {
           "id": "el-paso",
-          "order": 12,
+          "order": 13,
           "name": "El Paso",
           "state": "TX",
           "plannedDays": 2
         },
         {
           "id": "guadalupe-mountains-np",
-          "order": 13,
+          "order": 14,
           "name": "Guadalupe Mountains NP",
           "state": "TX",
           "plannedDays": 2

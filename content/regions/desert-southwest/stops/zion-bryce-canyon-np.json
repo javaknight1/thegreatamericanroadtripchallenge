@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 391,
-      "label": "Day 391 — Zion Canyon",
+      "dayNumber": 393,
+      "label": "Day 393 — Zion Canyon",
       "type": "active",
       "summary": "Up the canyon by shuttle.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 392,
-      "label": "Day 392 — Angels Landing or the Narrows",
+      "dayNumber": 394,
+      "label": "Day 394 — Angels Landing or the Narrows",
       "type": "active",
       "summary": "A big Zion adventure.",
       "blocks": [
@@ -84,8 +84,8 @@
       ]
     },
     {
-      "dayNumber": 393,
-      "label": "Day 393 — Bryce Amphitheater",
+      "dayNumber": 395,
+      "label": "Day 395 — Bryce Amphitheater",
       "type": "active",
       "summary": "The hoodoos from the rim.",
       "blocks": [
@@ -113,8 +113,8 @@
       ]
     },
     {
-      "dayNumber": 394,
-      "label": "Day 394 — Free / Hoodoo Day",
+      "dayNumber": 396,
+      "label": "Day 396 — Free / Hoodoo Day",
       "type": "free",
       "summary": "Hike down among the hoodoos, or rest. Options below.",
       "freeMenu": [
@@ -151,8 +151,8 @@
       ]
     },
     {
-      "dayNumber": 395,
-      "label": "Day 395 — East to Capitol Reef",
+      "dayNumber": 397,
+      "label": "Day 397 — East to Capitol Reef",
       "type": "commute",
       "summary": "Along Scenic Byway 12.",
       "commute": {

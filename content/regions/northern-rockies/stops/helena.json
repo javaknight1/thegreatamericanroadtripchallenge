@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 533,
-      "label": "Day 533 — Capital & Gold Gulch",
+      "dayNumber": 535,
+      "label": "Day 535 — Capital & Gold Gulch",
       "type": "active",
       "summary": "The statehouse and the gulch.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 534,
-      "label": "Day 534 — South to Bozeman",
+      "dayNumber": 536,
+      "label": "Day 536 — South to Bozeman",
       "type": "commute",
       "summary": "To the dinosaur town.",
       "commute": {

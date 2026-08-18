@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 688,
-      "label": "Day 688 — Capitol & Campus",
+      "dayNumber": 690,
+      "label": "Day 690 — Capitol & Campus",
       "type": "active",
       "summary": "The statehouse and MSU.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 689,
-      "label": "Day 689 — East to Detroit",
+      "dayNumber": 691,
+      "label": "Day 691 — East to Detroit",
       "type": "commute",
       "summary": "To the Motor City.",
       "commute": {

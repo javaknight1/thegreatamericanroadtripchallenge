@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 358,
-      "label": "Day 358 — Little Green Men",
+      "dayNumber": 360,
+      "label": "Day 360 — Little Green Men",
       "type": "active",
       "summary": "Lean into the kitsch.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 359,
-      "label": "Day 359 — North to Santa Fe",
+      "dayNumber": 361,
+      "label": "Day 361 — North to Santa Fe",
       "type": "commute",
       "summary": "Up to the high desert capital.",
       "commute": {

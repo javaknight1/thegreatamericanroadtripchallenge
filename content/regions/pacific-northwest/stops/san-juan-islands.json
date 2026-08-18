@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 506,
-      "label": "Day 506 — San Juan Island",
+      "dayNumber": 508,
+      "label": "Day 508 — San Juan Island",
       "type": "active",
       "summary": "Whales and a lighthouse.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 507,
-      "label": "Day 507 — Orcas Island",
+      "dayNumber": 509,
+      "label": "Day 509 — Orcas Island",
       "type": "active",
       "summary": "The archipelago from the top.",
       "blocks": [
@@ -83,8 +83,8 @@
       ]
     },
     {
-      "dayNumber": 508,
-      "label": "Day 508 — North to Canada & the Cascades",
+      "dayNumber": 510,
+      "label": "Day 510 — North to Canada & the Cascades",
       "type": "commute",
       "summary": "Ferry back, then north.",
       "commute": {

@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 636,
-      "label": "Day 636 — Capitol & Sculpture",
+      "dayNumber": 638,
+      "label": "Day 638 — Capitol & Sculpture",
       "type": "active",
       "summary": "Gold domes and open-air art.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 637,
-      "label": "Day 637 — East to the Colonies",
+      "dayNumber": 639,
+      "label": "Day 639 — East to the Colonies",
       "type": "commute",
       "summary": "To communal villages and a cornfield diamond.",
       "commute": {

@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 537,
-      "label": "Day 537 — Old Faithful",
+      "dayNumber": 539,
+      "label": "Day 539 — Old Faithful",
       "type": "active",
       "summary": "The geyser basins.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 538,
-      "label": "Day 538 — Rainbow Springs",
+      "dayNumber": 540,
+      "label": "Day 540 — Rainbow Springs",
       "type": "active",
       "summary": "Grand Prismatic and Norris.",
       "blocks": [
@@ -83,8 +83,8 @@
       ]
     },
     {
-      "dayNumber": 539,
-      "label": "Day 539 — Canyon & Wildlife",
+      "dayNumber": 541,
+      "label": "Day 541 — Canyon & Wildlife",
       "type": "active",
       "summary": "The golden canyon and Hayden Valley.",
       "blocks": [
@@ -112,8 +112,8 @@
       ]
     },
     {
-      "dayNumber": 540,
-      "label": "Day 540 — Lamar & Mammoth",
+      "dayNumber": 542,
+      "label": "Day 542 — Lamar & Mammoth",
       "type": "active",
       "summary": "Wolves and travertine terraces.",
       "blocks": [
@@ -143,8 +143,8 @@
       ]
     },
     {
-      "dayNumber": 541,
-      "label": "Day 541 — Free Day",
+      "dayNumber": 543,
+      "label": "Day 543 — Free Day",
       "type": "free",
       "summary": "More geysers, the lake, or rest. Options below.",
       "freeMenu": [
@@ -181,8 +181,8 @@
       ]
     },
     {
-      "dayNumber": 542,
-      "label": "Day 542 — South to the Tetons",
+      "dayNumber": 544,
+      "label": "Day 544 — South to the Tetons",
       "type": "commute",
       "summary": "Into the Tetons.",
       "commute": {

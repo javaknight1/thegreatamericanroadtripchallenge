@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 658,
-      "label": "Day 658 — Capitol & State Street",
+      "dayNumber": 660,
+      "label": "Day 660 — Capitol & State Street",
       "type": "active",
       "summary": "The dome, the street, and the lakes.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 659,
-      "label": "Day 659 — East to Milwaukee",
+      "dayNumber": 661,
+      "label": "Day 661 — East to Milwaukee",
       "type": "commute",
       "summary": "To the lakefront.",
       "commute": {

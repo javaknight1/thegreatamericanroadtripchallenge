@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 717,
-      "label": "Day 717 — The Confluence",
+      "dayNumber": 719,
+      "label": "Day 719 — The Confluence",
       "type": "active",
       "summary": "History where the rivers meet.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 718,
-      "label": "Day 718 — North to the spa town",
+      "dayNumber": 720,
+      "label": "Day 720 — North to the spa town",
       "type": "commute",
       "summary": "To America's first spa.",
       "commute": {

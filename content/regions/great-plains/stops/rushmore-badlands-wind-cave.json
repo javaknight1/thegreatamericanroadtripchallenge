@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 587,
-      "label": "Day 587 — Rushmore & Crazy Horse",
+      "dayNumber": 589,
+      "label": "Day 589 — Rushmore & Crazy Horse",
       "type": "active",
       "summary": "The carved mountains.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 588,
-      "label": "Day 588 — The Badlands",
+      "dayNumber": 590,
+      "label": "Day 590 — The Badlands",
       "type": "active",
       "summary": "A moonscape of spires.",
       "blocks": [
@@ -80,8 +80,8 @@
       ]
     },
     {
-      "dayNumber": 589,
-      "label": "Day 589 — Wind Cave & Custer",
+      "dayNumber": 591,
+      "label": "Day 591 — Wind Cave & Custer",
       "type": "active",
       "summary": "A rare cave and a wildlife loop.",
       "blocks": [
@@ -109,8 +109,8 @@
       ]
     },
     {
-      "dayNumber": 590,
-      "label": "Day 590 — Free Day",
+      "dayNumber": 592,
+      "label": "Day 592 — Free Day",
       "type": "free",
       "summary": "Another cave, a lake, or rest. Options below.",
       "freeMenu": [
@@ -147,8 +147,8 @@
       ]
     },
     {
-      "dayNumber": 591,
-      "label": "Day 591 — To Deadwood",
+      "dayNumber": 593,
+      "label": "Day 593 — To Deadwood",
       "type": "commute",
       "summary": "To the Wild West.",
       "commute": {

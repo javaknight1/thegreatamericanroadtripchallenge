@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 673,
-      "label": "Day 673 — Lincoln's Springfield",
+      "dayNumber": 675,
+      "label": "Day 675 — Lincoln's Springfield",
       "type": "active",
       "summary": "Home, tomb, and museum.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 674,
-      "label": "Day 674 — East to Indianapolis",
+      "dayNumber": 676,
+      "label": "Day 676 — East to Indianapolis",
       "type": "commute",
       "summary": "Into Indiana.",
       "commute": {

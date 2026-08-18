@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 494,
-      "label": "Day 494 — The Statehouse",
+      "dayNumber": 496,
+      "label": "Day 496 — The Statehouse",
       "type": "active",
       "summary": "The dome and the waterfront.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 495,
-      "label": "Day 495 — Out to the peninsula",
+      "dayNumber": 497,
+      "label": "Day 497 — Out to the peninsula",
       "type": "commute",
       "summary": "To the Olympic wilderness.",
       "commute": {

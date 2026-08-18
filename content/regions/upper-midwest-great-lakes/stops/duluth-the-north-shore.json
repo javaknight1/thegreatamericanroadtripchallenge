@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 645,
-      "label": "Day 645 — The Lake & the Shore",
+      "dayNumber": 647,
+      "label": "Day 647 — The Lake & the Shore",
       "type": "active",
       "summary": "The lift bridge and the falls.",
       "blocks": [
@@ -71,8 +71,8 @@
       ]
     },
     {
-      "dayNumber": 646,
-      "label": "Day 646 — North to Voyageurs",
+      "dayNumber": 648,
+      "label": "Day 648 — North to Voyageurs",
       "type": "commute",
       "summary": "To the water wilderness.",
       "commute": {

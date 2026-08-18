@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 629,
-      "label": "Day 629 — The Capitol",
+      "dayNumber": 631,
+      "label": "Day 631 — The Capitol",
       "type": "active",
       "summary": "Murals above the river.",
       "blocks": [
@@ -57,8 +57,8 @@
       ]
     },
     {
-      "dayNumber": 630,
-      "label": "Day 630 — East to St. Louis",
+      "dayNumber": 632,
+      "label": "Day 632 — East to St. Louis",
       "type": "commute",
       "summary": "To the Gateway Arch.",
       "commute": {

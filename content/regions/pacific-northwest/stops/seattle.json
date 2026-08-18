@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 500,
-      "label": "Day 500 — Pike Place & the Waterfront",
+      "dayNumber": 502,
+      "label": "Day 502 — Pike Place & the Waterfront",
       "type": "active",
       "summary": "The heart of the city.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 501,
-      "label": "Day 501 — Seattle Center",
+      "dayNumber": 503,
+      "label": "Day 503 — Seattle Center",
       "type": "active",
       "summary": "The Needle and the glass.",
       "blocks": [
@@ -95,8 +95,8 @@
       ]
     },
     {
-      "dayNumber": 502,
-      "label": "Day 502 — Pioneer Square & Ballard",
+      "dayNumber": 504,
+      "label": "Day 504 — Pioneer Square & Ballard",
       "type": "active",
       "summary": "Underground history and locks.",
       "blocks": [
@@ -139,8 +139,8 @@
       ]
     },
     {
-      "dayNumber": 503,
-      "label": "Day 503 — Flight & Views",
+      "dayNumber": 505,
+      "label": "Day 505 — Flight & Views",
       "type": "active",
       "summary": "Aviation and a ferry.",
       "blocks": [
@@ -184,8 +184,8 @@
       ]
     },
     {
-      "dayNumber": 504,
-      "label": "Day 504 — Free Day",
+      "dayNumber": 506,
+      "label": "Day 506 — Free Day",
       "type": "free",
       "summary": "Coffee, a market, or a day trip. Options below.",
       "freeMenu": [
@@ -222,8 +222,8 @@
       ]
     },
     {
-      "dayNumber": 505,
-      "label": "Day 505 — North to the islands",
+      "dayNumber": 507,
+      "label": "Day 507 — North to the islands",
       "type": "commute",
       "summary": "Up to the ferry at Anacortes.",
       "commute": {

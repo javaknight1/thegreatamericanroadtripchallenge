@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 634,
-      "label": "Day 634 — Tom & Huck",
+      "dayNumber": 636,
+      "label": "Day 636 — Tom & Huck",
       "type": "active",
       "summary": "The whitewashed fence and the cave.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 635,
-      "label": "Day 635 — North to Iowa",
+      "dayNumber": 637,
+      "label": "Day 637 — North to Iowa",
       "type": "commute",
       "summary": "Into the Hawkeye State.",
       "commute": {

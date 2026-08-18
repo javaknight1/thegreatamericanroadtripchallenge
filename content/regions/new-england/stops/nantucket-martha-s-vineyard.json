@@ -116,6 +116,24 @@
             },
             "blurb": "The rainbow clay cliffs at the island's western tip, then whaling-captain mansions in Edgartown."
           }
+        },
+        {
+          "start": "4:00 PM",
+          "item": {
+            "id": "mv-jaws",
+            "title": "Amity Island — the Jaws bridge",
+            "categoryId": "film-locations",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "American Legion Memorial Bridge (\"Jaws Bridge\")",
+              "address": "Beach Rd, Edgartown, MA",
+              "lat": 41.3938,
+              "lng": -70.5486,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Jaws%20Bridge%20Edgartown%20Martha's%20Vineyard"
+            },
+            "blurb": "Spielberg shot Jaws here in 1974, over budget and months late because the shark kept sinking — which is why you barely see it, and why the film works. The Vineyard was Amity Island. Teenagers still jump off this bridge into the channel, exactly as they do in the film, and up-island at Menemsha you can stand where Quint's shack stood."
+          }
         }
       ]
     },

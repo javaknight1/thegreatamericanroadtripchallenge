@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 663,
-      "label": "Day 663 — The Bean & the Art Institute",
+      "dayNumber": 665,
+      "label": "Day 665 — The Bean & the Art Institute",
       "type": "active",
       "summary": "Millennium Park and masterpieces.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 664,
-      "label": "Day 664 — Architecture & the Sky",
+      "dayNumber": 666,
+      "label": "Day 666 — Architecture & the Sky",
       "type": "active",
       "summary": "A river cruise and a skydeck.",
       "blocks": [
@@ -113,8 +113,8 @@
       ]
     },
     {
-      "dayNumber": 665,
-      "label": "Day 665 — Museum Campus",
+      "dayNumber": 667,
+      "label": "Day 667 — Museum Campus",
       "type": "active",
       "summary": "Dinosaurs, fish, and stars.",
       "blocks": [
@@ -142,8 +142,8 @@
       ]
     },
     {
-      "dayNumber": 666,
-      "label": "Day 666 — The Mag Mile & the Pier",
+      "dayNumber": 668,
+      "label": "Day 668 — The Mag Mile & the Pier",
       "type": "active",
       "summary": "Shopping and the lakefront.",
       "blocks": [
@@ -168,8 +168,8 @@
       ]
     },
     {
-      "dayNumber": 667,
-      "label": "Day 667 — Wrigley & the South Side",
+      "dayNumber": 669,
+      "label": "Day 669 — Wrigley & the South Side",
       "type": "active",
       "summary": "Baseball and science.",
       "blocks": [
@@ -194,8 +194,8 @@
       ]
     },
     {
-      "dayNumber": 668,
-      "label": "Day 668 — Free Day",
+      "dayNumber": 670,
+      "label": "Day 670 — Free Day",
       "type": "free",
       "summary": "Blues, neighborhoods, or a game. Options below.",
       "freeMenu": [
@@ -232,8 +232,8 @@
       ]
     },
     {
-      "dayNumber": 669,
-      "label": "Day 669 — Free Day",
+      "dayNumber": 671,
+      "label": "Day 671 — Free Day",
       "type": "free",
       "summary": "Comedy, the zoo, or more deep-dish. Options below.",
       "freeMenu": [
@@ -270,8 +270,8 @@
       ]
     },
     {
-      "dayNumber": 670,
-      "label": "Day 670 — Northwest to Galena",
+      "dayNumber": 672,
+      "label": "Day 672 — Northwest to Galena",
       "type": "commute",
       "summary": "To Victorian river country.",
       "commute": {

@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 561,
-      "label": "Day 561 — Flatirons & Pearl Street",
+      "dayNumber": 563,
+      "label": "Day 563 — Flatirons & Pearl Street",
       "type": "active",
       "summary": "Trails and the mall.",
       "blocks": [
@@ -73,8 +73,8 @@
       ]
     },
     {
-      "dayNumber": 562,
-      "label": "Day 562 — South to Denver",
+      "dayNumber": 564,
+      "label": "Day 564 — South to Denver",
       "type": "commute",
       "summary": "To the Mile High City.",
       "commute": {

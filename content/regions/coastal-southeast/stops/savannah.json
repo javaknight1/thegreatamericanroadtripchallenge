@@ -51,7 +51,25 @@
           }
         },
         {
-          "start": "2:00 PM",
+          "start": "1:15 PM",
+          "item": {
+            "id": "savannah-forrest-gump-bench",
+            "title": "The Forrest Gump bench",
+            "categoryId": "film-locations",
+            "tier": "low",
+            "durationMins": 45,
+            "location": {
+              "name": "Savannah History Museum",
+              "address": "303 Martin Luther King Jr Blvd, Savannah, GA",
+              "lat": 32.0779,
+              "lng": -81.0998,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Savannah%20History%20Museum%20Forrest%20Gump%20bench"
+            },
+            "blurb": "The bench sat in Chippewa Square — which you walked through this morning — for the length of the shoot and was then taken indoors, because it was a film prop and the square wanted its square back. It's in the history museum now. Life is like a box of chocolates was written in a Savannah square, and the square is still exactly as it looks."
+          }
+        },
+        {
+          "start": "2:15 PM",
           "item": {
             "id": "savannah-river-street",
             "title": "River Street",

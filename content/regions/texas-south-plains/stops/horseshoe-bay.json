@@ -1,0 +1,147 @@
+{
+  "id": "horseshoe-bay",
+  "name": "Horseshoe Bay & the Highland Lakes",
+  "state": "TX",
+  "country": "US",
+  "order": 10,
+  "location": {
+    "lat": 30.5438,
+    "lng": -98.3639
+  },
+  "summary": "The Hill Country's lake district — a constant-level lake in a granite basin, a river-carved cavern that was a Confederate powder mill and later a dance hall, and the pink granite quarry that built the Texas Capitol.",
+  "seasonalTip": "This leg runs in spring, which is the entire point of being here: the Willow City Loop and the roadsides along RR 1431 are the best bluebonnet country in Texas, and peak bloom is usually the first three weeks of April.",
+  "lodging": [
+    {
+      "name": "Horseshoe Bay Resort, or a rental on Lake LBJ",
+      "blurb": "The resort has the marina and three Robert Trent Jones Sr. courses; the rentals have docks.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Horseshoe%20Bay%20Resort%20Texas"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "Pie at the Bluebonnet Cafe",
+      "blurb": "In Marble Falls since 1929. Order it by the slice at three in the afternoon, when they do half-price pie happy hour."
+    },
+    {
+      "name": "A lakeside patio at sunset",
+      "blurb": "Lake LBJ faces the right way and the granite hills go pink with it."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 345,
+      "label": "Day 345 — Lake LBJ",
+      "type": "active",
+      "summary": "A day on the water in a granite bowl.",
+      "blocks": [
+        {
+          "start": "10:00 AM",
+          "item": {
+            "id": "horseshoe-bay-lake-lbj",
+            "title": "Lake LBJ & the Horseshoe Bay marina",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 270,
+            "location": {
+              "name": "Horseshoe Bay Marina, Lake LBJ",
+              "address": "200 Bay West Blvd, Horseshoe Bay, TX",
+              "lat": 30.5335,
+              "lng": -98.3673,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Horseshoe%20Bay%20Marina%20Lake%20LBJ"
+            },
+            "blurb": "Lake LBJ is a constant-level lake — the dams at either end hold it within a few inches all year, which is why the Highland Lakes have docks and the rest of Texas has mudflats by August. Rent a boat, swim off it, or paddle up into the granite coves. The water is clear and green and the hills come down to it.",
+            "gear": [
+              "swimsuit",
+              "sun protection"
+            ]
+          }
+        },
+        {
+          "slot": "Late afternoon",
+          "rest": {
+            "label": "The rest of the day is the lake",
+            "note": "Nothing after this. You have been moving through Texas since Tulsa — the Alamo, the River Walk, the missions — and this is the first stop on the leg that exists to be sat still in. Find a dock facing west."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 346,
+      "label": "Day 346 — Caverns, Granite & Bluebonnets",
+      "type": "active",
+      "summary": "Underground, then the quarry that built the capitol, then the back roads.",
+      "blocks": [
+        {
+          "start": "9:30 AM",
+          "item": {
+            "id": "horseshoe-bay-longhorn-cavern",
+            "title": "Longhorn Cavern State Park",
+            "categoryId": "national-parks",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Longhorn Cavern State Park",
+              "address": "6211 Park Rd 4 S, Burnet, TX",
+              "lat": 30.6844,
+              "lng": -98.3517,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Longhorn%20Cavern%20State%20Park%20Burnet%20Texas"
+            },
+            "blurb": "Carved by a river rather than dripped into being, so it has smooth flowing walls instead of the usual spikes — and a strange history to match. The Confederacy made gunpowder in it, outlaws are supposed to have hidden in it, and in the 1920s somebody put a dance floor and a speakeasy down there. The CCC cleared it out by hand in the 1930s.",
+            "gear": [
+              "a layer — it is 68°F down there year-round"
+            ]
+          }
+        },
+        {
+          "start": "12:30 PM",
+          "item": {
+            "id": "horseshoe-bay-marble-falls",
+            "title": "Marble Falls & Granite Mountain",
+            "categoryId": "landmarks",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Granite Mountain overlook, Marble Falls",
+              "address": "RR 1431, Marble Falls, TX",
+              "lat": 30.5766,
+              "lng": -98.2761,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Granite%20Mountain%20Marble%20Falls%20Texas"
+            },
+            "blurb": "A dome of solid pink granite on the edge of town, still quarried. The Texas Capitol you walked through on day 327 is built out of it — the state traded a Panhandle ranch's worth of land for the stone and laid a railroad out here to move it. Then pie at the Bluebonnet Cafe, which has been on US-281 since 1929."
+          }
+        },
+        {
+          "start": "3:00 PM",
+          "item": {
+            "id": "horseshoe-bay-willow-city-loop",
+            "title": "The Willow City Loop",
+            "categoryId": "outdoor-water",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Willow City Loop",
+              "address": "Willow City Loop, Fredericksburg, TX",
+              "lat": 30.4436,
+              "lng": -98.7147,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Willow%20City%20Loop%20Texas"
+            },
+            "blurb": "Thirteen miles of one-lane ranch road southwest toward Fredericksburg, and in April it is the most photographed stretch of wildflowers in America — bluebonnets and Indian paintbrush wall to wall down the draws. Every inch of it is private ranch land, so stay on the road and don't climb the fences; people do, and it is why the loop nearly gets closed every few years.",
+            "gear": [
+              "a camera",
+              "patience — it is slow going in bloom season"
+            ]
+          }
+        },
+        {
+          "start": "5:45 PM",
+          "drive": {
+            "from": "Willow City, TX",
+            "to": "Fredericksburg, TX",
+            "driveTimeMins": 30,
+            "scenicNote": "Out the bottom of the loop and down RR 1323 into Fredericksburg for the night."
+          }
+        }
+      ]
+    }
+  ]
+}

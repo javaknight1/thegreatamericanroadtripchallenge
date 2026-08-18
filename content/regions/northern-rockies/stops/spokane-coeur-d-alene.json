@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 517,
-      "label": "Day 517 — Lake & Falls",
+      "dayNumber": 519,
+      "label": "Day 519 — Lake & Falls",
       "type": "active",
       "summary": "The lake and the river city.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 518,
-      "label": "Day 518 — Down US-95",
+      "dayNumber": 520,
+      "label": "Day 520 — Down US-95",
       "type": "commute",
       "summary": "Most of the length of Idaho, and an afternoon on a lake.",
       "commute": {

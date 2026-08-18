@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 694,
-      "label": "Day 694 — Rock & Roll",
+      "dayNumber": 696,
+      "label": "Day 696 — Rock & Roll",
       "type": "active",
       "summary": "The Hall of Fame on the lake.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 695,
-      "label": "Day 695 — Cuyahoga Valley",
+      "dayNumber": 697,
+      "label": "Day 697 — Cuyahoga Valley",
       "type": "active",
       "summary": "A park between the cities.",
       "blocks": [
@@ -79,8 +79,8 @@
       ]
     },
     {
-      "dayNumber": 696,
-      "label": "Day 696 — Free Day",
+      "dayNumber": 698,
+      "label": "Day 698 — Free Day",
       "type": "free",
       "summary": "Art, the market, or the lake. Options below.",
       "freeMenu": [
@@ -117,16 +117,48 @@
       ]
     },
     {
-      "dayNumber": 697,
-      "label": "Day 697 — South to Columbus",
+      "dayNumber": 699,
+      "label": "Day 699 — Shawshank, then the Capital",
       "type": "commute",
-      "summary": "To the state capital.",
-      "commute": {
-        "from": "Cleveland, OH",
-        "to": "Columbus, OH",
-        "driveTimeMins": 150,
-        "scenicNote": "South to Columbus."
-      }
+      "summary": "South through Mansfield and a prison you already know.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "drive": {
+            "from": "Cleveland, OH",
+            "to": "Mansfield, OH",
+            "driveTimeMins": 75,
+            "scenicNote": "Southwest out of Cleveland into farm country."
+          }
+        },
+        {
+          "start": "10:30 AM",
+          "item": {
+            "id": "mansfield-shawshank",
+            "title": "The Ohio State Reformatory",
+            "categoryId": "film-locations",
+            "tier": "anchor",
+            "durationMins": 150,
+            "location": {
+              "name": "Ohio State Reformatory",
+              "address": "100 Reformatory Rd, Mansfield, OH",
+              "lat": 40.7936,
+              "lng": -82.5024,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Ohio%20State%20Reformatory%20Mansfield%20Ohio"
+            },
+            "blurb": "A vast Romanesque castle of a prison, built in 1886 to look like a cathedral so inmates would be moved toward reform, and closed in 1990 as inhumane. Then Shawshank was filmed here and saved it: the cell block, the warden's office, the tunnel Andy crawls through. The east cell block is six tiers high and the largest free-standing steel cell block in the world."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "drive": {
+            "from": "Mansfield, OH",
+            "to": "Columbus, OH",
+            "driveTimeMins": 80,
+            "scenicNote": "South on US-71 to the capital."
+          }
+        }
+      ]
     }
   ]
 }

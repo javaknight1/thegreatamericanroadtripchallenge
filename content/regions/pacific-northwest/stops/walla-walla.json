@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 515,
-      "label": "Day 515 — Wine & Main Street",
+      "dayNumber": 517,
+      "label": "Day 517 — Wine & Main Street",
       "type": "active",
       "summary": "Tasting rooms and history.",
       "blocks": [
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "dayNumber": 516,
-      "label": "Day 516 — Into the Rockies",
+      "dayNumber": 518,
+      "label": "Day 518 — Into the Rockies",
       "type": "commute",
       "summary": "Northeast toward Idaho.",
       "commute": {

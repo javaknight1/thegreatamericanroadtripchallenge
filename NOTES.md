@@ -98,6 +98,37 @@ arguably correct: the days *are* the point. The rest are close enough to a
 breather on either side that adding one inside would have cost content for
 nothing.
 
+### Horseshoe Bay & a `film-locations` category — **DONE**
+
+**Horseshoe Bay, TX** is now a two-day stop (345–346) between San Antonio and
+Fredericksburg, which turns the Hill Country from a there-and-back into a small
+loop: San Antonio north on US-281 to the lakes, then southwest through the
+bluebonnet country into Fredericksburg, then west to Big Bend as before. Lake
+LBJ, Longhorn Cavern, Granite Mountain — which supplied the pink granite for the
+Texas Capitol the trip walks through on day 327 — and the Willow City Loop, which
+the leg's spring timing exists for. **The trip is now 737 days.**
+
+**`film-locations`** is the 19th category (`#7F0E2E`, measured at ΔE 31.6 from its
+nearest neighbour). The trip drove past a remarkable number of these and tagged
+none: the Rocky steps were inside a museum item, the Goonies house was a clause in
+an Astoria blurb, Forrest Gump Point was a parenthesis in Monument Valley, and
+Field of Dreams — the most famous film location in America that is *only* a film
+location — was filed under roadside oddities.
+
+Twelve items, eleven legs. The rule applied: the place is worth going to *because*
+it was filmed there, so a studio theme park isn't one (`theme-parks` covers those)
+and a museum that owns a prop isn't either. Two of them turned bare drive days
+into real ones — **day 245** now crosses the panhandle *through* Seaside, the town
+The Truman Show used instead of building a set, and **day 699** stops at the Ohio
+State Reformatory in Mansfield on the way from Cleveland to Columbus.
+
+That insertion moved 391 day numbers and broke one thing: the "Day 365. A year ago
+today" marker ended up on day 367. It's back on 365 — now the hour's drive down
+from Santa Fe, which suits it better since that day was already almost free — and
+**`validate` now fails prose that names a day number it isn't on**, so a future
+resequence can't falsify it silently. Cross-references to other days (Horseshoe
+Bay citing day 327) are still allowed, and checked to exist.
+
 ## 2. Stops running under their planned length
 
 Not errors — the manifest's day counts are planning guidance. Listing them so

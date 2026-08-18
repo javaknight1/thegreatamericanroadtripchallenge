@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 411,
-      "label": "Day 411 — Desert Gardens & Camelback",
+      "dayNumber": 413,
+      "label": "Day 413 — Desert Gardens & Camelback",
       "type": "active",
       "summary": "Cactus, city, and a climb.",
       "blocks": [
@@ -73,8 +73,8 @@
       ]
     },
     {
-      "dayNumber": 412,
-      "label": "Day 412 — Wright & the Heard",
+      "dayNumber": 414,
+      "label": "Day 414 — Wright & the Heard",
       "type": "active",
       "summary": "Architecture and Native American art.",
       "blocks": [
@@ -136,8 +136,8 @@
       ]
     },
     {
-      "dayNumber": 413,
-      "label": "Day 413 — Free Day",
+      "dayNumber": 415,
+      "label": "Day 415 — Free Day",
       "type": "free",
       "summary": "Spring training, instruments, or a spa. Options below.",
       "freeMenu": [
@@ -174,8 +174,8 @@
       ]
     },
     {
-      "dayNumber": 414,
-      "label": "Day 414 — Southeast to the Old West",
+      "dayNumber": 416,
+      "label": "Day 416 — Southeast to the Old West",
       "type": "commute",
       "summary": "Down to mining and gunfight country.",
       "commute": {

@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 487,
-      "label": "Day 487 — Column, Maritime & the Goonies",
+      "dayNumber": 489,
+      "label": "Day 489 — Column, Maritime & the Goonies",
       "type": "active",
       "summary": "The river town and its history.",
       "blocks": [
@@ -44,7 +44,7 @@
               "lng": -123.816,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Astoria%20Column"
             },
-            "blurb": "Climb the painted column for the river view, then the excellent Columbia River Maritime Museum and the 'Goonies' house."
+            "blurb": "Climb the painted column for the river view, then the excellent Columbia River Maritime Museum down on the waterfront."
           }
         },
         {
@@ -64,12 +64,30 @@
             },
             "blurb": "The reconstructed fort where Lewis and Clark wintered in 1805–06."
           }
+        },
+        {
+          "start": "4:30 PM",
+          "item": {
+            "id": "astoria-oregon-film-museum",
+            "title": "The Oregon Film Museum & Goonies Astoria",
+            "categoryId": "film-locations",
+            "tier": "mid",
+            "durationMins": 75,
+            "location": {
+              "name": "Oregon Film Museum",
+              "address": "732 Duane St, Astoria, OR",
+              "lat": 46.1879,
+              "lng": -123.8313,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Oregon%20Film%20Museum%20Astoria%20Oregon"
+            },
+            "blurb": "The museum is in the old Clatsop County Jail, which is the jail the Fratellis break out of in the first two minutes of The Goonies — you can film your own escape in the cells. Astoria has done well out of the movies: Kindergarten Cop, Free Willy and Short Circuit were all shot here. The Goonies house is up on 38th Street and is privately owned, so admire it from the road."
+          }
         }
       ]
     },
     {
-      "dayNumber": 488,
-      "label": "Day 488 — Across to Washington",
+      "dayNumber": 490,
+      "label": "Day 490 — Across to Washington",
       "type": "commute",
       "summary": "Over the Columbia to the volcano.",
       "commute": {

@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 424,
-      "label": "Day 424 — Joshua Tree",
+      "dayNumber": 426,
+      "label": "Day 426 — Joshua Tree",
       "type": "active",
       "summary": "Trees, boulders, and dark skies.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 425,
-      "label": "Day 425 — Palm Springs",
+      "dayNumber": 427,
+      "label": "Day 427 — Palm Springs",
       "type": "active",
       "summary": "Mid-century cool and a mountain tram.",
       "blocks": [
@@ -99,8 +99,8 @@
       ]
     },
     {
-      "dayNumber": 426,
-      "label": "Day 426 — West to Los Angeles",
+      "dayNumber": 428,
+      "label": "Day 428 — West to Los Angeles",
       "type": "commute",
       "summary": "Into the City of Angels.",
       "commute": {

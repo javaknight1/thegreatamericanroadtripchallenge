@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 369,
-      "label": "Day 369 — Canyon de Chelly & Four Corners",
+      "dayNumber": 371,
+      "label": "Day 371 — Canyon de Chelly & Four Corners",
       "type": "active",
       "summary": "A living canyon and a quadripoint.",
       "blocks": [
@@ -72,8 +72,8 @@
       ]
     },
     {
-      "dayNumber": 370,
-      "label": "Day 370 — To Monument Valley",
+      "dayNumber": 372,
+      "label": "Day 372 — To Monument Valley",
       "type": "commute",
       "summary": "Into the iconic buttes.",
       "commute": {

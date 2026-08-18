@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 398,
-      "label": "Day 398 — Slot Canyon & the Bend",
+      "dayNumber": 400,
+      "label": "Day 400 — Slot Canyon & the Bend",
       "type": "active",
       "summary": "Light beams and a river bend.",
       "blocks": [
@@ -73,8 +73,8 @@
       ]
     },
     {
-      "dayNumber": 399,
-      "label": "Day 399 — To the Grand Canyon",
+      "dayNumber": 401,
+      "label": "Day 401 — To the Grand Canyon",
       "type": "commute",
       "summary": "Southwest to the big one.",
       "commute": {

@@ -3,7 +3,7 @@
   "name": "El Paso",
   "state": "TX",
   "country": "US",
-  "order": 12,
+  "order": 13,
   "location": {
     "lat": 31.7619,
     "lng": -106.485
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 351,
-      "label": "Day 351 — The Border City",
+      "dayNumber": 353,
+      "label": "Day 353 — The Border City",
       "type": "active",
       "summary": "Mountains, missions, and the view into Mexico.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 352,
-      "label": "Day 352 — East to Guadalupe",
+      "dayNumber": 354,
+      "label": "Day 354 — East to Guadalupe",
       "type": "commute",
       "summary": "To the roof of Texas.",
       "commute": {

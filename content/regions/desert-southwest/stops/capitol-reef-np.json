@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 396,
-      "label": "Day 396 — The Waterpocket Fold",
+      "dayNumber": 398,
+      "label": "Day 398 — The Waterpocket Fold",
       "type": "active",
       "summary": "Orchards, petroglyphs, and a natural bridge.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 397,
-      "label": "Day 397 — South to Lake Powell",
+      "dayNumber": 399,
+      "label": "Day 399 — South to Lake Powell",
       "type": "commute",
       "summary": "Down the spine of the plateau.",
       "commute": {

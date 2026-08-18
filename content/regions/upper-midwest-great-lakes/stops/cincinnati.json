@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 702,
-      "label": "Day 702 — The Riverfront",
+      "dayNumber": 704,
+      "label": "Day 704 — The Riverfront",
       "type": "active",
       "summary": "Chili, a market, and a bridge.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 703,
-      "label": "Day 703 — East to Pittsburgh",
+      "dayNumber": 705,
+      "label": "Day 705 — East to Pittsburgh",
       "type": "commute",
       "summary": "Into Appalachia — the Midwest is done.",
       "commute": {

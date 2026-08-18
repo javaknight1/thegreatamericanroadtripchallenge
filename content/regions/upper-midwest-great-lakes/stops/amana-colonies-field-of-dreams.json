@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 638,
-      "label": "Day 638 — Colonies & the Cornfield",
+      "dayNumber": 640,
+      "label": "Day 640 — Colonies & the Cornfield",
       "type": "active",
       "summary": "Crafts, then a movie diamond.",
       "blocks": [
@@ -53,24 +53,24 @@
           "item": {
             "id": "field-of-dreams",
             "title": "Field of Dreams",
-            "categoryId": "quirky",
+            "categoryId": "film-locations",
             "tier": "anchor",
-            "durationMins": 120,
+            "durationMins": 150,
             "location": {
               "name": "Field of Dreams Movie Site",
               "address": "28995 Lansing Rd, Dyersville, IA",
-              "lat": 42.498,
-              "lng": -91.053,
-              "mapLink": "https://www.google.com/maps/search/?api=1&query=Field%20of%20Dreams%20Movie%20Site"
+              "lat": 42.4783,
+              "lng": -91.0533,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Field%20of%20Dreams%20Movie%20Site%20Dyersville%20Iowa"
             },
-            "blurb": "The baseball field carved into the corn from the movie — 'If you build it, he will come' (a ~1.5-hr drive northeast)."
+            "blurb": "The Lansing family's farm outside Dyersville, where in 1988 a film crew cut a baseball diamond out of the corn and then left it there. The farmhouse is the farmhouse. The corn is the corn — you can walk into it and come back out, and everyone does. It is free, it is somebody's front yard, and grown adults cry in it about their fathers."
           }
         }
       ]
     },
     {
-      "dayNumber": 639,
-      "label": "Day 639 — North to the Twin Cities",
+      "dayNumber": 641,
+      "label": "Day 641 — North to the Twin Cities",
       "type": "commute",
       "summary": "Up to Minnesota.",
       "commute": {

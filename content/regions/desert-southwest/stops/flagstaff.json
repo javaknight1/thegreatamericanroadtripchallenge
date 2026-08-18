@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 404,
-      "label": "Day 404 — Route 66 & the Stars",
+      "dayNumber": 406,
+      "label": "Day 406 — Route 66 & the Stars",
       "type": "active",
       "summary": "Downtown and the observatory.",
       "blocks": [
@@ -71,8 +71,8 @@
       ]
     },
     {
-      "dayNumber": 405,
-      "label": "Day 405 — South to Sedona",
+      "dayNumber": 407,
+      "label": "Day 407 — South to Sedona",
       "type": "commute",
       "summary": "Down into red rock country.",
       "commute": {

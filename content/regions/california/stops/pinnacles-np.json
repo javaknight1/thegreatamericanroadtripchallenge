@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 446,
-      "label": "Day 446 — Caves & Condors",
+      "dayNumber": 448,
+      "label": "Day 448 — Caves & Condors",
       "type": "active",
       "summary": "Talus caves and the High Peaks.",
       "blocks": [
@@ -55,8 +55,8 @@
       ]
     },
     {
-      "dayNumber": 447,
-      "label": "Day 447 — North to San Francisco",
+      "dayNumber": 449,
+      "label": "Day 449 — North to San Francisco",
       "type": "commute",
       "summary": "Up to the city by the bay.",
       "commute": {

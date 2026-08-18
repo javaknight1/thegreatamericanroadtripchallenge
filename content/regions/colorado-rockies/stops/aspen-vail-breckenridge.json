@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 581,
-      "label": "Day 581 — Aspen & the Maroon Bells",
+      "dayNumber": 583,
+      "label": "Day 583 — Aspen & the Maroon Bells",
       "type": "active",
       "summary": "The most photographed peaks in America.",
       "blocks": [
@@ -72,8 +72,8 @@
       ]
     },
     {
-      "dayNumber": 582,
-      "label": "Day 582 — Vail & the Back Bowls",
+      "dayNumber": 584,
+      "label": "Day 584 — Vail & the Back Bowls",
       "type": "active",
       "summary": "An alpine village.",
       "blocks": [
@@ -137,8 +137,8 @@
       ]
     },
     {
-      "dayNumber": 583,
-      "label": "Day 583 — Breckenridge",
+      "dayNumber": 585,
+      "label": "Day 585 — Breckenridge",
       "type": "active",
       "summary": "A Victorian mining town.",
       "blocks": [
@@ -184,8 +184,8 @@
       ]
     },
     {
-      "dayNumber": 584,
-      "label": "Day 584 — Out to the plains",
+      "dayNumber": 586,
+      "label": "Day 586 — Out to the plains",
       "type": "commute",
       "summary": "The long descent to the plains at Scottsbluff.",
       "commute": {

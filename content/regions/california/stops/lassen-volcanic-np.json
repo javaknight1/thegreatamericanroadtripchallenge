@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 462,
-      "label": "Day 462 — Fire & Steam",
+      "dayNumber": 464,
+      "label": "Day 464 — Fire & Steam",
       "type": "active",
       "summary": "Hydrothermal wonders and a volcano.",
       "blocks": [
@@ -55,8 +55,8 @@
       ]
     },
     {
-      "dayNumber": 463,
-      "label": "Day 463 — West to the coast",
+      "dayNumber": 465,
+      "label": "Day 465 — West to the coast",
       "type": "commute",
       "summary": "To the Mendocino coast.",
       "commute": {

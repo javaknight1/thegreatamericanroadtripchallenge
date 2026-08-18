@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 551,
-      "label": "Day 551 — The Tower",
+      "dayNumber": 553,
+      "label": "Day 553 — The Tower",
       "type": "active",
       "summary": "Around the base.",
       "blocks": [
@@ -51,6 +51,24 @@
           }
         },
         {
+          "start": "1:00 PM",
+          "item": {
+            "id": "devils-tower-close-encounters",
+            "title": "Close Encounters at the visitor center",
+            "categoryId": "film-locations",
+            "tier": "low",
+            "durationMins": 60,
+            "location": {
+              "name": "Devils Tower Visitor Center",
+              "address": "Devils Tower National Monument, WY",
+              "lat": 44.5902,
+              "lng": -104.7146,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Devils%20Tower%20Visitor%20Center%20Wyoming"
+            },
+            "blurb": "Spielberg put the mothership behind this rock in 1977 and turned a remote Wyoming monolith into one of the most recognisable shapes on earth; visits jumped and never came back down. The visitor center keeps a display about it. Worth holding both ideas at once — it's a film set to most of the world and a sacred site to more than twenty Plains tribes, who call it Bear Lodge."
+          }
+        },
+        {
           "slot": "Evening",
           "rest": {
             "label": "Under the dark sky",
@@ -60,8 +78,8 @@
       ]
     },
     {
-      "dayNumber": 552,
-      "label": "Day 552 — South to the capital",
+      "dayNumber": 554,
+      "label": "Day 554 — South to the capital",
       "type": "commute",
       "summary": "Down to Cheyenne.",
       "commute": {

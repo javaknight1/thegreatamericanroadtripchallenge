@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 721,
-      "label": "Day 721 — The Falls",
+      "dayNumber": 723,
+      "label": "Day 723 — The Falls",
       "type": "active",
       "summary": "Into the mist.",
       "blocks": [
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "dayNumber": 722,
-      "label": "Day 722 — Buffalo",
+      "dayNumber": 724,
+      "label": "Day 724 — Buffalo",
       "type": "active",
       "summary": "Wings and Wright.",
       "blocks": [
@@ -86,8 +86,8 @@
       ]
     },
     {
-      "dayNumber": 723,
-      "label": "Day 723 — East to Rochester",
+      "dayNumber": 725,
+      "label": "Day 725 — East to Rochester",
       "type": "commute",
       "summary": "Along the Erie Canal.",
       "commute": {

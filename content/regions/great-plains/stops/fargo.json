@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 602,
-      "label": "Day 602 — Downtown & the Woodchipper",
+      "dayNumber": 604,
+      "label": "Day 604 — Downtown & the Woodchipper",
       "type": "active",
       "summary": "A friendly prairie city.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 603,
-      "label": "Day 603 — South to the Corn Palace",
+      "dayNumber": 605,
+      "label": "Day 605 — South to the Corn Palace",
       "type": "commute",
       "summary": "Back into South Dakota.",
       "commute": {

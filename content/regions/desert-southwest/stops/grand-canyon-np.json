@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 400,
-      "label": "Day 400 — The South Rim",
+      "dayNumber": 402,
+      "label": "Day 402 — The South Rim",
       "type": "active",
       "summary": "First look over the edge.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 401,
-      "label": "Day 401 — Into the Canyon",
+      "dayNumber": 403,
+      "label": "Day 403 — Into the Canyon",
       "type": "active",
       "summary": "Descend below the rim.",
       "blocks": [
@@ -85,8 +85,8 @@
       ]
     },
     {
-      "dayNumber": 402,
-      "label": "Day 402 — Free Day",
+      "dayNumber": 404,
+      "label": "Day 404 — Free Day",
       "type": "free",
       "summary": "A flightseeing tour, more rim, or rest. Options below.",
       "freeMenu": [
@@ -123,8 +123,8 @@
       ]
     },
     {
-      "dayNumber": 403,
-      "label": "Day 403 — South to Flagstaff",
+      "dayNumber": 405,
+      "label": "Day 405 — South to Flagstaff",
       "type": "commute",
       "summary": "Down off the plateau.",
       "commute": {

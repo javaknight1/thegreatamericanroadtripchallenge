@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 620,
-      "label": "Day 620 — Capitol & Civil Rights",
+      "dayNumber": 622,
+      "label": "Day 622 — Capitol & Civil Rights",
       "type": "active",
       "summary": "The dome and Brown v. Board.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 621,
-      "label": "Day 621 — East to Kansas City",
+      "dayNumber": 623,
+      "label": "Day 623 — East to Kansas City",
       "type": "commute",
       "summary": "Into the Midwest.",
       "commute": {

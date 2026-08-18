@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 384,
-      "label": "Day 384 — Below Sea Level",
+      "dayNumber": 386,
+      "label": "Day 386 — Below Sea Level",
       "type": "active",
       "summary": "Salt flats, dunes, and painted hills.",
       "blocks": [
@@ -85,8 +85,8 @@
       ]
     },
     {
-      "dayNumber": 385,
-      "label": "Day 385 — East to the Strip",
+      "dayNumber": 387,
+      "label": "Day 387 — East to the Strip",
       "type": "commute",
       "summary": "Out of the desert and into the neon.",
       "commute": {

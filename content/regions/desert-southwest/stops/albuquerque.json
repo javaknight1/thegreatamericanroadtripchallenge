@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 364,
-      "label": "Day 364 — Old Town & the Tram",
+      "dayNumber": 366,
+      "label": "Day 366 — Old Town & the Tram",
       "type": "active",
       "summary": "The plaza and a mile-high ride.",
       "blocks": [
@@ -67,12 +67,30 @@
               "a warm layer"
             ]
           }
+        },
+        {
+          "start": "4:30 PM",
+          "item": {
+            "id": "abq-breaking-bad",
+            "title": "Los Pollos Hermanos & Breaking Bad Albuquerque",
+            "categoryId": "film-locations",
+            "tier": "low",
+            "durationMins": 90,
+            "location": {
+              "name": "Twisters (Los Pollos Hermanos)",
+              "address": "4257 Isleta Blvd SW, Albuquerque, NM",
+              "lat": 35.0359,
+              "lng": -106.6795,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Twisters%20Isleta%20Albuquerque%20Los%20Pollos%20Hermanos"
+            },
+            "blurb": "The show was set in Albuquerque because New Mexico's film incentive made it cheap, and then the city became a character. Twisters on Isleta is Los Pollos Hermanos and leans into it; the Dog House sign on Central still spins. One request the city makes and it's fair: Walter White's house is somebody's actual home on Piermont Drive, and the family there is tired of pizzas on the roof."
+          }
         }
       ]
     },
     {
-      "dayNumber": 365,
-      "label": "Day 365 — Pueblos & Petroglyphs",
+      "dayNumber": 367,
+      "label": "Day 367 — Pueblos & Petroglyphs",
       "type": "active",
       "summary": "Ancient rock art and native culture.",
       "blocks": [
@@ -115,15 +133,15 @@
         {
           "slot": "Evening",
           "rest": {
-            "label": "One year on the road",
-            "note": "Day 365. A year ago today this trip pulled out of Boston, and it is a little over half done. That is worth an evening off: Old Town, a plate of green chile, and the Sandias at sunset — the name means watermelon, and for about ten minutes you can see why."
+            "label": "An evening in Old Town",
+            "note": "Petroglyphs in the morning and nineteen pueblos' worth of history after lunch is a full day. Old Town is four blocks of adobe around a plaza that has been there since 1706, and the right way to end it is a plate of green chile somewhere with a courtyard."
           }
         }
       ]
     },
     {
-      "dayNumber": 366,
-      "label": "Day 366 — West on Route 66",
+      "dayNumber": 368,
+      "label": "Day 368 — West on Route 66",
       "type": "commute",
       "summary": "Into Arizona's high desert.",
       "commute": {

@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 555,
-      "label": "Day 555 — Old Town & Ales",
+      "dayNumber": 557,
+      "label": "Day 557 — Old Town & Ales",
       "type": "active",
       "summary": "The square and the breweries.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 556,
-      "label": "Day 556 — Into the Rockies",
+      "dayNumber": 558,
+      "label": "Day 558 — Into the Rockies",
       "type": "commute",
       "summary": "Up to the national park.",
       "commute": {

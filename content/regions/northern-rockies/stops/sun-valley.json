@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 524,
-      "label": "Day 524 — Bald Mountain & Ketchum",
+      "dayNumber": 526,
+      "label": "Day 526 — Bald Mountain & Ketchum",
       "type": "active",
       "summary": "Trails and Hemingway.",
       "blocks": [
@@ -90,8 +90,8 @@
       ]
     },
     {
-      "dayNumber": 525,
-      "label": "Day 525 — North to Montana",
+      "dayNumber": 527,
+      "label": "Day 527 — North to Montana",
       "type": "commute",
       "summary": "Into Big Sky Country.",
       "commute": {

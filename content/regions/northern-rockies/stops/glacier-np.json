@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 528,
-      "label": "Day 528 — Going-to-the-Sun Road",
+      "dayNumber": 530,
+      "label": "Day 530 — Going-to-the-Sun Road",
       "type": "active",
       "summary": "The great alpine drive.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 529,
-      "label": "Day 529 — Many Glacier",
+      "dayNumber": 531,
+      "label": "Day 531 — Many Glacier",
       "type": "active",
       "summary": "The heart of the park.",
       "blocks": [
@@ -85,8 +85,8 @@
       ]
     },
     {
-      "dayNumber": 530,
-      "label": "Day 530 — Lakes & Boats",
+      "dayNumber": 532,
+      "label": "Day 532 — Lakes & Boats",
       "type": "active",
       "summary": "Two Medicine and Lake McDonald.",
       "blocks": [
@@ -114,8 +114,8 @@
       ]
     },
     {
-      "dayNumber": 531,
-      "label": "Day 531 — Free Day",
+      "dayNumber": 533,
+      "label": "Day 533 — Free Day",
       "type": "free",
       "summary": "A big hike, a red-bus tour, or rest. Options below.",
       "freeMenu": [
@@ -152,8 +152,8 @@
       ]
     },
     {
-      "dayNumber": 532,
-      "label": "Day 532 — South to Helena",
+      "dayNumber": 534,
+      "label": "Day 534 — South to Helena",
       "type": "commute",
       "summary": "To the state capital.",
       "commute": {

@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 355,
-      "label": "Day 355 — Carlsbad Caverns",
+      "dayNumber": 357,
+      "label": "Day 357 — Carlsbad Caverns",
       "type": "active",
       "summary": "Descend into the underworld.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 356,
-      "label": "Day 356 — White Sands",
+      "dayNumber": 358,
+      "label": "Day 358 — White Sands",
       "type": "active",
       "summary": "Sled the gypsum dunes.",
       "blocks": [
@@ -92,8 +92,8 @@
       ]
     },
     {
-      "dayNumber": 357,
-      "label": "Day 357 — North to Roswell",
+      "dayNumber": 359,
+      "label": "Day 359 — North to Roswell",
       "type": "commute",
       "summary": "Up to alien country.",
       "commute": {

@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 700,
-      "label": "Day 700 — Wings & the Wrights",
+      "dayNumber": 702,
+      "label": "Day 702 — Wings & the Wrights",
       "type": "active",
       "summary": "A century of flight.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 701,
-      "label": "Day 701 — South to Cincinnati",
+      "dayNumber": 703,
+      "label": "Day 703 — South to Cincinnati",
       "type": "commute",
       "summary": "To the river city.",
       "commute": {

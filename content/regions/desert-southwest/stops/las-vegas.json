@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 386,
-      "label": "Day 386 — The Strip",
+      "dayNumber": 388,
+      "label": "Day 388 — The Strip",
       "type": "active",
       "summary": "Fountains, volcanoes, and neon.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 387,
-      "label": "Day 387 — Hoover Dam",
+      "dayNumber": 389,
+      "label": "Day 389 — Hoover Dam",
       "type": "active",
       "summary": "An engineering marvel.",
       "blocks": [
@@ -97,8 +97,8 @@
       ]
     },
     {
-      "dayNumber": 388,
-      "label": "Day 388 — Old Vegas",
+      "dayNumber": 390,
+      "label": "Day 390 — Old Vegas",
       "type": "active",
       "summary": "The neon of the original downtown.",
       "blocks": [
@@ -123,8 +123,8 @@
       ]
     },
     {
-      "dayNumber": 389,
-      "label": "Day 389 — Free Day",
+      "dayNumber": 391,
+      "label": "Day 391 — Free Day",
       "type": "free",
       "summary": "Red rock, a day trip, or the pool. Options below.",
       "freeMenu": [
@@ -161,8 +161,8 @@
       ]
     },
     {
-      "dayNumber": 390,
-      "label": "Day 390 — Northeast to Zion",
+      "dayNumber": 392,
+      "label": "Day 392 — Northeast to Zion",
       "type": "commute",
       "summary": "Out of the neon and into the canyon country.",
       "commute": {

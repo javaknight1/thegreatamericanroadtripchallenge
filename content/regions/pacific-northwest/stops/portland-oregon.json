@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 477,
-      "label": "Day 477 — Books, Carts & Doughnuts",
+      "dayNumber": 479,
+      "label": "Day 479 — Books, Carts & Doughnuts",
       "type": "active",
       "summary": "Quintessential Portland.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 478,
-      "label": "Day 478 — Gardens & Views",
+      "dayNumber": 480,
+      "label": "Day 480 — Gardens & Views",
       "type": "active",
       "summary": "Roses, a Japanese garden, and a mansion.",
       "blocks": [
@@ -113,8 +113,8 @@
       ]
     },
     {
-      "dayNumber": 479,
-      "label": "Day 479 — Neighborhoods & Beer",
+      "dayNumber": 481,
+      "label": "Day 481 — Neighborhoods & Beer",
       "type": "active",
       "summary": "Eat and drink your way around.",
       "blocks": [
@@ -139,8 +139,8 @@
       ]
     },
     {
-      "dayNumber": 480,
-      "label": "Day 480 — Free Day",
+      "dayNumber": 482,
+      "label": "Day 482 — Free Day",
       "type": "free",
       "summary": "A garden, a waterfall, or more food. Options below.",
       "freeMenu": [
@@ -177,8 +177,8 @@
       ]
     },
     {
-      "dayNumber": 481,
-      "label": "Day 481 — South to Salem",
+      "dayNumber": 483,
+      "label": "Day 483 — South to Salem",
       "type": "commute",
       "summary": "A short hop to the capital.",
       "commute": {

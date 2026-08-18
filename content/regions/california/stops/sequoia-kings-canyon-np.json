@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 435,
-      "label": "Day 435 — The Giant Forest",
+      "dayNumber": 437,
+      "label": "Day 437 — The Giant Forest",
       "type": "active",
       "summary": "The largest tree on earth.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 436,
-      "label": "Day 436 — Kings Canyon",
+      "dayNumber": 438,
+      "label": "Day 438 — Kings Canyon",
       "type": "active",
       "summary": "A giant tree and a deep canyon.",
       "blocks": [
@@ -84,8 +84,8 @@
       ]
     },
     {
-      "dayNumber": 437,
-      "label": "Day 437 — North to Yosemite",
+      "dayNumber": 439,
+      "label": "Day 439 — North to Yosemite",
       "type": "commute",
       "summary": "To the great valley.",
       "commute": {

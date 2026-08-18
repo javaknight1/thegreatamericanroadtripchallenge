@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 640,
-      "label": "Day 640 — River & Lakes",
+      "dayNumber": 642,
+      "label": "Day 642 — River & Lakes",
       "type": "active",
       "summary": "The mills and the sculpture garden.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 641,
-      "label": "Day 641 — Mall & Falls",
+      "dayNumber": 643,
+      "label": "Day 643 — Mall & Falls",
       "type": "active",
       "summary": "America's biggest mall and a city waterfall.",
       "blocks": [
@@ -113,8 +113,8 @@
       ]
     },
     {
-      "dayNumber": 642,
-      "label": "Day 642 — St. Paul",
+      "dayNumber": 644,
+      "label": "Day 644 — St. Paul",
       "type": "active",
       "summary": "The other twin.",
       "blocks": [
@@ -164,8 +164,8 @@
       ]
     },
     {
-      "dayNumber": 643,
-      "label": "Day 643 — Free Day",
+      "dayNumber": 645,
+      "label": "Day 645 — Free Day",
       "type": "free",
       "summary": "Art, music, or the lakes. Options below.",
       "freeMenu": [
@@ -202,8 +202,8 @@
       ]
     },
     {
-      "dayNumber": 644,
-      "label": "Day 644 — North to Lake Superior",
+      "dayNumber": 646,
+      "label": "Day 646 — North to Lake Superior",
       "type": "commute",
       "summary": "To the great lake.",
       "commute": {

@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 570,
-      "label": "Day 570 — The Dunes",
+      "dayNumber": 572,
+      "label": "Day 572 — The Dunes",
       "type": "active",
       "summary": "Climb the sand.",
       "blocks": [
@@ -55,8 +55,8 @@
       ]
     },
     {
-      "dayNumber": 571,
-      "label": "Day 571 — West to Mesa Verde",
+      "dayNumber": 573,
+      "label": "Day 573 — West to Mesa Verde",
       "type": "commute",
       "summary": "To the cliff dwellings.",
       "commute": {

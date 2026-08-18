@@ -45,6 +45,38 @@ try {
   const noMapLink = allItems(trip).filter((item) => !item.location.mapLink && item.location.lat == null);
   if (noMapLink.length) warnings.push(`${noMapLink.length} items have neither a mapLink nor coordinates`);
 
+  // Prose that names a day number is the one thing a resequence can silently
+  // falsify — inserting one stop moved 391 days and left "Day 365. A year ago
+  // today" sitting on day 367. Anything that says "day N" has to be on day N.
+  const DAY_REFERENCE = /\bday (\d{1,3})\b/gi;
+  for (const region of trip.regions) {
+    for (const stop of region.stops) {
+      for (const day of stop.days) {
+        const prose = [
+          day.summary,
+          ...(day.blocks ?? []).flatMap((block) => [
+            block.item?.blurb,
+            block.rest?.note,
+            block.drive?.scenicNote,
+          ]),
+        ]
+          .filter(Boolean)
+          .join(" ");
+        for (const [, number] of prose.matchAll(DAY_REFERENCE)) {
+          const n = Number(number);
+          // A cross-reference to another day is fine as long as that day
+          // exists; a claim about *this* day has to match this day.
+          const isSelfClaim = Math.abs(n - day.dayNumber) < 6;
+          if (isSelfClaim && n !== day.dayNumber) {
+            warnings.push(`day ${day.dayNumber} says "day ${n}" about itself`);
+          } else if (!isSelfClaim && !numbers.includes(n)) {
+            warnings.push(`day ${day.dayNumber} references day ${n}, which doesn't exist`);
+          }
+        }
+      }
+    }
+  }
+
   // The share cards are committed PNGs, so unlike everything else on the site
   // they can fall out of date with the content. A card that says 735 days when
   // the trip has 747 is worse than no card at all.

@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 367,
-      "label": "Day 367 — Painted Desert & a Crater",
+      "dayNumber": 369,
+      "label": "Day 369 — Painted Desert & a Crater",
       "type": "active",
       "summary": "Stone logs and a cosmic scar.",
       "blocks": [
@@ -69,8 +69,8 @@
       ]
     },
     {
-      "dayNumber": 368,
-      "label": "Day 368 — North to Navajo country",
+      "dayNumber": 370,
+      "label": "Day 370 — North to Navajo country",
       "type": "commute",
       "summary": "Up to the canyon of the Navajo.",
       "commute": {

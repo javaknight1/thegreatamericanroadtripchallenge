@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 484,
-      "label": "Day 484 — The Central Coast",
+      "dayNumber": 486,
+      "label": "Day 486 — The Central Coast",
       "type": "active",
       "summary": "An aquarium, dunes, and lighthouses.",
       "blocks": [
@@ -72,8 +72,8 @@
       ]
     },
     {
-      "dayNumber": 485,
-      "label": "Day 485 — Cannon Beach",
+      "dayNumber": 487,
+      "label": "Day 487 — Cannon Beach",
       "type": "active",
       "summary": "Sea stacks and a famous rock.",
       "blocks": [
@@ -102,8 +102,8 @@
       ]
     },
     {
-      "dayNumber": 486,
-      "label": "Day 486 — North to Astoria",
+      "dayNumber": 488,
+      "label": "Day 488 — North to Astoria",
       "type": "commute",
       "summary": "Up the coast to the river mouth.",
       "commute": {

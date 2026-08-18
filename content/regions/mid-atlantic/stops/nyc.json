@@ -427,6 +427,24 @@
             },
             "blurb": "The arch, the fountain buskers, NYU, and the crooked streets of the West Village."
           }
+        },
+        {
+          "start": "5:15 PM",
+          "item": {
+            "id": "nyc-ghostbusters-firehouse",
+            "title": "The Ghostbusters firehouse",
+            "categoryId": "film-locations",
+            "tier": "low",
+            "durationMins": 45,
+            "location": {
+              "name": "Hook & Ladder 8",
+              "address": "14 N Moore St, New York, NY",
+              "lat": 40.7195,
+              "lng": -74.0067,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Hook%20and%20Ladder%208%20North%20Moore%20Street%20New%20York"
+            },
+            "blurb": "Ten minutes south of Washington Square, on a Tribeca corner, and still a working firehouse — the crew of Ladder 8 ride out of the doors the Ectomobile came out of. There's a Ghostbusters logo on the pavement and a plaque about the company's response on 11 September, which puts the whole thing in proportion."
+          }
         }
       ]
     },

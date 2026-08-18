@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 360,
-      "label": "Day 360 — The Plaza & the Art",
+      "dayNumber": 362,
+      "label": "Day 362 — The Plaza & the Art",
       "type": "active",
       "summary": "Adobe, churches, and galleries.",
       "blocks": [
@@ -86,8 +86,8 @@
       ]
     },
     {
-      "dayNumber": 361,
-      "label": "Day 361 — Meow Wolf & More",
+      "dayNumber": 363,
+      "label": "Day 363 — Meow Wolf & More",
       "type": "active",
       "summary": "An immersive art trip.",
       "blocks": [
@@ -112,8 +112,8 @@
       ]
     },
     {
-      "dayNumber": 362,
-      "label": "Day 362 — Taos, Pueblo to Ski Valley",
+      "dayNumber": 364,
+      "label": "Day 364 — Taos, Pueblo to Ski Valley",
       "type": "active",
       "summary": "A thousand-year-old pueblo, a gorge, and the road up to the ski valley.",
       "blocks": [
@@ -178,16 +178,25 @@
       ]
     },
     {
-      "dayNumber": 363,
-      "label": "Day 363 — Down to Albuquerque",
+      "dayNumber": 365,
+      "label": "Day 365 — One Year on the Road",
       "type": "commute",
-      "summary": "South to the Duke City.",
+      "summary": "An hour down the Rio Grande, and a year to the day since Boston.",
       "commute": {
         "from": "Santa Fe, NM",
         "to": "Albuquerque, NM",
         "driveTimeMins": 60,
         "scenicNote": "South down to Albuquerque."
-      }
+      },
+      "blocks": [
+        {
+          "slot": "Afternoon",
+          "rest": {
+            "label": "A year ago today",
+            "note": "Day 365. A year ago this morning the trip pulled out of Boston, and it is a little over half done. The drive down from Santa Fe takes an hour, so the rest of the day is deliberately yours: Old Town, a plate of green chile, and the Sandias at sunset — the name means watermelon, and for about ten minutes you can see why."
+          }
+        }
+      ]
     }
   ]
 }

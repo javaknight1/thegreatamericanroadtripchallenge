@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 698,
-      "label": "Day 698 — Statehouse & German Village",
+      "dayNumber": 700,
+      "label": "Day 700 — Statehouse & German Village",
       "type": "active",
       "summary": "The capitol and the brick streets.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 699,
-      "label": "Day 699 — West to Dayton",
+      "dayNumber": 701,
+      "label": "Day 701 — West to Dayton",
       "type": "commute",
       "summary": "To the birthplace of flight.",
       "commute": {

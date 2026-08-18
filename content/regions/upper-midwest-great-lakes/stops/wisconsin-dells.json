@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 654,
-      "label": "Day 654 — Water & Rock",
+      "dayNumber": 656,
+      "label": "Day 656 — Water & Rock",
       "type": "active",
       "summary": "Waterparks and a duck boat.",
       "blocks": [
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "dayNumber": 655,
-      "label": "Day 655 — South to Spring Green",
+      "dayNumber": 657,
+      "label": "Day 657 — South to Spring Green",
       "type": "commute",
       "summary": "To one of America's oddest attractions.",
       "commute": {

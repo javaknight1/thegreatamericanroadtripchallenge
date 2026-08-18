@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 579,
-      "label": "Day 579 — Hot Springs & Caves",
+      "dayNumber": 581,
+      "label": "Day 581 — Hot Springs & Caves",
       "type": "active",
       "summary": "Soak and explore.",
       "blocks": [
@@ -78,8 +78,8 @@
       ]
     },
     {
-      "dayNumber": 580,
-      "label": "Day 580 — East to the ski towns",
+      "dayNumber": 582,
+      "label": "Day 582 — East to the ski towns",
       "type": "commute",
       "summary": "Up the I-70 corridor.",
       "commute": {

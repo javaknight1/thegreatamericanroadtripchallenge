@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 627,
-      "label": "Day 627 — Shows & Silver Dollar City",
+      "dayNumber": 629,
+      "label": "Day 629 — Shows & Silver Dollar City",
       "type": "active",
       "summary": "Music, rides, and the lake.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 628,
-      "label": "Day 628 — Northeast to the capital",
+      "dayNumber": 630,
+      "label": "Day 630 — Northeast to the capital",
       "type": "commute",
       "summary": "To Jefferson City.",
       "commute": {

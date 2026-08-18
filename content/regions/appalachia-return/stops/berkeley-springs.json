@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 719,
-      "label": "Day 719 — Take the Waters",
+      "dayNumber": 721,
+      "label": "Day 721 — Take the Waters",
       "type": "active",
       "summary": "A soak in the springs.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 720,
-      "label": "Day 720 — North to Niagara",
+      "dayNumber": 722,
+      "label": "Day 722 — North to Niagara",
       "type": "commute",
       "summary": "The long run to the falls.",
       "commute": {

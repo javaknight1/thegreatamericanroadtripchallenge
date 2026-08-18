@@ -69,15 +69,47 @@
     },
     {
       "dayNumber": 245,
-      "label": "Day 245 — West along the panhandle",
+      "label": "Day 245 — Along 30A to Seahaven",
       "type": "commute",
-      "summary": "Toward the Gulf's whitest beaches.",
-      "commute": {
-        "from": "Tallahassee, FL",
-        "to": "Pensacola, FL",
-        "driveTimeMins": 200,
-        "scenicNote": "West across the panhandle to Pensacola."
-      }
+      "summary": "West down the panhandle, through the town that played a television set.",
+      "blocks": [
+        {
+          "start": "9:00 AM",
+          "drive": {
+            "from": "Tallahassee, FL",
+            "to": "Seaside, FL",
+            "driveTimeMins": 120,
+            "scenicNote": "West and south out of the pines onto US-98, and the Gulf appears on your left for the rest of the day."
+          }
+        },
+        {
+          "start": "11:15 AM",
+          "item": {
+            "id": "seaside-truman-show",
+            "title": "Seahaven — The Truman Show",
+            "categoryId": "film-locations",
+            "tier": "mid",
+            "durationMins": 105,
+            "location": {
+              "name": "Seaside, Florida",
+              "address": "Central Square, Seaside, FL",
+              "lat": 30.3213,
+              "lng": -86.143,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Seaside%20Florida%20Central%20Square"
+            },
+            "blurb": "Seaside was built in the 1980s as an experiment in walkable town-making, and it came out so uncannily perfect that Peter Weir filmed The Truman Show here without building a set. Truman's house is on Natchez Street. Eat from the Airstream food trucks on 30A, walk to the beach pavilions, and enjoy the very slight feeling of being watched."
+          }
+        },
+        {
+          "start": "1:30 PM",
+          "drive": {
+            "from": "Seaside, FL",
+            "to": "Pensacola, FL",
+            "driveTimeMins": 105,
+            "scenicNote": "The rest of 30A and then US-98 along the Emerald Coast — the sand out here is pure quartz washed down from the Appalachians, which is why it's white and squeaks underfoot."
+          }
+        }
+      ]
     }
   ]
 }

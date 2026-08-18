@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 409,
-      "label": "Day 409 — The Ghost Town",
+      "dayNumber": 411,
+      "label": "Day 411 — The Ghost Town",
       "type": "active",
       "summary": "Mining history and mountainside art.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 410,
-      "label": "Day 410 — Down to the Valley of the Sun",
+      "dayNumber": 412,
+      "label": "Day 412 — Down to the Valley of the Sun",
       "type": "commute",
       "summary": "Off the mountain into the desert.",
       "commute": {

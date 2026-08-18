@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 371,
-      "label": "Day 371 — The Buttes",
+      "dayNumber": 373,
+      "label": "Day 373 — The Buttes",
       "type": "active",
       "summary": "Drive among the giants.",
       "blocks": [
@@ -44,17 +44,35 @@
               "lng": -110.0985,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Monument%20Valley%20Navajo%20Tribal%20Park"
             },
-            "blurb": "The 17-mile scenic loop among the Mittens and Merrick Butte (a Navajo-guided tour reaches the restricted areas); catch 'Forrest Gump Point' on US-163.",
+            "blurb": "The 17-mile scenic loop among the Mittens and Merrick Butte — a Navajo-guided tour reaches the restricted areas the loop road can't.",
             "gear": [
               "dusty-road-ready vehicle"
             ]
+          }
+        },
+        {
+          "start": "2:00 PM",
+          "item": {
+            "id": "monument-valley-john-ford",
+            "title": "John Ford's Point & Forrest Gump Point",
+            "categoryId": "film-locations",
+            "tier": "mid",
+            "durationMins": 90,
+            "location": {
+              "name": "John Ford's Point",
+              "address": "Monument Valley Navajo Tribal Park, UT",
+              "lat": 36.9868,
+              "lng": -110.1058,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=John%20Ford's%20Point%20Monument%20Valley"
+            },
+            "blurb": "John Ford shot nine films here between 1939 and 1964 and in doing so decided what the American West looks like — to the point that Westerns set in Texas or Wyoming were filmed in this one Navajo valley because audiences expected it. The overlook carries his name. Thirteen miles north on US-163 is the straight where Forrest Gump stopped running, and the road you drive out on tomorrow is that road."
           }
         }
       ]
     },
     {
-      "dayNumber": 372,
-      "label": "Day 372 — North into Utah",
+      "dayNumber": 374,
+      "label": "Day 374 — North into Utah",
       "type": "commute",
       "summary": "Up the San Juan into red-rock country.",
       "commute": {

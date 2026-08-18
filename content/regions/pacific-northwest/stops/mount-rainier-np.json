@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 491,
-      "label": "Day 491 — Paradise",
+      "dayNumber": 493,
+      "label": "Day 493 — Paradise",
       "type": "active",
       "summary": "Wildflower meadows below the summit.",
       "blocks": [
@@ -55,8 +55,8 @@
       ]
     },
     {
-      "dayNumber": 492,
-      "label": "Day 492 — Sunrise & Old Growth",
+      "dayNumber": 494,
+      "label": "Day 494 — Sunrise & Old Growth",
       "type": "active",
       "summary": "The high side and ancient trees.",
       "blocks": [
@@ -92,8 +92,8 @@
       ]
     },
     {
-      "dayNumber": 493,
-      "label": "Day 493 — Northwest to the capital",
+      "dayNumber": 495,
+      "label": "Day 495 — Northwest to the capital",
       "type": "commute",
       "summary": "Down to Olympia.",
       "commute": {

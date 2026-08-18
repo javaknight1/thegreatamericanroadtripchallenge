@@ -3,7 +3,7 @@
   "name": "Guadalupe Mountains National Park",
   "state": "TX",
   "country": "US",
-  "order": 13,
+  "order": 14,
   "location": {
     "lat": 31.8917,
     "lng": -104.86
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 353,
-      "label": "Day 353 — The Roof of Texas",
+      "dayNumber": 355,
+      "label": "Day 355 — The Roof of Texas",
       "type": "active",
       "summary": "A fossil reef and the highest peak.",
       "blocks": [
@@ -55,8 +55,8 @@
       ]
     },
     {
-      "dayNumber": 354,
-      "label": "Day 354 — Into New Mexico",
+      "dayNumber": 356,
+      "label": "Day 356 — Into New Mexico",
       "type": "commute",
       "summary": "North to the caverns — Texas is done.",
       "commute": {

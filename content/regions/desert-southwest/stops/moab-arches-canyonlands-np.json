@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 373,
-      "label": "Day 373 — Arches",
+      "dayNumber": 375,
+      "label": "Day 375 — Arches",
       "type": "active",
       "summary": "A landscape of stone arches.",
       "blocks": [
@@ -55,8 +55,8 @@
       ]
     },
     {
-      "dayNumber": 374,
-      "label": "Day 374 — Canyonlands",
+      "dayNumber": 376,
+      "label": "Day 376 — Canyonlands",
       "type": "active",
       "summary": "Canyons to the horizon.",
       "blocks": [
@@ -85,8 +85,8 @@
       ]
     },
     {
-      "dayNumber": 375,
-      "label": "Day 375 — River & Rimrock",
+      "dayNumber": 377,
+      "label": "Day 377 — River & Rimrock",
       "type": "active",
       "summary": "The Colorado and a famous overlook.",
       "blocks": [
@@ -115,8 +115,8 @@
       ]
     },
     {
-      "dayNumber": 376,
-      "label": "Day 376 — Free Day",
+      "dayNumber": 378,
+      "label": "Day 378 — Free Day",
       "type": "free",
       "summary": "Mountain bike, revisit an arch, or rest. Options below.",
       "freeMenu": [
@@ -153,8 +153,8 @@
       ]
     },
     {
-      "dayNumber": 377,
-      "label": "Day 377 — Northwest to Salt Lake",
+      "dayNumber": 379,
+      "label": "Day 379 — Northwest to Salt Lake",
       "type": "commute",
       "summary": "Up to the capital.",
       "commute": {

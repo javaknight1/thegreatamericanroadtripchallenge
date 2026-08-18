@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 557,
-      "label": "Day 557 — Trail Ridge Road",
+      "dayNumber": 559,
+      "label": "Day 559 — Trail Ridge Road",
       "type": "active",
       "summary": "Above the tree line.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 558,
-      "label": "Day 558 — Bear Lake",
+      "dayNumber": 560,
+      "label": "Day 560 — Bear Lake",
       "type": "active",
       "summary": "Lakes and elk.",
       "blocks": [
@@ -85,8 +85,8 @@
       ]
     },
     {
-      "dayNumber": 559,
-      "label": "Day 559 — Free Day",
+      "dayNumber": 561,
+      "label": "Day 561 — Free Day",
       "type": "free",
       "summary": "More trails, the Stanley, or rest. Options below.",
       "freeMenu": [
@@ -123,8 +123,8 @@
       ]
     },
     {
-      "dayNumber": 560,
-      "label": "Day 560 — South to Boulder",
+      "dayNumber": 562,
+      "label": "Day 562 — South to Boulder",
       "type": "commute",
       "summary": "Down to the Flatirons.",
       "commute": {

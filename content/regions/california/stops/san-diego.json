@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 420,
-      "label": "Day 420 — Balboa Park",
+      "dayNumber": 422,
+      "label": "Day 422 — Balboa Park",
       "type": "active",
       "summary": "Museums, gardens, and the zoo.",
       "blocks": [
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "dayNumber": 421,
-      "label": "Day 421 — Harbor & Coronado",
+      "dayNumber": 423,
+      "label": "Day 423 — Harbor & Coronado",
       "type": "active",
       "summary": "The waterfront and the island.",
       "blocks": [
@@ -100,8 +100,8 @@
       ]
     },
     {
-      "dayNumber": 422,
-      "label": "Day 422 — La Jolla",
+      "dayNumber": 424,
+      "label": "Day 424 — La Jolla",
       "type": "active",
       "summary": "Coves, cliffs, and sea lions.",
       "blocks": [
@@ -136,8 +136,8 @@
       ]
     },
     {
-      "dayNumber": 423,
-      "label": "Day 423 — Up to the desert",
+      "dayNumber": 425,
+      "label": "Day 425 — Up to the desert",
       "type": "commute",
       "summary": "Northeast to Joshua Tree.",
       "commute": {

@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 513,
-      "label": "Day 513 — Alpine Village",
+      "dayNumber": 515,
+      "label": "Day 515 — Alpine Village",
       "type": "active",
       "summary": "Bavaria in the Cascades.",
       "blocks": [
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "dayNumber": 514,
-      "label": "Day 514 — Southeast to wine country",
+      "dayNumber": 516,
+      "label": "Day 516 — Southeast to wine country",
       "type": "commute",
       "summary": "Down to Walla Walla.",
       "commute": {

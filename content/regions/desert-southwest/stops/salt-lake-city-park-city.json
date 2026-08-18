@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 378,
-      "label": "Day 378 — Temple Square & the Capitol",
+      "dayNumber": 380,
+      "label": "Day 380 — Temple Square & the Capitol",
       "type": "active",
       "summary": "The heart of the city.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 379,
-      "label": "Day 379 — Park City",
+      "dayNumber": 381,
+      "label": "Day 381 — Park City",
       "type": "active",
       "summary": "An Olympic mountain town.",
       "blocks": [
@@ -115,8 +115,8 @@
       ]
     },
     {
-      "dayNumber": 380,
-      "label": "Day 380 — Free Day",
+      "dayNumber": 382,
+      "label": "Day 382 — Free Day",
       "type": "free",
       "summary": "The lake, a museum, or the mountains. Options below.",
       "freeMenu": [
@@ -153,8 +153,8 @@
       ]
     },
     {
-      "dayNumber": 381,
-      "label": "Day 381 — Out to Great Basin",
+      "dayNumber": 383,
+      "label": "Day 383 — Out to Great Basin",
       "type": "commute",
       "summary": "Across the desert to remote Nevada.",
       "commute": {

@@ -3,12 +3,12 @@
   "name": "Fredericksburg & the Hill Country",
   "state": "TX",
   "country": "US",
-  "order": 10,
+  "order": 11,
   "location": {
     "lat": 30.2752,
     "lng": -98.872
   },
-  "summary": "German Texas in the rolling Hill Country — wineries and peach stands, a giant pink granite dome, and a surprising world-class WWII museum.",
+  "summary": "German Texas in the middle of the Hill Country — a main street of biergartens and peach stands, the best World War II museum in the country, and a bald granite dome to climb at sunset.",
   "lodging": [
     {
       "name": "A Fredericksburg B&B",
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 345,
-      "label": "Day 345 — German Texas & Enchanted Rock",
+      "dayNumber": 347,
+      "label": "Day 347 — German Texas & Enchanted Rock",
       "type": "active",
       "summary": "Main Street, the Pacific War, and a granite dome.",
       "blocks": [
@@ -73,8 +73,8 @@
       ]
     },
     {
-      "dayNumber": 346,
-      "label": "Day 346 — West to Big Bend",
+      "dayNumber": 348,
+      "label": "Day 348 — West to Big Bend",
       "type": "commute",
       "summary": "The long, empty drive to far West Texas.",
       "commute": {

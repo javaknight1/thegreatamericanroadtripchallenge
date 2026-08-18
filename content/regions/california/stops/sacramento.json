@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 453,
-      "label": "Day 453 — Capitol & Gold Rush",
+      "dayNumber": 455,
+      "label": "Day 455 — Capitol & Gold Rush",
       "type": "active",
       "summary": "The statehouse and old town.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 454,
-      "label": "Day 454 — West to wine country",
+      "dayNumber": 456,
+      "label": "Day 456 — West to wine country",
       "type": "commute",
       "summary": "To Napa and Sonoma.",
       "commute": {

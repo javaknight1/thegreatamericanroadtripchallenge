@@ -3,7 +3,7 @@
   "name": "Big Bend National Park & Marfa",
   "state": "TX",
   "country": "US",
-  "order": 11,
+  "order": 12,
   "location": {
     "lat": 29.2498,
     "lng": -103.2502
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 347,
-      "label": "Day 347 — The Chisos & the Window",
+      "dayNumber": 349,
+      "label": "Day 349 — The Chisos & the Window",
       "type": "active",
       "summary": "Into the mountains at the park's heart.",
       "blocks": [
@@ -55,8 +55,8 @@
       ]
     },
     {
-      "dayNumber": 348,
-      "label": "Day 348 — The Rio Grande",
+      "dayNumber": 350,
+      "label": "Day 350 — The Rio Grande",
       "type": "active",
       "summary": "Canyons on the river border.",
       "blocks": [
@@ -85,8 +85,8 @@
       ]
     },
     {
-      "dayNumber": 349,
-      "label": "Day 349 — Marfa & the Stars",
+      "dayNumber": 351,
+      "label": "Day 351 — Marfa & the Stars",
       "type": "active",
       "summary": "Minimalist art and dark skies.",
       "blocks": [
@@ -106,6 +106,24 @@
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Chinati%20Foundation"
             },
             "blurb": "Donald Judd's monumental installations at the Chinati Foundation, and the Prada Marfa art piece out on the highway."
+          }
+        },
+        {
+          "start": "3:00 PM",
+          "item": {
+            "id": "big-bend-marfa-giant",
+            "title": "The Reata frame & the Hotel Paisano",
+            "categoryId": "film-locations",
+            "tier": "mid",
+            "durationMins": 120,
+            "location": {
+              "name": "Giant film set marker, US-90",
+              "address": "US-90 W, Marfa, TX",
+              "lat": 30.3021,
+              "lng": -104.1264,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Hotel%20Paisano%20Marfa%20Texas"
+            },
+            "blurb": "Elizabeth Taylor, Rock Hudson and James Dean spent the summer of 1955 in the Hotel Paisano shooting Giant; the lobby is a shrine to it and you can walk in. Twenty miles west on US-90 the skeleton of the Reata mansion facade still stands in a field — three posts against the sky, all that's left of the most famous house in Texas. Dean died in his Porsche before the film was released."
           }
         },
         {
@@ -129,8 +147,8 @@
       ]
     },
     {
-      "dayNumber": 350,
-      "label": "Day 350 — Northwest to El Paso",
+      "dayNumber": 352,
+      "label": "Day 352 — Northwest to El Paso",
       "type": "commute",
       "summary": "Across the desert to the border city.",
       "commute": {

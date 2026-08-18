@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 585,
-      "label": "Day 585 — Trail & Cars",
+      "dayNumber": 587,
+      "label": "Day 587 — Trail & Cars",
       "type": "active",
       "summary": "A pioneer bluff and car-henge.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 586,
-      "label": "Day 586 — North to the Black Hills",
+      "dayNumber": 588,
+      "label": "Day 588 — North to the Black Hills",
       "type": "commute",
       "summary": "To Rushmore country.",
       "commute": {

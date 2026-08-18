@@ -83,10 +83,28 @@
       "blocks": [
         {
           "start": "10:00 AM",
+          "item": {
+            "id": "philadelphia-rocky-steps",
+            "title": "The Rocky Steps",
+            "categoryId": "film-locations",
+            "tier": "anchor",
+            "durationMins": 45,
+            "location": {
+              "name": "Rocky Steps, Philadelphia Museum of Art",
+              "address": "2600 Benjamin Franklin Pkwy, Philadelphia, PA",
+              "lat": 39.9656,
+              "lng": -75.181,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Rocky%20Steps%20Philadelphia%20Museum%20of%20Art"
+            },
+            "blurb": "Seventy-two of them, and there is no dignified way to do this: everyone runs. The statue Stallone commissioned for Rocky III stands at the bottom right, moved off the top after an argument about whether a movie prop belonged outside an art museum. Turn around at the top for the best view of the Parkway in the city."
+          }
+        },
+        {
+          "start": "10:45 AM",
           "end": "12:30 PM",
           "item": {
             "id": "philadelphia-art-museum",
-            "title": "Philadelphia Museum of Art & the Rocky Steps",
+            "title": "Philadelphia Museum of Art",
             "categoryId": "museums-history",
             "tier": "anchor",
             "durationMins": 150,
@@ -97,7 +115,7 @@
               "lng": -75.181,
               "mapLink": "https://www.google.com/maps/search/?api=1&query=Philadelphia%20Museum%20of%20Art"
             },
-            "blurb": "Run the steps, high-five the Rocky statue, then a genuinely great collection inside."
+            "blurb": "One of the great American collections, in a building that would be worth the walk up even if nobody had ever run up it."
           }
         },
         {

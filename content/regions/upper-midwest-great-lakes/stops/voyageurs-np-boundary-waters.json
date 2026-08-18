@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 647,
-      "label": "Day 647 — On the Water",
+      "dayNumber": 649,
+      "label": "Day 649 — On the Water",
       "type": "active",
       "summary": "A park you reach by boat.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 648,
-      "label": "Day 648 — The Boundary Waters",
+      "dayNumber": 650,
+      "label": "Day 650 — The Boundary Waters",
       "type": "active",
       "summary": "Paddle the canoe country.",
       "blocks": [
@@ -84,8 +84,8 @@
       ]
     },
     {
-      "dayNumber": 649,
-      "label": "Day 649 — Southeast to Wisconsin",
+      "dayNumber": 651,
+      "label": "Day 651 — Southeast to Wisconsin",
       "type": "commute",
       "summary": "The long run to Door County.",
       "commute": {

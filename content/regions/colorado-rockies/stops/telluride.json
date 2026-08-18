@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 575,
-      "label": "Day 575 — Box Canyon",
+      "dayNumber": 577,
+      "label": "Day 577 — Box Canyon",
       "type": "active",
       "summary": "The gondola and the falls.",
       "blocks": [
@@ -72,8 +72,8 @@
       ]
     },
     {
-      "dayNumber": 576,
-      "label": "Day 576 — North to the Black Canyon",
+      "dayNumber": 578,
+      "label": "Day 578 — North to the Black Canyon",
       "type": "commute",
       "summary": "To the deepest, darkest gorge.",
       "commute": {

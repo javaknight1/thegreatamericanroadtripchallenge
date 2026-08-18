@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 685,
-      "label": "Day 685 — Mackinac Island",
+      "dayNumber": 687,
+      "label": "Day 687 — Mackinac Island",
       "type": "active",
       "summary": "No cars, just horses and fudge.",
       "blocks": [
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "dayNumber": 686,
-      "label": "Day 686 — Sleeping Bear & the Wine",
+      "dayNumber": 688,
+      "label": "Day 688 — Sleeping Bear & the Wine",
       "type": "active",
       "summary": "Giant dunes and cherry country.",
       "blocks": [
@@ -83,8 +83,8 @@
       ]
     },
     {
-      "dayNumber": 687,
-      "label": "Day 687 — South to Lansing",
+      "dayNumber": 689,
+      "label": "Day 689 — South to Lansing",
       "type": "commute",
       "summary": "Down to the capital.",
       "commute": {

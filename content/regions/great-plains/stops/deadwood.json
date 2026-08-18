@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 592,
-      "label": "Day 592 — The Wild West",
+      "dayNumber": 594,
+      "label": "Day 594 — The Wild West",
       "type": "active",
       "summary": "Gunfights and Boot Hill.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 593,
-      "label": "Day 593 — East to Wall Drug",
+      "dayNumber": 595,
+      "label": "Day 595 — East to Wall Drug",
       "type": "commute",
       "summary": "To the roadside legend.",
       "commute": {

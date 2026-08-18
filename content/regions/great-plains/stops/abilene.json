@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 618,
-      "label": "Day 618 — Ike & the Old West",
+      "dayNumber": 620,
+      "label": "Day 620 — Ike & the Old West",
       "type": "active",
       "summary": "A presidential library and a cattle town.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 619,
-      "label": "Day 619 — East to Topeka",
+      "dayNumber": 621,
+      "label": "Day 621 — East to Topeka",
       "type": "commute",
       "summary": "To the capital.",
       "commute": {

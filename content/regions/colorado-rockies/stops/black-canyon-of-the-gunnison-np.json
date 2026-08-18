@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 577,
-      "label": "Day 577 — The Rim",
+      "dayNumber": 579,
+      "label": "Day 579 — The Rim",
       "type": "active",
       "summary": "Peer into the abyss.",
       "blocks": [
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "dayNumber": 578,
-      "label": "Day 578 — North to Glenwood",
+      "dayNumber": 580,
+      "label": "Day 580 — North to Glenwood",
       "type": "commute",
       "summary": "To the hot springs.",
       "commute": {

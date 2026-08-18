@@ -6,23 +6,100 @@
   "durationEstimate": "~4.5 years",
   "recommendedStart": "Late September, beginning in Boston for peak fall foliage heading north.",
   "categories": [
-    { "id": "commuting", "label": "Commuting & Travel", "color": "#64748B" },
-    { "id": "national-parks", "label": "National Parks & Forests", "color": "#2E7D32" },
-    { "id": "cities", "label": "Cities & Metros", "color": "#3949AB" },
-    { "id": "capitols", "label": "State Capitols", "color": "#5E35B1" },
-    { "id": "landmarks", "label": "Landmarks & Monuments", "color": "#F9A825" },
-    { "id": "museums-history", "label": "Museums & History", "color": "#6D4C41" },
-    { "id": "somber-sites", "label": "Somber & Civil-Rights Sites", "color": "#455A64" },
-    { "id": "theme-parks", "label": "Theme Parks & Attractions", "color": "#D81B60" },
-    { "id": "skiing", "label": "Skiing & Winter Sports", "color": "#039BE5" },
-    { "id": "outdoor-water", "label": "Outdoor & Water Activities", "color": "#00897B" },
-    { "id": "concerts-venues", "label": "Concerts & Venues", "color": "#8E24AA" },
-    { "id": "festivals", "label": "Festivals & Events", "color": "#FB8C00" },
-    { "id": "sports", "label": "Sports & Gamedays", "color": "#E53935" },
-    { "id": "food-drink", "label": "Food & Drink Trails", "color": "#C0CA33" },
-    { "id": "guided-tours", "label": "Guided Tours", "color": "#00ACC1" },
-    { "id": "quirky", "label": "Quirky Americana & Roadside Oddities", "color": "#F4511E" },
-    { "id": "shopping", "label": "Shopping", "color": "#EC407A" },
-    { "id": "free-rest", "label": "Free / Rest Days", "color": "#B0BEC5" }
+    {
+      "id": "commuting",
+      "label": "Commuting & Travel",
+      "color": "#64748B"
+    },
+    {
+      "id": "national-parks",
+      "label": "National Parks & Forests",
+      "color": "#2E7D32"
+    },
+    {
+      "id": "cities",
+      "label": "Cities & Metros",
+      "color": "#3949AB"
+    },
+    {
+      "id": "capitols",
+      "label": "State Capitols",
+      "color": "#5E35B1"
+    },
+    {
+      "id": "landmarks",
+      "label": "Landmarks & Monuments",
+      "color": "#F9A825"
+    },
+    {
+      "id": "museums-history",
+      "label": "Museums & History",
+      "color": "#6D4C41"
+    },
+    {
+      "id": "somber-sites",
+      "label": "Somber & Civil-Rights Sites",
+      "color": "#455A64"
+    },
+    {
+      "id": "theme-parks",
+      "label": "Theme Parks & Attractions",
+      "color": "#D81B60"
+    },
+    {
+      "id": "film-locations",
+      "label": "Film & TV Locations",
+      "color": "#7F0E2E"
+    },
+    {
+      "id": "skiing",
+      "label": "Skiing & Winter Sports",
+      "color": "#039BE5"
+    },
+    {
+      "id": "outdoor-water",
+      "label": "Outdoor & Water Activities",
+      "color": "#00897B"
+    },
+    {
+      "id": "concerts-venues",
+      "label": "Concerts & Venues",
+      "color": "#8E24AA"
+    },
+    {
+      "id": "festivals",
+      "label": "Festivals & Events",
+      "color": "#FB8C00"
+    },
+    {
+      "id": "sports",
+      "label": "Sports & Gamedays",
+      "color": "#E53935"
+    },
+    {
+      "id": "food-drink",
+      "label": "Food & Drink Trails",
+      "color": "#C0CA33"
+    },
+    {
+      "id": "guided-tours",
+      "label": "Guided Tours",
+      "color": "#00ACC1"
+    },
+    {
+      "id": "quirky",
+      "label": "Quirky Americana & Roadside Oddities",
+      "color": "#F4511E"
+    },
+    {
+      "id": "shopping",
+      "label": "Shopping",
+      "color": "#EC407A"
+    },
+    {
+      "id": "free-rest",
+      "label": "Free / Rest Days",
+      "color": "#B0BEC5"
+    }
   ]
 }

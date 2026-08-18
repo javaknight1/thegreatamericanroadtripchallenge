@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 567,
-      "label": "Day 567 — Garden of the Gods & Pikes Peak",
+      "dayNumber": 569,
+      "label": "Day 569 — Garden of the Gods & Pikes Peak",
       "type": "active",
       "summary": "Red rocks and America's Mountain.",
       "blocks": [
@@ -72,8 +72,8 @@
       ]
     },
     {
-      "dayNumber": 568,
-      "label": "Day 568 — The Academy & the Caves",
+      "dayNumber": 570,
+      "label": "Day 570 — The Academy & the Caves",
       "type": "active",
       "summary": "Cadets and caverns.",
       "blocks": [
@@ -116,8 +116,8 @@
       ]
     },
     {
-      "dayNumber": 569,
-      "label": "Day 569 — South to the dunes",
+      "dayNumber": 571,
+      "label": "Day 571 — South to the dunes",
       "type": "commute",
       "summary": "To the tallest dunes in America.",
       "commute": {

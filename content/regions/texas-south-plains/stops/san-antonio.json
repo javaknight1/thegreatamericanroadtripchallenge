@@ -155,14 +155,21 @@
     },
     {
       "dayNumber": 344,
-      "label": "Day 344 — Into the Hill Country",
+      "label": "Day 344 — North to the Highland Lakes",
       "type": "commute",
-      "summary": "Northwest to German Texas.",
+      "summary": "Up out of the city into the granite hills.",
       "commute": {
         "from": "San Antonio, TX",
-        "to": "Fredericksburg, TX",
-        "driveTimeMins": 90,
-        "scenicNote": "Northwest into the Hill Country."
+        "to": "Horseshoe Bay, TX",
+        "driveTimeMins": 105,
+        "scenicNote": "North on US-281 out of the city and up onto the Edwards Plateau — the land goes from flat to folded in about forty minutes, and the roadsides are solid bluebonnets in April.",
+        "stopsAlongWay": [
+          {
+            "title": "Natural Bridge Caverns",
+            "blurb": "The largest commercial cavern in Texas, twenty minutes off the highway, if you didn't take it as a free-day option in San Antonio.",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Natural%20Bridge%20Caverns%20Texas"
+          }
+        ]
       }
     }
   ]

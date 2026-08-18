@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 382,
-      "label": "Day 382 — Caves, Pines & Stars",
+      "dayNumber": 384,
+      "label": "Day 384 — Caves, Pines & Stars",
       "type": "active",
       "summary": "The remote alpine desert.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 383,
-      "label": "Day 383 — Across the Loneliest Road",
+      "dayNumber": 385,
+      "label": "Day 385 — Across the Loneliest Road",
       "type": "commute",
       "summary": "Basin and range, all the way to Death Valley.",
       "commute": {

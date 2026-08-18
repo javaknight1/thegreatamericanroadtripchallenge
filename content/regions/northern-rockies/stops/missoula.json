@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 526,
-      "label": "Day 526 — River & Smokejumpers",
+      "dayNumber": 528,
+      "label": "Day 528 — River & Smokejumpers",
       "type": "active",
       "summary": "The Clark Fork and firefighting history.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 527,
-      "label": "Day 527 — North to Glacier",
+      "dayNumber": 529,
+      "label": "Day 529 — North to Glacier",
       "type": "commute",
       "summary": "To the Crown of the Continent.",
       "commute": {

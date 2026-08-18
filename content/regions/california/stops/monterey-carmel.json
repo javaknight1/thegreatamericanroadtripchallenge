@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 443,
-      "label": "Day 443 — Monterey Bay",
+      "dayNumber": 445,
+      "label": "Day 445 — Monterey Bay",
       "type": "active",
       "summary": "The aquarium and Cannery Row.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 444,
-      "label": "Day 444 — 17-Mile Drive & Big Sur",
+      "dayNumber": 446,
+      "label": "Day 446 — 17-Mile Drive & Big Sur",
       "type": "active",
       "summary": "Cypress, Carmel, and the cliffs.",
       "blocks": [
@@ -98,8 +98,8 @@
       ]
     },
     {
-      "dayNumber": 445,
-      "label": "Day 445 — Inland to Pinnacles",
+      "dayNumber": 447,
+      "label": "Day 447 — Inland to Pinnacles",
       "type": "commute",
       "summary": "To the condor country.",
       "commute": {

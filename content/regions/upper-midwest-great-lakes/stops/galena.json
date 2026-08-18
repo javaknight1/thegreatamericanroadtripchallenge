@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 671,
-      "label": "Day 671 — Main Street & Grant",
+      "dayNumber": 673,
+      "label": "Day 673 — Main Street & Grant",
       "type": "active",
       "summary": "A Victorian time capsule.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 672,
-      "label": "Day 672 — South to Springfield",
+      "dayNumber": 674,
+      "label": "Day 674 — South to Springfield",
       "type": "commute",
       "summary": "To Lincoln's town.",
       "commute": {
