@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 524,
-      "label": "Day 524 — The Lava Fields",
+      "dayNumber": 525,
+      "label": "Day 525 — The Lava Fields",
       "type": "active",
       "summary": "Walk on the moon.",
       "blocks": [
@@ -55,8 +55,8 @@
       ]
     },
     {
-      "dayNumber": 525,
-      "label": "Day 525 — North to Sun Valley",
+      "dayNumber": 526,
+      "label": "Day 526 — North to Sun Valley",
       "type": "commute",
       "summary": "To the resort town.",
       "commute": {

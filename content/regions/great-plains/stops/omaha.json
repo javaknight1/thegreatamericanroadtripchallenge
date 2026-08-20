@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 608,
-      "label": "Day 608 — The Zoo",
+      "dayNumber": 609,
+      "label": "Day 609 — The Zoo",
       "type": "active",
       "summary": "One of the world's great zoos.",
       "blocks": [
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "dayNumber": 609,
-      "label": "Day 609 — Old Market & the River",
+      "dayNumber": 610,
+      "label": "Day 610 — Old Market & the River",
       "type": "active",
       "summary": "Downtown and a river walk.",
       "blocks": [
@@ -86,8 +86,8 @@
       ]
     },
     {
-      "dayNumber": 610,
-      "label": "Day 610 — West to Lincoln",
+      "dayNumber": 611,
+      "label": "Day 611 — West to Lincoln",
       "type": "commute",
       "summary": "To the state capital.",
       "commute": {

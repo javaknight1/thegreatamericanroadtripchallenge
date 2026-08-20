@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 460,
-      "label": "Day 460 — The Lake",
+      "dayNumber": 461,
+      "label": "Day 461 — The Lake",
       "type": "active",
       "summary": "Emerald Bay and the shore.",
       "blocks": [
@@ -74,8 +74,8 @@
       ]
     },
     {
-      "dayNumber": 461,
-      "label": "Day 461 — Carson City, the Comstock & Reno",
+      "dayNumber": 462,
+      "label": "Day 462 — Carson City, the Comstock & Reno",
       "type": "active",
       "summary": "A capital, silver-mine history, and the Biggest Little City.",
       "blocks": [
@@ -136,8 +136,8 @@
       ]
     },
     {
-      "dayNumber": 462,
-      "label": "Day 462 — Free Day",
+      "dayNumber": 463,
+      "label": "Day 463 — Free Day",
       "type": "free",
       "summary": "The water, the slopes, or the casinos. Options below.",
       "freeMenu": [
@@ -174,8 +174,8 @@
       ]
     },
     {
-      "dayNumber": 463,
-      "label": "Day 463 — Northwest to Lassen",
+      "dayNumber": 464,
+      "label": "Day 464 — Northwest to Lassen",
       "type": "commute",
       "summary": "To a live volcano.",
       "commute": {

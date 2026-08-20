@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 710,
-      "label": "Day 710 — Fallingwater & Ohiopyle",
+      "dayNumber": 711,
+      "label": "Day 711 — Fallingwater & Ohiopyle",
       "type": "active",
       "summary": "A house on a waterfall, and the river.",
       "blocks": [
@@ -72,8 +72,8 @@
       ]
     },
     {
-      "dayNumber": 711,
-      "label": "Day 711 — South to Charleston",
+      "dayNumber": 712,
+      "label": "Day 712 — South to Charleston",
       "type": "commute",
       "summary": "Down into West Virginia.",
       "commute": {

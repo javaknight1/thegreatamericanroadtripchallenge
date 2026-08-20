@@ -3,7 +3,7 @@
   "name": "Grand Canyon National Park",
   "state": "AZ",
   "country": "US",
-  "order": 16,
+  "order": 17,
   "location": {
     "lat": 36.0544,
     "lng": -112.1401
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 402,
-      "label": "Day 402 — The South Rim",
+      "dayNumber": 403,
+      "label": "Day 403 — The South Rim",
       "type": "active",
       "summary": "First look over the edge.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 403,
-      "label": "Day 403 — Into the Canyon",
+      "dayNumber": 404,
+      "label": "Day 404 — Into the Canyon",
       "type": "active",
       "summary": "Descend below the rim.",
       "blocks": [
@@ -85,8 +85,8 @@
       ]
     },
     {
-      "dayNumber": 404,
-      "label": "Day 404 — Free Day",
+      "dayNumber": 405,
+      "label": "Day 405 — Free Day",
       "type": "free",
       "summary": "A flightseeing tour, more rim, or rest. Options below.",
       "freeMenu": [
@@ -123,8 +123,8 @@
       ]
     },
     {
-      "dayNumber": 405,
-      "label": "Day 405 — South to Flagstaff",
+      "dayNumber": 406,
+      "label": "Day 406 — South to Flagstaff",
       "type": "commute",
       "summary": "Down off the plateau.",
       "commute": {

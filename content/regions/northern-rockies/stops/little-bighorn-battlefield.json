@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 551,
-      "label": "Day 551 — Last Stand Hill",
+      "dayNumber": 552,
+      "label": "Day 552 — Last Stand Hill",
       "type": "active",
       "summary": "A somber, storied ground.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 552,
-      "label": "Day 552 — South to Devils Tower",
+      "dayNumber": 553,
+      "label": "Day 553 — South to Devils Tower",
       "type": "commute",
       "summary": "To the great stone monolith.",
       "commute": {

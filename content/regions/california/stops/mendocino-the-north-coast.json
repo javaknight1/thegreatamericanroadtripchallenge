@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 466,
-      "label": "Day 466 — Bluffs & Glass Beach",
+      "dayNumber": 467,
+      "label": "Day 467 — Bluffs & Glass Beach",
       "type": "active",
       "summary": "The village and the sea-glass shore.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 467,
-      "label": "Day 467 — North to the redwoods",
+      "dayNumber": 468,
+      "label": "Day 468 — North to the redwoods",
       "type": "commute",
       "summary": "Up to the tallest trees on earth.",
       "commute": {

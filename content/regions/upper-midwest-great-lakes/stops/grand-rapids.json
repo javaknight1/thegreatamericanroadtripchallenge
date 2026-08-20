@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 682,
-      "label": "Day 682 — Gardens & a President",
+      "dayNumber": 683,
+      "label": "Day 683 — Gardens & a President",
       "type": "active",
       "summary": "Sculpture and Gerald Ford.",
       "blocks": [
@@ -69,8 +69,8 @@
       ]
     },
     {
-      "dayNumber": 683,
-      "label": "Day 683 — To the Dutch coast",
+      "dayNumber": 684,
+      "label": "Day 684 — To the Dutch coast",
       "type": "commute",
       "summary": "To tulips and windmills.",
       "commute": {

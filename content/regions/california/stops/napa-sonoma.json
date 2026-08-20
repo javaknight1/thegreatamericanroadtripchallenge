@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 457,
-      "label": "Day 457 — Napa Valley",
+      "dayNumber": 458,
+      "label": "Day 458 — Napa Valley",
       "type": "active",
       "summary": "Vineyards and a wine train.",
       "blocks": [
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "dayNumber": 458,
-      "label": "Day 458 — Sonoma & Calistoga",
+      "dayNumber": 459,
+      "label": "Day 459 — Sonoma & Calistoga",
       "type": "active",
       "summary": "The plaza and the spa town.",
       "blocks": [
@@ -79,8 +79,8 @@
       ]
     },
     {
-      "dayNumber": 459,
-      "label": "Day 459 — East to Lake Tahoe",
+      "dayNumber": 460,
+      "label": "Day 460 — East to Lake Tahoe",
       "type": "commute",
       "summary": "Up into the Sierra to the great lake.",
       "commute": {

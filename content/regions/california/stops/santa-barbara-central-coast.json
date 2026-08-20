@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 434,
-      "label": "Day 434 — Santa Barbara",
+      "dayNumber": 435,
+      "label": "Day 435 — Santa Barbara",
       "type": "active",
       "summary": "The American Riviera.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 435,
-      "label": "Day 435 — The Central Coast",
+      "dayNumber": 436,
+      "label": "Day 436 — The Central Coast",
       "type": "active",
       "summary": "Danish villages and Hearst Castle.",
       "blocks": [
@@ -98,8 +98,8 @@
       ]
     },
     {
-      "dayNumber": 436,
-      "label": "Day 436 — Inland to the Sierra",
+      "dayNumber": 437,
+      "label": "Day 437 — Inland to the Sierra",
       "type": "commute",
       "summary": "Off the coast and up to the big trees.",
       "commute": {

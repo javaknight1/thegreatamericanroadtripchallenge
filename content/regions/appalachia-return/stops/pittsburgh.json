@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 706,
-      "label": "Day 706 — Three Rivers & the Incline",
+      "dayNumber": 707,
+      "label": "Day 707 — Three Rivers & the Incline",
       "type": "active",
       "summary": "The Point and the view.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 707,
-      "label": "Day 707 — Warhol & the Strip",
+      "dayNumber": 708,
+      "label": "Day 708 — Warhol & the Strip",
       "type": "active",
       "summary": "Pop art and a food street.",
       "blocks": [
@@ -94,8 +94,8 @@
       ]
     },
     {
-      "dayNumber": 708,
-      "label": "Day 708 — Free Day",
+      "dayNumber": 709,
+      "label": "Day 709 — Free Day",
       "type": "free",
       "summary": "Gardens, dinosaurs, or a ballgame. Options below.",
       "freeMenu": [
@@ -132,8 +132,8 @@
       ]
     },
     {
-      "dayNumber": 709,
-      "label": "Day 709 — Southeast to Fallingwater",
+      "dayNumber": 710,
+      "label": "Day 710 — Southeast to Fallingwater",
       "type": "commute",
       "summary": "Into the Laurel Highlands.",
       "commute": {

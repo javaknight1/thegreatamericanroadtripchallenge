@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 468,
-      "label": "Day 468 — The Tall Trees",
+      "dayNumber": 469,
+      "label": "Day 469 — The Tall Trees",
       "type": "active",
       "summary": "Among the giants.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 469,
-      "label": "Day 469 — Fern Canyon & the Coast",
+      "dayNumber": 470,
+      "label": "Day 470 — Fern Canyon & the Coast",
       "type": "active",
       "summary": "A prehistoric canyon and the elk.",
       "blocks": [
@@ -90,8 +90,8 @@
       ]
     },
     {
-      "dayNumber": 470,
-      "label": "Day 470 — North into Oregon",
+      "dayNumber": 471,
+      "label": "Day 471 — North into Oregon",
       "type": "commute",
       "summary": "To Ashland — California is done.",
       "commute": {

@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 611,
-      "label": "Day 611 — The Tower Capitol",
+      "dayNumber": 612,
+      "label": "Day 612 — The Tower Capitol",
       "type": "active",
       "summary": "The Sower and the Haymarket.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 612,
-      "label": "Day 612 — South into Kansas",
+      "dayNumber": 613,
+      "label": "Day 613 — South into Kansas",
       "type": "commute",
       "summary": "To a giant ball of twine.",
       "commute": {

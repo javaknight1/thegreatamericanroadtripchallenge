@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 662,
-      "label": "Day 662 — Art on the Lake",
+      "dayNumber": 663,
+      "label": "Day 663 — Art on the Lake",
       "type": "active",
       "summary": "The winged museum.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 663,
-      "label": "Day 663 — Harleys & Beer",
+      "dayNumber": 664,
+      "label": "Day 664 — Harleys & Beer",
       "type": "active",
       "summary": "Motorcycles and brewing heritage.",
       "blocks": [
@@ -83,8 +83,8 @@
       ]
     },
     {
-      "dayNumber": 664,
-      "label": "Day 664 — South to Chicago",
+      "dayNumber": 665,
+      "label": "Day 665 — South to Chicago",
       "type": "commute",
       "summary": "To the big city.",
       "commute": {

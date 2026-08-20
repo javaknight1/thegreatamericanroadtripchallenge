@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 696,
-      "label": "Day 696 — Rock & Roll",
+      "dayNumber": 697,
+      "label": "Day 697 — Rock & Roll",
       "type": "active",
       "summary": "The Hall of Fame on the lake.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 697,
-      "label": "Day 697 — Cuyahoga Valley",
+      "dayNumber": 698,
+      "label": "Day 698 — Cuyahoga Valley",
       "type": "active",
       "summary": "A park between the cities.",
       "blocks": [
@@ -79,8 +79,8 @@
       ]
     },
     {
-      "dayNumber": 698,
-      "label": "Day 698 — Free Day",
+      "dayNumber": 699,
+      "label": "Day 699 — Free Day",
       "type": "free",
       "summary": "Art, the market, or the lake. Options below.",
       "freeMenu": [
@@ -117,8 +117,8 @@
       ]
     },
     {
-      "dayNumber": 699,
-      "label": "Day 699 — Shawshank, then the Capital",
+      "dayNumber": 700,
+      "label": "Day 700 — Shawshank, then the Capital",
       "type": "commute",
       "summary": "South through Mansfield and a prison you already know.",
       "blocks": [

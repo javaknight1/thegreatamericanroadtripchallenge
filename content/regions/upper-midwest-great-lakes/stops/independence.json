@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 627,
-      "label": "Day 627 — Truman & the Trails",
+      "dayNumber": 628,
+      "label": "Day 628 — Truman & the Trails",
       "type": "active",
       "summary": "A president and the pioneers.",
       "blocks": [
@@ -57,8 +57,8 @@
       ]
     },
     {
-      "dayNumber": 628,
-      "label": "Day 628 — South to Branson",
+      "dayNumber": 629,
+      "label": "Day 629 — South to Branson",
       "type": "commute",
       "summary": "Down into the Ozarks.",
       "commute": {

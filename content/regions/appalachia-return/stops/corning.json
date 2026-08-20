@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 731,
-      "label": "Day 731 — The Glass Museum",
+      "dayNumber": 732,
+      "label": "Day 732 — The Glass Museum",
       "type": "active",
       "summary": "Fire and glass.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 732,
-      "label": "Day 732 — Northeast to Syracuse",
+      "dayNumber": 733,
+      "label": "Day 733 — Northeast to Syracuse",
       "type": "commute",
       "summary": "Up toward the Adirondacks.",
       "commute": {

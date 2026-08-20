@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 728,
-      "label": "Day 728 — Gorge & Vine",
+      "dayNumber": 729,
+      "label": "Day 729 — Gorge & Vine",
       "type": "active",
       "summary": "A waterfall gorge and the wine trail.",
       "blocks": [
@@ -73,8 +73,8 @@
       ]
     },
     {
-      "dayNumber": 729,
-      "label": "Day 729 — Ithaca & the Falls",
+      "dayNumber": 730,
+      "label": "Day 730 — Ithaca & the Falls",
       "type": "active",
       "summary": "Gorges and a college town.",
       "blocks": [
@@ -109,8 +109,8 @@
       ]
     },
     {
-      "dayNumber": 730,
-      "label": "Day 730 — South to Corning",
+      "dayNumber": 731,
+      "label": "Day 731 — South to Corning",
       "type": "commute",
       "summary": "To the glass city.",
       "commute": {

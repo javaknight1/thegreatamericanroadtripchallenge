@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 733,
-      "label": "Day 733 — Canal & Art",
+      "dayNumber": 734,
+      "label": "Day 734 — Canal & Art",
       "type": "active",
       "summary": "The waterway and a Pei museum.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 734,
-      "label": "Day 734 — Southeast to Cooperstown",
+      "dayNumber": 735,
+      "label": "Day 735 — Southeast to Cooperstown",
       "type": "commute",
       "summary": "To baseball's shrine.",
       "commute": {

@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 555,
-      "label": "Day 555 — Capital & Frontier",
+      "dayNumber": 556,
+      "label": "Day 556 — Capital & Frontier",
       "type": "active",
       "summary": "The statehouse and the Old West.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 556,
-      "label": "Day 556 — South to Colorado",
+      "dayNumber": 557,
+      "label": "Day 557 — South to Colorado",
       "type": "commute",
       "summary": "Into the Colorado Rockies.",
       "commute": {

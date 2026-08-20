@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 684,
-      "label": "Day 684 — Holland",
+      "dayNumber": 685,
+      "label": "Day 685 — Holland",
       "type": "active",
       "summary": "Tulips, windmills, and the big red light.",
       "blocks": [
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "dayNumber": 685,
-      "label": "Day 685 — Frankenmuth",
+      "dayNumber": 686,
+      "label": "Day 686 — Frankenmuth",
       "type": "active",
       "summary": "Little Bavaria.",
       "blocks": [
@@ -86,8 +86,8 @@
       ]
     },
     {
-      "dayNumber": 686,
-      "label": "Day 686 — North to the Straits",
+      "dayNumber": 687,
+      "label": "Day 687 — North to the Straits",
       "type": "commute",
       "summary": "Up to Mackinac.",
       "commute": {

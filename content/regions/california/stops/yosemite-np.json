@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 440,
-      "label": "Day 440 — Yosemite Valley",
+      "dayNumber": 441,
+      "label": "Day 441 — Yosemite Valley",
       "type": "active",
       "summary": "First look at the valley.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 441,
-      "label": "Day 441 — Glacier Point & the Mist Trail",
+      "dayNumber": 442,
+      "label": "Day 442 — Glacier Point & the Mist Trail",
       "type": "active",
       "summary": "High views and waterfall hikes.",
       "blocks": [
@@ -85,8 +85,8 @@
       ]
     },
     {
-      "dayNumber": 442,
-      "label": "Day 442 — Sequoias & the High Country",
+      "dayNumber": 443,
+      "label": "Day 443 — Sequoias & the High Country",
       "type": "active",
       "summary": "Big trees and alpine meadows.",
       "blocks": [
@@ -114,8 +114,8 @@
       ]
     },
     {
-      "dayNumber": 443,
-      "label": "Day 443 — Free Day",
+      "dayNumber": 444,
+      "label": "Day 444 — Free Day",
       "type": "free",
       "summary": "A big hike, a rest, or the valley again. Options below.",
       "freeMenu": [
@@ -152,8 +152,8 @@
       ]
     },
     {
-      "dayNumber": 444,
-      "label": "Day 444 — West to the coast",
+      "dayNumber": 445,
+      "label": "Day 445 — West to the coast",
       "type": "commute",
       "summary": "Down to the Monterey Peninsula.",
       "commute": {

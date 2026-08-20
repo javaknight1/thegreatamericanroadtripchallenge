@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 735,
-      "label": "Day 735 — The Hall of Fame",
+      "dayNumber": 736,
+      "label": "Day 736 — The Hall of Fame",
       "type": "active",
       "summary": "Baseball's shrine.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 736,
-      "label": "Day 736 — Last Free Day",
+      "dayNumber": 737,
+      "label": "Day 737 — Last Free Day",
       "type": "free",
       "summary": "The lake, a brewery, or one more museum. Options below.",
       "freeMenu": [
@@ -88,8 +88,8 @@
       ]
     },
     {
-      "dayNumber": 737,
-      "label": "Day 737 — Home to Boston",
+      "dayNumber": 738,
+      "label": "Day 738 — Home to Boston",
       "type": "commute",
       "summary": "The loop closes.",
       "commute": {

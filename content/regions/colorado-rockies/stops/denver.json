@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 565,
-      "label": "Day 565 — Downtown & the Capitol",
+      "dayNumber": 566,
+      "label": "Day 566 — Downtown & the Capitol",
       "type": "active",
       "summary": "The heart of the city.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 566,
-      "label": "Day 566 — Museums & Red Rocks",
+      "dayNumber": 567,
+      "label": "Day 567 — Museums & Red Rocks",
       "type": "active",
       "summary": "Art by day, a venue by night.",
       "blocks": [
@@ -97,8 +97,8 @@
       ]
     },
     {
-      "dayNumber": 567,
-      "label": "Day 567 — Free Day",
+      "dayNumber": 568,
+      "label": "Day 568 — Free Day",
       "type": "free",
       "summary": "A brewery, the mountains, or a game. Options below.",
       "freeMenu": [
@@ -135,8 +135,8 @@
       ]
     },
     {
-      "dayNumber": 568,
-      "label": "Day 568 — South to the Springs",
+      "dayNumber": 569,
+      "label": "Day 569 — South to the Springs",
       "type": "commute",
       "summary": "Down to Pikes Peak country.",
       "commute": {

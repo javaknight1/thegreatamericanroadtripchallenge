@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 598,
-      "label": "Day 598 — Capital on the River",
+      "dayNumber": 599,
+      "label": "Day 599 — Capital on the River",
       "type": "active",
       "summary": "The statehouse and the Missouri.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 599,
-      "label": "Day 599 — North to North Dakota",
+      "dayNumber": 600,
+      "label": "Day 600 — North to North Dakota",
       "type": "commute",
       "summary": "To Bismarck.",
       "commute": {

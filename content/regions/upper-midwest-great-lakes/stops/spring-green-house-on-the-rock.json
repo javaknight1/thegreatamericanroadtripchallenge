@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 658,
-      "label": "Day 658 — Down the Rabbit Hole",
+      "dayNumber": 659,
+      "label": "Day 659 — Down the Rabbit Hole",
       "type": "active",
       "summary": "The Infinity Room and beyond.",
       "blocks": [
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "dayNumber": 659,
-      "label": "Day 659 — East to the capital",
+      "dayNumber": 660,
+      "label": "Day 660 — East to the capital",
       "type": "commute",
       "summary": "To Madison.",
       "commute": {

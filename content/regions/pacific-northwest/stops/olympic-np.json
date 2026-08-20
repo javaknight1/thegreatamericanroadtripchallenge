@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 498,
-      "label": "Day 498 — Hurricane Ridge",
+      "dayNumber": 499,
+      "label": "Day 499 — Hurricane Ridge",
       "type": "active",
       "summary": "Up into the mountains.",
       "blocks": [
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "dayNumber": 499,
-      "label": "Day 499 — The Rainforest",
+      "dayNumber": 500,
+      "label": "Day 500 — The Rainforest",
       "type": "active",
       "summary": "Into the Hoh.",
       "blocks": [
@@ -82,8 +82,8 @@
       ]
     },
     {
-      "dayNumber": 500,
-      "label": "Day 500 — The Wild Coast",
+      "dayNumber": 501,
+      "label": "Day 501 — The Wild Coast",
       "type": "active",
       "summary": "Sea stacks and tide pools.",
       "blocks": [
@@ -112,8 +112,8 @@
       ]
     },
     {
-      "dayNumber": 501,
-      "label": "Day 501 — East to Seattle",
+      "dayNumber": 502,
+      "label": "Day 502 — East to Seattle",
       "type": "commute",
       "summary": "Across the Sound to the city.",
       "commute": {

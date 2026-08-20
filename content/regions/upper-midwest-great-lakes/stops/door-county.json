@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 652,
-      "label": "Day 652 — The Peninsula",
+      "dayNumber": 653,
+      "label": "Day 653 — The Peninsula",
       "type": "active",
       "summary": "Lighthouses and harbor towns.",
       "blocks": [
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "dayNumber": 653,
-      "label": "Day 653 — South to Green Bay",
+      "dayNumber": 654,
+      "label": "Day 654 — South to Green Bay",
       "type": "commute",
       "summary": "To Titletown.",
       "commute": {

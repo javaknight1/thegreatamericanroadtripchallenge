@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 491,
-      "label": "Day 491 — The Blast Zone",
+      "dayNumber": 492,
+      "label": "Day 492 — The Blast Zone",
       "type": "active",
       "summary": "Into the crater's shadow.",
       "blocks": [
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "dayNumber": 492,
-      "label": "Day 492 — Northeast to Rainier",
+      "dayNumber": 493,
+      "label": "Day 493 — Northeast to Rainier",
       "type": "commute",
       "summary": "To the giant of the Cascades.",
       "commute": {

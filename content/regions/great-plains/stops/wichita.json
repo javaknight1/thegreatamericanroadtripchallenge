@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 618,
-      "label": "Day 618 — Plains & Cowtown",
+      "dayNumber": 619,
+      "label": "Day 619 — Plains & Cowtown",
       "type": "active",
       "summary": "The river sculpture and the Old West.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 619,
-      "label": "Day 619 — North to Abilene",
+      "dayNumber": 620,
+      "label": "Day 620 — North to Abilene",
       "type": "commute",
       "summary": "To Ike's hometown.",
       "commute": {

@@ -3,7 +3,7 @@
   "name": "Las Vegas",
   "state": "NV",
   "country": "US",
-  "order": 12,
+  "order": 13,
   "location": {
     "lat": 36.1699,
     "lng": -115.1398
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 388,
-      "label": "Day 388 — The Strip",
+      "dayNumber": 389,
+      "label": "Day 389 — The Strip",
       "type": "active",
       "summary": "Fountains, volcanoes, and neon.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 389,
-      "label": "Day 389 — Hoover Dam",
+      "dayNumber": 390,
+      "label": "Day 390 — Hoover Dam",
       "type": "active",
       "summary": "An engineering marvel.",
       "blocks": [
@@ -97,8 +97,8 @@
       ]
     },
     {
-      "dayNumber": 390,
-      "label": "Day 390 — Old Vegas",
+      "dayNumber": 391,
+      "label": "Day 391 — Old Vegas",
       "type": "active",
       "summary": "The neon of the original downtown.",
       "blocks": [
@@ -123,8 +123,8 @@
       ]
     },
     {
-      "dayNumber": 391,
-      "label": "Day 391 — Free Day",
+      "dayNumber": 392,
+      "label": "Day 392 — Free Day",
       "type": "free",
       "summary": "Red rock, a day trip, or the pool. Options below.",
       "freeMenu": [
@@ -161,8 +161,8 @@
       ]
     },
     {
-      "dayNumber": 392,
-      "label": "Day 392 — Northeast to Zion",
+      "dayNumber": 393,
+      "label": "Day 393 — Northeast to Zion",
       "type": "commute",
       "summary": "Out of the neon and into the canyon country.",
       "commute": {

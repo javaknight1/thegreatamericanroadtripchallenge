@@ -3,7 +3,7 @@
   "name": "Phoenix & Scottsdale",
   "state": "AZ",
   "country": "US",
-  "order": 20,
+  "order": 21,
   "location": {
     "lat": 33.4484,
     "lng": -112.074
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 413,
-      "label": "Day 413 — Desert Gardens & Camelback",
+      "dayNumber": 414,
+      "label": "Day 414 — Desert Gardens & Camelback",
       "type": "active",
       "summary": "Cactus, city, and a climb.",
       "blocks": [
@@ -73,8 +73,8 @@
       ]
     },
     {
-      "dayNumber": 414,
-      "label": "Day 414 — Wright & the Heard",
+      "dayNumber": 415,
+      "label": "Day 415 — Wright & the Heard",
       "type": "active",
       "summary": "Architecture and Native American art.",
       "blocks": [
@@ -136,8 +136,8 @@
       ]
     },
     {
-      "dayNumber": 415,
-      "label": "Day 415 — Free Day",
+      "dayNumber": 416,
+      "label": "Day 416 — Free Day",
       "type": "free",
       "summary": "Spring training, instruments, or a spa. Options below.",
       "freeMenu": [
@@ -174,8 +174,8 @@
       ]
     },
     {
-      "dayNumber": 416,
-      "label": "Day 416 — Southeast to the Old West",
+      "dayNumber": 417,
+      "label": "Day 417 — Southeast to the Old West",
       "type": "commute",
       "summary": "Down to mining and gunfight country.",
       "commute": {

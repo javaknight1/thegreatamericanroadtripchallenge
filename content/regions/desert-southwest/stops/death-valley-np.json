@@ -3,7 +3,7 @@
   "name": "Death Valley National Park",
   "state": "CA",
   "country": "US",
-  "order": 11,
+  "order": 12,
   "location": {
     "lat": 36.5054,
     "lng": -117.0794
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 386,
-      "label": "Day 386 — Below Sea Level",
+      "dayNumber": 387,
+      "label": "Day 387 — Below Sea Level",
       "type": "active",
       "summary": "Salt flats, dunes, and painted hills.",
       "blocks": [
@@ -85,8 +85,8 @@
       ]
     },
     {
-      "dayNumber": 387,
-      "label": "Day 387 — East to the Strip",
+      "dayNumber": 388,
+      "label": "Day 388 — East to the Strip",
       "type": "commute",
       "summary": "Out of the desert and into the neon.",
       "commute": {

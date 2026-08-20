@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 654,
-      "label": "Day 654 — Lambeau Field",
+      "dayNumber": 655,
+      "label": "Day 655 — Lambeau Field",
       "type": "active",
       "summary": "The Frozen Tundra.",
       "blocks": [
@@ -57,8 +57,8 @@
       ]
     },
     {
-      "dayNumber": 655,
-      "label": "Day 655 — West to the Dells",
+      "dayNumber": 656,
+      "label": "Day 656 — West to the Dells",
       "type": "commute",
       "summary": "To the waterpark capital.",
       "commute": {

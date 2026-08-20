@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 545,
-      "label": "Day 545 — The Range & the Barns",
+      "dayNumber": 546,
+      "label": "Day 546 — The Range & the Barns",
       "type": "active",
       "summary": "Jenny Lake and Mormon Row.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 546,
-      "label": "Day 546 — River & Wildlife",
+      "dayNumber": 547,
+      "label": "Day 547 — River & Wildlife",
       "type": "active",
       "summary": "The Snake and the valley.",
       "blocks": [
@@ -83,8 +83,8 @@
       ]
     },
     {
-      "dayNumber": 547,
-      "label": "Day 547 — Jackson & the Tram",
+      "dayNumber": 548,
+      "label": "Day 548 — Jackson & the Tram",
       "type": "active",
       "summary": "A town square of antlers, and 4,139 feet straight up.",
       "blocks": [
@@ -130,8 +130,8 @@
       ]
     },
     {
-      "dayNumber": 548,
-      "label": "Day 548 — Northeast to Cody",
+      "dayNumber": 549,
+      "label": "Day 549 — Northeast to Cody",
       "type": "commute",
       "summary": "Over the mountains to Buffalo Bill's town.",
       "commute": {

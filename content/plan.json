@@ -910,85 +910,92 @@
           "plannedDays": 2
         },
         {
-          "id": "death-valley-np",
+          "id": "rachel-extraterrestrial-highway",
           "order": 11,
+          "name": "Rachel & the Extraterrestrial Highway",
+          "state": "NV",
+          "plannedDays": 2
+        },
+        {
+          "id": "death-valley-np",
+          "order": 12,
           "name": "Death Valley NP",
           "state": "CA",
           "plannedDays": 2
         },
         {
           "id": "las-vegas",
-          "order": 12,
+          "order": 13,
           "name": "Las Vegas",
           "state": "NV",
           "plannedDays": 5
         },
         {
           "id": "zion-bryce-canyon-np",
-          "order": 13,
+          "order": 14,
           "name": "Zion & Bryce Canyon NP",
           "state": "UT",
           "plannedDays": 5
         },
         {
           "id": "capitol-reef-np",
-          "order": 14,
+          "order": 15,
           "name": "Capitol Reef NP",
           "state": "UT",
           "plannedDays": 2
         },
         {
           "id": "page-antelope-canyon-horseshoe-bend",
-          "order": 15,
+          "order": 16,
           "name": "Page: Antelope Canyon & Horseshoe Bend",
           "state": "AZ",
           "plannedDays": 2
         },
         {
           "id": "grand-canyon-np",
-          "order": 16,
+          "order": 17,
           "name": "Grand Canyon NP",
           "state": "AZ",
           "plannedDays": 4
         },
         {
           "id": "flagstaff",
-          "order": 17,
+          "order": 18,
           "name": "Flagstaff",
           "state": "AZ",
           "plannedDays": 2
         },
         {
           "id": "sedona",
-          "order": 18,
+          "order": 19,
           "name": "Sedona",
           "state": "AZ",
           "plannedDays": 3
         },
         {
           "id": "jerome",
-          "order": 19,
+          "order": 20,
           "name": "Jerome",
           "state": "AZ",
           "plannedDays": 1
         },
         {
           "id": "phoenix-scottsdale",
-          "order": 20,
+          "order": 21,
           "name": "Phoenix & Scottsdale",
           "state": "AZ",
           "plannedDays": 4
         },
         {
           "id": "bisbee-tombstone",
-          "order": 21,
+          "order": 22,
           "name": "Bisbee & Tombstone",
           "state": "AZ",
           "plannedDays": 2
         },
         {
           "id": "tucson-saguaro-np",
-          "order": 22,
+          "order": 23,
           "name": "Tucson & Saguaro NP",
           "state": "AZ",
           "plannedDays": 3

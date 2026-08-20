@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 489,
-      "label": "Day 489 — Column, Maritime & the Goonies",
+      "dayNumber": 490,
+      "label": "Day 490 — Column, Maritime & the Goonies",
       "type": "active",
       "summary": "The river town and its history.",
       "blocks": [
@@ -86,8 +86,8 @@
       ]
     },
     {
-      "dayNumber": 490,
-      "label": "Day 490 — Across to Washington",
+      "dayNumber": 491,
+      "label": "Day 491 — Across to Washington",
       "type": "commute",
       "summary": "Over the Columbia to the volcano.",
       "commute": {

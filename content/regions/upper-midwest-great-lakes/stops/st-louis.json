@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 633,
-      "label": "Day 633 — The Arch",
+      "dayNumber": 634,
+      "label": "Day 634 — The Arch",
       "type": "active",
       "summary": "To the top of the Gateway.",
       "blocks": [
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "dayNumber": 634,
-      "label": "Day 634 — Forest Park & City Museum",
+      "dayNumber": 635,
+      "label": "Day 635 — Forest Park & City Museum",
       "type": "active",
       "summary": "World's-fair museums and a mad playground.",
       "blocks": [
@@ -102,8 +102,8 @@
       ]
     },
     {
-      "dayNumber": 635,
-      "label": "Day 635 — North to Hannibal",
+      "dayNumber": 636,
+      "label": "Day 636 — North to Hannibal",
       "type": "commute",
       "summary": "To Mark Twain's town.",
       "commute": {

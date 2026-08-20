@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 677,
-      "label": "Day 677 — The Brickyard",
+      "dayNumber": 678,
+      "label": "Day 678 — The Brickyard",
       "type": "active",
       "summary": "The temple of speed.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 678,
-      "label": "Day 678 — Circle City",
+      "dayNumber": 679,
+      "label": "Day 679 — Circle City",
       "type": "active",
       "summary": "Monuments and museums.",
       "blocks": [
@@ -119,8 +119,8 @@
       ]
     },
     {
-      "dayNumber": 679,
-      "label": "Day 679 — Northwest to the Dunes",
+      "dayNumber": 680,
+      "label": "Day 680 — Northwest to the Dunes",
       "type": "commute",
       "summary": "To the Lake Michigan shore.",
       "commute": {

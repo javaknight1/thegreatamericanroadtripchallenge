@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 606,
-      "label": "Day 606 — Corn & Falls",
+      "dayNumber": 607,
+      "label": "Day 607 — Corn & Falls",
       "type": "active",
       "summary": "A corn palace and a waterfall.",
       "blocks": [
@@ -69,8 +69,8 @@
       ]
     },
     {
-      "dayNumber": 607,
-      "label": "Day 607 — South to Omaha",
+      "dayNumber": 608,
+      "label": "Day 608 — South to Omaha",
       "type": "commute",
       "summary": "Into Nebraska.",
       "commute": {

@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 615,
-      "label": "Day 615 — Dodge City",
+      "dayNumber": 616,
+      "label": "Day 616 — Dodge City",
       "type": "active",
       "summary": "Get out of Dodge.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 616,
-      "label": "Day 616 — The Flint Hills",
+      "dayNumber": 617,
+      "label": "Day 617 — The Flint Hills",
       "type": "active",
       "summary": "The tallgrass prairie.",
       "blocks": [
@@ -87,8 +87,8 @@
       ]
     },
     {
-      "dayNumber": 617,
-      "label": "Day 617 — South to Wichita",
+      "dayNumber": 618,
+      "label": "Day 618 — South to Wichita",
       "type": "commute",
       "summary": "To the Air Capital.",
       "commute": {

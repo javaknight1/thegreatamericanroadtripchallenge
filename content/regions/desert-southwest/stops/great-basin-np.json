@@ -8,7 +8,7 @@
     "lat": 38.9833,
     "lng": -114.3
   },
-  "summary": "One of America's least-visited parks — a 13,000-ft peak, ancient bristlecone pines, a marble cave, and some of the darkest skies on the continent.",
+  "summary": "One of America's least-visited parks — a 13,000-ft peak, ancient bristlecone pines, a marble cave, and some of the darkest skies on the continent, with darker ones still to come down the road.",
   "lodging": [
     {
       "name": "A Baker, NV inn (or campground)",
@@ -52,30 +52,6 @@
           }
         }
       ]
-    },
-    {
-      "dayNumber": 385,
-      "label": "Day 385 — Across the Loneliest Road",
-      "type": "commute",
-      "summary": "Basin and range, all the way to Death Valley.",
-      "commute": {
-        "from": "Great Basin National Park, NV",
-        "to": "Death Valley National Park, CA",
-        "driveTimeMins": 300,
-        "scenicNote": "West on US-6 through Ely and Tonopah, then south on US-95 — mountain range, empty basin, mountain range, for five hours. There is almost nothing out here, which is the point. Fill the tank in Tonopah.",
-        "stopsAlongWay": [
-          {
-            "title": "Goldfield",
-            "blurb": "Nevada's biggest city in 1906 and nearly a ghost town now — the Goldfield Hotel still stands empty on the main street.",
-            "mapLink": "https://www.google.com/maps/search/?api=1&query=Goldfield%20Nevada"
-          },
-          {
-            "title": "Rhyolite ghost town",
-            "blurb": "A bank, a jail, a house built of bottles, and a yard of ghostly plaster sculptures, just outside the park's northern gate.",
-            "mapLink": "https://www.google.com/maps/search/?api=1&query=Rhyolite%20ghost%20town%20Nevada"
-          }
-        ]
-      }
     }
   ]
 }

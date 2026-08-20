@@ -3,7 +3,7 @@
   "name": "Sedona",
   "state": "AZ",
   "country": "US",
-  "order": 18,
+  "order": 19,
   "location": {
     "lat": 34.8697,
     "lng": -111.761
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 408,
-      "label": "Day 408 — Red Rocks",
+      "dayNumber": 409,
+      "label": "Day 409 — Red Rocks",
       "type": "active",
       "summary": "Cathedral Rock and a cliffside chapel.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 409,
-      "label": "Day 409 — Jeeps & Canyons",
+      "dayNumber": 410,
+      "label": "Day 410 — Jeeps & Canyons",
       "type": "active",
       "summary": "Off-road and up the creek.",
       "blocks": [
@@ -102,8 +102,8 @@
       ]
     },
     {
-      "dayNumber": 410,
-      "label": "Day 410 — Up to Jerome",
+      "dayNumber": 411,
+      "label": "Day 411 — Up to Jerome",
       "type": "commute",
       "summary": "To the hillside ghost town.",
       "commute": {

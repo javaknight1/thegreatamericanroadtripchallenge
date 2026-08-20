@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 640,
-      "label": "Day 640 — Colonies & the Cornfield",
+      "dayNumber": 641,
+      "label": "Day 641 — Colonies & the Cornfield",
       "type": "active",
       "summary": "Crafts, then a movie diamond.",
       "blocks": [
@@ -69,8 +69,8 @@
       ]
     },
     {
-      "dayNumber": 641,
-      "label": "Day 641 — North to the Twin Cities",
+      "dayNumber": 642,
+      "label": "Day 642 — North to the Twin Cities",
       "type": "commute",
       "summary": "Up to Minnesota.",
       "commute": {

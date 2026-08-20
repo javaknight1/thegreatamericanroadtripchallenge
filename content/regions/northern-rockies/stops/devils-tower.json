@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 553,
-      "label": "Day 553 — The Tower",
+      "dayNumber": 554,
+      "label": "Day 554 — The Tower",
       "type": "active",
       "summary": "Around the base.",
       "blocks": [
@@ -78,8 +78,8 @@
       ]
     },
     {
-      "dayNumber": 554,
-      "label": "Day 554 — South to the capital",
+      "dayNumber": 555,
+      "label": "Day 555 — South to the capital",
       "type": "commute",
       "summary": "Down to Cheyenne.",
       "commute": {

@@ -1,0 +1,126 @@
+{
+  "id": "rachel-extraterrestrial-highway",
+  "name": "Rachel & the Extraterrestrial Highway",
+  "state": "NV",
+  "country": "US",
+  "order": 11,
+  "location": {
+    "lat": 37.6461,
+    "lng": -115.7461
+  },
+  "summary": "Ninety-eight miles of two-lane blacktop across the emptiest quarter of Nevada, along the back fence of the most famous secret in the world — and a town of about fifty people with one inn, no gas station, and no cell signal.",
+  "seasonalTip": "Fill the tank at Ash Springs or Alamo before you turn onto NV-375. There is no fuel between there and Tonopah, a hundred and fifty miles on, and no phone signal for most of it. Book the Little A'Le'Inn ahead — there are barely a dozen rooms and no alternative for an hour in any direction.",
+  "lodging": [
+    {
+      "name": "The Little A'Le'Inn, Rachel",
+      "blurb": "A dozen trailer rooms behind the bar, and the only beds on the highway. This is not a hardship — it is the reason to stop.",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Little%20A%27Le%27Inn%20Rachel%20Nevada"
+    }
+  ],
+  "foodMustTry": [
+    {
+      "name": "An Alien Burger at the Little A'Le'Inn",
+      "blurb": "The only hot meal for sixty miles, served under a ceiling of dollar bills and UFO photographs."
+    }
+  ],
+  "days": [
+    {
+      "dayNumber": 385,
+      "label": "Day 385 — The Extraterrestrial Highway",
+      "type": "active",
+      "summary": "South down US-93, then west along the back fence of Area 51.",
+      "commute": {
+        "from": "Great Basin National Park, NV",
+        "to": "Rachel, NV",
+        "driveTimeMins": 165,
+        "scenicNote": "South on US-93 through Pioche and Caliente — old mining towns with opera houses and not much else — then west at Crystal Springs onto NV-375, which the state of Nevada officially named the Extraterrestrial Highway in 1996 and signposted accordingly. Fill the tank before you turn.",
+        "stopsAlongWay": [
+          {
+            "title": "Cathedral Gorge State Park",
+            "blurb": "A canyon of soft bentonite clay eroded into cathedral spires and slot-thin caves you can walk into sideways. Almost nobody stops.",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Cathedral%20Gorge%20State%20Park%20Nevada"
+          },
+          {
+            "title": "The black mailbox",
+            "blurb": "The famous UFO-watchers' landmark on NV-375, which was never black, never marked the base turn-off, and belonged to a rancher who got so tired of it that he took it away. People still pull over at the spot.",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Black%20Mailbox%20Extraterrestrial%20Highway%20Nevada"
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "start": "2:30 PM",
+          "item": {
+            "id": "rachel-area-51-back-gate",
+            "title": "The Area 51 back gate",
+            "categoryId": "quirky",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Area 51 back gate, Groom Lake Road",
+              "address": "Groom Lake Rd, Rachel, NV",
+              "lat": 37.4358,
+              "lng": -115.5231,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Groom%20Lake%20Road%20Area%2051%20back%20gate"
+            },
+            "blurb": "Thirteen miles of graded dirt off NV-375 to a cattle gate, an orange post line, and a sign warning that the use of deadly force is authorised. That sign is as far as anyone goes — the photograph of it is the souvenir. White pickups watch from the ridge and will not talk to you. The base sat officially unacknowledged until 2013, and the airfield eight miles beyond that gate is still not on any public map.",
+            "gear": [
+              "a full tank",
+              "water",
+              "do not cross the line — the arrests are real and expensive"
+            ]
+          }
+        },
+        {
+          "start": "5:00 PM",
+          "item": {
+            "id": "rachel-little-aleinn",
+            "title": "Rachel & the Little A'Le'Inn",
+            "categoryId": "quirky",
+            "tier": "anchor",
+            "durationMins": 120,
+            "location": {
+              "name": "Little A'Le'Inn",
+              "address": "1 Old Mill St, Rachel, NV",
+              "lat": 37.6461,
+              "lng": -115.7461,
+              "mapLink": "https://www.google.com/maps/search/?api=1&query=Little%20A%27Le%27Inn%20Rachel%20Nevada"
+            },
+            "blurb": "Population about fifty, elevation 4,970, and the only business for sixty miles in either direction. The bar is papered in dollar bills and grainy photographs, there is a tow truck out front dangling a flying saucer, and the people drinking in it are a mix of tourists, ranchers and men who work somewhere they won't name. In 2019 two million people signed up online to storm the base from here; about a hundred and fifty turned up, and the town coped."
+          }
+        },
+        {
+          "slot": "Night",
+          "rest": {
+            "label": "The darkest sky you will see all trip",
+            "note": "There is no light out here and no reason to go inside. Whatever else Groom Lake is, this is a genuinely extraordinary place to look up from — the Milky Way throws shadows. If something crosses it at an odd angle and an odd speed, that is the other reason people come, and the Air Force has been testing aircraft over this valley since 1955."
+          }
+        }
+      ]
+    },
+    {
+      "dayNumber": 386,
+      "label": "Day 386 — West to Death Valley",
+      "type": "commute",
+      "summary": "Out the far end of the highway and down through the ghost towns.",
+      "commute": {
+        "from": "Rachel, NV",
+        "to": "Death Valley National Park, CA",
+        "driveTimeMins": 165,
+        "scenicNote": "The rest of NV-375 to Warm Springs — where there is a boarded-up bathhouse and nothing else — then US-6 west to Tonopah and US-95 south. Fill the tank in Tonopah; it is the last real town before the park.",
+        "stopsAlongWay": [
+          {
+            "title": "Goldfield",
+            "blurb": "Nevada's biggest city in 1906 and nearly a ghost town now — the Goldfield Hotel still stands empty on the main street.",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Goldfield%20Nevada"
+          },
+          {
+            "title": "Rhyolite ghost town",
+            "blurb": "A bank, a jail, a house built of bottles, and a yard of ghostly plaster sculptures, just outside the park's northern gate.",
+            "mapLink": "https://www.google.com/maps/search/?api=1&query=Rhyolite%20ghost%20town%20Nevada"
+          }
+        ]
+      }
+    }
+  ]
+}

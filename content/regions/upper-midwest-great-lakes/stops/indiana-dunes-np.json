@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 680,
-      "label": "Day 680 — Sand & Shore",
+      "dayNumber": 681,
+      "label": "Day 681 — Sand & Shore",
       "type": "active",
       "summary": "Climb the dunes.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 681,
-      "label": "Day 681 — East to Grand Rapids",
+      "dayNumber": 682,
+      "label": "Day 682 — East to Grand Rapids",
       "type": "commute",
       "summary": "Around the lake into Michigan.",
       "commute": {

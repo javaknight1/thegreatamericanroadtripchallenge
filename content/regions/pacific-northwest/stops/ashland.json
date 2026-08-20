@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 471,
-      "label": "Day 471 — Shakespeare & Lithia Park",
+      "dayNumber": 472,
+      "label": "Day 472 — Shakespeare & Lithia Park",
       "type": "active",
       "summary": "Theater and a creekside stroll.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 472,
-      "label": "Day 472 — Up to Crater Lake",
+      "dayNumber": 473,
+      "label": "Day 473 — Up to Crater Lake",
       "type": "commute",
       "summary": "To the deepest lake in America.",
       "commute": {

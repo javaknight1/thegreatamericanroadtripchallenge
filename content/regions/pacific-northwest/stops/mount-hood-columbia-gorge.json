@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 477,
-      "label": "Day 477 — Waterfalls & the Mountain",
+      "dayNumber": 478,
+      "label": "Day 478 — Waterfalls & the Mountain",
       "type": "active",
       "summary": "The Gorge and Timberline.",
       "blocks": [
@@ -72,8 +72,8 @@
       ]
     },
     {
-      "dayNumber": 478,
-      "label": "Day 478 — West to Portland",
+      "dayNumber": 479,
+      "label": "Day 479 — West to Portland",
       "type": "commute",
       "summary": "Down the Gorge to the city.",
       "commute": {

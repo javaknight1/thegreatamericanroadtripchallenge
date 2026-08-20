@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 692,
-      "label": "Day 692 — Motown & Downtown",
+      "dayNumber": 693,
+      "label": "Day 693 — Motown & Downtown",
       "type": "active",
       "summary": "Where the music was made.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 693,
-      "label": "Day 693 — The Henry Ford",
+      "dayNumber": 694,
+      "label": "Day 694 — The Henry Ford",
       "type": "active",
       "summary": "American history you can touch.",
       "blocks": [
@@ -79,8 +79,8 @@
       ]
     },
     {
-      "dayNumber": 694,
-      "label": "Day 694 — Rivera's Detroit",
+      "dayNumber": 695,
+      "label": "Day 695 — Rivera's Detroit",
       "type": "active",
       "summary": "Industry as art.",
       "blocks": [
@@ -112,8 +112,8 @@
       ]
     },
     {
-      "dayNumber": 695,
-      "label": "Day 695 — South to Cleveland",
+      "dayNumber": 696,
+      "label": "Day 696 — South to Cleveland",
       "type": "commute",
       "summary": "Around Lake Erie into Ohio.",
       "commute": {

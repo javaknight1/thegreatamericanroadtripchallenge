@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 574,
-      "label": "Day 574 — Cliff Palace",
+      "dayNumber": 575,
+      "label": "Day 575 — Cliff Palace",
       "type": "active",
       "summary": "The Ancestral Puebloan world.",
       "blocks": [
@@ -61,8 +61,8 @@
       ]
     },
     {
-      "dayNumber": 575,
-      "label": "Day 575 — The Silverton Train",
+      "dayNumber": 576,
+      "label": "Day 576 — The Silverton Train",
       "type": "active",
       "summary": "A steam ride into the mountains.",
       "blocks": [
@@ -90,8 +90,8 @@
       ]
     },
     {
-      "dayNumber": 576,
-      "label": "Day 576 — North to Telluride",
+      "dayNumber": 577,
+      "label": "Day 577 — North to Telluride",
       "type": "commute",
       "summary": "Over the Million Dollar Highway.",
       "commute": {

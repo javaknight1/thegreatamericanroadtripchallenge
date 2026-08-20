@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 624,
-      "label": "Day 624 — BBQ & Jazz",
+      "dayNumber": 625,
+      "label": "Day 625 — BBQ & Jazz",
       "type": "active",
       "summary": "Smoke, the Plaza, and 18th & Vine.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 625,
-      "label": "Day 625 — Museums",
+      "dayNumber": 626,
+      "label": "Day 626 — Museums",
       "type": "active",
       "summary": "Art and the Great War.",
       "blocks": [
@@ -113,8 +113,8 @@
       ]
     },
     {
-      "dayNumber": 626,
-      "label": "Day 626 — East to Independence",
+      "dayNumber": 627,
+      "label": "Day 627 — East to Independence",
       "type": "commute",
       "summary": "To Truman's town.",
       "commute": {

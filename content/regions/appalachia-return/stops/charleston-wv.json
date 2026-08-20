@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 712,
-      "label": "Day 712 — The Gold Dome",
+      "dayNumber": 713,
+      "label": "Day 713 — The Gold Dome",
       "type": "active",
       "summary": "The statehouse on the river.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 713,
-      "label": "Day 713 — Southeast to the gorge",
+      "dayNumber": 714,
+      "label": "Day 714 — Southeast to the gorge",
       "type": "commute",
       "summary": "To the newest national park.",
       "commute": {

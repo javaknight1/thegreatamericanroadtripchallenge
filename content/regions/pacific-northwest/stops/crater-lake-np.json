@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 473,
-      "label": "Day 473 — The Caldera",
+      "dayNumber": 474,
+      "label": "Day 474 — The Caldera",
       "type": "active",
       "summary": "Around the rim.",
       "blocks": [
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "dayNumber": 474,
-      "label": "Day 474 — North to Bend",
+      "dayNumber": 475,
+      "label": "Day 475 — North to Bend",
       "type": "commute",
       "summary": "To the high-desert beer town.",
       "commute": {

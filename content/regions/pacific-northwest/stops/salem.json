@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 484,
-      "label": "Day 484 — Capital & Waterfalls",
+      "dayNumber": 485,
+      "label": "Day 485 — Capital & Waterfalls",
       "type": "active",
       "summary": "The statehouse and Silver Falls.",
       "blocks": [
@@ -72,8 +72,8 @@
       ]
     },
     {
-      "dayNumber": 485,
-      "label": "Day 485 — West to the coast",
+      "dayNumber": 486,
+      "label": "Day 486 — West to the coast",
       "type": "commute",
       "summary": "Out to the Pacific.",
       "commute": {

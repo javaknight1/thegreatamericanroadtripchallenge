@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 613,
-      "label": "Day 613 — The Ball of Twine",
+      "dayNumber": 614,
+      "label": "Day 614 — The Ball of Twine",
       "type": "active",
       "summary": "Add a wrap.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 614,
-      "label": "Day 614 — Southwest to Dodge",
+      "dayNumber": 615,
+      "label": "Day 615 — Southwest to Dodge",
       "type": "commute",
       "summary": "To the Old West.",
       "commute": {

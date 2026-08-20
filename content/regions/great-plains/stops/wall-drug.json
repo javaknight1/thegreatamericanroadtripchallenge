@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 596,
-      "label": "Day 596 — The Emporium",
+      "dayNumber": 597,
+      "label": "Day 597 — The Emporium",
       "type": "active",
       "summary": "Free ice water, still.",
       "blocks": [
@@ -50,8 +50,8 @@
       ]
     },
     {
-      "dayNumber": 597,
-      "label": "Day 597 — East to the capital",
+      "dayNumber": 598,
+      "label": "Day 598 — East to the capital",
       "type": "commute",
       "summary": "To little Pierre.",
       "commute": {

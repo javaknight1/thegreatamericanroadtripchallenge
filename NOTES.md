@@ -98,6 +98,30 @@ arguably correct: the days *are* the point. The rest are close enough to a
 breather on either side that adding one inside would have cost content for
 nothing.
 
+### Area 51 & the Extraterrestrial Highway — **DONE**
+
+The trip had no Area 51 at all: no Rachel, no NV-375, no Little A'Le'Inn. Roswell
+(day 360) was the only UFO content on the loop.
+
+It turned out to be almost free. The route already crossed that quarter of Nevada
+— the old day 385 was a **five-hour** haul on US-6 through Ely and Tonopah, one of
+the longest drives left in the trip. Going south on US-93 and west on NV-375
+instead is **24 road miles longer in total** and splits that haul into two 2h45
+halves with a night at Rachel between them. Goldfield and Rhyolite, already
+authored as stops along the way, sit on the second half, so nothing was lost.
+
+The five-hour drive is gone from the trip's long-drive list entirely. Cost: one
+day, because Rachel has to be an overnight — the Little A'Le'Inn or nothing, which
+is arguably the point. **The trip is now 738 days.**
+
+Day 385 is typed `active`, not `commute`, despite opening with a drive: it carries
+two anchors and a rest block, and typing it `commute` would have dimmed it on the
+calendar as though it were a transfer day.
+
+It pairs with Roswell rather than repeating it — Roswell is the 1947 crash and a
+museum, this is the live secrecy and the road. The back-gate item is written to
+stop at the deadly-force sign, which is where everyone stops, and says so.
+
 ### Horseshoe Bay & a `film-locations` category — **DONE**
 
 **Horseshoe Bay, TX** is now a two-day stop (345–346) between San Antonio and

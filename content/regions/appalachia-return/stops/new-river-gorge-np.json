@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 714,
-      "label": "Day 714 — The Bridge & the Rim",
+      "dayNumber": 715,
+      "label": "Day 715 — The Bridge & the Rim",
       "type": "active",
       "summary": "A gorge and a great span.",
       "blocks": [
@@ -61,8 +61,8 @@
       ]
     },
     {
-      "dayNumber": 715,
-      "label": "Day 715 — Whitewater",
+      "dayNumber": 716,
+      "label": "Day 716 — Whitewater",
       "type": "active",
       "summary": "Run the river.",
       "blocks": [
@@ -92,8 +92,8 @@
       ]
     },
     {
-      "dayNumber": 716,
-      "label": "Day 716 — Northeast to Seneca Rocks",
+      "dayNumber": 717,
+      "label": "Day 717 — Northeast to Seneca Rocks",
       "type": "commute",
       "summary": "Into the high forest.",
       "commute": {

@@ -3,7 +3,7 @@
   "name": "Jerome",
   "state": "AZ",
   "country": "US",
-  "order": 19,
+  "order": 20,
   "location": {
     "lat": 34.7492,
     "lng": -112.114
@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 411,
-      "label": "Day 411 — The Ghost Town",
+      "dayNumber": 412,
+      "label": "Day 412 — The Ghost Town",
       "type": "active",
       "summary": "Mining history and mountainside art.",
       "blocks": [
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "dayNumber": 412,
-      "label": "Day 412 — Down to the Valley of the Sun",
+      "dayNumber": 413,
+      "label": "Day 413 — Down to the Valley of the Sun",
       "type": "commute",
       "summary": "Off the mountain into the desert.",
       "commute": {

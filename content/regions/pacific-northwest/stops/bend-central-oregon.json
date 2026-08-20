@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 475,
-      "label": "Day 475 — Beer, River & Rock",
+      "dayNumber": 476,
+      "label": "Day 476 — Beer, River & Rock",
       "type": "active",
       "summary": "Central Oregon's outdoors and ales.",
       "blocks": [
@@ -72,8 +72,8 @@
       ]
     },
     {
-      "dayNumber": 476,
-      "label": "Day 476 — North to Mount Hood",
+      "dayNumber": 477,
+      "label": "Day 477 — North to Mount Hood",
       "type": "commute",
       "summary": "To the waterfalls and the mountain.",
       "commute": {

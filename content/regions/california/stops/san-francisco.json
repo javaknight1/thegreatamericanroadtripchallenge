@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 450,
-      "label": "Day 450 — The Golden Gate",
+      "dayNumber": 451,
+      "label": "Day 451 — The Golden Gate",
       "type": "active",
       "summary": "The bridge and the western shore.",
       "blocks": [
@@ -53,8 +53,8 @@
       ]
     },
     {
-      "dayNumber": 451,
-      "label": "Day 451 — Alcatraz & the Wharf",
+      "dayNumber": 452,
+      "label": "Day 452 — Alcatraz & the Wharf",
       "type": "active",
       "summary": "The Rock and the waterfront.",
       "blocks": [
@@ -98,8 +98,8 @@
       ]
     },
     {
-      "dayNumber": 452,
-      "label": "Day 452 — Cable Cars & Hills",
+      "dayNumber": 453,
+      "label": "Day 453 — Cable Cars & Hills",
       "type": "active",
       "summary": "The classic city.",
       "blocks": [
@@ -124,8 +124,8 @@
       ]
     },
     {
-      "dayNumber": 453,
-      "label": "Day 453 — Free Day",
+      "dayNumber": 454,
+      "label": "Day 454 — Free Day",
       "type": "free",
       "summary": "The park, the Mission, or the Painted Ladies. Options below.",
       "freeMenu": [
@@ -162,8 +162,8 @@
       ]
     },
     {
-      "dayNumber": 454,
-      "label": "Day 454 — Up to the capital",
+      "dayNumber": 455,
+      "label": "Day 455 — Up to the capital",
       "type": "commute",
       "summary": "Northeast to Sacramento.",
       "commute": {

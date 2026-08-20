@@ -24,8 +24,8 @@
   ],
   "days": [
     {
-      "dayNumber": 513,
-      "label": "Day 513 — North Cascades",
+      "dayNumber": 514,
+      "label": "Day 514 — North Cascades",
       "type": "active",
       "summary": "The American Alps.",
       "blocks": [
@@ -54,8 +54,8 @@
       ]
     },
     {
-      "dayNumber": 514,
-      "label": "Day 514 — Southeast to Leavenworth",
+      "dayNumber": 515,
+      "label": "Day 515 — Southeast to Leavenworth",
       "type": "commute",
       "summary": "Over the mountains to Bavaria.",
       "commute": {
