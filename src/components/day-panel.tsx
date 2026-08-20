@@ -1,6 +1,7 @@
 import { DayHeader } from "@/components/day-header";
 import { dayExtras, dayTimeline, type TimelineEntry } from "@/lib/day-timeline";
-import { formatDuration, mapUrl, tierLabels, tint } from "@/lib/format";
+import { TierMark } from "@/components/category-legend";
+import { formatDuration, mapUrl, tint } from "@/lib/format";
 import type { Category, Day, Item } from "@/types/trip";
 
 /**
@@ -93,6 +94,11 @@ export function DayPanel({
 
 function TimelineRow({ entry }: { entry: TimelineEntry }) {
   const isAnchor = entry.tier === "anchor";
+  // `low` is the quirky bonus — "only if it's happening while you're here" —
+  // and used to render identically to `mid`. It now recedes instead: the fix
+  // for three indistinguishable tiers is to quieten the bottom one, because
+  // making the middle one louder just gives you two kinds of shouting.
+  const isLow = entry.tier === "low";
   // Time on the road and time off both read differently from time spent doing
   // something: each wears a wash of its own category colour, so you can see the
   // shape of a day — drive, do, rest — before reading a word of it.
@@ -138,27 +144,36 @@ function TimelineRow({ entry }: { entry: TimelineEntry }) {
       </p>
 
       <h4
-        className={`mt-0.5 font-cond text-[17.5px] leading-tight font-bold uppercase ${
-          isAnchor ? "text-rock" : "text-ink"
+        className={`mt-0.5 font-cond leading-tight font-bold uppercase ${
+          isAnchor ? "text-[17.5px] text-rock" : isLow ? "text-[15.5px] text-ink-soft" : "text-[17.5px] text-ink"
         }`}
       >
         {entry.title}
         {entry.categoryLabel && (
           <span
-            className="ml-2 inline-block rounded px-1.5 py-0.5 align-[2px] font-mono text-[8.5px] font-bold tracking-[0.14em] text-white uppercase"
+            className={`ml-2 inline-block rounded px-1.5 py-0.5 align-[2px] font-mono text-[8.5px] font-bold tracking-[0.14em] text-white uppercase ${
+              isLow ? "opacity-70" : ""
+            }`}
             style={{ backgroundColor: entry.color }}
           >
             {entry.categoryLabel}
           </span>
         )}
-        {isAnchor && (
-          <span className="ml-1.5 inline-block rounded bg-accent px-1.5 py-0.5 align-[2px] font-mono text-[8.5px] font-bold tracking-[0.14em] text-white uppercase">
-            {tierLabels.anchor}
+        {/* All three, so the legend is describing marks that actually appear.
+            Every item carries a tier, so an unmarked row would have been a
+            fourth, undocumented state. */}
+        {entry.tier && (
+          <span className="ml-1.5 inline-block align-[2px]">
+            <TierMark tier={entry.tier} />
           </span>
         )}
       </h4>
 
-      <p className="mt-1 text-[13.5px] text-ink-soft">{entry.blurb}</p>
+      <p
+        className={`mt-1 ${isLow ? "text-[12.5px] text-muted" : "text-[13.5px] text-ink-soft"}`}
+      >
+        {entry.blurb}
+      </p>
 
       {entry.gear?.length ? (
         <p className="mt-1.5 font-mono text-[10.5px] tracking-wide text-muted uppercase">
@@ -222,6 +237,9 @@ function OptionCard({ item, category }: { item: Item; category?: Category }) {
             {category.label}
           </span>
         )}
+        <span className="ml-1.5 inline-block align-[2px]">
+          <TierMark tier={item.tier} />
+        </span>
       </p>
       <p className="mt-1 text-[13px] text-ink-soft">{item.blurb}</p>
       <p className="mt-1 font-mono text-[10.5px] text-muted">

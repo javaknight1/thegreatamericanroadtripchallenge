@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { CategoryLegend } from "@/components/category-legend";
 import { DayPanel } from "@/components/day-panel";
 import { DayRail } from "@/components/day-rail";
 import { DayHeader } from "@/components/day-header";
@@ -140,6 +141,13 @@ export default async function DayPage({ params }: { params: Promise<Params> }) {
               place={stop.name}
               categories={categoryIndex(trip)}
               withHeader={false}
+            />
+
+            <CategoryLegend
+              scope={[day]}
+              categories={trip.categories}
+              title="What the colours mean"
+              note="On this day"
             />
 
             <nav className="flex gap-2.5">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { CategoryLegend } from "@/components/category-legend";
 import { DayRail } from "@/components/day-rail";
 import { RegionHero } from "@/components/region-hero";
 import { RegionMap } from "@/components/region-map";
@@ -70,6 +71,7 @@ export default async function RegionPage({
   const colors = stopColorMap(region.stops.map((stop) => stop.id));
   const days = regionDays(region);
   const plan = getRegionPlan(region.id);
+  const { categories } = getTrip();
 
   return (
     <div style={regionThemeStyle(theme)}>
@@ -164,6 +166,16 @@ export default async function RegionPage({
                 </>
               )}
             </section>
+
+            {region.stops.length > 0 && (
+              <div className="mt-4">
+                <CategoryLegend
+                  scope={region}
+                  categories={categories}
+                  note={`${stats.items} things to do across ${stats.days} days`}
+                />
+              </div>
+            )}
           </div>
 
           <div className="min-w-0">

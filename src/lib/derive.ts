@@ -236,10 +236,16 @@ export function packingList(trip: Trip): PackingEntry[] {
     .sort((a, b) => b.count - a.count || a.gear.localeCompare(b.gear));
 }
 
-/** Categories actually used in a scope, with counts — powers legends and filters. */
-export function categoryUsage(scope: Trip | Region): Map<string, number> {
+/**
+ * Categories actually used in a scope, with counts — powers legends and filters.
+ *
+ * Takes a list of days as well as a trip or a leg, so a day page can show a key
+ * to exactly what's on that page rather than to the whole leg.
+ */
+export function categoryUsage(scope: Trip | Region | Day[]): Map<string, number> {
   const counts = new Map<string, number>();
-  for (const item of allItems(scope)) {
+  const items = Array.isArray(scope) ? scope.flatMap(itemsOf) : allItems(scope);
+  for (const item of items) {
     counts.set(item.categoryId, (counts.get(item.categoryId) ?? 0) + 1);
   }
   return counts;

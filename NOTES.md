@@ -341,16 +341,33 @@ What I could **not** do from here, in rough order of value:
 
 ## 6. UI gaps
 
-- **There is no category legend anywhere on the site.** `categoryUsage()` in
-  `src/lib/derive.ts` computes exactly what one needs (categories in scope, with
-  counts) and nothing renders it. The home page lists all 18 with counts, but a
-  legend on region/day pages — ideally doubling as a filter — is called out as
-  valuable in the brief and doesn't exist.
-- **`mid` and `low` tiers are visually identical.** Only `anchor` gets a
-  treatment (accent gradient, darker title, badge). So "quirky bonus, only if
-  it's happening while you're here" reads the same as "do most of these." The
-  brief asks for all three tiers to be surfaced. **Suggestion:** let `low`
-  recede rather than making `mid` louder.
+- **The category legend — DONE.** `src/components/category-legend.tsx` renders
+  the key on region pages (that leg's categories, sorted by count) and on day
+  pages (scoped to the day, so it explains exactly what's on screen).
+  `categoryUsage()` gained a `Day[]` overload for the second one.
+
+  One correction to what this note used to claim: items were never *unlabelled* —
+  each already wore a badge naming its own category. What was missing was the
+  *set*: no way to see that the Desert Southwest runs 19 national-parks items and
+  one sports, or that a burgundy dot anywhere means a film location. That's what
+  the legend adds. **A filter still doesn't exist** and would need client JS,
+  which the site deliberately has none of — parking that.
+
+  The nineteen categories minus `commuting` and `free-rest` is what any legend
+  shows; those two can never be authored, so they'd always read zero.
+- **`mid` and `low` tiers were visually identical — DONE**, and the suggestion in
+  this note is what was built: `low` recedes rather than `mid` shouting, because
+  making the middle tier louder just gives you two kinds of shouting. `low` now
+  gets a smaller title, muted text, a dimmed category badge and an outline chip;
+  `mid` keeps the default weight with an accent outline chip; `anchor` keeps its
+  gradient row and filled chip.
+
+  All three marks render on every item, which is a change from before — `anchor`
+  alone used to be chipped. That was necessary for the legend to be honest: every
+  item carries a tier, so leaving `mid` unmarked would have made "no chip" a
+  fourth, undocumented state that the legend described but the page never showed.
+  248 mid and 124 low items now read differently from each other and from the 479
+  anchors.
 - **The national map can only plot written legs.** `content/plan.json` carries
   the 250-stop id contract but no coordinates, so the eight unwritten legs can't
   be drawn. Adding `location` to plan entries would let the home page show the
